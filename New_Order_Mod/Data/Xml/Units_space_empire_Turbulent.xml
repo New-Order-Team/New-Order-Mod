@@ -4,7 +4,7 @@
 	<SpaceUnit Name="Turbulent_Destroyer">
 
 		<Text_ID>TEXT_UNIT_TURBULENT</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TURBULENT</Encyclopedia_Text>
 		<Icon_Name>i_button_turbulent.tga</Icon_Name>
 

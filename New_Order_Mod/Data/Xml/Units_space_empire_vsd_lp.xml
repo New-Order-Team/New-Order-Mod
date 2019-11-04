@@ -3,7 +3,7 @@
 <VSD_LP_Data>
 	<SpaceUnit Name="Victory_Destroyer_LP_No_Fighters">
 		<Text_ID>TEXT_UNIT_VSD_LP</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>ev_victory_lp.ALO</Space_Model_Name>
 		<Select_Box_Scale>750</Select_Box_Scale>

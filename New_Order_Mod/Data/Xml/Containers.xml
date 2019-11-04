@@ -215,7 +215,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_UNIT_Y_WING_SQUADRON</Text_ID>
 		<Icon_Name>i_button_y_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>

@@ -325,7 +325,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_HERO_LEIA_ORGANA_SOLO</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_LEIA_ORGANA_SOLO_COS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CHIEF_OF_STATE </Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_leia_organa_solo.tga</Icon_Name>
 		<Mass>1.0</Mass>
@@ -366,7 +366,7 @@
 	<HeroCompany Name="Leia_Organa_Solo_COS_Team">
 		<Text_ID>TEXT_UNIT_HERO_LEIA_ORGANA_SOLO</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_LEIA_ORGANA_SOLO_COS </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CHIEF_OF_STATE </Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_leia_organa_solo.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>

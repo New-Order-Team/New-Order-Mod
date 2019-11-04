@@ -4,7 +4,7 @@
 	<SpaceUnit Name="Star_Destroyer_NO_Fighters">
 
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STAR_DESTROYER</Encyclopedia_Text>
 		<Icon_Name>i_button_IMPERATOR.tga</Icon_Name>
 
@@ -314,7 +314,7 @@
 		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_ISD2</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ISD2</Encyclopedia_Text>
 		<Icon_Name>i_button_IMPERATOR2.tga</Icon_Name>
 
@@ -394,7 +394,7 @@
 	<!-- Tector -->
 	<SpaceUnit Name="Tector">
 		<Text_ID>TEXT_UNIT_TECTOR</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TECTOR</Encyclopedia_Text>
 		<Icon_Name>i_button_imperatort.tga</Icon_Name>
 
@@ -604,7 +604,7 @@
 	<SpaceUnit Name="Dominator">
 
 		<Text_ID>TEXT_UNIT_DOMINATOR</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DOMINATOR</Encyclopedia_Text>
 		<Icon_Name>i_button_dominator.tga</Icon_Name>
 
@@ -816,7 +816,7 @@
 	<SpaceUnit Name="Star_Destroyer_NR">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STAR_DESTROYER_NR</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_imperator.tga</Icon_Name>
 
 		<Space_Model_Name>imperial_i-class_star_destroyer.alo</Space_Model_Name>
@@ -1037,7 +1037,7 @@
 	<SpaceUnit Name="Star_Destroyer_NR_Mod">
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STAR_DESTROYER_NR</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_imperator.tga</Icon_Name>
 
 		<Space_Model_Name>imperial_i-class_star_destroyer.alo</Space_Model_Name>
@@ -1261,7 +1261,7 @@
 	<SpaceUnit Name="ISD_IIa">
 
 		<Text_ID>TEXT_UNIT_ISD_IIA</Text_ID>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SD</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STAR_DESTROYER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ISD_IIA</Encyclopedia_Text>
 		<Icon_Name>i_button_imperator2a.tga</Icon_Name>
 

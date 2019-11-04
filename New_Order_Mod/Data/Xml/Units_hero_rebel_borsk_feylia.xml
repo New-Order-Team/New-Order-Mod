@@ -4,7 +4,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_HERO_BORSK_FEYLIA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_BORSK_FEYLIA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CHIEF_OF_STATE </Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_borsk_feylia.tga</Icon_Name>
 		<Mass>1.0</Mass>
@@ -45,7 +45,7 @@
 	<HeroCompany Name="Borsk_Feylia_COS_Team">
 		<Text_ID>TEXT_UNIT_HERO_BORSK_FEYLIA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_BORSK_FEYLIA </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COS </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CHIEF_OF_STATE </Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_borsk_feylia.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>

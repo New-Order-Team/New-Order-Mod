@@ -153,7 +153,7 @@
 		</Abilities>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_PROVIDENCE_CIS</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DESTROYER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 14002</Score_Cost_Credits>
 		<Population_Value>7</Population_Value>
 
