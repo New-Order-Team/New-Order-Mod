@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Nammo_Data>
+
+	<!-- Nammo era III - Defiance -->
+	<UniqueUnit Name="Nammo_Defiance">
+		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_NAMMO_DEFIANCE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_NAMMO_DEFIANCE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_nammo.tga</Icon_Name>
+        <Ranking_In_Category>5</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>27</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>1080</Damage>
+		<Autoresolve_Health>20096</Autoresolve_Health>
+		<AI_Combat_Power>22436</AI_Combat_Power>
+		<Override_Bounty_SP>22436</Override_Bounty_SP>
+		<Override_Bounty_MP>22436</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>22436</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>22436</Piracy_Value_Credits>
+		<Score_Cost_Credits>22436</Score_Cost_Credits>
+		<Build_Cost_Credits>31830</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>31830</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Nammo_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Nammo_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Nammo_Defiance</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>1.125</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>1.125</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Nammo_Data>

@@ -1,0 +1,2154 @@
+﻿<?xml version="1.0"?>
+<Rogue_Squadron_Data>
+
+	<!-- Era I -->
+	<!-- Era 1: Blue Squadron under Adrian Verana -->
+	<UniqueUnit Name="Blue_Z-95">
+		<Variant_Of_Existing_Type>Z-95_Headhunter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_Z95</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		<Max_Speed>2.285</Max_Speed>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Shield_Points>133</Shield_Points>
+		<Tactical_Health>46</Tactical_Health>
+		<Shield_Refresh_Rate>13</Shield_Refresh_Rate>
+		<Damage>63</Damage>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			HP_Z-95_00_Blue
+		</HardPoints>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Blue_Y-Wing">
+		<Variant_Of_Existing_Type>Y-Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_S3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		<Max_Speed>2.285</Max_Speed>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Shield_Points>166</Shield_Points>
+		<Tactical_Health>66</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>140</Damage>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA</SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<HardPoints>
+			HP_Y_Wing_00_Gold, HP_Y_Wing_01_Gold, HP_Y_Wing_02_Gold
+		</HardPoints>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Verana_Z-95">
+		<Variant_Of_Existing_Type>Blue_Z-95</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_VERANA</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_VERANA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_adrian_verana.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="Blue_Squadron_Verana">
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_adrian_verana.tga</Icon_Name>
+		
+		<GUI_Row> 0 </GUI_Row>
+		<Hyperspace>Yes</Hyperspace>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Autoresolve_Health>7867</Autoresolve_Health>
+		<Damage>1067</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3960</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Verana_Z-95, Blue_Z-95, Blue_Z-95, Blue_Z-95</Squadron_Units>
+		<Squadron_Units>Blue_Z-95, Blue_Z-95, Blue_Y-Wing, Blue_Y-Wing</Squadron_Units>
+		<Squadron_Units>Blue_Z-95, Blue_Y-Wing, Blue_Z-95, Blue_Y-Wing</Squadron_Units>
+		
+		<Max_Squad_Size>12</Max_Squad_Size>
+		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<GUI_Model_Name>z-95_headhunter.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 7670</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>7670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	<!-- Era II -->
+	<!-- Era 2: Red Squadron under Garven Dreis -->
+	<UniqueUnit Name="Red_T65_B">
+		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_RED_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED_T65_B</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>166</Shield_Points>
+		<Tactical_Health>66</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>115</Damage>
+
+        <Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.001</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+		</HardPoints>
+		
+		<Create_Team>Yes</Create_Team>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Dreis_T65_B">
+		<Variant_Of_Existing_Type>Red_T65_B</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_RED_DREIS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED_DREIS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<Icon_Name>i_button_garven_dreis.tga</Icon_Name>
+
+		<SFXEvent_Select>Unit_Select_Red_Leader</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Red_Leader</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Red_Leader</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Red_Leader</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Red_Leader</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>  </SFXEvent_Enemy_Health_Critical_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost> 
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+	</UniqueUnit>
+	
+	<Squadron Name="Red_Squadron_Dreis">
+		<Text_ID>TEXT_UNIT_HERO_SQ_RED</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_garven_dreis.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>9280</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Red_Leader</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Red_Leader</SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Dreis_T65_B, Red_T65_B, Red_T65_B, Red_T65_B</Squadron_Units>
+		<Squadron_Units>Red_T65_B, Red_T65_B, Red_T65_B, Red_T65_B</Squadron_Units>
+		<Squadron_Units>Red_T65_B, Red_T65_B, Red_T65_B, Red_T65_B</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 9210 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>9210</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<!-- Era 2: Gold Squadron under Jon Vander -->
+	<UniqueUnit Name="Gold_BTL_A4">
+		<Variant_Of_Existing_Type>Y-Wing2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_GOLD_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_BTL_A4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>166</Shield_Points>
+		<Tactical_Health>66</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>120</Damage>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, LURE </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<HardPoints>
+			HP_Y_Wing_00_Gold, HP_Y_Wing_01a_Gold, HP_Y_Wing_02a_Gold
+		</HardPoints>
+		
+		<!-- Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<Effective_Radius>500</Effective_Radius>
+				<Target_Types>
+					Y-Wing,
+					Y-Wing_Squadron,
+					Y-Wing2,
+					Y-Wing_Squadron2,
+					Y-Wing_Longprobe,
+					Y-Wing_Longprobe_Squadron,
+					Z-95_Headhunter,
+					Z95_Headhunter_Squadron,
+					Z-95_Headhunter2,
+					Z95_Headhunter2_Squadron,
+					R41,
+					R41_Squadron,
+					X-Wing,
+					Rebel_X-Wing_Squadron,
+					X-Wing2,
+					X-Wing_Squadron2,
+					X-Wing3,
+					X-Wing_Squadron3,
+					X-Wing4,
+					X-Wing_Squadron4,
+					X-Wing5,
+					X-Wing_Squadron5,
+					A-Wing,
+					A_Wing_Squadron,
+					A-Wing2,
+					A_Wing_Squadron2,
+					A-Wing3,
+					A_Wing_Squadron3,
+					B-Wing_TEST,
+					B-Wing_TEST_Squadron,
+					B-Wing_TEST_E,
+					B-Wing_TEST_Squadron2,
+					K-Wing,
+					K_Wing_Squadron,
+					E_Wing,
+					E_Wing_Squadron,
+					E_Wing4,
+					E_Wing_Squadron2,
+					Arc_170,
+					Arc_170_Squadron,
+					V-wing_Nimbus,
+					V-Wing_Nimbus_Squadron,
+					TIE_Fighter,
+					TIE_Fighter_Squadron,
+					TIE_Bomber,
+					TIE_Bomber_Squadron,
+					TIE_Scout,
+					TIE_Scout_Squadron,
+					TIE_Interceptor,
+					TIE_Interceptor_Squadron,
+					TIE_Phantom,
+					TIE_Phantom_Squadron,
+					TIE_Avenger,
+					TIE_Avenger_Squadron,
+					TIE_Defender,
+					TIE_Defender_Squadron,
+					Assault_Gunboat,
+					Assault_Gunboat_Squadron,
+					Missile_Boat,
+					Missile_Boat_Squadron,
+					TIE_Hunter,
+					TIE_Hunter_Squadron,
+					TIE_Scimitar,
+					TIE_Scimitar_Squadron,
+					TIE_Starhunter,
+					TIE_Starhunter_Squadron,
+				</Target_Types>
+
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>30</Max_Number_Of_Pulses>
+				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+				<Alternate_Name_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Vander_BTL_A4">
+		<Variant_Of_Existing_Type>Gold_BTL_A4</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_GOLD_VANDER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_VANDER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_jon_vander.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="Gold_Squadron_Vander">
+		<Text_ID>TEXT_UNIT_HERO_SQ_GOLD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GOLD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_jon_vander.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Autoresolve_Health>9280</Autoresolve_Health>
+		<Damage>1140</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Squadron_Units>Vander_BTL_A4, Gold_BTL_A4, Gold_BTL_A4, Gold_BTL_A4</Squadron_Units>
+		<Squadron_Units>Gold_BTL_A4, Gold_BTL_A4, Gold_BTL_A4, Gold_BTL_A4</Squadron_Units>
+		<Squadron_Units>Gold_BTL_A4, Gold_BTL_A4, Gold_BTL_A4, Gold_BTL_A4</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 9210 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>9210</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<!-- details in the unit's XML -->
+				<Alternate_Name_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	<!-- Era III -->
+	<!-- Era 3: Rogue Squadron under Luke Skywalker -->
+	<UniqueUnit Name="Red_T65C_A2">
+		<Variant_Of_Existing_Type>X-Wing2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_RED_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED_T65C_A2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>247</Shield_Points>
+		<Tactical_Health>66</Tactical_Health>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Damage>115</Damage>
+
+        <Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.001</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+		</HardPoints>
+		
+		<Create_Team>Yes</Create_Team>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Luke_T65C_A2">
+		<Variant_Of_Existing_Type>Red_T65C_A2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_LUKE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_LUKE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<Icon_Name>i_button_luke_skywalker_pilot.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="Rogue_Squadron_Luke">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_luke_skywalker_pilot.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12520</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Luke_T65C_A2, Red_T65C_A2, Red_T65C_A2, Red_T65C_A2</Squadron_Units>
+		<Squadron_Units>Red_T65C_A2, Red_T65C_A2, Red_T65C_A2, Red_T65C_A2</Squadron_Units>
+		<Squadron_Units>Red_T65C_A2, Red_T65C_A2, Red_T65C_A2, Red_T65C_A2</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 14910 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>14910</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+	
+	<!-- Era 3: Aggressor Squadron under Horton Salm -->
+	<UniqueUnit Name="Aggressor_BTL_S3">
+		<Variant_Of_Existing_Type>Y-Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_BTL_S3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>165</Shield_Points>
+		<Tactical_Health>66</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>170</Damage>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, LURE </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<HardPoints>
+			HP_Y_Wing_00_Gold, HP_Y_Wing_01_Gold, HP_Y_Wing_02_Gold
+		</HardPoints>
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Salm_BTL_S3">
+		<Variant_Of_Existing_Type>Aggressor_BTL_S3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_SALM</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_SALM</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_horton_salm.tga</Icon_Name>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field></SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula></SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Horton_Salm_Combat_Bonus_Fighter"> <!-- Because he is Starfighter Corps General -->
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<Squadron Name="Aggressor_Squadron_Salm">
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_horton_salm.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>9240</Autoresolve_Health>
+		<Damage>2040</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Salm_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3</Squadron_Units>
+		<Squadron_Units>Aggressor_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3</Squadron_Units>
+		<Squadron_Units>Aggressor_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3, Aggressor_BTL_S3</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 9020 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>9020</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	<!-- Era 3: Green Squadron under Jake Farrell -->
+	<UniqueUnit Name="Green_A_Wing">
+		<Variant_Of_Existing_Type>A-Wing2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_GREEN_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_A_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>165</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>70</Damage>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, LURE </SpaceBehavior>
+	
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>
+			HP_A_Wing_00_Green
+		</HardPoints>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_GREEN_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_a_wing_slash.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Farrell_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>30.0</Recharge_Seconds> 
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_GREEN_FARRELL_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_FARRELL_ABILITY</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Farrell_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+		</Abilities>
+		
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Farrell_A_Wing">
+		<Variant_Of_Existing_Type>Green_A_Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_GREEN_FARRELL</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_FARRELL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_jake_farrell.tga</Icon_Name>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field></SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula></SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
+	</UniqueUnit>
+	
+	<Squadron Name="Green_Squadron_Farrell">
+		<Text_ID>TEXT_UNIT_HERO_SQ_GREEN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GREEN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_jake_farrell.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>8580</Autoresolve_Health>
+		<Damage>840</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Farrell_A_Wing, Green_A_Wing, Green_A_Wing, Green_A_Wing</Squadron_Units>
+		<Squadron_Units>Green_A_Wing, Green_A_Wing, Green_A_Wing, Green_A_Wing</Squadron_Units>
+		<Squadron_Units>Green_A_Wing, Green_A_Wing, Green_A_Wing, Green_A_Wing</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 12430 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>12430</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_GREEN_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_a_wing_slash.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Farrell_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>30.0</Recharge_Seconds> 
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_GREEN_FARRELL_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_FARRELL_ABILITY</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	<!-- Era 3: Blue Squadron under Merrick Simms -->
+	<UniqueUnit Name="Blue_B_Wing">
+		<Variant_Of_Existing_Type>B-Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_B_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>250</Shield_Points>
+		<Tactical_Health>120</Tactical_Health>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Damage>215</Damage>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, LURE </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>
+			HP_B_Wing_00_Blue, <!--HP_B_Wing_01_Blue-->, HP_B_Wing_02_Blue, HP_B_Wing_03_Blue, HP_B_Wing_04_Blue, HP_B_Wing_05_Blue
+		</HardPoints>
+		
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Heavy_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>2.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<Create_Team>Yes</Create_Team>
+		
+		<!-- Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+			
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	99.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Icon_Name>i_sa_s_foil_mode_b_wing.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Simms_B_Wing">
+		<Variant_Of_Existing_Type>Blue_B_Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_SIMMS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_SIMMS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_merrick_simms.tga</Icon_Name>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field></SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula></SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
+	</UniqueUnit>
+	
+	<Squadron Name="Blue_Squadron_Simms">
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE2</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_merrick_simms.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Autoresolve_Health>14800</Autoresolve_Health>
+		<Damage>2580</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Simms_B_Wing, Blue_B_Wing, Blue_B_Wing, Blue_B_Wing</Squadron_Units>
+		<Squadron_Units>Blue_B_Wing, Blue_B_Wing, Blue_B_Wing, Blue_B_Wing</Squadron_Units>
+		<Squadron_Units>Blue_B_Wing, Blue_B_Wing, Blue_B_Wing, Blue_B_Wing</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 16420 </Score_Cost_Credits>
+		
+		<Create_Team_Type>Blue_Squadron_Simms_Container</Create_Team_Type>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>16420</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+			
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	99.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Icon_Name>i_sa_s_foil_mode_b_wing.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="Blue_Squadron_Simms_Container">
+		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE2</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_merrick_simms.tga</Icon_Name>
+		<Show_Name>No</Show_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>14800</Autoresolve_Health>
+		<Damage>2580</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<AI_Combat_Power>16420</AI_Combat_Power>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>2.57</Max_Speed>
+		<Min_Speed>1.0</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+	 	<CategoryMask>Bomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>16420</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+ 		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>20.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Blue_Squadron_MagPulse_Torpedo</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ship_Mag_Pulse_Torpedo</Projectile_Types_Override>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_BLUE_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_ABILITY</Alternate_Description_Text>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+			
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	99.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Icon_Name>i_sa_s_foil_mode_b_wing.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="Blue_Squadron_MagPulse_Torpedo">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Frigate, Capital, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+	</Container>
+	
+	
+	
+	<!-- Era IV -->
+	<!-- Era 4: Rogue Squadron under Wedge Antilles -->
+	<UniqueUnit Name="Rogue_T65_AC4">
+		<Variant_Of_Existing_Type>X-Wing3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_T65_AC4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>150</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Refresh_Rate>15</Shield_Refresh_Rate>
+		<Damage>115</Damage>
+
+        <Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.001</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+		</HardPoints>
+		
+		<Create_Team>Yes</Create_Team>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Wedge_T_65AC4">
+		<Variant_Of_Existing_Type>Rogue_T65_AC4</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_WEDGE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_WEDGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>  </SFXEvent_Enemy_Health_Critical_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost> 
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+
+	</UniqueUnit>
+	
+	<Squadron Name="Rogue_Squadron_Wedge">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE2</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12520</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Wedge_T_65AC4, Rogue_T65_AC4, Rogue_T65_AC4, Rogue_T65_AC4</Squadron_Units>
+		<Squadron_Units>Rogue_T65_AC4, Rogue_T65_AC4, Rogue_T65_AC4, Rogue_T65_AC4</Squadron_Units>
+		<Squadron_Units>Rogue_T65_AC4, Rogue_T65_AC4, Rogue_T65_AC4, Rogue_T65_AC4</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 16780 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>16780</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+	
+	<!-- Era 4: Aggressor Squadron under Horton Salm (B-wing/E) -->
+	<UniqueUnit Name="Aggressor_B_Wing_E">
+		<Variant_Of_Existing_Type>B-Wing_E</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_B_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>250</Shield_Points>
+		<Tactical_Health>120</Tactical_Health>
+		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+		<Damage>315</Damage>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<HardPoints>
+			HP_B_WingE_00_Gold, HP_B_WingE_01_Gold, HP_B_WingE_02_Gold, HP_B_WingE_03_Gold, HP_B_WingE_04_Gold, HP_B_WingE_05_Gold, HP_B_WingE_06_Gold, HP_B_WingE_07_Gold
+		</HardPoints>
+		
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Salm_B_Wing_E">
+		<Variant_Of_Existing_Type>Aggressor_B_Wing_E</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_SALM</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_SALM2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Bomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_horton_salm.tga</Icon_Name>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field></SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula></SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Horton_Salm_Combat_Bonus_Fighter"> <!-- Because he is Starfighter Corps General -->
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<Squadron Name="Aggressor_Squadron_Salm_BW">
+		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_horton_salm.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>14800</Autoresolve_Health>
+		<Damage>3780</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Salm_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E</Squadron_Units>
+		<Squadron_Units>Aggressor_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E</Squadron_Units>
+		<Squadron_Units>Aggressor_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E, Aggressor_B_Wing_E</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 17560 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>17560</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+			<Type>SPOILER_LOCK</Type>
+			
+			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	99.0f</Mod_Multiplier>
+			<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Turbo_On_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Turbo_Off_B_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+            <Alternate_Icon_Name>i_sa_s_foil_mode_b_wing.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	<!-- Era 4: Cracken's Flight Group under Pash Cracken -->
+	<UniqueUnit Name="CFG_A_Wing">
+		<Variant_Of_Existing_Type>A-Wing2</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_CFG_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_CFG_A_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>165</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+		<Damage>70</Damage>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, LURE </SpaceBehavior>
+	
+	
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>
+			HP_A_Wing_00_CFG
+		</HardPoints>
+
+		<Create_Team>Yes</Create_Team>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_CFG_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_CFG_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_a_wing_slash.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Cracken_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>30.0</Recharge_Seconds> 
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_CFG_CRACKEN_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_CFG_CRACKEN_ABILITY</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Cracken_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Cracken_A_Wing">
+		<Variant_Of_Existing_Type>CFG_A_Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_CFG_CRACKEN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_CFG_CRACKEN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_pash_cracken.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field></SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula></SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
+
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<Squadron Name="CFG_Squadron_Cracken">
+		<Text_ID>TEXT_UNIT_HERO_SQ_CFG</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_CFG</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_pash_cracken.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>8580</Autoresolve_Health>
+		<Damage>840</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Cracken_A_Wing, CFG_A_Wing, CFG_A_Wing, CFG_A_Wing</Squadron_Units>
+		<Squadron_Units>CFG_A_Wing, CFG_A_Wing, CFG_A_Wing, CFG_A_Wing</Squadron_Units>
+		<Squadron_Units>CFG_A_Wing, CFG_A_Wing, CFG_A_Wing, CFG_A_Wing</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>1</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 12430 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>12430</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER, 2.0</Mod_Multiplier>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_CFG_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_CFG_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_a_wing_slash.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Cracken_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>30.0</Recharge_Seconds> 
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated>  </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated>  </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_CFG_CRACKEN_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_CFG_CRACKEN_ABILITY</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</Squadron>
+	
+	
+	<!-- Era V -->
+	<!-- Era 5: Rogue Squadron under Gavin Darklighter -->
+	<UniqueUnit Name="Rogue_XJ3">
+		<Variant_Of_Existing_Type>X-Wing4</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_XJ3</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>240</Shield_Points>
+		<Tactical_Health>80</Tactical_Health>
+		<Shield_Refresh_Rate>24</Shield_Refresh_Rate>
+		<Damage>130</Damage>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Heavy_Blue</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.001</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			HP_X_Wing_01_Rogues, HP_X_Wing_01_Rogues_Ab
+		</HardPoints>
+		
+		<Create_Team>Yes</Create_Team>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Darklighter_XJ3">
+		<Variant_Of_Existing_Type>Rogue_XJ3</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_DARKLIGHTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_DARKLIGHTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gavin_darklighter.tga</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+        <Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>  </SFXEvent_Enemy_Health_Critical_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost> 
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+	</UniqueUnit>
+	
+	<Squadron Name="Rogue_Squadron_Darklighter">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE3</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gavin_darklighter.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12800</Autoresolve_Health>
+		<Damage>1560</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Darklighter_XJ3, Rogue_XJ3, Rogue_XJ3, Rogue_XJ3</Squadron_Units>
+		<Squadron_Units>Rogue_XJ3, Rogue_XJ3, Rogue_XJ3, Rogue_XJ3</Squadron_Units>
+		<Squadron_Units>Rogue_XJ3, Rogue_XJ3, Rogue_XJ3, Rogue_XJ3</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 16780 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>17340</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+	
+	<!-- Era 5: Taanab Yellow Aces under Wes Janson -->
+	<UniqueUnit Name="TYA_E_Wing">
+		<Variant_Of_Existing_Type>E_Wing4</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_TYA_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_TYA_E_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<Shield_Points>260</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>26</Shield_Refresh_Rate>
+		<Damage>115</Damage>
+		
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, ABILITY_COUNTDOWN, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+	
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Heavy_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<HardPoints>
+			Wing_00_TYA
+		</HardPoints>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Wes_Janson_TYA_E_Wing">
+		<Variant_Of_Existing_Type>TYA_E_Wing</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SQ_TYA_JANSON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_TYA_JANSON</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wes_janson.tga</Icon_Name>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+        <Is_Super_Weapon_Killer>Yes</Is_Super_Weapon_Killer>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+
+		<SFXEvent_Select></SFXEvent_Select>
+		<SFXEvent_Move></SFXEvent_Move>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<SFXEvent_Attack></SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
+		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning>
+		<SFXEvent_Enemy_Health_Critical_Warning>  </SFXEvent_Enemy_Health_Critical_Warning> 
+		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost> 
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
+
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero</CategoryMask>
+	</UniqueUnit>
+	
+	<Squadron Name="Taanab_Yellow_Aces">
+		<Text_ID>TEXT_UNIT_HERO_SQ_TYA</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_TYA</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wes_janson.tga</Icon_Name>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12400</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+	
+		<Squadron_Units>Wes_Janson_TYA_E_Wing, TYA_E_Wing, TYA_E_Wing, TYA_E_Wing</Squadron_Units>
+		<Squadron_Units>TYA_E_Wing, TYA_E_Wing, TYA_E_Wing, TYA_E_Wing</Squadron_Units>
+		<Squadron_Units>TYA_E_Wing, TYA_E_Wing, TYA_E_Wing, TYA_E_Wing</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>150.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Population_Value>2</Population_Value>
+		<Is_Homogeneous>Yes</Is_Homogeneous>
+		<Score_Cost_Credits> 16780 </Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>16540</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+	</Squadron>
+</Rogue_Squadron_Data>

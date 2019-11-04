@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<PROPS_DECORATIONS_AND_TRANSPORTS>
+
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport1.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport2.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport3.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport4.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 5 taxi">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport5.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 5 purple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport5p.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 5 red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport5r.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Transport 5 blue">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Transport5b.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+    </PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner2.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 2 group">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner2gr.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+     </PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner3.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 3 group">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner3gr.alo</Land_Model_Name>
+		<Scale_Factor>150</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner4.alo</Land_Model_Name>
+		<Scale_Factor>150</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 4 group">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner4gr.alo</Land_Model_Name>
+		<Scale_Factor>150</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 5 group">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner5gr.alo</Land_Model_Name>
+		<Scale_Factor>150</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Conteiner 5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>conteiner5.alo</Land_Model_Name>
+		<Scale_Factor>150</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Barricade 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>barricade1.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Barricade 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>barricade2.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Barricade 3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>barricade3.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Barricade 4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>barricade4.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Kolto tank">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>bacta.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Tent small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>tent s.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Tent medeum">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>tent m.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Tent big">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>tent b.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>		
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Tent bed">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>tent bed.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Medical bed 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>medical bed1.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Medical bed 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>medical bed2.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+<PROPS_DECORATIONS_AND_TRANSPORTS Name="Manned turret">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>turret.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</PROPS_DECORATIONS_AND_TRANSPORTS>	
+	
+</PROPS_DECORATIONS_AND_TRANSPORTS>

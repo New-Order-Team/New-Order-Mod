@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Munificent_Data>
+<SpaceUnit Name="TF_Carrier_CIS">
+		<Text_ID>TEXT_UNIT_TF_CARRIER</Text_ID>
+		<Space_Model_Name>SeV_carrier.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_CIS_CARRIER.tga</Icon_Name>
+		
+		<Mass>0.999</Mass>
+		<Scale_Factor>0.4</Scale_Factor>
+		<Damage>880</Damage>
+		<Autoresolve_Health>2000</Autoresolve_Health>
+		<Shield_Points>1500</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        	<Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>1.714</Max_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Space </Armor_Type>
+        	<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Max_Thrust>1.75</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Select_Box_Scale>172.5</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-90</Select_Box_Z_Adjust>
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Affiliation>CIS, CIS_Remnants</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>10</Squadron_Capacity>
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>5320</Build_Cost_Credits>
+		<AI_Combat_Power>2880</AI_Combat_Power>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>2</Size_Value>
+		
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT </SpaceBehavior> 
+
+		<Space_FOW_Reveal_Range>900.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<HardPoints>
+			HP_TF_Carrier_00, 
+			HP_TF_Carrier_01, 
+			HP_TF_Carrier_02, 
+			HP_TF_Carrier_03, 
+			HP_TF_Carrier_04, 
+			HP_TF_Carrier_05, 
+			HP_TF_Carrier_06, 
+			HP_TF_Carrier_07, 
+			HP_TF_Carrier_08, 
+			HP_TF_Carrier_09,
+			HP_TF_Carrier_FB,
+			HP_TF_Carrier_Dummy_00,
+			HP_TF_Carrier_Dummy_01
+		</HardPoints>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 10</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
+ 		
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Frigate</SFXEvent_Build_Complete>
+
+		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Frigate | AntiCorvette | AntiFrigate </CategoryMask>  
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5320</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_TF_CARRIER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 2880</Score_Cost_Credits>
+		<Population_Value>2</Population_Value>
+
+		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>40</Piracy_Value_Credits>
+		
+	</SpaceUnit>
+</Munificent_Data>

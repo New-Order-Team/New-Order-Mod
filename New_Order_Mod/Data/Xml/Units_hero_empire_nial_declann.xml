@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Nial_Declann_Data>
+	<UniqueUnit Name="Recondite_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_NIAL_DECLANN_RECONDITE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_NIAL_DECLANN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GA </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_nial_declann.tga</Icon_Name>
+		<Population_Value>14</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>2575</Damage>
+		<Autoresolve_Health>8840</Autoresolve_Health>
+		<AI_Combat_Power>13698</AI_Combat_Power>
+		<Override_Bounty_SP>13698</Override_Bounty_SP>
+		<Override_Bounty_MP>13698</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>13698</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>13698</Piracy_Value_Credits>
+		<AI_Combat_Power>13698</AI_Combat_Power>
+		<Score_Cost_Credits>13698</Score_Cost_Credits>
+		<Build_Cost_Credits>16460</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>16460</Tactical_Build_Cost_Multiplayer>
+		<Lua_Script>ObjectScript_Declann_Recondite</Lua_Script>
+		
+		<!-- Nial_Declann onboard -->
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+	            <GUI_Activated_Ability_Name> ISD_Tractor_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>5</Recharge_Seconds>
+	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>  
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>STIM_PACK</Type>
+				<Expiration_Seconds> 20.0 </Expiration_Seconds>
+				<Recharge_Seconds> 60.0 </Recharge_Seconds>
+				<Damage_Percent_When_Activated>0.0</Damage_Percent_When_Activated>
+				<Alternate_Icon_Name>i_sa_battle_meditation.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_BATTLE_MEDITATION_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_BATTLE_MEDITATION_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+			<Combat_Bonus_Ability Name="Nial_Declann_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.15</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Nial_Declann_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Recondite_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<System_Spy_Ability Name="Nial_Declann_Force_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				
+				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Nial_Declann_Data>

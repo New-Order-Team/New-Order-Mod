@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" ?>
+<!--****************************************-->
+<!--******	Universal without heroes  ******-->
+<!--****************************************-->
+<Story>
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	<Event Name="Rebel_Reveal_Galaxy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Rebel_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>R_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Eras auto-progression -->
+	<Event Name="Time_For_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Time_For_Era_2</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_2</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Time_For_Era_3</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_3</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		<Prereq>Time_For_Era_4</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_4</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		<Prereq>Time_For_Era_5</Prereq>
+	</Event>
+
+	<!-- **************** -->
+	<!-- * Eras section * -->
+	<!-- **************** -->
+	
+	<!-- Era 2 -->
+	
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_Z-95">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_R41">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>R41_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Consular">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Consular_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Rep_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Republic_Assault_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Munificent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Munificent_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Recusant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Recusant_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+	<!-- Era 3 -->
+	
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_BTL_A4_Y_wing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Y-Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Z-95_Headhunter_II">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter2_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_R-22_Spearhead">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>A_Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Dreadnought">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Dreadnought</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Bulwark">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Bulwark_Mk1</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<!-- Era 4 -->
+	
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_T-65_AC1_X_wing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_B-Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>B-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Corellian_Corvette">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Corellian_Corvette</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Calamari_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_MC80A">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC80A</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Nebulon_B_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Nebulon_B_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_CC-7700">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>CC-7700_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Alliance_Assault_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Alliance_Assault_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<!-- Era 5 -->
+
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	<Event Name="Disable_Y-Wing_S3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_X-Wing_Squadron2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>X-Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_A_Wing_Squadron2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>A_Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_E_Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>E_Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Marauder_Corvette">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Marauder_Corvette</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC_40a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC_40a</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Liberator_Carrier">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Liberator_Carrier</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC30_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Alliance_Assault_Frigate2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Alliance_Assault_Frigate2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Calamari_Cruiser_HO_Type">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Calamari_Cruiser_HO_Type</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC_80b">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC_80b</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Dauntless_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Dauntless_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	
+	<!-- Era 6 -->
+
+	<Event Name="Rebels_Enter_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_X-Wing_Squadron3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>X-Wing_Squadron3</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_05</Prereq>
+	</Event>
+</Story>

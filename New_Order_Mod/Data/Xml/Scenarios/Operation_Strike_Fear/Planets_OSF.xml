@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<Planets>
+	<!-- ############################# -->
+	<!-- ### Operation Strike Fear ### -->
+	<!-- ############################# -->
+	
+	<Planet Name="Galaxy_Backdrop_OSF">
+		<Text_ID />
+		<Galactic_Model_Name>w_galaxy_tion.alo</Galactic_Model_Name>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Show_Name>No</Show_Name>
+		<Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
+		<Behavior>IDLE</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>No</Camera_Aligned>
+		<Terrain />
+		<Planet_Credit_Value>0</Planet_Credit_Value>
+		<Galactic_Position>-105.0, 10.0, 0.0</Galactic_Position>
+		<Special_Structures>0</Special_Structures>
+		<In_Background>yes</In_Background>
+		<Max_Ground_Base>0</Max_Ground_Base>
+		<Max_Space_Base>0</Max_Space_Base>
+	</Planet>
+	
+	<Planet Name="Lianna_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_LIANNA</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-190.0, -40.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Anaxes_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Anaxes_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_LIANNA_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_TEMP_D</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_LIANNA_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_LIANNA_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>50</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Desevro_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_DESEVRO</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.3</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-150.0, 55.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Atzerri_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_DESEVRO_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_DESEVRO_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_SUBARCT</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_DESEVRO_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_DESEVRO_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>30</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Raxus_Prime_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_RAXUS_PRIME</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.1</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-10.0, 115.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _land_planet_fondor_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Fondor_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_RAXUS_PRIME_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_PLANET_RAXUS_PRIME_WL</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_RAXUS_PRIME_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_TEMP_D</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_RAXUS_PRIME_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_RAXUS_PRIME_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_wind.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Omman_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_OMMAN</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate00.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Dantooine01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-90.0, 0.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map>_land_planet_omman_00.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Dantooine_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_OMMAN_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_SUBTROP</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_OMMAN_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_OMMAN_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Rudrig_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_RUDRIG</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>45.0, 60.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Alderaan_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Alderaan_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_RUDRIG_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_SUBARCT</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_RUDRIG_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_RUDRIG_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Brigia_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_BRIGIA</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>150.0, -120.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Bothawui_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Bothawui_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_BRIGIA_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain></Describe_Terrain>
+		<Describe_Weather></Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_BRIGIA_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_BRIGIA_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Dellalt_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_DELLALT</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>175.0, -210.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map>_land_planet_jabiim_02.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Jabiim_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_DELLALT_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_DELLALT_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_SUBTROP_W</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_DELLALT_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_DELLALT_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>15</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Orion_IV_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_ORION_IV</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>90.0, -145.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map>_land_planet_aetenii_02.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_AetenII_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_ORION_IV_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_DES_C</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_ORION_IV_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_ORION_IV_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Caluula_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_CALUULA</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Swamp01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>150.0, -175.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map>_land_planet_felucia_00.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Felucia_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_PLANET_CALUULA_WL</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_CALUULA_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_SUBARCT_A</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_CALUULA_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_CALUULA_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Derellium_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_DERELLIUM</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate00.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Dantooine01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-45.0, -210.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Dantooine_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Dantooine_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain></Describe_Terrain>
+		<Describe_Weather></Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_DERELLIUM_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_DERELLIUM_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Estaria_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_ESTARIA</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_bonadan_low.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-110.0, 160.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Bonadan_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain></Describe_Terrain>
+		<Describe_Weather></Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_ESTARIA_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_ESTARIA_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Cadinth_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_CADINTH</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-90.0, -85.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map>_land_planet_saleucami_01.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Saleucami_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_CADINTH_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_WEA_DES_C</Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_CADINTH_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_CADINTH_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+	
+	<Planet Name="Dravione_OSF">
+ 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
+		<Text_ID>TEXT_PLANET_DRAVIONE</Text_ID>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>W_planet_Temperate00.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_Dantooine01.alo</GUI_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
+		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>yes</Camera_Aligned>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Terrain>Temperate</Terrain>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
+		<Galactic_Position>-30.0, -30.0, 10.0</Galactic_Position>
+		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Space>0</Special_Structures_Space>
+		<Max_Space_Base>2</Max_Space_Base>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0.0</Force_Strength>
+		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+		<Land_Tactical_Map> _Land_Planet_Dantooine_02.ted </Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Dantooine_01.ted</Space_Tactical_Map>
+		<Destroyed_Space_Tactical_Map />
+		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Slice_Affinity_Types />
+        <Planet_Black_Market_Modifier>100</Planet_Black_Market_Modifier>
+
+		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Terrain></Describe_Terrain>
+		<Describe_Weather></Describe_Weather>
+		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_DRAVIONE_GEO</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_DRAVIONE_HIS</Describe_History>
+
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+
+		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+
+		<Additional_Population_Capacity>10</Additional_Population_Capacity>
+
+		<Abilities SubObjectList="Yes">
+			
+		</Abilities>
+
+		<Planet_Corruption_Removal_Base_Cost>10</Planet_Corruption_Removal_Base_Cost>
+		
+		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
+	</Planet>
+</Planets>

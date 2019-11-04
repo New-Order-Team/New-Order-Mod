@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Props_IMPIREAL>
+<Props_IMPIREAL Name="Imperial computer">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>imp computer.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_IMPIREAL>		
+		
+<Props_IMPIREAL Name="Imp tank">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>imp crawler.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_IMPIREAL>
+	
+<Props_IMPIREAL Name="Defence turret">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>aa-turret.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_IMPIREAL>
+	
+<Props_IMPIREAL Name="Defence turret 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>imp manned turret.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_IMPIREAL>	
+</Props_IMPIREAL>		
+		

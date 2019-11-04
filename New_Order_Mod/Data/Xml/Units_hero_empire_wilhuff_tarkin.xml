@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Tarkin_Data>
+
+	<!-- Wilhuff Tarkin era I - Executrix -->
+	<UniqueUnit Name="Executrix_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_TARKIN_EXECUTRIX</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_TARKIN_EXECUTRIX </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GM </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wilhuff_tarkin.tga</Icon_Name>
+        <Ranking_In_Category>5</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>23</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		
+		<Damage>2575</Damage>
+		<Autoresolve_Health>8840</Autoresolve_Health>
+		<AI_Combat_Power>11986</AI_Combat_Power>
+		<Override_Bounty_SP>11986</Override_Bounty_SP>
+		<Override_Bounty_MP>11986</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>11986</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>11986</Piracy_Value_Credits>
+		<Score_Cost_Credits>11986</Score_Cost_Credits>
+		<Build_Cost_Credits>14280</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>14280</Tactical_Build_Cost_Multiplayer>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Tarkin</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Tarkin</SFXEvent_Hero_Respawned>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+			<Reduce_Production_Time_Ability Name="Tarkin_Time_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.2</Time_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Reduce_Production_Time_Ability Name="Tarkin_Officers_Time_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types> Fleet_Com_Empire_Team, Moff_Empire_Team, Field_Com_Empire_Team, ISB_Squad </Applicable_Unit_Types>
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.5</Time_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			<Combat_Bonus_Ability Name="Tarkin_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.2</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Combat_Bonus_Ability Name="Tarkin_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Executrix_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Tarkin_Data>

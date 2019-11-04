@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Ysanne_Isard_Data>
+
+	<!-- Ysanne Isard era IV -->
+	<HeroUnit Name="Ysanne_Isard">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_YSANNE_ISARD</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_YSANNE_ISARD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DII </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>i_button_ysanne_isard.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Political_Faction>Empire</Political_Faction>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Coruscant</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>1</Damage>
+		<Autoresolve_Health>1</Autoresolve_Health>
+		<!--<Lua_Script>HeroScript_Ysanne_Isard</Lua_Script>-->
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 4 </Ranking_In_Category>
+		
+		<!-- This Galactic_Influence_Range controls how far Isard's System Spy ability extends -->
+		<Galactic_Influence_Range>200.0</Galactic_Influence_Range>
+		<Hyperspace_Fleet_Reveal_Range>200.0</Hyperspace_Fleet_Reveal_Range>
+
+		<Neutralization_Cost>1500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+
+		<Abilities SubObjectList="Yes">
+
+			<System_Spy_Ability Name="Ysanne_Isard_Galactic_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>Yes</See_Credit_Income>
+				<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>Yes</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		
+		</Abilities>
+	</HeroUnit>
+
+	
+	<HeroCompany Name="Ysanne_Isard_Team">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_YSANNE_ISARD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_YSANNE_ISARD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DII </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ysanne_isard.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Affiliation>Empire</Affiliation>
+		<Damage>1</Damage>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Ranking_In_Category> 4 </Ranking_In_Category>
+		<Population_Value>1</Population_Value>
+	
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+	</HeroCompany>
+</Ysanne_Isard_Data>

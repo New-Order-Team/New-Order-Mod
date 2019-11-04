@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Props_Mygeeto>
+ 
+
+<!--NEW PROPS-->
+
+<Props_Mygeeto Name="PROP_MYGEETO1">
+		<Text_ID>PROP_MYGEETO1</Text_ID>
+		<Land_Model_Name> PROP_MYGEETO1.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>		
+
+		<Props_Mygeeto Name="PROP_MYGEETO2">
+		<Text_ID>PROP_MYGEETO2</Text_ID>
+		<Land_Model_Name> PROP_MYGEETO2.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>	
+
+	<Props_Mygeeto Name="PROP_MYGEETO3">
+		<Text_ID>PROP_MYGEETO3</Text_ID>
+		<Land_Model_Name> PROP_MYGEETO3.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>	
+		
+		<Props_Mygeeto Name="W_Mygeeto_Building_A">
+		<Text_ID>W_Mygeeto_Building_A</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Building_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>	
+	
+		<Props_Mygeeto Name="W_Mygeeto_Building_B">
+		<Text_ID>W_Mygeeto_Building_B</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Building_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>	
+	
+		<Props_Mygeeto Name="W_Mygeeto_Building_C">
+		<Text_ID>W_Mygeeto_Building_C</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Building_C.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Building_D">
+		<Text_ID>W_Mygeeto_Building_D</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Building_D.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Building_E">
+		<Text_ID>W_Mygeeto_Building_E</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Building_E.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Corner_A">
+		<Text_ID>W_Mygeeto_Corner_A</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Corner_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Corner_B">
+		<Text_ID>W_Mygeeto_Corner_B</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Corner_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Lamp_A">
+		<Text_ID>W_Mygeeto_Lamp_A</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Lamp_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Wall_A">
+		<Text_ID>W_Mygeeto_Wall_A</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Wall_A.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Wall_B">
+		<Text_ID>W_Mygeeto_Wall_B</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Wall_B.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Wall_C">
+		<Text_ID>W_Mygeeto_Wall_C</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Wall_C.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+		<Props_Mygeeto Name="W_Mygeeto_Wall_D">
+		<Text_ID>W_Mygeeto_Wall_D</Text_ID>
+		<Land_Model_Name> W_Mygeeto_Wall_D.ALO</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Mygeeto>
+	
+</Props_Mygeeto>

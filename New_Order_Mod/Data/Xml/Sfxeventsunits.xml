@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+	<SFXEvent Name="Unit_Move_Gneneric_Test">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>TestUnitMove_ENG.wav</Samples>
+            <Localize> Yes </Localize>
+				<Play_Sequentially> Yes </Play_Sequentially>
+            <Text_ID>TEXT_SFX_UNDEFINED</Text_ID>
+			<Overlap_Test> Unit_Move </Overlap_Test>
+    </SFXEvent>
+
+	<SFXEvent Name="Unit_AT_AT_Alarm">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Data\Audio\SFX\SFX_AT_AT_ALARM.wav</Samples>
+    </SFXEvent>
+
+</SFXEvents>

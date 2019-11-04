@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Wedge_Antilles_Data>
+
+	<!-- Wedge Antilles era V - Mon Mothma -->
+	<UniqueUnit Name="Wedge_Antilles_Mon_Mothma">
+		<Variant_Of_Existing_Type>ISD_IIa</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_WEDGE_ANTILLES_MM</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_WEDGE_ANTILLES_MM </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wedge_antilles_general.tga</Icon_Name>
+        <Ranking_In_Category>5</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>32</Population_Value>
+		<CategoryMask> Capital | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+
+		<Damage>5760</Damage>
+		<Autoresolve_Health>14056</Autoresolve_Health>
+		<AI_Combat_Power>21449</AI_Combat_Power>
+		<Override_Bounty_SP>21449</Override_Bounty_SP>
+		<Override_Bounty_MP>21449</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>21449</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>21449</Piracy_Value_Credits>
+		<Score_Cost_Credits>21449</Score_Cost_Credits>
+		<Build_Cost_Credits>31770</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>31770</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Wedge_Antilles_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Wedge_Antilles_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Wedge_Antilles_Mon_Mothma</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<!-- Wedge Antilles era V upgrade - Lusankya -->
+	<UniqueUnit Name="Wedge_Antilles_Lusankya">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer_Rebel</Variant_Of_Existing_Type>
+		<Tech_Level>4</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_WEDGE_ANTILLES_LUSANKYA</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_WEDGE_ANTILLES_LUSANKYA </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wedge_antilles_general.tga</Icon_Name>
+        <Ranking_In_Category>5</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		
+		<Space_Model_Name>RV_Lusankya.ALO</Space_Model_Name>
+		<Population_Value>248</Population_Value>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		
+		<Autoresolve_Health>148569</Autoresolve_Health>
+		<Tactical_Health>52569</Tactical_Health>
+		<Build_Time_Seconds>466</Build_Time_Seconds>
+
+		<Damage>61300</Damage>
+		<AI_Combat_Power>209869</AI_Combat_Power>
+		<Override_Bounty_SP>209869</Override_Bounty_SP>
+		<Override_Bounty_MP>209869</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>209869</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>209869</Piracy_Value_Credits>
+		<AI_Combat_Power>209869</AI_Combat_Power>
+		<Score_Cost_Credits>209869</Score_Cost_Credits>
+		<Build_Cost_Credits>247860</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>247860</Tactical_Build_Cost_Multiplayer>
+		
+		<HardPoints>
+			HPl0,HPl1,HPl2,HPl3,HPl4,HPl5,HPl6,HPl7,HPl8,HPl9,HPl10,HPl11,HPl12,HPl13,HPl14,HPl15,HPl16,HPl17,HPl18,HPl19,HPl20,HPl21,HPl22,HPl23,HPl24,HPl25,HPl26,HPl27,HPl28,HPl29,HPl30,HPl31,HPl32,HPl33,HPl34,HPl35,HPl36,HPl37,HPl38,HPl39,HPl40,HPl41,HPl42,HPl43,HPl44,HPl45,HPl46,HPl47,HPl48,HPl49,HPl50,HPl51,HPl52,HPl53,HPl54,HPl55,HPl56,HPl57,HPl58,HPl59,HPl60,HPl61,HPl62,HPl63,HPl64,HPl65,HPl66,HPl67,HPl68,HPl69,HPl70,HPl71,HPl72,HPl73,HPl74,HPl75,HPl76,HPl77,HPl78,HPl79,HPl80,HPl81,HPl82,HPl83,HPl84,HPl85,HPl86,HPl87,HPl88,HPl89,HPl90,HPl91,HPl92,HPl93,HPl94,HPl95,HPl96,HPl97,HPl98,HPl99,HPl100,HPl101,HPl102,HPl103,HPl104,HPl105,HPl106,HPl107,HPl108,HPl109,HPl110,HPl111,HPl112,HPl113,HPl114,HPl115,HPl116,HPl117,HPl118,HPl119,HPl120,HPl121,HPl122,HPl123,HPl124,HPl125,HPl126,HPl127,HPl128,HPl129,HPl130,HPl131,HPl132,HPl133,HPl134,HPl135,HPl136,HPl137,HPl138,HPl139,HPl140,HPl141,HPl142,HPl143,HPl144,HPl145,HPl146,HPl147,HPl148,HPl149,HPl150,HPl151,HPl152,HPl153,HPl154,HPl155,HPl156,HPl157,HPl158,HPl159,HPl160,HPl161,HPl162,HPl163,HPl164,HPl165,HPl166,HPl167,HPl168,HPl169,HPl170,HPl171,HPl172,HPl173,HPl174,HPl175,HPl176,HPl177,HPl178,HPl179,HPl180,HPl181,HPl182,HPl183,HPl184,HPl185,HPl186,HPl187,HPl188,HPl189,HPl190,HPl191,HPl192,HPl193,HPl194,HPl195,HPl196,HPl197,HPl198,HPl199,HPl200,HPl201,HPl202,HPl203,HPl204,HPl205,HPl206,HPl207,HPl208,HPl209,HPl210,HPl211,HPl212,HPl213,HPl214,HPl215,HPl216,HPl217,HPl218,HPl219,HPl220,HPl221,HPl222,HPl223,HPl224,HPl225,HPl226,HPl227,HPl228,HPl229,HPl230,HPl231,HPl232,HPl233,HPl234,HPl235,HPl236,HPl237,HPl238,HPl239,HPl240,HPl241,HPl242,HPl243,HPl244,HPl245,HPl246,HPl247,HPl248,HPl249,HPl250,HPl251,HPl252,HPl253,HPl254,HPl255,HPl256,HPl257,HPl258,HPl259,HPl260,HPl261,HPl262,HPl263,HPl264,HPl265,HPl266,HPl267,HPl268,HPl269,HPl270,HPl271,HPl272,HPl273,HPl274,HPl275,HPl276,HPl277,HPl278,HPl279,HPl280,HPl281,HPl282,HPl283,HPl284,HPl285,HPl286,HPl287,HPl288,HPl289,HPl290,HPl291,HPl292,HPl293,HPl294,HPl295,HPl296,HPl297,HPl298,HPl299,HPl300,HPl301,HPl302,HPl303,HPl304,HPl305,HPl306,HPl307,HPl308,HPl309,HPl310,HPl311,HPl312,HPl313,HPl314,HPl315,HPl316,HPl317,HPl318,HPl319,HPl320,HPl321,HPl322,HPl323,HPl324,HPl325,HPl326,HPl327,HPl328,HPl329,HPl330,HPl331,HPl332,HPl333,HPl334,HPl335,HPl336,HPl337,HPl338,HPl339,HPl340,HPl341,HPl342,HPl343,HPl344,HPl345,HPl346,HPl347,HPl348,HPl349,HPl350,HPl351,HPl352,HPl353,HPl354,HPl355,HPl356,HPl357,HPl358,HPl359,HPl360,HPl361,HPl362,HPl363,HPl364,HPl365,HPl366,HPl367,HPl368,HPl369,HPl370,HPl371,HPl372,HPl373,HPl374,HPl375,HPl376,HPl377,HPl378,HPl379,HPl380,HPl381,HPl382,HPl383,HPl384,HPl385,HPl386,HPl387,HPl388,HPl389,HPl390,HPl391,HPl392,HPl393,HPl394,HPl395,HPl396,HPl397,HPl398,HPl399,HPl400,HPl401,HPl402,HPl403,HPl404,HPl405,HPl406,HPl407,HPl408,HPl409,HPl410,HPl411,HPl412,HPl413,HPl414,HPl415,HPl416,HPl417,HPl418,HPl419,HPl420,HPl421,HPl422,HPl423,HPl424,HPl425,HPl426,HPl427,HPl428,HPl429,HPl430,HPl431,HPl432,HPl433,HPl434,HPl435,HPl436,HPl437,HPl438,HPl439,HPl440,HPl441,HPl442,HPl443,HPl444,HPl445,HPl446,HPl447,HPl448,HPl449,HPl450,HPl451,HPl452,HPl453,HPl454,HPl455,HPl456,HPl457,HPl458,HPl459,HPl460,HPl461,HPl462,HPl463,HPl464,HPl465,HPl466,HPl467,HPl468,HPl469,HPl470,HPl471,HPl472,HPl473,HPl474,HPl475,HPl476,HPl477,HPl478,HPl479,HPlFB
+		</HardPoints>
+
+		<Required_Orbiting_Units>Wedge_Antilles_Mon_Mothma</Required_Orbiting_Units>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Wedge_Antilles_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Wedge_Antilles_Data>

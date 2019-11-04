@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<!--  These objects are used for the technical      -->
+<!--  progression of the Empire as well as the      -->
+<!--  the final production of the Death Stat unit.  -->
+<TechBuildings>
+	<TechBuilding Name="DS_Primary_Hyperdrive">
+		<Text_ID>TEXT_UNIT_TECH_12</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>1</Tech_Level>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_12 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+	
+	
+	<TechBuilding Name="DS_Shield_Gen">
+		<Text_ID>TEXT_UNIT_TECH_23</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>2</Tech_Level>
+		<Build_Cost_Credits>16000</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_23 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+	
+	
+	<TechBuilding Name="DS_Superlaser_Core">
+		<Text_ID>TEXT_UNIT_TECH_34</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>3</Tech_Level>
+		<Build_Cost_Credits>19200</Build_Cost_Credits>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_34 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+	
+	
+	<TechBuilding Name="DS_Durasteel">
+		<Text_ID>TEXT_UNIT_TECH_45</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>4</Tech_Level>
+		<Build_Cost_Credits>32000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_45 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+	
+	
+	<TechBuilding Name="DS_Hypermatter_Power">
+		<Text_ID>TEXT_UNIT_TECH_56</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>36000</Build_Cost_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>6</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_56 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Rebel -->
+	
+	<TechBuilding Name="Rebel_Tech_0_1">
+		<Text_ID>TEXT_UNIT_TECH_12</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>R_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>0</Tech_Level>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>3</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>1</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_12 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+
+	<TechBuilding Name="Rebel_Tech_1_2">
+		<Text_ID>TEXT_UNIT_TECH_23</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>R_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>1</Tech_Level>
+		<Build_Cost_Credits>16000</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.TGA</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_23 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+
+	<TechBuilding Name="Rebel_Tech_2_3">
+		<Text_ID>TEXT_UNIT_TECH_34</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>R_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>2</Tech_Level>
+		<Build_Cost_Credits>19200</Build_Cost_Credits>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.TGA</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_34 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+
+	<TechBuilding Name="Rebel_Tech_3_4">
+		<Text_ID>TEXT_UNIT_TECH_45</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>R_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>3</Tech_Level>
+		<Build_Cost_Credits>32000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.TGA</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_45 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+
+	<TechBuilding Name="Rebel_Tech_4_5">
+		<Text_ID>TEXT_UNIT_TECH_56</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Special_Structures>R_Ground_Research_Facility</Required_Special_Structures>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Tech_Level>99</Tech_Level>
+		<Build_Cost_Credits>360000</Build_Cost_Credits>
+		<Build_Time_Seconds>120</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Behavior></Behavior>
+		<Icon_Name>I_ENCYCLOPEDIA_REBEL_SYMBOL.TGA</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_TECH_56 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECH </Encyclopedia_Unit_Class>
+		
+	</TechBuilding>
+	
+	
+</TechBuildings>

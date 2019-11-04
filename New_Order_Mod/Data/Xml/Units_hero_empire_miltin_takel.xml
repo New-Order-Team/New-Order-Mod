@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Miltin_Takel_Data>
+	<UniqueUnit Name="Magic_Dragon_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_MILTIN_TAKEL_MAGIC_DRAGON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_MILTIN_TAKEL </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GA </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_miltin_takel.tga</Icon_Name>
+		<Population_Value>18</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3090</Damage>
+		<Autoresolve_Health>10608</Autoresolve_Health>
+		<AI_Combat_Power>13698</AI_Combat_Power>
+		<Override_Bounty_SP>13698</Override_Bounty_SP>
+		<Override_Bounty_MP>13698</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>13698</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>13698</Piracy_Value_Credits>
+		<AI_Combat_Power>13698</AI_Combat_Power>
+		<Score_Cost_Credits>13698</Score_Cost_Credits>
+		<Build_Cost_Credits>16460</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>16460</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+			<Combat_Bonus_Ability Name="Miltin_Takel_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Miltin_Takel_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Magic_Dragon_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.5</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.5</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.5</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Miltin_Takel_Data>

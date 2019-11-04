@@ -1,0 +1,1604 @@
+﻿<?xml version="1.0" ?>
+<!--***************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Rebel Version) *****-->
+<!--***************************************************-->
+<Story>
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	<Event Name="Rebel_Reveal_Galaxy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Rebel_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>R_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Eras auto-progression -->
+	<Event Name="Time_For_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Time_For_Era_2</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_2</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Time_For_Era_3</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_3</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		<Prereq>Time_For_Era_4</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Rebel_Advance_Rebel_Era_4</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		<Prereq>Time_For_Era_5</Prereq>
+	</Event>
+
+	<!-- ****************** -->
+	<!-- * Heroes section * -->
+	<!-- ****************** -->
+
+	<!-- Mon Mothma -->
+	<Event Name="Spawn_Mon_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Mon_Mothma</Branch>
+	</Event>
+	<Event Name="Remove_Mon_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Mon_Mothma</Branch>
+	</Event>
+	<Event Name="Spawn_Mon_Mothma_Old">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Old_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Remove_Mon_Mothma</Prereq>
+		<Branch>T_Mon_Mothma</Branch>
+	</Event>
+	<Event Name="Remove_Mon_Mothma_Old">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Old_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Mon_Mothma</Branch>
+	</Event>
+
+	<!-- Bail Organa -->
+	<Event Name="Spawn_Bail_Organa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Bail_Organa_Team</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Bail_Organa</Branch>
+	</Event>
+	<Event Name="Bail_Organa_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Bail_Organa</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Bail_Organa</Prereq>
+		<Branch>T_Bail_Organa</Branch>
+	</Event>
+	<Event Name="Remove_Bail_Organa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Bail_Organa_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Bail_Organa_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Bail_Organa</Branch>
+	</Event>
+	
+	<!-- Leia Organa -->
+	<Event Name="Spawn_Leia_Organa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Leia_Organa_Team</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Remove_Bail_Organa Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	<Event Name="Remove_Leia_Organa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Leia_Organa_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	<Event Name="Spawn_Leia_Organa_RD">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Leia_Organa_RD_Team</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Remove_Leia_Organa</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	<Event Name="Remove_Leia_Organa_RD">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Leia_Organa_RD_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+
+	<!-- Garm Bel Iblis -->
+	<Event Name="Spawn_Garm_Bel_Iblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Remove_Garm_Bel_Iblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Spawn_Garm_Bel_Iblis_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_II_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Remove_Garm_Bel_Iblis</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Remove_Garm_Bel_Iblis_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_II_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Spawn_Garm_Bel_Iblis_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_III_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Remove_Garm_Bel_Iblis_2</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Remove_Garm_Bel_Iblis_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_III_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Spawn_Garm_Bel_Iblis_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_IV_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Remove_Garm_Bel_Iblis_3</Prereq>
+		<Prereq>Remove_Garm_Bel_Iblis_Harbinger_Killed</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Build_Garm_Bel_Iblis_Harbinger">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Garm_Bel_Iblis_IVH_Team</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Garm_Bel_Iblis_4</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Remove_Garm_Bel_Iblis_4_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_IV_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Garm_Bel_Iblis_Harbinger</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Garm_Bel_Iblis_Harbinger_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>GBI_Harbinger</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Garm_Bel_Iblis_Harbinger</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+	<Event Name="Remove_Garm_Bel_Iblis_Harbinger_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_IVH_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Garm_Bel_Iblis_Harbinger_Has_Been_Killed</Prereq>
+		<Branch>T_Garm_Bel_Iblis</Branch>
+	</Event>
+
+	<!-- Gial Ackbar -->
+	<Event Name="Spawn_Gial_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Naritus</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Remove_Ackbar_Naritus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Naritus</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Spawn_Ackbar_Independence">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Independence_Ackbar</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Remove_Ackbar_Naritus</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Remove_Ackbar_Independence">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Independence_Ackbar</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Spawn_Ackbar_Home_One">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Remove_Ackbar_Independence</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Remove_Ackbar_Home_One">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Spawn_Ackbar_Galactic_Voyager">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ackbar_Galactic_Voyager</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Remove_Ackbar_Home_One</Prereq>
+		<Prereq>Remove_Ackbar_Guardian</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Build_Ackbar_Guardian">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Ackbar_Guardian</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Gial_Ackbar</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Remove_Ackbar_Galactic_Voyager_On_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Galactic_Voyager</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Ackbar_Guardian</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Ackbar_Guardian_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Ackbar_Guardian</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Ackbar_Guardian</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<Event Name="Remove_Ackbar_Guardian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Guardian</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Ackbar_Guardian_Has_Been_Killed</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+
+	<!-- Raymus Antilles -->
+	<Event Name="Spawn_Raymus_Antilles">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Raymus_Antilles_Team</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Raymus_Antilles</Branch>
+	</Event>
+	<Event Name="Remove_Raymus_Antilles">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Raymus_Antilles_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Raymus_Antilles</Branch>
+	</Event>
+
+	<!-- Rahm Kota -->
+	<Event Name="Spawn_Rahm_Kota">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kota_Team</Reward_Param1>
+		<Reward_Param2>Bothawui</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+	<Event Name="Rahm_Kota_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Rahm_Kota</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Rahm_Kota</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+	<Event Name="Remove_Rahm_Kota">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kota_Team</Reward_Param1>
+		<Prereq>Rahm_Kota_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+	<Event Name="Spawn_Rahm_Kota2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kota_Team2</Reward_Param1>
+		<Reward_Param2>Bothawui</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01 Remove_Rahm_Kota</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+	<Event Name="Rahm_Kota_Has_Been_Killed2">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Rahm_Kota2</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Rahm_Kota2</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+	<Event Name="Remove_Rahm_Kota2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kota_Team2</Reward_Param1>
+		<Prereq>Rahm_Kota_Has_Been_Killed2</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Rahm_Kota</Branch>
+	</Event>
+
+	<!-- Bria Tharen -->
+	<Event Name="Spawn_Bria_Tharen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Bria_Tharen_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Bria_Tharen</Branch>
+	</Event>
+	<Event Name="Bria_Tharen_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Bria_Tharen</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Bria_Tharen</Prereq>
+		<Branch>T_Bria_Tharen</Branch>
+	</Event>
+	<Event Name="Remove_Bria_Tharen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Bria_Tharen_Team</Reward_Param1>
+		<Prereq>Bria_Tharen_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Bria_Tharen</Branch>
+	</Event>
+
+	<!-- Adrian Verana -->
+	<Event Name="Spawn_Blue_Squadron_Verana">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Blue_Squadron_Verana</Reward_Param1>
+        <Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+		<Branch>T_Adrian_Verana</Branch>
+	</Event>
+	<Event Name="Remove_Blue_Squadron_Verana">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Blue_Squadron_Verana</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Adrian_Verana</Branch>
+	</Event>
+	
+	<!-- Ral'Rai Muvunc -->
+	<Event Name="Spawn_Ral_Rai_Muvunc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ral_Rai_Muvunc_Team</Reward_Param1>
+		<Reward_Param2>Ryloth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Ral_Rai_Muvunc</Branch>
+	</Event>
+	<Event Name="Remove_Ral_Rai_Muvunc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ral_Rai_Muvunc_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Ral_Rai_Muvunc</Branch>
+	</Event>
+	
+	<!-- Carlist Rieekan -->
+	<Event Name="Spawn_Carlist_Rieekan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Carlist_Rieekan_Team</Reward_Param1>
+		<Reward_Param2>Alderaan</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Carlist_Rieekan</Branch>
+	</Event>
+	<Event Name="Remove_Carlist_Rieekan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Carlist_Rieekan_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Jan_Dodonna</Branch>
+	</Event>
+	
+	<!-- Jan Dodonna -->
+	<Event Name="Spawn_Jan_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Defiance</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Jan_Dodonna</Branch>
+	</Event>
+	<Event Name="Remove_Jan_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Defiance</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Jan_Dodonna</Branch>
+	</Event>
+	
+	<!-- Walex Blissex -->
+	<Event Name="Spawn_Walex_Blissex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Walex_Blissex_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Walex_Blissex</Branch>
+	</Event>
+	<Event Name="Walex_Blissex_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Walex_Blissex</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Walex_Blissex</Prereq>
+		<Branch>T_Walex_Blissex</Branch>
+	</Event>
+	<Event Name="Remove_Walex_Blissex">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Walex_Blissex_Team</Reward_Param1>
+		<Prereq>Walex_Blissex_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Walex_Blissex</Branch>
+	</Event>
+	
+	<!-- Tyr Taskeen -->
+	<Event Name="Spawn_Tyr_Taskeen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tyr_Taskeen_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Tyr_Taskeen</Branch>
+	</Event>
+	<Event Name="Remove_Tyr_Taskeen">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Tyr_Taskeen_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Tyr_Taskeen</Branch>
+	</Event>
+	
+	<!-- Red Squadron Garven Dreis -->
+	<Event Name="Spawn_Red_Squadron_Dreis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Red_Squadron_Dreis</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Garven_Dreis</Branch>
+	</Event>
+	<Event Name="Red_Squadron_Dreis_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Red_Squadron_Dreis</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Red_Squadron_Dreis</Prereq>
+		<Branch>T_Garven_Dreis</Branch>
+	</Event>
+	<Event Name="Remove_Garven_Dreis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Red_Squadron_Dreis</Reward_Param1>
+		<Prereq>Red_Squadron_Dreis_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Garven_Dreis</Branch>
+	</Event>
+	
+	<!-- Gold Squadron Jon Vander -->
+	<Event Name="Spawn_Gold_Squadron_Vander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Gold_Squadron_Vander</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Branch>T_Jon_Vander</Branch>
+	</Event>
+	<Event Name="Gold_Squadron_Vander_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Gold_Squadron_Vander</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Gold_Squadron_Vander</Prereq>
+		<Branch>T_Jon_Vander</Branch>
+	</Event>
+	<Event Name="Remove_Jon_Vander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Gold_Squadron_Vander</Reward_Param1>
+		<Prereq>Gold_Squadron_Vander_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Jon_Vander</Branch>
+	</Event>
+
+	
+	<!-- Airen Cracken -->
+	<Event Name="Spawn_Airen_Cracken">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Airen_Cracken_Team</Reward_Param1>
+		<Reward_Param2>Kashyyyk</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Airen_Cracken</Branch>
+	</Event>
+	<Event Name="Remove_Airen_Cracken">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Airen_Cracken_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Airen_Cracken</Branch>
+	</Event>
+	
+	<!-- Crix Madine -->
+	<Event Name="Spawn_Crix_Madine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Crix_Madine_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Crix_Madine</Branch>
+	</Event>
+	<Event Name="Remove_Crix_Madine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Crix_Madine_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Crix_Madine</Branch>
+	</Event>
+	
+	<!-- Nammo -->
+	<Event Name="Spawn_Nammo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Nammo_Defiance</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Nammo</Branch>
+	</Event>
+	<Event Name="Nammo_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Nammo_Defiance</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Nammo</Prereq>
+		<Branch>T_Nammo</Branch>
+	</Event>
+	<Event Name="Remove_Nammo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Nammo_Defiance</Reward_Param1>
+		<Prereq>Nammo_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Nammo</Branch>
+	</Event>
+	
+	<!-- Hiram Drayson -->
+	<Event Name="Spawn_Hiram_Drayson">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Hiram_Drayson_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Hiram_Drayson</Branch>
+	</Event>
+	<Event Name="Remove_Hiram_Drayson">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Hiram_Drayson_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Hiram_Drayson</Branch>
+	</Event>
+
+	<!-- Willham Burke -->
+	<Event Name="Spawn_Willham_Burke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Burke_Mantan_Wanderer</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Willham_Burke</Branch>
+	</Event>
+	<Event Name="Remove_Willham_Burke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Burke_Mantan_Wanderer</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Willham_Burke</Branch>
+	</Event>
+	<Event Name="Spawn_Willham_Burke_Remember_Alderaan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Burke_Remember_Alderaan</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Remove_Willham_Burke</Prereq>
+		<Branch>T_Willham_Burke</Branch>
+	</Event>
+	<Event Name="Remove_Willham_Burke_Remember_Alderaan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Burke_Remember_Alderaan</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Willham_Burke</Branch>
+	</Event>
+
+	<!-- Adar Tallon -->
+	<Event Name="Spawn_Adar_Tallon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Tallon_Silent_Water</Reward_Param1>
+		<Reward_Param2>Tatooine</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Adar_Tallon</Branch>
+	</Event>
+	<Event Name="Adar_Tallon_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Tallon_Silent_Water</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Adar_Tallon</Prereq>
+		<Branch>T_Adar_Tallon</Branch>
+	</Event>
+	<Event Name="Remove_Adar_Tallon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Tallon_Silent_Water</Reward_Param1>
+		<Prereq>Adar_Tallon_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Adar_Tallon</Branch>
+	</Event>
+
+	<!-- Pharl McQuarrie -->
+	<Event Name="Spawn_Pharl_McQuarrie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Pharl_McQuarrie_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Pharl_McQuarrie</Branch>
+	</Event>
+	<Event Name="Pharl_McQuarrie_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Pharl_McQuarrie</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Pharl_McQuarrie</Prereq>
+		<Branch>T_Pharl_McQuarrie</Branch>
+	</Event>
+	<Event Name="Remove_Pharl_McQuarrie">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Pharl_McQuarrie_Team</Reward_Param1>
+		<Prereq>Pharl_McQuarrie_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Pharl_McQuarrie</Branch>
+	</Event>
+
+	<!-- Lando Calrissian -->
+	<Event Name="Spawn_Lando_Calrissian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Calrissian_Cobra</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Lando_Calrissian</Branch>
+	</Event>
+	<Event Name="Remove_Lando_Calrissian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Calrissian_Cobra</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Lando_Calrissian</Branch>
+	</Event>
+	<Event Name="Spawn_Lando_Calrissian_General">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Calrissian_Liberator</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Remove_Lando_Calrissian</Prereq>
+		<Branch>T_Lando_Calrissian</Branch>
+	</Event>
+	<Event Name="Remove_Lando_Calrissian_General">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Calrissian_Liberator</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Lando_Calrissian</Branch>
+	</Event>
+
+	<!-- Han Solo -->
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Han_Solo</Branch>
+	</Event>
+	<Event Name="Remove_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Han_Solo</Branch>
+	</Event>
+	<Event Name="Spawn_Han_Solo_General">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_General_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Remove_Han_Solo</Prereq>
+		<Branch>T_Han_Solo</Branch>
+	</Event>
+	<Event Name="Remove_Han_Solo_General">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Han_Solo_General_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Han_Solo</Branch>
+	</Event>
+	
+	<!-- Rogue Squadron -->
+	<Event Name="Spawn_Rogue_Squadron_Luke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rogue_Squadron_Luke</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Rogue_Squadron</Branch>
+	</Event>
+	<Event Name="Remove_Rogue_Squadron_Luke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Luke</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Rogue_Squadron</Branch>
+	</Event>
+	<Event Name="Spawn_Rogue_Squadron_Wedge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rogue_Squadron_Wedge</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Remove_Rogue_Squadron_Luke</Prereq>
+		<Branch>T_Rogue_Squadron</Branch>
+	</Event>
+	<Event Name="Remove_Rogue_Squadron_Wedge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Wedge</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Rogue_Squadron</Branch>
+	</Event>
+	<Event Name="Spawn_Rogue_Squadron_Darklighter">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rogue_Squadron_Darklighter</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Remove_Rogue_Squadron_Wedge</Prereq>
+		<Branch>T_Rogue_Squadron</Branch>
+	</Event>
+	
+	<!-- Aggressor Squadron -->
+	<Event Name="Spawn_Aggressor_Squadron_Salm">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Aggressor_Squadron_Salm</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Aggressor_Squadron</Branch>
+	</Event>
+	<Event Name="Remove_Aggressor_Squadron_Salm">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Aggressor_Squadron_Salm</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Aggressor_Squadron</Branch>
+	</Event>
+	<Event Name="Spawn_Aggressor_Squadron_Salm_BW">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Aggressor_Squadron_Salm_BW</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Remove_Aggressor_Squadron_Salm</Prereq>
+		<Branch>T_Aggressor_Squadron</Branch>
+	</Event>
+	<Event Name="Remove_Aggressor_Squadron_Salm_BW">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Aggressor_Squadron_Salm_BW</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Aggressor_Squadron</Branch>
+	</Event>
+	
+	<!-- Green Squadron - Jake Farrell -->
+	<Event Name="Spawn_Green_Squadron_Farrell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Green_Squadron_Farrell</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Jake_Farrell</Branch>
+	</Event>
+	<Event Name="Remove_Green_Squadron_Farrell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Green_Squadron_Farrell</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Jake_Farrell</Branch>
+	</Event>
+	
+	<!-- Cracken's Flight Group - Pash Cracken -->
+	<Event Name="Spawn_CFG_Cracken">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>CFG_Squadron_Cracken</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Pash_Cracken</Branch>
+	</Event>
+	<Event Name="Remove_CFG_Cracken">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>CFG_Squadron_Cracken</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Pash_Cracken</Branch>
+	</Event>
+	
+	<!-- Blue Squadron - Merrick Simms -->
+	<Event Name="Spawn_Blue_Squadron_Simms">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Blue_Squadron_Simms</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Merrick_Simms</Branch>
+	</Event>>
+	<Event Name="Merrick_Simms_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Simms_B-Wing</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Blue_Squadron_Simms</Prereq>
+		<Branch>T_Merrick_Simms</Branch>
+	</Event>
+	<Event Name="Remove_Blue_Squadron_Simms">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Blue_Squadron_Simms</Reward_Param1>
+		<Prereq>Merrick_Simms_Has_Been_Killed</Prereq>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Merrick_Simms</Branch>
+	</Event>
+	
+	<!-- Taanab Yellow Aces - Wes Janson -->
+	<Event Name="Spawn_Taanab_Yellow_Aces">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Taanab_Yellow_Aces</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Taanab_Yellow_Aces</Branch>
+	</Event>>
+
+	<!-- Areta Bell -->
+	<Event Name="Spawn_Areta_Bell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Areta_Bell_Swift_Liberty</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Areta_Bell_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Areta_Bell_Swift_Liberty</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Areta_Bell</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Remove_Areta_Bell">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Areta_Bell_Swift_Liberty</Reward_Param1>
+		<Prereq>Areta_Bell_Has_Been_Killed</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Remove_Areta_Bell_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Areta_Bell_Swift_Liberty</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Spawn_Areta_Bell_Endurance">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Areta_Bell_Endurance</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Remove_Areta_Bell_Timeout</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Areta_Bell_Endurance_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Areta_Bell_Endurance</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Areta_Bell_Endurance</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+	<Event Name="Remove_Areta_Bell_Endurance">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Areta_Bell_Endurance</Reward_Param1>
+		<Prereq>Areta_Bell_Endurance_Has_Been_Killed</Prereq>
+		<Branch>T_Areta_Bell</Branch>
+	</Event>
+
+	<!-- Firmus Nantz -->
+	<Event Name="Spawn_Firmus_Nantz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Firmus_Nantz_Valiant</Reward_Param1>
+		<Reward_Param2>Sullust</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Firmus_Nantz</Branch>
+	</Event>
+	<Event Name="Remove_Firmus_Nantz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Firmus_Nantz_Valiant</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Firmus_Nantz</Branch>
+	</Event>
+
+	<!-- Brenn Tantor -->
+	<Event Name="Spawn_Brenn_Tantor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Brenn_Tantor_Team</Reward_Param1>
+		<Reward_Param2>Endor</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Branch>T_Brenn_Tantor</Branch>
+	</Event>
+	<Event Name="Remove_Brenn_Tantor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Brenn_Tantor_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Brenn_Tantor</Branch>
+	</Event>
+
+	<!-- Traest Kre'Fey -->
+	<Event Name="Spawn_Traest_Krefey">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Ralroost</Reward_Param1>
+		<Reward_Param2>Bothawui</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Traest_Krefey</Branch>
+	</Event>
+
+	<!-- Etahn ABaht -->
+	<Event Name="Spawn_Etahn_ABaht">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Etahn_ABaht_Intrepid</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Etahn_ABaht</Branch>
+	</Event>
+
+	<!-- Syub Snunb -->
+	<Event Name="Spawn_Syub_Snunb">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Syub_Snunb_Resolve</Reward_Param1>
+		<Reward_Param2>Sullust</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Syub_Snunb</Branch>
+	</Event>
+
+	<!-- Keyan Farlander -->
+	<Event Name="Spawn_Keyan_Farlander">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Keyan_Farlander_Mon_Adapyne</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Keyan_Farlander</Branch>
+	</Event>
+
+	<!-- Kapp Dendo -->
+	<Event Name="Spawn_Kapp_Dendo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kapp_Dendo_Team</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Kapp_Dendo</Branch>
+	</Event>
+	
+	<!-- Wedge Antilles -->
+	<Event Name="Spawn_Wedge_Antilles_MM">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Wedge_Antilles_Mon_Mothma</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Prereq>Remove_Wedge_Antilles_Lusankya</Prereq>
+		<Branch>T_Wedge_Antilles</Branch>
+	</Event>
+	<Event Name="Build_Wedge_Antilles_Lusankya">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Wedge_Antilles_Lusankya</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Wedge_Antilles_MM</Prereq>
+		<Branch>T_Wedge_Antilles</Branch>
+	</Event>
+	<Event Name="Remove_Wedge_Antilles_MM_On_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Wedge_Antilles_Mon_Mothma</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Wedge_Antilles_Lusankya</Prereq>
+		<Branch>T_Wedge_Antilles</Branch>
+	</Event>
+	<Event Name="Wedge_Antilles_Lusankya_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Wedge_Antilles_Lusankya</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Wedge_Antilles_Lusankya</Prereq>
+		<Branch>T_Wedge_Antilles</Branch>
+	</Event>
+	<Event Name="Remove_Wedge_Antilles_Lusankya">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Wedge_Antilles_Lusankya</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Wedge_Antilles_Lusankya_Has_Been_Killed</Prereq>
+		<Branch>T_Wedge_Antilles</Branch>
+	</Event>
+
+	<!-- Talon Karrde -->
+	<Event Name="Spawn_Talon_Karrde">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Wild_Karrde</Reward_Param1>
+		<Reward_Param2>Myrkr</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Talon_Karrde</Branch>
+	</Event>
+	<Event Name="Remove_Talon_Karrde">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Wild_Karrde</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Talon_Karrde</Branch>
+	</Event>
+
+	<!-- Luke Skywalker -->
+	<Event Name="Spawn_Luke_Skywalker">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Luke_Skywalker</Branch>
+	</Event>
+
+	<!-- Kyle Katarn -->
+	<Event Name="Spawn_Kyle_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Kyle_Katarn</Branch>
+	</Event>
+
+	<!-- Corran Horn -->
+	<Event Name="Spawn_Corran_Horn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Corran_Horn_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Corran_Horn</Branch>
+	</Event>
+
+	<!-- Kam Solusar -->
+	<Event Name="Spawn_Kam_Solusar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kam_Solusar_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Branch>T_Kam_Solusar</Branch>
+	</Event>
+	<Event Name="Remove_Kam_Solusar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kam_Solusar_Team</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Kam_Solusar</Branch>
+	</Event>
+
+	<!-- Kyp Durron -->
+	<Event Name="Spawn_Kyp_Durron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kyp_Durron_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Kyp_Durron</Branch>
+	</Event>
+	
+	<!-- **************************************************** -->
+	<!-- Chief of State + Supreme Commander era 5 replacement -->
+	<!-- **************************************************** -->
+	
+	<!-- Leia Organa Solo - Chief of State -->
+	<Event Name="Spawn_Leia_Organa_COS">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Leia_Organa_Solo_COS_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	<Event Name="Leia_Organa_Solo_COS_Timeout">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>60</Event_Param1>
+		<Prereq>Spawn_Leia_Organa_COS</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	<Event Name="Leia_Organa_Solo_COS_Removal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Leia_Organa_Solo_COS_Team</Reward_Param1>
+		<Prereq>Leia_Organa_Solo_COS_Timeout</Prereq>
+		<Branch>T_Leia_Organa</Branch>
+	</Event>
+	
+	<!-- Gial Ackbar & Sien Sovv -->
+	<Event Name="Remove_Ackbar_Retirement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Galactic_Voyager</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Leia_Organa_Solo_COS_Timeout</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>
+	<!--<Event Name="Remove_Ackbar_Guardian_Retirement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Guardian</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Leia_Organa_Solo_COS_Timeout</Prereq>
+		<Branch>T_Gial_Ackbar</Branch>
+	</Event>-->
+	<Event Name="Spawn_Sien_Sovv">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sien_Sovv_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Ackbar_Retirement</Prereq>
+		<Prereq>Remove_Sien_Sovv_Guardian</Prereq>
+		<Branch>T_Sien_Sovv</Branch>
+	</Event>
+	<Event Name="Build_Sien_Sovv_Guardian">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Sien_Sovv_Guardian</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Sien_Sovv</Prereq>
+		<Branch>T_Sien_Sovv</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Sien_Sovv_Guardian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sien_Sovv_Guardian</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Build_Ackbar_Guardian Remove_Ackbar_Guardian_Retirement</Prereq>
+		<Branch>T_Sien_Sovv</Branch>
+	</Event>-->
+	<Event Name="Sien_Sovv_Guardian_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Sien_Sovv_Guardian</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Sien_Sovv_Guardian</Prereq>
+		<Branch>T_Sien_Sovv</Branch>
+	</Event>
+	<Event Name="Remove_Sien_Sovv_Guardian">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Sien_Sovv_Guardian</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Sien_Sovv_Guardian_Has_Been_Killed</Prereq>
+		<Branch>T_Sien_Sovv</Branch>
+	</Event>
+	
+	<!-- Borsk Fey'lia - Chief of State -->
+	<Event Name="Spawn_Borsk_Feylia_COS">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Borsk_Feylia_COS_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Leia_Organa_Solo_COS_Removal</Prereq>
+		<Branch>T_Borsk_Feylia</Branch>
+	</Event>
+	<Event Name="Borsk_Feylia_COS_Timeout">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>60</Event_Param1>
+		<Prereq>Spawn_Borsk_Feylia_COS</Prereq>
+		<Branch>T_Borsk_Feylia</Branch>
+	</Event>
+	<Event Name="Borsk_Feylia_COS_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Borsk_Feylia_COS</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Empire, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Borsk_Feylia_COS</Prereq>
+		<Branch>T_Borsk_Feylia</Branch>
+	</Event>
+	<Event Name="Borsk_Feylia_COS_Removal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Borsk_Feylia_COS_Team</Reward_Param1>
+		<Prereq>Borsk_Feylia_COS_Timeout</Prereq>
+		<Prereq>Borsk_Feylia_COS_Has_Been_Killed</Prereq>
+		<Branch>T_Borsk_Feylia</Branch>
+	</Event>
+	
+	<!-- Cal Omas - Chief of State -->
+	<Event Name="Spawn_Cal_Omas_COS">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Cal_Omas_COS_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Borsk_Feylia_COS_Removal</Prereq>
+		<Branch>T_Cal_Omas</Branch>
+	</Event>
+
+	<!-- **************** -->
+	<!-- * Eras section * -->
+	<!-- **************** -->
+	
+	<!-- Era 2 -->
+	
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_Z-95">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_R41">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>R41_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Consular">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Consular_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Rep_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Republic_Assault_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Munificent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Munificent_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Recusant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Recusant_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+	<!-- Era 3 -->
+	
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_BTL_A4_Y_wing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Y-Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Z-95_Headhunter_II">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter2_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_R-22_Spearhead">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>A_Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Dreadnought">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Dreadnought</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Bulwark">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Bulwark_Mk1</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<!-- Era 4 -->
+	
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_T-65_AC1_X_wing">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_B-Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>B-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Corellian_Corvette">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Corellian_Corvette</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Calamari_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Calamari_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_MC80A">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC80A</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Nebulon_B_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Nebulon_B_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_CC-7700">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>CC-7700_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+	<Event Name="Disable_Alliance_Assault_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Alliance_Assault_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<!-- Era 5 -->
+
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	<Event Name="Disable_Y-Wing_S3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Y-Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_X-Wing_Squadron2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>X-Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_A_Wing_Squadron2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>A_Wing_Squadron2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_E_Wing_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>E_Wing_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Marauder_Corvette">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Marauder_Corvette</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC_40a">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC_40a</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Liberator_Carrier">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Liberator_Carrier</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC30_Frigate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC30_Frigate</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Alliance_Assault_Frigate2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Alliance_Assault_Frigate2</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Calamari_Cruiser_HO_Type">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Calamari_Cruiser_HO_Type</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_MC_80b">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MC_80b</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	<Event Name="Disable_Dauntless_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Dauntless_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+	
+	<!-- Era 6 -->
+
+	<Event Name="Rebels_Enter_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_X-Wing_Squadron3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>X-Wing_Squadron3</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_05</Prereq>
+	</Event>
+
+</Story>

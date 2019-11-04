@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Props_DRO_KAAS>
+
+	
+<Props_DRO_KAAS Name="Kiosk">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>kas kiosk.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_DRO_KAAS>			
+<Props_DRO_KAAS Name="Metall bench">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>bench.alo</Land_Model_Name>
+		<Scale_Factor>110</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_DRO_KAAS>
+</Props_DRO_KAAS>

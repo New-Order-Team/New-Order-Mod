@@ -1,0 +1,3685 @@
+<?xml version="1.0"?>
+<HardPoints_SM>
+<HardPoint Name="HPs0">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_000</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_000</Collision_Mesh>
+			<Damage_Decal>MuzzleB_000</Damage_Decal>
+			<Damage_Particles>MuzzleB_000</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_000</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_000</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs1">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_036</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_036</Collision_Mesh>
+			<Damage_Decal>MuzzleB_036</Damage_Decal>
+			<Damage_Particles>MuzzleB_036</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_036</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_036</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs2">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_072</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_072</Collision_Mesh>
+			<Damage_Decal>MuzzleB_072</Damage_Decal>
+			<Damage_Particles>MuzzleB_072</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_72</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_72</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs3">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_108</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_108</Collision_Mesh>
+			<Damage_Decal>MuzzleB_108</Damage_Decal>
+			<Damage_Particles>MuzzleB_108</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_108</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_108</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs4">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_144</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_144</Collision_Mesh>
+			<Damage_Decal>MuzzleB_144</Damage_Decal>
+			<Damage_Particles>MuzzleB_144</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_144</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_144</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs5">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_180</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_180</Collision_Mesh>
+			<Damage_Decal>MuzzleB_180</Damage_Decal>
+			<Damage_Particles>MuzzleB_180</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_180</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_180</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs6">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_216</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_216</Collision_Mesh>
+			<Damage_Decal>MuzzleB_216</Damage_Decal>
+			<Damage_Particles>MuzzleB_216</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_216</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_216</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs7">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_252</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_252</Collision_Mesh>
+			<Damage_Decal>MuzzleB_252</Damage_Decal>
+			<Damage_Particles>MuzzleB_252</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_252</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_252</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs8">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_288</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_288</Collision_Mesh>
+			<Damage_Decal>MuzzleB_288</Damage_Decal>
+			<Damage_Particles>MuzzleB_288</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_288</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_288</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs9">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_324</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_324</Collision_Mesh>
+			<Damage_Decal>MuzzleB_324</Damage_Decal>
+			<Damage_Particles>MuzzleB_324</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_324</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_324</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs10">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_360</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_360</Collision_Mesh>
+			<Damage_Decal>MuzzleB_360</Damage_Decal>
+			<Damage_Particles>MuzzleB_360</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_360</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_360</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs11">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_396</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_396</Collision_Mesh>
+			<Damage_Decal>MuzzleB_396</Damage_Decal>
+			<Damage_Particles>MuzzleB_396</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_396</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_396</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs12">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_432</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_432</Collision_Mesh>
+			<Damage_Decal>MuzzleB_432</Damage_Decal>
+			<Damage_Particles>MuzzleB_432</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_432</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_432</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs13">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_468</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_468</Collision_Mesh>
+			<Damage_Decal>MuzzleB_468</Damage_Decal>
+			<Damage_Particles>MuzzleB_468</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_468</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_468</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs14">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_504</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_504</Collision_Mesh>
+			<Damage_Decal>MuzzleB_504</Damage_Decal>
+			<Damage_Particles>MuzzleB_504</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_504</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_504</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs15">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_540</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_540</Collision_Mesh>
+			<Damage_Decal>MuzzleB_540</Damage_Decal>
+			<Damage_Particles>MuzzleB_540</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_540</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_540</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs16">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_576</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_576</Collision_Mesh>
+			<Damage_Decal>MuzzleB_576</Damage_Decal>
+			<Damage_Particles>MuzzleB_576</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_576</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_576</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs17">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_612</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_612</Collision_Mesh>
+			<Damage_Decal>MuzzleB_612</Damage_Decal>
+			<Damage_Particles>MuzzleB_612</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_612</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_612</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs18">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_648</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_648</Collision_Mesh>
+			<Damage_Decal>MuzzleB_648</Damage_Decal>
+			<Damage_Particles>MuzzleB_648</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_648</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_648</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs19">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_684</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_684</Collision_Mesh>
+			<Damage_Decal>MuzzleB_684</Damage_Decal>
+			<Damage_Particles>MuzzleB_684</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_684</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_684</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs20">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_720</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_720</Collision_Mesh>
+			<Damage_Decal>MuzzleB_720</Damage_Decal>
+			<Damage_Particles>MuzzleB_720</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_720</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_720</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs21">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_756</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_756</Collision_Mesh>
+			<Damage_Decal>MuzzleB_756</Damage_Decal>
+			<Damage_Particles>MuzzleB_756</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_756</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_756</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs22">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_792</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_792</Collision_Mesh>
+			<Damage_Decal>MuzzleB_792</Damage_Decal>
+			<Damage_Particles>MuzzleB_792</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_792</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_792</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs23">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_828</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_828</Collision_Mesh>
+			<Damage_Decal>MuzzleB_828</Damage_Decal>
+			<Damage_Particles>MuzzleB_828</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_828</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_828</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs24">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_864</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_864</Collision_Mesh>
+			<Damage_Decal>MuzzleB_864</Damage_Decal>
+			<Damage_Particles>MuzzleB_864</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_864</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_864</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs25">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_001</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_001</Collision_Mesh>
+			<Damage_Decal>MuzzleB_001</Damage_Decal>
+			<Damage_Particles>MuzzleB_001</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_001</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_001</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs26">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_037</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_037</Collision_Mesh>
+			<Damage_Decal>MuzzleB_037</Damage_Decal>
+			<Damage_Particles>MuzzleB_037</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_037</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_037</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs27">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_073</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_073</Collision_Mesh>
+			<Damage_Decal>MuzzleB_073</Damage_Decal>
+			<Damage_Particles>MuzzleB_073</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_073</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_073</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs28">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_109</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_109</Collision_Mesh>
+			<Damage_Decal>MuzzleB_109</Damage_Decal>
+			<Damage_Particles>MuzzleB_109</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_109</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_109</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs29">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_145</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_145</Collision_Mesh>
+			<Damage_Decal>MuzzleB_145</Damage_Decal>
+			<Damage_Particles>MuzzleB_145</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_145</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_145</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs30">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_181</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_181</Collision_Mesh>
+			<Damage_Decal>MuzzleB_181</Damage_Decal>
+			<Damage_Particles>MuzzleB_181</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_181</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_181</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs31">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_217</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_217</Collision_Mesh>
+			<Damage_Decal>MuzzleB_217</Damage_Decal>
+			<Damage_Particles>MuzzleB_217</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_217</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_217</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs32">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_253</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_253</Collision_Mesh>
+			<Damage_Decal>MuzzleB_253</Damage_Decal>
+			<Damage_Particles>MuzzleB_253</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_253</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_253</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs33">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_289</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_289</Collision_Mesh>
+			<Damage_Decal>MuzzleB_289</Damage_Decal>
+			<Damage_Particles>MuzzleB_289</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_289</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_289</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs34">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_325</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_325</Collision_Mesh>
+			<Damage_Decal>MuzzleB_325</Damage_Decal>
+			<Damage_Particles>MuzzleB_325</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_325</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_325</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs35">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_361</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_361</Collision_Mesh>
+			<Damage_Decal>MuzzleB_361</Damage_Decal>
+			<Damage_Particles>MuzzleB_361</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_361</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_361</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs36">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_397</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_397</Collision_Mesh>
+			<Damage_Decal>MuzzleB_397</Damage_Decal>
+			<Damage_Particles>MuzzleB_397</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_397</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_397</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs37">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_433</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_433</Collision_Mesh>
+			<Damage_Decal>MuzzleB_433</Damage_Decal>
+			<Damage_Particles>MuzzleB_433</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_433</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_433</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs38">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_469</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_469</Collision_Mesh>
+			<Damage_Decal>MuzzleB_469</Damage_Decal>
+			<Damage_Particles>MuzzleB_469</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_469</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_469</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs39">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_505</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_505</Collision_Mesh>
+			<Damage_Decal>MuzzleB_505</Damage_Decal>
+			<Damage_Particles>MuzzleB_505</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_505</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_505</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs40">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_541</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_541</Collision_Mesh>
+			<Damage_Decal>MuzzleB_541</Damage_Decal>
+			<Damage_Particles>MuzzleB_541</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_541</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_541</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs41">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_577</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_577</Collision_Mesh>
+			<Damage_Decal>MuzzleB_577</Damage_Decal>
+			<Damage_Particles>MuzzleB_577</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_577</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_577</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs42">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_613</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_613</Collision_Mesh>
+			<Damage_Decal>MuzzleB_613</Damage_Decal>
+			<Damage_Particles>MuzzleB_613</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_613</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_613</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs43">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_649</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_649</Collision_Mesh>
+			<Damage_Decal>MuzzleB_649</Damage_Decal>
+			<Damage_Particles>MuzzleB_649</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_649</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_649</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs44">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_685</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_685</Collision_Mesh>
+			<Damage_Decal>MuzzleB_685</Damage_Decal>
+			<Damage_Particles>MuzzleB_685</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_685</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_685</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs45">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_721</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_721</Collision_Mesh>
+			<Damage_Decal>MuzzleB_721</Damage_Decal>
+			<Damage_Particles>MuzzleB_721</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_721</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_721</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs46">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_757</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_757</Collision_Mesh>
+			<Damage_Decal>MuzzleB_757</Damage_Decal>
+			<Damage_Particles>MuzzleB_757</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_757</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_757</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs47">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_793</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_793</Collision_Mesh>
+			<Damage_Decal>MuzzleB_793</Damage_Decal>
+			<Damage_Particles>MuzzleB_793</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_793</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_793</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs48">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_829</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_829</Collision_Mesh>
+			<Damage_Decal>MuzzleB_829</Damage_Decal>
+			<Damage_Particles>MuzzleB_829</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_829</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_829</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs49">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_865</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_865</Collision_Mesh>
+			<Damage_Decal>MuzzleB_865</Damage_Decal>
+			<Damage_Particles>MuzzleB_865</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_865</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_865</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs50">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_016</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_016</Collision_Mesh>
+			<Damage_Decal>MuzzleB_016</Damage_Decal>
+			<Damage_Particles>MuzzleB_016</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_016</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_016</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs51">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_052</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_052</Collision_Mesh>
+			<Damage_Decal>MuzzleB_052</Damage_Decal>
+			<Damage_Particles>MuzzleB_052</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_052</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_052</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs52">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_088</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_088</Collision_Mesh>
+			<Damage_Decal>MuzzleB_088</Damage_Decal>
+			<Damage_Particles>MuzzleB_088</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_088</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_088</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs53">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_124</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_124</Collision_Mesh>
+			<Damage_Decal>MuzzleB_124</Damage_Decal>
+			<Damage_Particles>MuzzleB_124</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_124</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_124</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs54">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_160</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_160</Collision_Mesh>
+			<Damage_Decal>MuzzleB_160</Damage_Decal>
+			<Damage_Particles>MuzzleB_160</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_160</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_160</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs55">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_196</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_196</Collision_Mesh>
+			<Damage_Decal>MuzzleB_196</Damage_Decal>
+			<Damage_Particles>MuzzleB_196</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_196</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_196</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs56">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_232</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_232</Collision_Mesh>
+			<Damage_Decal>MuzzleB_232</Damage_Decal>
+			<Damage_Particles>MuzzleB_232</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_232</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_232</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs57">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_268</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_268</Collision_Mesh>
+			<Damage_Decal>MuzzleB_268</Damage_Decal>
+			<Damage_Particles>MuzzleB_268</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_268</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_268</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs58">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_304</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_304</Collision_Mesh>
+			<Damage_Decal>MuzzleB_304</Damage_Decal>
+			<Damage_Particles>MuzzleB_304</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_304</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_304</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs59">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_340</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_340</Collision_Mesh>
+			<Damage_Decal>MuzzleB_340</Damage_Decal>
+			<Damage_Particles>MuzzleB_340</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_340</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_340</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs60">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_376</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_376</Collision_Mesh>
+			<Damage_Decal>MuzzleB_376</Damage_Decal>
+			<Damage_Particles>MuzzleB_376</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_376</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_376</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs61">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_412</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_412</Collision_Mesh>
+			<Damage_Decal>MuzzleB_412</Damage_Decal>
+			<Damage_Particles>MuzzleB_412</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_412</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_412</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs62">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_448</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_448</Collision_Mesh>
+			<Damage_Decal>MuzzleB_448</Damage_Decal>
+			<Damage_Particles>MuzzleB_448</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_448</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_448</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs63">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_484</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_484</Collision_Mesh>
+			<Damage_Decal>MuzzleB_484</Damage_Decal>
+			<Damage_Particles>MuzzleB_484</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_484</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_484</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs64">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_520</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_520</Collision_Mesh>
+			<Damage_Decal>MuzzleB_520</Damage_Decal>
+			<Damage_Particles>MuzzleB_520</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_520</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_520</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs65">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_556</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_556</Collision_Mesh>
+			<Damage_Decal>MuzzleB_556</Damage_Decal>
+			<Damage_Particles>MuzzleB_556</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_556</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_556</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs66">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_592</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_592</Collision_Mesh>
+			<Damage_Decal>MuzzleB_592</Damage_Decal>
+			<Damage_Particles>MuzzleB_592</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_592</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_592</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs67">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_628</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_628</Collision_Mesh>
+			<Damage_Decal>MuzzleB_628</Damage_Decal>
+			<Damage_Particles>MuzzleB_628</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_628</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_628</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs68">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_664</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_664</Collision_Mesh>
+			<Damage_Decal>MuzzleB_664</Damage_Decal>
+			<Damage_Particles>MuzzleB_664</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_664</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_664</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs69">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_700</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_700</Collision_Mesh>
+			<Damage_Decal>MuzzleB_700</Damage_Decal>
+			<Damage_Particles>MuzzleB_700</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_700</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_700</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs70">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_736</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_736</Collision_Mesh>
+			<Damage_Decal>MuzzleB_736</Damage_Decal>
+			<Damage_Particles>MuzzleB_736</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_736</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_736</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs71">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_772</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_772</Collision_Mesh>
+			<Damage_Decal>MuzzleB_772</Damage_Decal>
+			<Damage_Particles>MuzzleB_772</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_772</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_772</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs72">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_808</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_808</Collision_Mesh>
+			<Damage_Decal>MuzzleB_808</Damage_Decal>
+			<Damage_Particles>MuzzleB_808</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_808</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_808</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs73">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_844</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_844</Collision_Mesh>
+			<Damage_Decal>MuzzleB_844</Damage_Decal>
+			<Damage_Particles>MuzzleB_844</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_844</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_844</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs74">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_880</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_880</Collision_Mesh>
+			<Damage_Decal>MuzzleB_880</Damage_Decal>
+			<Damage_Particles>MuzzleB_880</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_880</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_880</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs75">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_017</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_017</Collision_Mesh>
+			<Damage_Decal>MuzzleB_017</Damage_Decal>
+			<Damage_Particles>MuzzleB_017</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_017</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_017</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs76">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_053</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_053</Collision_Mesh>
+			<Damage_Decal>MuzzleB_053</Damage_Decal>
+			<Damage_Particles>MuzzleB_053</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_053</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_053</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs77">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_089</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_089</Collision_Mesh>
+			<Damage_Decal>MuzzleB_089</Damage_Decal>
+			<Damage_Particles>MuzzleB_089</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_089</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_089</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs78">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_125</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_125</Collision_Mesh>
+			<Damage_Decal>MuzzleB_125</Damage_Decal>
+			<Damage_Particles>MuzzleB_125</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_125</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_125</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs79">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_161</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_161</Collision_Mesh>
+			<Damage_Decal>MuzzleB_161</Damage_Decal>
+			<Damage_Particles>MuzzleB_161</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_161</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_161</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs80">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_197</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_197</Collision_Mesh>
+			<Damage_Decal>MuzzleB_197</Damage_Decal>
+			<Damage_Particles>MuzzleB_197</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_197</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_197</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs81">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_233</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_233</Collision_Mesh>
+			<Damage_Decal>MuzzleB_233</Damage_Decal>
+			<Damage_Particles>MuzzleB_233</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_233</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_233</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs82">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_269</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_269</Collision_Mesh>
+			<Damage_Decal>MuzzleB_269</Damage_Decal>
+			<Damage_Particles>MuzzleB_269</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_269</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_269</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs83">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_305</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_305</Collision_Mesh>
+			<Damage_Decal>MuzzleB_305</Damage_Decal>
+			<Damage_Particles>MuzzleB_305</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_305</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_305</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs84">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_341</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_341</Collision_Mesh>
+			<Damage_Decal>MuzzleB_341</Damage_Decal>
+			<Damage_Particles>MuzzleB_341</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_341</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_341</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs85">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_377</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_377</Collision_Mesh>
+			<Damage_Decal>MuzzleB_377</Damage_Decal>
+			<Damage_Particles>MuzzleB_377</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_377</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_377</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs86">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_413</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_413</Collision_Mesh>
+			<Damage_Decal>MuzzleB_413</Damage_Decal>
+			<Damage_Particles>MuzzleB_413</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_413</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_413</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs87">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_449</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_449</Collision_Mesh>
+			<Damage_Decal>MuzzleB_449</Damage_Decal>
+			<Damage_Particles>MuzzleB_449</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_449</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_449</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs88">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_485</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_485</Collision_Mesh>
+			<Damage_Decal>MuzzleB_485</Damage_Decal>
+			<Damage_Particles>MuzzleB_485</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_485</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_485</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs89">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_521</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_521</Collision_Mesh>
+			<Damage_Decal>MuzzleB_521</Damage_Decal>
+			<Damage_Particles>MuzzleB_521</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_521</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_521</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs90">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_557</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_557</Collision_Mesh>
+			<Damage_Decal>MuzzleB_557</Damage_Decal>
+			<Damage_Particles>MuzzleB_557</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_557</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_557</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs91">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_593</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_593</Collision_Mesh>
+			<Damage_Decal>MuzzleB_593</Damage_Decal>
+			<Damage_Particles>MuzzleB_593</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_593</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_593</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs92">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_629</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_629</Collision_Mesh>
+			<Damage_Decal>MuzzleB_629</Damage_Decal>
+			<Damage_Particles>MuzzleB_629</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_629</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_629</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs93">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_665</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_665</Collision_Mesh>
+			<Damage_Decal>MuzzleB_665</Damage_Decal>
+			<Damage_Particles>MuzzleB_665</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_665</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_665</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs94">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_701</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_701</Collision_Mesh>
+			<Damage_Decal>MuzzleB_701</Damage_Decal>
+			<Damage_Particles>MuzzleB_701</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_701</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_701</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs95">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_737</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_737</Collision_Mesh>
+			<Damage_Decal>MuzzleB_737</Damage_Decal>
+			<Damage_Particles>MuzzleB_737</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_737</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_737</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs96">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_773</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_773</Collision_Mesh>
+			<Damage_Decal>MuzzleB_773</Damage_Decal>
+			<Damage_Particles>MuzzleB_773</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_773</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_773</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs97">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_809</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_809</Collision_Mesh>
+			<Damage_Decal>MuzzleB_809</Damage_Decal>
+			<Damage_Particles>MuzzleB_809</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_809</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_809</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs98">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_845</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_845</Collision_Mesh>
+			<Damage_Decal>MuzzleB_845</Damage_Decal>
+			<Damage_Particles>MuzzleB_845</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_845</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_845</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs99">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_HTBL</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleB_881</Attachment_Bone>
+			<Collision_Mesh>MuzzleB_881</Collision_Mesh>
+			<Damage_Decal>MuzzleB_881</Damage_Decal>
+			<Damage_Particles>MuzzleB_881</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleB_881</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleB_881</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs100">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_02</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_02</Collision_Mesh>
+			<Damage_Decal>MuzzleC_02</Damage_Decal>
+			<Damage_Particles>MuzzleC_02</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_02</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_02</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs101">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_26</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_26</Collision_Mesh>
+			<Damage_Decal>MuzzleC_26</Damage_Decal>
+			<Damage_Particles>MuzzleC_26</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_26</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_26</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs102">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_50</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_50</Collision_Mesh>
+			<Damage_Decal>MuzzleC_50</Damage_Decal>
+			<Damage_Particles>MuzzleC_50</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_50</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_50</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs103">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_74</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_74</Collision_Mesh>
+			<Damage_Decal>MuzzleC_74</Damage_Decal>
+			<Damage_Particles>MuzzleC_74</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_74</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_74</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.333</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.333</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>8</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs104">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_03</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_03</Collision_Mesh>
+			<Damage_Decal>MuzzleC_03</Damage_Decal>
+			<Damage_Particles>MuzzleC_03</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_03</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_03</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs105">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_27</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_27</Collision_Mesh>
+			<Damage_Decal>MuzzleC_27</Damage_Decal>
+			<Damage_Particles>MuzzleC_27</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_27</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_27</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs106">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_51</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_51</Collision_Mesh>
+			<Damage_Decal>MuzzleC_51</Damage_Decal>
+			<Damage_Particles>MuzzleC_51</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_51</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_51</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>10</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+
+		<HardPoint Name="HPs107">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+			<Is_Targetable>No</Is_Targetable>
+			<Is_Destroyable>No</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
+			<Health>183.0</Health>
+			
+			<Attachment_Bone>MuzzleC_75</Attachment_Bone>
+			<Collision_Mesh>MuzzleC_75</Collision_Mesh>
+			<Damage_Decal>MuzzleC_75</Damage_Decal>
+			<Damage_Particles>MuzzleC_75</Damage_Particles>
+			
+			<Fire_Bone_A>MuzzleC_75</Fire_Bone_A>
+			<Fire_Bone_B>MuzzleC_75</Fire_Bone_B>
+			<Fire_Cone_Width>180.0</Fire_Cone_Width>
+			<Fire_Cone_Height>180.0</Fire_Cone_Height>
+			<Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>1.333</Fire_Min_Recharge_Seconds>
+			<Fire_Max_Recharge_Seconds>1.333</Fire_Max_Recharge_Seconds>
+			<Fire_Pulse_Count>8</Fire_Pulse_Count>
+			<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+			<Fire_Range_Distance>1600.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		</HardPoint>
+	<HardPoint Name="HPsFB">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
+		<Collision_Mesh>SPAWN_01</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>264.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+	</HardPoint>
+</HardPoints_SM>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Ishin_Il_Raz_Data>
+	<UniqueUnit Name="Emperors_Disciple_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_ISHIN_IL_RAZ_EMPERORS_DISCIPLE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ISHIN_IL_RAZ </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GA </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ishin_il_raz.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+	</UniqueUnit>
+</Ishin_Il_Raz_Data>

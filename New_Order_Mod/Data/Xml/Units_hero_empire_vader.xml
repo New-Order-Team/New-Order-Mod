@@ -1,0 +1,872 @@
+<?xml version="1.0"?>
+<Vader_Data>
+
+	<!-- Vader era I - Exactor -->
+	<HeroUnit Name="Darth_Vader">
+		<Weather_Category>Infantry_Visor</Weather_Category>
+		<LOD_Bias>5</LOD_Bias>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
+		<Land_Model_Name>EI_VADER.ALO</Land_Model_Name>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+
+		<GalacticBehavior> SELECTABLE </GalacticBehavior>
+		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE,REVEAL,HIDE_WHEN_FOGGED, TARGETING, WEAPON ,DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT, SPAWN_SQUADRON </LandBehavior>
+
+		<!-- Lightsaber holstering data -->
+		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
+		<SFXEvent_Holster_Weapon> Unit_Light_Saber_Off </SFXEvent_Holster_Weapon>
+		<Holster_Weapon_Bone_Name> b_saber </Holster_Weapon_Bone_Name>
+		<Holster_Drawn_Bone_Translation> 0.0, 0.0, 0.0 </Holster_Drawn_Bone_Translation>
+		<Holster_Holstered_Bone_Translation> 0.0, 4.365, 0.0 </Holster_Holstered_Bone_Translation>
+		<Holster_Transition_Time_In_Secs> 0.17 </Holster_Transition_Time_In_Secs>
+		<Holster_Minimum_Drawn_Time_In_Secs> 15.0 </Holster_Minimum_Drawn_Time_In_Secs>
+		<Holster_Disable_Engine_Loops> Yes </Holster_Disable_Engine_Loops>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Vader_Lightsaber_Idle_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Vader_Lightsaber_Moving_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Vader_Lightsaber_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Movement_Animation_Speed> 1 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .42 </Walk_Animation_Speed>
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationOrder> 1 </FormationOrder>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<Min_Speed> .1 </Min_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire</Affiliation>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Size_Value>10</Size_Value>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Tactical_Health>1000</Tactical_Health>
+		<Autoresolve_Health>9194</Autoresolve_Health>
+		<Damage>2884</Damage>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<Is_Stationary_When_Attacking>Yes</Is_Stationary_When_Attacking>
+		<Projectile_Types>Proj_Lightsaber_Vader</Projectile_Types>
+		<Targeting_Max_Attack_Distance>20.0</Targeting_Max_Attack_Distance>
+		<Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
+
+		<Starting_Spawned_Units_Tech_0>501st_Stromtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Commander_Bow, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>501st_Stromtrooper, 0</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Commander_Bow, 0</Reserve_Spawned_Units_Tech_0> 	
+		<Spawned_Squadron_Location_Bones>Root</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>10.0</Spawned_Squadron_Location_Flyout_Distances>
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+
+		<SFXEvent_Select> Unit_Select_Vader </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Vader </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Vader </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Vader </SFXEvent_Guard>
+		<SFXEvent_Group_Move>Unit_Group_Move_Vader</SFXEvent_Group_Move>
+		<SFXEvent_Group_Attack>Unit_Group_Attack_Vader</SFXEvent_Group_Attack>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader </SFXEvent_Health_Critical_Warning>
+		<Death_SFXEvent_Start_Die> Unit_Defeat_Vader </Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Moving> Ambient_Vader_Random_Breath </SFXEvent_Ambient_Moving>
+		
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<CategoryMask> LandHero | SpaceHero </CategoryMask>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<MovementClass>Infantry</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Lua_Script>DarthVader</Lua_Script>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<AI_Combat_Power>500</AI_Combat_Power>
+
+		<Select_Box_Scale>32</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Neutralization_Cost>4000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		<Population_Value>1</Population_Value>
+		
+		<Unique_Space_Unit>Exactor_SD</Unique_Space_Unit>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability 
+			<Unit_Ability>
+				<Type>FORCE_TELEKINESIS</Type>
+				<Recharge_Seconds>30.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Telekinesis </GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Lift_Vader </SFXEvent_Target_Ability> 
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>-->
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="Vader_Redirect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.75</Redirect_Chance>
+				<Block_Chance>0.75</Block_Chance>
+				<Reaction_Arc_In_Degrees>180.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
+				<Applicable_Unit_Categories>Infantry, Vehicle, Structure, Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+
+			<Force_Whirlwind_Ability Name="Vader_Force_Whirlwind">
+				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>75.0</Activation_Max_Range>
+				<Damage_Amount>500.0</Damage_Amount>
+				<Damage_Range>75.0</Damage_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Travel_Time_In_Secs>1.0</Travel_Time_In_Secs>
+				<!-- Percentage chance to activate given a certain number of valid targets in range. -->
+				<!-- First number in the pair is the number of valid targets, second is the chance to activate. -->
+				<Activation_Chance>0,0.0, 1,0.0, 5,1.0, 500,1.0</Activation_Chance>
+				<!--				<Activation_Chance>0,0.0, 500,0.0</Activation_Chance>	< ! - - never activate -->
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Force_Whirlwind</SFXEvent_Activate>
+				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
+				<Owner_Particle_Bone_Name />
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count />
+			</Force_Whirlwind_Ability>
+
+			<Force_Telekinesis_Ability Name="Vader_Force_Telekinesis">
+				<Activation_Style>Special_Attack</Activation_Style>
+				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>190.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<Damage_Amount>10.0</Damage_Amount>
+				<Damage_Percentage>0.0</Damage_Percentage>
+				<Damage_Interval_In_Secs>0.2</Damage_Interval_In_Secs>
+				<!-- Note: As well as matching the below Unit_Category/Unit_Type filters, the -->
+				<!-- target object must also have the TELEKINESIS_TARGET behavior attached. -->
+				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate />
+				<Target_Particle_Effect>Force_Telekinesis_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT</Target_Particle_Bone_Name>
+			</Force_Telekinesis_Ability>
+
+			<Earthquake_Attack_Ability Name="Vader_Attack_Structures">
+				<Activation_Style>Special_Attack</Activation_Style>
+				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>190.0</Activation_Max_Range>
+				<Activation_Chance>1.0</Activation_Chance>
+				<Damage_Amount>0.0</Damage_Amount>
+				<Damage_Percentage>0.01</Damage_Percentage>
+				<Damage_Interval_In_Secs>0.4</Damage_Interval_In_Secs>
+				<!-- Note: As well as matching the below Unit_Category/Unit_Type filters, the -->
+				<!-- target object must also have the EARTHQUAKE_TARGET behavior attached. -->
+				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate />
+				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name />
+			</Earthquake_Attack_Ability>
+
+			<System_Spy_Ability Name="Vader_System_Spy_Force_Sensitive">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
+			</System_Spy_Ability>
+
+			<Combat_Bonus_Ability Name="Vader_Ground_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.2</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Vader_Space_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.2</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Darth_Vader_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Exactor_SD, Immortal_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.5</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.5</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.5</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</HeroUnit>
+	<HeroUnit Name="Darth_Vader_Bounty_Hunter_Immune">
+		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+	</HeroUnit>
+
+	<UniqueUnit Name="Exactor_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+
+		<Text_ID>TEXT_UNIT_HERO_VADER_EXACTOR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXACTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		<Population_Value>16</Population_Value>
+		<Space_Override_Population_Value>16</Space_Override_Population_Value>
+		<Damage>3090</Damage>
+		<Autoresolve_Health>10608</Autoresolve_Health>
+		<AI_Combat_Power>13698</AI_Combat_Power>
+		<Override_Bounty_SP>13698</Override_Bounty_SP>
+		<Override_Bounty_MP>13698</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>13698</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>13698</Piracy_Value_Credits>
+		<Score_Cost_Credits>13698</Score_Cost_Credits>
+		<Build_Cost_Credits>16670</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>16670</Tactical_Build_Cost_Multiplayer>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Vader_Executor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Vader_Executor</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Health_Critical_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Health_Low_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
+	</UniqueUnit>
+
+	<HeroCompany Name="Darth_Team">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Affiliation>Empire</Affiliation>
+		<Damage>3090</Damage>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Darth_Vader</Company_Units>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>16</Population_Value>
+		<Land_Override_Population_Value>1</Land_Override_Population_Value>
+		
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader</SFXEvent_Fleet_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+	            <GUI_Activated_Ability_Name> ISD_Tractor_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>5</Recharge_Seconds>
+	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>  
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</HeroCompany>
+
+	<!-- Vader era III - Immortal -->
+	<HeroUnit Name="Darth_Vader_Immortal">
+		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
+		<Unique_Space_Unit>Immortal_SD</Unique_Space_Unit>
+	</HeroUnit>
+
+	<UniqueUnit Name="Immortal_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer_2</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+
+		<Text_ID>TEXT_UNIT_HERO_VADER_IMMORTAL</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_IMMORTAL </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<Population_Value>20</Population_Value>
+		<Space_Override_Population_Value>20</Space_Override_Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		<Damage>3765</Damage>
+		<Autoresolve_Health>12048</Autoresolve_Health>
+		<AI_Combat_Power>15813</AI_Combat_Power>
+		<Override_Bounty_SP>15813</Override_Bounty_SP>
+		<Override_Bounty_MP>15813</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>15813</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>15813</Piracy_Value_Credits>
+		<Score_Cost_Credits>15813</Score_Cost_Credits>
+		<Build_Cost_Credits>20040</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>20040</Tactical_Build_Cost_Multiplayer>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Vader_Executor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Vader_Executor</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Health_Critical_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Health_Low_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
+	</UniqueUnit>
+	<TransportUnit Name="Imperial_Landing_Craft_Vader">
+		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
+	</TransportUnit>
+
+	<HeroCompany Name="Darth_Team_Immortal">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+		<Affiliation>Empire</Affiliation>
+		<Damage>3765</Damage>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Vader</Company_Transport_Unit>
+		<Company_Units>Darth_Vader_Immortal</Company_Units>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>20</Population_Value>
+		<Land_Override_Population_Value>1</Land_Override_Population_Value>
+		
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader</SFXEvent_Fleet_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+	            <GUI_Activated_Ability_Name> ISD_Tractor_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>5</Recharge_Seconds>
+	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>  
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</HeroCompany>
+
+	<!-- Vader era III upgrade - Executor -->
+	<HeroUnit Name="Darth_Vader_Executor">
+		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
+		<Unique_Space_Unit>Executor_SSD</Unique_Space_Unit>
+	</HeroUnit>
+
+	<UniqueUnit Name="Executor_SSD">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		
+		<Population_Value>221</Population_Value>
+
+		<Text_ID>TEXT_UNIT_HERO_VADER_EXECUTOR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXECUTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Vader_Executor</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Vader_Executor</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Health_Critical_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Vader_Executor </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Health_Low_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Vader_Executor</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
+	</UniqueUnit>
+
+	<HeroCompany Name="Darth_Team_Executor">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_VADER_EXECUTOR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXECUTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Affiliation>Empire</Affiliation>
+		<Damage>62650</Damage>
+		<Combat_Power_Value>0</Combat_Power_Value>
+
+		<Tech_Level>3</Tech_Level>
+		<Required_Orbiting_Units>Imperial_Landing_Craft_Vader</Required_Orbiting_Units>
+		<Build_Cost_Credits>220590</Build_Cost_Credits>
+		<Build_Time_Seconds>454</Build_Time_Seconds>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Darth_Vader_Executor</Company_Units>
+		<CategoryMask>LandHero | SpaceHero</CategoryMask>
+		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+		<Population_Value>221</Population_Value>
+		<Land_Override_Population_Value>1</Land_Override_Population_Value>
+		
+		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
+		
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Respawn_Vader</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader</SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader</SFXEvent_Fleet_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FORCE_WHIRLWIND</Type>
+				<Recharge_Seconds>25.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Vader_Force_Whirlwind </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Effective_Radius> 500.0 </Effective_Radius>
+				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</HeroCompany>
+
+	<!-- 501st Start -->
+	
+	<GroundInfantry Name="501st_Stormtrooper">
+		<Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_501st_stormtrooper.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_HERO_VADER_501ST_STORMTROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_VADER_501ST_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Autoresolve_Health>75</Autoresolve_Health>
+		<Tactical_Health>75</Tactical_Health>
+	</GroundInfantry>
+	<GroundInfantry Name="501st_Stormtrooper_Sergeant">
+		<Variant_Of_Existing_Type>501st_Stormtrooper</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_501st_stormtrooper.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_STORMTROOPER_SERGEANT</Text_ID>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Ei_trooper_SGT.ALO,
+			Urban, 				Ei_trooper_SGT.ALO,
+			Arctic, 			EI_TROOPER_Snow.ALO,
+			Volcanic, 			Ei_trooper_SGT.ALO,
+			Desert, 			Ei_trooper_SGT.ALO,
+			Forest, 			Ei_trooper_SGT.ALO,
+			Swamp, 				Ei_trooper_SGT.ALO
+		</Land_Terrain_Model_Mapping>
+	</GroundInfantry>
+	<GroundCompany Name="501st_Stromtrooper_Squad">
+		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Icon_Name>i_button_501st_stormtrooper.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_HERO_VADER_501ST</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_VADER_501ST TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Company_Units>
+		501st_Stormtrooper, 501st_Stormtrooper, 501st_Stormtrooper, 501st_Stormtrooper,
+		501st_Stormtrooper, 501st_Stormtrooper, 501st_Stormtrooper, 501st_Stormtrooper,
+		501st_Stormtrooper_Sergeant
+		</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Create_Team_Type> 501st_Stromtrooper_Team </Create_Team_Type>
+	</GroundCompany>
+	
+	<Container Name="501st_Stromtrooper_Team">
+		<Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_VADER_501ST</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_VADER_501ST TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_501st_stormtrooper.tga</Icon_Name>
+	</Container>
+	<HeroUnit Name="Commander_Bow">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<No_Colorization_Color>33, 33, 33, 255</No_Colorization_Color>
+		<Weather_Category>Infantry_Visor</Weather_Category>
+		<Text_ID>TEXT_UNIT_HERO_VADER_BOW</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			Ei_trooper_LT.ALO,
+			Urban, 				Ei_trooper_LT.ALO,
+			Arctic, 			EI_TROOPER_Snow.ALO,
+			Volcanic, 			Ei_trooper_LT.ALO,
+			Desert, 			Ei_trooper_LT.ALO,
+			Forest, 			Ei_trooper_LT.ALO,
+			Swamp, 				Ei_trooper_LT.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>EI_TROOPER.ALO</Land_Model_Anim_Override_Name>
+		<Icon_Name>i_button_501st_bow.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Sprite>No</Is_Sprite>
+
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>75</Size_Value>
+
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SELECTABLE, STUNNABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, GARRISON_UNIT</LandBehavior>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<Armor_Type> Armor_Hero </Armor_Type>
+
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> None </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 0.3 </FormationSpacing>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationRaggedness> .2 </FormationRaggedness>
+		<MaxJiggleDistance> 2 </MaxJiggleDistance>
+
+
+		<Shield_Points>0</Shield_Points>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Tactical_Health>500</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Damage>3</Damage>
+
+		<Projectile_Types>Proj_Land_Blaster_DLT_20A</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 21 </Ranking_In_Category>
+		<MovementClass> Infantry </MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<!--<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>-->
+
+		<AI_Combat_Power>50</AI_Combat_Power>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_VADER_BOW TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
+
+		<Neutralization_Cost>100.0</Neutralization_Cost>
+
+		<Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Stormtrooper_Crush_Death_Clone</Death_Clone>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, Stormtrooper_Remote_Bomb_Death_Clone</Death_Clone>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.1f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+	</HeroUnit>
+
+	<!-- 501st End -->
+
+	<!-- Crap Start -->
+
+	<HeroUnit Name="Darth_Vader_Expansion">
+		<Variant_Of_Existing_Type>Darth_Vader</Variant_Of_Existing_Type>
+	</HeroUnit>
+	
+	<HeroCompany Name="Darth_Team_Land_Bounty_Hunter_Immune">
+		<Variant_Of_Existing_Type>Darth_Team</Variant_Of_Existing_Type>
+		<Company_Units>Darth_Vader_Bounty_Hunter_Immune</Company_Units>
+		<Available_In_Skirmish>No</Available_In_Skirmish>
+	</HeroCompany>
+		
+	<HeroCompany Name="Darth_Team_Land_MP">
+		<Variant_Of_Existing_Type>Darth_Team</Variant_Of_Existing_Type>
+		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+	</HeroCompany>
+		          
+	<HeroCompany Name="Darth_Team_Space_MP">
+		<Variant_Of_Existing_Type>Darth_Team</Variant_Of_Existing_Type>
+		<Tactical_Build_Cost_Multiplayer>16670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+	</HeroCompany>
+
+	<!-- Crap End -->
+
+</Vader_Data>

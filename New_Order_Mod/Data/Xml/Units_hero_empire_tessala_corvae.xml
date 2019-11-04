@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<Tessala_Corvae_Files>
+	<UniqueUnit Name="Corvae_AT_ST_Walker">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_TESSALA_CORVAE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_TESSALA_CORVAE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Armor_Type> Armor_50W </Armor_Type>
+  
+		<Icon_Name>i_button_tessala_corvae.tga</Icon_Name>
+
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_02</Death_Clone>
+	
+	</UniqueUnit>
+
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_00">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+      
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		
+	</GroundVehicle>
+
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_01">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+      
+      <Custom_Hard_YExtent_Offset> -15.0 </Custom_Hard_YExtent_Offset>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		
+	</GroundVehicle>
+
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_02">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+      
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		
+	</GroundVehicle>
+
+	<HeroUnit Name="Tessala_Corvae">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_UNIT_HERO_TESSALA_CORVAE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_TESSALA_CORVAE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		
+        <Icon_Name>i_button_tessala_corvae.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Empire</Affiliation>
+		<CategoryMask> LandHero </CategoryMask>
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Required_Timeline>2</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Fondor</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>80</Damage>
+		<Autoresolve_Health>450</Autoresolve_Health>
+		<Lua_Script>Corvae</Lua_Script>
+
+		<Has_Land_Evaluator>False</Has_Land_Evaluator> <!-- land evaluator is on his at-at -->
+		<AI_Combat_Power>500</AI_Combat_Power>
+
+		<Idle_Chase_Range>100.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<Unique_Ground_Unit>Corvae_AT_ST_Walker</Unique_Ground_Unit>
+
+		<Neutralization_Cost>2500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Corvae_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Corvae_Armor_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>AT_ST_Assault, AT_ST_Walker, AT_AT_Walker, AT-AP_Walker, HAV_Juggernaut, AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Corvae_Range_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Tessala_Corvae_Team">
+		<Text_ID>TEXT_UNIT_HERO_TESSALA_CORVAE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_TESSALA_CORVAE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		
+        <Icon_Name>i_button_tessala_corvae.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>2</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Tessala_Corvae, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<CategoryMask>LandHero</CategoryMask>
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Score_Cost_Credits> 18000 </Score_Cost_Credits>
+		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>	
+		
+		<Population_Value>1</Population_Value>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</HeroCompany>
+	
+</Tessala_Corvae_Files>

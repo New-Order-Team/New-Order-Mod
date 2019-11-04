@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Zsinj_Data>
+	<UniqueUnit Name="Iron_Fist_SD">
+		<Variant_Of_Existing_Type>Victory_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_ZSINJ_IRON_FIST</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ZSINJ </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GM </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_zsinj.tga</Icon_Name>
+		<Population_Value>12</Population_Value>
+		<CategoryMask> Frigate | AntiCorvette | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3850</Damage>
+		<Autoresolve_Health>8505</Autoresolve_Health>
+		<AI_Combat_Power>11120</AI_Combat_Power>
+		<Build_Cost_Credits>12120</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>12120</Tactical_Build_Cost_Multiplayer>
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Time_Ability Name="Zsinj_Time_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.12</Time_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			
+			<Planet_Income_Bonus_Ability Name="Zsinj_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_HERO</Specific_Mod_Source_Text>
+				<!-- 20% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.12</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Zsinj_Price_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.12</Price_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+			<Combat_Bonus_Ability Name="Zsinj_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Zsinj_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Iron_Fist_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Iron_Fist_SSD">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>3</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_ZSINJ_IRON_FIST_SSD</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ZSINJ_IRON_FIST_SSD </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ZSINJ </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_zsinj.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Required_Orbiting_Units>Iron_Fist_SD</Required_Orbiting_Units>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Time_Ability Name="Zsinj_Time_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types />
+				<Time_Reduction_Percentage>0.12</Time_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+			
+			<Planet_Income_Bonus_Ability Name="Zsinj_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_HERO</Specific_Mod_Source_Text>
+				<!-- 20% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.12</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Zsinj_Price_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Price_Reduction_Percentage>0.12</Price_Reduction_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			
+			<Combat_Bonus_Ability Name="Zsinj_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>4</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Zsinj_Data>

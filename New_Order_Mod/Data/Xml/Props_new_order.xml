@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Props_New_Order>
+
+	<Props_New_Order Name="Prop_NO_TIE_Assembly_Line">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_tie_assembly_line_07.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_New_Order>
+	
+	<Props_New_Order Name="Prop_NO_TIE_Assembly_Line_Segm">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_tie_assembly_line_01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_New_Order>
+	
+	<Props_New_Order Name="Prop_NO_TIE_LN_PANELS">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_tie_ln_panels_8.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_New_Order>
+	
+		<Props_New_Order Name="Prop_NO_TIE_COCKPIT">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_tie_cockpit.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_New_Order>
+	
+	<Props_New_Order Name="Prop_NO_TIE_IN_PANELS">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_tie_in_panels_8.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_New_Order>
+
+	<NOM_Object Name="Prop_GroundCover_Rudrig">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_grndcvr_rudrig_00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</NOM_Object>
+	
+	<NOM_Object Name="Prop_Bush_rudrig00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_bush_rudrig_00.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Blob_Shadow_Below_Detail_Level>99</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Tree_Shadow</Blob_Shadow_Material_Name>
+	</NOM_Object>
+	
+	<NOM_Object Name="Prop_Rudrig_Hole_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_rudrig_sinkhole.alo</Land_Model_Name>
+		<Scale_Factor>.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</NOM_Object>
+	
+	<Props_New_Order Name="Prop_NO_AAT_Debris">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_aat_debris.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_New_Order>
+	
+	<Props_New_Order Name="Prop_NO_Hardcell_Debris">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_hardcell_debris.alo</Land_Model_Name>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_New_Order>
+	
+</Props_New_Order>

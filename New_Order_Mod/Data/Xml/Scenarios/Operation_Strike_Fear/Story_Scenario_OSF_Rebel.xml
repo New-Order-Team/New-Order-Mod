@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" ?>
+<Story>
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	
+<!-- Preparations -->
+	<Event Name="Rebel_Reveal_Galaxy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Rebel_Advance_Rebel_Era_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rebel_Reveal_Galaxy</Prereq>
+	</Event>
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+<!-- Lock unnecessary buildings -->
+	<Event Name="Rebel_Lock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>R_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Rebel_Reveal_Galaxy</Prereq>
+	</Event>
+	<Event Name="Rebel_Lock_Station_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Rebel_Star_Base_3</Reward_Param1>
+		<Prereq>Rebel_Reveal_Galaxy</Prereq>
+	</Event>
+
+<!-- Lock unnecessary units -->
+
+	<Event Name="Disable_Z-95">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_R41">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>R41_Squadron</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Consular">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Consular_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Rep_Cruiser">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Republic_Assault_Cruiser</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Munificent">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Munificent_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_Recusant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Recusant_Frigate_Rebel</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	
+	<Event Name="Disable_Acclamator_Assault_Ship">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Acclamator_Assault_Ship</Reward_Param1>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+	
+<!-- Spawn heroes -->
+	<Event Name="Spawn_Red_Squadron_OSF">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Red_Squadron_OSF</Reward_Param1>
+		<Reward_Param2>Dellalt_OSF</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+</Story>

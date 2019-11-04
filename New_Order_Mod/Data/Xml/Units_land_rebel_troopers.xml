@@ -1,0 +1,1412 @@
+<?xml version="1.0"?>
+<Rebel_Trooper_Data>
+	<GroundInfantry Name="Resistance_Fighter">
+		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_UNIT_RESISTANCE_FIGHTER</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_FIGHTER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_INFANTRY_Forest.ALO,
+            		Urban, 				RI_INFANTRY_Forest.ALO,
+					Arctic, 			RI_INFANTRY_Snow.ALO,
+            		Volcanic, 			RI_INFANTRY_Forest.ALO,
+            		Desert, 			RI_INFANTRY_Forest.ALO,
+            		Forest, 			RI_INFANTRY_Forest.ALO,
+            		Swamp, 				RI_INFANTRY_Forest.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Armor_Type> Armor_I1 </Armor_Type>
+		<Max_Speed> 0.8 </Max_Speed>
+		<Tactical_Health>50</Tactical_Health>
+		<Hardpoints>
+			HP_Infantry_DH_17_Pistol
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+
+		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rebel_Soldier</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Rebel_Infantry_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<Death_Clone>Damage_Force_Whirlwind, Resistance_Fighter_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Resistance_Fighter_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, Resistance_Fighter_Crush_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+	</GroundInfantry>
+	<GroundInfantry Name="Resistance_Fighter_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	<GroundInfantry Name="Resistance_Fighter_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	<GroundInfantry Name="Resistance_Fighter_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+	
+	<GroundInfantry Name="Resistance_Sniper">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RESISTANCE_SNIPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Hardpoints>
+			HP_Infantry_E17d
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Resistance_Sergeant">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RESISTANCE_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Resistance_Lieutenant">
+		<Variant_Of_Existing_Type>Resistance_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_RESISTANCE_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="Resistance_Fighters_Platoon">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_RESISTANCE_FIGHTERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_FIGHTERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>680</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1100</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Create_Team_Type> Resistance_Fighters_Platoon_Team </Create_Team_Type>
+		
+        <Company_Units>
+		Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sergeant,
+
+		Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sergeant,
+
+		Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sergeant,
+
+		Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Sniper, Resistance_Fighter, Resistance_Fighter, Resistance_Lieutenant
+		</Company_Units>
+		
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
+		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Soldier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1100</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>45</Score_Cost_Credits>
+	</GroundCompany>
+	
+	<Container Name="Resistance_Fighters_Platoon_Team">
+        <Select_Box_Scale>65</Select_Box_Scale>
+		<Text_ID>TEXT_UNIT_RESISTANCE_FIGHTERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RESISTANCE_FIGHTERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		<Show_Name>No</Show_Name>
+		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+		<SpaceBehavior>REVEAL</SpaceBehavior>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>300.0</Space_FOW_Reveal_Range>
+		<MovementClass>Infantry</MovementClass>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+		<CategoryMask>Infantry</CategoryMask>
+
+		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationOrder> 2 </FormationOrder>
+		<Override_Acceleration> .08 </Override_Acceleration>
+		<Override_Deceleration> .08 </Override_Deceleration>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+	</Container>
+	
+	<GroundInfantry Name="PSF_Trooper">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_TROOPER</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_INFANTRY.ALO,
+            		Urban, 				RI_INFANTRY.ALO,
+					Arctic, 			RI_INFANTRY.ALO,
+            		Volcanic, 			RI_INFANTRY.ALO,
+            		Desert, 			RI_INFANTRY.ALO,
+            		Forest, 			RI_INFANTRY.ALO,
+            		Swamp, 				RI_INFANTRY.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
+		<Tactical_Health>60</Tactical_Health>
+		<Armor_Type> Armor_I2 </Armor_Type>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="PSF_Trooper_Rifle">
+		<Variant_Of_Existing_Type>PSF_Trooper</Variant_Of_Existing_Type>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_TROOPER_RIFLE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Hardpoints>
+			HP_Infantry_A280
+		</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="PSF_Sergeant">
+		<Variant_Of_Existing_Type>PSF_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="PSF_Lieutenant">
+		<Variant_Of_Existing_Type>PSF_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="PSF_Troopers_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_TROOPERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_TROOPERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>775</Damage>
+		<Autoresolve_Health>1296</Autoresolve_Health>
+		<Build_Cost_Credits>1510</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>0</Tech_Level>
+		<Create_Team_Type> PSF_Troopers_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Trooper, PSF_Trooper_Rifle, PSF_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1510</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="PSF_Troopers_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_TROOPERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_TROOPERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+	</Container>
+
+	
+	<GroundInfantry Name="PSF_Vanguard">
+		<Variant_Of_Existing_Type>PSF_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_VANGUARD</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_VANGUARD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Land_Model_Name>RI_PLEXSOLDIER.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			RI_PLEXSOLDIER.ALO,
+			Urban, 				RI_PLEXSOLDIER.ALO,
+			Arctic, 			RI_PLEXSOLDIER.ALO,
+			Volcanic, 			RI_PLEXSOLDIER.ALO,
+			Desert, 			RI_PLEXSOLDIER.ALO,
+			Forest, 			RI_PLEXSOLDIER.ALO,
+			Swamp, 				RI_PLEXSOLDIER.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
+		
+		<Hardpoints>
+			HP_Infantry_Stormtrooper_Missile
+		</Hardpoints>
+	</GroundInfantry>
+	
+	<GroundCompany Name="PSF_Vanguards_Platoon">
+		<Variant_Of_Existing_Type>PSF_Troopers_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_VANGUARDS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_VANGUARDS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>1120</Damage>
+		<Autoresolve_Health>1296</Autoresolve_Health>
+		<Build_Cost_Credits>2180</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>0</Tech_Level>
+		<Create_Team_Type> PSF_Vanguards_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		PSF_Trooper, PSF_Trooper, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Trooper, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Trooper, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Trooper, PSF_Sergeant,
+
+		PSF_Trooper, PSF_Trooper, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Vanguard, PSF_Trooper, PSF_Trooper, PSF_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2180</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="PSF_Vanguards_Platoon_Team">
+		<Variant_Of_Existing_Type>PSF_Troopers_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_PSF_VANGUARDS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PSF_VANGUARDS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+	</Container>
+	
+	<GroundInfantry Name="SecForce_Trooper">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SECFORCE_TROOPER</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+		<Hardpoints>
+			HP_Infantry_DH_17_Rifle
+		</Hardpoints>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="SecForce_Trooper_Disruptor">
+		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+		<Hardpoints>
+			HP_Infantry_Ion_Disruptor
+		</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SecForce_Sergeant">
+		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SECFORCE_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SecForce_Lieutenant">
+		<Variant_Of_Existing_Type>SecForce_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SECFORCE_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="SecForce_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SECFORCE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>658</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Build_Cost_Credits>1070</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> SecForce_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Sergeant,
+
+		SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Sergeant,
+
+		SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Sergeant,
+
+		SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1070</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="SecForce_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SECFORCE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+	</Container>
+
+	<GroundInfantry Name="SpecForce_Pathfinder">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_PATHFINDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Max_Speed> 1.0 </Max_Speed>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="SpecForce_Pathfinder_Sniper">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_PATHFINDER_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Hardpoints>
+			HP_Infantry_E17d
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Pathfinder_Sergeant">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_PATHFINDER_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>120</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius> 100.0 </Effective_Radius>
+		         <Spawned_Object_Type>Landing_Beacon</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 100 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Pathfinder_Lieutenant">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_PATHFINDER_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="SpecForce_Pathfinder_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_PATHFINDER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>680</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Build_Cost_Credits>1600</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> SpecForce_Pathfinder_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+
+		SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+
+		SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+
+		SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundCompany>
+
+	<Container Name="SpecForce_Pathfinder_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_PATHFINDER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<GroundInfantry Name="SpecForce_Ranger">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_RANGER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_RANGER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>RI_NewRInfantry_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_NewRInfantry_Forest.ALO,
+            		Urban, 				RI_NewRInfantry_Urban.ALO,
+					Arctic, 			RI_NewRInfantry_Snow.ALO,
+            		Volcanic, 			RI_NewRInfantry_Desert.ALO,
+            		Desert, 			RI_NewRInfantry_Desert.ALO,
+            		Forest, 			RI_NewRInfantry_Forest.ALO,
+            		Swamp, 				RI_NewRInfantry_Forest.ALO
+
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_NewRInfantry_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_specforce_trooper.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_A280
+		</Hardpoints>
+		<Tactical_Health>60</Tactical_Health>
+		<Armor_Type> Armor_I2 </Armor_Type>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="SpecForce_Ranger_Missile">
+		<Variant_Of_Existing_Type>SpecForce_Ranger</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_RANGER_PLX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Land_Model_Name>RI_NewRInfantryPlex_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			RI_NewRInfantryPlex_Forest.ALO,
+			Urban, 				RI_NewRInfantryPlex_Urban.ALO,
+			Arctic, 			RI_NewRInfantryPlex_Snow.ALO,
+			Volcanic, 			RI_NewRInfantryPlex_Urban.ALO,
+			Desert, 			RI_NewRInfantryPlex_Urban.ALO,
+			Forest, 			RI_NewRInfantryPlex_Forest.ALO,
+			Swamp, 				RI_NewRInfantryPlex_Forest.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_NewRInfantryPlex_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_Stormtrooper_Missile
+		</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Ranger_Sergeant">
+		<Variant_Of_Existing_Type>SpecForce_Ranger</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_RANGER_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_RANGER_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Ranger_Lieutenant">
+		<Variant_Of_Existing_Type>SpecForce_Ranger_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_RANGER_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_RANGER_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="SpecForce_Ranger_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_RANGER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_RANGER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>1120</Damage>
+		<Autoresolve_Health>1512</Autoresolve_Health>
+		<Build_Cost_Credits>2540</Build_Cost_Credits>
+		<Build_Time_Seconds>11</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> SpecForce_Ranger_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Sergeant,
+
+		SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Sergeant,
+
+		SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Sergeant,
+
+		SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Missile, SpecForce_Ranger, SpecForce_Ranger, SpecForce_Ranger_Lieutenant
+		</Company_Units>
+
+		<Icon_Name>i_button_rebel_Ranger.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2540</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="SpecForce_Ranger_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_RANGER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_RANGER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_Ranger.tga</Icon_Name>
+	</Container>
+	
+	<GroundInfantry Name="SpecForce_Technician">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_TECH</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_TECH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>RI_Vanguard_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_Vanguard_Urban.ALO,
+            		Urban, 				RI_Vanguard_Urban.ALO,
+					Arctic, 			RI_Vanguard_Snow.ALO,
+            		Volcanic, 			RI_Vanguard_Desert.ALO,
+            		Desert, 			RI_Vanguard_Desert.ALO,
+            		Forest, 			RI_Vanguard_Jungle.ALO,
+            		Swamp, 				RI_Vanguard_Jungle.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_Vanguard_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		
+		<Icon_Name>i_button_rebel_engineer.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_DH_17_Pistol
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Technician_Sergeant">
+		<Variant_Of_Existing_Type>SpecForce_Technician</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_TECH_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_TECH_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Technician_Lieutenant">
+		<Variant_Of_Existing_Type>SpecForce_Technician_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_TECH_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_TECH_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="SpecForce_Technician_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_TECHNICIAN_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_TECHNICIAN_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>697</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Build_Cost_Credits>1130</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> SpecForce_Technician_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician_Sergeant,
+
+		SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician_Sergeant,
+
+		SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician_Sergeant,
+
+		SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician, SpecForce_Technician_Lieutenant,
+		</Company_Units>
+
+		<Icon_Name>i_button_rebel_Technician.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1130</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="SpecForce_Technician_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SPECFORCE_TECH_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_TECH_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_Technician.tga</Icon_Name>
+	</Container>
+	
+	
+	<GroundInfantry Name="NR_Trooper">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TROOPER</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+		<Hardpoints>
+			HP_Infantry_Trooper_E_15
+		</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Sergeant">
+		<Variant_Of_Existing_Type>NR_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Lieutenant">
+		<Variant_Of_Existing_Type>NR_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="NR_Troopers_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TROOPERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TROOPERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>889</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Build_Cost_Credits>1440</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>4</Tech_Level>
+		<Create_Team_Type> NR_Troopers_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Sergeant,
+
+		NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Sergeant,
+
+		NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Sergeant,
+
+		NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Trooper, NR_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1440</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="NR_Troopers_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TROOPERS_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TROOPERS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_heavy_soldier.tga</Icon_Name>
+	</Container>
+
+	<GroundInfantry Name="NR_SpecForce">
+		<Variant_Of_Existing_Type>NR_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SPECFORCE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_SPECFORCE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Max_Speed> 1.0 </Max_Speed>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="NR_SpecForce_Sniper">
+		<Variant_Of_Existing_Type>NR_SpecForce</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_SPECFORCE_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Hardpoints>
+			HP_Infantry_E17d
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_SpecForce_Sergeant">
+		<Variant_Of_Existing_Type>NR_SpecForce</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SPECFORCE_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_SPECFORCE_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_SpecForce_Lieutenant">
+		<Variant_Of_Existing_Type>NR_SpecForce_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SPECFORCE_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_SPECFORCE_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="NR_SpecForce_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SPECFORCE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_SPECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>821</Damage>
+		<Autoresolve_Health>1296</Autoresolve_Health>
+		<Build_Cost_Credits>1600</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> NR_SpecForce_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sergeant,
+
+		NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sergeant,
+
+		NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sergeant,
+
+		NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Sniper, NR_SpecForce, NR_SpecForce, NR_SpecForce_Lieutenant</Company_Units>
+
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="NR_SpecForce_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_SPECFORCE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_SPECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
+	</Container>
+
+	<GroundInfantry Name="NR_Marine">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_MARINE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_MARINE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>RI_NewRInfantry_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_NewRInfantry_Forest.ALO,
+            		Urban, 				RI_NewRInfantry_Urban.ALO,
+					Arctic, 			RI_NewRInfantry_Snow.ALO,
+            		Volcanic, 			RI_NewRInfantry_Desert.ALO,
+            		Desert, 			RI_NewRInfantry_Desert.ALO,
+            		Forest, 			RI_NewRInfantry_Forest.ALO,
+            		Swamp, 				RI_NewRInfantry_Forest.ALO
+
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_NewRInfantry_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_specforce_trooper.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_A295
+		</Hardpoints>
+		<Tactical_Health>70</Tactical_Health>
+		<Armor_Type> Armor_I2 </Armor_Type>
+	</GroundInfantry>
+	
+	<GroundInfantry Name="NR_Marine_Missile">
+		<Variant_Of_Existing_Type>NR_Marine</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_MARINE_PLX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		
+		<Land_Model_Name>RI_NewRInfantryPlex_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+			Temperate, 			RI_NewRInfantryPlex_Forest.ALO,
+			Urban, 				RI_NewRInfantryPlex_Urban.ALO,
+			Arctic, 			RI_NewRInfantryPlex_Snow.ALO,
+			Volcanic, 			RI_NewRInfantryPlex_Urban.ALO,
+			Desert, 			RI_NewRInfantryPlex_Urban.ALO,
+			Forest, 			RI_NewRInfantryPlex_Forest.ALO,
+			Swamp, 				RI_NewRInfantryPlex_Forest.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_NewRInfantryPlex_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_plex_soldier.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_Stormtrooper_Missile
+		</Hardpoints>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Marine_Sergeant">
+		<Variant_Of_Existing_Type>NR_Marine</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_MARINE_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_MARINE_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Marine_Lieutenant">
+		<Variant_Of_Existing_Type>NR_Marine_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_MARINE_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_MARINE_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="NR_Marine_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_MARINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_MARINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>1120</Damage>
+		<Autoresolve_Health>1764</Autoresolve_Health>
+		<Build_Cost_Credits>2960</Build_Cost_Credits>
+		<Build_Time_Seconds>11</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> NR_Marine_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Sergeant,
+
+		NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Sergeant,
+
+		NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Sergeant,
+
+		NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Missile, NR_Marine, NR_Marine, NR_Marine_Lieutenant
+		</Company_Units>
+
+		<Icon_Name>i_button_rebel_Ranger.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2960</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="NR_Marine_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_MARINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_MARINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_Ranger.tga</Icon_Name>
+	</Container>
+	
+	<GroundInfantry Name="NR_Technician">
+		<Variant_Of_Existing_Type>Resistance_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TECH</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TECH TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>RI_Vanguard_Urban.ALO</Land_Model_Name>
+		<Land_Terrain_Model_Mapping>
+            		Temperate, 			RI_Vanguard_Urban.ALO,
+            		Urban, 				RI_Vanguard_Urban.ALO,
+					Arctic, 			RI_Vanguard_Snow.ALO,
+            		Volcanic, 			RI_Vanguard_Desert.ALO,
+            		Desert, 			RI_Vanguard_Desert.ALO,
+            		Forest, 			RI_Vanguard_Jungle.ALO,
+            		Swamp, 				RI_Vanguard_Jungle.ALO
+		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_Vanguard_Urban.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.95</Scale_Factor>
+		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+		
+		<Icon_Name>i_button_rebel_engineer.tga</Icon_Name>
+		
+		<Hardpoints>
+			HP_Infantry_DH_17_Pistol
+		</Hardpoints>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Technician_Sergeant">
+		<Variant_Of_Existing_Type>NR_Technician</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TECH_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_TECH_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+
+	<GroundInfantry Name="NR_Technician_Lieutenant">
+		<Variant_Of_Existing_Type>NR_Technician_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TECH_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NR_TECH_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	</GroundInfantry>
+	
+	<GroundCompany Name="NR_Technician_Platoon">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TECHNICIAN_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TECHNICIAN_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Damage>889</Damage>
+		<Autoresolve_Health>1080</Autoresolve_Health>
+		<Build_Cost_Credits>1440</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>2</Tech_Level>
+		<Create_Team_Type> NR_Technician_Platoon_Team </Create_Team_Type>
+		
+		<Company_Units>
+		NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician_Sergeant,
+
+		NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician_Sergeant,
+
+		NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician_Sergeant,
+
+		NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician, NR_Technician_Lieutenant,
+		</Company_Units>
+
+		<Icon_Name>i_button_rebel_Technician.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1440</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</GroundCompany>
+
+	<Container Name="NR_Technician_Platoon_Team">
+		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NR_TECH_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_NR_TECH_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Icon_Name>i_button_rebel_Technician.tga</Icon_Name>
+	</Container>
+
+	
+	
+	
+	
+	
+	<GenericHeroUnit Name="SpecForce_Infiltrator">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_SPECFORCE_INFILTRATOR</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_INFILTRATOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_infiltrator.tga</Icon_Name>
+		<Show_Hero_Head>No</Show_Hero_Head>
+		<Stealth_Capable>Yes</Stealth_Capable>
+
+		<Land_Model_Name>RI_Infiltrator.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Mass>1.0</Mass>
+		<Size_Value>10</Size_Value>
+
+		<Movement_Animation_Speed> 1.25 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 8.0 </Rotation_Animation_Speed>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationOrder> 3 </FormationOrder>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, ABILITY_COUNTDOWN, TARGETING, GARRISON_UNIT</LandBehavior>
+		
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+
+		<Affiliation>Rebel</Affiliation>
+		<Armor_Type> Armor_Hero </Armor_Type>
+		<Tactical_Health>200</Tactical_Health>
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Damage>4</Damage>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		
+		<Hardpoints>
+			HP_Infantry_Adjudicator
+		</Hardpoints>
+		
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Ranged_Target_Z_Adjust>3.5</Ranged_Target_Z_Adjust>
+
+		<SFXEvent_Select>Unit_Select_Rebel_Infiltrator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Infiltrator</SFXEvent_Move>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Infiltrator </SFXEvent_Assist_Move>		
+		<SFXEvent_Attack>Unit_Attack_Rebel_Infiltrator</SFXEvent_Attack>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Infiltrator </SFXEvent_Assist_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Infiltrator</SFXEvent_Guard>
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Infiltrator</SFXEvent_Fleet_Move>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> LandHero | AntiInfantry | AntiStructure </CategoryMask>
+		<Ranking_In_Category> 21 </Ranking_In_Category>
+		<MovementClass> Infantry </MovementClass>
+
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<Create_Team> No </Create_Team>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Is_Generic_Hero>No</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<AI_Combat_Power>50</AI_Combat_Power>
+
+		<Neutralization_Cost>100.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Political_Control>0</Political_Control>
+		<Sensor_Range>20</Sensor_Range>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Surface_Type_Cover_Damage_Shield>.25</Surface_Type_Cover_Damage_Shield>
+		
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <GUI_Activated_Ability_Name>Stealth_Infiltrator</GUI_Activated_Ability_Name> 
+                <Recharge_Seconds>30.0</Recharge_Seconds>
+				<Expiration_Seconds>300.0</Expiration_Seconds>
+            </Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Demolitions_Charge</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>15</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<!--<Unit_Ability>
+				<Type>DETONATE_REMOTE_BOMB</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>PLACE_REMOTE_BOMB</Type>
+				<Recharge_Seconds>18.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Infiltrator_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Infiltrator">
+				<Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 192</Stealth_Color>
+                <Stealth_Transition_Time>.5</Stealth_Transition_Time>
+			</Stealth_Ability>
+			
+			<Galactic_Stealth_Ability Name="Infiltrator_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<!--<Remote_Bomb_Ability Name="Infiltrator_Remote_Bomb_Attack"> 
+				<Activation_Style> User_Input </Activation_Style> 
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>130.0</Activation_Max_Range>
+				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+				<Toss_Anim>BOMBTOSS</Toss_Anim>
+				<Spawn_Frame>12.0</Spawn_Frame>
+				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
+			</Remote_Bomb_Ability>-->
+		</Abilities>
+
+		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
+		<Conversion_Ability_Changes_To_Enemy> SpecForce_Infiltrator_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
+	</GenericHeroUnit>
+
+	<!-- Version of above Infantry who has been converted to enemy by Force Corruption ability.                                            -->
+	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
+	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
+	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
+	<GenericHeroUnit Name="SpecForce_Infiltrator_Converted_To_Enemy">
+		<Variant_Of_Existing_Type> SpecForce_Infiltrator </Variant_Of_Existing_Type>
+		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>             
+		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      
+		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                 
+		<SFXEvent_Guard> Unit_Guard_Rebel_Soldier_Converted </SFXEvent_Guard>                   
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Rebel_Soldier_Converted </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Rebel_Soldier_Converted </SFXEvent_Assist_Attack> 	 
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
+	</GenericHeroUnit>
+
+	<HeroCompany Name="Infiltrator_Team">
+		<Text_ID>TEXT_UNIT_SPECFORCE_INFILTRATOR_TEAM</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_INFILTRATOR_TEAM</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_infiltrator.tga</Icon_Name>
+		<Show_Hero_Head>No</Show_Hero_Head>
+
+		<GUI_Row>1</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		
+		<Damage>1600</Damage>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>3840</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Combat_Power_Value>5</Combat_Power_Value>
+		<Tech_Level>2</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Rebel_Command_Center</Required_Special_Structures>
+		<Required_Planets />
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Company_Transport_Unit>Alliance_Shuttle</Company_Transport_Unit>
+		<Company_Units> SpecForce_Infiltrator, SpecForce_Infiltrator, SpecForce_Infiltrator, SpecForce_Infiltrator, SpecForce_Infiltrator, SpecForce_Infiltrator </Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Is_Homogeneous>No</Is_Homogeneous>
+		
+		<Is_Generic_Hero>No</Is_Generic_Hero>
+		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Infiltrator</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Infiltrator</SFXEvent_Fleet_Move>
+
+		<Population_Value>1</Population_Value>
+		<CategoryMask> LandHero | AntiInfantry | AntiStructure </CategoryMask>
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+
+		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->  
+		<Tactical_Build_Cost_Multiplayer>3840</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <GUI_Activated_Ability_Name>Stealth_Infiltrator</GUI_Activated_Ability_Name> 
+                <Recharge_Seconds>30.0</Recharge_Seconds>
+				<Expiration_Seconds>300.0</Expiration_Seconds>
+            </Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>UNTARGETED_STICKY_BOMB</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Demolitions_Charge</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>15</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<!--<Unit_Ability>
+				<Type>DETONATE_REMOTE_BOMB</Type>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>PLACE_REMOTE_BOMB</Type>
+				<Recharge_Seconds>18.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Infiltrator_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+				<SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+			</Unit_Ability>-->
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Infiltrator">
+				<Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 192</Stealth_Color>
+                <Stealth_Transition_Time>.5</Stealth_Transition_Time>
+			</Stealth_Ability>
+			
+			<!--<Remote_Bomb_Ability Name="Infiltrator_Remote_Bomb_Attack"> 
+				<Activation_Style> User_Input </Activation_Style> 
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>130.0</Activation_Max_Range>
+				<Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+				<Toss_Anim>BOMBTOSS</Toss_Anim>
+				<Spawn_Frame>12.0</Spawn_Frame>
+				<Spawn_Bone>MuzzleB_00</Spawn_Bone>
+			</Remote_Bomb_Ability>-->
+		</Abilities>
+	</HeroCompany>
+	
+	
+	
+	<GenericHeroUnit Name="Alliance_Army_General">
+		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ALLIANCE_ARMY_GENERAL</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ALLIANCE_ARMY_GENERAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ri_field_commander_bust.tga</Icon_Name>
+		<Land_Model_Name>RI_Fieldcommander.ALO</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<Lua_Script>FieldCommander</Lua_Script>
+		
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
+		
+	   <Neutralization_Cost>10000.0</Neutralization_Cost>
+	   <Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+	   <Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Selection_Blob_Material_Name>Selection_Rebel_Hero</Selection_Blob_Material_Name>
+        <Highlight_Blob_Material_Name>Highlight_Rebel_Hero</Highlight_Blob_Material_Name>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="General_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</GenericHeroUnit>
+	<HeroCompany Name="Alliance_General_Squad">
+		<Variant_Of_Existing_Type>SecForce_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_COMMAND_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ALLIANCE_ARMY_GENERAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Damage>100</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>1</Tech_Level>
+		<Create_Team_Type> Alliance_General_Team </Create_Team_Type>
+		<Required_Special_Structures>Rebel_Command_Center</Required_Special_Structures>
+		
+		<Company_Units>SecForce_Trooper, SecForce_Trooper, Alliance_Army_General, SecForce_Trooper, SecForce_Trooper</Company_Units>
+
+		<Icon_Name>i_button_RI_field_commander.tga</Icon_Name>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</HeroCompany>
+
+	<Container Name="Alliance_General_Team">
+		<Variant_Of_Existing_Type>SecForce_Platoon_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_COMMAND_SQUAD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ALLIANCE_ARMY_GENERAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_RI_field_commander.tga</Icon_Name>
+	</Container>
+</Rebel_Trooper_Data>

@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<Lucrehulk_Data>
+	<SpaceUnit Name="Lucrehulk_Battleship_CIS">
+		<Text_ID>TEXT_UNIT_LUCREHULK</Text_ID>
+		<Space_Model_Name>cv_Lucrehulk.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_Lucrehulk.tga</Icon_Name>
+		<Tech_Level>99</Tech_Level> 
+		
+		<Mass>0.999</Mass>
+		<Scale_Factor>1.44</Scale_Factor>
+		<Damage>9330</Damage>
+		<Autoresolve_Health>13200</Autoresolve_Health>
+		<Shield_Points>11600</Shield_Points>
+		<Tactical_Health>1600</Tactical_Health>
+		<Shield_Refresh_Rate>1160</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>0.85</Max_Speed>
+		<Max_Rate_Of_Turn>0.05</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-300.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>3</Bank_Turn_Angle>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Space </Armor_Type>
+        	<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Select_Box_Scale>400</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-300</Select_Box_Z_Adjust>
+		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Slice_Cost_Credits></Slice_Cost_Credits>
+		<Affiliation>CIS, CIS_Remnants</Affiliation>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>10</Squadron_Capacity>
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>18370</Build_Cost_Credits>
+		<AI_Combat_Power>11265</AI_Combat_Power>
+		<Build_Time_Seconds>94</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		
+		<SFXEvent_Tactical_Build_Started> RHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, SELF_DESTRUCT </SpaceBehavior> 
+			
+		<Space_FOW_Reveal_Range>3470.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<HardPoints>
+			HP_Lucrehulk_Battleship_00,
+			HP_Lucrehulk_Battleship_01,
+			HP_Lucrehulk_Battleship_02,
+			HP_Lucrehulk_Battleship_03,
+			HP_Lucrehulk_Battleship_04,
+			HP_Lucrehulk_Battleship_05,
+			HP_Lucrehulk_Battleship_06,
+			HP_Lucrehulk_Battleship_07,
+			HP_Lucrehulk_Battleship_08,
+			HP_Lucrehulk_Battleship_09,
+			HP_Lucrehulk_Battleship_10,
+			HP_Lucrehulk_Battleship_11,
+			HP_Lucrehulk_Battleship_12,
+			HP_Lucrehulk_Battleship_13,
+			HP_Lucrehulk_Battleship_14,
+			HP_Lucrehulk_Battleship_15,
+			HP_Lucrehulk_Battleship_16,
+			HP_Lucrehulk_Battleship_17,
+			HP_Lucrehulk_Battleship_18,
+			HP_Lucrehulk_Battleship_19,
+			HP_Lucrehulk_Battleship_20,
+			HP_Lucrehulk_Battleship_21,
+			HP_Lucrehulk_Battleship_22,
+			HP_Lucrehulk_Battleship_23,
+			HP_Lucrehulk_Battleship_24,
+			HP_Lucrehulk_Battleship_25,
+			HP_Lucrehulk_Battleship_26,
+			HP_Lucrehulk_Battleship_27,
+			HP_Lucrehulk_Battleship_28,
+			HP_Lucrehulk_Battleship_29,
+			HP_Lucrehulk_Battleship_30,
+			HP_Lucrehulk_Battleship_31,
+			HP_Lucrehulk_Battleship_32,
+			HP_Lucrehulk_Battleship_33,
+			HP_Lucrehulk_Battleship_34,
+			HP_Lucrehulk_Battleship_35,
+			HP_Lucrehulk_Battleship_36,
+			HP_Lucrehulk_Battleship_37,
+			HP_Lucrehulk_Battleship_38,
+			HP_Lucrehulk_Battleship_39,
+			HP_Lucrehulk_Battleship_40,
+			HP_Lucrehulk_Battleship_41,
+			HP_Lucrehulk_Battleship_42,
+			HP_Lucrehulk_Battleship_43,
+			HP_Lucrehulk_Battleship_44,
+			HP_Lucrehulk_Battleship_45,
+			HP_Lucrehulk_Battleship_46,
+			HP_Lucrehulk_Battleship_47,
+			HP_Lucrehulk_Battleship_48,
+			HP_Lucrehulk_Battleship_49,
+			HP_Lucrehulk_Battleship_50,
+			HP_Lucrehulk_Battleship_51,
+			HP_Lucrehulk_Battleship_52,
+			HP_Lucrehulk_Battleship_53,
+			HP_Lucrehulk_Battleship_54,
+			HP_Lucrehulk_Battleship_55,
+			HP_Lucrehulk_Battleship_56,
+			HP_Lucrehulk_Battleship_57,
+			HP_Lucrehulk_Battleship_58,
+			HP_Lucrehulk_Battleship_59,
+			HP_Lucrehulk_Battleship_60,
+			HP_Lucrehulk_Battleship_61,
+			HP_Lucrehulk_Battleship_62,
+			HP_Lucrehulk_Battleship_63,
+			HP_Lucrehulk_Battleship_64,
+			HP_Lucrehulk_Battleship_65,
+			HP_Lucrehulk_Battleship_66,
+			HP_Lucrehulk_Battleship_67,
+			HP_Lucrehulk_Battleship_68,
+			HP_Lucrehulk_Battleship_69,
+			HP_Lucrehulk_Battleship_70,
+			HP_Lucrehulk_Battleship_71,
+			HP_Lucrehulk_Battleship_72,
+			HP_Lucrehulk_Battleship_73,
+			HP_Lucrehulk_Battleship_74,
+			HP_Lucrehulk_Battleship_75,
+			HP_Lucrehulk_Battleship_76,
+			HP_Lucrehulk_Battleship_77,
+			HP_Lucrehulk_Battleship_78,
+			HP_Lucrehulk_Battleship_79,
+			HP_Lucrehulk_Battleship_80,
+			HP_Lucrehulk_Battleship_81,
+			HP_Lucrehulk_Battleship_82,
+			HP_Lucrehulk_Battleship_83,
+			HP_Lucrehulk_Battleship_84,
+			HP_Lucrehulk_Battleship_85,
+			HP_Lucrehulk_Battleship_86,
+			HP_Lucrehulk_Battleship_87,
+			HP_Lucrehulk_Battleship_88,
+			HP_Lucrehulk_Battleship_89,
+			HP_Lucrehulk_Battleship_90,
+			HP_Lucrehulk_Battleship_91,
+			HP_Lucrehulk_Battleship_92,
+			HP_Lucrehulk_Battleship_93,
+			HP_Lucrehulk_Battleship_94,
+			HP_Lucrehulk_Battleship_95,
+			HP_Lucrehulk_Battleship_96,
+			HP_Lucrehulk_Core_00,
+			HP_Lucrehulk_Core_01,
+			HP_Lucrehulk_Core_02,
+			HP_Lucrehulk_Core_03,
+			HP_Lucrehulk_Core_04,
+			HP_Lucrehulk_Core_05,
+			HP_Lucrehulk_Core_06,
+			HP_Lucrehulk_Core_07,
+			HP_Lucrehulk_Core_08,
+			HP_Lucrehulk_Core_09,
+			HP_Lucrehulk_Core_10,
+			HP_Lucrehulk_Core_11,
+			HP_Lucrehulk_Core_12,
+			HP_Lucrehulk_Core_13,
+			HP_Lucrehulk_Core_14,
+			HP_Lucrehulk_Core_15,
+			HP_Lucrehulk_Core_16,
+			HP_Lucrehulk_Core_17,
+			HP_Lucrehulk_Core_18,
+			HP_Lucrehulk_Core_19,
+			HP_Lucrehulk_Core_20,
+			HP_Lucrehulk_Fighter_Bay_00,
+			HP_Lucrehulk_Fighter_Bay_01
+		</HardPoints>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 11</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Droid_Trifighter_Squadron, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TF_Droid_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Droid_Trifighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TF_Droid_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> 
+ 		
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Frigate</SFXEvent_Build_Complete>
+
+		
+		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Capital | AntiCorvette | AntiFrigate | AntiCapital </CategoryMask>  
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_Lucrehulk.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.06  0.06</Radar_Icon_Size>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Cruiser</Targeting_Priority_Set>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK_CIS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 11265</Score_Cost_Credits>
+		<Population_Value>10</Population_Value>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>18370</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>65</Piracy_Value_Credits>
+		
+	</SpaceUnit>
+	<SpaceUnit Name="Lucrehulk_DCS_CIS">
+		<Variant_Of_Existing_Type>Lucrehulk_Battleship_CIS</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_LUCREHULK_DCS</Text_ID>
+		<Space_Model_Name>cv_Lucrehulk_dcs.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_LUCREHULK_DCS.tga</Icon_Name>
+		<Build_Cost_Credits>16780</Build_Cost_Credits>
+		<AI_Combat_Power>9672</AI_Combat_Power>
+		<Score_Cost_Credits> 9672</Score_Cost_Credits>
+		<Build_Time_Seconds>91</Build_Time_Seconds>
+
+		<HardPoints>
+			HP_Lucrehulk_DCS_00,
+			HP_Lucrehulk_DCS_01,
+			HP_Lucrehulk_DCS_02,
+			HP_Lucrehulk_DCS_03,
+			HP_Lucrehulk_DCS_04,
+			HP_Lucrehulk_DCS_05,
+			HP_Lucrehulk_DCS_06,
+			HP_Lucrehulk_DCS_07,
+			HP_Lucrehulk_DCS_08,
+			HP_Lucrehulk_DCS_09,
+			HP_Lucrehulk_DCS_10,
+			HP_Lucrehulk_DCS_11,
+			HP_Lucrehulk_DCS_12,
+			HP_Lucrehulk_DCS_13,
+			HP_Lucrehulk_Fighter_Bay_00,
+			HP_Lucrehulk_Fighter_Bay_01
+		</HardPoints>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK_DCS_CIS</Encyclopedia_Text>
+		<Population_Value>9</Population_Value>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 500.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Lucrehulk_DCS_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Vulture_Droid_Fighter, Droid_Trifighter, TF_Droid_Bomber</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.05</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.05</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>1</Stacking_Category>
+			</Combat_Bonus_Ability>
+        </Abilities>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>16780</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+</Lucrehulk_Data>

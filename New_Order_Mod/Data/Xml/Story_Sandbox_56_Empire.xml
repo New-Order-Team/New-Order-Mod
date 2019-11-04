@@ -1,0 +1,1908 @@
+<?xml version="1.0" ?>
+<!--****************************************************-->
+<!--***** CAMPAIGN: EQUAL FOOTING (Empire Version) *****-->
+<!--****************************************************-->
+<Story>
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+	<Event Name="Empire_Reveal_Galaxy">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Empire_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<!-- Eras auto-progression -->
+	<Event Name="Time_For_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Empire_Advance_Empire_Era_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>2</Reward_Param2>
+		<Prereq>Time_For_Era_2</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Empire_Advance_Empire_Era_2</Prereq>
+	</Event>
+	<Event Name="Empire_Advance_Empire_Era_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>
+		<Prereq>Time_For_Era_3</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Empire_Advance_Empire_Era_3</Prereq>
+	</Event>
+	<Event Name="Empire_Advance_Empire_Era_4">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>
+		<Prereq>Time_For_Era_4</Prereq>
+	</Event>
+	<Event Name="Time_For_Era_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>600</Event_Param1>
+		<Prereq>Empire_Advance_Empire_Era_4</Prereq>
+	</Event>
+	<Event Name="Empire_Advance_Empire_Era_5">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		<Prereq>Time_For_Era_5</Prereq>
+	</Event>
+	
+
+	<!-- ****************** -->
+	<!-- * Heroes section * -->
+	<!-- ****************** -->
+
+	<!-- Darth Vader -->
+	<Event Name="Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Remove_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Spawn_Vader_Immortal">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Darth_Team_Immortal</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Vader</Prereq>
+		<Prereq>Remove_Vader_Executor_Killed</Prereq>
+		<Perpetual>True</Perpetual>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Build_Vader_Executor">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Darth_Team_Executor</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Vader_Immortal</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Remove_Vader_Immortal_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Immortal</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Vader_Executor</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Remove_Vader_Immortal_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Immortal</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Vader_Executor_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Executor_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Vader_Executor</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Remove_Vader_Executor_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Executor</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Vader_Executor_Has_Been_Killed</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Disable_Vader_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Spawn_Executor_Replacement</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Vader_Executor_Has_Been_Killed</Prereq>
+		<Prereq>Remove_Vader_Immortal_Timeout</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<Event Name="Remove_Vader_Executor_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team_Executor</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Executor_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Vader_Executor_Timeout</Prereq>
+		<Branch>T_Vader</Branch>
+	</Event>-->
+	
+	<!-- Sate Pestage -->
+	<Event Name="Spawn_Pestage">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Sate_Pestage</Branch>
+	</Event>
+	<Event Name="Sate_Pestage_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Sate_Pestage</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Sate_Pestage</Branch>
+	</Event>
+	<Event Name="Remove_Sate_Pestage">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Prereq>Sate_Pestage_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Sate_Pestage</Branch>
+	</Event>
+
+	<!-- Armand Isard -->
+	<Event Name="Spawn_Armand_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Armand_Isard_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Armand_Isard</Branch>
+	</Event>
+	<Event Name="Armand_Isard_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Armand_Isard</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Armand_Isard</Prereq>
+		<Branch>T_Armand_Isard</Branch>
+	</Event>
+	<Event Name="Remove_Armand_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Armand_Isard_Team</Reward_Param1>
+		<Prereq>Armand_Isard_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Armand_Isard</Branch>
+	</Event>
+
+	<!-- Agent Blackhole -->
+	<Event Name="Spawn_Blackhole">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Singularity_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Armand_Isard Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Blackhole</Branch>
+	</Event>
+	<Event Name="Remove_Blackhole">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Singularity_SD</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Blackhole</Branch>
+	</Event>
+
+	<!-- Ysanne Isard -->
+	<Event Name="Spawn_Ysanne_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Ysanne_Isard_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Blackhole</Prereq>
+		<Branch>T_Ysanne_Isard</Branch>
+	</Event>
+	<Event Name="Ysanne_Isard_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Ysanne_Isard</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ysanne_Isard</Prereq>
+		<Branch>T_Ysanne_Isard</Branch>
+	</Event>
+	<Event Name="Remove_Ysanne_Isard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ysanne_Isard_Team</Reward_Param1>
+		<Prereq>Ysanne_Isard_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ysanne_Isard</Branch>
+	</Event>
+
+	<!-- Thrawn -->
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Thrawn</Branch>
+	</Event>
+	<Event Name="Remove_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Thrawn</Branch>
+	</Event>
+
+	<!-- Martio Batch -->
+	<Event Name="Spawn_Martio_Batch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Meniscus_SD</Reward_Param1>
+        <Reward_Param2>AetenII</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Martio_Batch</Branch>
+	</Event>
+	<Event Name="Martio_Batch_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Meniscus_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Martio_Batch</Prereq>
+		<Branch>T_Martio_Batch</Branch>
+	</Event>
+	<Event Name="Remove_Martio_Batch">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Meniscus_SD</Reward_Param1>
+		<Prereq>Martio_Batch_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Martio_Batch</Branch>
+	</Event>
+	
+	<!-- Nial Declann -->
+	<Event Name="Spawn_Nial_Declann">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Recondite_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Nial_Declann</Branch>
+	</Event>
+	<Event Name="Nial_Declann_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Recondite_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Nial_Declann</Prereq>
+		<Branch>T_Nial_Declann</Branch>
+	</Event>
+	<Event Name="Remove_Nial_Declann">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Recondite_SD</Reward_Param1>
+		<Prereq>Nial_Declann_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Nial_Declann</Branch>
+	</Event>
+
+	<!-- Octavian Grant -->
+	<Event Name="Spawn_Moff_Grant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Warlord_SD</Reward_Param1>
+        <Reward_Param2>Fondor</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Octavian_Grant</Branch>
+	</Event>
+	<Event Name="Remove_Moff_Grant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Warlord_SD</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Octavian_Grant</Branch>
+	</Event>
+	<Event Name="Spawn_Octavian_Grant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Oriflamme_SD</Reward_Param1>
+        <Reward_Param2>Fondor</Reward_Param2>
+		<Prereq>Remove_Moff_Grant</Prereq>
+		<Branch>T_Octavian_Grant</Branch>
+	</Event>
+	<Event Name="Remove_Octavian_Grant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Oriflamme_SD</Reward_Param1>
+		<Prereq>Octavian_Grant_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Octavian_Grant</Branch>
+	</Event>
+
+	<!-- Josef Grunger -->
+	<Event Name="Spawn_Josef_Grunger">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rampage_SD</Reward_Param1>
+        <Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Josef_Grunger_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Rampage_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Josef_Grunger</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Build_Josef_Grunger_SSD">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Aggressor_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Josef_Grunger</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Remove_Josef_Grunger_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rampage_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Josef_Grunger_Has_Been_Killed</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Remove_Josef_Grunger_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rampage_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Josef_Grunger_SSD</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Remove_Josef_Grunger_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rampage_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Josef_Grunger_SSD_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Aggressor_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Josef_Grunger_SSD</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Remove_Josef_Grunger_SSD_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Aggressor_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Josef_Grunger_SSD_Has_Been_Killed</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Disable_Josef_Grunger_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Spawn_Josef_Grunger_SSD_Replacement</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Josef_Grunger_SSD_Has_Been_Killed</Prereq>
+		<Prereq>Josef_Grunger_Has_Been_Killed</Prereq>
+		<Prereq>Remove_Josef_Grunger_Timeout</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<Event Name="Remove_Josef_Grunger_Aggressor_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Aggressor_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Josef_Grunger_SSD_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Corellia</Reward_Param2>
+		<Prereq>Remove_Josef_Grunger_Aggressor_Timeout</Prereq>
+		<Branch>T_Josef_Grunger</Branch>
+	</Event>-->
+
+	<!-- Afsheen Makati -->
+	<Event Name="Spawn_Afsheen_Makati">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Steadfast_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Afsheen_Makati_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Steadfast_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Afsheen_Makati</Prereq>
+		<Branch>T_Afsheen_Makati</Branch>
+	</Event>
+	<Event Name="Remove_Afsheen_Makati">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Steadfast_SD</Reward_Param1>
+		<Prereq>Afsheen_Makati_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Afsheen_Makati</Branch>
+	</Event>
+
+	<!-- Danetta Pitta -->
+	<Event Name="Spawn_Danetta_Pitta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Danetta_Pitta_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Danetta_Pitta_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Danetta_Pitta</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Danetta_Pitta</Prereq>
+		<Branch>T_Danetta_Pitta</Branch>
+	</Event>
+	<Event Name="Remove_Danetta_Pitta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Danetta_Pitta_Team</Reward_Param1>
+		<Prereq>Danetta_Pitta_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Danetta_Pitta</Branch>
+	</Event>
+
+	<!-- Ishin-Il-Raz -->
+	<Event Name="Spawn_Ishin_Il_Raz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Emperors_Disciple_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Ishin_Il_Raz_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Emperors_Disciple_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ishin_Il_Raz</Prereq>
+		<Branch>T_Ishin_Il_Raz</Branch>
+	</Event>
+	<Event Name="Remove_Ishin_Il_Raz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Emperors_Disciple_SD</Reward_Param1>
+		<Prereq>Ishin_Il_Raz_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ishin_Il_Raz</Branch>
+	</Event>
+
+	<!-- Peccati Syn -->
+	<Event Name="Spawn_Peccati_Syn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Fi_SD</Reward_Param1>
+        <Reward_Param2>Kashyyyk</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Peccati_Syn_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Fi_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Peccati_Syn</Prereq>
+		<Branch>T_Peccati_Syn</Branch>
+	</Event>
+	<Event Name="Remove_Peccati_Syn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Fi_SD</Reward_Param1>
+		<Prereq>Peccati_Syn_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Peccati_Syn</Branch>
+	</Event>
+	
+	<!-- Miltin Takel -->
+	<Event Name="Spawn_Miltin_Takel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Magic_Dragon_SD</Reward_Param1>
+        <Reward_Param2>Mandalore</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Miltin_Takel_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Magic_Dragon_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Miltin_Takel</Prereq>
+		<Branch>T_Miltin_Takel</Branch>
+	</Event>
+	<Event Name="Remove_Miltin_Takel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Magic_Dragon_SD</Reward_Param1>
+		<Prereq>Miltin_Takel_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Miltin_Takel</Branch>
+	</Event>
+
+	<!-- Osvald Teshik -->
+	<Event Name="Spawn_Osvald_Teshik">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Eleemosynary_SD</Reward_Param1>
+        <Reward_Param2>Anaxes</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Prereq>Remove_Osvald_Teshik_SSD_Killed</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Build_Osvald_Teshik_SSD">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Whelm_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Osvald_Teshik</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Remove_Osvald_Teshik_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Eleemosynary_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Osvald_Teshik_SSD</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Remove_Osvald_Teshik_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Eleemosynary_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Osvald_Teshik_SSD_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Whelm_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Osvald_Teshik_SSD</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Remove_Osvald_Teshik_SSD_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Whelm_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Osvald_Teshik_SSD_Has_Been_Killed</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Disable_Osvald_Teshik_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Spawn_Osvald_Teshik_SSD_Replacement</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Osvald_Teshik_SSD_Has_Been_Killed</Prereq>
+		<Prereq>Remove_Osvald_Teshik_Timeout</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<Event Name="Remove_Osvald_Teshik_SSD_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Whelm_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Osvald_Teshik_SSD_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Anaxes</Reward_Param2>
+		<Prereq>Remove_Osvald_Teshik_SSD_Timeout</Prereq>
+		<Branch>T_Osvald_Teshik</Branch>
+	</Event>-->
+
+	<!-- Ruufan Tigellinus -->
+	<Event Name="Spawn_Ruufan_Tigellinus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Avatar_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Ruufan_Tigellinus_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Avatar_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ruufan_Tigellinus</Prereq>
+		<Branch>T_Ruufan_Tigellinus</Branch>
+	</Event>
+	<Event Name="Remove_Ruufan_Tigellinus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Avatar_SD</Reward_Param1>
+		<Prereq>Ruufan_Tigellinus_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ruufan_Tigellinus</Branch>
+	</Event>
+
+	<!-- Demetrius Zaarin -->
+	<Event Name="Spawn_Demetrius_Zaarin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Glory_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	<Event Name="Demetrius_Zaarin_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Glory_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Demetrius_Zaarin</Prereq>
+		<Branch>T_Demetrius_Zaarin</Branch>
+	</Event>
+	<Event Name="Remove_Demetrius_Zaarin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Glory_SD</Reward_Param1>
+		<Prereq>Demetrius_Zaarin_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Demetrius_Zaarin</Branch>
+	</Event>
+
+	<!-- Blitzer Harrsk -->
+	<Event Name="Spawn_Blitzer_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Ilthmars_Fist_SBC</Reward_Param1>
+        <Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Blitzer_Harrsk</Branch>
+	</Event>
+	<Event Name="Blitzer_Harrsk_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Ilthmars_Fist_SBC</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Blitzer_Harrsk</Prereq>
+		<Branch>T_Blitzer_Harrsk</Branch>
+	</Event>
+	<Event Name="Remove_Blitzer_Harrsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ilthmars_Fist_SBC</Reward_Param1>
+		<Prereq>Blitzer_Harrsk_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Blitzer_Harrsk</Branch>
+	</Event>
+
+	<!-- Sander Delvardus -->
+	<Event Name="Spawn_Sander_Delvardus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Thalassa_SBC</Reward_Param1>
+        <Reward_Param2>Eriadu</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Sander_Delvardus</Branch>
+	</Event>
+	<Event Name="Sander_Delvardus_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Thalassa_SBC</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Sander_Delvardus</Prereq>
+		<Branch>T_Sander_Delvardus</Branch>
+	</Event>
+	<Event Name="Remove_Sander_Delvardus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Thalassa_SBC</Reward_Param1>
+		<Prereq>Sander_Delvardus_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Sander_Delvardus</Branch>
+	</Event>
+
+	<!-- Treuten Teradoc -->
+	<Event Name="Spawn_Treuten_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>13X_SD</Reward_Param1>
+        <Reward_Param2>Anaxes</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Treuten_Teradoc</Branch>
+	</Event>
+	<Event Name="Treuten_Teradoc_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>13X_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Treuten_Teradoc</Prereq>
+		<Branch>T_Treuten_Teradoc</Branch>
+	</Event>
+	<Event Name="Remove_Treuten_Teradoc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>13X_SD</Reward_Param1>
+		<Prereq>Treuten_Teradoc_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Treuten_Teradoc</Branch>
+	</Event>
+
+	<!-- Malcor Brashin -->
+	<Event Name="Spawn_Malcor_Brashin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Malcor_Brashin_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Malcor_Brashin</Branch>
+	</Event>
+	<Event Name="Malcor_Brashin_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Malcor_Brashin</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Malcor_Brashin</Branch>
+	</Event>
+	<Event Name="Remove_Malcor_Brashin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Malcor_Brashin_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04 Malcor_Brashin_Has_Been_Killed</Prereq>
+		<Branch>T_Malcor_Brashin</Branch>
+	</Event>
+	<Event Name="Remove_Malcor_Brashin_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Malcor_Brashin_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Malcor_Brashin</Branch>
+	</Event>
+
+	<!-- Redd Wessel -->
+	<Event Name="Spawn_Redd_Wessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Redd_Wessel_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04 Remove_Malcor_Brashin</Prereq>
+		<Branch>T_Redd_Wessel</Branch>
+	</Event>
+	<Event Name="Redd_Wessel_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Redd_Wessel</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Redd_Wessel</Prereq>
+		<Branch>T_Redd_Wessel</Branch>
+	</Event>
+	<Event Name="Remove_Redd_Wessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Redd_Wessel_Team</Reward_Param1>
+		<Prereq>Spawn_Redd_Wessel Redd_Wessel_Has_Been_Killed</Prereq>
+		<Branch>T_Redd_Wessel</Branch>
+	</Event>
+	<Event Name="Remove_Redd_Wessel_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Redd_Wessel_Team</Reward_Param1>
+		<Prereq>Spawn_Redd_Wessel Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Redd_Wessel</Branch>
+	</Event>
+
+	<!-- Immodet -->
+	<Event Name="Spawn_Immodet">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Immodet_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04 Remove_Redd_Wessel</Prereq>
+		<Branch>T_Immodet</Branch>
+	</Event>
+	<Event Name="Remove_Immodet">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Immodet_Team</Reward_Param1>
+		<Prereq>Spawn_Immodet Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Immodet</Branch>
+	</Event>
+	
+	<!-- Foga Brill -->
+	<Event Name="Spawn_Foga_Brill">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Foga_Brill_Team</Reward_Param1>
+        <Reward_Param2>Byss</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Foga_Brill</Branch>
+	</Event>
+	<Event Name="Foga_Brill_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Foga_Brill</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Foga_Brill</Prereq>
+		<Branch>T_Foga_Brill</Branch>
+	</Event>
+	<Event Name="Remove_Foga_Brill">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Foga_Brill_Team</Reward_Param1>
+		<Prereq>Foga_Brill_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_06</Prereq>
+		<Branch>T_Foga_Brill</Branch>
+	</Event>
+	
+	<!-- Brakiss -->
+	<Event Name="Spawn_Brakiss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Brakiss_Team</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Brakiss</Branch>
+	</Event>
+	
+	<!-- Tol Getelles -->
+	<Event Name="Spawn_Tol_Getelles">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Tol_Getelles_Team</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Tol_Getelles</Branch>
+	</Event>
+
+	<!-- Wilhuff Tarkin -->
+	<Event Name="Spawn_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Executrix_SD</Reward_Param1>
+        <Reward_Param2>Eriadu</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Wilhuff_Tarkin</Branch>
+	</Event>
+	<Event Name="Tarkin_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Executrix_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Tarkin</Prereq>
+		<Branch>T_Wilhuff_Tarkin</Branch>
+	</Event>
+	<Event Name="Remove_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Executrix_SD</Reward_Param1>
+		<Prereq>Tarkin_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Wilhuff_Tarkin</Branch>
+	</Event>
+
+	<!-- Trachta -->
+	<Event Name="Spawn_Trachta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Trachta_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02 Remove_Tarkin</Prereq>
+		<Branch>T_Trachta</Branch>
+	</Event>
+	<Event Name="Trachta_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Trachta</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Trachta</Prereq>
+		<Branch>T_Trachta</Branch>
+	</Event>
+	<Event Name="Remove_Trachta">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Trachta_Team</Reward_Param1>
+		<Prereq>Trachta_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Trachta</Branch>
+	</Event>
+
+	<!-- Zsinj -->
+	<Event Name="Spawn_Zsinj">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Iron_Fist_SD</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Build_Zsinj_SSD">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Iron_Fist_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Zsinj</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Disable_Zsinj_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Remove_Zsinj_Timeout</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Zsinj_SSD</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Disable_Zsinj_Has_Been_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Zsinj_Has_Been_Killed</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Zsinj_SSD</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Zsinj_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Iron_Fist_SD</Event_Param1>
+		<Event_Param3>1</Event_Param3>
+		<Prereq>Spawn_Zsinj</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Remove_Zsinj_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Zsinj_Has_Been_Killed</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Remove_Zsinj_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Zsinj_SSD</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Remove_Zsinj_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Zsinj_SSD_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Iron_Fist_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Zsinj_SSD</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Remove_Zsinj_SSD_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Zsinj_SSD_Has_Been_Killed</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Disable_Zsinj_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Spawn_Zsinj_SSD_Replacement</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Zsinj_SSD Zsinj_SSD_Has_Been_Killed</Prereq>
+		<Prereq>Zsinj_Has_Been_Killed</Prereq>
+		<Prereq>Remove_Zsinj_Timeout</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<Event Name="Remove_Zsinj_SSD_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Iron_Fist_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Zsinj_SSD_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Build_Zsinj_SSD Remove_Zsinj_SSD_Timeout</Prereq>
+		<Branch>T_Zsinj</Branch>
+	</Event>-->
+
+	<!-- Ardus Kaine -->
+	<Event Name="Spawn_Ardus_Kaine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Ardus_Kaine_Team</Reward_Param1>
+        <Reward_Param2>Muunilinst</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Ardus_Kaine_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Ardus_Kaine</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ardus_Kaine</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Build_Ardus_Kaine_SSD">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Reaper_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Ardus_Kaine</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Remove_Ardus_Kaine_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ardus_Kaine_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Ardus_Kaine_Has_Been_Killed</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Remove_Ardus_Kaine_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ardus_Kaine_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Ardus_Kaine_SSD</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Remove_Ardus_Kaine_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ardus_Kaine_Team</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Ardus_Kaine_SSD_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Reaper_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Ardus_Kaine_SSD</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Remove_Ardus_Kaine_SSD_Killed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Reaper_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Ardus_Kaine_SSD_Has_Been_Killed</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Disable_Ardus_Kaine_SSD_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
+		<Reward_Param1>Spawn_Ardus_Kaine_SSD_Replacement</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Ardus_Kaine_SSD_Has_Been_Killed</Prereq>
+		<Prereq>Ardus_Kaine_Has_Been_Killed</Prereq>
+		<Prereq>Remove_Ardus_Kaine_Timeout</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<Event Name="Remove_Ardus_Kaine_SSD_Timeout">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Reaper_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>
+	<!--<Event Name="Spawn_Ardus_Kaine_SSD_Replacement">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Reaper_Pellaeon_SSD</Reward_Param1>
+        <Reward_Param2>Muunilinst</Reward_Param2>
+		<Prereq>Spawn_Gilad_Pellaeon_SC Remove_Ardus_Kaine_SSD_Timeout</Prereq>
+		<Branch>T_Ardus_Kaine</Branch>
+	</Event>-->
+
+	<!-- Gilad Pellaeon -->
+	<Event Name="Spawn_Gilad_Pellaeon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Chimaera_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Remove_Gilad_Pellaeon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chimaera_SD</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Spawn_Gilad_Pellaeon_SC">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Chimaera_SD_SC</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Prereq>Remove_Pellaeon_Reaper</Prereq>
+		<Prereq>Remove_Pellaeon_Megador</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Remove_Gilad_Pellaeon_SC_On_Reaper">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chimaera_SD_SC</Reward_Param1>
+		<Prereq>Spawn_Ardus_Kaine_SSD_Replacement</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Build_Gilad_Pellaeon_SC_Megador">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Megador_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Gilad_Pellaeon_SC</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Remove_Gilad_Pellaeon_SC_On_Megador">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Chimaera_SD_SC</Reward_Param1>
+		<Prereq>Build_Gilad_Pellaeon_SC_Megador</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Pellaeon_Reaper_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Reaper_Pellaeon_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ardus_Kaine_SSD_Replacement</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+	<Event Name="Remove_Pellaeon_Reaper">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Reaper_Pellaeon_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Pellaeon_Reaper_Has_Been_Killed</Prereq>
+		<Branch>T_Gilad_Pellaeon</Branch>
+	</Event>
+
+	<!-- Terrinald Screed -->
+	<Event Name="Spawn_Screed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Arlionne_SD</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Terrinald_Screed</Branch>
+	</Event>
+	<Event Name="Remove_Terrinald_Screed">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Arlionne_SD</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Terrinald_Screed</Branch>
+	</Event>
+	<Event Name="Spawn_Terrinald_Screed_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Demolisher_SD</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Remove_Terrinald_Screed</Prereq>
+		<Branch>T_Terrinald_Screed</Branch>
+	</Event>
+	<Event Name="Remove_Terrinald_Screed_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Demolisher_SD</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Terrinald_Screed</Branch>
+	</Event>
+
+	<!-- Conan Antonio Motti -->
+	<Event Name="Spawn_Conan_Antonio_Motti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Steel_Talon_SD</Reward_Param1>
+        <Reward_Param2>Eriadu</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Motti</Branch>
+	</Event>
+	<Event Name="Conan_Antonio_Motti_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Steel_Talon_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Conan_Antonio_Motti</Prereq>
+		<Branch>T_Motti</Branch>
+	</Event>
+	<Event Name="Remove_Conan_Antonio_Motti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Steel_Talon_SD</Reward_Param1>
+		<Prereq>Conan_Antonio_Motti_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Motti</Branch>
+	</Event>
+
+	<!-- Natasi Daala -->
+	<Event Name="Spawn_Natasi_Daala">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Gorgon_SD</Reward_Param1>
+        <Reward_Param2>Anaxes</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Remove_Daala_Knight_Hammer</Prereq>
+		<Branch>T_Natasi_Daala</Branch>
+	</Event>
+	<Event Name="Build_Daala_Knight_Hammer">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Knight_Hammer_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Natasi_Daala</Prereq>
+		<Branch>T_Natasi_Daala</Branch>
+	</Event>
+	<Event Name="Remove_Daala_Gorgon_On_Upgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Gorgon_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Daala_Knight_Hammer</Prereq>
+		<Branch>T_Natasi_Daala</Branch>
+	</Event>
+	<Event Name="Daala_Knight_Hammer_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Knight_Hammer_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Daala_Knight_Hammer</Prereq>
+		<Branch>T_Natasi_Daala</Branch>
+	</Event>
+	<Event Name="Remove_Daala_Knight_Hammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Knight_Hammer_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Daala_Knight_Hammer_Has_Been_Killed</Prereq>
+		<Branch>T_Natasi_Daala</Branch>
+	</Event>
+	
+	<!-- Mils Giel -->
+	<Event Name="Spawn_Mils_Giel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Helmsman_SBC</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Mils_Giel</Branch>
+	</Event>
+	<Event Name="Mils_Giel_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Helmsman_SBC</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Mils_Giel</Prereq>
+		<Branch>T_Mils_Giel</Branch>
+	</Event>
+	<Event Name="Remove_Mils_Giel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Helmsman_SBC</Reward_Param1>
+		<Prereq>Mils_Giel_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Mils_Giel</Branch>
+	</Event>
+	
+	<!-- Firmus Piett -->
+	<Event Name="Spawn_Firmus_Piett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Accuser_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Firmus_Piett</Branch>
+	</Event>
+	<Event Name="Firmus_Piett_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Accuser_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Firmus_Piett</Prereq>
+		<Branch>T_Firmus_Piett</Branch>
+	</Event>
+	<Event Name="Remove_Firmus_Piett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Accuser_SD</Reward_Param1>
+		<Prereq>Firmus_Piett_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Firmus_Piett</Branch>
+	</Event>
+	
+	<!-- Ledre Okins -->
+	<Event Name="Spawn_Ledre_Okins">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Ledre_Okins_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Ledre_Okins</Branch>
+	</Event>
+	<Event Name="Ledre_Okins_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Ledre_Okins</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Ledre_Okins</Prereq>
+		<Branch>T_Ledre_Okins</Branch>
+	</Event>
+	<Event Name="Remove_Ledre_Okins">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Ledre_Okins_Team</Reward_Param1>
+		<Prereq>Ledre_Okins_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ledre_Okins</Branch>
+	</Event>
+
+	<!-- Hurst Romodi -->
+	<Event Name="Spawn_Romodi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Hurst_Romodi_Team</Reward_Param1>
+        <Reward_Param2>Dathomir</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Hurst_Romodi</Branch>
+	</Event>
+	<Event Name="Remove_Romodi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Hurst_Romodi_Team</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Hurst_Romodi</Branch>
+	</Event>
+	
+	<!-- Rom Mohc -->
+	<Event Name="Spawn_Rom_Mohc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rom_Mohc_Squad</Reward_Param1>
+        <Reward_Param2>Carida</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Rom_Mohc</Branch>
+	</Event>
+	<Event Name="Remove_Rom_Mohc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rom_Mohc_Squad</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Rom_Mohc</Branch>
+	</Event>
+	<Event Name="Spawn_Rom_Mohc_Arc_Hammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Rom_Mohc_Team_Arc_Hammer</Reward_Param1>
+        <Reward_Param2>Carida</Reward_Param2>
+		<Prereq>Remove_Rom_Mohc</Prereq>
+		<Branch>T_Rom_Mohc</Branch>
+	</Event>
+	<Event Name="Rom_Mohc_Arc_Hammer_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Rom_Mohc_DT</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Rom_Mohc_Arc_Hammer</Prereq>
+		<Branch>T_Rom_Mohc</Branch>
+	</Event>
+	<Event Name="Remove_Rom_Mohc_Arc_Hammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rom_Mohc_Team_Arc_Hammer</Reward_Param1>
+		<Prereq>Rom_Mohc_Arc_Hammer_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Rom_Mohc</Branch>
+	</Event>
+	
+	<!-- Cassio Tagge -->
+	<Event Name="Spawn_Cassio_Tagge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Cassio_Tagge_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Cassio_Tagge</Branch>
+	</Event>
+	<Event Name="Cassio_Tagge_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Cassio_Tagge</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Cassio_Tagge</Prereq>
+		<Branch>T_Cassio_Tagge</Branch>
+	</Event>
+	<Event Name="Remove_Cassio_Tagge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Cassio_Tagge_Team</Reward_Param1>
+		<Prereq>Cassio_Tagge_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_Cassio_Tagge</Branch>
+	</Event>
+
+	<!-- Teren Rogriss -->	
+	<Event Name="Spawn_Teren_Rogriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Agonizer_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Prereq>Remove_Rogriss_Dominion</Prereq>
+		<Branch>T_Teren_Rogriss</Branch>
+	</Event>
+	<Event Name="Build_Rogriss_Dominion">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Dominion_SSD</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+		<Prereq>Spawn_Teren_Rogriss</Prereq>
+		<Branch>T_Teren_Rogriss</Branch>
+	</Event>
+	<Event Name="Remove_Rogriss_OnUpgrade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Agonizer_SD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Build_Rogriss_Dominion</Prereq>
+		<Branch>T_Teren_Rogriss</Branch>
+	</Event>
+	<Event Name="Rogriss_Dominion_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Dominion_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Build_Rogriss_Dominion</Prereq>
+		<Branch>T_Teren_Rogriss</Branch>
+	</Event>
+	<Event Name="Remove_Rogriss_Dominion">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Dominion_SSD</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Rogriss_Dominion_Has_Been_Killed</Prereq>
+		<Branch>T_Teren_Rogriss</Branch>
+	</Event>
+
+	<!-- Delak Krennel -->
+	<Event Name="Spawn_Delak_Krennel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Reckoning_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+		<Branch>T_Delak_Krennel</Branch>
+	</Event>
+	<Event Name="Delak_Krennel_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Reckoning_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Delak_Krennel</Prereq>
+		<Branch>T_Delak_Krennel</Branch>
+	</Event>
+	<Event Name="Delak_Krennel_Add_Adm_Flag">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>INCREMENT_FLAG</Reward_Type>
+        <Reward_Param1>Adm_Death_Count</Reward_Param1>
+        <Reward_Param2>1</Reward_Param2>
+		<Prereq>Delak_Krennel_Has_Been_Killed</Prereq>
+	</Event>
+	<Event Name="Remove_Delak_Krennel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Reckoning_SD</Reward_Param1>
+		<Prereq>Delak_Krennel_Has_Been_Killed</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Delak_Krennel</Branch>
+	</Event>
+
+	<!-- Villim Disra -->
+	<Event Name="Spawn_Villim_Disra">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Relentless_SD_Disra</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Villim_Disra</Branch>
+	</Event>
+	<Event Name="Villim_Disra_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Relentless_SD_Disra</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Villim_Disra</Prereq>
+		<Branch>T_Villim_Disra</Branch>
+	</Event>
+	<Event Name="Remove_Villim_Disra">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Relentless_SD_Disra</Reward_Param1>
+		<Prereq>Villim_Disra_Has_Been_Killed</Prereq>
+		<Branch>T_Villim_Disra</Branch>
+	</Event>
+
+	<!-- Ephin Sarreti -->
+	<Event Name="Spawn_Ephin_Sarreti">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Relentless_SD_Sarreti</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_Villim_Disra</Prereq>
+		<Branch>T_Ephin_Sarreti</Branch>
+	</Event>
+
+	<!-- Kurlen Flennic -->
+	<Event Name="Spawn_Kurlen_Flennic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Stalwart_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Kurlen_Flennic</Branch>
+	</Event>
+	<Event Name="Kurlen_Flennic_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Stalwart_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Kurlen_Flennic</Prereq>
+		<Branch>T_Kurlen_Flennic</Branch>
+	</Event>
+	<Event Name="Remove_Kurlen_Flennic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Stalwart_SD</Reward_Param1>
+		<Prereq>Kurlen_Flennic_Has_Been_Killed</Prereq>
+		<Branch>T_Kurlen_Flennic</Branch>
+	</Event>
+
+	<!-- Sil Sorannan -->
+	<Event Name="Sil_Sorannan_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Intimidator_SSD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Branch>T_Sil_Sorannan</Branch>
+	</Event>
+	<Event Name="Remove_Sil_Sorannan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Intimidator_SSD</Reward_Param1>
+		<Prereq>Sil_Sorannan_Has_Been_Killed</Prereq>
+		<Branch>T_Sil_Sorannan</Branch>
+	</Event>
+
+	<!-- Ark Poinard -->
+	<Event Name="Spawn_Ark_Poinard">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Erinnic_SD</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Ark_Poinard</Branch>
+	</Event>
+
+	<!-- Hestiv -->
+	<Event Name="Spawn_Hestiv">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Hestiv_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Hestiv</Branch>
+	</Event>
+
+	<!-- Sutt Ramic -->
+	<Event Name="Spawn_Sutt_Ramic">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Sutt_Ramic_Team</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_Sutt_Ramic</Branch>
+	</Event>
+
+	<!-- Shea Hublin -->
+	<Event Name="Spawn_Shea_Hublin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>77th_Squadron</Reward_Param1>
+        <Reward_Param2>Eriadu</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+		<Branch>T_Shea_Hublin</Branch>
+	</Event>
+	<Event Name="Remove_Shea_Hublin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>77th_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_Shea_Hublin</Branch>
+	</Event>
+
+	<!-- Soontir Fel -->
+	<Event Name="Spawn_181st_LN">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>181st_TIE_ln_Squadron</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Branch>T_181st</Branch>
+	</Event>
+	<Event Name="Remove_181st_LN">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>181st_TIE_ln_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Branch>T_181st</Branch>
+	</Event>
+	<Event Name="Spawn_181st_IN">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>181st_TIE_in_Squadron</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_181st_LN</Prereq>
+		<Branch>T_181st</Branch>
+	</Event>
+	<Event Name="Remove_181st_IN">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>181st_TIE_in_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+		<Branch>T_181st</Branch>
+	</Event>
+	<Event Name="Spawn_181st_D">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>181st_TIE_d_Squadron</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Remove_181st_IN</Prereq>
+		<Branch>T_181st</Branch>
+	</Event>
+
+	<!-- **************** -->
+	<!-- * Eras section * -->
+	<!-- **************** -->
+
+	<!-- Era 1 -->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	<!-- Era 2 -->
+
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="Disable_ARC_170">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Arc_170_Squadron</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Acclamator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Acclamator_Assault_Ship</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	<Event Name="Disable_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Venator</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<!-- Era 3 -->
+
+	<Event Name="Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Disable_Nebulon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Nebulon_B_Frigate_Empire</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Disable_Gladiator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Gladiator_Carrier</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Disable_ISD">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Star_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<!-- Era 4 -->
+
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="Disable_Nebulon_B2_Frigate_Imp">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Nebulon_B2_Frigate_Imp</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Disable_Tector">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Tector</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+	<!-- Era 5 -->
+
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+	<Event Name="Disable_DP20">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Empire_Corellian_Gunboat</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="Disable_Modified_Dreadnaught">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Dreadnought_Imp</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="Disable_Escort_Carrier">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>Escort_Carrier</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="Disable_Hero_Redd_Wessel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>T_Redd_Wessel</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	<Event Name="Disable_Hero_Immodet">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>DISABLE_BRANCH</Reward_Type>
+		<Reward_Param1>T_Immodet</Reward_Param1>
+		<Reward_Param2>1</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<!-- Era 6 -->
+
+	<Event Name="Empire_Enters_Tech_06">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>6</Event_Param1>
+	</Event>
+
+</Story>

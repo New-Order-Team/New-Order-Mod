@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<Props_Corellia>
+<Props_Corellia Name="House 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor1.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor2.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor3.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor4.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 5">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor5.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 6">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor6.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 7">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor7.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 8">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor8.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="House 9">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor9.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	    </Props_Corellia>	
+<Props_Corellia Name="House 10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Cor10.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Train">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Train.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Tram rails">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Rails.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Tram rails with supports">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>rails_with_support.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Station">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>trim_station.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Tram tunnel in">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>tram tunnel in.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Tram rails turn">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>rails_turn.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Tram rails turn with supports">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>rails_turn_with_supports.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Rails fly support">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>rails fly support.alo</Land_Model_Name>
+		<Scale_Factor>120</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+		
+<Props_Corellia Name="Street light">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>street light.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Street light 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>street light 2.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Walkway shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>walkway shot.alo</Land_Model_Name>
+		<Scale_Factor>55</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Walkway long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>walkway long.alo</Land_Model_Name>
+		<Scale_Factor>55</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Walkway ending">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>walkway end.alo</Land_Model_Name>
+		<Scale_Factor>55</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Walkway corner">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>walkway turn.alo</Land_Model_Name>
+		<Scale_Factor>55</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Road">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>road flat.alo</Land_Model_Name>
+		<Scale_Factor>175</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Road long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>road flat long.alo</Land_Model_Name>
+		<Scale_Factor>175</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Street banner 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>sign2.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Street banner 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>sign3.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Street banner 3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>sign4.alo</Land_Model_Name>
+		<Scale_Factor>75</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Road turn">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>road turn.alo</Land_Model_Name>
+		<Scale_Factor>175</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Road four ways">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>road flat 4 ways.alo</Land_Model_Name>
+		<Scale_Factor>175</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Road three ways">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>road flat 3 ways.alo</Land_Model_Name>
+		<Scale_Factor>175</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Wall shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Corr wall shot.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Wall corner out">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Corr wall out.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Wall corner in">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Corr wall inside.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Wall long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>Corr wall long.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Midcywall windowed long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall windowed long.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Midcywall windowed shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall windowed shot.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Midcywall shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall shot.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="Midcywall long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall long.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Midcywall inside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall inside.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Midcywall outside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall outside.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Midcywall windowed outside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall windowed outside.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>		
+<Props_Corellia Name="midcywall windowed inside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>midcywall windowed inside.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>		
+		</Props_Corellia>
+<Props_Corellia Name="Apart 1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>apart 1.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Apart 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>apart 2.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Wall 2 shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>corr wall 2 shot.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Wall 2 long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>corr wall 2 long.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Wall 2 inside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>corr wall 2 inside.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Wall 2 outside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>corr wall 2 out.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Street sign">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>street sign.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Street sign 2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>street sign2.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+
+<Props_Corellia Name="parwall shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>parkwall shot.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="parwall long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>parkwall long.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="parwall inside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>parkwall inside.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="parwall outside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>parkwall out.alo</Land_Model_Name>
+		<Scale_Factor>85</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>			
+<Props_Corellia Name="Wallset shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset shot.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Wallset long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset long.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Wallset out">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset out.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Wallset stack">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset stack.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Wallset inside">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset inside.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Wallset doorway">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>wallset doorway.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Curb shot">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>curb s.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>	
+<Props_Corellia Name="Curb long">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>curb m.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Corellia>
+<Props_Corellia Name="Curb corner">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>curb corner.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+<Props_Corellia Name="Statue standing">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>statue.alo</Land_Model_Name>
+		<Scale_Factor>100</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_Corellia>
+		
+</Props_Corellia>
