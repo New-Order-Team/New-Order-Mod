@@ -3262,7 +3262,7 @@
 		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Rebel_Star_Base_1 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3292,7 +3292,7 @@
 		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Rebel_Star_Base_2 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3322,7 +3322,7 @@
 		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Rebel_Star_Base_3 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3352,7 +3352,7 @@
 		<Tactical_Build_Cost_Multiplayer> 34650 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>34650</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 116 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Rebel_Star_Base_4 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />

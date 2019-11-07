@@ -29,7 +29,7 @@
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
 		<Armor_Type> Armor_Space </Armor_Type>
-        	<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        	<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Damage>220</Damage>
 		<Autoresolve_Health>2512</Autoresolve_Health>
 		<Shield_Points>1600</Shield_Points>
