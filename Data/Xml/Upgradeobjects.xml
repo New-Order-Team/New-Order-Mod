@@ -3409,7 +3409,7 @@
 		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Empire_Star_Base_1 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3439,7 +3439,7 @@
 		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Empire_Star_Base_2 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3469,7 +3469,7 @@
 		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Empire_Star_Base_3 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -3499,7 +3499,7 @@
 		<Tactical_Build_Cost_Multiplayer> 34650 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>34650</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 116 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> Skirmish_Empire_Star_Base_4 </Tactical_Build_Prerequisites>
+		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Previous_Upgrade_Level_Type />
@@ -4437,60 +4437,4 @@
 		
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<UpgradeObject Name="ES_One_More_TIE_Squadron">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>80</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 5 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_garrison.tga</Icon_Name>
-		
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_MORE_GARRISONS_L1  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_OFFENSE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_ES_MORE_GARRISONS_L1</Text_ID>
-		
-		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		<Abilities SubObjectList="Yes">
-			<Garrison_Upgrade_Ability Name="ES_More_Garrisons_L1_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
-				<Additional_Garrison_Units>TIE_Phantom_Squadron</Additional_Garrison_Units>
-			</Garrison_Upgrade_Ability>
-		</Abilities>
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
-
 </UpgradeObjects>

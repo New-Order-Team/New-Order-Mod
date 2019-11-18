@@ -3319,6 +3319,7 @@
 				CC-7700E_Frigate,
 				MC_40a,
 				Liberator_Carrier,
+				
 				RS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1E3</Prev_Level_Base>
@@ -3344,6 +3345,7 @@
 				Liberator_Carrier,
 				MC30_Frigate,
 				Alliance_Assault_Frigate2,
+				
 				RS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2E3</Prev_Level_Base>
@@ -3375,6 +3377,7 @@
 				Calamari_Cruiser_HO_Type,
 				MC_80b,
 				Dauntless_Cruiser,
+				
 				RS_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3E3</Prev_Level_Base>
@@ -3424,6 +3427,7 @@
 				Lancer_Frigate,
 				Tartan_Patrol_Cruiser,
 				Heavy_Carrack,
+				
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3445,6 +3449,7 @@
 				Nebulon_B2_Frigate_Imp,
 				Strike_Cruiser,
 				Escort_Carrier,
+				
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_1E3</Prev_Level_Base>
@@ -3471,6 +3476,7 @@
 				Escort_Carrier,
 				Victory_Destroyer,
 				Victory_2_Destroyer,
+				
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_2E3</Prev_Level_Base>
@@ -3504,6 +3510,7 @@
 
 				Allegiance,
 				Praetor_II,
+				
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_3E3</Prev_Level_Base>
