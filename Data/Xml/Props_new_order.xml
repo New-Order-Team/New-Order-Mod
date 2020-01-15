@@ -127,4 +127,124 @@
 		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_STRUCTURE">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_house.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_STRUCTURE_X2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_house.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_STRUCTURE_X3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_house.ALO</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_STRUCTURE_X4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_house.ALO</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_PLATFORM">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_platform.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_PLATFORM_X2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_platform.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_PLATFORM_X3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_platform.ALO</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_PLATFORM_X4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_platform.ALO</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_SML_OBELISK">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_small_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_SML_OBELISK_X2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_small_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_SML_OBELISK_X3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_small_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_BIG_OBELISK">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_big_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_BIG_OBELISK_X2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_big_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>2</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_BIG_OBELISK_X3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_big_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>3</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
+		
+	<Props_New_Order Name="Urban_DRCKNWL_BIG_OBELISK_X4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_druckenwell_big_obelisk.ALO</Land_Model_Name>
+		<Scale_Factor>4</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		</Props_New_Order>
 </Props_New_Order>
