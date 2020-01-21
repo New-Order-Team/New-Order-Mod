@@ -315,7 +315,16 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
-	</Props_Junk>		
+	</Props_Junk>			
+
+<Props_Junk Name="Prop_Junk_Girder_Lrg_Passable">
+		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
+		<Land_Model_Name>W_junk_ship_girder.ALO</Land_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+	</Props_Junk>	
 
 <Props_Junk Name="Prop_Junk_Treads">
 		<Text_ID>TEXT_STRUCTURE_CIVILIAN_URBAN</Text_ID>
