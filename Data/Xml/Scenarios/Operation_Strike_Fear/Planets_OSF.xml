@@ -55,7 +55,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Anaxes_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Lianna_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Anaxes_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -122,7 +122,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Desevro_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Atzerri_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -189,7 +189,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _land_planet_fondor_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Raxus_Prime_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Fondor_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -256,7 +256,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map>_land_planet_omman_00.ted</Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Omman_00.ted</Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Dantooine_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -323,7 +323,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Alderaan_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Rudrig_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Alderaan_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -390,7 +390,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Bothawui_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Brigia_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Bothawui_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -500,9 +500,9 @@
 		<Text_ID>TEXT_PLANET_ORION_IV</Text_ID>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
@@ -524,8 +524,8 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map>_land_planet_aetenii_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_AetenII_01.ted</Space_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Orion_IV_00.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Hypori_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -591,7 +591,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map>_land_planet_felucia_00.ted</Land_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Caluula_00.ted</Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Felucia_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -658,7 +658,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Dantooine_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Derellium_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Dantooine_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
@@ -725,7 +725,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		<Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-		<Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Estaria_00.ted </Land_Tactical_Map>
 		<Space_Tactical_Map>_Space_Planet_Bonadan_01.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
