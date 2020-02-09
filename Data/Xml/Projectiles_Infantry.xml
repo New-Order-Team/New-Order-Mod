@@ -27,7 +27,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>p_infantry_blaster_short.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_I1 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Max_Speed>11.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -53,7 +53,7 @@
 		<Variant_Of_Existing_Type>Proj_Land_Blaster_E_11</Variant_Of_Existing_Type>
 		<Land_Model_Name>p_infantry_blaster_long.ALO</Land_Model_Name>
 		<Max_Speed>15.0</Max_Speed>
-		<Damage_Type> Damage_I1 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 	</Projectile>
 	
 	<Projectile Name="Proj_Land_Blaster_E_15">
@@ -100,7 +100,7 @@
     
 	<Projectile Name="Proj_Land_Blaster_E_11s">
 		<Variant_Of_Existing_Type>Proj_Land_Blaster_T_21</Variant_Of_Existing_Type>
-		<Damage_Type> Damage_I2 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Max_Speed>16.5</Max_Speed>
 		<Projectile_Max_Flight_Distance>700.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>45.0</Projectile_Damage>
@@ -108,7 +108,7 @@
 	
 	<Projectile Name="Proj_Land_Blaster_T_21">
 		<Variant_Of_Existing_Type>Proj_Land_Blaster_RT_97C</Variant_Of_Existing_Type>
-		<Damage_Type> Damage_I2 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Projectile_Damage>12</Projectile_Damage>
 	</Projectile>
 	
@@ -183,7 +183,7 @@
 	
 	<Projectile Name="Proj_Land_Blaster_E17d_Sniper">
 		<Variant_Of_Existing_Type>Proj_Land_Blaster_T_21</Variant_Of_Existing_Type>
-		<Damage_Type> Damage_I2 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Max_Speed>16.5</Max_Speed>
 		<Projectile_Max_Flight_Distance>700.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>45</Projectile_Damage>
@@ -193,7 +193,7 @@
 		<Variant_Of_Existing_Type>Proj_Land_Blaster_E_11</Variant_Of_Existing_Type>
 		<Land_Model_Name>p_infantry_blaster_long.ALO</Land_Model_Name>
 		<Max_Speed>16.5</Max_Speed>
-		<Damage_Type> Damage_I2 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Projectile_Damage>10.0</Projectile_Damage>
 	</Projectile>
 
@@ -264,7 +264,7 @@
 	<!--<Projectile Name="Proj_Land_Flame_Rifle">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name></Land_Model_Name>
-		<Damage_Type> Damage_I1 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>20.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -297,7 +297,7 @@
 	
 	<Projectile Name="Proj_Land_Czerka_Adventurer">
 		<Variant_Of_Existing_Type>Proj_Land_Imperial_Repeater</Variant_Of_Existing_Type>
-		<Damage_Type> Damage_I2 </Damage_Type>
+		<Damage_Type> Damage_I </Damage_Type>
 		<Max_Speed>16.5</Max_Speed>
 		<Projectile_Max_Flight_Distance>700.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>60</Projectile_Damage>

@@ -46,11 +46,11 @@
 
 		<Armor_Type> Armor_A2 </Armor_Type>
 		<Shield_Armor_Type>Armor_I1</Shield_Armor_Type>
-		<Shield_Points>200</Shield_Points>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Shield_Points>120</Shield_Points>
+		<Shield_Refresh_Rate>12</Shield_Refresh_Rate>
 		<Size_Value>70</Size_Value>
 		<Damage>40</Damage>
-		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Health>390</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -64,8 +64,8 @@
 		<Garrison_Value>4</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
 				HP_T1b_Main,
@@ -116,7 +116,7 @@
 		<Overall_Length>45.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain value (20 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>355</AI_Combat_Power>
+		<AI_Combat_Power>467</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -131,7 +131,7 @@
 		<Icon_Name>i_button_t1b.tga</Icon_Name>
 		<Weather_Category>Hover</Weather_Category>
 
-		<Score_Cost_Credits>355</Score_Cost_Credits>
+		<Score_Cost_Credits>467</Score_Cost_Credits>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 
@@ -144,12 +144,12 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>11.5</Damage>
-		<Autoresolve_Health>1500</Autoresolve_Health>
+		<Damage>18.5</Damage>
+		<Autoresolve_Health>1020</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1070</Build_Cost_Credits>
+		<Build_Cost_Credits>930</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>24</Build_Time_Seconds>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
@@ -164,18 +164,18 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>T1B_Tank, T1B_Tank, T1B_Tank, T1B_Tank</Company_Units>
+		<Company_Units>T1B_Tank, T1B_Tank</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_t1b.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_T2B_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1066</Score_Cost_Credits>
+		<Score_Cost_Credits>933</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1070</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>930</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

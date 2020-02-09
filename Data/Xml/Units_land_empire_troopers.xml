@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Army_Trooper_Data>
 
-<!-- Imperial Army Line Platoon -->
-<!-- Imperial Army trooper with E-11 -->
+	<!-- Imperial Army Line Platoon -->
+	<!-- Imperial Army trooper with E-11 -->
 	<GroundInfantry Name="Imperial_Army_Trooper">
 		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
 		
@@ -17,7 +17,7 @@
 		<Rotation_Animation_Speed> 9.6 </Rotation_Animation_Speed>
 		<Walk_Animation_Speed> 9.6 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> 9.6 </Crouch_Animation_Speed>
-		<Icon_Name>i_button_ei_line_squad.tga</Icon_Name>
+		<Icon_Name>i_button_ei_line_squad_1.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
 		<Armor_Type> Armor_I1 </Armor_Type>
@@ -227,8 +227,8 @@
 		
 	</Container>
 
-<!-- Imperial Army Line Platoon upgraded with RT-97c -->
-<!-- Imperial Army trooper with RT-97c -->
+	<!-- Imperial Army Line Platoon upgraded with RT-97c -->
+	<!-- Imperial Army trooper with RT-97c -->
 	<GroundInfantry Name="Imperial_Army_Trooper_Light_Repeater">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_TROOPER</Text_ID>
@@ -279,8 +279,8 @@
 		<Icon_Name>i_button_ei_line_squad_2.tga</Icon_Name>
 	</Container>
 
-<!-- Imperial Army Line Platoon upgraded with T-21 and E-15 -->
-<!-- Imperial Army trooper with E-15 -->
+	<!-- Imperial Army Line Platoon upgraded with TL-50 and E-15 -->
+	<!-- Imperial Army trooper with E-15 -->
 	<GroundInfantry Name="Imperial_Army_Trooper_Remnant">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_REM TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -290,6 +290,7 @@
 		</Hardpoints>
 	</GroundInfantry>
 	
+	<!-- Imperial Army trooper with TL-50 -->
 	<GroundInfantry Name="Imperial_Army_Trooper_Remnant_TL_50">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_T_50 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -358,8 +359,8 @@
 	
 	
 	
-<!-- Imperial Army Engineering Platoon -->
-<!-- Imperial Army Engineer with E-11 -->
+	<!-- Imperial Army Engineering Platoon -->
+	<!-- Imperial Army Engineer with E-11 -->
 	<GroundInfantry Name="Imperial_Army_Engineer">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_ENGINEER</Text_ID>
@@ -368,6 +369,7 @@
 		
 		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
+		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
@@ -401,11 +403,26 @@
 		</Abilities>
 	</GroundInfantry>
 	
-<!-- Imperial Army Engineer with CSPL_12 -->
+	<!-- Imperial Army Engineer with CSPL_12 -->
 	<GroundInfantry Name="Imperial_Army_Engineer_CSPL_12">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper0</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
+		
 		<Text_ID>TEXT_UNIT_ARMY_ENGINEER_CSPL</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_ENGINEER_CSPL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
+		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+		
+		<Affiliation>Empire</Affiliation>
+		<Armor_Type> Armor_I1 </Armor_Type>
+		<Max_Speed> 0.8 </Max_Speed>
+		<Tactical_Health>50</Tactical_Health>
 
 		<Projectile_Types>Proj_Land_CSPL_Plank_Gas</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
@@ -420,9 +437,33 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
-		
 
-		<!-- Non-Hero unit abilities description -->
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone>
+
+		<Presence_Induced_Animations>
+			Attention, 
+				Darth_Vader
+		</Presence_Induced_Animations>
+		
+		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>
 		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
@@ -448,70 +489,24 @@
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 		</Abilities>
+
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Sergeant">
-		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_SERGEANT_TD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> IA_Engineer_Mines </GUI_Activated_Ability_Name> 
-                <Effective_Radius> 70.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
-                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-            <Proximity_Mines_Ability Name="IA_Engineer_Mines">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-		</Abilities>
+		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>EI_FieldComanderE11.ALO</Land_Model_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Lieutenant">
-		<Variant_Of_Existing_Type>Imperial_Army_Lieutenant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_LIEUTENANT_TD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> IA_Engineer_Mines </GUI_Activated_Ability_Name> 
-                <Effective_Radius> 70.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
-                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-            <Proximity_Mines_Ability Name="IA_Engineer_Mines">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-		</Abilities>
+		<Variant_Of_Existing_Type>Imperial_Army_Engineer_Sergeant</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Land_Model_Name>EI_ArmyLieutenant.alo</Land_Model_Name>
 	</GroundInfantry>
 	
 	<GroundCompany Name="Engineering_Platoon">
@@ -610,6 +605,8 @@
 		</Abilities>
 	</Container>
 	
+	<!-- Imperial Army Engineer Platoon upgraded with E-15 -->
+	<!-- Imperial Army Engineer with E-15 -->
 	<GroundInfantry Name="Imperial_Army_Engineer_Remnant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_ENGINEER_REM TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -760,173 +757,8 @@
 	
 	
 	
-	<GroundInfantry Name="Imperial_Army_Commando">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_TROOPER_COMMANDO</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPECIAL_OPERATIONS</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ei_heavy_squad.tga</Icon_Name>
-		
-		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
-		
-		<Max_Speed> 1.0 </Max_Speed>
-		<Tactical_Health>60</Tactical_Health>
-	</GroundInfantry>
-	
-	<GroundInfantry Name="Imperial_Army_Commando_Sniper">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_E11S TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-
-		<Hardpoints>
-			HP_Infantry_Commando_E_11s
-		</Hardpoints>
-		
-		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
-	</GroundInfantry>
-	
-	<GroundInfantry Name="Imperial_Army_Commando_Sapper">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_SAPPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Imperial_Army_Commando_Sergeant">
-		<Variant_Of_Existing_Type>Imperial_Army_Engineer_Sergeant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_SERGEANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Imperial_Army_Commando_Lieutenant">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando_Sergeant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-	</GroundInfantry>
-	
-	<GroundCompany Name="Special_Operations_Platoon">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_TROOPER_SPECIAL_OPERATIONS_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SPECIAL_OPERATIONS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPECIAL_OPERATIONS</Encyclopedia_Unit_Class>
-		<Damage>1400</Damage>
-		<Autoresolve_Health>1296</Autoresolve_Health>
-		<Build_Cost_Credits>2720</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Tech_Level>1</Tech_Level>
-		<Required_Special_Structures>Imperial_Command_Center</Required_Special_Structures>
-		<Create_Team_Type> Special_Operations_Platoon_Team </Create_Team_Type>
-		
-		<Company_Units>
-		Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant,
-
-		Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant,
-
-		Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant,
-
-		Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando, Imperial_Army_Commando, Imperial_Army_Commando_Sapper, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Lieutenant
-		</Company_Units>
-
-		<Icon_Name>i_button_ei_heavy_squad.tga</Icon_Name>
-		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2720</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</GroundCompany>
-
-	<Container Name="Special_Operations_Platoon_Team">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_TROOPER_SPECIAL_OPERATIONS_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SPECIAL_OPERATIONS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPECIAL_OPERATIONS</Encyclopedia_Unit_Class>
-		
-		<Max_Speed> 1.0 </Max_Speed>
-		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
-		
-		<Icon_Name>i_button_ei_heavy_squad.tga</Icon_Name>
-	</Container>
-
-	<GroundInfantry Name="Imperial_Army_Commando_Remnant">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_U1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		
-		<Hardpoints>
-			HP_Infantry_Trooper_E_15
-		</Hardpoints>
-	</GroundInfantry>
-	
-	<GroundInfantry Name="Imperial_Army_Commando_Sapper_Remnant">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando_Sapper</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_SAPPER_U1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		
-		<Hardpoints>
-			HP_Infantry_Trooper_E_15
-		</Hardpoints>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Imperial_Army_Commando_Sergeant_Remnant">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando_Sergeant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_SERGEANT_U1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-
-		<Hardpoints>
-			HP_Infantry_Trooper_E_15
-		</Hardpoints>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Imperial_Army_Commando_Lieutenant_Remnant">
-		<Variant_Of_Existing_Type>Imperial_Army_Commando_Lieutenant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMANDO_LIEUTENANT_U1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-
-		<Hardpoints>
-			HP_Infantry_Trooper_E_15
-		</Hardpoints>
-	</GroundInfantry>
-	
-	<GroundCompany Name="Special_Operations_Platoon_Remnant">
-		<Variant_Of_Existing_Type>Special_Operations_Platoon</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SPECIAL_OPERATIONS_PLATOON_U2 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Damage>1400</Damage>
-		<Autoresolve_Health>1296</Autoresolve_Health>
-		<Build_Cost_Credits>2720</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Tech_Level>5</Tech_Level>
-		<Create_Team_Type> Special_Operations_Platoon_Remnant_Team </Create_Team_Type>
-		
-		<Company_Units>
-		Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant_Remnant,
-
-		Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant_Remnant,
-
-		Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Sergeant_Remnant,
-
-		Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Remnant, Imperial_Army_Commando_Sapper_Remnant, Imperial_Army_Commando_Sniper, Imperial_Army_Commando_Lieutenant_Remnant
-		</Company_Units>
-
-		<Icon_Name>i_button_ei_heavy_squad.tga</Icon_Name>
-		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2720</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</GroundCompany>
-
-	<Container Name="Special_Operations_Platoon_Remnant_Team">
-		<Variant_Of_Existing_Type>Special_Operations_Platoon_Team</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SPECIAL_OPERATIONS_PLATOON_U2 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>	
-		<Icon_Name>i_button_ei_heavy_squad.tga</Icon_Name>
-	</Container>
-	
-	
-	
+	<!-- Imperial Stormtroopers Platoon -->
+	<!-- Stormtrooper with E-11 -->
 	<GroundInfantry Name="Stormtrooper_Basic">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
@@ -991,6 +823,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Bomb_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 	
+	<!-- Stormtrooper with T-21 -->
 	<GroundInfantry Name="Stormtrooper_Light_Repeater">
 		<Variant_Of_Existing_Type>Stormtrooper_Basic</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_RT_97C TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -1000,6 +833,7 @@
 		</Hardpoints>
 	</GroundInfantry>
 	
+	<!-- Stormtrooper with missile launcher -->
 	<GroundInfantry Name="Stormtrooper_Missile_Launcher">
 		<Variant_Of_Existing_Type>Stormtrooper_Basic</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_MISSILE_LAUNCHER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -1072,6 +906,8 @@
 	
 	
 
+	<!-- Imperial Stormtroopers Platoon upgraded with E-15 -->
+	<!-- Stormtrooper with E-15 -->
 	<GroundInfantry Name="Stormtrooper_Remnant">
 		<Variant_Of_Existing_Type>Stormtrooper_Basic</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_U1 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -1137,6 +973,7 @@
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 	</Container>
 	
+	<!-- Imperial Novatroopers Platoon -->
 	<GroundInfantry Name="Novatrooper">
 		<Variant_Of_Existing_Type>Stormtrooper_Basic</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_NOVATROOPER</Text_ID>
@@ -1188,6 +1025,7 @@
 	</Container>
 	
 	
+	<!-- Imperial Remnant Shocktroopers Platoon -->
 	<GroundInfantry Name="Elite_Guard_Shocktrooper">
 		<Variant_Of_Existing_Type>Novatrooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ELITE_GUARD</Text_ID>

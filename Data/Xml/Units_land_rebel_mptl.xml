@@ -19,8 +19,8 @@
 		
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>1.0</Max_Speed>
-		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 0.2 </Movement_Animation_Speed>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
@@ -66,15 +66,16 @@
 		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>       
 		<Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
 
-		<Projectile_Types>Proj_Land_MPTL_Torpedo</Projectile_Types>
 		<Land_FOW_Reveal_Range>440.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>330.0</Targeting_Min_Attack_Distance>
-		<Targeting_Fire_Inaccuracy_Fixed_Radius>100.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<!--<Targeting_Fire_Inaccuracy_Fixed_Radius>300.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
 
+		<Projectile_Types>Proj_Land_MPTL_Torpedo</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>9</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>25.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>25.0</Projectile_Fire_Recharge_Seconds>-->
+		<Hardpoints>HP_MPTL_1, HP_MPTL_2, HP_MPTL_3, HP_MPTL_4, HP_MPTL_5</Hardpoints>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -91,7 +92,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
 
-		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire></SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_MPTL</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MPTL</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_MPTL</SFXEvent_Fleet_Move>
@@ -120,7 +121,7 @@
 		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
- 		<AI_Combat_Power>733</AI_Combat_Power>
+ 		<AI_Combat_Power>823</AI_Combat_Power>
 
 		<Idle_Chase_Range>-1.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -151,7 +152,7 @@
 
 		<Tactical_Bribe_Cost>225</Tactical_Bribe_Cost>
 
-		<Score_Cost_Credits>733</Score_Cost_Credits>
+		<Score_Cost_Credits>823</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 		<Vehicle_Thief_Inside_Clone>MPTL_Captured</Vehicle_Thief_Inside_Clone>
@@ -333,12 +334,12 @@
 		<Text_ID>TEXT_UNIT_MPTL_PLATOON</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>92.3</Damage>
+		<Damage>100.0</Damage>
 		<Autoresolve_Health>1800</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1470</Build_Cost_Credits>
+		<Build_Cost_Credits>1650</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>38</Build_Time_Seconds>
+		<Build_Time_Seconds>44</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
@@ -362,9 +363,7 @@
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_MPTL</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_MPTL</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1467</Score_Cost_Credits>
-
-		<!-- <Unit_Ability>DEPLOY</Unit_Ability> Can't put abilities in companies with mixed units! -->
+		<Score_Cost_Credits>1647</Score_Cost_Credits>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -374,8 +373,8 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1470</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

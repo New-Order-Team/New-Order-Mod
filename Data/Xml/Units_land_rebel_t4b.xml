@@ -56,7 +56,7 @@
 
 		<Land_FOW_Reveal_Range>360.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance> 100.0 </Targeting_Min_Attack_Distance>
+		<Targeting_Min_Attack_Distance> 50.0 </Targeting_Min_Attack_Distance>
 
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 
@@ -102,7 +102,7 @@
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<AI_Combat_Power>946</AI_Combat_Power>
+		<AI_Combat_Power>1106</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -122,7 +122,7 @@
 		<Tactical_Bribe_Cost>200</Tactical_Bribe_Cost>
 
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
-		<Score_Cost_Credits>946</Score_Cost_Credits>
+		<Score_Cost_Credits>1106</Score_Cost_Credits>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 	
@@ -130,15 +130,14 @@
 		<Text_ID>TEXT_UNIT_T4B_PLATOON</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>54.4</Damage>
+		<Damage>58.6</Damage>
 		<Autoresolve_Health>1600</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1890</Build_Cost_Credits>
+		<Build_Cost_Credits>2210</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>52</Build_Time_Seconds>
+		<Build_Time_Seconds>63</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<!--<Required_Ground_Base_Level>5</Required_Ground_Base_Level>-->
@@ -158,11 +157,11 @@
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_T4B_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1893</Score_Cost_Credits>
+		<Score_Cost_Credits>2213</Score_Cost_Credits>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1890</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2210</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites>RC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

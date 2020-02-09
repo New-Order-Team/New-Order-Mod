@@ -882,8 +882,7 @@
 		Damage_Ion_Planet,
 		
 	<!-- #LAND# -->
-		Damage_I1,
-		Damage_I2,
+		Damage_I,
 		Damage_L1,
 		Damage_L2,
 		Damage_L3,
@@ -891,16 +890,24 @@
 		Damage_L5,
 		Damage_L6,
 		Damage_L7,
+		Damage_B0,
 		Damage_B1,
+		Damage_B2T,
 		Damage_B2,
 		Damage_B3,
+		Damage_B4T,
 		Damage_B4,
 		Damage_B5,
 		Damage_B6,
 		Damage_B7,
 		Damage_E1,
+		Damage_E3,
 		Damage_E4,
 		Damage_E7,
+		Damage_T7,
+		Damage_AOE,
+		Damage_AA,
+		Damage_0,
 
 
 	<!-- #LAND SPECIAL# -->
@@ -1122,101 +1129,81 @@
 	<!--  ##### #     # #   ## ####   -->
 
 	<!-- ############################ -->
+	<Damage_To_Armor_Mod> Damage_I, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A3, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A5, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A6, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_S1, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_S4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_S7, 0.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_I1, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_I2, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A1, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A2, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A3, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_A7, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_S1, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_S7, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I1, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
-
-	<Damage_To_Armor_Mod> Damage_I2, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_I2, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A2, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A3, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_A7, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_S1, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_S7, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I2, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L1, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_A1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_A2, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_A3, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L1, Armor_A2, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L1, Armor_A3, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L1, Armor_A4, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_A5, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_A6, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_A7, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_S1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L1, Armor_S4, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L1, Armor_S7, 0.1 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L1, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L1, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L1, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L2, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_A1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_A2, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_A3, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_A4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_A3, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_A4, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_A5, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_A6, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_A7, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_S1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_S4, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L2, Armor_S7, 0.2 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L2, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L2, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L2, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L3, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_A1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_A2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_A3, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_A4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_A4, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_A5, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_A6, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_A7, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_S1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_S4, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_S4, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L3, Armor_S7, 0.3 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L3, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L3, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L3, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L4, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1224,18 +1211,18 @@
 	<Damage_To_Armor_Mod> Damage_L4, Armor_A2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_A3, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_A4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L4, Armor_A5, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L4, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L4, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L4, Armor_A5, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L4, Armor_A6, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L4, Armor_A7, 0.3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_S1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_S4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L4, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L4, Armor_S7, 0.3 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L4, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L4, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L4, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L5, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1244,17 +1231,17 @@
 	<Damage_To_Armor_Mod> Damage_L5, Armor_A3, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_A4, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_A5, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L5, Armor_A6, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L5, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L5, Armor_A6, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L5, Armor_A7, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_S1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_S4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L5, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L5, Armor_S7, 0.4 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L5, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L5, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L5, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L6, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1264,16 +1251,16 @@
 	<Damage_To_Armor_Mod> Damage_L6, Armor_A4, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_A5, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_A6, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L6, Armor_A7, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L6, Armor_A7, 0.7 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_S1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_S4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L6, Armor_S7, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_L6, Armor_S7, 0.5 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L6, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L6, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L6, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_L7, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1287,129 +1274,186 @@
 	<Damage_To_Armor_Mod> Damage_L7, Armor_S1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_S4, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_S7, 0.5 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_L7, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_L7, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_L7, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B1, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A1, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A3, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A5, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A6, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_S1, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_S4, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_S7, 0.1 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B0, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B0, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B1, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_A2, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_A3, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_A2, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_A3, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A4, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A5, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A6, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A7, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_S1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_S4, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_S7, 0.2 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B2, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A3, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A4, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A5, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A6, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_S1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_S4, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_S7, 0.2 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B2, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A2, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_A3, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_A4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_A6, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_A3, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_A4, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_A5, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_A6, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A7, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_S1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_S4, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_S7, 0.3 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B3, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A3, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A4, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_A5, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_A6, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_A7, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_S1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_S4, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_S7, 0.5 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B4, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A3, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A4, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A5, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A6, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_A7, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_S1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_S4, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_S7, 0.3 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_B4, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A3, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A4, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A5, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_A6, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_A7, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_S4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_S7, 0.7 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B5, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B5, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A3, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A4, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A5, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A6, 0.3 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B5, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_A7, 0.3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_S4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B5, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_S7, 0.8 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B5, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B6, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B6, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A3, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A4, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A5, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A6, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B6, Armor_A7, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_A7, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_S4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B6, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_S7, 1.0 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B6, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B7, Armor_I1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B7, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B7, Armor_I1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B7, Armor_I2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1420,50 +1464,50 @@
 	<Damage_To_Armor_Mod> Damage_B7, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_S4, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_S7, 1.0 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_B7, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B7, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_E1, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_A1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_A2, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_A3, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E1, Armor_A2, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E1, Armor_A3, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E1, Armor_A4, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_A5, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_A6, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_A7, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_S1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_S4, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E1, Armor_S4, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E1, Armor_S7, 0.2 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_E1, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E1, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E1, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_E3, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_A1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_A2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_A3, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_A4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_A5, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_A4, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_A5, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_A6, 0.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_A7, 0.2 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_S1, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_S4, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_S4, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E3, Armor_S7, 0.5 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_E3, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E3, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E3, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_E4, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1471,18 +1515,18 @@
 	<Damage_To_Armor_Mod> Damage_E4, Armor_A2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_A3, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_A4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E4, Armor_A5, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E4, Armor_A6, 0.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E4, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E4, Armor_A5, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E4, Armor_A6, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E4, Armor_A7, 0.3 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_S4, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E4, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_E4, Armor_S7, 0.7 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_E4, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E4, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E4, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
 	<Damage_To_Armor_Mod> Damage_E7, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_I2, 1.0 </Damage_To_Armor_Mod>
@@ -1496,84 +1540,88 @@
 	<Damage_To_Armor_Mod> Damage_E7, Armor_S1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_S4, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_S7, 1.0 </Damage_To_Armor_Mod>
+
 	<Damage_To_Armor_Mod> Damage_E7, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_E7, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_E7, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<Damage_To_Armor_Mod> Damage_T7, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A3, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A4, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A5, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A6, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_A7, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_S1, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_S4, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_S7, 0.5 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_T7, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_T7, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_I2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A2, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A3, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A4, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A5, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A6, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_A7, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_S1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_S4, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_S7, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AOE, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_AA, Armor_I1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_I2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A3, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A5, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A6, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_S1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_S4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_AA, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_AA, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_0, Armor_I1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_I2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A2, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A3, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A5, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A6, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_A7, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_S1, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_S4, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_S7, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_0, Armor_Bunker, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_Structure, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_Hero, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_0, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
 
 

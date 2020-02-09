@@ -109,7 +109,7 @@
 		<Overall_Length>25.0</Overall_Length> 	<!-- For vehicle pitching up and down on terrain (35 by geometry) -->
 		<Overall_Width>20.0</Overall_Width> 		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>109</AI_Combat_Power>
+		<AI_Combat_Power>126</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -126,7 +126,7 @@
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-		<Score_Cost_Credits>109</Score_Cost_Credits>
+		<Score_Cost_Credits>126</Score_Cost_Credits>
 		<No_Colorization_Color> 33, 33, 33, 255 </No_Colorization_Color>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -144,10 +144,10 @@
 		<Icon_Name>i_button_PX_10.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>13.8</Damage>
+		<Damage>12.7</Damage>
 		<Autoresolve_Health>1200</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>650</Build_Cost_Credits>
+		<Build_Cost_Credits>760</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
@@ -170,11 +170,11 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Mauler</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>652</Score_Cost_Credits>
+		<Score_Cost_Credits>760</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>760</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

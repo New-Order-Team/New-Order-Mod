@@ -66,7 +66,7 @@
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>	
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
-		<AI_Combat_Power>1333</AI_Combat_Power>
+		<AI_Combat_Power>1620</AI_Combat_Power>
 		<Damage>60</Damage>
 
 		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
@@ -76,6 +76,7 @@
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
 
 		<Hardpoints>
+				HP_A9_Floating_Fort_Facing,
 				HP_A9_Floating_Fort_00,
 				HP_A9_Floating_Fort_01
 		</Hardpoints>
@@ -128,16 +129,15 @@
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>AntiStructureVehicle</Targeting_Priority_Set>	
-		<Score_Cost_Credits>1333</Score_Cost_Credits>
+		<Score_Cost_Credits>1620</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CONCENTRATE_FIRE</Type>
 				<Effective_Radius>500</Effective_Radius>
@@ -156,12 +156,11 @@
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories>Vehicle | Structure</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 				<Target_Damage_Increase_Percent>0.25</Target_Damage_Increase_Percent>
 				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Concentrate_Fire_Attack_Ability>
-		</Abilities>
+		</Abilities>-->
 	</GroundVehicle>
 
 	<GroundCompany Name="Floating_Fortress_Platoon">
@@ -171,12 +170,12 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HAV</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>50.4</Damage>
+		<Damage>61.4</Damage>
 		<Autoresolve_Health>1200</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1330</Build_Cost_Credits>
+		<Build_Cost_Credits>1620</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>33</Build_Time_Seconds>
+		<Build_Time_Seconds>43</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
@@ -201,18 +200,18 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_SPMAT</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1333</Score_Cost_Credits>
+		<Score_Cost_Credits>1620</Score_Cost_Credits>
 
-		<!-- Non-Hero unit abilities description -->
+		<!-- Non-Hero unit abilities description 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>CONCENTRATE_FIRE</Type>
 			</Unit_Ability>
-		</Unit_Abilities_Data>
+		</Unit_Abilities_Data>-->
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1330</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1620</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

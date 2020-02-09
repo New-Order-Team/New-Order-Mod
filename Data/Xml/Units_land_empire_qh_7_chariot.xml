@@ -51,7 +51,7 @@
 		<Size_Value>60</Size_Value>
 		<Damage>15</Damage>
 		<Sensor_Range>80</Sensor_Range>
-		<Tactical_Health>450</Tactical_Health>
+		<Tactical_Health>480</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -89,7 +89,7 @@
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
-		     HP_QH_7_Chariot 
+		     HP_QH_7_Chariot
 		</Hardpoints>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
@@ -139,7 +139,7 @@
 		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>333</AI_Combat_Power>
+		<AI_Combat_Power>431</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -152,7 +152,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Weather_Category>Hover</Weather_Category>
-		<Score_Cost_Credits>333</Score_Cost_Credits>
+		<Score_Cost_Credits>431</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
@@ -176,12 +176,12 @@
 		<Icon_Name>i_button_qh_7_chariot.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>18.2</Damage>
-		<Autoresolve_Health>1350</Autoresolve_Health>
+		<Damage>22.4</Damage>
+		<Autoresolve_Health>1440</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>22</Build_Time_Seconds>
+		<Build_Time_Seconds>32</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -201,15 +201,15 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_2M_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>998</Score_Cost_Credits>
+		<Score_Cost_Credits>1295</Score_Cost_Credits>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites />-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

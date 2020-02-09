@@ -10,7 +10,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_AT_AR</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>EV_ATAR.ALO</Land_Model_Name>
+        <Land_Model_Name>EV_AT_DP.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH</LandBehavior>
 
@@ -19,13 +19,13 @@
         <Property_Flags>GoodInfantryCrusher</Property_Flags>
         <Ranking_In_Category>7</Ranking_In_Category>
         <Mass>1.0</Mass>
-        <Scale_Factor>2.43</Scale_Factor>
+		<Scale_Factor>1.73</Scale_Factor>
 
-        <Movement_Animation_Speed>0.25</Movement_Animation_Speed>
-        <Rotation_Animation_Speed>2.2</Rotation_Animation_Speed>
-        <Max_Speed>1.5</Max_Speed>
-        <Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-        <Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
+		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
         <Walk_Transition>Yes</Walk_Transition>
         <Has_Pre_Turn_Anim>yes</Has_Pre_Turn_Anim>
         <Min_Speed_Fraction_For_Turn>.1</Min_Speed_Fraction_For_Turn>
@@ -57,8 +57,8 @@
         <Armor_Type> Armor_A4 </Armor_Type>
         <Damage>33.3</Damage>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>450</Tactical_Health>
-		<Autoresolve_Health>450</Autoresolve_Health>
+        <Tactical_Health>430</Tactical_Health>
+		<Autoresolve_Health>430</Autoresolve_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>999</Energy_Capacity>
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -71,19 +71,19 @@
         <Land_FOW_Reveal_Range>490.0</Land_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
         <Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
-
-        <Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>B_TURRET_00_ALT0</Turret_Bone_Name>
-        <Barrel_Bone_Name>B_BARREL_00_ALT0</Barrel_Bone_Name>
-        <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
-        <Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-        <Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		
+		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
         <Turret_Targets_Ground_Vehicles>1</Turret_Targets_Ground_Vehicles>
-        <Turret_Targets_Ground_Infantry>3</Turret_Targets_Ground_Infantry>
-        <Turret_Targets_Air_Vehicles>4</Turret_Targets_Air_Vehicles>
-        <Turret_Targets_Anything_Else>2</Turret_Targets_Anything_Else>
+        <Turret_Targets_Ground_Infantry>2</Turret_Targets_Ground_Infantry>
+        <Turret_Targets_Air_Vehicles>99</Turret_Targets_Air_Vehicles>
+        <Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
 
         <Death_Explosions>Small_Explosion_Land</Death_Explosions>
         <Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -117,7 +117,7 @@
         <Overall_Length>20.0</Overall_Length><!-- Hand tweaked for vehicle pitching up and down on terrain -->
         <Overall_Width>0.0</Overall_Width><!-- 0.0 means don't roll left and right on terrain -->
         <Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-        <AI_Combat_Power>440</AI_Combat_Power>
+        <AI_Combat_Power>519</AI_Combat_Power>
 
         <Idle_Chase_Range>0.0</Idle_Chase_Range>
         <Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -134,8 +134,9 @@
 
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_00</Death_Clone>
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_01</Death_Clone>
+        <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_02</Death_Clone>
 
-        <Score_Cost_Credits>440</Score_Cost_Credits>
+        <Score_Cost_Credits>519</Score_Cost_Credits>
         <Influences_Capture_Point>False</Influences_Capture_Point>
         <Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -188,6 +189,23 @@
 
     </GroundVehicle>
 
+    <GroundVehicle Name="AT_AR_Walker_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+
+        <Custom_Hard_YExtent_Offset>-15.0</Custom_Hard_YExtent_Offset>
+        <Custom_Hard_XExtent>6.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>15.0</Custom_Hard_YExtent>
+
+        <Death_Persistence_Duration>30</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index>2</Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+
+    </GroundVehicle>
+
 
     <GroundCompany Name="AT_AR_Platoon">
 		<LOD_Bias>4</LOD_Bias>
@@ -196,12 +214,12 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_WALKER</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>46.5</Damage>
-		<Autoresolve_Health>1350</Autoresolve_Health>
+		<Damage>58.3</Damage>
+		<Autoresolve_Health>1290</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1320</Build_Cost_Credits>
+		<Build_Cost_Credits>1560</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>33</Build_Time_Seconds>
+		<Build_Time_Seconds>41</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -219,7 +237,7 @@
 		<Company_Units>AT_AR_Walker, AT_AR_Walker, AT_AR_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_at_ar.tga</Icon_Name>
-		<GUI_Model_Name>EV_ATAR.ALO</GUI_Model_Name>
+		<GUI_Model_Name>EV_AT_DP.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 15</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -227,7 +245,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_AT_ST</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1319</Score_Cost_Credits>
+		<Score_Cost_Credits>1557</Score_Cost_Credits>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -236,8 +254,8 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1320</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1560</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

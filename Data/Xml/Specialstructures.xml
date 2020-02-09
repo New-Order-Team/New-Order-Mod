@@ -409,8 +409,8 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Imperial_Anti_Aircraft_Company, <!-- AT-AA -->
-				LAAT_Platoon,
-				MAAT_Platoon,
+				<!-- LAAT_Platoon, -->
+				<!-- MAAT_Platoon, -->
 				EL_Bombing_Run_Use_Upgrade,
 				EL_Planetary_Bombard_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -1574,9 +1574,10 @@
 			Rebel,
 				ULAV_Platoon,
 				Freerunner_Platoon,
-				LAAT_Rebel_Platoon,
-				Rebel_Speeder_Wing,
-				V_Wing_Airspeeder_Wing
+				A_A5_Speeder_Truck_Platoon,
+				<!-- LAAT_Rebel_Platoon, -->
+				<!-- Rebel_Speeder_Wing, -->
+				<!-- V_Wing_Airspeeder_Wing -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Abilities SubObjectList="Yes">

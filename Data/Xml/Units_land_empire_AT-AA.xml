@@ -55,7 +55,7 @@
 		<!--<Attack_Category_Restrictions> Infantry | Vehicle | LandHero | Structure </Attack_Category_Restrictions>-->
 
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 100.0 </Targeting_Min_Attack_Distance>
 
 		<Hardpoints>
@@ -96,7 +96,7 @@
 		<Overall_Length>20.0</Overall_Length> <!-- For vehicle pitching up and down on terrain, 20.0 = first-pass test value -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain, 20.0 = first-pass test value  -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>555</AI_Combat_Power>
+		<AI_Combat_Power>666</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -111,7 +111,7 @@
 
 		<Weather_Category>Walker</Weather_Category>
 
-		<Score_Cost_Credits>555</Score_Cost_Credits>
+		<Score_Cost_Credits>666</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Vehicle_Thief_Inside_Clone>AT_AA_Walker_Captured</Vehicle_Thief_Inside_Clone>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
@@ -135,7 +135,7 @@
 				<Type>MISSILE_SHIELD</Type>
 				<Disable_Movement>Yes</Disable_Movement>
 				<Effective_Radius>300</Effective_Radius>
-				<Recharge_Seconds>20</Recharge_Seconds>
+				<Recharge_Seconds>30</Recharge_Seconds>
 				<Expiration_Seconds>-1</Expiration_Seconds>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -165,12 +165,12 @@
 		<Icon_Name>i_button_ataa.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>6.2</Damage>
+		<Damage>6.7</Damage>
 		<Autoresolve_Health>1600</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1110</Build_Cost_Credits>
+		<Build_Cost_Credits>1330</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>26</Build_Time_Seconds>
+		<Build_Time_Seconds>33</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -190,7 +190,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_AT_AA</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AA</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1109</Score_Cost_Credits>
+		<Score_Cost_Credits>1334</Score_Cost_Credits>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -201,8 +201,8 @@
 		</Unit_Abilities_Data>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1110</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1330</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

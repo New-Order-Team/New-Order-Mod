@@ -117,7 +117,7 @@
 		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>505</AI_Combat_Power>
+		<AI_Combat_Power>645</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -130,7 +130,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Weather_Category>Hover</Weather_Category>
-		<Score_Cost_Credits>505</Score_Cost_Credits>
+		<Score_Cost_Credits>645</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
@@ -146,10 +146,10 @@
 		<Icon_Name>i_button_freerunner.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>51.6</Damage>
+		<Damage>73.4</Damage>
 		<Autoresolve_Health>1040</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1010</Build_Cost_Credits>
+		<Build_Cost_Credits>1290</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>22</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
@@ -171,10 +171,10 @@
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_T2B_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1010</Score_Cost_Credits>
+		<Score_Cost_Credits>1290</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1010</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1290</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

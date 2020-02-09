@@ -32,12 +32,12 @@
 		<FormationRaggedness> 1 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<!--<UseSecondaryFacing> true </UseSecondaryFacing>
 		<SecondaryTurnInPlaceROTCoefficient> .4 </SecondaryTurnInPlaceROTCoefficient>
 		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
 		<MinSecondaryTurnROTCoefficient> .4 </MinSecondaryTurnROTCoefficient>
 		<MaxSecondaryTurnROTCoefficient> .9 </MaxSecondaryTurnROTCoefficient>
-		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>
+		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>-->
 		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
 		
@@ -127,7 +127,7 @@
 		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>169</AI_Combat_Power>
+		<AI_Combat_Power>209</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -140,7 +140,7 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Weather_Category>Hover</Weather_Category>
-		<Score_Cost_Credits>169</Score_Cost_Credits>
+		<Score_Cost_Credits>209</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
@@ -156,10 +156,10 @@
 		<Icon_Name>i_button_arrow_23.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>24.2</Damage>
+		<Damage>29.9</Damage>
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>680</Build_Cost_Credits>
+		<Build_Cost_Credits>840</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
@@ -184,8 +184,8 @@
 		<Score_Cost_Credits>676</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>680</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>840</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
