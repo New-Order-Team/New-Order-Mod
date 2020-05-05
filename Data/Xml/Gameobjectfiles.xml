@@ -409,6 +409,7 @@
 	
 	
 	<File>Units_land_empire_troopers.xml</File>
+	<File>Units_land_empire_e_web_crew.xml</File>
 	
 	<File>Units_land_empire_px_10.xml</File>
 	<File>Units_land_empire_AT-ST.xml</File>

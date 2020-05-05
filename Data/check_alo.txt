@@ -1,5 +1,11 @@
 181_st_defender.alo	mod
 181_st_interceptor.alo	mod
+a-a5_speeder_truck.alo	mod
+a-a5_speeder_truck_g.alo	mod
+a-a5_speeder_truck_l.alo	mod
+aa-turret.alo	mod
+apart 1.alo	unused?
+apart 2.alo	unused?
 arc-170_starfighter.alo	mod
 arc-170_starfighter_republic.alo	mod
 armored_freerunner.alo	mod
@@ -10,13 +16,63 @@ arrow-23_landspeeder.alo	mod
 arrow-23_landspeeder_g.alo	mod
 arrow-23_landspeeder_l.alo	mod
 b-wing.alo	mod
+bacta.alo	mod
+barricade1.alo	mod
+barricade2.alo	mod
+barricade3.alo	mod
+barricade4.alo	mod
+bench.alo	mod
 blue_diver.alo	mod
 blue_diver_d.alo	mod
 btl_k-wing.alo	mod
 btl_y-wing.alo	mod
+cato.alo	unused?
 cc-7700efrigate.alo	mod
 cc-7700_frigate.alo	mod
+century_tank.alo	mod
+century_tank_ltl.alo	mod
+cerea.alo	unused?
 cis_aat.alo	mod
+cis_planetary_gun.alo	unused?
+conteiner(1).alo	unused?
+conteiner.alo	mod
+conteiner2(1).alo	unused?
+conteiner2.alo	mod
+conteiner2gr(1).alo	unused?
+conteiner2gr.alo	mod
+conteiner3(1).alo	unused?
+conteiner3.alo	mod
+conteiner3gr(1).alo	unused?
+conteiner3gr.alo	mod
+conteiner4(1).alo	unused?
+conteiner4.alo	mod
+conteiner4gr(1).alo	unused?
+conteiner4gr.alo	mod
+conteiner5(1).alo	unused?
+conteiner5.alo	mod
+conteiner5gr(1).alo	unused?
+conteiner5gr.alo	mod
+cor1.alo	mod
+cor10.alo	mod
+cor2.alo	mod
+cor3.alo	mod
+cor4.alo	mod
+cor5.alo	mod
+cor6.alo	mod
+cor7.alo	mod
+cor8.alo	mod
+cor9.alo	mod
+corr wall 2 inside.alo	unused?
+corr wall 2 long.alo	unused?
+corr wall 2 out.alo	unused?
+corr wall 2 shot.alo	unused?
+corr wall inside.alo	unused?
+corr wall long.alo	unused?
+corr wall out.alo	unused?
+corr wall shot.alo	unused?
+curb corner.alo	unused?
+curb m.alo	unused?
+curb s.alo	unused?
 cv_bulwark_mk1_rebel.alo	mod
 cv_bulwark_mk1_rebel_d.alo	mod
 cv_lucrehulk.alo	mod
@@ -41,8 +97,8 @@ ei_army_trooper_e15.alo	mod
 ei_brakiss.alo	mod
 ei_darktrooperatat.alo	mod
 ei_fieldcomandere11.alo	mod
-ei_snipertrooper.alo	unused?
-ei_thrawn.alo	unused?
+ei_imperial_army_e-web15_crew.alo	mod
+ei_imperial_army_e-web_crew.alo	mod
 ei_trooper_lt.alo	mod
 ei_trooper_sand.alo	vanilla
 ei_trooper_sgt.alo	mod
@@ -54,10 +110,9 @@ ev_a9_floating_fortress_turret_l.alo	mod
 ev_a9_floating_fortress_turret_r.alo	mod
 ev_archammer.alo	vanilla
 ev_at-st.alo	vanilla
-ev_atar.alo	mod
 ev_at_aa.alo	mod
 ev_at_aa_turret.alo	mod
-ev_century_tank.alo	mod
+ev_at_dp.alo	mod
 ev_demolisher.alo	mod
 ev_demolisher_d.alo	mod
 ev_executor_star_dreadnaught.alo	mod
@@ -67,7 +122,7 @@ ev_laat.alo	mod
 ev_maat.alo	mod
 ev_missile_ship.alo	vanilla
 ev_mobile_artillery.alo	mod
-ev_podwalkermk1.alo	mod
+ev_podwalkermk1.alo	unused?
 ev_praetor_mkii.alo	mod
 ev_s1_firehawke.alo	mod
 ev_s1_firehawke_00.alo	mod
@@ -84,6 +139,8 @@ ev_victory1_death.alo	mod
 ev_victory2.alo	mod
 ev_victory2_death.alo	mod
 ev_victory_lp.alo	mod
+facade01.alo	unused?
+facade02.alo	unused?
 ffh_rv_kdy_endurance.alo	mod
 ffh_rv_new_nebula_defendersd.alo	mod
 f_allegiance.alo	mod
@@ -134,6 +191,9 @@ galaxy_destroyer_d.alo	mod
 hammerhead_crashed.alo	mod
 heavy_tracker.alo	mod
 heavy_tracker_hl.alo	mod
+imp computer.alo	unused?
+imp crawler.alo	unused?
+imp manned turret.alo	unused?
 imperial_i-class_star_destroyer.alo	mod
 imperial_i-class_star_destroyer_hdti_00.alo	mod
 imperial_i-class_star_destroyer_hdti_01.alo	mod
@@ -153,13 +213,37 @@ imperial_ii-class_star_destroyer_hotl_02.alo	mod
 imperial_ii-class_star_destroyer_hotl_03.alo	mod
 imperial_ii-class_star_destroyer_hotl_04.alo	mod
 imperial_ii-class_star_destroyer_hotl_05.alo	mod
+kas bench.alo	unused?
+kas kiosk.alo	unused?
 lambda-class_t-4_shuttle.alo	mod
 marauder-class_corvette.alo	mod
+medical bed1.alo	unused?
+medical bed2.alo	unused?
+midcywall inside.alo	unused?
+midcywall long.alo	unused?
+midcywall outside.alo	unused?
+midcywall shot.alo	unused?
+midcywall windowed inside.alo	unused?
+midcywall windowed long.alo	unused?
+midcywall windowed outside.alo	unused?
+midcywall windowed shot.alo	unused?
 modular_taskforce_cruiser.alo	mod
+nom_misc_hutt_banner_01.alo	mod
+nom_misc_hutt_banner_02.alo	mod
+nom_misc_hutt_banner_03.alo	mod
+nom_misc_hutt_banner_04.alo	mod
+nom_misc_imperial_banner_01.alo	mod
+nom_misc_imperial_banner_02.alo	mod
+nom_misc_imperial_banner_03.alo	mod
+nom_misc_imperial_banner_04.alo	mod
 nv_consular_wreck.alo	mod
 nv_gozanti_wreck.alo	mod
 nv_space_build_center.alo	mod
 nv_vwing_republic.alo	mod
+parkwall inside.alo	unused?
+parkwall long.alo	unused?
+parkwall out.alo	unused?
+parkwall shot.alo	unused?
 pe_acclamatorengines.alo	unused?
 pe_acclamatorengines_sml.alo	unused?
 pe_arc-170_engines.alo	unused?
@@ -233,6 +317,9 @@ pe_vwingengines.alo	unused?
 pe_z-95_headhunter_engines.alo	unused?
 pe___gladiator___.alo	unused?
 pptw_aslash.alo	unused?
+prop_mygeeto1.alo	mod
+prop_mygeeto2.alo	mod
+prop_mygeeto3.alo	mod
 pte_assassinengines.alo	unused?
 pte_b-wing_engines.alo	unused?
 pte_btl_k-wing_booster.alo	unused?
@@ -292,26 +379,29 @@ p_ionshot.alo	unused?
 p_landmine.alo	unused?
 p_landrocket.alo	unused?
 p_land_at_ar.alo	mod
-p_land_at_at.alo	mod
-p_land_at_at_blaster.alo	mod
-p_land_at_st.alo	mod
+p_land_at_at.alo	unused?
+p_land_at_at_blaster.alo	unused?
+p_land_at_st.alo	unused?
 p_land_century_blaster.alo	mod
-p_land_chariot.alo	mod
+p_land_chariot.alo	unused?
 p_land_e_web.alo	mod
-p_land_firehawke.alo	mod
-p_land_floating_fortress.alo	mod
+p_land_firehawke.alo	unused?
+p_land_flak_missile.alo	unused?
+p_land_floating_fortress.alo	unused?
 p_land_freerunner_blaster.alo	mod
-p_land_freerunner_laser.alo	mod
-p_land_heavy_tracker.alo	mod
-p_land_light_turbolaser.alo	mod
-p_land_light_turbolaser_r.alo	mod
-p_land_px_10.alo	mod
-p_land_t3_b.alo	mod
-p_land_t4_b.alo	mod
+p_land_freerunner_laser.alo	unused?
+p_land_heavy_tracker.alo	unused?
+p_land_light_turbolaser.alo	unused?
+p_land_light_turbolaser_r.alo	unused?
+p_land_missile.alo	unused?
+p_land_px_10.alo	unused?
+p_land_t3_b.alo	unused?
+p_land_t4_b.alo	unused?
 p_land_tx_130.alo	unused?
-p_land_ulav_blaster.alo	mod
+p_land_ulav_blaster.alo	unused?
 p_mflashred_thin.alo	unused?
 p_mptglow.alo	unused?
+p_mptl_torpedo.alo	unused?
 p_planetary_turbolaser.alo	mod
 p_protonbomb.alo	unused?
 p_proton_torpedo00.alo	unused?
@@ -336,6 +426,14 @@ qh-7_chariot_light_assault_vehicle.alo	mod
 qh-7_chariot_light_assault_vehicle_l.alo	mod
 r-22_a-wing.alo	mod
 r-41_starchaser.alo	mod
+rails fly support.alo	unused?
+rails.alo	mod
+rails_turn.alo	mod
+rails_turn_with_supports.alo	mod
+rails_with_support.alo	mod
+rakatan.alo	unused?
+rakatan_enclave.alo	unused?
+rakatan_statue.alo	unused?
 reef_home-class_mc80_star_cruiser.alo	mod
 rep_corvette_03.alo	mod
 rep_corvette_05.alo	mod
@@ -349,6 +447,7 @@ ri_newrinfantryplex_desert.alo	unused?
 ri_newrinfantryplex_forest.alo	mod
 ri_newrinfantryplex_snow.alo	mod
 ri_newrinfantryplex_urban.alo	mod
+ri_newrinfantry_desert.alo	mod
 ri_newrinfantry_forest.alo	mod
 ri_newrinfantry_snow.alo	mod
 ri_newrinfantry_urban.alo	mod
@@ -356,6 +455,11 @@ ri_vanguard_desert.alo	mod
 ri_vanguard_jungle.alo	mod
 ri_vanguard_snow.alo	mod
 ri_vanguard_urban.alo	mod
+road flat 3 ways.alo	unused?
+road flat 4 ways.alo	unused?
+road flat long.alo	unused?
+road flat.alo	unused?
+road turn.alo	unused?
 rv_aac_hovertank.alo	mod
 rv_lusankya.alo	mod
 rv_mediator_battlecruiser.alo	mod
@@ -384,7 +488,17 @@ sev_carrier.alo	mod
 sev_droid_bomber.alo	mod
 sev_tridroid.alo	mod
 sev_vulture.alo	mod
+sign1 test.alo	unused?
+sign1.alo	unused?
+sign2.alo	mod
+sign3.alo	mod
+sign4.alo	mod
 sovereign-class_star_dreadnought.alo	mod
+statue.alo	mod
+street light 2.alo	unused?
+street light.alo	unused?
+street sign.alo	unused?
+street sign2.alo	unused?
 strident.alo	mod
 strident_d.alo	mod
 strident_turret12.alo	mod
@@ -397,6 +511,35 @@ sv_armored_assault_tank_00.alo	mod
 sv_armored_assault_tank_01.alo	mod
 t-65_x-wing_starfighter.alo	mod
 tector_i-class_star_destroyer.alo	mod
+tent b.alo	unused?
+tent bed.alo	unused?
+tent m.alo	unused?
+tent s.alo	unused?
+train.alo	mod
+tram tunnel in.alo	unused?
+transport1.alo	mod
+transport2.alo	mod
+transport3.alo	mod
+transport4.alo	mod
+transport5.alo	mod
+transport5b.alo	mod
+transport5p.alo	mod
+transport5r.alo	mod
+trim_station.alo	mod
+turret.alo	mod
+ugc_ce_prop_tatooine_01.alo	mod
+ugc_ce_prop_tatooine_01_ald.alo	mod
+ugc_ce_prop_tatooine_01_copper.alo	mod
+ugc_ce_prop_tatooine_02.alo	mod
+ugc_ce_prop_tatooine_03.alo	mod
+ugc_ce_prop_tatooine_04.alo	mod
+ugc_ce_prop_tatooine_05.alo	mod
+ugc_ce_prop_tatooine_06.alo	mod
+ugc_ce_prop_tatooine_07.alo	mod
+ugc_ce_prop_tatooine_07a.alo	mod
+ugc_ce_prop_tatooine_astroport_a.alo	mod
+ugc_ce_w_industrialwall_a.alo	unused?
+ugc_ce_w_industrialwall_b.alo	unused?
 venator-class_star_destroyer.alo	mod
 venator-class_star_destroyer_hdtl_00.alo	mod
 venator-class_star_destroyer_hdtl_01.alo	mod
@@ -408,23 +551,43 @@ venator-class_star_destroyer_hdtl_06.alo	mod
 venator-class_star_destroyer_hdtl_07.alo	mod
 venator-class_star_destroyer_republic.alo	mod
 viscount_d.alo	mod
+walkway end.alo	unused?
+walkway long.alo	unused?
+walkway shot.alo	unused?
+walkway turn.alo	unused?
+wallset doorway.alo	unused?
+wallset inside.alo	unused?
+wallset long.alo	unused?
+wallset out.alo	unused?
+wallset shot.alo	unused?
+wallset stack.alo	unused?
+w_aat_debris.alo	mod
 w_beam_blue_small.alo	unused?
 w_beam_green_small.alo	unused?
 w_beam_red_small.alo	unused?
+w_bush_rudrig_00.alo	mod
 w_buzz_missile.alo	unused?
 w_composite_beam.alo	mod
 w_concussion_missile.alo	vanilla
 w_concussion_missile2.alo	mod
 w_concussion_missile3.alo	mod
 w_diamd_missile.alo	mod
+w_druckenwell_big_obelisk.alo	mod
+w_druckenwell_house.alo	mod
+w_druckenwell_platform.alo	mod
+w_druckenwell_small_obelisk.alo	mod
 w_dual_ion_cannon.alo	mod
 w_dual_turbolaser_b.alo	mod
 w_dual_turbolaser_g.alo	mod
 w_dual_turbolaser_r.alo	mod
 w_e_land_missile.alo	unused?
 w_fighter_ion_cannon.alo	mod
+w_flag_pod_empire.alo	mod
+w_flag_pod_empire_standalone.alo	mod
 w_flamethrower.alo	unused?
-w_galaxy_tion.alo	mod
+w_galaxy_tion.alo	unused?
+w_grndcvr_rudrig_00.alo	mod
+w_hardcell_debris.alo	mod
 w_heavy_missile.alo	mod
 w_junk_1.alo	mod
 w_junk_2.alo	mod
@@ -444,9 +607,26 @@ w_junk_ship_girder.alo	mod
 w_junk_starship_engine.alo	mod
 w_junk_treads.alo	mod
 w_landmine_oldbf2.alo	mod
+w_land_flak_missile.alo	mod
+w_land_missile.alo	mod
+w_laser_land_g.alo	mod
+w_laser_land_r.alo	mod
 w_laser_smallb.alo	mod
 w_leveler_missile.alo	mod
 w_magpulsetorp.alo	mod
+w_mptl_torpedo.alo	mod
+w_mygeeto_building_a.alo	mod
+w_mygeeto_building_b.alo	mod
+w_mygeeto_building_c.alo	mod
+w_mygeeto_building_d.alo	mod
+w_mygeeto_building_e.alo	mod
+w_mygeeto_corner_a.alo	mod
+w_mygeeto_corner_b.alo	mod
+w_mygeeto_lamp_a.alo	mod
+w_mygeeto_wall_a.alo	mod
+w_mygeeto_wall_b.alo	mod
+w_mygeeto_wall_c.alo	mod
+w_mygeeto_wall_d.alo	mod
 w_octuple_turbolaser_g.alo	mod
 w_planet_abregado_high.alo	unused?
 w_planet_abregado_low.alo	unused?
@@ -468,6 +648,7 @@ w_planet_bothawui_high.alo	unused?
 w_planet_bothawui_low.alo	unused?
 w_planet_boz_pity_high.alo	unused?
 w_planet_boz_pity_low.alo	unused?
+w_planet_cadinth.alo	unused?
 w_planet_carida_high.alo	unused?
 w_planet_carida_low.alo	unused?
 w_planet_cato_neimoidia_high.alo	unused?
@@ -479,8 +660,11 @@ w_planet_dantooine_high.alo	unused?
 w_planet_dantooine_low.alo	unused?
 w_planet_dathomir_high.alo	unused?
 w_planet_dathomir_low.alo	unused?
+w_planet_dsii.alo	mod
 w_planet_duro_high.alo	unused?
 w_planet_duro_low.alo	unused?
+w_planet_endor_giant.alo	mod
+w_planet_endor_moon.alo	mod
 w_planet_eriadu_high.alo	vanilla
 w_planet_eriadu_low.alo	vanilla
 w_planet_felucia_high.alo	unused?
@@ -512,6 +696,8 @@ w_planet_munnilinst_high.alo	unused?
 w_planet_munnilinst_low.alo	unused?
 w_planet_naboo_high.alo	vanilla
 w_planet_naboo_low.alo	vanilla
+w_planet_omman.alo	mod
+w_planet_omman_remake.alo	unused?
 w_planet_ord_mantel00.alo	unused?
 w_planet_ord_mantell_high.alo	unused?
 w_planet_ord_mantell_low.alo	unused?
@@ -540,6 +726,32 @@ w_protontorp.alo	mod
 w_quad_turbolaser_b.alo	mod
 w_quad_turbolaser_g.alo	mod
 w_quad_turbolaser_r.alo	mod
+w_rhn_bridge.alo	mod
+w_rhn_building.alo	mod
+w_rhn_buttress.alo	unused?
+w_rhn_citadel_tower_01.alo	mod
+w_rhn_citadel_tower_02.alo	mod
+w_rhn_common.alo	mod
+w_rhn_common_02.alo	mod
+w_rhn_gargoyle.alo	mod
+w_rhn_lighthouse.alo	mod
+w_rhn_lookout2.alo	unused?
+w_rhn_obelisk.alo	mod
+w_rhn_observatory.alo	mod
+w_rhn_overlook.alo	mod
+w_rhn_rotunda.alo	mod
+w_rhn_stairs.alo	unused?
+w_rhn_statue.alo	mod
+w_rhn_statue_cracked.alo	mod
+w_rhn_statue_snowy.alo	mod
+w_rhn_tower.alo	mod
+w_rhn_vista.alo	mod
+w_rhn_vista2.alo	unused?
+w_rudrig_sinkhole.alo	mod
+w_ruins04.alo	unused?
+w_ruins05.alo	unused?
+w_ruins06.alo	unused?
+w_ruins07.alo	unused?
 w_single_ion_cannon.alo	mod
 w_single_turbolaser_b.alo	mod
 w_single_turbolaser_g.alo	mod
@@ -642,6 +854,32 @@ w_stars_nebula_ten.alo	mod
 w_stars_nebula_three.alo	mod
 w_stars_nebula_twelve.alo	mod
 w_stars_nebula_two.alo	mod
+w_theed_1.alo	mod
+w_theed_10.alo	mod
+w_theed_11.alo	mod
+w_theed_12.alo	mod
+w_theed_1b.alo	mod
+w_theed_2.alo	mod
+w_theed_2a.alo	mod
+w_theed_2b.alo	mod
+w_theed_2c.alo	mod
+w_theed_3.alo	mod
+w_theed_4.alo	mod
+w_theed_4a.alo	mod
+w_theed_4b.alo	mod
+w_theed_4c.alo	mod
+w_theed_5.alo	mod
+w_theed_6.alo	mod
+w_theed_7.alo	mod
+w_theed_8.alo	mod
+w_theed_9.alo	mod
+w_theed_statue.alo	mod
+w_tie_assembly_line_00.alo	mod
+w_tie_assembly_line_01.alo	mod
+w_tie_assembly_line_07.alo	mod
+w_tie_cockpit.alo	mod
+w_tie_in_panels_8.alo	mod
+w_tie_ln_panels_8.alo	mod
 w_white_missile.alo	mod
 yt-1300_light_freighter.alo	mod
 yt-1300_light_freighter_ql.alo	mod

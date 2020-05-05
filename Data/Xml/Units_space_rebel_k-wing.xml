@@ -193,7 +193,7 @@
 <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
 <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_k_wing.tga</Icon_Name>
-		<GUI_Model_Name>RV_kwing.ALO</GUI_Model_Name>
+		<GUI_Model_Name>btl_k-wing.alo</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>

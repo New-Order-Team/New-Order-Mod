@@ -106,6 +106,8 @@
 				Line_Infantry_Platoon,
 				Line_Infantry_Platoon_Repeater,
 				Line_Infantry_Platoon_Remnant,
+				E_Web_Platoon,
+				E_Web_15_Platoon,
 				PX_10_Platoon,
 				Imperial_Heavy_Scout_Squad <!-- AT-ST -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -832,7 +834,6 @@
     
 	    <Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Rom_Mohc_Squad
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Abilities SubObjectList="Yes">
@@ -4733,7 +4734,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_A150 </Armor_Type>
+		<Armor_Type> Armor_S6 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -4807,7 +4808,9 @@
 		
 		<CategoryMask> Structure | AntiVehicle</CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't

@@ -47,7 +47,7 @@
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_A4 </Armor_Type>
 		<Size_Value>60</Size_Value>
 		<Damage>15</Damage>
 		<Sensor_Range>80</Sensor_Range>

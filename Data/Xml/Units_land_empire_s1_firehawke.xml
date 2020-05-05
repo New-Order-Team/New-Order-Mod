@@ -134,7 +134,7 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		
-		<Lua_Script>ObjectScript_Firehawke</Lua_Script>
+		<!--<Lua_Script>ObjectScript_Firehawke</Lua_Script>-->
 
 		<!-- Non-Hero unit abilities description 
 		<Unit_Abilities_Data SubObjectList="Yes">

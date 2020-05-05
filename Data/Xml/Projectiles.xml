@@ -1776,7 +1776,7 @@
 		<Space_Model_Name>p_planetary_turbolaser.alo</Space_Model_Name>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>400.0</Max_Speed>
+		<Max_Speed>100.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>DEFAULT</Projectile_Category>
@@ -1807,7 +1807,7 @@
 		<Space_Model_Name>P_ion_cannon00.alo</Space_Model_Name>
 		<Damage_Type> Damage_Ion_Planet </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>400.0</Max_Speed>
+		<Max_Speed>100.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>DEFAULT</Projectile_Category>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<77th_Hublin_Data>
+<Hublin_77th_Data>
 
 	<!-- Shea Hublin era I - Alpha-3 Nimbus -->
 	<UniqueUnit Name="77th_Alpha_3">
@@ -111,4 +111,4 @@
 		<Population_Value>4</Population_Value>
         <Ranking_In_Category>9</Ranking_In_Category>
 	</Squadron>
-</77th_Hublin_Data>
+</Hublin_77th_Data>

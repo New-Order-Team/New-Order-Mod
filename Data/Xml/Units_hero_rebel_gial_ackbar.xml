@@ -199,7 +199,7 @@
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
-		<Scale_Factor> 1.26 </Scale_Factor>
+		<Scale_Factor>0.31</Scale_Factor>
 		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
 		<Max_Speed>1.75</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>

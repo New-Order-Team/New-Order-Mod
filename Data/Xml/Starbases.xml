@@ -3295,7 +3295,8 @@
 				Corellian_Corvette,
 				Marauder_Corvette,
 				Corellian_Gunboat,
-
+				
+				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3428,6 +3429,7 @@
 				Tartan_Patrol_Cruiser,
 				Heavy_Carrack,
 				
+				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />

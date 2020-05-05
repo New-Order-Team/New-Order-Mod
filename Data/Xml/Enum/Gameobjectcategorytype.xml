@@ -38,11 +38,11 @@
 
 	<SpaceHero>			0x02000000		</SpaceHero>
 	<NonCombatHero>		0x04000000		</NonCombatHero>
-
-	<SLS_Fighter>		0x08000000		</SLS_Fighter>
-	<Cruiser>			0x10000000		</Cruiser>
-
-	<Hero>				0x06400000		</Hero>
+	<RaidUnit>			0x08000000		</RaidUnit>
+	<SLS_Fighter>		0x10000000		</SLS_Fighter>
+	
+	<!-- Data definitions for "Hero", "all" and "none" -->
+	<Hero>				0x16400000		</Hero>
 	<All>				0xFFFFFFFF		</All>
 	<None>				0x00000000		</None>
 	

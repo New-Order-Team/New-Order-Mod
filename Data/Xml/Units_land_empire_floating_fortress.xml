@@ -95,8 +95,8 @@
 		<SFXEvent_Attack>Unit_Attack_AT_AT</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_AT_AT</SFXEvent_Guard>
 		
-		<SFXEvent_Engine_Idle_Loop> Unit_2M_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_2M_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Idle_Loop> Unit_Gargantuan_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gargantuan_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
  		
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>

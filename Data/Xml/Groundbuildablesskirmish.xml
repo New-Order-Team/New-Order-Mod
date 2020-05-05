@@ -1519,9 +1519,11 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -1586,9 +1588,11 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
-		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -1647,7 +1651,9 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
 		<Tactical_Health>600</Tactical_Health>
@@ -1701,8 +1707,10 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
 
-		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
@@ -1761,7 +1769,9 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
 		<Tactical_Health>600</Tactical_Health>

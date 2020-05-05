@@ -2394,59 +2394,55 @@ STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION |
 CAPTION "Dialog"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
-    DEFPUSHBUTTON   "TEXT_BUTTON_BEGIN",IDC_BEGIN_BUTTON,575,665,168,33
-    LTEXT           "TEXT_HISTORICAL_REFERENCE",IDC_STATIC,60,165,197,14
+    DEFPUSHBUTTON   "TEXT_BUTTON_BEGIN",IDC_BEGIN_BUTTON,405,665,168,33
+    LTEXT           "TEXT_HISTORICAL_REFERENCE",IDC_STATIC,60,170,197,14
     LISTBOX         IDC_LIST_REFERENCE,51,184,391,452,LBS_SORT | 
                     LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
     LTEXT           "current planet name",IDC_STATIC_PLANET_NAME,91,80,623,
                     18
-    CONTROL         "",IDC_PLANET_ICON,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    464,166,435,435
-    CONTROL         "",IDC_PLANET_OVERLAY,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,442,165,482,472
     CTEXT           "swamp",IDC_STATIC_TERRAIN,687,239,196,61
     LTEXT           "rain",IDC_STATIC_WEATHER,638,181,153,43
     CONTROL         "",IDC_WEATHER_ICON,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    508,165,128,128
-    CONTROL         "",IDC_MAP_ICON,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,685,
-                    282,200,200
+                    524,165,96,128
+    CONTROL         "",IDC_MAP_ICON,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
+                    710,282,150,200
     CONTROL         "",IDC_NATIVE_ICON,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    478,327,209,209
+                    504,327,157,209
     CTEXT           "TEXT_TERRAIN_TYPE",IDC_STATIC_MED3,687,223,197,21
     LTEXT           "TEXT_AVG_WEATHER",IDC_STATIC_MED2,638,165,153,21
     CTEXT           "TEXT_NATIVE_POPULATION",IDC_STATIC_MED1,488,285,189,21
     CTEXT           "human",IDC_STATIC_NATIVE,480,303,207,44
-    CONTROL         "",IDC_PROGRESS_SOLO,"msctls_progress32",WS_BORDER,452,
-                    617,465,21
-    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,661,580,
-                    224,14
-    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",WS_BORDER,661,564,
-                    224,14
-    CONTROL         "",IDC_PROGRESS3,"msctls_progress32",WS_BORDER,661,548,
-                    224,14
-    CONTROL         "",IDC_PROGRESS4,"msctls_progress32",WS_BORDER,661,532,
-                    224,14
-    CONTROL         "",IDC_PROGRESS5,"msctls_progress32",WS_BORDER,661,516,
-                    224,14
-    CONTROL         "",IDC_PROGRESS6,"msctls_progress32",WS_BORDER,661,500,
-                    224,14
-    CONTROL         "",IDC_PROGRESS7,"msctls_progress32",WS_BORDER,661,484,
-                    224,14
-    CONTROL         "",IDC_PROGRESS8,"msctls_progress32",WS_BORDER,661,468,
-                    224,14
-    RTEXT           "Name 0",IDC_PLAYER_NAME_0,401,595,247,18
-    RTEXT           "Name 1",IDC_PLAYER_NAME_1,401,578,247,18
-    RTEXT           "Name 2",IDC_PLAYER_NAME_2,402,562,246,18
-    RTEXT           "Name 3",IDC_PLAYER_NAME_3,402,546,246,18
-    RTEXT           "Name 4",IDC_PLAYER_NAME_4,402,530,246,18
-    RTEXT           "Name 5",IDC_PLAYER_NAME_5,404,514,244,18
-    RTEXT           "Name 6",IDC_PLAYER_NAME_6,405,498,243,18
-    RTEXT           "Name 7",IDC_PLAYER_NAME_7,404,482,244,18
-    RTEXT           "Name 7",IDC_PLAYER_NAME_8,404,466,244,18
-    CONTROL         "",IDC_PROGRESS0,"msctls_progress32",WS_BORDER,661,597,
-                    224,14
-    LTEXT           "TEXT_SAVELOAD_LOADING_MSG",IDC_STATIC_LOADING,457,616,
-                    445,14
+    CONTROL         "",IDC_PROGRESS_SOLO,"msctls_progress32",WS_BORDER,
+                    50,650,875,21
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    130,580,224,14
+    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",WS_BORDER,
+                    130,564,224,14
+    CONTROL         "",IDC_PROGRESS3,"msctls_progress32",WS_BORDER,
+                    130,548,224,14
+    CONTROL         "",IDC_PROGRESS4,"msctls_progress32",WS_BORDER,
+                    130,532,224,14
+    CONTROL         "",IDC_PROGRESS5,"msctls_progress32",WS_BORDER,
+                    130,516,224,14
+    CONTROL         "",IDC_PROGRESS6,"msctls_progress32",WS_BORDER,
+                    130,500,224,14
+    CONTROL         "",IDC_PROGRESS7,"msctls_progress32",WS_BORDER,
+                    130,484,224,14
+    CONTROL         "",IDC_PROGRESS8,"msctls_progress32",WS_BORDER,
+                    130,468,224,14
+    RTEXT           "Name 0",IDC_PLAYER_NAME_0,-129,595,247,18
+    RTEXT           "Name 1",IDC_PLAYER_NAME_1,-129,578,247,18
+    RTEXT           "Name 2",IDC_PLAYER_NAME_2,-128,562,246,18
+    RTEXT           "Name 3",IDC_PLAYER_NAME_3,-128,546,246,18
+    RTEXT           "Name 4",IDC_PLAYER_NAME_4,-128,530,246,18
+    RTEXT           "Name 5",IDC_PLAYER_NAME_5,-126,514,244,18
+    RTEXT           "Name 6",IDC_PLAYER_NAME_6,-125,498,243,18
+    RTEXT           "Name 7",IDC_PLAYER_NAME_7,-126,482,244,18
+    RTEXT           "Name 7",IDC_PLAYER_NAME_8,-126,466,244,18
+    CONTROL         "",IDC_PROGRESS0,"msctls_progress32",WS_BORDER,
+                    130,597,224,14
+    LTEXT           "TEXT_SAVELOAD_LOADING_MSG",IDC_STATIC_LOADING,
+                    55,648,870,14
 END
 
 IDD_CAMPAIGN_ADVANCED_OPTIONS_DIALOG DIALOGEX 0, 0, 551, 466

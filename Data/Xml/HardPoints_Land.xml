@@ -999,7 +999,7 @@
 		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 120.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees> 270.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 60.0 </Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
@@ -1036,7 +1036,7 @@
 		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
 		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees> 270.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret_02</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_02</Barrel_Bone_Name>
@@ -1106,8 +1106,7 @@
 		<Collision_Mesh>Collision_Launcher</Collision_Mesh>
 
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-		<Fire_Bone_C>MuzzleB_02</Fire_Bone_C>
+		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		
@@ -1120,7 +1119,7 @@
 		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 		<Barrel_Bone_Name> Launcher </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Land_R_Flak_Missile</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>4.1</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.1</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -1290,7 +1289,7 @@
             <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_R_Flak_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1312,7 +1311,7 @@
             <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_R_Flak_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1334,7 +1333,7 @@
             <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_R_Flak_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -1524,8 +1523,8 @@
 
             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_05</Fire_Bone_B>
-            <Fire_Cone_Width>50.0</Fire_Cone_Width>
-            <Fire_Cone_Height>80.0</Fire_Cone_Height>
+            <Fire_Cone_Width>10.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25</Fire_Max_Recharge_Seconds>
@@ -1549,8 +1548,8 @@
 
             <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_06</Fire_Bone_B>
-            <Fire_Cone_Width>50.0</Fire_Cone_Width>
-            <Fire_Cone_Height>80.0</Fire_Cone_Height>
+            <Fire_Cone_Width>10.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25</Fire_Max_Recharge_Seconds>
@@ -1575,8 +1574,8 @@
 
             <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_08</Fire_Bone_B>
-            <Fire_Cone_Width>50.0</Fire_Cone_Width>
-            <Fire_Cone_Height>80.0</Fire_Cone_Height>
+            <Fire_Cone_Width>10.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25</Fire_Max_Recharge_Seconds>
@@ -1601,8 +1600,8 @@
 
             <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
-            <Fire_Cone_Width>50.0</Fire_Cone_Width>
-            <Fire_Cone_Height>80.0</Fire_Cone_Height>
+            <Fire_Cone_Width>10.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25</Fire_Max_Recharge_Seconds>
@@ -1627,8 +1626,8 @@
 
             <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
-            <Fire_Cone_Width>50.0</Fire_Cone_Width>
-            <Fire_Cone_Height>80.0</Fire_Cone_Height>
+            <Fire_Cone_Width>10.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>25.2</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>25.2</Fire_Max_Recharge_Seconds>
@@ -1883,7 +1882,30 @@
 	<!-- ################### -->
 	
 	<!-- AAT -->
-	<HardPoint Name="HP_AAT_00">
+	<HardPoint Name="HP_AAT_Heavy_Blasters">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Land_Heavy_Blaster_AAT</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.52</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.08</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_AAT_Heavy_Blaster_Fire</Fire_SFXEvent>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+    </HardPoint>
+	<HardPoint Name="HP_AAT_Turret">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -1894,27 +1916,27 @@
 		<Attachment_Bone>Attach_00</Attachment_Bone>
 		<Collision_Mesh>Turret_Collision_00</Collision_Mesh>
 
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B></Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		
 		<Is_Turret> Yes </Is_Turret>
 		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
+		<Turret_Rotate_Speed> 0.75 </Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 15.0 </Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
 		<Barrel_Bone_Name> Barrel_00 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_Laser_AAT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>5.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>6.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>700.0</Fire_Range_Distance>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_AAT_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 40.0 </Fire_Inaccuracy_Distance>
@@ -1922,66 +1944,43 @@
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
     </HardPoint>
-	<HardPoint Name="HP_AAT_01">
+	<HardPoint Name="HP_AAT_Blaster_Cannons">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_LASER</Tooltip_Text>
+		<Tooltip_Text>TEXT_WEAPON_LIGHT_BLASTER</Tooltip_Text>
 		<Health>150.0</Health>
 
 		<Model_To_Attach>sv_armored_assault_tank_01.ALO</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
 		<Collision_Mesh>Barrel_Collision_02</Collision_Mesh>
 
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		
 		<Is_Turret> Yes </Is_Turret>
 		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 1.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees> 0.1 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 20.0 </Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 		<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_Blaster_AAT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.1</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>1.26</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.54</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>600.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_AAT_Light_Blaster_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-    </HardPoint>
-	<HardPoint Name="HP_AAT_02">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>40.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Land_Heavy_Blaster_AAT</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_AAT_Heavy_Blaster_Fire</Fire_SFXEvent>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
     </HardPoint>
 	

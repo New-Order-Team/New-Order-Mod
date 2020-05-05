@@ -2190,7 +2190,7 @@
 	<UpgradeObject Name="RS_Ion_Cannon_Use_Upgrade">
 		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer> 280 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />

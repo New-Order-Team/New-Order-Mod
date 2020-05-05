@@ -150,7 +150,7 @@
          
 		<CategoryMask> Capital | AntiFrigate | AntiCapital </CategoryMask>
 		<Icon_Name>I_BUTTON_Mc90.tga</Icon_Name>
-		<GUI_Model_Name>F_Mc90b.ALO</GUI_Model_Name>
+		<GUI_Model_Name>F_Mc90.ALO</GUI_Model_Name>
 		<GUI_Distance>2300</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>

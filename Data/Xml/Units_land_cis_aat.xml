@@ -47,7 +47,7 @@
 		<Size_Value>60</Size_Value>
 		<Damage>65</Damage>
 		<Sensor_Range>80</Sensor_Range>
-		<Tactical_Health>400</Tactical_Health>
+		<Tactical_Health>350</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Behavior> SELECTABLE </Behavior>
@@ -58,10 +58,10 @@
 		<!-- This is considered a repulsorlift-driven unit -->
 
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
-				HP_AAT_00, HP_AAT_01, HP_AAT_02		
+				HP_AAT_Heavy_Blasters, HP_AAT_Turret, HP_AAT_Blaster_Cannons
 		</Hardpoints>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>

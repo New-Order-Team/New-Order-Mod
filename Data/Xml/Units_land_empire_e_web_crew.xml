@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<E_Web_Crew_Data>
+
+	<GroundInfantry Name="E_Web_Crew">
+		<No_Colorization_Color>33, 33, 33, 255</No_Colorization_Color>
+		<Text_ID>TEXT_UNIT_EWEB_TROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_EWEB_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		
+		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
+		<Scale_Factor>0.53</Scale_Factor>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Movement_Animation_Speed> 2</Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
+
+		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
+		<Attack_Animation_Is_Overlay>Yes</Attack_Animation_Is_Overlay>
+		
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
+		<Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
+		<Fire_Weapon_When_Deployed>Yes</Fire_Weapon_When_Deployed>
+		
+		<!--<Projectile_Types>Proj_Blank</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.8</Projectile_Fire_Recharge_Seconds>-->
+		
+		<Hardpoints>
+			HP_Infantry_E_Web
+		</Hardpoints>
+		
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		<SurfaceFX_Name>Generic_Footprint, Good_Ground</SurfaceFX_Name>
+		<Max_Speed>0.75</Max_Speed> <!-- Was 0.7 -->
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>20.0</Stopped_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius>5.0</Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent>5.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>5.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5</FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> 0.05 </OverrideAcceleration>
+		<OverrideDeceleration> 0.05 </OverrideDeceleration>
+		<FormationOrder>2</FormationOrder>
+		<Type>Walk</Type>
+		
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>Yes</Auto_Deploys>
+		<Deployment_Anim_Rate>1.0</Deployment_Anim_Rate>
+		
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Damage>3</Damage>
+		<Sensor_Range>20</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>160</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Armor_Type> Armor_I1 </Armor_Type>
+		<Shield_Armor_Type> Armor_I1 </Shield_Armor_Type>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Ranged_Target_Z_Adjust>4.5</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
+		
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire>Unit_Speeder_Bike_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+		<Property_Flags>Fodder</Property_Flags>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes</Is_Squashable>
+		<Create_Team>No</Create_Team>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Targeting_Stickiness_Time_Threshold>10.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>0.0</Attack_Move_Response_Range>
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		
+        <Must_Face_Target_To_Attack_When_Deployed>Yes</Must_Face_Target_To_Attack_When_Deployed>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundInfantry>
+	
+	<GroundCompany Name="E_Web_Platoon">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER_LINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>200</Damage>
+		<Autoresolve_Health>1280</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1450</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>37</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		
+		<Company_Units>
+		E_WEB_Crew, E_WEB_Crew, E_WEB_Crew, E_WEB_Crew,
+		E_WEB_Crew, E_WEB_Crew, E_WEB_Crew, E_WEB_Crew
+		</Company_Units>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		<GUI_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</GUI_Model_Name>
+		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1450</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+
+	<GroundInfantry Name="E_Web_15_Crew">
+		<Variant_Of_Existing_Type>E_WEB_Crew</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+		<Land_Model_Name>EI_Imperial_Army_E-Web15_crew.alo</Land_Model_Name>
+		<LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, POWERED, SHIELDED</LandBehavior>
+        <Shielded_Only_When_Deployed>Yes</Shielded_Only_When_Deployed>
+		<Shield_Points>50</Shield_Points>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+        <Shield_Sub_Mesh>Sphere01</Shield_Sub_Mesh>
+	</GroundInfantry>
+	
+	<GroundCompany Name="E_Web_15_Platoon">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER_LINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>200</Damage>
+		<Autoresolve_Health>1680</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1800</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>49</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Barracks</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		
+		<Company_Units>
+		E_Web_15_Crew, E_Web_15_Crew, E_Web_15_Crew, E_Web_15_Crew,
+		E_Web_15_Crew, E_Web_15_Crew, E_Web_15_Crew, E_Web_15_Crew
+		</Company_Units>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		<GUI_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</GUI_Model_Name>
+		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEPLOY</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+	</GroundCompany>
+</E_Web_Crew_Data>

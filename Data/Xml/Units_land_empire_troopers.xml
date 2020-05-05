@@ -425,18 +425,18 @@
 		<Tactical_Health>50</Tactical_Health>
 
 		<Projectile_Types>Proj_Land_CSPL_Plank_Gas</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>7.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
 		<Targeting_Min_Attack_Distance> 100 </Targeting_Min_Attack_Distance>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Fire_Inaccuracy_Fixed_Radius> 100 </Targeting_Fire_Inaccuracy_Fixed_Radius>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 70.0 </Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -1140,7 +1140,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> LandHero | AntiInfantry | AntiStructure </CategoryMask>
+		<CategoryMask> LandHero | AntiInfantry | AntiStructure | RaidUnit </CategoryMask>
 		<Ranking_In_Category> 21 </Ranking_In_Category>
 		<MovementClass> Infantry </MovementClass>
 
@@ -1249,11 +1249,11 @@
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Combat_Power_Value>5</Combat_Power_Value>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+		<Required_Special_Structures />
 		<Required_Planets />
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -1270,7 +1270,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 
 		<Population_Value>1</Population_Value>
-		<CategoryMask> LandHero | AntiInfantry | AntiStructure </CategoryMask>
+		<CategoryMask> LandHero | AntiInfantry | AntiStructure | RaidUnit </CategoryMask>
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 
 		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>

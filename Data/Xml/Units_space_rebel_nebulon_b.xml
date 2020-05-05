@@ -63,7 +63,7 @@
 		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Target_Bones> SPAWN_00, ENGIENS </Target_Bones>
+		<Target_Bones> HP01, HP02, HP09, HP10 </Target_Bones>
 
 		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
