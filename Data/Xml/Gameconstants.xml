@@ -256,9 +256,9 @@
 
 	<!-- Shields and Power Recharge -->
 
-	<ShieldRechargeIntervalInSecs>5.0</ShieldRechargeIntervalInSecs>
-	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
-	<EnergyToShieldExchangeRate>0.5</EnergyToShieldExchangeRate>
+	<ShieldRechargeIntervalInSecs>1.0</ShieldRechargeIntervalInSecs>
+	<EnergyRechargeIntervalInSecs>1.0</EnergyRechargeIntervalInSecs>
+	<EnergyToShieldExchangeRate>1.0</EnergyToShieldExchangeRate>
 
 	
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
@@ -1010,6 +1010,230 @@
 	</Armor_Types>
 
 	<!-- DAMAGE vs. ARMOR Matrix -->
+	
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S30, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S50, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S60, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S70, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S90, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S120, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S30, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S50, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S60, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S70, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S90, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S120, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S50, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S60, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S70, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S90, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S120, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S50, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S60, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S70, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S90, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S120, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S60, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S70, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S90, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S120, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S70, 0.875 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S90, 0.625 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S120, 0.375 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S70, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S90, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S120, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S90, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S120, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S90, 0.9 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S120, 0.6 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S90, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S120, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S90, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S120, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S90, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S120, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S90, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S120, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Shield_Space, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S10, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S30, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S50, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S60, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S70, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S90, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S120, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Shield_Space, 3.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S90, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S120, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Shield_Space, 0.5 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S80, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S100, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_Fighter, Armor_S140, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S80, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S100, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LС_20_200, Armor_S140, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S80, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S100, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_LC_30_200, Armor_S140, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S80, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S100, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_40_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S80, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S100, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_50_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S80, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S100, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_125, Armor_S140, 0.375 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S80, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S100, 0.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_60_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S80, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S100, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_70_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S100, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_100, Armor_S140, 0.5 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S100, 0.7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_80_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S100, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_90_150, Armor_S140, 0.25 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S100, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_110_150, Armor_S140, 0.55 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S100, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL_140_150, Armor_S140, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S80, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S100, 0.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION, Armor_S140, 0.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S100, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_MUN, Armor_S140, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S80, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S100, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S140, 1.0 </Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S00, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S10, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S30, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S50, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S60, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S70, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S90, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_S120, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Asteroid, Shield_Space, 0.5 </Damage_To_Armor_Mod>
 
 
 	<Damage_To_Armor_Mod> Damage_Turbolaser, Armor_Fighter, 1 </Damage_To_Armor_Mod>
@@ -1098,7 +1322,7 @@
 
 	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_Fighter, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_Space, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Asteroid, Shield_Space, 1 </Damage_To_Armor_Mod>
+	<!--<Damage_To_Armor_Mod> Damage_Asteroid, Shield_Space, 1 </Damage_To_Armor_Mod>-->
 	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_Hero_Fighter, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Asteroid, Armor_Hero_Corvette, 0 </Damage_To_Armor_Mod>
 
@@ -2006,26 +2230,7 @@
 	<Damage_To_Armor_Mod> Damage_Tyber_Shotgun, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tyber_Shotgun, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Tyber_Shotgun, Armor_Vornskr, 1.0 </Damage_To_Armor_Mod>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 	<Damage_To_Armor_Mod> Damage_Normal, Armor_I1, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Normal, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Normal, Armor_A1, 1.0 </Damage_To_Armor_Mod>
@@ -2500,8 +2705,8 @@
 	<Use_Reinforcement_Points>True</Use_Reinforcement_Points>
 	
 	<!-- Multiplayer Data Begin -->
-	<Min_Skirmish_Credits>5000</Min_Skirmish_Credits>
-	<Max_Skirmish_Credits>20000</Max_Skirmish_Credits>
+	<Min_Skirmish_Credits>2000</Min_Skirmish_Credits>
+	<Max_Skirmish_Credits>5000</Max_Skirmish_Credits>
 	
 	<!-- Gameplay option defaults -->
 		

@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<Projectiles_SM>
+
+	<!-- ISD I -->
+	<Projectile Name="Proj_Ship_Turbolaser_KDY_140">
+		<Variant_Of_Existing_Type>Proj_Ship_Heavy_Turbolaser_Green_Dual</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_dual_turbolaser_G_140.alo</Space_Model_Name>
+		<Damage_Type> Damage_TBL_140_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>3400</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>3400</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>3400</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Ion_Cannon_KDY_140">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon_Dual_Heavy</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_dual_ion_cannon_140.alo</Space_Model_Name>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>3400.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>3400</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>3400</AI_Combat_Power>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_KDY_55">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_60_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1550.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>160</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>160</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>160</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Ion_Cannon_KDY_50">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>110</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>110</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>110</AI_Combat_Power>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- MC80 Liberty type -->
+	<Projectile Name="Proj_Ship_Turbolaser_MCS_120">
+		<Variant_Of_Existing_Type>Proj_Ship_Heavy_Turbolaser_Red_Dual</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_dual_turbolaser_R_110.alo</Space_Model_Name>
+		<Damage_Type> Damage_TBL_110_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>2100.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>2300</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>2300</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>2300</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_MCS_50">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_50_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>110</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>110</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>110</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Ion_Cannon_MCS_50">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>110</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>110</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>110</AI_Combat_Power>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Dreadnought -->
+	<Projectile Name="Proj_Ship_Turbolaser_RSD_90">
+		<Variant_Of_Existing_Type>Proj_Ship_Heavy_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_single_turbolaser_R_90.alo</Space_Model_Name>
+		<Damage_Type> Damage_TBL_90_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>2000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>515</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>515</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>515</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Laser_Cannon_RSD_30">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_30_200 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1050.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>60</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>60</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>60</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Assault Frigate -->
+	<Projectile Name="Proj_Ship_Turbolaser_RSD_80">
+		<Variant_Of_Existing_Type>Proj_Ship_Heavy_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_80_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>335</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>335</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>335</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Neutron Star -->
+	<Projectile Name="Proj_Ship_Turbolaser_RSD_60Q">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Red_Quad</Variant_Of_Existing_Type>
+		<Space_Model_Name>w_quad_turbolaser_R_RSD_60.alo</Space_Model_Name>
+		<Damage_Type> Damage_TBL_60_125 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>175</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>175</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>175</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	
+	<!-- Strike cruiser -->
+	<Projectile Name="Proj_Ship_Turbolaser_LOR_75">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_70_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>320</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>320</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>320</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_LOR_40">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Green</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_40_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1310.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>80</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>80</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>80</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Ion_Cannon_LOR_35">
+		<Variant_Of_Existing_Type>Proj_Ship_AF_Ion_Cannon</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Projectile_Max_Flight_Distance>1125.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>77</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>77</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>77</AI_Combat_Power>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Carrack cruiser -->
+	<Projectile Name="Proj_Ship_Turbolaser_DMC_70">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_80_100 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>290</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>290</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>290</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Laser_Cannon_DMC_30">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_30_200 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1145.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>66</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>66</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>66</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Nebulon-B -->
+	<Projectile Name="Proj_Ship_Turbolaser_KDY_50">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_50_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>120</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Laser_Cannon_KDY_30">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_30_200 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1050.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>54</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>54</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>54</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- DP20 -->	
+	<Projectile Name="Proj_Ship_Laser_Cannon_CEC_10D">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red_Dual</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_20_200 </Damage_Type>
+		<Projectile_Max_Flight_Distance>815.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>44</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>44</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>44</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- CR90 -->
+	<Projectile Name="Proj_Ship_Turbolaser_CEC_40">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_TBL_40_150 </Damage_Type>
+		<Projectile_Max_Flight_Distance>1310.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>88</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>88</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>88</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- TIE/ln -->
+	<Projectile Name="Proj_Ship_Laser_Cannon_SFS_LS1">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Green_Dual</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_Fighter </Damage_Type>
+		<Projectile_Max_Flight_Distance>700.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>25</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>25</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>25</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- TIE/in -->
+	<Projectile Name="Proj_Ship_Laser_Cannon_SFS_LS93">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Green</Variant_Of_Existing_Type>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_LC_Fighter </Damage_Type>
+		<Projectile_Max_Flight_Distance>730.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>20</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Z-95, X-wing, Y-wing -->
+	<Projectile Name="Proj_Ship_Laser_Cannon_TNB_KX">
+		<Variant_Of_Existing_Type>Proj_Ship_Light_Turbolaser_Red</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_LC_Fighter </Damage_Type>
+		<Projectile_Max_Flight_Distance>670.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>10</AI_Combat_Power>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Y-wing -->
+	<Projectile Name="Proj_Ship_Ion_Cannon_ARM_SW4">
+		<Variant_Of_Existing_Type>Proj_Ship_Fighter_Ion_Cannon</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Projectile_Max_Flight_Distance>575.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>8</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>8</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>8</AI_Combat_Power>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Max_Speed>60</Max_Speed>
+	</Projectile>
+	
+	<!-- Concussion Missiles -->
+	<Projectile Name="Proj_Ship_Concussion_Missile_Small">
+		<Variant_Of_Existing_Type>Proj_Fighter_Concussion_Missile</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_MUN </Damage_Type>
+		<Projectile_Max_Flight_Distance>2800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Rocket_Curve_Distance>30</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>30</Projectile_Rocket_Straight_Distance>
+		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Concussion_Missile_Small_115">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile_Small</Variant_Of_Existing_Type>
+		<Max_Speed>10.14</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Concussion_Missile_Small_80">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile_Small</Variant_Of_Existing_Type>
+		<Max_Speed>9.14</Max_Speed>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Concussion_Missile_Small_75">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile_Small</Variant_Of_Existing_Type>
+		<Max_Speed>9</Max_Speed>
+	</Projectile>
+	
+	<!-- Concussion Missiles -->
+	<Projectile Name="Proj_Ship_Proton_Torpedo_Small_95">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_MUN </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>600.0</Projectile_Damage>
+		<Max_Speed>6.14</Max_Speed>
+		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Proton_Torpedo_Small_80">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Damage_Type> Damage_MUN </Damage_Type>
+		<Projectile_Max_Flight_Distance>1800.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>600.0</Projectile_Damage>
+		<Max_Speed>5.71</Max_Speed>
+		<Max_Rate_Of_Turn>15.0</Max_Rate_Of_Turn>
+	</Projectile>
+	
+</Projectiles_SM>

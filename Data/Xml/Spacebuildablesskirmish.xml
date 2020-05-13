@@ -12,29 +12,13 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
-				UC_Empire_Defense_Satellite_Laser,
-				UC_Empire_Defense_Satellite_Sensor,
-				UC_Empire_Defense_Satellite_TB,
 			Rebel,
-				UC_Rebel_Defense_Satellite_Laser,
-				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,
-			CIS_Remnants,
-				UC_CIS_Defense_Satellite_Vulture_Pod,
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Tactical_Buildable_Objects_Campaign> 
 			Empire, 
-				UC_Empire_Defense_Satellite_Laser,
-				UC_Empire_Defense_Satellite_Sensor,
-				UC_Empire_Defense_Satellite_TB,
 			Rebel,
-				UC_Rebel_Defense_Satellite_Laser,
-				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,
-			CIS_Remnants,
-				UC_CIS_Defense_Satellite_Vulture_Pod,
 				
 		</Tactical_Buildable_Objects_Campaign>
 
@@ -1904,15 +1888,15 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_S00 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   
-		<Tactical_Health>1700</Tactical_Health>
+		<Tactical_Health>30000</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </MP_Encyclopedia_Text>
@@ -1990,7 +1974,7 @@
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_S60 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -2024,7 +2008,7 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	
-		<Tactical_Health>3000</Tactical_Health>
+		<Tactical_Health>60000</Tactical_Health>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,

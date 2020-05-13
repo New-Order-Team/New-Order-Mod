@@ -3259,9 +3259,9 @@
 	<UpgradeObject Name="RS_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3289,9 +3289,9 @@
 	<UpgradeObject Name="RS_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3319,9 +3319,9 @@
 	<UpgradeObject Name="RS_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 5000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>5000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3406,9 +3406,9 @@
 	<UpgradeObject Name="ES_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3436,9 +3436,9 @@
 	<UpgradeObject Name="ES_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3466,9 +3466,9 @@
 	<UpgradeObject Name="ES_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 5000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>5000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
