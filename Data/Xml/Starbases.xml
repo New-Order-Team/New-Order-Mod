@@ -31,7 +31,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_S60 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -63,9 +63,9 @@
 
 		<Autoresolve_Health>7850</Autoresolve_Health>
 		<Damage>1950</Damage>
-		<Shield_Points>190080</Shield_Points>
-		<Tactical_Health>123200</Tactical_Health>
-		<Shield_Refresh_Rate>1900</Shield_Refresh_Rate>
+		<Shield_Points>4925</Shield_Points>
+		<Tactical_Health>2925</Tactical_Health>
+		<Shield_Refresh_Rate>492.5</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -198,9 +198,9 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>16450</Autoresolve_Health>
 		<Damage>3925</Damage>
-		<Shield_Points>228837</Shield_Points>
-		<Tactical_Health>148320</Tactical_Health>
-		<Shield_Refresh_Rate>2288</Shield_Refresh_Rate>
+		<Shield_Points>10360</Shield_Points>
+		<Tactical_Health>6090</Tactical_Health>
+		<Shield_Refresh_Rate>1036</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -208,7 +208,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_S80 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -371,9 +371,9 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>29415</Autoresolve_Health>
 		<Damage>7425</Damage>
-		<Shield_Points>268210</Shield_Points>
-		<Tactical_Health>173840</Tactical_Health>
-		<Shield_Refresh_Rate>2682</Shield_Refresh_Rate>
+		<Shield_Points>18385</Shield_Points>
+		<Tactical_Health>11030</Tactical_Health>
+		<Shield_Refresh_Rate>1838.5</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -383,7 +383,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_S100 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -571,9 +571,9 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>47550</Autoresolve_Health>
 		<Damage>11600</Damage>
-		<Shield_Points>285367</Shield_Points>
-		<Tactical_Health>184960</Tactical_Health>
-		<Shield_Refresh_Rate>2853</Shield_Refresh_Rate>
+		<Shield_Points>29720</Shield_Points>
+		<Tactical_Health>17830</Tactical_Health>
+		<Shield_Refresh_Rate>2972</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -583,7 +583,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_S120 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -805,7 +805,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_S140 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1024,15 +1024,15 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Damage>2800</Damage>
-		<Shield_Points>190080</Shield_Points>
-		<Tactical_Health>123200</Tactical_Health>
-		<Shield_Refresh_Rate>1900</Shield_Refresh_Rate>
+		<Shield_Points>4200</Shield_Points>
+		<Tactical_Health>2800</Tactical_Health>
+		<Shield_Refresh_Rate>420</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
-		<Armor_Type> Armor_S60 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
@@ -1182,15 +1182,15 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>14725</Autoresolve_Health>
 		<Damage>5650</Damage>
-		<Shield_Points>228837</Shield_Points>
-		<Tactical_Health>148320</Tactical_Health>
-		<Shield_Refresh_Rate>2288</Shield_Refresh_Rate>
+		<Shield_Points>8775</Shield_Points>
+		<Tactical_Health>5950</Tactical_Health>
+		<Shield_Refresh_Rate>877.5</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
-		<Armor_Type> Armor_S80 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
@@ -1347,15 +1347,15 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>26315</Autoresolve_Health>
 		<Damage>10525</Damage>
-		<Shield_Points>268210</Shield_Points>
-		<Tactical_Health>173840</Tactical_Health>
-		<Shield_Refresh_Rate>2682</Shield_Refresh_Rate>
+		<Shield_Points>15790</Shield_Points>
+		<Tactical_Health>10525</Tactical_Health>
+		<Shield_Refresh_Rate>1579</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
-		<Armor_Type> Armor_S100 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
@@ -1538,16 +1538,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>42250</Autoresolve_Health>
 		<Damage>16900</Damage>
-		<Shield_Points>285367</Shield_Points>
-		<Tactical_Health>184960</Tactical_Health>
-		<Shield_Refresh_Rate>2853</Shield_Refresh_Rate>
+		<Shield_Points>25350</Shield_Points>
+		<Tactical_Health>16900</Tactical_Health>
+		<Shield_Refresh_Rate>2535</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_S120 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1738,7 +1738,7 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_S140 </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -2127,7 +2127,14 @@
 
 			HP_Rebel_Station_Dummy_10,
 			HP_Rebel_Station_Dummy_11,
-			HP_Rebel_Station_Dummy_12
+			HP_Rebel_Station_Dummy_12,
+
+			HP_Rebel_Station_One_00,
+			HP_Rebel_Station_One_01,
+			HP_Rebel_Station_One_02,
+			HP_Rebel_Station_One_03,
+			HP_Rebel_Station_One_04,
+			HP_Rebel_Station_One_05
 		</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2176,7 +2183,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>60</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2221,7 +2228,21 @@
 			HP_Rebel_Station_Dummy_12,
 			HP_Rebel_Station_Dummy_20,
 			HP_Rebel_Station_Dummy_21,
-			HP_Rebel_Station_Dummy_22
+			HP_Rebel_Station_Dummy_22,
+
+			HP_Rebel_Station_One_00,
+			HP_Rebel_Station_One_01,
+			HP_Rebel_Station_One_02,
+			HP_Rebel_Station_One_03,
+			HP_Rebel_Station_One_04,
+			HP_Rebel_Station_One_05,
+			HP_Rebel_Station_Two_00,
+			HP_Rebel_Station_Two_01,
+			HP_Rebel_Station_Two_02,
+			HP_Rebel_Station_Two_03,
+			HP_Rebel_Station_Two_04,
+			HP_Rebel_Station_Two_05,
+			HP_Rebel_Station_Two_06
 		</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2270,7 +2291,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>70</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2318,7 +2339,29 @@
 			HP_Rebel_Station_Dummy_22,
 			HP_Rebel_Station_Dummy_30,
 			HP_Rebel_Station_Dummy_31,
-			HP_Rebel_Station_Dummy_32
+			HP_Rebel_Station_Dummy_32,
+
+			HP_Rebel_Station_One_00,
+			HP_Rebel_Station_One_01,
+			HP_Rebel_Station_One_02,
+			HP_Rebel_Station_One_03,
+			HP_Rebel_Station_One_04,
+			HP_Rebel_Station_One_05,
+			HP_Rebel_Station_Two_00,
+			HP_Rebel_Station_Two_01,
+			HP_Rebel_Station_Two_02,
+			HP_Rebel_Station_Two_03,
+			HP_Rebel_Station_Two_04,
+			HP_Rebel_Station_Two_05,
+			HP_Rebel_Station_Two_06,
+			HP_Rebel_Station_Three_00,
+			HP_Rebel_Station_Three_01,
+			HP_Rebel_Station_Three_02,
+			HP_Rebel_Station_Three_03,
+			HP_Rebel_Station_Three_04,
+			HP_Rebel_Station_Three_05,
+			HP_Rebel_Station_Three_06,
+			HP_Rebel_Station_Three_07
 		</HardPoints>
 		
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2369,7 +2412,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>80</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2420,7 +2463,36 @@
 			HP_Rebel_Station_Dummy_32,
 			HP_Rebel_Station_Dummy_40,
 			HP_Rebel_Station_Dummy_41,
-			HP_Rebel_Station_Dummy_42
+			HP_Rebel_Station_Dummy_42,
+
+			HP_Rebel_Station_One_00,
+			HP_Rebel_Station_One_01,
+			HP_Rebel_Station_One_02,
+			HP_Rebel_Station_One_04,
+			HP_Rebel_Station_One_05,
+			HP_Rebel_Station_Two_01,
+			HP_Rebel_Station_Two_05,
+			HP_Rebel_Station_Two_06,
+			HP_Rebel_Station_Three_00,
+			HP_Rebel_Station_Three_01,
+			HP_Rebel_Station_Three_02,
+			HP_Rebel_Station_Three_03,
+			HP_Rebel_Station_Three_04,
+			HP_Rebel_Station_Three_05,
+			HP_Rebel_Station_Three_06,
+			HP_Rebel_Station_Three_07,
+			HP_Rebel_Station_Four_00,
+			HP_Rebel_Station_Four_01,
+			HP_Rebel_Station_Four_02,
+			HP_Rebel_Station_Four_03,
+			HP_Rebel_Station_Four_04,
+			HP_Rebel_Station_Four_05,
+			HP_Rebel_Station_Four_06,
+			HP_Rebel_Station_Four_07,
+			HP_Rebel_Station_Four_08,
+			HP_Rebel_Station_Four_09,
+			HP_Rebel_Station_Four_10,
+			HP_Rebel_Station_Four_11
 		</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2469,7 +2541,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>90</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2524,7 +2596,36 @@
 			HP_Rebel_Station_Dummy_51,
 			HP_Rebel_Station_Dummy_52,
 			HP_Rebel_Station_Dummy_53,
-			HP_Rebel_Station_Dummy_54
+			HP_Rebel_Station_Dummy_54,
+
+			HP_Rebel_Station_One_04,
+			HP_Rebel_Station_One_05,
+			HP_Rebel_Station_Two_05,
+			HP_Rebel_Station_Two_06,
+			HP_Rebel_Station_Three_05,
+			HP_Rebel_Station_Three_06,
+			HP_Rebel_Station_Three_07,
+			HP_Rebel_Station_Four_02,
+			HP_Rebel_Station_Four_04,
+			HP_Rebel_Station_Four_08,
+			HP_Rebel_Station_Four_09,
+			HP_Rebel_Station_Four_11,
+			HP_Rebel_Station_Five_00,
+			HP_Rebel_Station_Five_01,
+			HP_Rebel_Station_Five_02,
+			HP_Rebel_Station_Five_03,
+			HP_Rebel_Station_Five_04,
+			HP_Rebel_Station_Five_05,
+			HP_Rebel_Station_Five_06,
+			HP_Rebel_Station_Five_07,
+			HP_Rebel_Station_Five_08,
+			HP_Rebel_Station_Five_09,
+			HP_Rebel_Station_Five_00,
+			HP_Rebel_Station_Five_11,
+			HP_Rebel_Station_Five_12,
+			HP_Rebel_Station_Five_13,
+			HP_Rebel_Station_Five_14,
+			HP_Rebel_Station_Five_15
 		</HardPoints>
 
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2575,7 +2676,7 @@
 			<Income_Stream_Ability Name="R_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>100</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2619,7 +2720,16 @@
 			HP_Empire_Station_Dummy_10,
 			HP_Empire_Station_Dummy_11,
 			HP_Empire_Station_Dummy_12,
-			HP_Empire_Station_Dummy_13
+			HP_Empire_Station_Dummy_13,
+			
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_03,
+			HP_Empire_Station_One_04,
+			HP_Empire_Station_One_05,
+			HP_Empire_Station_One_06,
+			HP_Empire_Station_One_07
 		</HardPoints>
 
 		<!-- Tactical Production Options -->
@@ -2660,7 +2770,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>60</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2705,7 +2815,22 @@
 			HP_Empire_Station_Dummy_13,
 			HP_Empire_Station_Dummy_20,
 			HP_Empire_Station_Dummy_21,
-			HP_Empire_Station_Dummy_22
+			HP_Empire_Station_Dummy_22,
+			
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_05,
+			HP_Empire_Station_One_06,
+			HP_Empire_Station_One_07,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Two_03,
+			HP_Empire_Station_Two_04,
+			HP_Empire_Station_Two_05,
+			HP_Empire_Station_Two_06,
+			HP_Empire_Station_Two_07,
+			HP_Empire_Station_Two_08
 		</HardPoints>
 
 		<!-- Tactical Production Options -->
@@ -2744,7 +2869,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>70</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2792,7 +2917,28 @@
 			HP_Empire_Station_Dummy_22,
 			HP_Empire_Station_Dummy_30,
 			HP_Empire_Station_Dummy_31,
-			HP_Empire_Station_Dummy_32
+			HP_Empire_Station_Dummy_32,
+			
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_05,
+			HP_Empire_Station_One_06,
+			HP_Empire_Station_One_07,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Two_03,
+			HP_Empire_Station_Two_04,
+			HP_Empire_Station_Two_05,
+			HP_Empire_Station_Two_06,
+			HP_Empire_Station_Two_07,
+			HP_Empire_Station_Two_08,
+			HP_Empire_Station_Three_00,
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Three_03,
+			HP_Empire_Station_Three_04,
+			HP_Empire_Station_Three_05
 		</HardPoints>
 
 		<!-- Tactical Production Options -->
@@ -2842,7 +2988,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>80</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2894,7 +3040,34 @@
 			HP_Empire_Station_Dummy_40,
 			HP_Empire_Station_Dummy_41,
 			HP_Empire_Station_Dummy_42,
-			HP_Empire_Station_Dummy_43
+			HP_Empire_Station_Dummy_43,
+			
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_05,
+			HP_Empire_Station_One_06,
+			HP_Empire_Station_One_07,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Two_03,
+			HP_Empire_Station_Two_04,
+			HP_Empire_Station_Two_05,
+			HP_Empire_Station_Two_06,
+			HP_Empire_Station_Two_07,
+			HP_Empire_Station_Two_08,
+			HP_Empire_Station_Three_00,
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Three_03,
+			HP_Empire_Station_Three_04,
+			HP_Empire_Station_Three_05,
+			HP_Empire_Station_Four_00,
+			HP_Empire_Station_Four_01,
+			HP_Empire_Station_Four_02,
+			HP_Empire_Station_Four_03,
+			HP_Empire_Station_Four_04,
+			HP_Empire_Station_Four_05
 		</HardPoints>
 
 		<!-- Tactical Production Options -->
@@ -2942,7 +3115,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>90</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -2999,7 +3172,38 @@
 			HP_Empire_Station_Dummy_50,
 			HP_Empire_Station_Dummy_51,
 			HP_Empire_Station_Dummy_52,
-			HP_Empire_Station_Dummy_53
+			HP_Empire_Station_Dummy_53,
+			
+			HP_Empire_Station_One_05,
+			HP_Empire_Station_One_06,
+			HP_Empire_Station_One_07,
+			HP_Empire_Station_Two_06,
+			HP_Empire_Station_Two_07,
+			HP_Empire_Station_Two_08,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Three_03,
+			HP_Empire_Station_Three_04,
+			HP_Empire_Station_Three_05,
+			HP_Empire_Station_Four_01,
+			HP_Empire_Station_Four_03,
+			HP_Empire_Station_Four_04,
+			HP_Empire_Station_Four_05,
+			HP_Empire_Station_Five_00,
+			HP_Empire_Station_Five_01,
+			HP_Empire_Station_Five_02,
+			HP_Empire_Station_Five_03,
+			HP_Empire_Station_Five_04,
+			HP_Empire_Station_Five_05,
+			HP_Empire_Station_Five_06,
+			HP_Empire_Station_Five_07,
+			HP_Empire_Station_Five_08,
+			HP_Empire_Station_Five_09,
+			HP_Empire_Station_Five_10,
+			HP_Empire_Station_Five_11,
+			HP_Empire_Station_Five_12,
+			HP_Empire_Station_Five_13,
+			HP_Empire_Station_Five_14,
+			HP_Empire_Station_Five_15
 		</HardPoints>
 		
 
@@ -3047,7 +3251,7 @@
 			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
-				<Base_Income_Value>100</Base_Income_Value>
+				<Base_Income_Value>500</Base_Income_Value>
 				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
 				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
 				<Split_Favors_Owner>No</Split_Favors_Owner>
@@ -3085,10 +3289,14 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X_Wing_New_Squadron,
-				A_Wing_New_Squadron,
-				Y_Wing_New_Squadron,
+				Y-Wing_Squadron,
+				Rebel_X-Wing_Squadron,
+
+				Corellian_Corvette,
+				Marauder_Corvette,
+				Corellian_Gunboat,
 				
+				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3099,14 +3307,19 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X_Wing_New_Squadron,
-				A_Wing_New_Squadron,
-				Y_Wing_New_Squadron,
+				Y-Wing_Squadron,
+				Rebel_X-Wing_Squadron,
+				X-Wing_Squadron2,
+				A_Wing_Squadron2,
+				B-Wing_Squadron,
 
-				CR90_New,
-				DP20_New,
+				Corellian_Corvette,
+				Marauder_Corvette,
+				Corellian_Gunboat,
 
-				Nebulon_B_Frigate_New,
+				CC-7700E_Frigate,
+				MC_40a,
+				Liberator_Carrier,
 				
 				RS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3118,18 +3331,21 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X_Wing_New_Squadron,
-				A_Wing_New_Squadron,
-				Y_Wing_New_Squadron,
+				Y-Wing_Squadron,
+				Rebel_X-Wing_Squadron,
+				X-Wing_Squadron2,
+				A_Wing_Squadron2,
+				B-Wing_Squadron,
 
-				CR90_New,
-				DP20_New,
+				Corellian_Corvette,
+				Marauder_Corvette,
+				Corellian_Gunboat,
 
-				Nebulon_B_Frigate_New,
-
-				Neutron_Star_New,
-				
-				Assault_Frigate_New,
+				CC-7700E_Frigate,
+				MC_40a,
+				Liberator_Carrier,
+				MC30_Frigate,
+				Alliance_Assault_Frigate2,
 				
 				RS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3141,20 +3357,29 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X_Wing_New_Squadron,
-				A_Wing_New_Squadron,
-				Y_Wing_New_Squadron,
+				Y-Wing_Squadron,
+				Rebel_X-Wing_Squadron,
+				X-Wing_Squadron2,
+				A_Wing_Squadron2,
+				B-Wing_Squadron,
 
-				CR90_New,
-				DP20_New,
+				Corellian_Corvette,
+				Marauder_Corvette,
+				Corellian_Gunboat,
 
-				Nebulon_B_Frigate_New,
+				CC-7700E_Frigate,
+				MC_40a,
+				Liberator_Carrier,
+				MC30_Frigate,
+				Alliance_Assault_Frigate2,
 
-				Neutron_Star_New,
+				Calamari_Cruiser,
+				MC80A,
+				Calamari_Cruiser_HO_Type,
+				MC_80b,
+				Dauntless_Cruiser,
 				
-				Assault_Frigate_New,
-
-				MC80_New
+				RS_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3E3</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Rebel_Star_Base_5E3</Next_Level_Base>
@@ -3164,20 +3389,27 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X_Wing_New_Squadron,
-				A_Wing_New_Squadron,
-				Y_Wing_New_Squadron,
+				Y-Wing_Squadron,
+				Rebel_X-Wing_Squadron,
+				X-Wing_Squadron2,
+				A_Wing_Squadron2,
+				B-Wing_Squadron,
 
-				CR90_New,
-				DP20_New,
+				Corellian_Corvette,
+				Marauder_Corvette,
+				Corellian_Gunboat,
 
-				Nebulon_B_Frigate_New,
+				CC-7700E_Frigate,
+				MC_40a,
+				Liberator_Carrier,
+				MC30_Frigate,
+				Alliance_Assault_Frigate2,
 
-				Neutron_Star_New,
-				
-				Assault_Frigate_New,
-
-				MC80_New
+				Calamari_Cruiser,
+				MC80A,
+				Calamari_Cruiser_HO_Type,
+				MC_80b,
+				Dauntless_Cruiser
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4E3</Prev_Level_Base>
 		<Next_Level_Base />
@@ -3189,10 +3421,15 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_ln_New_Squadron,
-				TIE_in_New_Squadron,
-				TIE_sa_New_Squadron,
+				TIE_Avenger_Squadron,
+				Assault_Gunboat_Squadron,
+
+				Empire_Corellian_Gunboat,
+				Lancer_Frigate,
+				Tartan_Patrol_Cruiser,
+				Heavy_Carrack,
 				
+				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3203,11 +3440,17 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_ln_New_Squadron,
-				TIE_in_New_Squadron,
-				TIE_sa_New_Squadron,
+				TIE_Avenger_Squadron,
+				Assault_Gunboat_Squadron,
 
-				Nebulon_B_Frigate_New,
+				Empire_Corellian_Gunboat,
+				Lancer_Frigate,
+				Tartan_Patrol_Cruiser,
+				Heavy_Carrack,
+
+				Nebulon_B2_Frigate_Imp,
+				Strike_Cruiser,
+				Escort_Carrier,
 				
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3219,16 +3462,22 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_ln_New_Squadron,
-				TIE_in_New_Squadron,
-				TIE_sa_New_Squadron,
+				TIE_Avenger_Squadron,
+				Assault_Gunboat_Squadron,
 
-				Nebulon_B_Frigate_New,
+				Empire_Corellian_Gunboat,
+				Lancer_Frigate,
+				Tartan_Patrol_Cruiser,
+				Heavy_Carrack,
 
-				Carrack_Cruiser_New,
-				Strike_Cruiser_New,
-				
-				Dreadnought_New,
+				Dreadnought_Imp,
+				Interdictor_Cruiser,
+				Nebulon_B2_Frigate_Imp,
+				Strike_Cruiser,
+				Vindicator_Cruiser,
+				Escort_Carrier,
+				Victory_Destroyer,
+				Victory_2_Destroyer,
 				
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3240,18 +3489,31 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_ln_New_Squadron,
-				TIE_in_New_Squadron,
-				TIE_sa_New_Squadron,
+				TIE_Avenger_Squadron,
+				Assault_Gunboat_Squadron,
 
-				Nebulon_B_Frigate_New,
+				Empire_Corellian_Gunboat,
+				Lancer_Frigate,
+				Tartan_Patrol_Cruiser,
+				Heavy_Carrack,
 
-				Carrack_Cruiser_New,
-				Strike_Cruiser_New,
+				Dreadnought_Imp,
+				Interdictor_Cruiser,
+				Nebulon_B2_Frigate_Imp,
+				Strike_Cruiser,
+				Vindicator_Cruiser,
+				Escort_Carrier,
+				Victory_Destroyer,
+				Victory_2_Destroyer,
+
+				Star_Destroyer_2,
+				Dominator,
+				Tector,
+
+				Allegiance,
+				Praetor_II,
 				
-				Dreadnought_New,
-
-				Imperial_Star_Destroyer_I_New
+				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_3E3</Prev_Level_Base>
 		<Next_Level_Base>Skirmish_Empire_Star_Base_5E3</Next_Level_Base>
@@ -3261,18 +3523,29 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_ln_New_Squadron,
-				TIE_in_New_Squadron,
-				TIE_sa_New_Squadron,
+				TIE_Avenger_Squadron,
+				Assault_Gunboat_Squadron,
 
-				Nebulon_B_Frigate_New,
+				Empire_Corellian_Gunboat,
+				Lancer_Frigate,
+				Tartan_Patrol_Cruiser,
+				Heavy_Carrack,
 
-				Carrack_Cruiser_New,
-				Strike_Cruiser_New,
-				
-				Dreadnought_New,
+				Dreadnought_Imp,
+				Interdictor_Cruiser,
+				Nebulon_B2_Frigate_Imp,
+				Strike_Cruiser,
+				Vindicator_Cruiser,
+				Escort_Carrier,
+				Victory_Destroyer,
+				Victory_2_Destroyer,
 
-				Imperial_Star_Destroyer_I_New
+				Star_Destroyer_2,
+				Dominator,
+				Tector,
+
+				Allegiance,
+				Praetor_II
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_4E3</Prev_Level_Base>
 		<Next_Level_Base />

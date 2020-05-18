@@ -10,14 +10,14 @@
 	<!-- New Priorities -->
 	<Priority_Set Name="SM_Elite_Fighter">
 		<Attack_Priorities>
-			SLS_Fighter 1.0,
-			Bomber, 2.0,
-			Fighter, 3.0,
-			SpaceHero, 4.0,
-			Capital, 5.0,
-			Frigate, 6.0,
-			Corvette, 7.0,
-			Transport, 8.0,
+			SLS_Fighter 8.0,
+			SpaceHero, 7.0,
+			Bomber, 6.0,
+			Fighter, 5.0,
+			Capital, 4.0,
+			Frigate, 3.0,
+			Corvette, 2.0,
+			Transport, 1.0,
 		</Attack_Priorities>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
@@ -43,14 +43,15 @@
 
 	<Priority_Set Name="Fighter">
 		<Attack_Priorities>
-			Bomber, 1.0,
-			Fighter, 2.0,
-			SLS_Fighter 3.0,
-			Transport, 4.0
+			SLS_Fighter 8.0,
+			Bomber, 7.0,
+			Fighter, 6.0,
+			Capital, 5.0,
+			Frigate, 4.0,
+			Transport, 3.0,
+			SpaceHero, 2.0,
+			Corvette, 1.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Corvette, Capital, Frigate, SpaceHero
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -62,14 +63,15 @@
 
 	<Priority_Set Name="Bomber">
 		<Attack_Priorities>
-			Capital, 1.0,
+			Capital, 7.0,
+			Frigate, 6.0,
+			Bomber, 5.0,
+			Fighter, 4.0,
+			Transport, 3.0,
 			SpaceHero, 2.0,
-			Frigate, 5.0,
-			Transport, 10.0,
+			Corvette, 1.0,
+			SLS_Fighter 0.5,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Corvette, Bomber, Fighter, SLS_Fighter
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -80,16 +82,15 @@
 	</Priority_Set>
 	<Priority_Set Name="Assault_Fighter">
 		<Attack_Priorities>
-			Bomber, 1.0,
-			Fighter, 2.0,
-			Capital, 3.0,
-			SpaceHero, 4.0,
 			SLS_Fighter 8.0,
-			Transport, 10.0
+			Bomber, 7.0,
+			Capital, 6.0,
+			Frigate, 5.0,
+			Fighter, 4.0,
+			Transport, 3.0,
+			SpaceHero, 2.0,
+			Corvette, 1.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Corvette, Frigate
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -101,15 +102,15 @@
 
 	<Priority_Set Name="Corvette">
 		<Attack_Priorities>
-			Bomber, 1.0,
-			Fighter, 2.0,
-			SLS_Fighter 3.0,
-			Transport, 4.0,
-			Corvette, 5.0
+			SLS_Fighter 8.0,
+			Bomber, 7.0,
+			Fighter, 6.0,
+			Corvette, 5.0,
+			Capital, 4.0,
+			Frigate, 3.0,
+			Transport, 2.0,
+			SpaceHero, 1.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Capital, Frigate, SpaceHero
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -121,16 +122,15 @@
 
 	<Priority_Set Name="Frigate">
 		<Attack_Priorities>
-			Bomber, 1.0,
-			Corvette, 2.0,
-			Fighter, 3.0,
-			SLS_Fighter 4.0,
-			Transport, 5.0,
-			Frigate, 6.0
+			SLS_Fighter 8.0,
+			Frigate, 7.0,
+			Corvette, 6.0,
+			Bomber, 5.0,
+			Fighter, 4.0,
+			Capital, 3.0,
+			Transport, 2.0,
+			SpaceHero, 1.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Capital, SpaceHero
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -143,14 +143,15 @@
 
 	<Priority_Set Name="Cruiser">
 		<Attack_Priorities>
-			Frigate, 1.0,
-			Corvette, 2.0,
-			Capital, 3.0,
-			SpaceHero, 4.0
+			Capital, 7.0,
+			Frigate, 6.0,
+			Corvette, 5.0,
+			Bomber, 4.0,
+			Fighter, 3.0,
+			Transport, 2.0,
+			SpaceHero, 1.0,
+			SLS_Fighter 0.5,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Bomber, Fighter, Transport, SLS_Fighter
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
@@ -162,14 +163,15 @@
 
 	<Priority_Set Name="Capital">
 		<Attack_Priorities>
-			Capital, 1.0,
-			SpaceHero, 2.0,
-			Frigate, 3.0,
-			Corvette, 4.0
+			Capital, 7.0,
+			Frigate, 6.0,
+			Corvette, 5.0,
+			SpaceHero, 4.0,
+			Bomber, 3.0,
+			Fighter, 2.0,
+			Transport, 1.0,
+			SLS_Fighter 0.5,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Bomber, Fighter, Transport, SLS_Fighter
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,

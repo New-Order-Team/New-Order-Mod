@@ -53,7 +53,6 @@
 	<File>Projectiles_SM.xml</File>
 	<File>Projectiles_Land.xml</File>
 	<File>Projectiles_Infantry.xml</File>
-	<File>Projectiles_Space_New.xml</File>
 
 	<File>SpecialEffects.xml</File>
 	<File>Particles.xml</File>
@@ -446,8 +445,5 @@
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
 	
 	<File>Units_land_cis_aat.xml</File>
-	
-	<File>Units_space_empire_test_new.xml</File>
-	<File>Units_space_rebel_test_new.xml</File>
 	
 </Game_Object_Files>
