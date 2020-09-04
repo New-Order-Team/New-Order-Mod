@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<Props_Byss>
+	<Props_Byss Name="Prop_byss_bar_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_bar_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_bar_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_bar_01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_bar_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_bar_02.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_block_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_block_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_cylinder_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_cylinder_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_detail_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_detail_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_detail_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_detail_01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_house_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_house_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_02.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_03.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_04.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_05.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_06.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_07">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_07.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_plate_08">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_plate_08.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_01">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_01.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_02">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_02.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_03">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_03.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_04">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_04.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_05">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_05.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_06">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_06.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_07">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_07.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_08">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_08.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_09">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_09.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_spire_10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_spire_10.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+	
+	<Props_Byss Name="Prop_byss_tube_00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Behavior>IDLE</Behavior>
+		<Land_Model_Name>w_byss_tube_00.alo</Land_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		<LandBehavior>LAND_OBSTACLE</LandBehavior>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Byss>
+</Props_Byss>
