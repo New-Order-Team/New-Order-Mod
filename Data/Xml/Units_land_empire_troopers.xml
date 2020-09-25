@@ -895,7 +895,7 @@
 	<Container Name="Stormtrooper_Platoon_Team">
 		<Variant_Of_Existing_Type>Line_Infantry_Platoon_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_ARMY_SPECIAL_OPERATIONS_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SPECIAL_OPERATIONS_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPECIAL_OPERATIONS</Encyclopedia_Unit_Class>
 		
 		<Max_Speed> 1.0 </Max_Speed>

@@ -6,7 +6,7 @@
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_PX_10</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_PX_10</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_PX_10_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>px-10_compact_assault_vehicle.alo</Land_Model_Name>
@@ -139,7 +139,7 @@
 
 	<GroundCompany Name="PX_10_Platoon">
 		<Text_ID>TEXT_UNIT_PX_10_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_PX_10_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_PX_10_DESC TEXT_UNIT_PX_10_PLATOON_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_PX_10.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>

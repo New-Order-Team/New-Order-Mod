@@ -11,8 +11,8 @@
 		<Icon_Name>i_button_sil_sorannan.tga</Icon_Name>
 		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
 		
-		<Shield_Points>144000</Shield_Points>
-		<Shield_Refresh_Rate>14400</Shield_Refresh_Rate>
+		<Space_Model_Name>ev_intimidator.ALO</Space_Model_Name>
+		
 		<AI_Combat_Power>252362</AI_Combat_Power>
 		<Override_Bounty_SP>252362</Override_Bounty_SP>
 		<Override_Bounty_MP>252362</Override_Bounty_MP>
@@ -27,5 +27,21 @@
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script> 
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<!-- A quick replenishment of depleted shields -->
+				<Expiration_Seconds>1</Expiration_Seconds>
+				<Recharge_Seconds>999</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	100.0f</Mod_Multiplier>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
 	</UniqueUnit>
 </Zsinj_Data>

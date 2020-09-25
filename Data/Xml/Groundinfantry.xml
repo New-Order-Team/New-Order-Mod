@@ -55,7 +55,7 @@
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>3.5</Ranged_Target_Z_Adjust>
+		<!--<Ranged_Target_Z_Adjust>2.0</Ranged_Target_Z_Adjust>-->
 
 		<CategoryMask> Infantry </CategoryMask>
 		<Ranking_In_Category> 21 </Ranking_In_Category>

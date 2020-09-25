@@ -64,7 +64,7 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
-				HP_S1_Firehawke_Main,
+				<!--HP_S1_Firehawke_Main,-->
 				HP_S1_Firehawke_Blaster
 		</Hardpoints>
 
