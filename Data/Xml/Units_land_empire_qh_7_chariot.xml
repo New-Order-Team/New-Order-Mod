@@ -6,8 +6,11 @@
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_QH_7_CHARIOT</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LANDSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_QH_7_CHARIOT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 
 		<Land_Model_Name>qh-7_chariot_light_assault_vehicle.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
@@ -51,7 +54,7 @@
 		<Size_Value>60</Size_Value>
 		<Damage>15</Damage>
 		<Sensor_Range>80</Sensor_Range>
-		<Tactical_Health>480</Tactical_Health>
+		<Tactical_Health>670</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -73,15 +76,11 @@
 			WIND_DISTURBANCE,
 			SURFACE_FX,
 			DAMAGE_TRACKING,
-			GARRISON_VEHICLE
+			GARRISON_UNIT
 		</LandBehavior>
-		
-		<Garrison_Category> Infantry </Garrison_Category>
-        <Num_Garrison_Slots>1</Num_Garrison_Slots>
-        <Garrison_Bone_Names>Root</Garrison_Bone_Names>
-		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
-		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-        <Garrison_Radius>30</Garrison_Radius>
+
+		<Garrison_Category> Vehicle </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
 
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 		
@@ -98,7 +97,6 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
 		<CategoryMask> Vehicle </CategoryMask>
-		<Property_Flags> CanContainGarrison </Property_Flags>
 		<Icon_Name> i_button_chariot.tga </Icon_Name>
 		<MovementClass>HoverNoShield</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -155,14 +153,50 @@
 		<Score_Cost_Credits>431</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Lua_Script>FieldCommander</Lua_Script>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Chariot_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>60.0</Recharge_Seconds> 
+				<Expiration_Seconds>30.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Chariot_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+			<Combat_Bonus_Ability Name="General_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
 		</Abilities>
 		
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
@@ -170,9 +204,9 @@
 	
 	
 	<GroundCompany Name="Chariot_Command_Platoon">
-		<Text_ID>TEXT_UNIT_QH_7_CHARIOT_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_QH_7_CHARIOT_PLATOON</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LANDSPEEDER</Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_QH_7_CHARIOT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_qh_7_chariot.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -195,7 +229,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>QH_7_Chariot, QH_7_Chariot, QH_7_Chariot</Company_Units>
+		<Company_Units>QH_7_Chariot</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
@@ -205,6 +239,12 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

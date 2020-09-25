@@ -53,7 +53,7 @@
 		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
 
 		<Garrison_Category> Vehicle </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
+		<Garrison_Value>1</Garrison_Value>
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
 
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>

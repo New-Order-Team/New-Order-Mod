@@ -186,7 +186,7 @@
 		<Space_FOW_Reveal_Range>300.0</Space_FOW_Reveal_Range>
 		<MovementClass>Infantry</MovementClass>
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
+		<Garrison_Value>1</Garrison_Value>
 		<CategoryMask>Infantry</CategoryMask>
 
 		<Max_Speed> 0.8 </Max_Speed>
