@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua#7 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/DestroyStructure.lua#5 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,7 +25,7 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/DestroyStructure.lua $
 --
 --    Original Author: James Yarrow
 --
@@ -35,51 +35,63 @@
 --
 --          $DateTime: 2006/10/24 14:15:48 $
 --
---          $Revision: #7 $
+--          $Revision: #5 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
 
+ScriptPoolCount = 16
 
 function Definitions()
 	
-	Category = "Tactical_Multiplayer_Build_Land_Units_Generic"
-	IgnoreTarget = true
+	Category = "Destroy_Structure"
 	TaskForce = {
 	{
-		"ReserveForce"
-		,"RC_Level_Two_Tech_Upgrade | RC_Level_Three_Tech_Upgrade = 0,1"
-		,"EC_Level_Two_Tech_Upgrade | EC_Level_Three_Tech_Upgrade = 0,1"
-		,"Infantry | Vehicle | Air | LandHero | Upgrade = 0,3"
-		}
+		"MainForce"						
+		,"DenyHeroAttach"
+		,"Vehicle | Air = 1,10"
+		,"-Gallofree_HTT_Company"
+		,"-HAV_Juggernaut_Company"
+		,"-F9TZ_Cloaking_Transport_Company"	
+		,"-AT_AA_Walker"	
+	},
+	{
+		"GuardForce"
+		,"EscortForce"
+		,"Infantry | Vehicle | Air | LandHero = 0,2"
 	}
-	RequiredCategories = {"Infantry | Vehicle | Air | LandHero | Upgrade"}
-	AllowFreeStoreUnits = false
-
+	}
+	
+	start_loc = nil
+	
 end
 
-function ReserveForce_Thread()
-			
-	ReserveForce.Set_Plan_Result(true)
-	ReserveForce.Set_As_Goal_System_Removable(false)
-	BlockOnCommand(ReserveForce.Produce_Force())
-
-	-- Give some time to accumulate money.
-	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 1000
-	if tech_level == 1 then
-		min_credits = 2000
-	elseif tech_level >= 2 then
-		min_credits = 4000
-	end
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	max_sleep_seconds = 60
-	current_sleep_seconds = 0
-	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-		current_sleep_seconds = current_sleep_seconds + 1
-		Sleep(1)
-	end
-		
+	QuickReinforce(PlayerObject, AITarget, MainForce, GuardForce)
+	
+	Set_Land_AI_Targeting_Priorities(MainForce)
+	
+	-- Assign appropriate targeting priorities here, once we get the ability to do this per unit type
+	BlockOnCommand(MainForce.Attack_Move(AITarget, MainForce.Get_Self_Threat_Max()))	
+
 	ScriptExit()
+end
+
+function GuardForce_Thread()
+	BlockOnCommand(GuardForce.Produce_Force())
+
+	QuickReinforce(PlayerObject, AITarget, GuardForce, MainForce)
+	
+	-- Give an initial order to put the escorts in a state that the Escort function expects
+	GuardForce.Guard_Target(MainForce)
+
+	-- Make sure these guys will shoot at structures autonomously
+	GuardForce.Set_Targeting_Priorities("Infantry_Attack_Move")
+
+	while true do
+		Escort(GuardForce, MainForce)
+	end
 end

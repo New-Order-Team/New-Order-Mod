@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua#7 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/SecureVictoryControlPoint.lua#2 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,61 +25,86 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/SecureVictoryControlPoint.lua $
 --
 --    Original Author: James Yarrow
 --
 --            $Author: James_Yarrow $
 --
---            $Change: 56734 $
+--            $Change: 44927 $
 --
---          $DateTime: 2006/10/24 14:15:48 $
+--          $DateTime: 2006/05/23 17:53:49 $
 --
---          $Revision: #7 $
+--          $Revision: #2 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
 
-
 function Definitions()
-	
-	Category = "Tactical_Multiplayer_Build_Land_Units_Generic"
-	IgnoreTarget = true
-	TaskForce = {
+
+	Category = "Secure_Victory_Control_Point"
+	IgnoreTarget = false
+	MaxContrastScale = 1.5
+	TaskForce = 
 	{
-		"ReserveForce"
-		,"RC_Level_Two_Tech_Upgrade | RC_Level_Three_Tech_Upgrade = 0,1"
-		,"EC_Level_Two_Tech_Upgrade | EC_Level_Three_Tech_Upgrade = 0,1"
-		,"Infantry | Vehicle | Air | LandHero | Upgrade = 0,3"
+		{
+			"MainForce"
+			,"Infantry = 100%"
+		},
+		{
+			"EscortForce"		
+			,"Vehicle | LandHero = 100%"
+			,"EscortForce"
 		}
 	}
-	RequiredCategories = {"Infantry | Vehicle | Air | LandHero | Upgrade"}
-	AllowFreeStoreUnits = false
 
+	RequiredCategories = { "Infantry" }
 end
 
-function ReserveForce_Thread()
-			
-	ReserveForce.Set_Plan_Result(true)
-	ReserveForce.Set_As_Goal_System_Removable(false)
-	BlockOnCommand(ReserveForce.Produce_Force())
-
-	-- Give some time to accumulate money.
-	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 1000
-	if tech_level == 1 then
-		min_credits = 2000
-	elseif tech_level >= 2 then
-		min_credits = 4000
-	end
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force())
 	
-	max_sleep_seconds = 60
-	current_sleep_seconds = 0
-	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-		current_sleep_seconds = current_sleep_seconds + 1
-		Sleep(1)
-	end
-		
+	QuickReinforce(PlayerObject, AITarget, MainForce, EscortForce)
+	
+	-- move to contestables
+	BlockOnCommand(MainForce.Move_To(AITarget, MainForce.Get_Self_Threat_Max()))
+	
+	MainForce.Set_As_Goal_System_Removable(false)
+					
+	-- Stand guard so that we can retain usage of this structure
+	MainForce.Guard_Target(AITarget)
+	Sleep(30)
+
+	MainForce.Set_Plan_Result(true)
+
 	ScriptExit()
+end
+
+-- Override default handling, which will kill the plan
+function MainForce_Original_Target_Owner_Changed(tf, old_player, new_player)
+end
+
+
+function EscortForce_Thread()
+	BlockOnCommand(EscortForce.Produce_Force())
+	
+	QuickReinforce(PlayerObject, AITarget, EscortForce, MainForce)
+
+	-- Give an initial order to put the escorts in a state that the Escort function expects
+	Try_Ability(EscortForce, "FORCE_CLOAK")
+	EscortForce.Guard_Target(MainForce)
+
+	EscortAlive = true
+	while EscortAlive do
+		Escort(EscortForce, MainForce)
+	end
+end
+
+function EscortForce_No_Units_Remaining()
+	EscortAlive = false
+end
+
+-- Override default handling, which will kill the plan
+function EscortForce_Original_Target_Owner_Changed(tf, old_player, new_player)
 end

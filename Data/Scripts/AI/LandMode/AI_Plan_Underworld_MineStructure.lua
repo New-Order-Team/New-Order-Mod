@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua#7 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/AI_Plan_Underworld_MineStructure.lua#4 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,61 +25,67 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/TacticalMultiplayerBuildLandUnitsGeneric.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/LandMode/AI_Plan_Underworld_MineStructure.lua $
 --
 --    Original Author: James Yarrow
 --
 --            $Author: James_Yarrow $
 --
---            $Change: 56734 $
+--            $Change: 53121 $
 --
---          $DateTime: 2006/10/24 14:15:48 $
+--          $DateTime: 2006/08/30 16:32:34 $
 --
---          $Revision: #7 $
+--          $Revision: #4 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 require("pgevents")
 
+ScriptPoolCount = 0
 
 function Definitions()
 	
-	Category = "Tactical_Multiplayer_Build_Land_Units_Generic"
+	Category = "Mine_Structure"
+	AllowEngagedUnits = true
 	IgnoreTarget = true
 	TaskForce = {
 	{
-		"ReserveForce"
-		,"RC_Level_Two_Tech_Upgrade | RC_Level_Three_Tech_Upgrade = 0,1"
-		,"EC_Level_Two_Tech_Upgrade | EC_Level_Three_Tech_Upgrade = 0,1"
-		,"Infantry | Vehicle | Air | LandHero | Upgrade = 0,3"
-		}
+		"MainForce"
+		,"DenyHeroAttach"		
+		,"TaskForceRequired"
 	}
-	RequiredCategories = {"Infantry | Vehicle | Air | LandHero | Upgrade"}
-	AllowFreeStoreUnits = false
-
+	}
 end
 
-function ReserveForce_Thread()
-			
-	ReserveForce.Set_Plan_Result(true)
-	ReserveForce.Set_As_Goal_System_Removable(false)
-	BlockOnCommand(ReserveForce.Produce_Force())
-
-	-- Give some time to accumulate money.
-	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 1000
-	if tech_level == 1 then
-		min_credits = 2000
-	elseif tech_level >= 2 then
-		min_credits = 4000
+function MainForce_Thread()
+	MainForce.Set_Plan_Result(false)
+	
+	BlockOnCommand(MainForce.Produce_Force())
+	QuickReinforce(PlayerObject, AITarget, MainForce)
+	
+	unit_table = MainForce.Get_Unit_Table()
+	for i,unit in pairs(unit_table) do
+		if not unit.Is_Ability_Ready("PROXIMITY_MINES") then
+			MainForce.Release_Unit(unit)
+		end
 	end
 	
-	max_sleep_seconds = 60
-	current_sleep_seconds = 0
-	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-		current_sleep_seconds = current_sleep_seconds + 1
-		Sleep(1)
+	BlockOnCommand(MainForce.Attack_Move(AITarget))
+	
+	enemy = FindDeadlyEnemy(AITarget)
+	if not TestValid(enemy) then
+		enemy = Find_Nearest(AITarget, PlayerObject, false)
 	end
-		
+	
+	if not TestValid(enemy) then
+		ScriptExit()
+	end
+	
+	MainForce.Move_To(enemy)
+	Sleep(5)
+	MainForce.Activate_Ability("PROXIMITY_MINES", MainForce)
+	
+	--We treat all instances as failures so as not to repeatedly attempt to mine the same location
 	ScriptExit()
 end
