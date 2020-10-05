@@ -1129,8 +1129,8 @@
 	<!--  ##### #     # #   ## ####   -->
 
 	<!-- ############################ -->
-	<Damage_To_Armor_Mod> Damage_I, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_I, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_I, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_I, Armor_A1, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_I, Armor_A2, 0.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_I, Armor_A3, 0.0 </Damage_To_Armor_Mod>
@@ -1300,8 +1300,8 @@
 	<Damage_To_Armor_Mod> Damage_B0, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B0, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B1, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B1, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B1, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A2, 0.1 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_A3, 0.1 </Damage_To_Armor_Mod>
@@ -1319,8 +1319,8 @@
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B1, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B2T, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2T, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2T, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2T, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2T, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2T, Armor_A3, 0.2 </Damage_To_Armor_Mod>
@@ -1338,8 +1338,8 @@
 	<Damage_To_Armor_Mod> Damage_B2T, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2T, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B2, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B2, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B2, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_A3, 0.2 </Damage_To_Armor_Mod>
@@ -1357,8 +1357,8 @@
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B2, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B3, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B3, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B3, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1376,8 +1376,8 @@
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B3, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B4T, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4T, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4T, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4T, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4T, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4T, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1395,8 +1395,8 @@
 	<Damage_To_Armor_Mod> Damage_B4T, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4T, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B4, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B4, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B4, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1414,8 +1414,8 @@
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B4, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B5, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B5, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B5, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1433,8 +1433,8 @@
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B5, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B6, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B6, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B6, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -1452,8 +1452,8 @@
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Wall, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B6, Armor_Turret, 1.0 </Damage_To_Armor_Mod>
 
-	<Damage_To_Armor_Mod> Damage_B7, Armor_I1, 0.5 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_B7, Armor_I2, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B7, Armor_I1, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_B7, Armor_I2, 1.0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A1, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A2, 0.5 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_B7, Armor_A3, 0.5 </Damage_To_Armor_Mod>
@@ -2500,8 +2500,8 @@
 	<Use_Reinforcement_Points>True</Use_Reinforcement_Points>
 	
 	<!-- Multiplayer Data Begin -->
-	<Min_Skirmish_Credits>5000</Min_Skirmish_Credits>
-	<Max_Skirmish_Credits>20000</Max_Skirmish_Credits>
+	<Min_Skirmish_Credits>2000</Min_Skirmish_Credits>
+	<Max_Skirmish_Credits>5000</Max_Skirmish_Credits>
 	
 	<!-- Gameplay option defaults -->
 		
