@@ -47,7 +47,8 @@ function Definitions()
 	
 	Category = "Defend_Structure"
 	AllowEngagedUnits = true
-	MaxContrastScale = 1.0
+	MinContrastScale = 1.2
+	MaxContrastScale = 1.8
 	TaskForce = {
 	{
 		"MainForce"					
