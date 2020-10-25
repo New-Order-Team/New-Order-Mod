@@ -201,7 +201,7 @@
                 <Damage_Absorb_Amount>.8</Damage_Absorb_Amount>
                 <!-- We can absorb shots from the following units types (but no missiles or grenades): -->
                 <Applicable_Unit_Categories />
-                <Applicable_Unit_Types>Imperial_Army_Trooper, Imperial_Army_Trooper_Light_Repeater, Imperial_Army_Trooper_Heavy_Repeater, Imperial_Army_Engineer, Imperial_Army_Sergeant, Imperial_Army_Sergeant_Major, Imperial_Army_Lieutenant, Scout_Trooper_No_Bike, Stormtrooper, Stormtrooper_Guard, Squad_Stormtrooper, Squad_Stormtrooper_Sergeant, Squad_Stormtrooper_Lieutenant, Squad_Generic_Field_Commander_Empire, ISB_Colonel, ISB_Stormtrooper, ISB_Stormtrooper_S, Dark_Trooper_PhaseII, Dark_Trooper_Phase0</Applicable_Unit_Types>
+                <Applicable_Unit_Types>Imperial_Army_Trooper, Imperial_Army_Trooper_Light_Repeater, Imperial_Army_Trooper_Heavy_Repeater, Imperial_Army_Engineer, Imperial_Army_Sergeant, Imperial_Army_Sergeant_Major, Imperial_Army_Lieutenant, Scout_Trooper_No_Bike, Stormtrooper, Squad_Stormtrooper, Squad_Generic_Field_Commander_Empire, Dark_Trooper_PhaseII, Dark_Trooper_Phase0</Applicable_Unit_Types>
                 <SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
                 <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
                 <Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>

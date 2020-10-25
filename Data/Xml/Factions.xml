@@ -829,21 +829,14 @@
 			Mon_Mothma_Team,
 			Bail_Organa_Team,
 			Garm_Bel_Iblis_Team,
-			Jan_Dodonna_Team,
 			Carlist_Rieekan_Team,
 			Walex_Blissex_Team,
 			Gold_Squadron_Vander,
 			Green_Squadron_Farrell,
 			Leia_Organa_Team,
-			Jan_Dodonna2_Team.
-			Garm_Bel_Iblis_Team2,
-			Carlist_Rieekan2_Team,
-			Walex_Blissex2_Team,
 			Pharl_McQuarrie_Team,
 			Ral_Rai_Muvunc_Team,
 			Airen_Cracken_Team,
-			Green_Squadron2_Farrell,
-			Red_Squadron_Antilles
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_REBEL.TGA</Multiplayer_Map_Preview_Icon>
@@ -1674,11 +1667,10 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 		
 		<Multiplayer_Campaign_Heroes>
-			Grand_Moff_Tarkin_Team,
 			Emperor_Palpatine_Team,
 			Boba_Fett_Team,
 			General_Veers_Team,
-			Accuser_Star_Destroyer
+			Accuser_SD
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_EMPIRE.TGA</Multiplayer_Map_Preview_Icon>

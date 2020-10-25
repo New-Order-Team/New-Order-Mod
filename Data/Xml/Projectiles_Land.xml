@@ -956,14 +956,14 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>w_laser_land_r.alo</Land_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
-		<Damage_Type> Damage_L5 </Damage_Type>
+		<Damage_Type> Damage_L4 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>600.0</Projectile_Max_Flight_Distance>
 
-		<Projectile_Damage>120.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>

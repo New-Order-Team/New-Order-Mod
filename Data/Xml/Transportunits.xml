@@ -176,7 +176,7 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -319,7 +319,7 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -461,7 +461,7 @@
 
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
@@ -651,7 +651,7 @@
 
 		<Ranged_Target_Z_Adjust>-5.0</Ranged_Target_Z_Adjust>
 
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>0</Min_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
@@ -795,7 +795,7 @@
 	
 	<TransportUnit Name="RM09_Alliance_Shuttle">
 		<Variant_Of_Existing_Type>Alliance_Shuttle</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_Transport </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Tactical_Health>20000</Tactical_Health>
 		<Shield_Points>1750</Shield_Points>
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
