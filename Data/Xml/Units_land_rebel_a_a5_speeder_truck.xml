@@ -31,7 +31,7 @@
 		<AI_Combat_Power>474</AI_Combat_Power>
 
 		<Type>Hover</Type>
-		<CategoryMask>Landspeeder</CategoryMask>
+		<CategoryMask>Vehicle</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Property_Flags>CanContainGarrison</Property_Flags>
 		<Weather_Category>Hover</Weather_Category>

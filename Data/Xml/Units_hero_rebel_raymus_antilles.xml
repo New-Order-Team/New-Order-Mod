@@ -82,10 +82,10 @@
 				<See_Base_Levels>Yes</See_Base_Levels>
 				<See_Credit_Income>Yes</See_Credit_Income>
 				<See_Credit_Income_Breakdown>Yes</See_Credit_Income_Breakdown>
-				<See_Num_Fleets>No</See_Num_Fleets>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
 				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
 				<See_Fleet_Contents>Yes</See_Fleet_Contents>
-				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
 				<See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
 				<See_Special_Structures>Yes</See_Special_Structures>
 				<See_Political_Control>Yes</See_Political_Control>

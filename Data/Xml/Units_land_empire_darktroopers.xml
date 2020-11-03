@@ -329,7 +329,7 @@
 		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
 
-		<Projectile_Types>Proj_Land_Light_Blaster_Cannon_E</Projectile_Types>
+		<Projectile_Types>Proj_Land_Blaster_PX_10</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
@@ -562,7 +562,7 @@
 		<Fire_Weapon_When_Deployed>No</Fire_Weapon_When_Deployed>
 		<Fire_Weapon_When_Undeployed>Yes</Fire_Weapon_When_Undeployed>
 
-		<Projectile_Types>Proj_Land_Blaster_Cannon_E</Projectile_Types>
+		<Projectile_Types>Proj_Land_Blaster_AT_ST</Projectile_Types>
 		
 		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>100</Projectile_Fire_Pulse_Count>

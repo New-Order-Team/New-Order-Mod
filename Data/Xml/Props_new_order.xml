@@ -101,33 +101,6 @@
 		<Is_Decoration>Yes</Is_Decoration>
 	</Props_New_Order>
 	
-		<Props_New_Order Name="Prop_NO_TIE_IN_PANELS">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_tie_in_panels_8.alo</Land_Model_Name>
-		<LandBehavior>LAND_OBSTACLE</LandBehavior>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-	</Props_New_Order>
-	
-	<Props_New_Order Name="Prop_NO_TIE_LN_PANELS">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_tie_ln_panels_8.alo</Land_Model_Name>
-		<LandBehavior>LAND_OBSTACLE</LandBehavior>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-	</Props_New_Order>
-	
-		<Props_New_Order Name="Prop_NO_TIE_COCKPIT">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_tie_cockpit.alo</Land_Model_Name>
-		<LandBehavior>LAND_OBSTACLE</LandBehavior>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-	</Props_New_Order>
-	
 	<Props_New_Order Name="Hutt_banner_01">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>NOM_misc_hutt_banner_01.alo</Land_Model_Name>

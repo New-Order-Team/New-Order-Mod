@@ -1,4 +1,4 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua#5 $
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/RetreatPlan.lua#2 $
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
 -- (C) Petroglyph Games, Inc.
@@ -25,71 +25,60 @@
 -- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua $
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/RetreatPlan.lua $
 --
 --    Original Author: James Yarrow
 --
 --            $Author: James_Yarrow $
 --
---            $Change: 54441 $
+--            $Change: 44927 $
 --
---          $DateTime: 2006/09/13 15:08:39 $
+--          $DateTime: 2006/05/23 17:53:49 $
 --
---          $Revision: #5 $
+--          $Revision: #2 $
 --
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("pgevents")
 
-
 function Definitions()
-	
-	Category = "Tactical_Multiplayer_Build_Space_Units_Generic"
-	IgnoreTarget = true
-	TaskForce = {
-		{
-		"ReserveForce"
-		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade | RS_Level_Six_Starbase_Upgrade = 0,1"
-		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade | ES_Level_Six_Starbase_Upgrade = 0,1"
-		,"Fighter | Bomber = 0,1"
-		,"Corvette | Frigate = 1,4"
-		,"Capital | Super | SpaceHero = 0,2"
-		}
-	}
-	RequiredCategories = {"Corvette | Frigate | Capital"}
-	AllowFreeStoreUnits = false
+	DebugMessage("%s -- In Definitions", tostring(Script))
 
+	Category = "Space_Retreat | Land_Retreat"
+	TaskForce = {
+	{
+		"MainForce",
+		"TaskForceRequired"
+	}
+	}
+
+	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function ReserveForce_Thread()
-			
-	BlockOnCommand(ReserveForce.Produce_Force())
-	ReserveForce.Set_Plan_Result(true)
-	ReserveForce.Set_As_Goal_System_Removable(false)
-		
-	-- Give some time to accumulate money.
-	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 15000
-	max_sleep_seconds = 15
-	if tech_level == 2 then
-		min_credits = 20000
-		max_sleep_seconds = 20
-	elseif tech_level == 3 then
-		min_credits = 25000
-		max_sleep_seconds = 15
-	elseif tech_level == 4 then
-		min_credits = 35000
-		max_sleep_seconds = 15
-	elseif tech_level == 5 then
-		min_credits = 40000
-		max_sleep_seconds = 15
+function MainForce_Thread()
+
+	if not MainForce.Withdraw_Units() then
+		DebugMessage("%s -- unable to retreat", tostring(Script))
+		ScriptExit()
 	end
-	
-	current_sleep_seconds = 0
-	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
-		current_sleep_seconds = current_sleep_seconds + 1
+
+	Purge_Goals(PlayerObject)
+
+	Try_Ability(MainForce, "STEALTH")
+	Try_Ability(MainForce, "FORCE_CLOAK")
+
+	MainForce.Block_Goal_Proposal()
+	MainForce.Collect_All_Free_Units()
+	MainForce.Set_As_Goal_System_Removable(false)
+
+	while true do
+		if EvaluatePerception("Allowed_To_Retreat_From_Space", PlayerObject) == 0 then
+			MainForce.Unblock_Goal_Proposal()
+			ScriptExit()
+		end
 		Sleep(1)
 	end
 
 	ScriptExit()
+
 end

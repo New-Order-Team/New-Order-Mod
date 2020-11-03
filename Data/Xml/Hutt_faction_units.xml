@@ -374,7 +374,7 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Clone>Damage_Normal, Marauder_Missile_Cruiser_Death_Clone</Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<SFXEvent_Fire>Unit_Boron_Missile_Fire</SFXEvent_Fire>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

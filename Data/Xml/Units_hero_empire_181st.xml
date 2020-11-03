@@ -53,7 +53,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
-		<Targeting_Priority_Set>SM_Elite_Fighters</Targeting_Priority_Set>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>6000</Autoresolve_Health>
@@ -185,7 +185,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
-		<Targeting_Priority_Set>SM_Elite_Fighters</Targeting_Priority_Set>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>22320</Autoresolve_Health>
@@ -321,7 +321,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
-		<Targeting_Priority_Set>SM_Elite_Fighters</Targeting_Priority_Set>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>8800</Autoresolve_Health>

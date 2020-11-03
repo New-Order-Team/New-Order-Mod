@@ -144,7 +144,7 @@
 		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Huge_Damage_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Dud</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Missile_Explosion_Ground_Hit</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	</Projectile>

@@ -372,7 +372,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_LIEUTENANT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 	</GroundInfantry>
 	
-	<GroundCompany Name="SecForce_Platoon">
+	<GroundCompany Name="Rebel_SecForce_Trooper_Platoon">
 		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SECFORCE_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -381,7 +381,7 @@
 		<Build_Cost_Credits>1070</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Tech_Level>2</Tech_Level>
-		<Create_Team_Type> SecForce_Platoon_Team </Create_Team_Type>
+		<Create_Team_Type> Rebel_SecForce_Trooper_Platoon_Team </Create_Team_Type>
 		
 		<Company_Units>
 		SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Trooper_Disruptor, SecForce_Trooper, SecForce_Trooper, SecForce_Sergeant,
@@ -404,7 +404,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<Container Name="SecForce_Platoon_Team">
+	<Container Name="Rebel_SecForce_Trooper_Platoon_Team">
 		<Variant_Of_Existing_Type>Resistance_Fighters_Platoon_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SECFORCE_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -1227,7 +1227,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_3_Death</Death_SFXEvent_Start_Die>
 	</GenericHeroUnit>
 
-	<HeroCompany Name="Infiltrator_Team">
+	<HeroCompany Name="Rebel_Infiltrator_Team">
 		<Text_ID>TEXT_UNIT_SPECFORCE_INFILTRATOR_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SPECFORCE_INFILTRATOR_TEAM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MINOR</Encyclopedia_Unit_Class>

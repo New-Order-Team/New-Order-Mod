@@ -132,7 +132,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
-		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation0</Death_Projectiles>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles>
 		
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
@@ -170,8 +170,8 @@
         <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>40.0</Ranged_Target_Z_Adjust>
-		<Death_Explosions>Huge_Explosion_Land1</Death_Explosions>
-		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation1</Death_Projectiles>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles>
 		
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
@@ -209,8 +209,8 @@
                 <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>100.0</Ranged_Target_Z_Adjust>
-		<Death_Explosions>Huge_Explosion_Land1</Death_Explosions>
-		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation2</Death_Projectiles>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles>
 		
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
@@ -249,7 +249,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>100.0</Ranged_Target_Z_Adjust>
 		<Death_Explosions>Huge_Explosion_Land2</Death_Explosions>
-		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation3</Death_Projectiles>
+		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles>
 		
 		<CategoryMask>Structure</CategoryMask>
 		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>

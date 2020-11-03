@@ -289,7 +289,7 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
-		<Projectile_Types>Proj_Flak_Pod</Projectile_Types>
+		<Projectile_Types>Proj_Land_E_Flak</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
@@ -1456,6 +1456,91 @@
 		<Affiliation> Underworld </Affiliation>
 
 		<Tactical_Buildable_Constructed> Underworld_Rocket_Pod </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
+		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 5 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z> 0 </Tactical_Build_Start_Lower_Z>
+		<Tactical_Health> 175 </Tactical_Health>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Land_Model_Name>UV_MDU_Rocket.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+
+		<Armor_Type> Armor_Turret </Armor_Type>
+
+		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
+
+	</GroundBuildable>
+
+
+	<GroundStructure Name="Rebel_Rocket_Pod">
+	
+		<Variant_Of_Existing_Type> Abstract_Turret </Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_STRUCTURE_MISSILE_POD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Snowspeeder Lancet_Air_Artillery </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Stormtrooper Rebel_Trooper </Encyclopedia_Vulnerable_To>	
+
+		<Tactical_Health>250</Tactical_Health>
+		<Tactical_Sell_Credits> 600 </Tactical_Sell_Credits>
+
+		<Affiliation> Rebel </Affiliation>
+
+		<Damage>20</Damage>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+
+		<Land_Model_Name>UV_MDU_Rocket.ALO</Land_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
+
+		<Projectile_Types>Proj_Land_R_AV_Missile</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Targeting_Priority_Set>MDURocketTurret</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 15.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 15.0 </Targeting_Fire_Inaccuracy>
+
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		
+		<CategoryMask> Structure | AntiVehicle | AntiAir </CategoryMask>
+
+		<AI_Combat_Power>125</AI_Combat_Power>
+		<Score_Cost_Credits> 1300 </Score_Cost_Credits>
+
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+
+	</GroundStructure>
+
+	<GroundBuildable Name="UC_Rebel_Rocket_Pod">
+
+		<Variant_Of_Existing_Type> UC_Rebel_Buildable_Abstract_Type </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_MISSILE_POD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+
+		<Affiliation> Rebel </Affiliation>
+
+		<Tactical_Buildable_Constructed> Rebel_Rocket_Pod </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
 		<Tactical_Build_Cost_Multiplayer> 200 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>150</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 5 </Tactical_Build_Time_Seconds>

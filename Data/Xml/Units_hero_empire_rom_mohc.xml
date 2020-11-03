@@ -700,7 +700,7 @@
 	</UniqueUnit>
 
 	<GroundInfantry Name="Rom_Mohc_Escort_Sergeant">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper_Sergeant</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
 		<Armor_Type> Armor_I2 </Armor_Type>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Tactical_Health>50</Tactical_Health>

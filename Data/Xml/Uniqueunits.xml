@@ -1331,7 +1331,7 @@
 
 	<!-- Used in Empire Campaign Act III Mission 8 -->
 	<UniqueUnit Name="Moff_Falast_Star_Destroyer">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_FALAST_SD</Text_ID>
 		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>99</Tech_Level>

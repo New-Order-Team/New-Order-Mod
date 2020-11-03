@@ -424,6 +424,10 @@
 		<Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Green_Dummy">
+		<Variant_Of_Existing_Type>Proj_Ship_Large_Laser_Cannon_Green</Variant_Of_Existing_Type>
+		<Projectile_Damage>0.0</Projectile_Damage>
+	</Projectile>
 	
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red">
 		<Variant_Of_Existing_Type>Proj_Ship_Large_Laser_Cannon_Green</Variant_Of_Existing_Type>
@@ -1000,7 +1004,7 @@
 		<Projectile_Damage>10</Projectile_Damage>
 		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
 		<AI_Combat_Power>10</AI_Combat_Power>
-	</Projectile>>
+	</Projectile>
 	
 	<Projectile Name="Proj_Hero_Ship_Turbolaser_Red">
 		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_Of_Existing_Type>
@@ -1034,10 +1038,6 @@
 		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>5.0</Projectile_Fire_Pulse_Delay_Seconds>
-	</Projectile>
-
-	<Projectile Name="Proj_Hero_Ship_Proton_Bomb">
-		<Variant_Of_Existing_Type>Proj_Ship_Proton_Bomb</Variant_Of_Existing_Type>
 	</Projectile>
 
 	<Projectile Name="Proj_Leveler_Missile">

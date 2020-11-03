@@ -76,7 +76,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<Projectile_Types>Proj_Land_E_Blaster_Cannon_TIE</Projectile_Types>
+		<Projectile_Types>Proj_Land_Blaster_TIE</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.8</Projectile_Fire_Recharge_Seconds>

@@ -82,10 +82,13 @@ function MainForce_Thread()
 		-- Use all idle units, mapwide
 		MainForce.Collect_All_Free_Units()	
 	
-		target = Find_Nearest(MainForce, "Structure | Capital", PlayerObject, false)
+		target = Find_Nearest(MainForce, "Interdictor", PlayerObject, false)
 		if target == nil then
-			target = Find_Nearest(MainForce, PlayerObject, false)
-		end	
+			target = Find_Nearest(MainForce, "Structure | Capital | Super", PlayerObject, false)
+			if target == nil then
+				target = Find_Nearest(MainForce, PlayerObject, false)
+			end	
+		end
 	
 		while TestValid(target) do
 			DebugMessage("%s-- collecting all free units and attacking target:%s", tostring(Script), tostring(target))

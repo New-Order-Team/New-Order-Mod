@@ -238,7 +238,7 @@
 	</SpaceUnit>
 
 	<SpaceUnit Name="Star_Destroyer_Tractor_Fighters">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
 		
 		<!-- Non-Hero unit abilities description -->
 	   <Unit_Abilities_Data SubObjectList="Yes">
@@ -303,7 +303,7 @@
 
 
 	<SpaceUnit Name="Star_Destroyer_E3">
-		<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Star_Destroyer_Death_Clone">

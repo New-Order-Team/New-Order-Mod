@@ -74,7 +74,7 @@
 		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
-		<Projectile_Types>Proj_Land_Heavy_Blaster_Vehicle_R</Projectile_Types>
+		<Projectile_Types>Proj_Land_Blaster_PX_10</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
