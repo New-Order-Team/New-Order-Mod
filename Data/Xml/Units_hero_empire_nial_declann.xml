@@ -70,7 +70,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Night_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.15</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

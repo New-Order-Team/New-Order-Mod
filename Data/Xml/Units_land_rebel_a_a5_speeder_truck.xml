@@ -5,7 +5,7 @@
 		<Text_ID>TEXT_UNIT_A_A5_SPEEDER_TRUCK</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LANDSPEEDER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_A_A5_SPEEDER_TRUCK</Encyclopedia_Text>
-		<Icon_Name>i_button_a-a5_speeder_truck.tga</Icon_Name>
+		<Icon_Name>i_button_aa5.tga</Icon_Name>
 
 		<Land_Model_Name>a-a5_speeder_truck.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -21,7 +21,7 @@
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Affiliation>Rebel</Affiliation>
 
-		<Armor_Type>Armor_A2</Armor_Type>
+		<Armor_Type>Armor_A1</Armor_Type>
 		<Tactical_Health>650</Tactical_Health>
 		<Autoresolve_Health>650</Autoresolve_Health>
 
@@ -44,7 +44,7 @@
 		<LandBehavior>SELECTABLE, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, GARRISON_VEHICLE</LandBehavior>
 
 		<Garrison_Category>Infantry</Garrison_Category>
-		<Num_Garrison_Slots>4</Num_Garrison_Slots>
+		<Num_Garrison_Slots>3</Num_Garrison_Slots>
 		<Garrison_Bone_Names>Garrison_00, Garrison_01</Garrison_Bone_Names>
 		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>

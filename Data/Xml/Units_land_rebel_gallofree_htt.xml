@@ -35,7 +35,7 @@
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<PathFrameDelay> 0 </PathFrameDelay>
 
-		<Armor_Type> Armor_45 </Armor_Type>
+		<Armor_Type> Armor_A3 </Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
 		<Tactical_Health>400</Tactical_Health>

@@ -53,7 +53,7 @@
 		<Lua_Script>ObjectScript_SelfDestructLand</Lua_Script>
 
 		<Garrison_Category> Vehicle </Garrison_Category>
-		<Garrison_Value>4</Garrison_Value>
+		<Garrison_Value>2</Garrison_Value>
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
 
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
