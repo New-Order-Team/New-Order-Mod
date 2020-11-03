@@ -104,7 +104,6 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Line_Infantry_Platoon,
-				Line_Infantry_Platoon_Repeater,
 				Line_Infantry_Platoon_Remnant,
 				E_Web_Platoon,
 				E_Web_15_Platoon,
@@ -1288,9 +1287,6 @@
 
 		<Starting_Spawned_Units_Tech_2>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_2>
-
-		<Starting_Spawned_Units_Tech_4>Rebel_SpecForce_Technician_Squad, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Rebel_SpecForce_Technician_Squad, 0</Reserve_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

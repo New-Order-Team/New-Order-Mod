@@ -4,7 +4,7 @@
 <!-- Kaminoan Rebel Antitroopers Platoon -->
 <!-- Kaminoan Rebel Antitrooper -->
 	<GroundInfantry Name="Rebel_Antitrooper">
-		<Variant_Of_Existing_Type>Rebel_SecForce_Trooper_Rifle</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ANTITROOPER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ANTITROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		

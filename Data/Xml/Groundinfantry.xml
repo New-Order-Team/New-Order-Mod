@@ -1,7 +1,78 @@
 <?xml version="1.0"?>
 <GroundInfantry_Units>
+	<!-- Company Spawner Template -->
+	<GroundInfantry Name="Company_Spawner_Template">
+		<Text_ID/>
+		<Encyclopedia_Text/>
+		<GUI_Row>1</GUI_Row>
+		<Encyclopedia_Good_Against/>
+		<Encyclopedia_Vulnerable_To/>
+		<Encyclopedia_Unit_Class/>
+        <GalacticBehavior>SELECTABLE</GalacticBehavior>
+		<LandBehavior> WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
 
-<!-- Infantry Template -->
+		<Affiliation>Rebel, Empire, Underworld, Hapans, CSA, Hutts, Warlords, Pirates</Affiliation>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Mass>1.0</Mass>
+		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
+		<Armor_Type> Armor_Default </Armor_Type>
+		<Political_Control>0</Political_Control>
+		<Size_Value>10</Size_Value>
+		<Sensor_Range>20</Sensor_Range>
+		<Stealth_Capable>No</Stealth_Capable>
+		<Destroy_When_Used_As_Corruption_Prereq> No </Destroy_When_Used_As_Corruption_Prereq>
+        <Is_Valid_Target>No</Is_Valid_Target>
+        <Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+        <Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn> 1.0 </Max_Rate_Of_Turn>
+		<Custom_Hard_XExtent> 0.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 0.0 </Custom_Hard_YExtent>
+		<Type>Walk</Type>
+		<Space_Layer> None </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Damage>1</Damage>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Tactical_Health>100</Tactical_Health>
+		<Required_Timeline>0</Required_Timeline>
+
+		<Ranged_Target_Z_Adjust>1.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 0.0 </Mouse_Collide_Override_Sphere_Radius>
+		<MovementClass> Infantry </MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>0.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Infantry</Weather_Category>
+
+		<Victory_Relevant>No</Victory_Relevant>
+		<Create_Team>No</Create_Team>
+		<Deploys>No</Deploys>
+
+		<Targeting_Max_Attack_Distance>0.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
+
+		<CategoryMask> Infantry </CategoryMask>
+
+		<Land_Model_Name>W_FLAG_MARKER.ALO</Land_Model_Name>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Lua_Script>Company_Spawner</Lua_Script>
+	</GroundInfantry>
+
+	<!-- Infantry Template -->
 	<GroundInfantry Name="Infantry_Template">
 		<No_Colorization_Color>33, 33, 33, 255</No_Colorization_Color>
 		<Weather_Category>Infantry</Weather_Category>
