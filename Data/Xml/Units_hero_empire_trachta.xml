@@ -63,9 +63,9 @@
 		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 6.0 </Targeting_Fire_Inaccuracy>
 
-		<Starting_Spawned_Units_Tech_0>TC_Stromtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Trachta_Stromtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>TC_Stromtrooper_Squad, 0</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>Trachta_Stromtrooper_Squad, 0</Reserve_Spawned_Units_Tech_0> 
 		<Spawned_Squadron_Location_Bones>Root</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>10.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>

@@ -797,7 +797,7 @@
 
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 
 		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
@@ -884,7 +884,7 @@
 		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 
 
 		<CategoryMask> Structure </CategoryMask>
@@ -981,7 +981,7 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Variant_Of_Existing_Type>Orbital_Construction_Pod</Variant_Of_Existing_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Armor_Type>  Armor_Space </Armor_Type>
+		<Armor_Type>  Armor_Satellite </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 	
 		<Behavior>CAPTURE_POINT, DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>

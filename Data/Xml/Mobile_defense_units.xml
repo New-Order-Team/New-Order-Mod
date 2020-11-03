@@ -48,7 +48,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
          <Remove_Upon_Death>true</Remove_Upon_Death>
          
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_T2B </Armor_Type>
 		<Size_Value>70</Size_Value>
 		<Damage>6</Damage>
 		<Shield_Points>150</Shield_Points>

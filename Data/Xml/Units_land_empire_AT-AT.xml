@@ -8,15 +8,16 @@
 		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_AT_AT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
 		<Icon_Name>i_button_atat.tga</Icon_Name>
-		<LandBehavior>ABILITY_COUNTDOWN, SELECTABLE, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, DAMAGE_TRACKING, SQUASH, AFFECTED_BY_SHIELD, GARRISON_VEHICLE</LandBehavior>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, DEPLOY_TROOPERS, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,SQUASH,AFFECTED_BY_SHIELD, GARRISON_VEHICLE</LandBehavior>
 		
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Num_Garrison_Slots>4</Num_Garrison_Slots>
+		<Num_Garrison_Slots>8</Num_Garrison_Slots>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
 		<Garrison_Radius>30</Garrison_Radius>
@@ -33,6 +34,7 @@
 		<Mass>1.0</Mass>
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
 		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+		<Projectile_Appearance_Delay_Frames>2,1</Projectile_Appearance_Delay_Frames>
 		<Scale_Factor>2.0</Scale_Factor>
 
 		<Movement_Animation_Speed> 0.1366 </Movement_Animation_Speed>
@@ -42,6 +44,7 @@
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
+		<Min_Speed_Fraction_For_Turn> .1 </Min_Speed_Fraction_For_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
 		<Custom_Hard_XExtent> 28.0 </Custom_Hard_XExtent>
@@ -57,6 +60,7 @@
 
 		<Type>Walk</Type>
 		<Deploys>Yes</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>150</Size_Value>
@@ -70,7 +74,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Land_FOW_Reveal_Range>700.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>700</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Targeting_Min_Attack_Distance>150.0</Targeting_Min_Attack_Distance>
 		
 		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01, MISSILE_TARGET02 </Target_Bones>
 
@@ -80,21 +84,18 @@
 		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
 		<Turret_Targets_Anything_Else> 2 </Turret_Targets_Anything_Else>
 		
-		<Deployed_Turret_Rotate_Extent_Degrees>45</Deployed_Turret_Rotate_Extent_Degrees>
-		<Deployed_Turret_Elevate_Extent_Degrees>45</Deployed_Turret_Elevate_Extent_Degrees>
-		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>55</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
-		<Barrel_Bone_Name>B_Turret</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		
-		<Ranged_Target_Z_Adjust>90.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>50.0</Ranged_Target_Z_Adjust>
 		
-		<HardPoints>
-				HP_AT_AT_00, <!--HP_AT_AT_01-->
-		</HardPoints>
+		<Hardpoints>
+				HP_AT_AT_00, HP_AT_AT_01
+		</Hardpoints>
 
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -122,6 +123,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
 		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Air_Vehicle_Turret_Target> No </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		 
 		<Overall_Length>60.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
@@ -312,7 +314,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
@@ -323,7 +325,7 @@
 	<GroundVehicle Name="AT_AT_Walker_Prototype">
 		<Variant_Of_Existing_Type>AT_AT_Walker</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_AT_AT_PROT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_PROT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AT_PROT</Encyclopedia_Text>
 		<Armor_Type> Armor_A5 </Armor_Type>
 		<Damage>140</Damage>
 		<Tactical_Health>1800</Tactical_Health>
@@ -383,7 +385,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_PROT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AT_PROT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 

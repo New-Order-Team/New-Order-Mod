@@ -55,7 +55,7 @@
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
 		<Affiliation>Empire</Affiliation>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>8</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>

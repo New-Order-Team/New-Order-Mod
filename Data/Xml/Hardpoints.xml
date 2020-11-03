@@ -12,7 +12,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
             <Model_To_Attach>EV_StarDestroyer_HP00_L-F.alo</Model_To_Attach>
             <Attachment_Bone>HP_F-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
@@ -55,7 +55,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
             <Model_To_Attach>EV_StarDestroyer_HP00_F-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_F-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_F-R_COLL</Collision_Mesh>
@@ -97,7 +97,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
             <Model_To_Attach>EV_StarDestroyer_HP00_B-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
@@ -139,7 +139,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Star_Destroyer </Damage_Type>
             <Model_To_Attach>EV_StarDestroyer_HP00_B-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
@@ -411,7 +411,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_B-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
@@ -454,7 +454,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_B-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
@@ -497,7 +497,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_M-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-L_COLL</Collision_Mesh>
@@ -540,7 +540,7 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 		<Projectile_Damage>20.0</Projectile_Damage>
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Model_To_Attach>RV_MonCalCruiser_HP00_M-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-R_COLL</Collision_Mesh>
@@ -628,7 +628,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -657,7 +657,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -687,7 +687,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -717,7 +717,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -747,7 +747,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -777,7 +777,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -807,7 +807,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_IPV </Damage_Type>
             <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -1121,7 +1121,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_BL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Fire_Bone_A>FP_TBL_BL_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_BL_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -1164,7 +1164,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_BR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Fire_Bone_A>FP_TBL_BR_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_BR_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -1207,7 +1207,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_FL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Fire_Bone_A>FP_TBL_FL_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_FL_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -1250,7 +1250,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Weapon_TBL_FR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
             <Fire_Bone_A>FP_TBL_FR_00</Fire_Bone_A>
             <Fire_Bone_B>FP_TBL_FR_01</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -1781,7 +1781,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Empire_Station_One_Weapon_LC </Death_Breakoff_Prop>
 
-			  <Damage_Type>Damage_Laser_Cannon</Damage_Type>
+			  <Damage_Type>Damage_Station_Laser</Damage_Type>
             <Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
             <Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
             <Fire_Bone_B>FP01_LC_02</Fire_Bone_B>
@@ -1927,7 +1927,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Pirate_Frigate_BL </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>150</Fire_Cone_Width>
@@ -1970,7 +1970,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Pirate_Frigate_BR </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>150</Fire_Cone_Width>
@@ -2020,7 +2020,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Light_Laser_00 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Laser_Cannon </Damage_Type>
+			<Damage_Type> Damage_Sation_Laser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2064,7 +2064,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Light_Laser_01 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Laser_Cannon </Damage_Type>
+			<Damage_Type> Damage_Sation_Laser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_05</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_05</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2108,7 +2108,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_00 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2152,7 +2152,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_01 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2196,7 +2196,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_02 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2240,7 +2240,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_03 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2394,7 +2394,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Light_Laser_00 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Laser_Cannon </Damage_Type>
+			<Damage_Type> Damage_Sation_Laser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2438,7 +2438,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Light_Laser_01 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Laser_Cannon </Damage_Type>
+			<Damage_Type> Damage_Sation_Laser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_05</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_05</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2482,7 +2482,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_00 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2526,7 +2526,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_01 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2570,7 +2570,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_02 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -2614,7 +2614,7 @@
 
 			<Death_Breakoff_Prop> Hardpoint_Breakoff_Asteroid_Base_Turbolaser_03 </Death_Breakoff_Prop>
 
-			<Damage_Type> Damage_Turbolaser </Damage_Type>
+			<Damage_Type> Damage_Sation_Turbolaser </Damage_Type>
             <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
