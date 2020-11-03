@@ -186,7 +186,7 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>AT_PT, AT_ST_Assault, AT_ST_Walker</Applicable_Unit_Types>
+				<Applicable_Unit_Types>AT_PT, AT_ST_Walker</Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -252,20 +252,20 @@
 
 	<GroundInfantry Name="Cassio_Tagge_Escort_Sergeant">
 		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_A10 </Armor_Type>
+		<Armor_Type> Armor_I2 </Armor_Type>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Tactical_Health>50</Tactical_Health>
 	</GroundInfantry>
 	<GroundInfantry Name="Cassio_Tagge_Escort_Trooper">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_A10 </Armor_Type>
+		<Armor_Type> Armor_I2 </Armor_Type>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Tactical_Health>50</Tactical_Health>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Cassio_Tagge_Escort_Repeater_Trooper">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper_Light_Repeater</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_A10 </Armor_Type>
+		<Armor_Type> Armor_I2 </Armor_Type>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Tactical_Health>50</Tactical_Health>
 	</GroundInfantry>

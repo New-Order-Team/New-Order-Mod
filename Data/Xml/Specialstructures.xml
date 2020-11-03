@@ -258,8 +258,6 @@
 			Empire,
 				Engineering_Platoon,
 				Engineering_Platoon_Remnant,
-				Special_Operations_Platoon,
-				Special_Operations_Platoon_Remnant,
 				Imperial_General_Squad,
 				Chariot_Command_Platoon,
 				AT_AR_Platoon,
@@ -2476,7 +2474,7 @@
 		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -2555,7 +2553,7 @@
 		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -2836,7 +2834,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
@@ -2901,7 +2899,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Score_Cost_Credits> 200 </Score_Cost_Credits>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -3006,7 +3004,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
@@ -4734,7 +4732,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_S6 </Armor_Type>
+		<Armor_Type> Armor_S7 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.75</Scale_Factor>
@@ -5979,7 +5977,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<!--<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_DEFENSE_SAT</Encyclopedia_Text>-->
@@ -6030,7 +6028,7 @@
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>

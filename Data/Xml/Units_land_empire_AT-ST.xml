@@ -7,7 +7,7 @@
 		<Blob_Shadow_Scale>50.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_AT_ST</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_AT_ST</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_AT_ST_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
@@ -65,15 +65,14 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
 		<Hardpoints>
-				HP_AT_ST_00, HP_AT_ST_01, HP_AT_ST_01_alt
-				<!--, HP_AT_ST_02-->
+				<!--HP_AT_ST_00,--> HP_AT_ST_01
 		</Hardpoints>
 
 		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 
-		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
 		<Barrel_Bone_Name>B_Barrel</Barrel_Bone_Name>
@@ -152,10 +151,6 @@
 				<Recharge_Seconds>45.0</Recharge_Seconds>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_AT_ST</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Targeting_Max_Attack_Distance>600</Targeting_Max_Attack_Distance>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
@@ -272,9 +267,6 @@
 			<Unit_Ability>
 				<Type>SPRINT</Type>
 			</Unit_Ability>
-			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -286,7 +278,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_AT_ST_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_AT_ST_DESC TEXT_UNIT_AT_ST_PLATOON_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
