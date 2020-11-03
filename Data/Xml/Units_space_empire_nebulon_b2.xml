@@ -65,6 +65,8 @@
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<Target_Bones> HP03, HP04, HP11, HP12 </Target_Bones>
 
 		<Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>

@@ -79,7 +79,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Empire</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Bomber </Armor_Type>
+		<Armor_Type> Armor_Fighter </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -196,7 +196,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Empire</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
+		<Armor_Type> Armor_Fighter </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -232,7 +232,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Empire</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -274,7 +274,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Empire</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -377,7 +377,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Pirates</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -726,8 +726,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_ATST </Armor_Type>
-        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
+		<Armor_Type> Armor_Structure </Armor_Type>
+        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
 		<Shield_Points>10000</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>
 		<Shield_Refresh_Rate>10000</Shield_Refresh_Rate>
@@ -793,8 +793,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_ATST </Armor_Type>
-        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
+		<Armor_Type> Armor_Structure </Armor_Type>
+        <Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -1020,7 +1020,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Rebel</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1827,7 +1827,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -2480,8 +2480,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armor_SSD </Armor_Type>
-		<Shield_Armor_Type> Shield_SSD </Shield_Armor_Type>
+		<Armor_Type> Armor_Space </Armor_Type>
+		<Shield_Armor_Type> Shield_Space </Shield_Armor_Type>
 
 		<Max_Speed>0.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
@@ -2723,7 +2723,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 
@@ -2857,8 +2857,8 @@
 		<OverrideDeceleration> .06 </OverrideDeceleration>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
-        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>

@@ -44,7 +44,7 @@
 		<Mass>1.0</Mass>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Armor_Type> Armor_A10 </Armor_Type>
+		<Armor_Type> Armor_I1 </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -429,7 +429,6 @@
 		<Targeting_Max_Attack_Distance>220.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
-		<Damage_Type> Damage_AI_Turret </Damage_Type>
 		<Projectile_Damage>14.0</Projectile_Damage>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -573,7 +572,6 @@
 		<Scale_Factor>0.75</Scale_Factor>
 
 		<Damage>30</Damage>
-		<Damage_Type> Damage_AV_Turret </Damage_Type>
 		
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>300</Tactical_Health>

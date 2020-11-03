@@ -6,7 +6,7 @@
 		<Blob_Shadow_Scale>75.0, 75.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_AT_AA</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AA</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_AT_AA_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 
 		<GUI_Bounds_Scale>0.45</GUI_Bounds_Scale>
@@ -160,7 +160,7 @@
 	
 	<GroundCompany Name="Imperial_Anti_Aircraft_Company">
 		<Text_ID>TEXT_UNIT_AT_AA_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_AT_AA_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_AT_AA_DESC TEXT_UNIT_AT_AA_PLATOON_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ataa.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>

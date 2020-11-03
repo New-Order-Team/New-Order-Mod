@@ -247,7 +247,7 @@
 		<FormationOrder> 3 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 
-		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Armor_Type> Armor_A1 </Armor_Type>
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Sprite>No</Is_Sprite>
