@@ -56,28 +56,7 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>
-			ABILITY_COUNTDOWN,
-			AFFECTED_BY_SHIELD,
-			WALK_LOCOMOTOR,
-			IDLE,
-			TARGETING,
-			WEAPON,
-			TURRET,
-			POWERED,
-			REVEAL,
-			HIDE_WHEN_FOGGED,
-			UNIT_AI,
-			TELEKINESIS_TARGET,
-			STUNNABLE,
-			WIND_DISTURBANCE,
-			SURFACE_FX,
-			DAMAGE_TRACKING,
-			GARRISON_UNIT
-		</LandBehavior>
-		
-		<Garrison_Category> Vehicle </Garrison_Category>
-		<Garrison_Value>2</Garrison_Value>
+		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING</LandBehavior>
 
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 		
@@ -85,7 +64,7 @@
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
-				<!--HP_S1_Firehawke_Main,-->
+				HP_S1_Firehawke_Main,
 				HP_S1_Firehawke_Blaster
 		</Hardpoints>
 

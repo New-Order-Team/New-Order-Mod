@@ -355,9 +355,9 @@
 		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
   		<Encyclopedia_Text>TEXT_TOOLTIP_SECFORCE_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 
-		<!--<Hardpoints>
+		<Hardpoints>
 			HP_Infantry_Ion_Disruptor
-		</Hardpoints>-->
+		</Hardpoints>
 	</GroundInfantry>
 
 	<GroundInfantry Name="SecForce_Sergeant">
@@ -1086,7 +1086,7 @@
 		
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<!--<Ranged_Target_Z_Adjust>3.5</Ranged_Target_Z_Adjust>-->
+		<Ranged_Target_Z_Adjust>3.5</Ranged_Target_Z_Adjust>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Infiltrator</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Infiltrator</SFXEvent_Move>

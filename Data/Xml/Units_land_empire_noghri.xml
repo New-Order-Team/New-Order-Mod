@@ -44,7 +44,7 @@
 		<FormationOrder> 3 </FormationOrder>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>Yes</Stealth_Capable>
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_Infantry </Armor_Type>
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>10</Size_Value>

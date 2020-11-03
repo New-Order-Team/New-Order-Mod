@@ -1117,7 +1117,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Points>500</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1200</Tactical_Health>
@@ -1202,7 +1202,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1273,7 +1273,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1400</Tactical_Health>
@@ -1366,7 +1366,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Points>700</Shield_Points>
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Tactical_Health>1100</Tactical_Health>
@@ -1470,7 +1470,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -1555,7 +1555,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -1608,7 +1608,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>250.0</Space_FOW_Reveal_Range>
 
@@ -1657,7 +1657,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Shield_Points>600</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1904,7 +1904,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 

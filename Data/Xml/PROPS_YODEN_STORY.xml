@@ -163,8 +163,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -198,8 +198,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -233,8 +233,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -268,8 +268,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -303,8 +303,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -338,8 +338,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
@@ -373,8 +373,8 @@
 		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Mass>1.0</Mass>
-		<Armor_Type> Armor_Structure </Armor_Type>
-        <Shield_Armor_Type>Shield_Land</Shield_Armor_Type>
+		<Armor_Type> Armor_ATST </Armor_Type>
+        <Shield_Armor_Type>Shield_Tank</Shield_Armor_Type>
 		<Shield_Points>1000</Shield_Points>
 		<Tactical_Health>500</Tactical_Health>
 		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>

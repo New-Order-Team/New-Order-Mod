@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <Tessala_Corvae_Files>
 	<UniqueUnit Name="Corvae_AT_ST_Walker">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_TESSALA_CORVAE</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_TESSALA_CORVAE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		<Armor_Type> Armor_A4 </Armor_Type>
+		<Armor_Type> Armor_50W </Armor_Type>
   
 		<Icon_Name>i_button_tessala_corvae.tga</Icon_Name>
 
-		<Death_Clone>Damage_Normal, Corvae_AT_ST_Walker_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Normal, Corvae_AT_ST_Walker_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Normal, Corvae_AT_ST_Walker_Death_Clone_02</Death_Clone>
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Normal, Corvae_AT_ST_Assault_Death_Clone_02</Death_Clone>
 	
 	</UniqueUnit>
 
-	<GroundVehicle Name="Corvae_AT_ST_Walker_Death_Clone_00">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_00">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -32,8 +32,8 @@
 		
 	</GroundVehicle>
 
-	<GroundVehicle Name="Corvae_AT_ST_Walker_Death_Clone_01">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_01">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -49,8 +49,8 @@
 		
 	</GroundVehicle>
 
-	<GroundVehicle Name="Corvae_AT_ST_Walker_Death_Clone_02">
-		<Variant_Of_Existing_Type>AT_ST_Walker</Variant_Of_Existing_Type>
+	<GroundVehicle Name="Corvae_AT_ST_Assault_Death_Clone_02">
+		<Variant_Of_Existing_Type>AT_ST_Assault</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
       
@@ -130,7 +130,7 @@
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>AT_ST_Walker, AT_AT_Walker, AT-AP_Walker, HAV_Juggernaut, AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
+				<Applicable_Unit_Types>AT_ST_Assault, AT_ST_Walker, AT_AT_Walker, AT-AP_Walker, HAV_Juggernaut, AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

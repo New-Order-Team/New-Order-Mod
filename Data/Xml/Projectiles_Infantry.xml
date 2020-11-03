@@ -337,7 +337,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>p_land_e_web.ALO</Land_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
-        <Damage_Type> Damage_B1 </Damage_Type> 
+        <Damage_Type> Damage_P3 </Damage_Type> 
 		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -365,7 +365,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
 		<Scale_Factor>0.6</Scale_Factor>
-		<Damage_Type> Damage_0 </Damage_Type>
+		<Damage_Type> Damage_P40 </Damage_Type>
 		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -419,7 +419,7 @@
 		<Projectile_Length>2.5</Projectile_Length>
 		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_I </Damage_Type>
+		<Damage_Type> Damage_P12 </Damage_Type>
 		<Max_Speed>11.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -445,7 +445,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
 		<Scale_Factor>0.6</Scale_Factor>
-		<Damage_Type>Damage_E3</Damage_Type>
+		<Damage_Type>Damage_P5</Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -485,7 +485,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
 		<Scale_Factor>0.6</Scale_Factor>
-		<Damage_Type>Damage_T7</Damage_Type>
+		<Damage_Type>Damage_P150</Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -707,7 +707,7 @@
 		<Projectile_Length>3.0</Projectile_Length>
 		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_I </Damage_Type>
+		<Damage_Type> Damage_7-62 </Damage_Type>
 		<Max_Speed>11.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -741,7 +741,7 @@
 		<Projectile_Length>3.0</Projectile_Length>
 		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_I </Damage_Type>
+		<Damage_Type> Damage_7-62 </Damage_Type>
 		<Max_Speed>11.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
