@@ -56,7 +56,7 @@
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_SPMAT </Armor_Type>
 		<Size_Value>150</Size_Value>
 		<Damage>20</Damage>
 		<Shield_Points>0</Shield_Points>
@@ -312,7 +312,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Mauler </Armor_Type>
 		<Size_Value>60</Size_Value>
 		<Damage>5</Damage>
 		<Sensor_Range>80</Sensor_Range>
@@ -664,7 +664,7 @@
 		<FormationGrouping> Standard </FormationGrouping>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-		<Armor_Type> Armor_A1 </Armor_Type>
+		<Armor_Type> Armor_Infantry </Armor_Type>
 
 		<Scale_Factor>1.5</Scale_Factor>
 		<Is_Sprite>No</Is_Sprite>

@@ -122,7 +122,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -161,7 +161,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -200,7 +200,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -239,7 +239,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1832,7 +1832,7 @@
 		<Energy_Refresh_Rate>10</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
@@ -1866,7 +1866,7 @@
 		<Energy_Refresh_Rate>30</Energy_Refresh_Rate>
 		<Affiliation>Hostile</Affiliation>
 		<Base_Level_Available>0</Base_Level_Available>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>no</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>

@@ -51,7 +51,7 @@
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
 
 		<Garrison_Category> Infantry </Garrison_Category>
-        <Num_Garrison_Slots>1</Num_Garrison_Slots>
+        <Num_Garrison_Slots>3</Num_Garrison_Slots>
         <Garrison_Bone_Names>Spawn_00, Spawn_01</Garrison_Bone_Names>
 		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
 		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>

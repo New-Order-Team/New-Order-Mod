@@ -45,7 +45,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<HardPoints>
@@ -249,7 +249,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -418,7 +418,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -580,7 +580,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -749,7 +749,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Bunker </Armor_Type>
+		<Armor_Type> Armor_A150 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -1067,7 +1067,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1167,7 +1167,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A100 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 

@@ -1049,9 +1049,6 @@
 		<Population_Value>0</Population_Value>	
 		
 	</SpaceUnit>
-	<SpaceUnit Name="Z-95_Headhunter_Rebel">
-		<Variant_Of_Existing_Type>Z-95_Headhunter</Variant_Of_Existing_Type>
-	</SpaceUnit>
 
 
 
@@ -1091,6 +1088,7 @@
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
+        <Damage_Type>Damage_Fighter</Damage_Type>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.98</Mass>
 		<Max_Speed>4.3</Max_Speed>
