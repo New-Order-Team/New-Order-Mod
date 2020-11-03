@@ -50,7 +50,7 @@
 		<Energy_Capacity>600</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-		<Armor_Type> Armor_A1 </Armor_Type>
+		<Armor_Type> Armor_A15 </Armor_Type>
 
 		<Behavior> SELECTABLE </Behavior>
 		<LandBehavior> SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, HUNT, AFFECTED_BY_SHIELD, GARRISON_UNIT, DAMAGE_TRACKING</LandBehavior>

@@ -3790,7 +3790,7 @@
 		<Affiliation> Empire </Affiliation>
 		<Base_Level_Available> 1 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A50 </Armor_Type>
 		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
 		<Victory_Relevant> No </Victory_Relevant>
 		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
@@ -3888,7 +3888,7 @@
 		<Affiliation> Rebel </Affiliation>
 		<Base_Level_Available> 1 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_A50 </Armor_Type>
 		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
 		<Victory_Relevant> No </Victory_Relevant>
 		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
@@ -5120,7 +5120,7 @@
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
-		<Armor_Type> Armor_Bunker </Armor_Type>
+		<Armor_Type> Armor_A150 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<CategoryMask> Structure </CategoryMask>

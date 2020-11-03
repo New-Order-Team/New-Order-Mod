@@ -61,17 +61,6 @@
             </Force_Healing_Ability>
 		</Abilities>
     </Particle>
-	
-	<!-- Concussion grenade explosion - LAND -->
-	<Particle Name="Concussion_Grenade_Explosion">
-        <Land_Model_Name>p_concussion_grenade.ALO</Land_Model_Name>
-        <Space_Model_Name>p_concussion_grenade.ALO</Space_Model_Name>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Is_Decoration>Yes</Is_Decoration>
-        <Behavior>PARTICLE</Behavior>
-        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
-    </Particle>
 
 
 	

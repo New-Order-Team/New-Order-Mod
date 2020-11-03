@@ -34,7 +34,7 @@
 		<Size_Value>15</Size_Value>
 
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>25</Damage>
 		<Shield_Points>50</Shield_Points>
 		<Tactical_Health>50</Tactical_Health>
@@ -134,7 +134,7 @@
 
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>25</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
@@ -237,7 +237,7 @@
 
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>25</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
@@ -339,7 +339,7 @@
 
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
 
-		<Armor_Type> Armor_A3 </Armor_Type>
+		<Armor_Type> Armor_Speeder </Armor_Type>
 		<Damage>25</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
