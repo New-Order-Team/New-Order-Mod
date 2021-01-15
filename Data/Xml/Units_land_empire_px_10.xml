@@ -109,13 +109,13 @@
 		<Overall_Length>25.0</Overall_Length> 	<!-- For vehicle pitching up and down on terrain (35 by geometry) -->
 		<Overall_Width>20.0</Overall_Width> 		<!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>126</AI_Combat_Power>
+		<AI_Combat_Power>7.23</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiInfantryOnly</Targeting_Priority_Set>
+		<Targeting_Priority_Set>PX10Priority</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Select_Box_Scale>35</Select_Box_Scale>
@@ -126,7 +126,7 @@
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
-		<Score_Cost_Credits>126</Score_Cost_Credits>
+		<Score_Cost_Credits>7.23</Score_Cost_Credits>
 		<No_Colorization_Color> 33, 33, 33, 255 </No_Colorization_Color>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
@@ -141,15 +141,15 @@
 		<Text_ID>TEXT_UNIT_PX_10_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_PX_10_DESC TEXT_UNIT_PX_10_PLATOON_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_PX_10.tga</Icon_Name>
+		<Icon_Name>i_button_px_10.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>12.7</Damage>
-		<Autoresolve_Health>1200</Autoresolve_Health>
+		<Damage>20.5</Damage>
+		<Autoresolve_Health>29.8</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>760</Build_Cost_Credits>
+		<Build_Cost_Credits>430</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Time_Seconds>8</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -173,7 +173,7 @@
 		<Score_Cost_Credits>760</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>760</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>430</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

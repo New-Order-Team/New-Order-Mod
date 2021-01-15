@@ -8,6 +8,19 @@
 	-->
 	
 	<!-- Priorities for specific units -->
+
+	<!-- PX-10 are good against infantry and mining platforms, run from everything else -->
+	<Priority_Set Name="PX10Priority">
+		<Attack_Priorities>
+			Infantry, 1.0,
+			TacticalStructure, 2.0
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure, Air, Vehicle, Turret, LandHero
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>
+	
 	<Priority_Set Name="CenturyPriority">
 		<Attack_Priorities>
 			Vehicle, 1.0,

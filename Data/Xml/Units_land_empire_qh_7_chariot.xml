@@ -96,7 +96,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Vehicle </CategoryMask>  <!-- LandHero -->
 		<Icon_Name> i_button_chariot.tga </Icon_Name>
 		<MovementClass>HoverNoShield</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

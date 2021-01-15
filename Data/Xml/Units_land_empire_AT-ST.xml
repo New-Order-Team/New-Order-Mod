@@ -149,7 +149,7 @@
 				<Type>SPRINT</Type>
 				<Expiration_Seconds>15.0</Expiration_Seconds>
 				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_AT_ST</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
