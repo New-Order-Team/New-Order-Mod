@@ -13,7 +13,7 @@
 	<Priority_Set Name="PX10Priority">
 		<Attack_Priorities>
 			Infantry, 1.0,
-			TacticalStructure, 2.0
+			TacticalStructure, 2.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Air, Vehicle, Turret, LandHero
@@ -24,7 +24,7 @@
 	<Priority_Set Name="CenturyPriority">
 		<Attack_Priorities>
 			Vehicle, 1.0,
-			Infantry, 2.0
+			Infantry, 2.0,
 			Structure, 3.0,
 			Turret, 4.0,
 			TacticalStructure, 5.0,
@@ -38,7 +38,7 @@
 	<!-- Chariot/Arrow-23 are weak, don't attack anything except mining platforms or weak infantry -->
 	<Priority_Set Name="ChariotPriority">
 		<Attack_Priorities>
-			TacticalStructure, 1.0
+			TacticalStructure, 1.0,
 			Infantry, 2.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
@@ -70,7 +70,7 @@
 			Infantry, 1.0,
 			Turret, 2.0,
 			TacticalStructure, 3.0,
-			Vehicle, 4.0
+			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Air
@@ -86,7 +86,7 @@
 			Infantry, 1.0,
 			Turret, 2.0,
 			TacticalStructure, 3.0,
-			Vehicle, 4.0
+			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Air
@@ -99,7 +99,7 @@
 			Infantry, 1.0,
 			Turret, 2.0,
 			TacticalStructure, 3.0,
-			Vehicle, 4.0
+			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Air
@@ -114,7 +114,7 @@
 			Turret, 3.0,
 			TacticalStructure, 4.0,
 			Structure, 5.0,
-			Vehicle, 6.0
+			Vehicle, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall
@@ -128,7 +128,7 @@
 			Turret, 2.0,
 			TacticalStructure, 3.0,
 			Structure, 4.0,
-			Vehicle, 5.0
+			Vehicle, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
@@ -143,7 +143,7 @@
 			Air, 3.0,
 			Turret, 4.0,
 			TacticalStructure, 5.0,
-			Structure, 6.0
+			Structure, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall
@@ -157,7 +157,7 @@
 			Turret, 2.0,
 			TacticalStructure, 3.0,
 			Structure, 4.0,
-			Infantry, 5.0
+			Infantry, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
@@ -171,7 +171,7 @@
 			Vehicle, 2.0,
 			Turret, 3.0,
 			Infantry, 4.0, 
-			TacticalStructure, 5.0
+			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure
@@ -186,7 +186,7 @@
 			Infantry, 3.0,
 			Turret, 4.0,
 			TacticalStructure, 5.0,
-			Structure, 6.0
+			Structure, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall
@@ -201,7 +201,7 @@
 			TacticalStructure, 3.0,
 			Structure, 4.0,
 			Infantry, 5.0,
-			Vehicle, 6.0
+			Vehicle, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall
@@ -215,7 +215,7 @@
 			TacticalStructure, 2.0,
 			Structure, 3.0,
 			Infantry, 4.0,
-			Vehicle, 5.0
+			Vehicle, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
@@ -229,7 +229,7 @@
 			TacticalStructure, 2.0,
 			Structure, 3.0,
 			Vehicle, 4.0,
-			Infantry, 5.0
+			Infantry, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
@@ -249,7 +249,7 @@
 			Turret, 3.0,
 			Infantry, 4.0,
 			Structure, 5.0,
-			TacticalStructure, 6.0
+			TacticalStructure, 6.0,
         </Attack_Priorities>
         <Category_Exclusions>
             Wall, Air
@@ -264,7 +264,7 @@
 			Turret, 2.0,
 			Infantry, 4.0,
 			Structure, 3.0,
-			TacticalStructure, 4.0
+			TacticalStructure, 4.0,
         </Attack_Priorities>
         <Category_Exclusions>
             Wall
@@ -275,7 +275,7 @@
 
 	<Priority_Set Name="Lancet_TP">
 		<Attack_Priorities>
-			Air, 1.0
+			Air, 1.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure
@@ -303,7 +303,7 @@
 			Infantry, 2.0,
 			Vehicle, 3.0,
 			Turret, 4.0,
-			TacticalStructure, 5.0
+			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Air
@@ -534,7 +534,7 @@
 			Turret, 3.0,    
 			TacticalStructure, 4.0,
 			LandHero, 5.0,
-			Infantry, 6.0
+			Infantry, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air

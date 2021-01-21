@@ -5179,13 +5179,13 @@
 		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5198,13 +5198,13 @@
 		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5217,13 +5217,13 @@
 		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5235,13 +5235,13 @@
 		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_One_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5253,26 +5253,26 @@
 		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen_4,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Dummy_20,
+			HP_Rebel_Station_Dummy_21,
+			HP_Rebel_Station_Dummy_30,
+			HP_Rebel_Station_Dummy_31,
+			HP_Rebel_Station_Dummy_32,
+			HP_Rebel_Station_Dummy_40,
+			HP_Rebel_Station_Dummy_41,
+			HP_Rebel_Station_Dummy_42,
+			HP_Rebel_Station_Dummy_50,
+			HP_Rebel_Station_Dummy_51,
+			HP_Rebel_Station_Dummy_52,
+			HP_Rebel_Station_Dummy_53,
+			HP_Rebel_Station_Dummy_54,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5285,26 +5285,26 @@
 		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen_4,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Dummy_20,
+			HP_Rebel_Station_Dummy_21,
+			HP_Rebel_Station_Dummy_30,
+			HP_Rebel_Station_Dummy_31,
+			HP_Rebel_Station_Dummy_32,
+			HP_Rebel_Station_Dummy_40,
+			HP_Rebel_Station_Dummy_41,
+			HP_Rebel_Station_Dummy_42,
+			HP_Rebel_Station_Dummy_50,
+			HP_Rebel_Station_Dummy_51,
+			HP_Rebel_Station_Dummy_52,
+			HP_Rebel_Station_Dummy_53,
+			HP_Rebel_Station_Dummy_54,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5317,26 +5317,26 @@
 		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen_4,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Dummy_20,
+			HP_Rebel_Station_Dummy_21,
+			HP_Rebel_Station_Dummy_30,
+			HP_Rebel_Station_Dummy_31,
+			HP_Rebel_Station_Dummy_32,
+			HP_Rebel_Station_Dummy_40,
+			HP_Rebel_Station_Dummy_41,
+			HP_Rebel_Station_Dummy_42,
+			HP_Rebel_Station_Dummy_50,
+			HP_Rebel_Station_Dummy_51,
+			HP_Rebel_Station_Dummy_52,
+			HP_Rebel_Station_Dummy_53,
+			HP_Rebel_Station_Dummy_54,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5348,26 +5348,26 @@
 		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<HardPoints>
-			HP_Rebel_Station_One_CCM,
-			HP_Rebel_Station_One_LC,
-			HP_Rebel_Station_One_TBL,
-			HP_Rebel_Station_Four_ShieldGen,
-			HP_Rebel_Station_One_Fighter_Bay,
-			HP_Rebel_Station_Two_LC,
-			HP_Rebel_Station_Two_PRT,
-			HP_Rebel_Station_Three_CCM,
-			HP_Rebel_Station_Three_IC,
-			HP_Rebel_Station_Three_PRT,
-			HP_Rebel_Station_Four_IC,
-			HP_Rebel_Station_Four_LC,
-			HP_Rebel_Station_Four_TBL,
-			HP_Rebel_Station_Five_CCM,
-			HP_Rebel_Station_Five_IC,
-			HP_Rebel_Station_Five_PRT,
-			HP_Rebel_Station_Five_TBL,
-			HP_Rebel_Station_Five_TBL2,
-			HP_Rebel_Station_One_Supply_Dock_Dummy,
-			HP_Rebel_Station_One_Comm_Array_Dummy
+			HP_Rebel_Station_Dummy_10,
+			HP_Rebel_Station_Dummy_11,
+			HP_Rebel_Station_Dummy_12,
+			HP_Rebel_Station_ShieldGen_4,
+			HP_Rebel_Station_Fighter_Bay,
+			HP_Rebel_Station_Dummy_20,
+			HP_Rebel_Station_Dummy_21,
+			HP_Rebel_Station_Dummy_30,
+			HP_Rebel_Station_Dummy_31,
+			HP_Rebel_Station_Dummy_32,
+			HP_Rebel_Station_Dummy_40,
+			HP_Rebel_Station_Dummy_41,
+			HP_Rebel_Station_Dummy_42,
+			HP_Rebel_Station_Dummy_50,
+			HP_Rebel_Station_Dummy_51,
+			HP_Rebel_Station_Dummy_52,
+			HP_Rebel_Station_Dummy_53,
+			HP_Rebel_Station_Dummy_54,
+			HP_Rebel_Station_Supply_Dock_Dummy,
+			HP_Rebel_Station_Comm_Array_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5380,13 +5380,13 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Dummy_13,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5399,13 +5399,13 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Dummy_13,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5418,13 +5418,13 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Dummy_13,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5436,13 +5436,13 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_03,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Dummy_13,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5454,26 +5454,26 @@
 		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Dummy_20,
+			HP_Empire_Station_Dummy_21,
+			HP_Empire_Station_Dummy_22,
+			HP_Empire_Station_Dummy_30,
+			HP_Empire_Station_Dummy_31,
+			HP_Empire_Station_Dummy_32,
+			HP_Empire_Station_Dummy_40,
+			HP_Empire_Station_Dummy_41,
+			HP_Empire_Station_Dummy_42,
+			HP_Empire_Station_Dummy_43,
+			HP_Empire_Station_Dummy_50,
+			HP_Empire_Station_Dummy_51,
+			HP_Empire_Station_Dummy_52,
+			HP_Empire_Station_Dummy_53,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5486,26 +5486,26 @@
 		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Dummy_20,
+			HP_Empire_Station_Dummy_21,
+			HP_Empire_Station_Dummy_22,
+			HP_Empire_Station_Dummy_30,
+			HP_Empire_Station_Dummy_31,
+			HP_Empire_Station_Dummy_32,
+			HP_Empire_Station_Dummy_40,
+			HP_Empire_Station_Dummy_41,
+			HP_Empire_Station_Dummy_42,
+			HP_Empire_Station_Dummy_43,
+			HP_Empire_Station_Dummy_50,
+			HP_Empire_Station_Dummy_51,
+			HP_Empire_Station_Dummy_52,
+			HP_Empire_Station_Dummy_53,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5518,26 +5518,26 @@
 		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Dummy_20,
+			HP_Empire_Station_Dummy_21,
+			HP_Empire_Station_Dummy_22,
+			HP_Empire_Station_Dummy_30,
+			HP_Empire_Station_Dummy_31,
+			HP_Empire_Station_Dummy_32,
+			HP_Empire_Station_Dummy_40,
+			HP_Empire_Station_Dummy_41,
+			HP_Empire_Station_Dummy_42,
+			HP_Empire_Station_Dummy_43,
+			HP_Empire_Station_Dummy_50,
+			HP_Empire_Station_Dummy_51,
+			HP_Empire_Station_Dummy_52,
+			HP_Empire_Station_Dummy_53,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -5550,178 +5550,26 @@
 		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
-		</HardPoints>
-		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
-	</SpaceProp>
-
-
-	<SpaceProp Name="Empire_Stationx1">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>Empire_Station</Land_Model_Name>
-		<Space_Model_Name>Empire_Station.ALO</Space_Model_Name>
-		<Scale_Factor>2</Scale_Factor>
-		<HardPoints>
-			HP_Empire_Station_01,
-			HP_Empire_Station_02,
-			HP_Empire_Station_03,
-			HP_Empire_Station_04,
-			HP_Empire_Station_05,
-			HP_Empire_Station_06,
-			HP_Empire_Station_07,
-			HP_Empire_Station_08,
-			HP_Empire_Station_09,
-			HP_Empire_Station_10,
-			HP_Empire_Station_11,
-			HP_Empire_Station_12,
-			HP_Empire_Station_13,
-			HP_Empire_Station_14,
-			HP_Empire_Station_15,
-			HP_Empire_Station_16,
-			HP_Empire_Station_17,
-			HP_Empire_Station_18,
-			HP_Empire_Station_19,
-			HP_Empire_Station_20,
-			HP_Empire_Station_21,
-			HP_Empire_Station_22,
-			HP_Empire_Station_shield,
-			HP_Empire_Station_Fighter_Bay_01,
-			HP_Empire_Station_Fighter_Bay_02,
-			HP_Empire_Station_Comm_Array
-		</HardPoints>
-		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
-	</SpaceProp>
-
-
-	<SpaceProp Name="Empire_Stationx2">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>Empire_Station.ALO</Land_Model_Name>
-		<Space_Model_Name>Empire_Station.ALO</Space_Model_Name>
-		<Scale_Factor>4</Scale_Factor>
-		<HardPoints>
-			HP_Empire_Station_01,
-			HP_Empire_Station_02,
-			HP_Empire_Station_03,
-			HP_Empire_Station_04,
-			HP_Empire_Station_05,
-			HP_Empire_Station_06,
-			HP_Empire_Station_07,
-			HP_Empire_Station_08,
-			HP_Empire_Station_09,
-			HP_Empire_Station_10,
-			HP_Empire_Station_11,
-			HP_Empire_Station_12,
-			HP_Empire_Station_13,
-			HP_Empire_Station_14,
-			HP_Empire_Station_15,
-			HP_Empire_Station_16,
-			HP_Empire_Station_17,
-			HP_Empire_Station_18,
-			HP_Empire_Station_19,
-			HP_Empire_Station_20,
-			HP_Empire_Station_21,
-			HP_Empire_Station_22,
-			HP_Empire_Station_shield,
-			HP_Empire_Station_Fighter_Bay_01,
-			HP_Empire_Station_Fighter_Bay_02,
-			HP_Empire_Station_Comm_Array
-		</HardPoints>
-		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
-	</SpaceProp>
-
-
-	<SpaceProp Name="Empire_Stationx3">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>Empire_Station.ALO</Land_Model_Name>
-		<Space_Model_Name>Empire_Station.ALO</Space_Model_Name>
-		<Scale_Factor>7</Scale_Factor>
-		<HardPoints>
-			HP_Empire_Station_01,
-			HP_Empire_Station_02,
-			HP_Empire_Station_03,
-			HP_Empire_Station_04,
-			HP_Empire_Station_05,
-			HP_Empire_Station_06,
-			HP_Empire_Station_07,
-			HP_Empire_Station_08,
-			HP_Empire_Station_09,
-			HP_Empire_Station_10,
-			HP_Empire_Station_11,
-			HP_Empire_Station_12,
-			HP_Empire_Station_13,
-			HP_Empire_Station_14,
-			HP_Empire_Station_15,
-			HP_Empire_Station_16,
-			HP_Empire_Station_17,
-			HP_Empire_Station_18,
-			HP_Empire_Station_19,
-			HP_Empire_Station_20,
-			HP_Empire_Station_21,
-			HP_Empire_Station_22,
-			HP_Empire_Station_shield,
-			HP_Empire_Station_Fighter_Bay_01,
-			HP_Empire_Station_Fighter_Bay_02,
-			HP_Empire_Station_Comm_Array
-		</HardPoints>
-		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
-	</SpaceProp>
-
-
-	<SpaceProp Name="Empire_Stationx4">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>Empire_Station.ALO</Land_Model_Name>
-		<Space_Model_Name>Empire_Station.ALO</Space_Model_Name>
-		<Scale_Factor>10</Scale_Factor>
-		<HardPoints>
-			HP_Empire_Station_01,
-			HP_Empire_Station_02,
-			HP_Empire_Station_03,
-			HP_Empire_Station_04,
-			HP_Empire_Station_05,
-			HP_Empire_Station_06,
-			HP_Empire_Station_07,
-			HP_Empire_Station_08,
-			HP_Empire_Station_09,
-			HP_Empire_Station_10,
-			HP_Empire_Station_11,
-			HP_Empire_Station_12,
-			HP_Empire_Station_13,
-			HP_Empire_Station_14,
-			HP_Empire_Station_15,
-			HP_Empire_Station_16,
-			HP_Empire_Station_17,
-			HP_Empire_Station_18,
-			HP_Empire_Station_19,
-			HP_Empire_Station_20,
-			HP_Empire_Station_21,
-			HP_Empire_Station_22,
-			HP_Empire_Station_shield,
-			HP_Empire_Station_Fighter_Bay_01,
-			HP_Empire_Station_Fighter_Bay_02,
-			HP_Empire_Station_Comm_Array
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Dummy_20,
+			HP_Empire_Station_Dummy_21,
+			HP_Empire_Station_Dummy_22,
+			HP_Empire_Station_Dummy_30,
+			HP_Empire_Station_Dummy_31,
+			HP_Empire_Station_Dummy_32,
+			HP_Empire_Station_Dummy_40,
+			HP_Empire_Station_Dummy_41,
+			HP_Empire_Station_Dummy_42,
+			HP_Empire_Station_Dummy_43,
+			HP_Empire_Station_Dummy_50,
+			HP_Empire_Station_Dummy_51,
+			HP_Empire_Station_Dummy_52,
+			HP_Empire_Station_Dummy_53,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 

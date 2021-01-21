@@ -81,7 +81,6 @@
 			HP_CC-7700_02,
 			HP_CC-7700_03,
 			HP_CC-7700_Engines,
-			HP_CC-7700_Shield_Generator,
 			HP_CC-7700_GravWell
 		</HardPoints>
 
@@ -255,7 +254,6 @@
 			HP_CC-7700_E_06,
 			HP_CC-7700_E_07,
 			HP_CC-7700_Engines,
-			HP_CC-7700_Shield_Generator,
 			HP_CC-7700_GravWell
 		</HardPoints>
 

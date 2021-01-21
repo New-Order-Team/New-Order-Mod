@@ -18,24 +18,6 @@
 		<CategoryMask> Capital | AntiFrigate  | AntiCapital | SpaceHero </CategoryMask>
 		
 		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-	
-		<HardPoints>
-			Hp_NebulaSD_00,
-			Hp_NebulaSD_01,
-			Hp_NebulaSD_02,
-			Hp_NebulaSD_03,
-			Hp_NebulaSD_04,
-			Hp_NebulaSD_05,
-			Hp_NebulaSD_06,
-			Hp_NebulaSD_07,
-			Hp_NebulaSD_08,
-			Hp_NebulaSD_09,
-			Hp_NebulaSD_10,
-			Hp_NebulaSD_11,
-			Hp_NebulaSD_12,
-			Hp_NebulaSD_13,
-			Hp_NebulaSD_Engines
-		</HardPoints>
 		
 		<Shield_Points>10000</Shield_Points>
 		<Tactical_Health>4000</Tactical_Health>

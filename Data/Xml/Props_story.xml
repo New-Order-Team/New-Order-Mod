@@ -2577,8 +2577,7 @@
 			HP_EXECUTOR_SHIELD_01,
 			HP_EXECUTOR_SHIELD_02,
 			HP_EXECUTOR_ENGINES_00,
-			HP_EXECUTOR_ENGINES_01,
-			HP_EXECUTOR_FIGHTER_BAY_00
+			HP_EXECUTOR_ENGINES_01
 		</HardPoints>
 
 
@@ -2754,26 +2753,26 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_Empire_Station_One_00,
-			HP_Empire_Station_One_01,
-			HP_Empire_Station_One_02,
-			HP_Empire_Station_One_Fighter_Bay,
-			HP_Empire_Station_One_Comm_Array_Dummy,
-			HP_Empire_Station_Two_00,
-			HP_Empire_Station_Two_01,
-			HP_Empire_Station_Two_02,
-			HP_Empire_Station_Three_00,
-			HP_Empire_Station_Three_01,
-			HP_Empire_Station_Three_02,
-			HP_Empire_Station_Four_00,
-			HP_Empire_Station_Four_01,
-			HP_Empire_Station_Four_02,
-			HP_Empire_Station_Four_03,
-			HP_Empire_Station_Five_00,
-			HP_Empire_Station_Five_01,
-			HP_Empire_Station_Five_02,
-			HP_Empire_Station_Five_03,
-			HP_Empire_Station_One_Supply_Dock_Dummy
+			HP_Empire_Station_Dummy_10,
+			HP_Empire_Station_Dummy_11,
+			HP_Empire_Station_Dummy_12,
+			HP_Empire_Station_Fighter_Bay,
+			HP_Empire_Station_Comm_Array_Dummy,
+			HP_Empire_Station_Dummy_20,
+			HP_Empire_Station_Dummy_21,
+			HP_Empire_Station_Dummy_22,
+			HP_Empire_Station_Dummy_30,
+			HP_Empire_Station_Dummy_31,
+			HP_Empire_Station_Dummy_32,
+			HP_Empire_Station_Dummy_40,
+			HP_Empire_Station_Dummy_41,
+			HP_Empire_Station_Dummy_42,
+			HP_Empire_Station_Dummy_43,
+			HP_Empire_Station_Dummy_50,
+			HP_Empire_Station_Dummy_51,
+			HP_Empire_Station_Dummy_52,
+			HP_Empire_Station_Dummy_53,
+			HP_Empire_Station_Supply_Dock_Dummy
 		</HardPoints>
 
 <!-- Comm array and supply dock should be replaced by dummy hard points -->

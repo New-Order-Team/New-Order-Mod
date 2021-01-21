@@ -10293,7 +10293,7 @@
             <Damage_Decal />
             <Damage_Particles>HP_E02_EMITDAMAGE</Damage_Particles>
 	</HardPoint>
-	<HardPoint Name="Hp_Strident_Dummy_08">
+	<HardPoint Name="Hp_Strident_Dummy_12">
 			<Type> HARD_POINT_DUMMY_ART </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -10302,7 +10302,7 @@
             <Damage_Decal></Damage_Decal>
             <Damage_Particles>HP_S01_emitdamage</Damage_Particles>
 	</HardPoint>
-	<HardPoint Name="Hp_Strident_Dummy_09">
+	<HardPoint Name="Hp_Strident_Dummy_13">
 			<Type> HARD_POINT_DUMMY_ART </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>

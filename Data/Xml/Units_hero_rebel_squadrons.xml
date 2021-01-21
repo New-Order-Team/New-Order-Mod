@@ -193,7 +193,7 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		
 		<HardPoints>
-			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+			HP_X_Wing_00
 		</HardPoints>
 		
 		<Create_Team>Yes</Create_Team>
@@ -566,7 +566,7 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		
 		<HardPoints>
-			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+			HP_X_Wing_00
 		</HardPoints>
 		
 		<Create_Team>Yes</Create_Team>
@@ -1336,7 +1336,7 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		
 		<HardPoints>
-			HP_X_Wing_00_Rogues, HP_X_Wing_00_Rogues_Ab
+			HP_X_Wing_00
 		</HardPoints>
 		
 		<Create_Team>Yes</Create_Team>
@@ -1665,7 +1665,7 @@
 		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
-			HP_A_Wing_00_CFG
+			HP_A_Wing_00
 		</HardPoints>
 
 		<Create_Team>Yes</Create_Team>
@@ -1866,7 +1866,7 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		
 		<HardPoints>
-			HP_X_Wing_01_Rogues, HP_X_Wing_01_Rogues_Ab
+			HP_X_Wing_00
 		</HardPoints>
 		
 		<Create_Team>Yes</Create_Team>
@@ -2041,7 +2041,7 @@
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 		
 		<HardPoints>
-			Wing_00_TYA
+			HP_E-Wing_00
 		</HardPoints>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">

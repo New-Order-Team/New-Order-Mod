@@ -1985,7 +1985,7 @@
 			<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
-	<HardPoint Name="HP_Alliance_Assault_Frigate_05">
+	<HardPoint Name="HP_Alliance_Assault_Frigate2_05">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -4944,7 +4944,7 @@
 				<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 			<Fire_Category_Restrictions> Fighter, Bomber, Corvette, Transport </Fire_Category_Restrictions>
     </HardPoint>
-	<HardPoint Name="HP_Liberator_Fighter_Bay">
+	<HardPoint Name="HP_Liberator_Fighter_Bay1">
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>no</Is_Targetable>
 		<Is_Destroyable>no</Is_Destroyable>

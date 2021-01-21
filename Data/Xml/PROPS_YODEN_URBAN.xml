@@ -630,15 +630,6 @@
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Urban>
 
-	<Props_Urban Name="Prop_Urban_Block_A_MISSION11">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_UrbanBlock_A_Mission11.ALO</Land_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>No</Is_Decoration>
-		<Is_Discardable>No</Is_Discardable>
-	</Props_Urban>
-
 	<Props_Urban Name="Prop_Urban_Block_Bx1">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_UrbanBlock_B.ALO</Land_Model_Name>
@@ -1671,15 +1662,6 @@
 		<Scale_Factor>2.0</Scale_Factor>
 		<Space_Layer> Frigate | Corvette </Space_Layer>
 		<Is_Decoration>No</Is_Decoration>
-		<Is_Discardable>No</Is_Discardable>
-	</Props_Urban>
-	<Props_Urban Name="Prop_Urban_Wall_D_HUGE">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_UrbanWall_B.ALO</Land_Model_Name>
-		<Scale_Factor>5.0</Scale_Factor>
-		<Space_Layer> Frigate | Corvette </Space_Layer>
-		<Is_Decoration>No</Is_Decoration>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
 		<Is_Discardable>No</Is_Discardable>
 	</Props_Urban>
 

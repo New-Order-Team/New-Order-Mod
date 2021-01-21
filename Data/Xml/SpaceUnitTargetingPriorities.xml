@@ -107,7 +107,7 @@
 			SLS_Fighter, 3.0,
 			Transport, 4.0,
 			Corvette, 5.0,
-			Capital 6.0,
+			Capital, 6.0,
 			SpaceHero, 7.0,
 			Frigate, 8.0,
 		</Attack_Priorities>

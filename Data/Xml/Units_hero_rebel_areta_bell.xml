@@ -96,17 +96,7 @@
 		<Starting_Spawned_Units_Tech_5>E_Wing_Squadron2, 7</Starting_Spawned_Units_Tech_5>
 
 		<Death_Clone>Damage_Normal, EnduranceSD_Death_Clone</Death_Clone>
-
-		<HardPoints>
-			HP_Endurance_00,
-			HP_Endurance_01,
-			HP_Endurance_02,
-			HP_Endurance_03,
-			HP_Endurance_04,
-			HP_Endurance_05,
-			Hp_NebulaSD_Engines,
-			Hp_NebulaSD_Fighter_Bay
-		</HardPoints>
+		
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
