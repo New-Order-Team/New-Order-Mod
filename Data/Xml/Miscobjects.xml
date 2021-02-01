@@ -1,22 +1,5 @@
 <?xml version="1.0"?>
 <MiscObjects>
-	<!-- New Order specific markers -->
-	
-    <MiscObject Name="Neutral_Bonus_Marker_Space">
-        <Text_ID> </Text_ID>
-		<Is_Decoration>No</Is_Decoration>
-        <Space_Model_Name>w_flag_marker_White.alo</Space_Model_Name>
- 		<Lua_Script>NeutralBonusMarkerSpace</Lua_Script>
-    </MiscObject>
-
-    <MiscObject Name="Neutral_Bonus_Marker_Land">
-        <Text_ID> </Text_ID>
-		<Is_Decoration>No</Is_Decoration>
-        <Land_Model_Name>w_flag_marker_White.alo</Land_Model_Name>
- 		<Lua_Script>NeutralBonusMarkerLand</Lua_Script>
-    </MiscObject>
-	
-	<!-- New Order specific markers END -->
 
 	<MiscObject Name="Demolition_Bomb">
 		<Text_ID>TEXT_OBJECT_BOMB</Text_ID>
@@ -46,6 +29,7 @@
 		<CategoryMask> Corvette  </CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Influences_Capture_Point>no</Influences_Capture_Point>
+		<Immune_To_Damage>True</Immune_To_Damage>  <!-- Thx to Galyana from Tournament Edition Mod for this fix -->
    </MiscObject>
 
    <MiscObject Name="Credit_Power_Up">

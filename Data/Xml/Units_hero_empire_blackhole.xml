@@ -176,7 +176,6 @@
 		<Size_Value>75</Size_Value>
 		<Damage>2833</Damage>
 		<Autoresolve_Health>9724</Autoresolve_Health>
-		<Lua_Script>HeroScript_Cronal</Lua_Script>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<CategoryMask> SpaceHero </CategoryMask>

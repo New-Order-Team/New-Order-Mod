@@ -63,7 +63,7 @@
     
     <CommandBarComponent Name="Text_Planetary_Income">
             <Type>TextButton</Type>
-            <Font_Name>Arial Bold</Font_Name>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
             <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_CREDITS_CURRENT</Tooltip_Text>
@@ -107,7 +107,7 @@
     <CommandBarComponent Name="Text_Credits">
             <Type>TextButton</Type>
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
-            <Font_Name>Arial Bold</Font_Name>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
             <Text_Color>175 213 242 255</Text_Color>
             <Right_Justified>True</Right_Justified>
@@ -773,7 +773,7 @@
 
     <CommandBarComponent Name="Text_Day_Credits">
             <Type>TextButton</Type>
-            <Font_Name>Arial Bold</Font_Name>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
             <Text_Color>175 213 242 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_TOTAL_INCOME</Tooltip_Text>
@@ -4250,7 +4250,7 @@
             <Type>TextButton</Type>
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
             <Icon_Texture_Name>i_icon_money_big.tga</Icon_Texture_Name>
-            <Font_Name>Arial Bold</Font_Name>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
             <Text_Color>175 213 242 255</Text_Color>
             <Right_Justified>True</Right_Justified>
@@ -8538,7 +8538,7 @@
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_play_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_command_bar_play_press.tga</Selected_Texture_Name>
-	    <Disabled_Texture_Name>i_button_command_bar_disabled.tga</Disabled_Texture_Name>
+	    <Disabled_Texture_Name>i_button_command_bar_play_disabled.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>

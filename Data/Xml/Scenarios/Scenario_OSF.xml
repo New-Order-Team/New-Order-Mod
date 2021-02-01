@@ -52,8 +52,8 @@
 
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
-        <Empire_Story_Name>Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Empire.xml</Empire_Story_Name>
-		<Rebel_Story_Name> Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Rebel.xml</Rebel_Story_Name>
+        <Story_Name>Empire, Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Empire.xml</Story_Name>
+		<Story_Name>Rebel,  Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Rebel.xml</Story_Name>
         	       
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		
@@ -192,8 +192,8 @@
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
-        <Empire_Story_Name>Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Empire.xml</Empire_Story_Name>
-		<Rebel_Story_Name> Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Rebel.xml</Rebel_Story_Name>
+        <Story_Name>Empire, Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Empire.xml</Story_Name>
+		<Story_Name>Rebel,  Scenarios\Operation_Strike_Fear\Story_Plots_Scenario_OSF_Rebel.xml</Story_Name>
         	       
 		<AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		

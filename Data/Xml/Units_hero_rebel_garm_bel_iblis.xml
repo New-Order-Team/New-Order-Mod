@@ -885,7 +885,7 @@
 		<SFXEvent_Guard>Unit_Guard_Gargantuan</SFXEvent_Guard>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Gargantuan </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Gargantuan </SFXEvent_Health_Critical_Warning>
-  		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
+  		<SFXEvent_Fire>Unit_AT_AT_Laser_Fire</SFXEvent_Fire>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
 		<SFXEvent_Engine_Idle_Loop> Unit_Gargantuan_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>

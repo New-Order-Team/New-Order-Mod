@@ -51,8 +51,8 @@
 
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
-        <Empire_Story_Name>Story_Plots_Sandbox_NoHero_Empire.xml</Empire_Story_Name>
-		<Rebel_Story_Name>Story_Plots_Sandbox_NoHero_Rebel.xml</Rebel_Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_NoHero_Empire.xml</Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_NoHero_Rebel.xml</Story_Name>
         
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		
@@ -353,8 +353,8 @@
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Rebel_Story_Name>Story_Plots_Sandbox_NoHero_Rebel.xml</Rebel_Story_Name>
-        <Empire_Story_Name>Story_Plots_Sandbox_NoHero_Empire.xml</Empire_Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_NoHero_Rebel.xml</Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_NoHero_Empire.xml</Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		
@@ -684,8 +684,8 @@
 
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
-        <Empire_Story_Name>Story_Plots_Sandbox_NoHero_Empire.xml</Empire_Story_Name>
-		<Rebel_Story_Name>Story_Plots_Sandbox_NoHero_Rebel.xml</Rebel_Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_NoHero_Empire.xml</Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_NoHero_Rebel.xml</Story_Name>
         
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		
@@ -1215,8 +1215,8 @@
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Rebel_Story_Name>Story_Plots_Sandbox_NoHero_Rebel.xml</Rebel_Story_Name>
-        <Empire_Story_Name>Story_Plots_Sandbox_NoHero_Empire.xml</Empire_Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_NoHero_Rebel.xml</Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_NoHero_Empire.xml</Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		
@@ -1775,8 +1775,8 @@
 
         <Starting_Active_Player> Empire </Starting_Active_Player>
 
-        <Empire_Story_Name>Story_Plots_Sandbox_56_Empire.xml</Empire_Story_Name>
-		<Rebel_Story_Name>Story_Plots_Sandbox_56_Rebel.xml</Rebel_Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
         
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
 		
@@ -2548,8 +2548,8 @@
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
-		<Rebel_Story_Name>Story_Plots_Sandbox_56_Rebel.xml</Rebel_Story_Name>
-        <Empire_Story_Name>Story_Plots_Sandbox_56_Empire.xml</Empire_Story_Name>
+		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
+        <Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		

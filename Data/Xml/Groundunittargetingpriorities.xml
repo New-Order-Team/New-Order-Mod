@@ -16,23 +16,22 @@
 			TacticalStructure, 2.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air, Vehicle, Turret, LandHero
+			Wall, Structure, Air, Vehicle
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
 	</Priority_Set>
 	
 	<Priority_Set Name="CenturyPriority">
 		<Attack_Priorities>
 			Vehicle, 1.0,
-			Infantry, 2.0,
+			TacticalStructure, 2.0,
 			Structure, 3.0,
-			Turret, 4.0,
-			TacticalStructure, 5.0,
+			Infantry, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- Chariot/Arrow-23 are weak, don't attack anything except mining platforms or weak infantry -->
@@ -40,9 +39,10 @@
 		<Attack_Priorities>
 			TacticalStructure, 1.0,
 			Infantry, 2.0,
+			Vehicle, 10.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air, Vehicle, Turret, LandHero
+			Wall, Structure, Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			PSF_Vanguard, SecForce_Trooper_Disruptor, SpecForce_Ranger_Missile, NR_Marine_Missile, Imperial_Army_Engineer_CSPL_12, Imperial_Army_Engineer_CSPL_12_Remnant, Stormtrooper_Missile_Launcher
@@ -57,9 +57,11 @@
 			Infantry, 2.0,
 			LandHero, 3.0,
 			TacticalStructure, 4.0,
+			Turret, 9.0,
+			Vehicle, 10.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Vehicle, Turret
+			Wall, Structure
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>

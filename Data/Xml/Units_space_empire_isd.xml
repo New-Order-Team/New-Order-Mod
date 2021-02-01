@@ -813,7 +813,7 @@
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-		<Lua_Script>ObjectScript_Dominator</Lua_Script>
+		<Lua_Script>ObjectScript_Immobilizer</Lua_Script>
 		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1467,7 +1467,7 @@
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
-		<Lua_Script>ObjectScript_ISDIIa</Lua_Script>
+		<Lua_Script>ObjectScript_Immobilizer</Lua_Script>
 		
 
 		<Unit_Abilities_Data SubObjectList="Yes">

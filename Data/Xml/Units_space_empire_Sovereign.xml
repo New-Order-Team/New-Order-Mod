@@ -74,7 +74,7 @@
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
-		<Lua_Script>ObjectScript_Sovereign</Lua_Script>
+		<Lua_Script>ObjectScript_Immobilizer</Lua_Script>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 8</Starting_Spawned_Units_Tech_0>

@@ -90,7 +90,7 @@
 		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
 
-		<SFXEvent_Fire>Unit_AT_AT_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_AT_AT_Blaster_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Lancet</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Lancet</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lancet</SFXEvent_Fleet_Move>

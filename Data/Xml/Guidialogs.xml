@@ -2720,6 +2720,17 @@
 			<Outline>No</Outline>
 		</IDC_MAIN_OPTIONS_NETWORK>
 
+		<IDC_MAIN_OPTIONS_MODS>
+			<Name>EmpireAtWar-Bold</Name>
+			<Character_Padding>0</Character_Padding>
+			<Stretch_Factor>1</Stretch_Factor>
+			<Size>9</Size>
+			<Top_Color>253,248,212,255</Top_Color>
+			<Bottom_Color>253,248,212,255</Bottom_Color>
+			<Emboss>No</Emboss>
+			<Outline>No</Outline>
+		</IDC_MAIN_OPTIONS_MODS>
+
 		<IDC_MAIN_OPTIONS_KEYBOARD>
 			<Name>EmpireAtWar-Bold</Name>
 			<Character_Padding>0</Character_Padding>

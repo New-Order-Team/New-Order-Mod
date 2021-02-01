@@ -189,8 +189,8 @@
 	<RetreatAutoResolveWinnerAttrition>0.50</RetreatAutoResolveWinnerAttrition>
 	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
-	<Minimum_Tactical_Overrun_Time_In_Secs> 300.0 </Minimum_Tactical_Overrun_Time_In_Secs>
-	<Tactical_Overrun_Multiple>10000.0</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
+	<Minimum_Tactical_Overrun_Time_In_Secs> 30.0 </Minimum_Tactical_Overrun_Time_In_Secs>
+	<Tactical_Overrun_Multiple>3.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 <!---	<Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple>  --> 		<!-- Comment out to disable overrun auto-resolve -->
 
@@ -487,7 +487,7 @@
 	<Max_Ground_Forces_On_Planet> 10 </Max_Ground_Forces_On_Planet>
 	<!-- UNUSED - unit cap is now per faction in Factions.xml
 	<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap> -->
-	<!--<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized> -->
+	<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized>
 	<Default_Hero_Respawn_Time>180.0</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
 	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
@@ -511,7 +511,7 @@
 	<Occlusion_Silhouettes_Enabled>true</Occlusion_Silhouettes_Enabled>
 	<Laser_Beam_Z_Scale_Factor>8.0</Laser_Beam_Z_Scale_Factor>
     <Laser_Kite_Z_Scale_Factor>1.2</Laser_Kite_Z_Scale_Factor>
-    <Mouse_Over_Highlight_Scale>1.2</Mouse_Over_Highlight_Scale>
+    <Mouse_Over_Highlight_Scale>1.5</Mouse_Over_Highlight_Scale>
 
 	<AI_SpaceEvaluatorRegionSize>2000.0</AI_SpaceEvaluatorRegionSize>
 	<AI_LandEvaluatorRegionSize>2000.0</AI_LandEvaluatorRegionSize>
@@ -737,7 +737,7 @@
 	<Control_Point_Domination_Victory_Time_In_Secs> 30.0 </Control_Point_Domination_Victory_Time_In_Secs>
 	
 	<!--Controls the height of each of the letter box bands done on cinematics as a percentage of the screen-->
-	<Camera_FX_Manager_Letterbox_Height>0.0f</Camera_FX_Manager_Letterbox_Height>
+	<Camera_FX_Manager_Letterbox_Height>.085f</Camera_FX_Manager_Letterbox_Height>
 	
 	<!--Land mode space-style pathfinding -->
 	<LandObjectTrackingInterval> 20 </LandObjectTrackingInterval>
@@ -2622,15 +2622,15 @@
 	<Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
 	<Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
     <Force_Ability_Disable_Time>0.0</Force_Ability_Disable_Time>
-	<Depleted_Shield_Disable_Time>0.0</Depleted_Shield_Disable_Time>
+	<Depleted_Shield_Disable_Time>5.0</Depleted_Shield_Disable_Time>
 	<Depleted_Shield_Damage_Increment>0.0</Depleted_Shield_Damage_Increment>
-	<Depleted_Shield_Regen_Cap>1.25</Depleted_Shield_Regen_Cap>
+	<Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap>
 	
 	<!-- when ships go into nebula, they are tinted/faded using the following settings -->
 	<Nebula_Effect_Color>255, 255, 255, 64</Nebula_Effect_Color>
 	
-	<Base_Shield_Speed_Modifier>1.0f</Base_Shield_Speed_Modifier>
-	<Base_Shield_Vulnerability_Modifier>1.0f</Base_Shield_Vulnerability_Modifier>
+	<Base_Shield_Speed_Modifier>0.5f</Base_Shield_Speed_Modifier>
+	<Base_Shield_Vulnerability_Modifier>2.0f</Base_Shield_Vulnerability_Modifier>
 	
 	<Hardpoint_Recharge_Cutoff_For_Opportunity_Fire> 3.0 </Hardpoint_Recharge_Cutoff_For_Opportunity_Fire>
 	
@@ -2646,7 +2646,7 @@
 	<Saliency_Speed>1.0</Saliency_Speed>
 	
 	<Planet_Reveal_Delay_Time>0.5</Planet_Reveal_Delay_Time>
-	<Base_Shield_Delay_Time>0.0</Base_Shield_Delay_Time>
+	<Base_Shield_Delay_Time>10.0</Base_Shield_Delay_Time>
 	
 	
 	<Star_Wars_Crawl_Start_Fadeout_Frame>800</Star_Wars_Crawl_Start_Fadeout_Frame>
@@ -2670,13 +2670,13 @@
 	
 	<!-- Multiplayer Data Begin -->
 	<Min_Skirmish_Credits>2000</Min_Skirmish_Credits>
-	<Max_Skirmish_Credits>5000</Max_Skirmish_Credits>
+	<Max_Skirmish_Credits>8000</Max_Skirmish_Credits>
 	
 	<!-- Gameplay option defaults -->
 		
 	<MP_Default_Credits>										6000		</MP_Default_Credits>
 	<MP_Default_Start_Tech_Level>							1			</MP_Default_Start_Tech_Level>
-	<MP_Default_Max_Tech_Level>							6			</MP_Default_Max_Tech_Level>
+	<MP_Default_Max_Tech_Level>							5			</MP_Default_Max_Tech_Level>
 	
 	<!-- Auto_Resolve Values, 0 == Always, 1 == Never, 2 == Ask, 3 == Overwhelming odds -->
 	<MP_Default_Allow_Auto_Resolve>						1			</MP_Default_Allow_Auto_Resolve>
@@ -2732,7 +2732,7 @@
 	<Localized_Splash_Screen> FRENCH, 	Splash.DDS </Localized_Splash_Screen>
 	<Localized_Splash_Screen> SPANISH, 	Splash.DDS </Localized_Splash_Screen>
 	<Localized_Splash_Screen> ITALIAN, 	Splash.DDS </Localized_Splash_Screen>
-	<Localized_Splash_Screen> JAPANESE, 	Splash.DDS </Localized_Splash_Screen>
+	<Localized_Splash_Screen> JAPANESE, Splash.DDS </Localized_Splash_Screen>
 	<Localized_Splash_Screen> KOREAN, 	Splash.DDS </Localized_Splash_Screen>
 	<Localized_Splash_Screen> CHINESE, 	Splash.DDS </Localized_Splash_Screen>
 	<Localized_Splash_Screen> POLISH, 	Splash.DDS </Localized_Splash_Screen>
@@ -2742,17 +2742,17 @@
 
 
 	<!-- Localized main menu background overlay asset names -->
-	<Localized_Menu_Overlay> ENGLISH, 	Menuback_Overlay.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> GERMAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> FRENCH, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> SPANISH, 	Menuback_Overlay_spanish.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> ITALIAN, 	Menuback_Overlay_italian.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> JAPANESE, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> KOREAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> CHINESE, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> RUSSIAN, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> POLISH, 	Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
-	<Localized_Menu_Overlay> THAI, 		Menuback_Overlay_german_french.TGA </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> ENGLISH, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> GERMAN, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> FRENCH, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> SPANISH, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> ITALIAN, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> JAPANESE, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> KOREAN, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> CHINESE, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> RUSSIAN, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> POLISH, 	Menuback_Overlay.DDS </Localized_Menu_Overlay>
+	<Localized_Menu_Overlay> THAI, 		Menuback_Overlay.DDS </Localized_Menu_Overlay>
 
 	<!-- Preferred choice of pathfinder for invading. Non-hero units are always preferred -->
 	<Preferred_Pathfinder_Types>
@@ -2782,7 +2782,7 @@
 	<!-- Game credits -->
 	<Credits_Spacing> 0.04 </Credits_Spacing>
 	<Credits_Scroll_Rate> -0.05 </Credits_Scroll_Rate> 
-	<Credits_Font> EmpireAtWar-Bold </Credits_Font>
+	<Credits_Font> Arial Medium </Credits_Font>
 	<!-- 12.16.2005 Blue text colors per LucasArts --> 	
 	<Credits_Header_Top_Color> 0, 0.72, 0.8 </Credits_Header_Top_Color>
 	<Credits_Header_Bottom_Color>0, 0.72, 0.8  </Credits_Header_Bottom_Color>

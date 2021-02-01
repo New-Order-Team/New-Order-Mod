@@ -68,7 +68,6 @@
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
 		<Autoresolve_Health>450</Autoresolve_Health>
-		<Lua_Script>Lott</Lua_Script>
 
 		<Has_Land_Evaluator>False</Has_Land_Evaluator> <!-- land evaluator is on his at-at -->
 		<AI_Combat_Power>500</AI_Combat_Power>
