@@ -314,7 +314,7 @@
 	
 	<SpaceUnit Name="Dreadnought_Katana">
 		<Variant_Of_Existing_Type>Dreadnought_A</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_DREADNOUGHT_KATANA</Text_ID>
+		<Text_ID>TEXT_UNIT_DREADNOUGHT</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_DREADNOUGHT_KATANA</Encyclopedia_Text>
 		<Max_Speed>1.714</Max_Speed>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>

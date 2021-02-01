@@ -205,7 +205,7 @@
 	</SpaceUnit>
 
      <SpaceUnit Name="Bulwark_Death_Clone">
-		<Text_ID>TEXT_UNIT_BULWARK</Text_ID>
+		<Text_ID>TEXT_UNIT_BULWARK_MK1</Text_ID>
 		<Space_Model_Name>cv_Bulwark_Mk1_rebel_d.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>

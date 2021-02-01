@@ -620,7 +620,7 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Sensor, RHD_Capture_Sensor </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, RHD_Lost_Turbo </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, RHD_Capture_Turbo </SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, RHD_Lost_Mercenaries </SFXEvent_Tactical_Lose_Friendly_Control>
+		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Mercenary_Outfitter, RHD_Capture_Mercenaries </SFXEvent_Tactical_Gain_Friendly_Control>
 <!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, RHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -1471,7 +1471,7 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Sensor, EHD_Capture_Sensor </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, EHD_Lost_Turbo </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, EHD_Capture_Turbo </SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, EHD_Lost_Mercenaries </SFXEvent_Tactical_Lose_Friendly_Control>
+		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Mercenary_Outfitter, EHD_Capture_Mercenaries </SFXEvent_Tactical_Gain_Friendly_Control>
 
 <!--

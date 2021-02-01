@@ -402,7 +402,7 @@
 				<Type>ION_CANNON_SHOT</Type>
 				<Recharge_Seconds>40.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>X_Wing_Torpedo_Strike</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Projectile_Types_Override>Proj_Ship_Proton_Torpedo_Small_95</Projectile_Types_Override>
+				<Projectile_Types_Override>Proj_Ship_Rogues_Proton_Torpedo</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
 				<Supports_Autofire>True</Supports_Autofire>
@@ -669,12 +669,9 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
@@ -751,6 +748,8 @@
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Create_Team_Type>Rogue_Squadron_Luke_Container</Create_Team_Type>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -761,15 +760,106 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
+	
+	<Container Name="Rogue_Squadron_Luke_Container">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_luke_skywalker_pilot.tga</Icon_Name>
+		
+		<Show_Name>No</Show_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12520</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>2.285</Max_Speed>
+		<Min_Speed>1.0</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+ 		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>X_Wing_Torpedo_Strike</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ship_Rogues_Proton_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="X_Wing_Torpedo_Strike">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+	</Container>
 	
 	<!-- Era 3: Aggressor Squadron under Horton Salm -->
 	<UniqueUnit Name="Aggressor_BTL_S3">
@@ -1439,12 +1529,9 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
@@ -1536,6 +1623,8 @@
 		<Population_Value>2</Population_Value>
 		<Is_Homogeneous>Yes</Is_Homogeneous>
 		<Score_Cost_Credits> 16780 </Score_Cost_Credits>
+		
+		<Create_Team_Type>Rogue_Squadron_Wedge_Container</Create_Team_Type>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>16780</Tactical_Build_Cost_Multiplayer>
@@ -1555,15 +1644,106 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
+	
+	<Container Name="Rogue_Squadron_Wedge_Container">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE2</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_wedge_antilles.tga</Icon_Name>
+		
+		<Show_Name>No</Show_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12520</Autoresolve_Health>
+		<Damage>1380</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>2.285</Max_Speed>
+		<Min_Speed>1.0</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+ 		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>X_Wing_Torpedo_Strike</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ship_Rogues_Proton_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="X_Wing_Torpedo_Strike">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+	</Container>
 	
 	<!-- Era 4: Aggressor Squadron under Horton Salm (B-wing/E) -->
 	<UniqueUnit Name="Aggressor_B_Wing_E">
@@ -1969,12 +2149,9 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -2077,6 +2254,8 @@
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Create_Team_Type>Rogue_Squadron_Darklighter_Container</Create_Team_Type>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2087,15 +2266,106 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated></SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_UNIT_HERO_SQ_RED_ABILITY</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_HERO_SQ_RED_ABILITY</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
+	
+	<Container Name="Rogue_Squadron_Darklighter_Container">
+		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE3</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gavin_darklighter.tga</Icon_Name>
+		
+		<Show_Name>No</Show_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>12800</Autoresolve_Health>
+		<Damage>1560</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>99</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>2.285</Max_Speed>
+		<Min_Speed>1.0</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+		
+		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+ 		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_Red_Leader</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_Red_Leader</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>X_Wing_Torpedo_Strike</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ship_Rogues_Proton_Torpedo</Projectile_Types_Override>
+				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="X_Wing_Torpedo_Strike">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+	</Container>
 	
 	<!-- Era 5: Taanab Yellow Aces under Wes Janson -->
 	<UniqueUnit Name="TYA_E_Wing">

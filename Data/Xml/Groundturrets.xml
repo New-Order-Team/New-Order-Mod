@@ -157,10 +157,6 @@
 		<Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>220.0</Targeting_Max_Attack_Distance>
 		
-		<Hardpoints>
-				HP_DF9_Turret
-		</Hardpoints>
-		
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

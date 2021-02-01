@@ -12,7 +12,6 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Attachment_Bone>SPAWN_00</Attachment_Bone>
-		<Collision_Mesh>SPAWN_00</Collision_Mesh>
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
@@ -148,9 +147,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_00</Collision_Mesh>
-		<Damage_Decal>FP01_LC_00</Damage_Decal>
-		<Damage_Particles>FP01_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_00</Fire_Bone_B>
@@ -182,9 +178,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_02</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_02</Collision_Mesh>
-		<Damage_Decal>FP01_LC_02</Damage_Decal>
-		<Damage_Particles>FP01_LC_02</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_02</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_02</Fire_Bone_B>
@@ -216,9 +209,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_01</Collision_Mesh>
-		<Damage_Decal>FP01_LC_01</Damage_Decal>
-		<Damage_Particles>FP01_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
@@ -250,9 +240,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_03</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_03</Collision_Mesh>
-		<Damage_Decal>FP01_LC_03</Damage_Decal>
-		<Damage_Particles>FP01_LC_03</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_03</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_03</Fire_Bone_B>
@@ -284,9 +271,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_00</Damage_Decal>
-		<Damage_Particles>FP01_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_00</Fire_Bone_B>
@@ -318,9 +302,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CM_00</Attachment_Bone>
-		<Collision_Mesh>FP01_CM_00</Collision_Mesh>
-		<Damage_Decal>FP01_CM_00</Damage_Decal>
-		<Damage_Particles>FP01_CM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_CM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CM_00</Fire_Bone_B>
@@ -352,9 +333,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_01</Damage_Decal>
-		<Damage_Particles>FP01_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
@@ -386,7 +364,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CM_01</Attachment_Bone>
-		<Collision_Mesh>FP01_CM_01</Collision_Mesh>
 		<Fire_Bone_A>FP01_CM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -450,9 +427,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_03</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_03</Collision_Mesh>
-		<Damage_Decal>FP01_LC_03</Damage_Decal>
-		<Damage_Particles>FP01_LC_03</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_03</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_03</Fire_Bone_B>
@@ -484,9 +458,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_00</Damage_Decal>
-		<Damage_Particles>FP01_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_00</Fire_Bone_B>
@@ -518,9 +489,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_00</Damage_Decal>
-		<Damage_Particles>FP02_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_00</Fire_Bone_B>
@@ -552,9 +520,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_01</Damage_Decal>
-		<Damage_Particles>FP02_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
@@ -586,9 +551,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP02_PRT_01</Damage_Decal>
-		<Damage_Particles>FP02_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
@@ -620,9 +582,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_01</Collision_Mesh>
-		<Damage_Decal>FP02_LC_01</Damage_Decal>
-		<Damage_Particles>FP02_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_01</Fire_Bone_B>
@@ -654,9 +613,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_01</Collision_Mesh>
-		<Damage_Decal>FP01_LC_01</Damage_Decal>
-		<Damage_Particles>FP01_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
@@ -688,9 +644,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_00</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_00</Collision_Mesh>
-		<Damage_Decal>FP02_PRT_00</Damage_Decal>
-		<Damage_Particles>FP02_PRT_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_PRT_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_00</Fire_Bone_B>
@@ -722,7 +675,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_00</Collision_Mesh>
 		<Fire_Bone_A>FP02_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -786,9 +738,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_CM_00</Attachment_Bone>
-		<Collision_Mesh>FP03_CM_00</Collision_Mesh>
-		<Damage_Decal>FP03_CM_00</Damage_Decal>
-		<Damage_Particles>FP03_CM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_CM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_CM_00</Fire_Bone_B>
@@ -820,9 +769,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_01</Damage_Decal>
-		<Damage_Particles>FP03_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_01</Fire_Bone_B>
@@ -854,9 +800,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_00</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_00</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_00</Damage_Decal>
-		<Damage_Particles>FP03_PRT_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_00</Fire_Bone_B>
@@ -888,9 +831,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_IC_00</Attachment_Bone>
-		<Collision_Mesh>FP03_IC_00</Collision_Mesh>
-		<Damage_Decal>FP03_IC_00</Damage_Decal>
-		<Damage_Particles>FP03_IC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_IC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC_00</Fire_Bone_B>
@@ -922,9 +862,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_CM_01</Attachment_Bone>
-		<Collision_Mesh>FP03_CM_01</Collision_Mesh>
-		<Damage_Decal>FP03_CM_01</Damage_Decal>
-		<Damage_Particles>FP01_CM_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_CM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_CM_01</Fire_Bone_B>
@@ -956,7 +893,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_CM_00</Attachment_Bone>
-		<Collision_Mesh>FP03_CM_00</Collision_Mesh>
 		<Fire_Bone_A>FP03_CM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_CM_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1030,9 +966,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_IC_00</Attachment_Bone>
-		<Collision_Mesh>FP04_IC_00</Collision_Mesh>
-		<Damage_Decal>FP04_IC_00</Damage_Decal>
-		<Damage_Particles>FP04_IC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP04_IC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP04_IC_00</Fire_Bone_B>
@@ -1064,9 +997,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_00</Collision_Mesh>
-		<Damage_Decal>FP04_LC_00</Damage_Decal>
-		<Damage_Particles>FP04_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_00</Fire_Bone_B>
@@ -1098,9 +1028,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP04_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP04_TBL_00</Damage_Decal>
-		<Damage_Particles>FP04_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP04_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP04_TBL_00</Fire_Bone_B>
@@ -1132,9 +1059,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP04_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP04_TBL_01</Damage_Decal>
-		<Damage_Particles>FP04_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_TBL_01</Fire_Bone_B>
@@ -1166,9 +1090,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_01</Collision_Mesh>
-		<Damage_Decal>FP04_LC_01</Damage_Decal>
-		<Damage_Particles>FP04_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_01</Fire_Bone_B>
@@ -1200,7 +1121,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_IC_01</Attachment_Bone>
-		<Collision_Mesh>FP04_IC_01</Collision_Mesh>
 		<Fire_Bone_A>FP04_IC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1275,9 +1195,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_CM_01</Attachment_Bone>
-		<Collision_Mesh>FP05_CM_01</Collision_Mesh>
-		<Damage_Decal>FP05_CM_01</Damage_Decal>
-		<Damage_Particles>FP05_CM_01</Damage_Particles>
 
 		<Fire_Bone_A>FP05_CM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_CM_01</Fire_Bone_B>
@@ -1309,9 +1226,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_IC_01</Attachment_Bone>
-		<Collision_Mesh>FP05_IC_01</Collision_Mesh>
-		<Damage_Decal>FP05_IC_01</Damage_Decal>
-		<Damage_Particles>FP05_IC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP05_IC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_IC_01</Fire_Bone_B>
@@ -1343,7 +1257,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_IC_01</Attachment_Bone>
-		<Collision_Mesh>FP03_IC_01</Collision_Mesh>
 		<Fire_Bone_A>FP03_IC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1366,7 +1279,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_CM_01</Attachment_Bone>
-		<Collision_Mesh>FP05_CM_01</Collision_Mesh>
 		<Fire_Bone_A>FP05_CM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1389,9 +1301,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_00</Collision_Mesh>
-		<Damage_Decal>FP01_LC_00</Damage_Decal>
-		<Damage_Particles>FP01_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_00</Fire_Bone_B>
@@ -1423,9 +1332,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_02</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_02</Collision_Mesh>
-		<Damage_Decal>FP01_LC_02</Damage_Decal>
-		<Damage_Particles>FP01_LC_02</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_02</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_02</Fire_Bone_B>
@@ -1457,9 +1363,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_03</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_03</Collision_Mesh>
-		<Damage_Decal>FP01_LC_03</Damage_Decal>
-		<Damage_Particles>FP01_LC_03</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_03</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_03</Fire_Bone_B>
@@ -1491,9 +1394,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_00</Damage_Decal>
-		<Damage_Particles>FP01_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_00</Fire_Bone_B>
@@ -1525,9 +1425,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_00</Damage_Decal>
-		<Damage_Particles>FP02_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_00</Fire_Bone_B>
@@ -1559,9 +1456,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_01</Damage_Decal>
-		<Damage_Particles>FP02_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
@@ -1593,9 +1487,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP02_PRT_01</Damage_Decal>
-		<Damage_Particles>FP02_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
@@ -1627,9 +1518,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_01</Collision_Mesh>
-		<Damage_Decal>FP02_LC_01</Damage_Decal>
-		<Damage_Particles>FP02_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_01</Fire_Bone_B>
@@ -1661,9 +1549,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_01</Damage_Decal>
-		<Damage_Particles>FP03_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_01</Fire_Bone_B>
@@ -1695,9 +1580,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_IC_01</Attachment_Bone>
-		<Collision_Mesh>FP04_IC_01</Collision_Mesh>
-		<Damage_Decal>FP04_IC_01</Damage_Decal>
-		<Damage_Particles>FP04_IC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_IC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_IC_01</Fire_Bone_B>
@@ -1729,9 +1611,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_PRT_00</Attachment_Bone>
-		<Collision_Mesh>FP05_PRT_00</Collision_Mesh>
-		<Damage_Decal>FP05_PRT_00</Damage_Decal>
-		<Damage_Particles>FP05_PRT_00</Damage_Particles>
 
 		<Fire_Bone_A>FP05_PRT_00</Fire_Bone_A>
 		<Fire_Bone_B>FP05_PRT_00</Fire_Bone_B>
@@ -1763,9 +1642,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP05_TBL_00</Damage_Decal>
-		<Damage_Particles>FP05_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP05_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL_00</Fire_Bone_B>
@@ -1799,8 +1675,7 @@
             <Is_Destroyable>No</Is_Destroyable>
 		<Health>1000.0</Health>
 		<Fire_Bone_A>HP_TRAC_BONE</Fire_Bone_A>
-		<Attachment_Bone>HP_TRAC_BONE</Attachment_Bone>             
-		<Collision_Mesh>HP_TRAC_BONE</Collision_Mesh>
+		<Attachment_Bone>HP_TRAC_BONE</Attachment_Bone> 
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles> 
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
 	</HardPoint>
@@ -1816,8 +1691,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Attachment_Bone>SPAWN_00</Attachment_Bone>             
-		<Collision_Mesh>SPAWN_00</Collision_Mesh>
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>           
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
@@ -1961,9 +1835,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_00</Damage_Decal>
-		<Damage_Particles>FP01_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_00</Fire_Bone_B>
@@ -1995,9 +1866,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_01</Damage_Decal>
-		<Damage_Particles>FP01_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
@@ -2029,9 +1897,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_00</Collision_Mesh>
-		<Damage_Decal>FP01_LC_00</Damage_Decal>
-		<Damage_Particles>FP01_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_00</Fire_Bone_B>
@@ -2063,9 +1928,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CCM_00</Attachment_Bone>
-		<Collision_Mesh>FP01_CCM_00</Collision_Mesh>
-		<Damage_Decal>FP01_CCM_00</Damage_Decal>
-		<Damage_Particles>FP01_CCM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_CCM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CCM_00</Fire_Bone_B>
@@ -2097,9 +1959,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_01</Collision_Mesh>
-		<Damage_Decal>FP01_LC_01</Damage_Decal>
-		<Damage_Particles>FP01_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
@@ -2131,7 +1990,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CCM_01</Attachment_Bone>
-		<Collision_Mesh>FP01_CCM_01</Collision_Mesh>
 		<Fire_Bone_A>FP01_CCM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CCM_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -2194,9 +2052,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_00</Damage_Decal>
-		<Damage_Particles>FP02_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_00</Fire_Bone_B>
@@ -2228,9 +2083,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_00</Collision_Mesh>
-		<Damage_Decal>FP02_LC_00</Damage_Decal>
-		<Damage_Particles>FP02_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_00</Fire_Bone_B>
@@ -2262,9 +2114,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_02</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_02</Collision_Mesh>
-		<Damage_Decal>FP02_LC_02</Damage_Decal>
-		<Damage_Particles>FP02_LC_02</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_02</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_02</Fire_Bone_B>
@@ -2296,9 +2145,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP02_PRT_01</Damage_Decal>
-		<Damage_Particles>FP02_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
@@ -2330,9 +2176,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_03</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_03</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_03</Damage_Decal>
-		<Damage_Particles>FP02_TBL_03</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_03</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_03</Fire_Bone_B>
@@ -2364,9 +2207,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_01</Collision_Mesh>
-		<Damage_Decal>FP02_LC_01</Damage_Decal>
-		<Damage_Particles>FP02_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_01</Fire_Bone_B>
@@ -2398,7 +2238,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_03</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_03</Collision_Mesh>
 		<Fire_Bone_A>FP02_LC_03</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -2461,9 +2300,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_CCM_00</Attachment_Bone>
-		<Collision_Mesh>FP03_CCM_00</Collision_Mesh>
-		<Damage_Decal>FP03_CCM_00</Damage_Decal>
-		<Damage_Particles>FP03_CCM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_CCM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_CCM_00</Fire_Bone_B>
@@ -2495,9 +2331,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_02</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_02</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_02</Damage_Decal>
-		<Damage_Particles>FP02_TBL_02</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_02</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_02</Fire_Bone_B>
@@ -2529,9 +2362,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_01</Damage_Decal>
-		<Damage_Particles>FP03_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_01</Fire_Bone_B>
@@ -2563,9 +2393,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_IC_00</Attachment_Bone>
-		<Collision_Mesh>FP03_IC_00</Collision_Mesh>
-		<Damage_Decal>FP03_IC_00</Damage_Decal>
-		<Damage_Particles>FP03_IC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_IC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC_00</Fire_Bone_B>
@@ -2597,9 +2424,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_01</Damage_Decal>
-		<Damage_Particles>FP02_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
@@ -2631,9 +2455,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_00</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_00</Collision_Mesh>
-		<Damage_Decal>FP02_PRT_00</Damage_Decal>
-		<Damage_Particles>FP02_PRT_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_PRT_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_00</Fire_Bone_B>
@@ -2665,9 +2486,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_00</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_00</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_00</Damage_Decal>
-		<Damage_Particles>FP03_PRT_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_00</Fire_Bone_B>
@@ -2699,9 +2517,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_IC_01</Attachment_Bone>
-		<Collision_Mesh>FP03_IC_01</Collision_Mesh>
-		<Damage_Decal>FP03_IC_01</Damage_Decal>
-		<Damage_Particles>FP03_IC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_IC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC_01</Fire_Bone_B>
@@ -2795,9 +2610,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CCM_00</Attachment_Bone>
-		<Collision_Mesh>FP01_CCM_00</Collision_Mesh>
-		<Damage_Decal>FP01_CCM_00</Damage_Decal>
-		<Damage_Particles>FP01_CCM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_CCM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CCM_00</Fire_Bone_B>
@@ -2829,9 +2641,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP02_TBL_00</Damage_Decal>
-		<Damage_Particles>FP02_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_00</Fire_Bone_B>
@@ -2863,9 +2672,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_02</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_02</Collision_Mesh>
-		<Damage_Decal>FP02_LC_02</Damage_Decal>
-		<Damage_Particles>FP02_LC_02</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_02</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_02</Fire_Bone_B>
@@ -2897,9 +2703,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_CCM_01</Attachment_Bone>
-		<Collision_Mesh>FP03_CCM_01</Collision_Mesh>
-		<Damage_Decal>FP03_CCM_01</Damage_Decal>
-		<Damage_Particles>FP03_CCM_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_CCM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_CCM_01</Fire_Bone_B>
@@ -2931,9 +2734,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_01</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_01</Collision_Mesh>
-		<Damage_Decal>FP04_LC_01</Damage_Decal>
-		<Damage_Particles>FP04_LC_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_01</Fire_Bone_B>
@@ -2965,9 +2765,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_02</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_02</Collision_Mesh>
-		<Damage_Decal>FP04_LC_02</Damage_Decal>
-		<Damage_Particles>FP04_LC_02</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_02</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_02</Fire_Bone_B>
@@ -2999,9 +2796,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_03</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_03</Collision_Mesh>
-		<Damage_Decal>FP04_LC_03</Damage_Decal>
-		<Damage_Particles>FP04_LC_03</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_03</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_03</Fire_Bone_B>
@@ -3033,9 +2827,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP04_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP04_TBL_01</Damage_Decal>
-		<Damage_Particles>FP04_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_TBL_01</Fire_Bone_B>
@@ -3067,9 +2858,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP04_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP04_TBL_00</Damage_Decal>
-		<Damage_Particles>FP04_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP04_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP04_TBL_00</Fire_Bone_B>
@@ -3101,9 +2889,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP04_LC_00</Collision_Mesh>
-		<Damage_Decal>FP04_LC_00</Damage_Decal>
-		<Damage_Particles>FP04_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP04_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP04_LC_00</Fire_Bone_B>
@@ -3135,7 +2920,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_TBL_03</Attachment_Bone>
-		<Collision_Mesh>FP02_TBL_03</Collision_Mesh>
 		<Fire_Bone_A>FP02_TBL_03</Fire_Bone_A>
 		<Fire_Bone_B>FP02_TBL_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -3159,7 +2943,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP02_PRT_01</Collision_Mesh>
 		<Fire_Bone_A>FP02_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -3247,7 +3030,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL2_03</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL2_03</Collision_Mesh>
 		<Fire_Bone_A>FP05_TBL2_03</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL2_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -3294,7 +3076,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL2_00</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL2_00</Collision_Mesh>
 		<Fire_Bone_A>FP05_TBL2_00</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL2_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
@@ -3317,9 +3098,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP01_LC_00</Collision_Mesh>
-		<Damage_Decal>FP01_LC_00</Damage_Decal>
-		<Damage_Particles>FP01_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_LC_00</Fire_Bone_B>
@@ -3351,9 +3129,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP02_LC_00</Attachment_Bone>
-		<Collision_Mesh>FP02_LC_00</Collision_Mesh>
-		<Damage_Decal>FP02_LC_00</Damage_Decal>
-		<Damage_Particles>FP02_LC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP02_LC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP02_LC_00</Fire_Bone_B>
@@ -3385,9 +3160,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL2_01</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL2_01</Collision_Mesh>
-		<Damage_Decal>FP05_TBL2_01</Damage_Decal>
-		<Damage_Particles>FP05_TBL2_01</Damage_Particles>
 
 		<Fire_Bone_A>FP05_TBL2_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL2_01</Fire_Bone_B>
@@ -3419,9 +3191,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_IC_00</Attachment_Bone>
-		<Collision_Mesh>FP03_IC_00</Collision_Mesh>
-		<Damage_Decal>FP03_IC_00</Damage_Decal>
-		<Damage_Particles>FP03_IC_00</Damage_Particles>
 
 		<Fire_Bone_A>FP03_IC_00</Fire_Bone_A>
 		<Fire_Bone_B>FP03_IC_00</Fire_Bone_B>
@@ -3453,9 +3222,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_CCM_00</Attachment_Bone>
-		<Collision_Mesh>FP05_CCM_00</Collision_Mesh>
-		<Damage_Decal>FP05_CCM_00</Damage_Decal>
-		<Damage_Particles>FP05_CCM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP05_CCM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP05_CCM_00</Fire_Bone_B>
@@ -3487,9 +3253,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL_00</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL_00</Collision_Mesh>
-		<Damage_Decal>FP05_TBL_00</Damage_Decal>
-		<Damage_Particles>FP05_TBL_00</Damage_Particles>
 
 		<Fire_Bone_A>FP05_TBL_00</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL_00</Fire_Bone_B>
@@ -3521,9 +3284,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL2_02</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL2_02</Collision_Mesh>
-		<Damage_Decal>FP05_TBL2_02</Damage_Decal>
-		<Damage_Particles>FP05_TBL2_02</Damage_Particles>
 
 		<Fire_Bone_A>FP05_TBL2_02</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL2_02</Fire_Bone_B>
@@ -3555,9 +3315,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_CCM_00</Attachment_Bone>
-		<Collision_Mesh>FP01_CCM_00</Collision_Mesh>
-		<Damage_Decal>FP01_CCM_00</Damage_Decal>
-		<Damage_Particles>FP01_CCM_00</Damage_Particles>
 
 		<Fire_Bone_A>FP01_CCM_00</Fire_Bone_A>
 		<Fire_Bone_B>FP01_CCM_00</Fire_Bone_B>
@@ -3589,9 +3346,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP01_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP01_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP01_TBL_01</Damage_Decal>
-		<Damage_Particles>FP01_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP01_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
@@ -3623,9 +3377,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP03_PRT_01</Attachment_Bone>
-		<Collision_Mesh>FP03_PRT_01</Collision_Mesh>
-		<Damage_Decal>FP03_PRT_01</Damage_Decal>
-		<Damage_Particles>FP03_PRT_01</Damage_Particles>
 
 		<Fire_Bone_A>FP03_PRT_01</Fire_Bone_A>
 		<Fire_Bone_B>FP03_PRT_01</Fire_Bone_B>
@@ -3657,9 +3408,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP04_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP04_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP04_TBL_01</Damage_Decal>
-		<Damage_Particles>FP04_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP04_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_TBL_01</Fire_Bone_B>
@@ -3691,9 +3439,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_TBL_01</Attachment_Bone>
-		<Collision_Mesh>FP05_TBL_01</Collision_Mesh>
-		<Damage_Decal>FP05_TBL_01</Damage_Decal>
-		<Damage_Particles>FP05_TBL_01</Damage_Particles>
 
 		<Fire_Bone_A>FP05_TBL_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_TBL_01</Fire_Bone_B>
@@ -3725,9 +3470,6 @@
 		<Health>150.0</Health>
 
 		<Attachment_Bone>FP05_CCM_01</Attachment_Bone>
-		<Collision_Mesh>FP05_CCM_01</Collision_Mesh>
-		<Damage_Decal>FP05_CCM_01</Damage_Decal>
-		<Damage_Particles>FP05_CCM_01</Damage_Particles>
 
 		<Fire_Bone_A>FP05_CCM_01</Fire_Bone_A>
 		<Fire_Bone_B>FP05_CCM_01</Fire_Bone_B>
@@ -3762,8 +3504,7 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
-		<Attachment_Bone>TOP</Attachment_Bone>             
-		<Collision_Mesh>TOP</Collision_Mesh>
+		<Attachment_Bone>TOP</Attachment_Bone>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>1000.0</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->

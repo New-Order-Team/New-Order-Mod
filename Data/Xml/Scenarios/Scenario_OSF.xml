@@ -69,13 +69,13 @@
 		<Special_Case_Production> Empire, Estaria_OSF, Imperial_Command_Center</Special_Case_Production>-->
 
 		<!-- Win Conditions -->
-		<Evil_Victory_Conditions>
+		<Human_Victory_Conditions>
 				Galactic_All_Planets_Controlled
-		</Evil_Victory_Conditions>
+		</Human_Victory_Conditions>
 
-		<Good_Victory_Conditions>
+		<AI_Victory_Conditions>
 				Galactic_All_Planets_Controlled
-		</Good_Victory_Conditions>
+		</AI_Victory_Conditions>
 	
 		<!-- Empire Starting Forces -->
 
@@ -204,13 +204,13 @@
 		<Show_Completed_Tab>True</Show_Completed_Tab>
 
 		<!-- Win Conditions -->
-		<Evil_Victory_Conditions>
+		<Human_Victory_Conditions>
 				Galactic_All_Planets_Controlled
-		</Evil_Victory_Conditions>
+		</Human_Victory_Conditions>
 
-		<Good_Victory_Conditions>
+		<AI_Victory_Conditions>
 				Galactic_All_Planets_Controlled
-		</Good_Victory_Conditions>
+		</AI_Victory_Conditions>
 	
 		<!-- Empire Starting Forces -->
 

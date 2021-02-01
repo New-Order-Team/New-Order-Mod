@@ -130,8 +130,6 @@
 		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Han_Solo_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Obi_Wan_Team </Starting_Forces>
 		
 		<!-- Dathomir Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_2 </Starting_Forces>
@@ -144,7 +142,6 @@
 		<Starting_Forces> Rebel, Dathomir, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Yoda_Team </Starting_Forces>
 		
 		<!-- Korriban Space Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
@@ -153,7 +150,6 @@
 		<Starting_Forces> Rebel, Bothawui, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Sundered_Heart </Starting_Forces>
 		<!-- Korriban Land Forces -->
 		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Tank_Buster_Squad </Starting_Forces>
@@ -170,7 +166,6 @@
 		<Starting_Forces> Rebel, Muunilinst, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Muunilinst, Luke_Skywalker_Jedi_Team </Starting_Forces>
 		
 		<!-- Myrkr Space Forces -->
 		<Starting_Forces> Rebel, NalHutta, Rebel_Star_Base_2 </Starting_Forces>
@@ -179,7 +174,6 @@
 		<Starting_Forces> Rebel, NalHutta, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, NalHutta, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, NalHutta, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, NalHutta, Home_One </Starting_Forces>
 		<!-- Myrkr Land Forces -->
 		<Starting_Forces> Rebel, NalHutta, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, NalHutta, Rebel_Tank_Buster_Squad </Starting_Forces>
@@ -196,7 +190,6 @@
 		<Starting_Forces> Rebel, Saleucami, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Garm_Bel_Iblis_Team </Starting_Forces>
                                                      
         <!-- Yavin Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_2 </Starting_Forces>
@@ -205,14 +198,11 @@
 		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>	
-		<Starting_Forces> Rebel, Yavin, Rogue_Squadron_Space </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<!-- Yavin Land Forces -->
-		<Starting_Forces> Rebel, Yavin, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Droids_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
@@ -235,7 +225,6 @@
 		<Starting_Forces> Empire, Anaxes, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Grand_Moff_Tarkin_Team </Starting_Forces>	
 
 		<!-- Bothawui Space Forces -->
 		<Starting_Forces> Empire, Korriban, Empire_Star_Base_2 </Starting_Forces>
@@ -245,13 +234,11 @@
 		<Starting_Forces> Empire, Korriban, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Korriban, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Korriban, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Korriban, General_Veers_Team </Starting_Forces>
 
 		<!-- Corellia Space Forces -->
 		<Starting_Forces> Empire, Corellia, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Corellia, Admonitor_Star_Destroyer </Starting_Forces>
 		<!-- Corellia Land Forces -->
 		<Starting_Forces> Empire, Corellia, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -261,7 +248,6 @@
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
         <!-- Coruscant Land Forces -->
-		<Starting_Forces> Empire, Coruscant, Emperor_Palpatine_Team </Starting_Forces>		
 		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
@@ -275,13 +261,11 @@
 		<Starting_Forces> Empire, Felucia, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Felucia, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Felucia, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Felucia, Boba_Fett_Team </Starting_Forces>
 		
 		<!-- Fresia Space Forces -->
 		<Starting_Forces> Empire, Fresia, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Fresia, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Fresia, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Fresia, Accuser_Star_Destroyer </Starting_Forces>
 		<!-- Fresia Land Forces -->
 		<Starting_Forces> Empire, Fresia, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Fresia, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -291,7 +275,6 @@
 		<Starting_Forces> Empire, Kuat, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Arc_Hammer </Starting_Forces>
 		<!-- Kuat Land Forces -->
 		<Starting_Forces> Empire, Kuat, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -315,7 +298,6 @@
 		<Starting_Forces> Underworld, Honoghr, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Honoghr, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Honoghr, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Honoghr, IG88_Team</Starting_Forces>
 
         <!-- Hypori Space Forces -->
 		<Starting_Forces> Underworld, Hypori, Underworld_Star_Base_2 </Starting_Forces>
@@ -327,7 +309,6 @@
 		<Starting_Forces> Underworld, Hypori, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Hypori, Tyber_Zann_Team</Starting_Forces>
 		
 		<!-- Kashyyyk Space Forces -->
 		<Starting_Forces> Underworld, Kashyyyk, Underworld_Star_Base_2 </Starting_Forces>
@@ -339,7 +320,6 @@
 		<Starting_Forces> Underworld, Kashyyyk, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Kashyyyk, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Kashyyyk, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Kashyyyk, Silri_Team</Starting_Forces>
 		
 		<!-- Mandalore Space Forces -->
 		<Starting_Forces> Underworld, Mandalore, Underworld_Star_Base_2 </Starting_Forces>
@@ -351,7 +331,6 @@
 		<Starting_Forces> Underworld, Mandalore, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Mandalore, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Mandalore, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Mandalore, Bossk_Team </Starting_Forces>
 
 		<!-- NalHutta Space Forces -->
 		<Starting_Forces> Underworld, Myrkr, Underworld_Star_Base_2 </Starting_Forces>
@@ -363,7 +342,6 @@
 		<Starting_Forces> Underworld, Myrkr, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Myrkr, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Myrkr, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Myrkr, Urai_Fen_Team </Starting_Forces>
 
 		<!-- Ryloth Space Forces -->
 		<Starting_Forces> Underworld, Ryloth, Underworld_Star_Base_2 </Starting_Forces>
@@ -530,14 +508,11 @@
 		<Starting_Forces> Rebel, Hoth, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_Cruiser </Starting_Forces>
         <!-- Hoth Land Forces -->
-		<Starting_Forces> Rebel, Hoth, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Droids_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Base_Shield </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
@@ -549,7 +524,6 @@
 		<Starting_Forces> Rebel, Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Sundered_Heart </Starting_Forces>
         <!-- Bespin Land Forces -->
 		<Starting_Forces> Rebel, Bespin, Rebel_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Light_Tank_Brigade </Starting_Forces>
@@ -561,7 +535,6 @@
 		<Starting_Forces> Rebel, Mustafar, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Rogue_Squadron_Space </Starting_Forces>
         <!-- Mustafar Land Forces -->
 		<Starting_Forces> Rebel, Mustafar, Rebel_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
@@ -585,7 +558,6 @@
 		<Starting_Forces> Rebel, Naboo, R_Ground_Officer_Academy </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Field_Com_Rebel_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Garm_Bel_Iblis_Team </Starting_Forces>
         
         <!-- Utapau Space Forces -->
 		<Starting_Forces> Rebel, Utapau, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -595,7 +567,6 @@
 		<Starting_Forces> Rebel, Utapau, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Yoda_Team </Starting_Forces>
         
         <!-- Tatooine Space Forces -->
 		<Starting_Forces> Rebel, Tatooine, Rebel_Star_Base_2 </Starting_Forces>
@@ -606,7 +577,6 @@
 		<Starting_Forces> Rebel, Tatooine, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Obi_Wan_Team </Starting_Forces>
         
         <!-- Mandalore Space Forces -->
 		<Starting_Forces> Rebel, Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -618,14 +588,12 @@
 		<Starting_Forces> Rebel, Mandalore, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Mandalore, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mandalore, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Mandalore, Luke_Skywalker_Jedi_Team </Starting_Forces>
         
         <!-- Bothawui Space Forces -->
 		<Starting_Forces> Rebel, Bothawui, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Han_Solo_Team </Starting_Forces>
         <!-- Bothawui Land Forces -->
 		<Starting_Forces> Rebel, Bothawui, R_Ground_Turbolaser_Tower </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Light_Tank_Brigade </Starting_Forces>
@@ -642,8 +610,7 @@
         <!-- Thyferra Space Forces -->
 		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Thyferra, Acclamator_Assault_Ship </Starting_Forces>		
-		<Starting_Forces> Empire, Thyferra, Admonitor_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Thyferra, Acclamator_Assault_Ship </Starting_Forces>
         <!-- Thyferra Land Forces -->
 		<Starting_Forces> Empire, Thyferra, E_Ground_Officer_Academy </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
@@ -655,7 +622,6 @@
         <!-- Polus Land Forces -->
 		<Starting_Forces> Empire, Polus, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Polus, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Polus, Grand_Moff_Tarkin_Team </Starting_Forces>	
         
         <!-- Jabiim Space Forces -->
 		<Starting_Forces> Empire, Jabiim, Acclamator_Assault_Ship </Starting_Forces>
@@ -665,7 +631,6 @@
 		<Starting_Forces> Empire, Jabiim, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Jabiim, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Jabiim, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Jabiim, General_Veers_Team </Starting_Forces>
         
         <!-- AlzocIII Space Forces -->
 		<Starting_Forces> Empire, AlzocIII, Acclamator_Assault_Ship </Starting_Forces>
@@ -686,7 +651,6 @@
         
         <!-- Carida Space Forces -->
 		<Starting_Forces> Empire, Carida, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Carida, Accuser_Star_Destroyer </Starting_Forces>
         <!-- Carida Land Forces -->
 		<Starting_Forces> Empire, Carida, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -702,12 +666,10 @@
 		<Starting_Forces> Empire, Anaxes, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Boba_Fett_Team </Starting_Forces>
         
         <!-- Coruscant Space Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>
         <!-- Coruscant Land Forces -->
-		<Starting_Forces> Empire, Coruscant, Emperor_Palpatine_Team </Starting_Forces>		
 		<Starting_Forces> Empire, Coruscant, E_Ground_Base_Shield </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
@@ -719,7 +681,6 @@
 		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Byss, Arc_Hammer </Starting_Forces>
         <!-- Byss Land Forces -->
 		<Starting_Forces> Empire, Byss, E_Ground_Turbolaser_Tower </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Imperial_Anti_Infantry_Brigade </Starting_Forces>
@@ -746,7 +707,6 @@
 		<Starting_Forces> Underworld, Wayland, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Wayland, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Wayland, Underworld_Saboteur_Team </Starting_Forces>
-		<Starting_Forces> Underworld, Wayland, Tyber_Zann_Team</Starting_Forces>
 
 		<!-- Kuat Space Forces -->
 		<Starting_Forces> Underworld, Kuat, Underworld_Star_Base_2 </Starting_Forces>
@@ -758,7 +718,6 @@
 		<Starting_Forces> Underworld, Kuat, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Kuat, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Kuat, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Kuat, Silri_Team</Starting_Forces>
         
         <!-- Felucia Space Forces -->
 		<Starting_Forces> Underworld, Felucia, Underworld_Star_Base_2 </Starting_Forces>
@@ -771,7 +730,6 @@
 		<Starting_Forces> Underworld, Felucia, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Felucia, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Felucia, MZ8_Pulse_Cannon_Tank_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Felucia, Urai_Fen_Team </Starting_Forces>
         
         <!-- Myrkr Space Forces -->
 		<Starting_Forces> Underworld, Myrkr, StarViper_Squadron </Starting_Forces>
@@ -804,7 +762,6 @@
         <!-- Korriban Land Forces -->
 		<Starting_Forces> Underworld, Korriban, Destroyer_Droid_Company</Starting_Forces>
 		<Starting_Forces> Underworld, Korriban, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Korriban, Bossk_Team </Starting_Forces>
         
         <!-- Saleucami Space Forces -->
 		<Starting_Forces> Underworld, Saleucami, Skipray_Squadron </Starting_Forces>
@@ -813,7 +770,6 @@
         <!-- Saleucami Land Forces -->
 		<Starting_Forces> Underworld, Saleucami, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Saleucami, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Saleucami, IG88_Team</Starting_Forces>
         
         <!-- Honoghr Space Forces -->
 		<Starting_Forces> Underworld, Honoghr, Underworld_Star_Base_1 </Starting_Forces>
@@ -998,7 +954,6 @@
 		<Starting_Forces> Rebel, Atzerri, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Home_One </Starting_Forces>
 		<!-- Atzerri Land Forces -->
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -1015,7 +970,6 @@
 		<Starting_Forces> Rebel, Bespin, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Rogue_Squadron_Space </Starting_Forces>
 		<!-- Bespin Land Forces -->
 		<Starting_Forces> Rebel, Bespin, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
@@ -1038,7 +992,6 @@
 		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Bonadan, Han_Solo_Team </Starting_Forces>
 		
 		<!-- Dagobah Space Forces -->		
 		<Starting_Forces> Rebel, Dagobah, Rebel_Star_Base_2 </Starting_Forces>
@@ -1053,7 +1006,6 @@
 		<Starting_Forces> Rebel, Dagobah, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dagobah, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Dagobah, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Dagobah, Obi_Wan_Team </Starting_Forces>
 		
 		<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Carida, Rebel_Star_Base_2 </Starting_Forces>
@@ -1070,7 +1022,6 @@
 		<Starting_Forces> Rebel, Carida, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Carida, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Carida, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Carida, Yoda_Team </Starting_Forces>
 		
 		<!-- Dathomir Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_2 </Starting_Forces>
@@ -1087,7 +1038,6 @@
 		<Starting_Forces> Rebel, Dathomir, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Luke_Skywalker_Jedi_Team </Starting_Forces>
 		
 		<!-- Endor Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_2 </Starting_Forces>
@@ -1105,7 +1055,6 @@
 		<Starting_Forces> Rebel, Endor, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Garm_Bel_Iblis_Team </Starting_Forces>
 		
 		<!-- Honoghr Space Forces -->
 		<Starting_Forces> Rebel, Honoghr, Rebel_Star_Base_2 </Starting_Forces>
@@ -1276,7 +1225,6 @@
 		<Starting_Forces> Rebel, Yavin, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Sundered_Heart </Starting_Forces>
 		<!-- Yavin Land Forces -->
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -1297,8 +1245,6 @@
 		<Starting_Forces> Rebel, Hoth, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_Cruiser </Starting_Forces>
         <!-- Hoth Land Forces -->
-		<Starting_Forces> Rebel, Hoth, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Droids_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
@@ -1317,10 +1263,8 @@
 		<Starting_Forces> Empire, Coruscant, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Broadside_Class_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>				
-		<Starting_Forces> Empire, Coruscant, Admonitor_Star_Destroyer </Starting_Forces>
-        <!-- Coruscant Land Forces -->
-		<Starting_Forces> Empire, Coruscant, Emperor_Palpatine_Team </Starting_Forces>		
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer </Starting_Forces>
+        <!-- Coruscant Land Forces -->	
 		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
@@ -1330,7 +1274,6 @@
 		<Starting_Forces> Empire, Abregado_Rae, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Abregado_Rae, Broadside_Class_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Abregado_Rae, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Accuser_Star_Destroyer </Starting_Forces>
 		<!-- Abregado_Rae Land Forces -->
 		<Starting_Forces> Empire, Abregado_Rae, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Abregado_Rae, Empire_Ground_Mining_Facility </Starting_Forces>
@@ -1343,7 +1286,6 @@
 		<Starting_Forces> Empire, AetenII, TIE_Scout_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, AetenII, Broadside_Class_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, AetenII, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, AetenII, Arc_Hammer </Starting_Forces>
 		<!-- AetenII Land Forces -->
 		<Starting_Forces> Empire, AetenII, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, AetenII, Empire_Ground_Mining_Facility </Starting_Forces>
@@ -1368,7 +1310,6 @@
 		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Anaxes, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Anaxes, Grand_Moff_Tarkin_Team </Starting_Forces>	
 		
 		<!-- Byss Space Forces -->
 		<Starting_Forces> Empire, Byss, Empire_Star_Base_2 </Starting_Forces>
@@ -1381,7 +1322,6 @@
 		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Byss, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Byss, General_Veers_Team </Starting_Forces>
 		
 		<!-- Carida Space Forces -->
 		<Starting_Forces> Empire, Dantooine, Empire_Star_Base_2 </Starting_Forces>
@@ -1394,7 +1334,6 @@
 		<Starting_Forces> Empire, Dantooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Dantooine, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Dantooine, Boba_Fett_Team </Starting_Forces>
 		
 		<!-- Corellia Space Forces -->
 		<Starting_Forces> Empire, Corellia, Empire_Star_Base_2 </Starting_Forces>
@@ -1558,7 +1497,6 @@
 		<Starting_Forces> Underworld, Hypori, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Hypori, Tyber_Zann_Team</Starting_Forces>
 
 		<!-- AlzocIII Space Forces -->
 		<Starting_Forces> Underworld, AlzocIII, Underworld_Star_Base_2 </Starting_Forces>
@@ -1570,7 +1508,6 @@
 		<Starting_Forces> Underworld, AlzocIII, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, AlzocIII, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, AlzocIII, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, AlzocIII, Urai_Fen_Team </Starting_Forces>
 		
 		<!-- Bestine Space Forces -->
 		<Starting_Forces> Underworld, Bestine, Underworld_Star_Base_2 </Starting_Forces>
@@ -1582,7 +1519,6 @@
 		<Starting_Forces> Underworld, Bestine, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Bestine, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Bestine, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Bestine, IG88_Team</Starting_Forces>
 		
 		<!-- Bothawui Space Forces -->
 		<Starting_Forces> Underworld, Bothawui, Underworld_Star_Base_2 </Starting_Forces>
@@ -1594,7 +1530,6 @@
 		<Starting_Forces> Underworld, Bothawui, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Bothawui, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Bothawui, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Bothawui, Bossk_Team </Starting_Forces>
 		
 		<!-- Fondor Space Forces -->
 		<Starting_Forces> Underworld, Fondor, Underworld_Star_Base_2 </Starting_Forces>
@@ -1617,7 +1552,6 @@
 		<Starting_Forces> Underworld, Geonosis, Underworld_Disruptor_Merc_Squad </Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Geonosis, Silri_Team</Starting_Forces>
 		
 		<!-- Jabiim Space Forces -->
 		<Starting_Forces> Underworld, Jabiim, Underworld_Star_Base_2 </Starting_Forces>
@@ -1848,28 +1782,21 @@
 		<Starting_Forces> Rebel, Felucia, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Felucia, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Felucia, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Felucia, Rogue_Squadron_Space </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Felucia, R_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Rebel, Felucia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Felucia, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Felucia, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Felucia, Han_Solo_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Felucia, Luke_Skywalker_Jedi_Team </Starting_Forces>
 
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Sundered_Heart </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
         <!-- Yavin Land Forces -->
-		<Starting_Forces> Rebel, Yavin, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Droids_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Garm_Bel_Iblis_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Light_Tank_Brigade </Starting_Forces>
@@ -1885,7 +1812,6 @@
 		<Starting_Forces> Rebel, Wayland, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Obi_Wan_Team </Starting_Forces>
 
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_2 </Starting_Forces>
@@ -1894,13 +1820,11 @@
 		<Starting_Forces> Rebel, MonCalimari, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Yoda_Team </Starting_Forces>
 			
 
 
@@ -1914,35 +1838,29 @@
 		<Starting_Forces> Empire, Kashyyyk, TIE_Defender_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, TIE_Defender_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Kashyyyk, Accuser_Star_Destroyer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Kashyyyk, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Kashyyyk, Boba_Fett_Team </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Broadside_Class_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Arc_Hammer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Kuat, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Grand_Moff_Tarkin_Team </Starting_Forces>	
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Corellia, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, Corellia, Admonitor_Star_Destroyer </Starting_Forces>
-        <!-- Coruscant Land Forces -->
-		<Starting_Forces> Empire, Corellia, Emperor_Palpatine_Team </Starting_Forces>		
+        <!-- Coruscant Land Forces -->	
 		<Starting_Forces> Empire, Corellia, Empire_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -1958,7 +1876,6 @@
 		<Starting_Forces> Empire, Tatooine, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Tatooine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Tatooine, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Tatooine, General_Veers_Team </Starting_Forces>
 
 
 		<!-- Underworld Starting Forces -->
@@ -1977,7 +1894,6 @@
 		<Starting_Forces> Underworld, NalHutta, U_Ground_Droid_Works </Starting_Forces>
 		<Starting_Forces> Underworld, NalHutta, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, NalHutta, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, NalHutta, Bossk_Team</Starting_Forces>
 
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, The_Maw, Underworld_Star_Base_2 </Starting_Forces>
@@ -1986,7 +1902,6 @@
 		<Starting_Forces> Underworld, The_Maw, Crusader_Gunship </Starting_Forces>
 		<Starting_Forces> Underworld, The_Maw, Crusader_Gunship </Starting_Forces>
 		<Starting_Forces> Underworld, The_Maw, Vengeance_Frigate </Starting_Forces>	
-		<Starting_Forces> Underworld, The_Maw, Tyber_Zann_Team</Starting_Forces>
 		<Starting_Forces> Underworld, The_Maw, Kedalbe_Battleship </Starting_Forces>
 
 		
@@ -1998,8 +1913,6 @@
 		<Starting_Forces> Underworld, Shola, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Shola, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Shola, Underworld_Disruptor_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Shola, Silri_Team</Starting_Forces>
-		<Starting_Forces> Underworld, Shola, Urai_Fen_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Geonosis, Underworld_Star_Base_2 </Starting_Forces>
@@ -2010,7 +1923,6 @@
 		<Starting_Forces> Underworld, Geonosis, U_Ground_Palace </Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Geonosis, IG88_Team</Starting_Forces>
 
 
     </Campaign>
@@ -2163,7 +2075,6 @@
 		<Starting_Forces> Rebel, Manaan, B-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Manaan, Rogue_Squadron_Space </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Manaan, R_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Light_Tank_Brigade </Starting_Forces>
@@ -2177,7 +2088,6 @@
 		<Starting_Forces> Rebel, Dathomir, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Rebel_Tank_Buster_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Han_Solo_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, AetenII, Rebel_Star_Base_2 </Starting_Forces>
@@ -2189,7 +2099,6 @@
 		<Starting_Forces> Rebel, AetenII, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, AetenII, Obi_Wan_Team </Starting_Forces>
 
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Myrkr, Rebel_Star_Base_3 </Starting_Forces>
@@ -2204,7 +2113,6 @@
 		<Starting_Forces> Rebel, Myrkr, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Garm_Bel_Iblis_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Star_Base_1 </Starting_Forces>
@@ -2216,7 +2124,6 @@
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Yoda_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Muunilinst, Corellian_Corvette </Starting_Forces>
@@ -2242,14 +2149,11 @@
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Sundered_Heart </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
         <!-- Yavin Land Forces -->
-		<Starting_Forces> Rebel, Yavin, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Droids_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
@@ -2283,7 +2187,6 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
@@ -2301,7 +2204,6 @@
 		<Starting_Forces> Rebel, Honoghr, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Honoghr, Rebel_Light_Tank_Brigade </Starting_Forces>
 		<Starting_Forces> Rebel, Honoghr, Rebel_Light_Tank_Brigade </Starting_Forces>
-		<Starting_Forces> Rebel, Honoghr, Luke_Skywalker_Jedi_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_1 </Starting_Forces>
@@ -2347,7 +2249,6 @@
 		<Starting_Forces> Empire, Utapau, TIE_Defender_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Utapau, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Utapau, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Utapau, Admonitor_Star_Destroyer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Utapau, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Utapau, E_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -2375,7 +2276,6 @@
 		<Starting_Forces> Empire, Mustafar, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Mustafar, Grand_Moff_Tarkin_Team </Starting_Forces>	
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Hoth, Empire_Star_Base_1 </Starting_Forces>
@@ -2438,7 +2338,6 @@
 		<Starting_Forces> Empire, Fondor, E_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Imperial_Armor_Group </Starting_Forces>
-		<Starting_Forces> Empire, Fondor, General_Veers_Team </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Polus, Tartan_Patrol_Cruiser </Starting_Forces>
@@ -2450,9 +2349,7 @@
 		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, TIE_Defender_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, TIE_Defender_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Thyferra, Arc_Hammer </Starting_Forces>
-        <!-- Empire Land Forces -->
-		<Starting_Forces> Empire, Thyferra, Emperor_Palpatine_Team </Starting_Forces>		
+        <!-- Empire Land Forces -->	
 		<Starting_Forces> Empire, Thyferra, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
@@ -2475,7 +2372,6 @@
 		<Starting_Forces> Empire, AlzocIII, TIE_Defender_Squadron </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, Tartan_Patrol_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Accuser_Star_Destroyer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, AlzocIII, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, E_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -2498,7 +2394,6 @@
 		<Starting_Forces> Empire, Carida, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Carida, Imperial_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Carida, Boba_Fett_Team </Starting_Forces>
 		
 
 		<!-- Underworld Starting Forces -->
@@ -2520,7 +2415,6 @@
 		<Starting_Forces> Underworld, NalHutta, F9TZ_Cloaking_Transport_Company </Starting_Forces>
 		<Starting_Forces> Underworld, NalHutta, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, NalHutta, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, NalHutta, Bossk_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Hypori, Underworld_Star_Base_2 </Starting_Forces>
@@ -2536,7 +2430,6 @@
 		<Starting_Forces> Underworld, Hypori, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, F9TZ_Cloaking_Transport_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Hypori, Tyber_Zann_Team</Starting_Forces>
 
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Ryloth, Underworld_Star_Base_1 </Starting_Forces>
@@ -2550,7 +2443,6 @@
 		<Starting_Forces> Underworld, Ryloth, F9TZ_Cloaking_Transport_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Ryloth, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Ryloth, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Ryloth, Silri_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Mandalore, Underworld_Star_Base_1 </Starting_Forces>
@@ -2565,7 +2457,6 @@
 		<Starting_Forces> Underworld, Mandalore, F9TZ_Cloaking_Transport_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Mandalore, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Mandalore, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Mandalore, Urai_Fen_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Geonosis, Underworld_Star_Base_2 </Starting_Forces>
@@ -2582,7 +2473,6 @@
 		<Starting_Forces> Underworld, Geonosis, F9TZ_Cloaking_Transport_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Destroyer_Droid_Company </Starting_Forces>
 		<Starting_Forces> Underworld, Geonosis, Destroyer_Droid_Company </Starting_Forces>
-		<Starting_Forces> Underworld, Geonosis, IG88_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, VergessoAsteroids, Underworld_Star_Base_2 </Starting_Forces>
@@ -2741,7 +2631,6 @@
 		<Starting_Forces> Rebel, Dantooine, Rebel_X-Wing_Squadron </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Han_Solo_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bonadan, Rebel_Star_Base_1 </Starting_Forces>
@@ -2753,14 +2642,11 @@
 
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rogue_Squadron_Space </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
         <!-- Yavin Land Forces -->
-		<Starting_Forces> Rebel, Yavin, Mon_Mothma_Team </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Droids_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
@@ -2771,7 +2657,6 @@
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Wayland, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Rebel_Tank_Buster_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Obi_Wan_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Byss, Rebel_Star_Base_1 </Starting_Forces>
@@ -2779,7 +2664,6 @@
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Byss, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Byss, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Byss, Yoda_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_1 </Starting_Forces>
@@ -2788,7 +2672,6 @@
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Tank_Buster_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Luke_Skywalker_Jedi_Team </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, VergessoAsteroids, Rebel_Star_Base_1 </Starting_Forces>
@@ -2803,7 +2686,6 @@
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Garm_Bel_Iblis_Team </Starting_Forces>
 				
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Dagobah, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -2813,7 +2695,6 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atzerri, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Sundered_Heart </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Atzerri, Rebel_Tank_Buster_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
@@ -2840,7 +2721,6 @@
 		<Starting_Forces> Rebel, Polus, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_X-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, Polus, Home_One </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
@@ -2854,7 +2734,6 @@
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Bothawui, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Bothawui, Admonitor_Star_Destroyer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Bothawui, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Bothawui, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -2864,17 +2743,14 @@
         <!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Ryloth, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Ryloth, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Ryloth, Grand_Moff_Tarkin_Team </Starting_Forces>	
 		
 		<!-- Empire Space Forces -->
-		<Starting_Forces> Empire, Mandalore, Accuser_Star_Destroyer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Mandalore, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Mandalore, Imperial_Light_Scout_Squad </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Geonosis, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Geonosis, Arc_Hammer </Starting_Forces>
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Geonosis, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Geonosis, Imperial_Light_Scout_Squad </Starting_Forces>
@@ -2884,7 +2760,6 @@
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Coruscant, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Light_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Emperor_Palpatine_Team </Starting_Forces>		
 
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Ilum, Empire_Star_Base_1 </Starting_Forces>
@@ -2892,7 +2767,6 @@
 		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Ilum, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Ilum, General_Veers_Team </Starting_Forces>
 		
 		<!-- Empire Space Forces -->
 		<Starting_Forces> Empire, Jabiim, Empire_Star_Base_1 </Starting_Forces>
@@ -2934,7 +2808,6 @@
 		<!-- Empire Land Forces -->
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Kashyyyk, Boba_Fett_Team </Starting_Forces>
 
 
 
@@ -2951,7 +2824,6 @@
 		<!-- Underworld Land Forces -->
 		<Starting_Forces> Underworld, AlzocIII, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, AlzocIII, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, AlzocIII, Bossk_Team</Starting_Forces>
 
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Endor, Underworld_Star_Base_1 </Starting_Forces>
@@ -2960,7 +2832,6 @@
 		<!-- Underworld Land Forces -->
 		<Starting_Forces> Underworld, Endor, Underworld_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Endor, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Endor, Tyber_Zann_Team</Starting_Forces>
 
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Utapau, Underworld_Star_Base_1 </Starting_Forces>
@@ -2970,7 +2841,6 @@
 		<!-- Underworld Land Forces -->
 		<Starting_Forces> Underworld, Utapau, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Utapau, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Utapau, IG88_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Hypori, Underworld_Star_Base_1 </Starting_Forces>
@@ -2978,7 +2848,6 @@
 		<!-- Underworld Land Forces -->
 		<Starting_Forces> Underworld, Hypori, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Hypori, Underworld_Disruptor_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Hypori, Silri_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Kamino, Underworld_Star_Base_1 </Starting_Forces>
@@ -2987,7 +2856,6 @@
 		<!-- Underworld Land Forces -->
 		<Starting_Forces> Underworld, Kamino, Underworld_Disruptor_Merc_Squad</Starting_Forces>
 		<Starting_Forces> Underworld, Kamino, Underworld_Merc_Squad</Starting_Forces>
-		<Starting_Forces> Underworld, Kamino, Urai_Fen_Team</Starting_Forces>
 		
 		<!-- Underworld Space Forces -->
 		<Starting_Forces> Underworld, Muunilinst, Underworld_Star_Base_1 </Starting_Forces>

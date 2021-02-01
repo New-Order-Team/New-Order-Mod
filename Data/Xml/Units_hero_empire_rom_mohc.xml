@@ -279,7 +279,7 @@
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_ATAT_Barge</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_Arc_Hammer</SFXEvent_Build_Complete>
 		<SFXEvent_Select>Unit_Select_Arc_Hammer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Arc_Hammer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Arc_Hammer</SFXEvent_Fleet_Move>
@@ -594,7 +594,7 @@
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Arc_Hammer </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_RASER_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Arc_Hammer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Arc_Hammer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Arc_Hammer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Arc_Hammer </SFXEvent_Attack_Hardpoint>

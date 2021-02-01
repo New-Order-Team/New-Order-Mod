@@ -143,8 +143,8 @@
 
 	<GroundCompany Name="HAV_Juggernaut_Company">
 		<LOD_Bias>0.5</LOD_Bias>
-		<Text_ID>TEXT_UNIT_JUGGERNAUT_PLATOON</Text_ID>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_JUGGERNAUT_PLATOON</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_JUGGERNAUT</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_JUGGERNAUT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
 

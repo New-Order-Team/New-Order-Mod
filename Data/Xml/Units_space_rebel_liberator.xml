@@ -190,7 +190,7 @@
 	</SpaceUnit>
 
       <SpaceUnit Name="Liberator_Death_Clone">
-		<Text_ID>TEXT_UNIT_LIBERATOR_CARRIER</Text_ID>
+		<Text_ID>TEXT_UNIT_LIBERATOR</Text_ID>
 		<Space_Model_Name>F_Liberator_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
