@@ -11,7 +11,7 @@
         <GalacticBehavior>SELECTABLE</GalacticBehavior>
 		<LandBehavior> WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
 
-		<Affiliation>Rebel, Empire, Underworld, Hapans, CSA, Hutts, Warlords, Pirates</Affiliation>
+		<Affiliation>Rebel, Empire, Underworld, Hutts, Pirates</Affiliation>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Mass>1.0</Mass>
 		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>

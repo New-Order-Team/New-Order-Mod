@@ -6,7 +6,7 @@
 		<Text_ID>TEXT_UNIT_EWEB_TROOPER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_EWEB_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		<Icon_Name>i_button_e_web_crew.tga</Icon_Name>
 		
 		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
 		<Scale_Factor>0.53</Scale_Factor>
@@ -136,7 +136,7 @@
 		<Text_ID>TEXT_UNIT_ARMY_TROOPER_LINE_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>200</Damage>
 		<Autoresolve_Health>1280</Autoresolve_Health>
@@ -164,7 +164,7 @@
 		</Company_Units>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		<Icon_Name>i_button_e_web_crew.tga</Icon_Name>
 		<GUI_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</GUI_Model_Name>
 		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
@@ -214,7 +214,7 @@
 		<Text_ID>TEXT_UNIT_ARMY_TROOPER_LINE_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LINE_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>200</Damage>
 		<Autoresolve_Health>1680</Autoresolve_Health>
@@ -242,7 +242,7 @@
 		</Company_Units>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<Icon_Name>i_button_army_eweb.tga</Icon_Name>
+		<Icon_Name>i_button_e_web_crew.tga</Icon_Name>
 		<GUI_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</GUI_Model_Name>
 		<Land_Model_Name>EI_Imperial_Army_E-Web_crew.ALO</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>

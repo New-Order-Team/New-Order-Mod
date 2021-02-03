@@ -186,14 +186,6 @@
 		<Prereq>Empire_Enters_Tech_04</Prereq>
 		<Branch>T_Vader</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Executor_Replacement">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>SPAWN_HERO</Reward_Type>
-        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Coruscant</Reward_Param2>
-		<Prereq>Remove_Vader_Executor_Timeout</Prereq>
-		<Branch>T_Vader</Branch>
-	</Event>-->
 	
 	<!-- Sate Pestage -->
 	<Event Name="Spawn_Pestage">
@@ -388,6 +380,15 @@
 		<Prereq>Remove_Moff_Grant</Prereq>
 		<Branch>T_Octavian_Grant</Branch>
 	</Event>
+	<Event Name="Octavian_Grant_Has_Been_Killed">
+  		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+  		<Event_Param1>Oriflamme_SD</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>1</Event_Param3>
+		<Event_Param4>Rebel, Pirates, Underworld, Sarlacc, Hostile</Event_Param4>
+		<Prereq>Spawn_Octavian_Grant</Prereq>
+		<Branch>T_Octavian_Grant</Branch>
+	</Event>
 	<Event Name="Remove_Octavian_Grant">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
@@ -482,14 +483,6 @@
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 		<Branch>T_Josef_Grunger</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Josef_Grunger_SSD_Replacement">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>SPAWN_HERO</Reward_Type>
-        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Corellia</Reward_Param2>
-		<Prereq>Remove_Josef_Grunger_Aggressor_Timeout</Prereq>
-		<Branch>T_Josef_Grunger</Branch>
-	</Event>-->
 
 	<!-- Afsheen Makati -->
 	<Event Name="Spawn_Afsheen_Makati">
@@ -689,14 +682,6 @@
 		<Prereq>Empire_Enters_Tech_04</Prereq>
 		<Branch>T_Osvald_Teshik</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Osvald_Teshik_SSD_Replacement">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>SPAWN_HERO</Reward_Type>
-        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Anaxes</Reward_Param2>
-		<Prereq>Remove_Osvald_Teshik_SSD_Timeout</Prereq>
-		<Branch>T_Osvald_Teshik</Branch>
-	</Event>-->
 
 	<!-- Ruufan Tigellinus -->
 	<Event Name="Spawn_Ruufan_Tigellinus">
@@ -937,7 +922,7 @@
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Foga_Brill_Team</Reward_Param1>
 		<Prereq>Foga_Brill_Has_Been_Killed</Prereq>
-		<Prereq>Empire_Enters_Tech_06</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
 		<Branch>T_Foga_Brill</Branch>
 	</Event>
 	
@@ -1114,14 +1099,6 @@
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 		<Branch>T_Zsinj</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Zsinj_SSD_Replacement">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Dathomir</Reward_Param2>
-		<Prereq>Build_Zsinj_SSD Remove_Zsinj_SSD_Timeout</Prereq>
-		<Branch>T_Zsinj</Branch>
-	</Event>-->
 
 	<!-- Ardus Kaine -->
 	<Event Name="Spawn_Ardus_Kaine">
@@ -1208,14 +1185,14 @@
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 		<Branch>T_Ardus_Kaine</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Ardus_Kaine_SSD_Replacement">
+	<Event Name="Spawn_Ardus_Kaine_SSD_Replacement">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
         <Reward_Param1>Reaper_Pellaeon_SSD</Reward_Param1>
         <Reward_Param2>Muunilinst</Reward_Param2>
 		<Prereq>Spawn_Gilad_Pellaeon_SC Remove_Ardus_Kaine_SSD_Timeout</Prereq>
 		<Branch>T_Ardus_Kaine</Branch>
-	</Event>-->
+	</Event>
 
 	<!-- Gilad Pellaeon -->
 	<Event Name="Spawn_Gilad_Pellaeon">
@@ -1240,7 +1217,7 @@
         <Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Tech_05</Prereq>
 		<Prereq>Remove_Pellaeon_Reaper</Prereq>
-		<Prereq>Remove_Pellaeon_Megador</Prereq>
+		<!-- <Prereq>Remove_Pellaeon_Megador</Prereq> -->
 		<Branch>T_Gilad_Pellaeon</Branch>
 	</Event>
 	<Event Name="Remove_Gilad_Pellaeon_SC_On_Reaper">

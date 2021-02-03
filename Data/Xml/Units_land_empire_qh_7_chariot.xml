@@ -207,7 +207,7 @@
 		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_QH_7_CHARIOT_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_qh_7_chariot.tga</Icon_Name>
+		<Icon_Name>i_button_chariot.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>22.4</Damage>

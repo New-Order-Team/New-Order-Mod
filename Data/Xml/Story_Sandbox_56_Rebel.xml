@@ -980,7 +980,7 @@
         <Reward_Param2>Yavin</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_03</Prereq>
 		<Branch>T_Merrick_Simms</Branch>
-	</Event>>
+	</Event>
 	<Event Name="Merrick_Simms_Has_Been_Killed">
   		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
   		<Event_Param1>Simms_B-Wing</Event_Param1>
@@ -1007,7 +1007,7 @@
         <Reward_Param2>Yavin</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_05</Prereq>
 		<Branch>T_Taanab_Yellow_Aces</Branch>
-	</Event>>
+	</Event>
 
 	<!-- Areta Bell -->
 	<Event Name="Spawn_Areta_Bell">
@@ -1304,14 +1304,14 @@
 		<Prereq>Leia_Organa_Solo_COS_Timeout</Prereq>
 		<Branch>T_Gial_Ackbar</Branch>
 	</Event>
-	<!--<Event Name="Remove_Ackbar_Guardian_Retirement">
+	<Event Name="Remove_Ackbar_Guardian_Retirement">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Ackbar_Guardian</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Leia_Organa_Solo_COS_Timeout</Prereq>
 		<Branch>T_Gial_Ackbar</Branch>
-	</Event>-->
+	</Event>
 	<Event Name="Spawn_Sien_Sovv">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
@@ -1329,14 +1329,14 @@
 		<Prereq>Spawn_Sien_Sovv</Prereq>
 		<Branch>T_Sien_Sovv</Branch>
 	</Event>
-	<!--<Event Name="Spawn_Sien_Sovv_Guardian">
+	<Event Name="Spawn_Sien_Sovv_Guardian">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Sien_Sovv_Guardian</Reward_Param1>
 		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Build_Ackbar_Guardian Remove_Ackbar_Guardian_Retirement</Prereq>
 		<Branch>T_Sien_Sovv</Branch>
-	</Event>-->
+	</Event>
 	<Event Name="Sien_Sovv_Guardian_Has_Been_Killed">
   		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
   		<Event_Param1>Sien_Sovv_Guardian</Event_Param1>

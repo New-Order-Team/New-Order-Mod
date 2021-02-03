@@ -21,7 +21,7 @@
 		<Score_Cost_Credits>11671</Score_Cost_Credits>
 		<Build_Cost_Credits>12340</Build_Cost_Credits>
 		<Tactical_Build_Cost_Multiplayer>12340</Tactical_Build_Cost_Multiplayer>
-		<Lua_Script>ObjectScript_Grant_Warlord</Lua_Script>
+		<Lua_Script>HeroScript_Grant</Lua_Script>
 
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 2</Starting_Spawned_Units_Tech_0>

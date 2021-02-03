@@ -33,7 +33,7 @@
 	<File>GenericHeroUnits.xml</File>
 	<File>HeroCompanies.xml</File>
 	<!-- New Order heroes for scenarios -->
-	<File>Scenarios\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
+	<File>Campaigns\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
 
 	<File>LandPrimarySkydomes.xml</File>
 	<File>LandSecondarySkydomes.xml</File>
@@ -47,7 +47,7 @@
 
 	<File>Planets.xml</File>
 	<!-- New Order planets for scenarios -->
-	<File>Scenarios\Operation_Strike_Fear\Planets_OSF.xml</File>
+	<File>Campaigns\Operation_Strike_Fear\Planets_OSF.xml</File>
 
 	<File>Projectiles.xml</File>
 	<File>Projectiles_SM.xml</File>
@@ -408,46 +408,43 @@
 	<File>Units_hero_rebel_kyp_durron.xml</File>
 	
 	
-	<File>Units_land_empire_troopers.xml</File>
-	<File>Units_land_empire_e_web_crew.xml</File>
-	
 	<File>Units_land_empire_army_line_troopers.xml</File>
 	<File>Units_land_empire_army_engineers.xml</File>
-	
+	<File>Units_land_empire_e_web_crew.xml</File>
+	<File>Units_land_empire_troopers.xml</File>
 	
 	<File>Units_land_empire_px_10.xml</File>
 	<File>Units_land_empire_AT-ST.xml</File>
-	<File>Units_land_empire_mobile_artillery.xml</File>
-	<File>Units_land_empire_AT-AA.xml</File>
-	<File>Units_land_empire_qh_7_chariot.xml</File>
 	<File>Units_land_empire_AT_AR.xml</File>
-	<File>Units_land_empire_s1_firehawke.xml</File>
+	<File>Units_land_empire_qh_7_chariot.xml</File>
+	<File>Units_land_empire_TIE_Mauler.xml</File>
 	<File>Units_land_empire_century_tank.xml</File>
+	<File>Units_land_empire_AT-AA.xml</File>
+	<File>Units_land_empire_mobile_artillery.xml</File>
+	<File>Units_land_empire_s1_firehawke.xml</File>
 	<File>Units_Land_empire_Juggernaut.xml</File>
 	<File>Units_land_empire_AT-AT.xml</File>
 	<File>Units_land_empire_floating_fortress.xml</File>
 	<File>units_land_empire_laat.xml</File>
 	<File>units_land_empire_maat.xml</File>
 
-	<File>Units_land_empire_TIE_Mauler.xml</File>
-	<File>Units_land_rebel_isp.xml</File>
 	
 	<File>Units_land_rebel_troopers.xml</File>
 	<File>Units_land_rebel_minor_troopers.xml</File>
-	<File>Units_land_rebel_ULAV.xml</File>
+	
+	<File>Units_land_rebel_isp.xml</File>
 	<File>Units_land_rebel_arrow_23_landspeeder.xml</File>
-	<File>Units_land_rebel_t1b.xml</File>
-	<File>Units_land_rebel_t2b.xml</File>
-	<File>Units_land_rebel_AAC.xml</File>
-	<File>Units_land_rebel_freerunner.xml</File>
 	<File>Units_land_rebel_a_a5_speeder_truck.xml</File>
-	<File>Units_land_rebel_t3b.xml</File>
-	<File>Units_land_rebel_t4b.xml</File>
+	<File>Units_land_rebel_ULAV.xml</File>
+	<File>Units_land_rebel_freerunner.xml</File>
 	<File>Units_land_rebel_heavy_tracker.xml</File>
-	<File>Units_land_rebel_mptl.xml</File>
 	<File>Units_land_rebel_t47.xml</File>
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
-	
+	<File>Units_land_rebel_t1b.xml</File>
+	<File>Units_land_rebel_t2b.xml</File>
 	<File>Units_land_cis_aat.xml</File>
+	<File>Units_land_rebel_t3b.xml</File>
+	<File>Units_land_rebel_t4b.xml</File>
+	<File>Units_land_rebel_mptl.xml</File>
 	
 </Game_Object_Files>

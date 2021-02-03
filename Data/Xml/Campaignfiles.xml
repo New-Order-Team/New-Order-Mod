@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 
 <Campaign_Files>
-	<File>Scenarios\Scenarios_Sandbox.xml</File>
-	<File>Scenarios\Scenario_OSF.xml</File>	
+	<File>Campaigns\Campaigns_Sandbox.xml</File>
+	<File>Campaigns\Campaign_OSF.xml</File>	
 	
-	<File>Scenarios\Scenarios_Multiplayer.xml</File>
+	<File>Campaigns\Campaigns_Multiplayer.xml</File>
 	<!--
 	<File>Campaigns_Tutorial.xml</File>
 	<File>Campaigns_Underworld_Tutorial.xml</File>	

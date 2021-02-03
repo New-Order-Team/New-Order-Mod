@@ -8,7 +8,7 @@
 		
 		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
-		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
@@ -55,7 +55,7 @@
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
-		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
 		<Armor_Type> Armor_I1 </Armor_Type>
@@ -149,7 +149,7 @@
 	
 	<GroundInfantry Name="Engineering_Platoon_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
-        <Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+        <Icon_Name>i_button_army_engineer.tga</Icon_Name>
         <AI_Combat_Power>164</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
 		
@@ -193,7 +193,7 @@
 		
 		<Company_Units>Engineering_Platoon_Spawner</Company_Units>
 
-		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -285,7 +285,7 @@
 		<Text_ID>TEXT_UNIT_IA_ENGINEER_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ei_eng_squad.tga</Icon_Name>
+		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

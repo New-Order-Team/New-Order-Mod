@@ -43,7 +43,7 @@
 			<Reduce_Production_Time_Ability Name="Blissex_Time_Reduction">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> R_Ground_Research_Facility, Rebel_Tech_0_1, Rebel_Tech_1_2, Rebel_Tech_2_3, Rebel_Tech_3_4, Rebel_Tech_4_5 </Applicable_Unit_Types>
+				<Applicable_Unit_Types> R_Ground_Research_Facility </Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 				<Time_Reduction_Percentage>0.2</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
