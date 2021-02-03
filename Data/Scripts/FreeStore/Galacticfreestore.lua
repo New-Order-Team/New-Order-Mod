@@ -46,14 +46,14 @@ function Base_Definitions()
 	DebugMessage("%s -- In Base_Definitions", tostring(Script))
 
 	-- how often does this script get serviced?
-	ServiceRate = 8
-	UnitServiceRate = 8
+	ServiceRate = 10
+	UnitServiceRate = 10
 	
 	Common_Base_Definitions()
 	
 	-- Percentage of units to move on each service.
-	SpaceMovePercent = 0.10
-	GroundMovePercent = 0.10
+	SpaceMovePercent = 0.1
+	GroundMovePercent = 0.1
 
 	if Definitions then
 		Definitions()
@@ -78,7 +78,9 @@ function MoveUnit(object)
 
 	dest_target = nil
 	object_type = object.Get_Type()
+	
 	if object_type.Is_Hero() then
+		DebugMessage("%s -- Hero unit %s moving to custom target", tostring(Script), tostring(object))
 		dest_target = Find_Custom_Target(object)
 	end
 	
@@ -138,24 +140,20 @@ end
 --	// param 7: The maximum distance from source to target.
 function On_Unit_Added(object)
 	DebugMessage("%s -- Object: %s added to freestore", tostring(Script), tostring(object))
+	
+	if FreeStore.Is_Unit_In_Transit(object) == false then
+		obj_type = object.Get_Type()
+		if obj_type.Is_Hero() then
+			DebugMessage("%s -- Hero Object: %s added to freestore", tostring(Script), obj_type.Get_Name())
+		end
 
-	obj_type = object.Get_Type()
-	if obj_type.Is_Hero() then
-		DebugMessage("%s -- Hero Object: %s added to freestore", tostring(Script), obj_type.Get_Name())
+		MoveUnit(object)
 	end
-
-	MoveUnit(object)
 	
 end
 
 
 function FreeStoreService()
-
-	if PlayerObject.Get_Faction_Name() == "REBEL" then
-		leader_object = Find_First_Object("MON_MOTHMA")
-	elseif PlayerObject.Get_Faction_Name() == "EMPIRE" then
-		leader_object = Find_First_Object("EMPEROR_PALPATINE")
-	end
 
 	MovedUnitsThisService = 0
 	GroundUnitsMoved = 0
@@ -191,11 +189,7 @@ function Find_Ground_Unit_Target(object)
 		my_planet = nil
 	end	
 	
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
-	end	
-	
-	max_force_target = 1000 * (PlayerObject.Get_Tech_Level() + 1)
+	max_force_target = 4000.0
 	force_target = EvaluatePerception("Friendly_Global_Land_Unit_Raw_Total", PlayerObject)
 	if not force_target then
 		return nil
@@ -204,16 +198,6 @@ function Find_Ground_Unit_Target(object)
 	if force_target > max_force_target then
 		force_target = max_force_target
 	end	
-		
-	if leader_planet then
-		if leader_planet == my_planet then
-			return nil	
-		elseif leader_planet.Get_Is_Planet_AI_Usable() and object.Can_Land_On_Planet(leader_planet) then
-			if EvaluatePerception("Friendly_Land_Unit_Raw_Total", PlayerObject, leader_planet) < force_target then
-				return leader_planet
-			end
-		end
-	end
 	
 	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Ground_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)
 	if priority_planet then
@@ -243,9 +227,17 @@ function Find_Ground_Unit_Target(object)
 		return poorly_defended_planet
 	end	
 	
-	if not my_planet then
+	fallback_planet = FindTarget.Reachable_Target(PlayerObject, "Can_Park_Ground_Unit", "Friendly", "Friendly_Only", 1.0, object)
+	if fallback_planet then
+		fallback_planet = fallback_planet.Get_Game_Object()
+	end
+	
+	if fallback_planet and fallback_planet.Get_Is_Planet_AI_Usable() and object.Can_Land_On_Planet(fallback_planet) then
+		return fallback_planet
+	else
 		fallback_planet = FindTarget.Reachable_Target(PlayerObject, "One", "Friendly", "Friendly_Only", 0.1, object)
 		if fallback_planet then
+			--DebugMessage("%s --  %s moving to fallback planet %s", tostring(Script), tostring(object), tostring(fallback_planet))
 			return fallback_planet.Get_Game_Object()
 		end
 	end
@@ -260,12 +252,8 @@ function Find_Space_Unit_Target(object)
 	if not my_planet then
 		return nil
 	end		
-	
-	if leader_object then
-		leader_planet = leader_object.Get_Planet_Location()
-	end
 		
-	max_force_target = 3000 * (PlayerObject.Get_Tech_Level() + 1)
+	max_force_target = 15000.0
 	force_target = EvaluatePerception("Friendly_Global_Space_Unit_Raw_Total", PlayerObject)
 	if not force_target then
 		return nil
@@ -273,18 +261,6 @@ function Find_Space_Unit_Target(object)
 	force_target = force_target / 4.0
 	if force_target > max_force_target then
 		force_target = max_force_target
-	end
-		
-	if leader_planet and leader_planet.Get_Is_Planet_AI_Usable() then
-		if leader_planet == my_planet then
-			if EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, leader_planet) < 1.5 * force_target then
-				return leader_planet
-			end		
-		elseif EvaluatePerception("Friendly_Space_Unit_Raw_Total", PlayerObject, leader_planet) < force_target then
-			if EvaluatePerception("Enemy_Present", PlayerObject, leader_planet) == 0.0 then
-				return leader_planet
-			end
-		end
 	end
 	
 	priority_planet = FindTarget.Reachable_Target(PlayerObject, "Space_Priority_Defense_Score", "Friendly", "Friendly_Only", 0.1, object)

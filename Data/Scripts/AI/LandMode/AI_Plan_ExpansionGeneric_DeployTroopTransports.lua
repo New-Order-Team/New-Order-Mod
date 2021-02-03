@@ -50,7 +50,7 @@ function Definitions()
 	{
 		{
 			"MainForce"
-			,"HAV_Juggernaut | AT_AT_Walker_Prototype | AT_AT_Walker | MAAT | Arrow_23_Landspeeder | LAAT = 1,5"
+			,"HAV_Juggernaut | AT_AT_Walker_Prototype | AT_AT_Walker | MAAT | Arrow_23_Landspeeder | A_A5_Speeder_Truck | LAAT = 1,5"
 		}
 	}
 

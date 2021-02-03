@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"TechForce",
-		"Rebel_Tech_0_1 | Rebel_Tech_1_2 | Rebel_Tech_2_3 | Rebel_Tech_3_4 | Rebel_Tech_4_5 = 1"
+		"DS_Primary_Hyperdrive | DS_Shield_Gen | DS_Superlaser_Core | DS_Durasteel = 1"
 	}
 	}
 

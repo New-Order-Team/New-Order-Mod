@@ -52,8 +52,8 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		,"DenyHeroAttach"		
-		,"TaskForceRequired"
+		,"DenyHeroAttach"
+		,"Engineering_Platoon_Dummy = 1,2"
 	}
 	}
 end

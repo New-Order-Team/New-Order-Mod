@@ -43,7 +43,7 @@ require("pgevents")
 
 function Definitions()
 
-	Category = "Secure_Build_Pad"
+	Category = "Secure_Contestable"
 	IgnoreTarget = true
 	TaskForce = 
 	{

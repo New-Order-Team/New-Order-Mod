@@ -1,0 +1,110 @@
+<?xml version="1.0">
+<AITemplates>
+	<!-- Generic New Order AI Templates -->
+	<Generic_Galactic_Default>
+
+		<Priority>1</Priority>
+		
+		<Trigger>One</Trigger>
+		
+		<Budget>
+			<Always>Zero</Always>
+			<Offensive>GenericOffensiveBudgetAllocation</Offensive>
+			<Infrastructure>GenericInfrastructureBudgetAllocation</Infrastructure>
+			<MajorItem>GenericMajorItemBudgetAllocation</MajorItem>
+		</Budget>
+
+		<Turn_On>
+			<Goals>
+				<Category>Always</Category>
+				<Category>Offensive</Category>
+				<Category>Infrastructure</Category>
+				<Category>MajorItem</Category>
+			</Goals>
+			
+			<Plans>
+				<Goal_Category>Always</Goal_Category>
+				<Goal_Category>Offensive</Goal_Category>
+				<Goal_Category>Infrastructure</Goal_Category>
+				<Goal_Category>MajorItem</Goal_Category>
+			</Plans>
+		</Turn_On>
+
+	</Generic_Galactic_Default>
+
+	<Generic_Space>
+		<Priority>1</Priority>
+		<Trigger>One</Trigger>
+		
+		<Budget>
+			<Hero>ReallyBig</Hero>
+			<High_Priority>High</High_Priority>
+			<Map_Control>Medium_High</Map_Control>
+			<Med_Priority>Medium</Med_Priority>
+			<Tactical_Targeted>GenericSpaceTargetedOffensiveBudgetAllocation</Tactical_Targeted>
+			<Defensive>GenericSpaceDefensiveBudgetAllocation</Defensive>
+			<Tactical_Untargeted>GenericSpaceUntargetedOffensiveBudgetAllocation</Tactical_Untargeted>
+		</Budget>
+
+		<Turn_On>
+			<Goals>
+				<Category>Hero</Category>
+				<Category>Tactical_Targeted</Category>
+				<Category>Defensive</Category>
+				<Category>Tactical_Untargeted</Category>
+				<Category>High_Priority</Category>
+				<Category>Med_Priority</Category>
+				<Category>Map_Control</Category>
+			</Goals>
+			
+			<Plans>
+				<Goal_Category>Hero</Goal_Category>
+				<Goal_Category>Tactical_Targeted</Goal_Category>
+				<Goal_Category>Defensive</Goal_Category>
+				<Goal_Category>Tactical_Untargeted</Goal_Category>
+				<Goal_Category>High_Priority</Goal_Category>
+				<Goal_Category>Med_Priority</Goal_Category>
+				<Goal_Category>Map_Control</Goal_Category>
+			</Plans>
+		</Turn_On>
+
+	</Generic_Space>
+
+	<Generic_Land>
+		<Priority>1</Priority>
+		<Trigger>One</Trigger>
+		
+		<Budget>
+			<Hero>ReallyBig</Hero>
+			<High_Priority>High</High_Priority>
+			<Map_Control>Medium_High</Map_Control>
+			<Med_Priority>Medium</Med_Priority>
+			<Tactical_Targeted>GenericSpaceTargetedOffensiveBudgetAllocation</Tactical_Targeted>
+			<Defensive>GenericSpaceDefensiveBudgetAllocation</Defensive>
+			<Tactical_Untargeted>GenericSpaceUntargetedOffensiveBudgetAllocation</Tactical_Untargeted>
+		</Budget>
+		
+		<Turn_On>
+			<Goals>
+				<Category>Hero</Category>
+				<Category>Tactical_Targeted</Category>
+				<Category>Defensive</Category>
+				<Category>Tactical_Untargeted</Category>
+				<Category>High_Priority</Category>
+				<Category>Med_Priority</Category>
+				<Category>Map_Control</Category>
+			</Goals>
+			
+			<Plans>
+				<Goal_Category>Hero</Goal_Category>
+				<Goal_Category>Tactical_Targeted</Goal_Category>
+				<Goal_Category>Defensive</Goal_Category>
+				<Goal_Category>Tactical_Untargeted</Goal_Category>
+				<Goal_Category>High_Priority</Goal_Category>
+				<Goal_Category>Med_Priority</Goal_Category>
+				<Goal_Category>Map_Control</Goal_Category>
+			</Plans>
+		</Turn_On>
+
+	</Generic_Land>
+</AITemplates>
