@@ -408,8 +408,9 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Imperial_Anti_Aircraft_Company, <!-- AT-AA -->
-				<!-- LAAT_Platoon, -->
+				<!-- T_16_Platoon, -->
 				<!-- MAAT_Platoon, -->
+				<!-- IDT_Platoon, -->
 				EL_Bombing_Run_Use_Upgrade,
 				EL_Planetary_Bombard_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -1011,9 +1012,9 @@
 				<See_Num_Fleets>Yes</See_Num_Fleets>
 				<See_Most_Powerful_Ship>No</See_Most_Powerful_Ship>
 				<See_Fleet_Contents>Yes</See_Fleet_Contents>
-				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
 				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
-				<See_Special_Structures>No</See_Special_Structures>
+				<See_Special_Structures>Yes</See_Special_Structures>
 				<See_Political_Control>Yes</See_Political_Control>
 				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
 				<See_Current_Production>No</See_Current_Production>
@@ -1038,7 +1039,7 @@
 		<SFXEvent_Ambient_Loop />
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE,DAMAGE_TRACKING,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
-		<Obstacle_Proxy_Type> E_Ground_Barracks_Build_Pad </Obstacle_Proxy_Type>
+		<Obstacle_Proxy_Type> E_Ground_Prison_Build_Pad </Obstacle_Proxy_Type>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
