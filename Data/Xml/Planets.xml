@@ -129,22 +129,22 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Affinity_Types />
         <Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
 
-		<Describe_Population>TEXT_PLANET_POP_ABREGADO</Describe_Population>
-		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Population>TEXT_PLANET_ABREGADO_POP</Describe_Population>
+		<Describe_Wildlife>TEXT_PLANET_ABREGADO_LOC</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ABREGADO_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_WEA_TEMP_D</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ABREGADO_GEO</Describe_Advantage>
+		<Describe_Weather>TEXT_PLANETARY_CLIMATE_TEMP_D</Describe_Weather>
+		<Describe_Tactical>TEXT_PLANETARY_MAJOR_SHADOWPORT TEXT_PLANETARY_MAJOR_SHADOWPORT TEXT_PLANETARY_MAJOR_SHADOWPORT</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANETARY_MINOR_VALUABLES TEXT_PLANETARY_MINOR_VALUABLES TEXT_PLANETARY_MINOR_VALUABLES</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ABREGADORAE_INFO_HIS_01</Describe_History>
 
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_ABREGADO_AB_NAME</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_ABREGADO_AB_DESC</Planet_Ability_Description>
 
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_PLANET_ABREGADO_ENCYC</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
 		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
 		<Additional_Population_Capacity>60</Additional_Population_Capacity>

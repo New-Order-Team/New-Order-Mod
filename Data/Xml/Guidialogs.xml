@@ -2544,10 +2544,10 @@
 		</IDC_STATIC_TERRAIN>
 
 		<IDC_STATIC_WILDLIFE>
-			<Name>EmpireAtWar-Medium</Name>
+			<Name>Arial Unicode MS</Name>
 			<Character_Padding>0</Character_Padding>
-			<Stretch_Factor>1.3</Stretch_Factor>
-			<Size>6</Size>
+			<Stretch_Factor>1.0</Stretch_Factor>
+			<Size>8</Size>
 			<Top_Color>195,171,2,255</Top_Color>
 			<Bottom_Color>195,171,2,255</Bottom_Color>
 			<Emboss>No</Emboss>

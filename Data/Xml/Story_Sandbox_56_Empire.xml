@@ -19,6 +19,31 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	
+	<Event Name="Empire_Click_Filter_0">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters0</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Empire_Click_Filter_1">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters1</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Empire_Click_Filter_2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters2</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="Empire_Click_Filter_3">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_filters3</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
 	<!-- Eras auto-progression -->
 	<!-- Era 1 -->
 	<Event Name="Empire_Enters_Tech_01">
