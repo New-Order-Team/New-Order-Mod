@@ -10,7 +10,7 @@
 
 		<Land_Model_Name>RV_MPTL-2A.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.59</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Affiliation>Rebel</Affiliation>
@@ -25,13 +25,13 @@
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
 		<OverrideDeceleration> .05 </OverrideDeceleration>
-		<FormationSpacing> 1.75 </FormationSpacing>
+		<FormationSpacing> 1 </FormationSpacing>
 		<FormationOrder> 8 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
-		<Custom_Hard_YExtent_Deployed> 24.0 </Custom_Hard_YExtent_Deployed>
+		<Custom_Hard_XExtent> 41.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 18.5 </Custom_Hard_YExtent>
+		<!-- <Custom_Hard_YExtent_Deployed> 23.7 </Custom_Hard_YExtent_Deployed> -->
 		
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -41,7 +41,7 @@
 		<Damage>60</Damage>
 		<Sensor_Range>200</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>900</Tactical_Health>
+		<Tactical_Health>2230</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -69,13 +69,12 @@
 		<Land_FOW_Reveal_Range>440.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>330.0</Targeting_Min_Attack_Distance>
-		<!--<Targeting_Fire_Inaccuracy_Fixed_Radius>300.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
-
+		
 		<Projectile_Types>Proj_Land_MPTL_Torpedo</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>9</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>25.0</Projectile_Fire_Recharge_Seconds>-->
-		<Hardpoints>HP_MPTL_1, HP_MPTL_2, HP_MPTL_3, HP_MPTL_4, HP_MPTL_5</Hardpoints>
+		<Projectile_Fire_Recharge_Seconds>7.4</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>300.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -162,9 +161,6 @@
 		<Variant_Of_Existing_Type>MPTL</Variant_Of_Existing_Type>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
-      
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
@@ -179,9 +175,6 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
-      
-		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
-		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
 		
 		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
 		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
@@ -354,7 +347,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>MPTL, MPTL</Company_Units>
+		<Company_Units>MPTL</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>

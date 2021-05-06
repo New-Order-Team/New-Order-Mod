@@ -1804,6 +1804,11 @@
 <!--************************************************************************************************************-->
 		
 	<GroundBuildable Name="E_Ground_Barracks_Build_Pad">
+		<Text_ID>TEXT_UNIT_BUILDING_SYSTEMS_ARMY_HQ</Text_ID>
+		<Encyclopedia_Text> TEXT_UNIT_BUILDING_SYSTEMS_ARMY_HQ_DESC </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> TEXT_UNIT_BUILDING_SYSTEMS_ARMY_HQ_DESC, TEXT_UNIT_BUILDING_SYSTEMS_ARMY_HQ_DESC_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -1816,7 +1821,6 @@
 		<Victory_Relevant>No</Victory_Relevant>
 		<Hides_When_Built_On>True</Hides_When_Built_On>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
-		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Land_Model_Name>EB_GovernorsQuarters.alo</Land_Model_Name>
 		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
 		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
@@ -1836,14 +1840,11 @@
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>50</Size_Value>
-		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
+		<Icon_Name>i_button_eb_governorsquarters.tga</Icon_Name>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<CategoryMask> Structure </CategoryMask>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>		
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01  </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01 </MP_Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
 		<Property_Flags>InBase</Property_Flags>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		
@@ -1913,6 +1914,56 @@
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
+	
+	<GroundBuildable Name="E_Ground_Prison_Build_Pad">
+		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
+		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
+		<Tactical_Buildable_Objects_Multiplayer>Empire, UC_E_Ground_Barracks</Tactical_Buildable_Objects_Multiplayer>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 50 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+		<Behavior>TACTICAL_BUILD_OBJECTS, REVEAL,HIDE_WHEN_FOGGED</Behavior>
+		<LandBehavior>TERRAIN_TEXTURE_MODIFICATION, LAND_OBSTACLE, SPACE_OBSTACLE</LandBehavior>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
+		<Land_Model_Name>NB_Prison.alo</Land_Model_Name>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>			
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Dummy>No</Is_Dummy>
+		
+		<Space_Layer> Corvette </Space_Layer>
+		
+		<Armor_Type> Armor_S4 </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Affiliation>Empire</Affiliation>
+		<Size_Value>50</Size_Value>
+		<Icon_Name>i_button_e_infantry_barracks.tga</Icon_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_00, MP_TEXT_ENCYCLOPEDIA_BARRACKS_EMPIRE_01 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>	
+		<Property_Flags>InBase</Property_Flags>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+		
 	
 	<GroundBuildable Name="R_Ground_Barracks_Build_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
@@ -2049,7 +2100,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.25</Scale_Factor>
+		<Scale_Factor>1.875</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Dummy>No</Is_Dummy>
 		
@@ -2875,7 +2926,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Dummy>No</Is_Dummy>
 		

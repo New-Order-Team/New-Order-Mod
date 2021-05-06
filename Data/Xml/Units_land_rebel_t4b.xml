@@ -150,7 +150,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>T4B_Tank, T4B_Tank</Company_Units>
+		<Company_Units>T4B_Tank</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_t-4b_repulsor_tank.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
