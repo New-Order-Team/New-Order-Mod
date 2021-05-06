@@ -13,6 +13,9 @@
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
 		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
+		
+		<!-- TEST! -->
+		<FormationSpacing> 0.5 </FormationSpacing>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -43,24 +46,8 @@
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Imperial_Army_Engineer_CSPL_12">
-		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_UNIT_IA_ENGINEER</Text_ID>
+		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
 		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_DESC TEXT_UNIT_INFANTRY_CSPL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
-		
-		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
-		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
-		
-		<Affiliation>Empire</Affiliation>
-		<Armor_Type> Armor_I1 </Armor_Type>
-		<Max_Speed> 0.8 </Max_Speed>
-		<Tactical_Health>50</Tactical_Health>
 
 		<Projectile_Types>Proj_Land_CSPL_Plank_Gas</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -75,62 +62,6 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 70.0 </Targeting_Fire_Inaccuracy>
-
-		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
-		<SFXEvent_Fire></SFXEvent_Fire>
-		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
-		
-		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
-		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
-
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone>
-
-		<Presence_Induced_Animations>
-			Attention, 
-				Darth_Vader
-		</Presence_Induced_Animations>
-		
-		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>
-		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>PROXIMITY_MINES</Type>
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> IA_Engineer_Mines </GUI_Activated_Ability_Name> 
-                <Effective_Radius> 70.0 </Effective_Radius>
-                <SFXEvent_Target_Ability />  
-                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-            <Proximity_Mines_Ability Name="IA_Engineer_Mines">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range>0.0</Activation_Min_Range>
-                <Activation_Max_Range>70.0</Activation_Max_Range>
-                <Mine_Type>Proximity_Mine</Mine_Type>
-                <Trigger_Radius>30</Trigger_Radius>
-                <Number_Of_Mines>6</Number_Of_Mines>
-                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
-                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-            </Proximity_Mines_Ability>
-		</Abilities>
-
-
-		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Sergeant">
