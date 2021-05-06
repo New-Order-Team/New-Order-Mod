@@ -271,24 +271,24 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 		Try_Deploy_Garrison(unit, attacker, 0.5)
 	end
 
-	-- Use "Power to Shields" if this unit has it and it's ready
 	lib_ability_activated = false
+	-- Use "Power to Shields" if this unit has it and it's ready
 	lib_shield_level = unit.Get_Shield()
 	if lib_shield_level < 0.2 then
 		lib_ability_activated = Try_Ability(unit, "INVULNERABILITY")
 	end
 	-- [Sudno]: DEFEND works differently in New Order
-	if (not lib_ability_activated) and (lib_shield_level < 0.2) then
+	if (not lib_ability_activated) and (lib_shield_level < 0.1) then
 		lib_ability_activated = Try_Ability(unit, "DEFEND")
 	end
 
 	-- [Sudno]: DEFEND is not enough, try every ability (not many units has both of them)
 	projectile_type = attacker.Get_Current_Projectile_Type()
 	if TestValid(projectile_type) then
-		if projectile_type.Is_Affected_By_Missile_Shield() then -- (not lib_ability_activated) and
+		if projectile_type.Is_Affected_By_Missile_Shield() then -- and (not lib_ability_activated)
 			lib_ability_activated = Try_Ability(unit, "SENSOR_JAMMING") or Try_Ability(unit, "MISSILE_SHIELD")
 		end
-		if projectile_type.Is_Affected_By_Laser_Defense() then -- (not lib_ability_activated) and
+		if projectile_type.Is_Affected_By_Laser_Defense() then -- and (not lib_ability_activated)
 			lib_ability_activated = Try_Ability(unit, "LASER_DEFENSE")
 		end
 	end
