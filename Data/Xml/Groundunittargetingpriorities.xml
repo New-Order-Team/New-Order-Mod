@@ -9,16 +9,74 @@
 	
 	<!-- Priorities for specific units -->
 
-	<!-- PX-10 are good against infantry and mining platforms, run from everything else -->
+	<!-- PX-10 are good against infantry, MPTLs and mining platforms -->
 	<Priority_Set Name="PX10Priority">
 		<Attack_Priorities>
 			Infantry, 1.0,
-			TacticalStructure, 2.0,
+			Artillery, 2.0,
+			TacticalStructure, 3.0,
+			
+			Vehicle, 10.0,
+			Structure, 11.0,
+			Turret, 12.0,
+			Bunker, 13.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air, Vehicle
+			Wall, Air
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>
+	
+	<!-- AT-ST are good against infantry, light vehicles and mining platforms -->
+	<Priority_Set Name="ATSTPriority">
+		<Attack_Priorities>
+			Infantry, 1.0,
+			LightVehicle, 2.0,
+			TacticalStructure, 3.0,
+			Structure, 4.0,
+			
+			Vehicle, 10.0,
+			Turret, 11.0,
+			Bunker, 12.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
+	</Priority_Set>
+
+	<!-- Chariot/Arrow-23 are weak, prioritise mining platforms and infantry -->
+	<Priority_Set Name="ChariotPriority">
+		<Attack_Priorities>
+			TacticalStructure, 1.0,
+			Infantry, 2.0,
+			LightVehicle, 3.0,
+			Structure, 4.0,
+			
+			Vehicle, 10.0,
+			Turret, 11.0,
+			Bunker, 12.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>
+
+	<!-- AT-AR have a good laser cannon, prioritise vehicles, then infantry, then structures -->
+	<Priority_Set Name="ATARPriority">
+		<Attack_Priorities>
+			Vehicle, 1.0,
+			Infantry, 2.0,
+			Structure, 3.0,
+			
+			Turret, 10.0,
+			Bunker, 11.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 	
 	<Priority_Set Name="CenturyPriority">
@@ -32,22 +90,6 @@
 			Wall, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
-	</Priority_Set>
-
-	<!-- Chariot/Arrow-23 are weak, don't attack anything except mining platforms or weak infantry -->
-	<Priority_Set Name="ChariotPriority">
-		<Attack_Priorities>
-			TacticalStructure, 1.0,
-			Infantry, 2.0,
-			Vehicle, 10.0,
-		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall, Structure, Air
-		</Category_Exclusions>
-		<Unit_Exclusions>
-			PSF_Vanguard, SecForce_Trooper_Disruptor, SpecForce_Ranger_Missile, NR_Marine_Missile, Imperial_Army_Engineer_CSPL_12, Imperial_Army_Engineer_CSPL_12_Remnant, Stormtrooper_Missile_Launcher
-		</Unit_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- T1-B is weak, don't attack anything except infantry or air -->

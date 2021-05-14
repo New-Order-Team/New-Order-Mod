@@ -12,11 +12,26 @@
 
         <Land_Model_Name>EV_AT_DP.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH</LandBehavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			WALK_LOCOMOTOR,
+			TARGETING,
+			IDLE,
+			WEAPON,
+			TURRET,
+			POWERED,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			UNIT_AI,
+			TELEKINESIS_TARGET,
+			STUNNABLE,
+			DAMAGE_TRACKING,
+			SQUASH
+		</LandBehavior>
 
         <Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
 
-        <Property_Flags>GoodInfantryCrusher</Property_Flags>
         <Ranking_In_Category>7</Ranking_In_Category>
         <Mass>1.0</Mass>
 		<Scale_Factor>1.73</Scale_Factor>
@@ -64,13 +79,18 @@
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Hardpoints>
+		<!-- <Hardpoints>
 			HP_AT_AR_00
-		</Hardpoints>
+		</Hardpoints> -->
+		
+		<Projectile_Types>Proj_Land_Laser_AT_AR</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
 
         <Land_FOW_Reveal_Range>490.0</Land_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-        <Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+        <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Target_Bones> B_TURRET, B_HEAD, B_BODY </Target_Bones>
 		
 		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
@@ -83,8 +103,13 @@
 
         <Turret_Targets_Ground_Vehicles>1</Turret_Targets_Ground_Vehicles>
         <Turret_Targets_Ground_Infantry>2</Turret_Targets_Ground_Infantry>
-        <Turret_Targets_Air_Vehicles>99</Turret_Targets_Air_Vehicles>
         <Turret_Targets_Anything_Else>3</Turret_Targets_Anything_Else>
+        <Turret_Targets_Air_Vehicles>9999</Turret_Targets_Air_Vehicles>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 
         <Death_Explosions>Small_Explosion_Land</Death_Explosions>
         <Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -124,7 +149,7 @@
         <Guard_Chase_Range>200.0</Guard_Chase_Range>
         <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
         <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-        <Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+        <Targeting_Priority_Set>ATARPriority</Targeting_Priority_Set>
         <Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
 
         <Select_Box_Scale>30</Select_Box_Scale>

@@ -46,7 +46,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_A5 </Armor_Type>
 		<Size_Value>60</Size_Value>
 		<Damage>40</Damage>

@@ -104,7 +104,7 @@
 		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 200.0 </Targeting_Min_Attack_Distance>
 		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
 		
 		
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>

@@ -40,6 +40,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_A1 </Armor_Type>
 		<Size_Value>75</Size_Value>
 		<Damage>20</Damage>
@@ -49,8 +50,27 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
-		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			HUNT,
+			TREAD_SCROLL,
+			WALK_LOCOMOTOR,
+			IDLE,
+			TARGETING,
+			WEAPON,
+			POWERED,
+			REVEAL,
+			HIDE_WHEN_FOGGED,
+			SURFACE_FX,
+			UNIT_AI,
+			TELEKINESIS_TARGET,
+			STUNNABLE,
+			WIND_DISTURBANCE,
+			DAMAGE_TRACKING,
+			GARRISON_UNIT
+		</LandBehavior>
 
 		<Garrison_Category> Vehicle </Garrison_Category>
 		<Garrison_Value>1</Garrison_Value>
@@ -123,6 +143,7 @@
 
 		<Icon_Name>i_button_px_10.tga</Icon_Name> 
 		<Weather_Category>Tracked</Weather_Category>
+		<Property_Flags>LightVehicle</Property_Flags>
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 

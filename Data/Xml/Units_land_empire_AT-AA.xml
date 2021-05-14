@@ -57,6 +57,7 @@
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance> 100.0 </Targeting_Min_Attack_Distance>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
 
 		<Hardpoints>
 			HP_AT_AA
