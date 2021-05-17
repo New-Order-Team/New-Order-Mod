@@ -676,7 +676,7 @@
         <Projectile_Category>Laser</Projectile_Category>
         <Projectile_Max_Flight_Distance>600</Projectile_Max_Flight_Distance> 
  
-        <Projectile_Damage>30</Projectile_Damage> 
+        <Projectile_Damage>12</Projectile_Damage> 
  
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>

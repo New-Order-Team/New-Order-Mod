@@ -8,13 +8,15 @@
   		<Encyclopedia_Text>TEXT_TOOLTIP_T2B</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TANK</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>rv_t2_b.alo</Land_Model_Name>
+		<Land_Model_Name>reb_t_2b.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.94</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
+		<Ranged_Target_Z_Adjust>13.0</Ranged_Target_Z_Adjust>
+		<No_Colorization_Color> 185, 40, 39, 255 </No_Colorization_Color>
 		
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.7</Max_Speed>
@@ -64,13 +66,32 @@
 		<Garrison_Value>4</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>20</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
+		
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Ground_Vehicles> 3 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
+	
+		<Projectile_Types>Proj_Land_Blaster_T2_B</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+	
+		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-
-		<Hardpoints>
-				HP_T2b_Main
-		</Hardpoints>
 	
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
