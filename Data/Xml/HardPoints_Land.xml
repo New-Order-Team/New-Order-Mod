@@ -1099,12 +1099,14 @@
 		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
 		<Health>150.0</Health>
 
-		<Model_To_Attach>rv_t-1b_00.ALO</Model_To_Attach>
+		<Model_To_Attach>reb_t1b_turret.ALO</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
-		<Collision_Mesh>Collision_Turret_00</Collision_Mesh>
+		<Collision_Mesh>Collision_Turret</Collision_Mesh>
 
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		
@@ -1114,8 +1116,8 @@
 		<Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 20.0 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
-		<Barrel_Bone_Name> Barrel_00 </Barrel_Bone_Name>
+		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
+		<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_Blaster_T1_B</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>2.16</Fire_Min_Recharge_Seconds>

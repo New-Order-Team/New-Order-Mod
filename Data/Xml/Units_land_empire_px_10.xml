@@ -19,9 +19,9 @@
 		<Political_Control>0</Political_Control>
 
         <Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>4.3</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>3.0</Stopped_Rate_Of_Turn>
+		<Max_Speed>2.9</Max_Speed>
+		<Max_Rate_Of_Turn>0.75</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>1.5</Stopped_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
