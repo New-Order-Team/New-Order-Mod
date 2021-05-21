@@ -74,7 +74,7 @@
 		<Projectile_Fire_Pulse_Count>9</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>7.4</Projectile_Fire_Recharge_Seconds>
-		<Targeting_Fire_Inaccuracy_Fixed_Radius>300.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>200.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

@@ -121,6 +121,7 @@
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
+		<Influences_Capture_Point>True</Influences_Capture_Point>
 
 		<Damage>3</Damage>
 

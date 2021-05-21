@@ -4,7 +4,7 @@
 	<Projectile Name="Proj_Land_Blaster_PX_10"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-        <Scale_Factor>0.06</Scale_Factor>
+        <Scale_Factor>0.3</Scale_Factor>
         <Damage_Type> Damage_B1 </Damage_Type> 
         <Max_Speed>30.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -32,7 +32,7 @@
 	<Projectile Name="Proj_Land_Blaster_AT_ST"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-        <Scale_Factor>0.125</Scale_Factor>
+        <Scale_Factor>0.625</Scale_Factor>
         <Damage_Type> Damage_B2 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -232,7 +232,7 @@
 	<Projectile Name="Proj_Land_Laser_QH_7"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>w_laser_land_g.alo</Land_Model_Name>
-        <Scale_Factor>0.15</Scale_Factor>
+        <Scale_Factor>0.75</Scale_Factor>
         <Damage_Type> Damage_L3 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -260,7 +260,7 @@
 	<Projectile Name="Proj_Land_Laser_AT_AR"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-        <Scale_Factor>0.15</Scale_Factor>
+        <Scale_Factor>0.75</Scale_Factor>
         <Damage_Type> Damage_L4 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -288,7 +288,7 @@
 	<Projectile Name="Proj_Land_Laser_FireHawke">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.2</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_L6 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -316,7 +316,7 @@
 	<Projectile Name="Proj_Land_Blaster_Firehawke"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-        <Scale_Factor>0.1</Scale_Factor>
+        <Scale_Factor>0.5</Scale_Factor>
         <Damage_Type> Damage_B0 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -344,7 +344,7 @@
 	<Projectile Name="Proj_Land_Blaster_TIE"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>w_laser_land_g.alo</Land_Model_Name>
-        <Scale_Factor>0.125</Scale_Factor>
+        <Scale_Factor>0.625</Scale_Factor>
         <Damage_Type> Damage_B2 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -372,7 +372,7 @@
 	<Projectile Name="Proj_Land_Light_Turbolaser_Green"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>w_laser_land_g.alo</Land_Model_Name>
-        <Scale_Factor>0.4</Scale_Factor>
+        <Scale_Factor>2.0</Scale_Factor>
         <Damage_Type> Damage_E7 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -404,7 +404,7 @@
 	<Projectile Name="Proj_Land_Laser_Juggernaut">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.15</Scale_Factor>
+		<Scale_Factor>0.75</Scale_Factor>
 		<Damage_Type> Damage_L4 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -432,7 +432,7 @@
 	<Projectile Name="Proj_Land_AT_AT_Blaster">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.125</Scale_Factor>
+		<Scale_Factor>0.625</Scale_Factor>
 		<Damage_Type> Damage_B2 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -459,7 +459,7 @@
 	<Projectile Name="Proj_Land_AT_AT_prot_Laser">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.4</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_L5 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -486,7 +486,7 @@
 	<Projectile Name="Proj_Land_AT_AT_Laser">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.45</Scale_Factor>
+		<Scale_Factor>2.25</Scale_Factor>
 		<Damage_Type> Damage_L6 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -513,7 +513,7 @@
 	<Projectile Name="Proj_Land_A9_Heavy_Blaster">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-		<Scale_Factor>0.4</Scale_Factor>
+		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_B5 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -540,7 +540,7 @@
 	<Projectile Name="Proj_Land_Laser_MAAT"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>w_laser_land_g.alo</Land_Model_Name>
-        <Scale_Factor>0.2</Scale_Factor>
+        <Scale_Factor>1.0</Scale_Factor>
         <Damage_Type> Damage_L4 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -571,7 +571,7 @@
 	<Projectile Name="Proj_Land_Blaster_T1_B"> 
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>proj_laser_land_r.alo</Land_Model_Name>
-        <Scale_Factor>0.05</Scale_Factor>
+        <Scale_Factor>0.25</Scale_Factor>
         <Damage_Type> Damage_B0 </Damage_Type> 
         <Max_Speed>40.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>

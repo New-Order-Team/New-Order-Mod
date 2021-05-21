@@ -1120,9 +1120,9 @@
 		<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_Blaster_T1_B</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.16</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>2.64</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Min_Recharge_Seconds>3.15</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.85</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_T1B_Fire</Fire_SFXEvent>
@@ -1130,45 +1130,6 @@
 		<Fire_Inaccuracy_Distance> Infantry, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
-	</HardPoint>
-
-	<HardPoint Name="HP_T1b_Launcher">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
-		<Health>150.0</Health>
-
-		<Model_To_Attach>rv_t-1b_01.ALO</Model_To_Attach>
-		<Attachment_Bone>Attach_01</Attachment_Bone>
-		<Collision_Mesh>Collision_Launcher</Collision_Mesh>
-
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 10.0 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 5.0 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
-		<Barrel_Bone_Name> Launcher </Barrel_Bone_Name>
-
-		<Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.1</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Rebel_Missile_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Infantry, 40.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 40.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 40.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	

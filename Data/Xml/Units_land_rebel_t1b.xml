@@ -5,7 +5,7 @@
 		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_T1B</Text_ID>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T1B</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNIT_T1B_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>reb_t1b.alo</Land_Model_Name>
@@ -19,7 +19,7 @@
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>3.0</Max_Speed>
 		<Movement_Animation_Speed> 2.3 </Movement_Animation_Speed>
-		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
@@ -45,9 +45,9 @@
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Armor_Type> Armor_A3 </Armor_Type>
-		<Shield_Armor_Type>Armor_A1</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_I1</Shield_Armor_Type>
 		<Shield_Points>370</Shield_Points>
-		<Shield_Refresh_Rate>12</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>37</Shield_Refresh_Rate>
 		<Size_Value>70</Size_Value>
 		<Damage>40</Damage>
 		<Tactical_Health>360</Tactical_Health>
@@ -65,17 +65,17 @@
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 
 		<Hardpoints>
-				HP_T1b_Main,
-				<!-- HP_T1b_Launcher -->
+			HP_T1b_Main
 		</Hardpoints>
 		
 		<Projectile_Types>Proj_Land_Flak_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>4.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.6</Projectile_Fire_Recharge_Seconds>
 
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
 		<Ranged_Target_Z_Adjust>13.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>5.0</Turret_Rotate_Extent_Degrees>
@@ -164,7 +164,7 @@
 	
 	<GroundCompany Name="Rebel_T1b_Platoon">
 		<Text_ID>TEXT_UNIT_T1B_PLATOON</Text_ID>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T1B_PLATOON</Encyclopedia_Text>
+  		<Encyclopedia_Text>TEXT_UNIT_T1B_PLATOON_DESC</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -181,7 +181,7 @@
 		<!--<Required_Ground_Base_Level>3</Required_Ground_Base_Level>-->
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>2</Formation_Priority>

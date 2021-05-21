@@ -156,6 +156,7 @@ function Respond_To_MinRange_Attacks(tf, unit)
 		,"Floating_Fortress"
 		,"AT_AT_Walker_Prototype"
 		,"AT_AT_Walker"
+		,"T1B_Tank"
 		,"T4B_Tank"
 		}
 
