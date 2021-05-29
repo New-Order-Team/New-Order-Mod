@@ -73,16 +73,16 @@
 		<Armor_Type> Armor_A3 </Armor_Type>
 		<Damage>40</Damage>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>360</Tactical_Health>
-		<Autoresolve_Health>360</Autoresolve_Health>
+		<Tactical_Health>340</Tactical_Health>
+		<Autoresolve_Health>340</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<!--<Hardpoints>
-				HP_AT_ST_00, HP_AT_ST_01
-		</Hardpoints>-->
+		<Hardpoints>
+				HP_AT_ST_00
+		</Hardpoints>
 		
 		<Projectile_Types>Proj_Land_Blaster_AT_ST</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
@@ -110,6 +110,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -143,13 +144,13 @@
 		<Overall_Length>20.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
 		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>365</AI_Combat_Power>
+		<AI_Combat_Power>22</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
 		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>AntiInfantryStructures</Targeting_Priority_Set>
+		<Targeting_Priority_Set>ATSTPriority</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>150.0</Autonomous_Move_Extension_Vs_Attacker>
 
 		<Select_Box_Scale>42</Select_Box_Scale>
@@ -256,12 +257,12 @@
 		<Text_ID>TEXT_UNIT_AT_ST_PLATOON</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>52.3</Damage>
-		<Autoresolve_Health>1440</Autoresolve_Health>
+		<Damage>90</Damage>
+		<Autoresolve_Health>102</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1460</Build_Cost_Credits>
+		<Build_Cost_Credits>670</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>38</Build_Time_Seconds>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -276,7 +277,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
+		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_atst.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-ST.ALO</GUI_Model_Name>
@@ -296,8 +297,8 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1460</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>670</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

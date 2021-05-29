@@ -79,10 +79,6 @@
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<!-- <Hardpoints>
-			HP_AT_AR_00
-		</Hardpoints> -->
-		
 		<Projectile_Types>Proj_Land_Laser_AT_AR</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
@@ -91,7 +87,6 @@
         <Land_FOW_Reveal_Range>490.0</Land_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
         <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-		<Target_Bones> B_TURRET, B_HEAD, B_BODY </Target_Bones>
 		
 		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
@@ -110,6 +105,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
         <Death_Explosions>Small_Explosion_Land</Death_Explosions>
         <Death_SFXEvent_Start_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_Start_Die>
@@ -143,7 +139,7 @@
         <Overall_Length>20.0</Overall_Length><!-- Hand tweaked for vehicle pitching up and down on terrain -->
         <Overall_Width>0.0</Overall_Width><!-- 0.0 means don't roll left and right on terrain -->
         <Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-        <AI_Combat_Power>519</AI_Combat_Power>
+        <AI_Combat_Power>290</AI_Combat_Power>
 
         <Idle_Chase_Range>0.0</Idle_Chase_Range>
         <Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -241,11 +237,11 @@
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>58.3</Damage>
-		<Autoresolve_Health>1290</Autoresolve_Health>
+		<Autoresolve_Health>1230</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1560</Build_Cost_Credits>
+		<Build_Cost_Credits>870</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>41</Build_Time_Seconds>
+		<Build_Time_Seconds>16</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>1</Tech_Level>
@@ -271,7 +267,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_AT_ST</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1557</Score_Cost_Credits>
+		<Score_Cost_Credits>870</Score_Cost_Credits>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -280,7 +276,7 @@
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1560</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>870</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>

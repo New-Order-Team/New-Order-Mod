@@ -40,7 +40,7 @@
         <Projectile_Category>Laser</Projectile_Category>
         <Projectile_Max_Flight_Distance>500</Projectile_Max_Flight_Distance> 
  
-        <Projectile_Damage>30</Projectile_Damage> 
+        <Projectile_Damage>40</Projectile_Damage> 
  
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -73,7 +73,14 @@
 		<Projectile_Target_Point_On_Terrain> True </Projectile_Target_Point_On_Terrain>
 		<Projectile_Max_Flight_Distance>700.0</Projectile_Max_Flight_Distance>
  
-        <Projectile_Damage>30</Projectile_Damage> 
+        <Projectile_Damage>30</Projectile_Damage>
+         
+        <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage> 
+        <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+ 
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
  
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -82,41 +89,16 @@
 		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Grenade_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-
-		<Projectile_Object_Detonation_Particle>Proj_Land_Grenade_AT_ST_Expl</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Proj_Land_Grenade_AT_ST_Expl</Projectile_Ground_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Proj_Land_Grenade_AT_ST_Expl</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Proj_Land_Grenade_AT_ST_Expl</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Proj_Land_Grenade_AT_ST_Expl</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_Object_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Ground_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Thermal_Detonator_Explosion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Thermal_Detonator_Explosion</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 
 		<AI_Combat_Power>600</AI_Combat_Power>
 	</Projectile>
-    <Projectile Name="Proj_Land_Grenade_AT_ST_Expl"> 
-        <Text_ID>TEXT_NONE</Text_ID>
-        <Land_Model_Name>p_explosion_small01.alo</Land_Model_Name>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Max_Speed>0.0</Max_Speed>
-        <Damage_Type> Damage_E4 </Damage_Type>
-        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-        <Projectile_Category>Laser</Projectile_Category>
-         
-        <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
-        <Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage> 
-        <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
- 
-        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-        <Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
-         
-        <Projectile_Damage>0.0</Projectile_Damage>
-        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-        <Death_Explosions> Concussion_Grenade_Explosion </Death_Explosions>
-        <Death_SFXEvent_Start_Die> Unit_Katarn_Building_Bomb_SFX </Death_SFXEvent_Start_Die>
-        <AI_Combat_Power>40</AI_Combat_Power>
-    </Projectile>
 	
 	<Projectile Name="Proj_Land_E_Projectile_Cannon">
 		<Text_ID>TEXT_NONE</Text_ID>
