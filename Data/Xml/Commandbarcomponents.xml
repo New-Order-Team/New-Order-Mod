@@ -992,7 +992,7 @@
 
     <CommandBarComponent Name="radar_galactic">
             <Type>Button</Type>
-            <Size>175 175</Size>
+            <Size>50 50</Size>
     </CommandBarComponent>
 
     <CommandBarComponent Name="Text_Tech_Level">
@@ -6662,14 +6662,14 @@
             <Font_Name>EmpireAtWar-Bold</Font_Name>
             <Alternate_Font_Name>EmpireAtWar-Medium, EmpireAtWar-Medium, EmpireAtWar-Bold</Alternate_Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -17</Text_Offset2>
+            <Text_Offset>0 -30</Text_Offset>
+            <Text_Offset2>0 -30</Text_Offset2>
             <Text_Outline>True</Text_Outline>
             <Text_Color2>255 255 255 180</Text_Color2>
             <No_Shell>True</No_Shell>
-            <Left_Justified>True</Left_Justified>
+            <Left_Justified>False</Left_Justified>
             <Base_Layer>0</Base_Layer>
-            <Offset>30 0</Offset>    <!-- x = pixels to offset planet name -->
+            <Offset>0 0</Offset>    <!-- x = pixels to offset planet name -->
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_planet_fleet">
@@ -6695,13 +6695,13 @@
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>6</Font_Point_Size>
             <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -17</Text_Offset2>
+            <Text_Offset2>0 0</Text_Offset2>
             <Text_Outline>True</Text_Outline>
             <Text_Color>255 255 255 180</Text_Color>
             <No_Shell>True</No_Shell>
-            <Left_Justified>True</Left_Justified>
+            <Left_Justified>False</Left_Justified>
             <Base_Layer>0</Base_Layer>
-            <Offset>30 -11</Offset>                 <!-- x,y = number of command bar units to shift credits -->
+            <Offset>0 -42</Offset>                 <!-- x,y = number of command bar units to shift credits -->
             <Default_Offset>0 0</Default_Offset>
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
@@ -6988,7 +6988,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>-20 -31</Offset>
+            <Offset>50 40</Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_planet_ability">
@@ -6997,7 +6997,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>0 -34</Offset>
+            <Offset>40 40</Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_corruption_text">
@@ -9521,7 +9521,7 @@
 
    <CommandBarComponent Name="radar_galactic_adv_map">
            <Type>Button</Type>
-           <Size>175 175</Size>
+           <Size>50 50</Size>
    </CommandBarComponent>
 
    <CommandBarComponent Name="b_zoom_adv_map">

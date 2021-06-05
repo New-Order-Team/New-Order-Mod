@@ -2,6 +2,7 @@
 
 <Campaign_Files>
 	<File>Campaigns\Campaigns_Sandbox.xml</File>
+	<File>Campaigns\Campaigns_Sandbox_NO.xml</File>
 	<File>Campaigns\Campaign_OSF.xml</File>	
 	
 	<File>Campaigns\Campaigns_Multiplayer.xml</File>

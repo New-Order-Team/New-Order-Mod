@@ -23,6 +23,28 @@
 		<Max_Space_Base>0</Max_Space_Base>
 	</Planet>
 
+	<Planet Name="Galaxy_Core_Art_Model_NO">
+		<Text_ID />
+		<Galactic_Model_Name>w_galaxy01.alo</Galactic_Model_Name>
+        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Show_Name>No</Show_Name>
+		<Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
+		<Behavior>IDLE</Behavior>
+		<Pre_Lit>no</Pre_Lit>
+		<Political_Control>0</Political_Control>
+		<Camera_Aligned>No</Camera_Aligned>
+		<Terrain />
+		<Planet_Credit_Value>0</Planet_Credit_Value>
+		<Galactic_Position>0.0, 0.0, 0.0</Galactic_Position>
+		<Special_Structures>0</Special_Structures>
+		<In_Background>yes</In_Background>
+		<Max_Ground_Base>0</Max_Ground_Base>
+		<Max_Space_Base>0</Max_Space_Base>
+	</Planet>
+
 
 <!--
 

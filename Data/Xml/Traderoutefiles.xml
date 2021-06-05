@@ -2,5 +2,6 @@
 
 <Trade_Route_Files>
 	<File>TradeRoutes.xml</File>
+	<File>TradeRoutes_NO.xml</File>
 	<File>Campaigns\Operation_Strike_Fear\TradeRoutes_OSF.xml</File>
 </Trade_Route_Files>

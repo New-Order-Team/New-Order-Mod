@@ -46,6 +46,7 @@
 	<File>Squadrons.xml</File>
 
 	<File>Planets.xml</File>
+	<File>Planets_NO.xml</File>
 	<!-- New Order planets for scenarios -->
 	<File>Campaigns\Operation_Strike_Fear\Planets_OSF.xml</File>
 
