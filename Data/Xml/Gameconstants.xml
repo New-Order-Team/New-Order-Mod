@@ -2716,10 +2716,10 @@
 	<Energy_Beam_Texture>tractor_beam00.tga</Energy_Beam_Texture>
 	<Energy_Beam_Color>139,230,104</Energy_Beam_Color>
 	
-	<MP_Color_Blue>78,150,237</MP_Color_Blue>	 
+	<MP_Color_Blue>73, 120, 230</MP_Color_Blue>	 
 	<MP_Color_Red>237,78,78</MP_Color_Red>		 
 	<MP_Color_Green>119,237,78</MP_Color_Green>	
-	<MP_Color_Orange>237,149,78</MP_Color_Orange>
+	<MP_Color_Orange>229, 152, 84</MP_Color_Orange>
 	<MP_Color_Cyan>111,217,224</MP_Color_Cyan>	 
 	<MP_Color_Purple>224,111,209</MP_Color_Purple>
 	<MP_Color_Yellow>224,215,111</MP_Color_Yellow>
