@@ -3698,130 +3698,71 @@ BEGIN
     CONTROL         "TEXT_SUMMARY_SCREEN",IDC_SUMMARY_SCREEN_RADIO,"Button",
                     BS_AUTORADIOBUTTON | BS_PUSHLIKE,646,17,206,18
     PUSHBUTTON      "TEXT_BUTTON_CLOSE",IDC_BUTTON_CLOSE,722,563,141,14
-    LTEXT           "TEXT_TECH_TREE",IDC_PLANET_REFERENCE_TITLE,37,48,503,19
-    LTEXT           "TEXT_TECHTREE_EMPIRE_HINT",IDC_HINTS,20,565,667,17
-    CONTROL         "",IDC_RRIGHT_ARROW2,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,397,454,39,14
-    CONTROL         "",IDC_RRIGHT_ARROW3,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,650,124,39,14
-    CONTROL         "",IDC_DOWN_ARROW2,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    440,159,14,30
-    CONTROL         "",IDC_DOWN_ARROW3,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    336,296,14,30
-    CTEXT           "TEXT_TECH_LEVEL_1",IDC_STATIC_TECH,346,81,119,8
-    CTEXT           "TEXT_TECH_LEVEL_2",IDC_STATIC_TECH2,532,81,111,8
-    CTEXT           "TEXT_TECH_LEVEL_3",IDC_STATIC_TECH3,634,81,105,8
-    CTEXT           "TEXT_TECH_LEVEL_4",IDC_STATIC_TECH4,713,81,88,8
-    GROUPBOX        "Static",IDC_STATIC,18,36,845,523
-    CONTROL         "",IDC_RIGHT_ARROW21,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,18,68,845,14
-    CONTROL         "",IDC_DOWN_ARROW10,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    319,477,14,30
-    CONTROL         "",IDC_DOWN_ARROW11,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    472,159,14,30
-    CONTROL         "",IDC_DOWN_ARROW12,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    456,296,14,30
-    CONTROL         "",IDC_DOWN_ARROW13,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    439,477,14,30
-    CONTROL         "",IDC_RRIGHT_ARROW22,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,492,125,39,14
-    CONTROL         "",IDC_RRIGHT_ARROW7,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,524,125,39,14
-    CONTROL         " ",IDC_RRIGHT_ARROW8,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,617,124,39,14
-    CONTROL         "",IDC_DOWN_ARROW14,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    354,477,14,30
-    CONTROL         "",IDC_DOWN_ARROW15,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    475,477,14,30
-    CONTROL         "",IDC_TECHTREE_Generic_Fleet_Commander_Empire,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,408,502,50,50
-    CONTROL         "",IDC_TECHTREE_Imperial_Stormtrooper_Squad,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,288,502,50,50
-    CONTROL         "",IDC_TECHTREE_Generic_Field_Commander_Empire,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,470,502,50,50
-    CONTROL         "",IDC_TECHTREE_Imperial_Light_Scout_Squad,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,348,502,50,50
-    CONTROL         "",IDC_TECHTREE_E_Ground_Officer_Academy,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,433,428,62,62
-    CONTROL         "",IDC_TECHTREE_E_Ground_Light_Vehicle_Factory,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,433,100,62,62
-    CONTROL         "",IDC_TECHTREE_Ground_Magnepulse_Cannon,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,558,242,62,62
-    CONTROL         "",IDC_TECHTREE_E_Ground_Base_Shield,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,558,428,62,62
-    CONTROL         "",IDC_TECHTREE_E_Ground_Turbolaser_Tower,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,558,336,62,62
-    CONTROL         "",IDC_TECHTREE_Empire_Ground_Mining_Facility,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,312,172,62,62
-    CONTROL         "",IDC_TECHTREE_Ground_Cantina_E,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,312,242,62,62
-    CONTROL         "",IDC_TECHTREE_Ground_Hutt_Palace_E,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,433,242,62,62
-    CONTROL         "",IDC_TECHTREE_Generic_Smuggler_E,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,318,315,50,50
-    CONTROL         "",IDC_TECHTREE_Generic_Bounty_Hunter_E,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,438,315,50,50
-    CONTROL         "",IDC_TECHTREE_E_Ground_Research_Facility,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,312,100,62,62
-    CONTROL         "",IDC_RRIGHT_ARROW9,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,364,454,39,14
-    CONTROL         "",IDC_TECHTREE_Imperial_Heavy_Scout_Squad,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,409,179,50,50
-    CONTROL         "",IDC_TECHTREE_Imperial_Anti_Infantry_Brigade,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,467,179,50,50
+    LTEXT           "TEXT_TECH_TREE",IDC_PLANET_REFERENCE_TITLE,395,48,503,19
+	
     CONTROL         "TEXT_GAME_TYPE_TEAM_LAND",IDC_TECH_TREE_LAND,"Button",
-                    BS_AUTORADIOBUTTON,57,265,141,10
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,320,48,106,10
     CONTROL         "TEXT_GAME_TYPE_TEAM_SPACE",IDC_TECH_TREE_SPACE,"Button",
-                    BS_AUTORADIOBUTTON,57,296,155,10
-    GROUPBOX        "Static",IDC_STATIC,280,74,247,485
-    GROUPBOX        "Static",IDC_STATIC,648,74,77,485
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE,500,48,116,10
+	
     CONTROL         "",IDC_TECHTREE_E_Ground_Barracks,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,312,428,62,62
-    CONTROL         "",IDC_RRIGHT_ARROW4,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,735,123,39,14
-    CONTROL         "",IDC_RRIGHT_ARROW5,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,706,123,39,14
-    CONTROL         "",IDC_DOWN_ARROW9,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    565,159,14,30
-    CONTROL         "",IDC_DOWN_ARROW16,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    598,159,14,30
-    CONTROL         "",IDC_TECHTREE_Imperial_Armor_Group,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,533,179,50,50
-    CONTROL         "",IDC_TECHTREE_Imperial_Artillery_Corp,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,593,179,50,50
-    CONTROL         "",IDC_TECHTREE_E_Ground_Heavy_Vehicle_Factory,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,558,100,62,62
-    CONTROL         "",IDC_DOWN_ARROW17,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    680,159,14,30
-    GROUPBOX        "Static",IDC_STATIC,18,253,264,79
-    CONTROL         "",IDC_TECHTREE_Dark_Trooper_PhaseI,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,347,371,50,50
-    CONTROL         "",IDC_TECHTREE_Dark_Trooper_PhaseII,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,407,371,50,50
-    CONTROL         "",IDC_TECHTREE_Dark_Trooper_PhaseIII,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,801,100,50,50
-    GROUPBOX        "Static",IDC_STATIC,793,74,70,485
-    CTEXT           "TEXT_TECH_LEVEL_5",IDC_STATIC_TECH7,780,82,88,8
-    CONTROL         "",IDC_TECHTREE_HAV_Juggernaut,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,662,247,50,50
-    CONTROL         "",IDC_DOWN_ARROW22,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    680,220,14,30
-    CONTROL         "",IDC_TECHTREE_Ground_Empire_Hypervelocity_Gun,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,656,336,62,62
-    CONTROL         "",IDC_TECHTREE_Imperial_Heavy_Assault_Company,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,663,179,50,50
-    CONTROL         "",IDC_DOWN_ARROW23,"PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,
-                    754,160,14,30
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,200,100,56,75
+    CONTROL         "",IDC_TECHTREE_Line_Infantry_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,210,180,38,50
+    CONTROL         "",IDC_TECHTREE_E_Web_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,210,240,38,50
+    CONTROL         "",IDC_TECHTREE_PX_10_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,210,300,38,50
+    CONTROL         "",IDC_TECHTREE_AT_AR_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,210,360,38,50
+	
+    CONTROL         "",IDC_TECHTREE_Imperial_Command_Center,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,280,100,56,75
+    CONTROL         "",IDC_TECHTREE_Engineering_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,290,180,38,50
+    CONTROL         "",IDC_TECHTREE_Chariot_Command_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,290,240,38,50
+    CONTROL         "",IDC_TECHTREE_Imperial_Heavy_Scout_Squad,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,290,300,38,50
+    CONTROL         "",IDC_TECHTREE_Floating_Fortress_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,290,360,38,50
+	
+    CONTROL         "",IDC_TECHTREE_E_Ground_Light_Vehicle_Factory,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,360,100,56,75
     CONTROL         "",IDC_TECHTREE_Imperial_Anti_Aircraft_Company,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,734,101,50,50
-    CONTROL         "",IDC_TECHTREE_Lancet_Air_Artillery,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,734,179,50,50
-    CONTROL         "",IDC_RRIGHT_ARROW6,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,698,150,39,14
-    CONTROL         "",IDC_RRIGHT_ARROW10,"PETROGLYPH_DIALOG_IMAGE",
-                    WS_TABSTOP,730,150,39,14
-    CONTROL         "",IDC_TECHTREE_E_Ground_Advanced_Vehicle_Factory,
-                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,656,100,62,62
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,370,180,38,50
+	
+    CONTROL         "",IDC_TECHTREE_E_Ground_Heavy_Vehicle_Factory,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,440,100,56,75
+    CONTROL         "",IDC_TECHTREE_Imperial_Mobile_Artillery_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,450,180,38,50
+    CONTROL         "",IDC_TECHTREE_Imperial_Armor_Group,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,450,240,38,50
+    CONTROL         "",IDC_TECHTREE_Century_Tank_Platoon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,450,300,38,50
+    CONTROL         "",IDC_TECHTREE_HAV_Juggernaut_Company,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,450,360,38,50
+    CONTROL         "",IDC_TECHTREE_Imperial_Heavy_Assault_Company,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,450,420,38,50
+					
+    CONTROL         "",IDC_TECHTREE_E_Ground_Officer_Academy,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,520,100,56,75
+    CONTROL         "",IDC_TECHTREE_Imperial_Stormtrooper_Squad,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,530,180,38,50
+    CONTROL         "",IDC_TECHTREE_Storm_Commando_Team,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,530,240,38,50
+					
+    CONTROL         "",IDC_TECHTREE_E_Ground_Research_Facility,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,620,100,56,75
+    CONTROL         "",IDC_TECHTREE_Communications_Array_E,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,620,200,56,75
+					
+    CONTROL         "",IDC_TECHTREE_E_Ground_Base_Shield,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,720,100,56,75
+    CONTROL         "",IDC_TECHTREE_E_Ground_Turbolaser_Tower,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,720,200,56,75
+    CONTROL         "",IDC_TECHTREE_Ground_Magnepulse_Cannon,
+                    "PETROGLYPH_DIALOG_IMAGE",WS_TABSTOP,720,300,56,75
 END
 
 IDD_SUMMARY_SCREEN_ECONOMY DIALOGEX 0, 0, 884, 606
