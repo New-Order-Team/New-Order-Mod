@@ -72,9 +72,8 @@
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 
 		<Hardpoints>
-			HP_Arrow_23_Main
-			<!--,
-            HP_Arrow_23_Launcher-->
+			HP_Arrow_23_Main,
+            HP_Arrow_23_Launcher
 		</Hardpoints>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
