@@ -93,6 +93,7 @@
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Autoresolve_Health>1140</Autoresolve_Health>
 		<Tech_Level>2</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Squadron_Units>X-Wing2, X-Wing2, X-Wing2, X-Wing2</Squadron_Units>
 		<Squadron_Units>X-Wing2, X-Wing2, X-Wing2, X-Wing2</Squadron_Units>
@@ -127,6 +128,7 @@
 		<Build_Cost_Credits>1050</Build_Cost_Credits>
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Tech_Level>3</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Squadron_Units>X-Wing3, X-Wing3, X-Wing3, X-Wing3</Squadron_Units>
 		<Squadron_Units>X-Wing3, X-Wing3, X-Wing3, X-Wing3</Squadron_Units>
 		<Squadron_Units>X-Wing3, X-Wing3, X-Wing3, X-Wing3</Squadron_Units>
@@ -162,6 +164,7 @@
 		<Autoresolve_Health>1920</Autoresolve_Health>
 		<Damage>1080</Damage>
 		<Tech_Level>4</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Squadron_Units>X-Wing4, X-Wing4, X-Wing4, X-Wing4</Squadron_Units>
 		<Squadron_Units>X-Wing4, X-Wing4, X-Wing4, X-Wing4</Squadron_Units>
 		<Squadron_Units>X-Wing4, X-Wing4, X-Wing4, X-Wing4</Squadron_Units>
@@ -196,6 +199,7 @@
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Tech_Level>5</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Squadron_Units>X-Wing5, X-Wing5, X-Wing5, X-Wing5</Squadron_Units>
 		<Squadron_Units>X-Wing5, X-Wing5, X-Wing5, X-Wing5</Squadron_Units>
 		<Squadron_Units>X-Wing5, X-Wing5, X-Wing5, X-Wing5</Squadron_Units>
