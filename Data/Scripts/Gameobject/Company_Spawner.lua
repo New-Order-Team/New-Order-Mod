@@ -1,12 +1,11 @@
 -- Author MaxiM --
 require("PGStateMachine")
 require("PGSpawnUnits")
--- require("libBasicFunctions")
 
 
 function Definitions()
     ServiceRate = 1
-    DebugMessage("%s -- In Definitions", tostring(Script))
+	DebugMessage("%s -- In Definitions", tostring(Script))
     Define_State("State_Init", State_Init);
 end
 
@@ -19,30 +18,21 @@ function State_Init(message)
 
         player = Object.Get_Owner()
 
-        if not player.Is_Human() then
-            Object.Prevent_AI_Usage(true)
-        end
         Object.Make_Invulnerable(true)
-        Object.Prevent_All_Fire(true)
-        Object.Set_Selectable(false)
-        if Object.Get_Parent_Object() then
-            DebugMessage("%s -- Disabling Object %s Parent %s", tostring(Script), tostring(Object), tostring(Object.Get_Parent_Object()))
-            Object.Get_Parent_Object().Set_Selectable(false)
-        end
         Object.Prevent_All_Fire(true)
         Hide_Sub_Object(Object, 1, "Cylinder01")
 
-        local company_to_spawn = string.gsub(string.upper(Object.Get_Type().Get_Name()), "_SPAWNER", "")
+        company_to_spawn = string.gsub(string.upper(Object.Get_Type().Get_Name()), "_SPAWNER", "")
         company_to_spawn = company_to_spawn.."_DUMMY"
 
         spawned_units = SpawnList({company_to_spawn}, Object.Get_Position(), player, true, true)
 
         Object.Change_Owner(Find_Player("NEUTRAL"))
 
-        local spawned_unit_amount = 0
+        spawned_unit_amount = 0
         for _,spawned_unit in pairs(spawned_units) do
             if TestValid(spawned_unit) and spawned_unit.Get_Contained_Object_Count ~= nil then
-                local spawned_unit_object_count = spawned_unit.Get_Contained_Object_Count()
+                spawned_unit_object_count = spawned_unit.Get_Contained_Object_Count()
                 DebugMessage("%s -- Adding amount %s from Object %s to spawned_unit_amount", tostring(Script), tostring(spawned_unit_object_count), tostring(spawned_unit))
                 spawned_unit_amount = spawned_unit_amount + spawned_unit_object_count
             elseif TestValid(spawned_unit) then
@@ -54,11 +44,11 @@ function State_Init(message)
         cutoff_amount = spawned_unit_amount / 2
         DebugMessage("%s -- Starting spawned_unit_amount: %s cutoff_amount: %s", tostring(Script), tostring(spawned_unit_amount), tostring(cutoff_amount))
     elseif message == OnUpdate then
-        local existing_unit_amount = 0
-        local new_dummy_position
+        existing_unit_amount = 0
+        new_dummy_position = nil
         for _,spawned_unit in pairs(spawned_units) do
             if TestValid(spawned_unit) and spawned_unit.Get_Contained_Object_Count ~= nil then
-                local spawned_unit_object_count = spawned_unit.Get_Contained_Object_Count()
+                spawned_unit_object_count = spawned_unit.Get_Contained_Object_Count()
                 new_dummy_position = spawned_unit.Get_Position()
                 DebugMessage("%s -- Adding amount %s from Object %s to existing_unit_amount", tostring(Script), tostring(spawned_unit_object_count), tostring(spawned_unit))
                 existing_unit_amount = existing_unit_amount + spawned_unit_object_count
