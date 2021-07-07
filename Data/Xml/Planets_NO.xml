@@ -38,11 +38,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_AARGAU_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_AARGAU_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_AARGAU_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_AARGAU_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_AARGAU_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_AARGAU_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -104,11 +104,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ABREGADO_RAE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ABREGADO_RAE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ABREGADO_RAE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ABREGADO_RAE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ABREGADO_RAE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SHADOWPORT</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ABREGADO_RAE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
@@ -170,11 +170,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_None</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_AETEN_II_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_AETEN_II_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_AETEN_II_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_AETEN_II_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_AETEN_II_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -236,11 +236,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ALDERAAN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ALDERAAN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ALDERAAN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ALDERAAN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_RESORT_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ALDERAAN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -302,11 +302,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ALZOC_III_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ALZOC_III_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ALZOC_III_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ALZOC_III_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ALZOC_III_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ALZOC_III_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -368,11 +368,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ANAXES_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ANAXES_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ANAXES_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ANAXES_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ANAXES_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FORTRESS_WORLD TEXT_PLANET_MAJOR__ECUMENOPOLIS TEXT_PLANET_MAJOR__WAR_ACADEMY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ANAXES_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
@@ -434,11 +434,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ATZERRI_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ATZERRI_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ATZERRI_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ATZERRI_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SHADOWPORT TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ATZERRI_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
@@ -500,11 +500,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BALMORRA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BALMORRA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BALMORRA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BALMORRA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BALMORRA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_BALMORRA TEXT_PLANET_MAJOR__FACTORY_WORLD TEXT_PLANET_MAJOR__FORTRESS_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BALMORRA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -566,11 +566,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BESPIN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BESPIN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BESPIN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BESPIN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BESPIN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BESPIN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -632,11 +632,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BESTINE_IV_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BESTINE_IV_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BESTINE_IV_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BESTINE_IV_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BESTINE_IV_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_BESTINE_IV</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BESTINE_IV_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -702,11 +702,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BILBRINGI_VII_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BILBRINGI_VII_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BILBRINGI_VII_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BILBRINGI_VII_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BILBRINGI_VII_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BILBRINGI_VII_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -768,11 +768,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BONADAN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BONADAN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BONADAN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BONADAN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BONADAN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BONADAN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -834,11 +834,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BOTHAWUI_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BOTHAWUI_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BOTHAWUI_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BOTHAWUI_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BOTHAWUI_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BOTHAWUI_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -900,11 +900,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_BRENTAAL_IV_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_BRENTAAL_IV_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BRENTAAL_IV_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BRENTAAL_IV_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BRENTAAL_IV_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BRENTAAL_IV_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -966,11 +966,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
-		<Describe_Wildlife>TEXT_EMPTY</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_BYSS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_BYSS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_SUBTROP_W</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_BYSS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FORTRESS_WORLD TEXT_PLANET_MAJOR__MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BYSS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
@@ -1032,11 +1032,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CARIDA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CARIDA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CARIDA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CARIDA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_WAR_ACADEMY TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CARIDA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_combat_armor_galactic.tga</Planet_Ability_Icon>
@@ -1098,11 +1098,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CELANON_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CELANON_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CELANON_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CELANON_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CELANON_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD TEXT_PLANET_MAJOR__AGRIWORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CELANON_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -1164,11 +1164,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CENTARES_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CENTARES_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CENTARES_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CENTARES_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CENTARES_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CENTARES_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -1230,11 +1230,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CHAMPALA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CHAMPALA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CHAMPALA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CHAMPALA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CHAMPALA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CHAMPALA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -1296,11 +1296,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_COMMENOR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_COMMENOR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_COMMENOR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_COMMENOR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_COMMENOR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_COMMENOR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -1362,11 +1362,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CORELLIA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CORELLIA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CORELLIA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CORELLIA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CORELLIA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CORELLIA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -1428,11 +1428,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_CORULAG_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CORULAG_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CORULAG_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CORULAG_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CORULAG_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_WAR_ACADEMY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CORULAG_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_combat_armor_galactic.tga</Planet_Ability_Icon>
@@ -1494,11 +1494,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_MANY</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_CORUSCANT_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_CORUSCANT_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CORUSCANT_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_TEMP_D</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_CORUSCANT_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CORUSCANT_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -1560,11 +1560,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_None</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DAGOBAH_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DAGOBAH_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DAGOBAH_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DAGOBAH_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DAGOBAH_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -1626,11 +1626,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DANTOOINE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DANTOOINE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DANTOOINE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DANTOOINE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DANTOOINE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_AGRIWORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DANTOOINE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_stamina_boost.tga</Planet_Ability_Icon>
@@ -1692,11 +1692,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DATHOMIR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DATHOMIR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DATHOMIR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DATHOMIR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DATHOMIR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DATHOMIR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -1758,11 +1758,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DEMOPHON_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DEMOPHON_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DEMOPHON_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DEMOPHON_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DEMOPHON_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DEMOPHON_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -1824,11 +1824,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DENON_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DENON_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DENON_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DENON_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DENON_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DENON_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -1894,11 +1894,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DORIN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DORIN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DORIN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DORIN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DORIN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DORIN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -1960,11 +1960,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DRUCKENWELL_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DRUCKENWELL_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DRUCKENWELL_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DRUCKENWELL_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DRUCKENWELL_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DRUCKENWELL_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -2030,11 +2030,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_DURO_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DURO_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_DURO_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_DURO_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_DURO_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DURO_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2096,11 +2096,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ENDOR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ENDOR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ENDOR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ENDOR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ENDOR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ENDOR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2162,11 +2162,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ERIADU_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ERIADU_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ERIADU_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ERIADU_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ERIADU_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -2228,11 +2228,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_FELUCIA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_FELUCIA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_FELUCIA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_FELUCIA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_FELUCIA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2294,11 +2294,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_FONDOR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_FONDOR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_FONDOR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_FONDOR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_FONDOR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -2360,11 +2360,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_FRESIA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_FRESIA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_FRESIA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_FRESIA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_FRESIA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2426,11 +2426,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_GEONOSIS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_GEONOSIS_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_GEONOSIS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_GEONOSIS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_GEONOSIS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_GEONOSIS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -2492,11 +2492,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_GERRENTHUM_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_GERRENTHUM_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_GERRENTHUM_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_GERRENTHUM_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_GERRENTHUM_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_GERRENTHUM_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -2558,11 +2558,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HONOGHR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_HONOGHR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_HONOGHR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_HONOGHR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_HONOGHR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_HONOGHR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2624,11 +2624,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_NONE</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_HOTH_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_HOTH_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_HOTH_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_HOTH_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_HOTH_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2690,11 +2690,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_NONE</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_HYPORI_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_HYPORI_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_HYPORI_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_HYPORI_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_HYPORI_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -2756,11 +2756,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_NONE</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ILUM_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ILUM_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ILUM_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ILUM_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ILUM_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2822,11 +2822,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_JABIIM_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_JABIIM_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_JABIIM_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_JABIIM_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_JABIIM_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_JABIIM_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -2888,11 +2888,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KAMINO_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KAMINO_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KAMINO_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KAMINO_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KAMINO_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_KAMINO</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KAMINO_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -2954,11 +2954,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KASHYYYK_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KASHYYYK_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KASHYYYK_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KASHYYYK_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KASHYYYK_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KASHYYYK_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -3020,11 +3020,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KESSEL_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KESSEL_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KESSEL_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KESSEL_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KESSEL_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KESSEL_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -3086,11 +3086,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KINYEN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KINYEN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KINYEN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KINYEN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KINYEN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_AGRIWORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KINYEN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_stamina_boost.tga</Planet_Ability_Icon>
@@ -3152,11 +3152,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_KORRIBAN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KORRIBAN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KORRIBAN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KORRIBAN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KORRIBAN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KORRIBAN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -3218,11 +3218,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KUAT_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_KUAT_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_KUAT_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_KUAT_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS TEXT_PLANET_MAJOR__FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KUAT_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -3284,11 +3284,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_LANTILLIES_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_LANTILLIES_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_LANTILLIES_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_LANTILLIES_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_LANTILLIES_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_LANTILLIES_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -3350,11 +3350,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_LIANNA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_LIANNA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_LIANNA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_LIANNA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_LIANNA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -3416,11 +3416,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MALASTARE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MALASTARE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MALASTARE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MALASTARE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MALASTARE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MALASTARE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -3482,11 +3482,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANAAN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MANAAN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MANAAN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MANAAN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MANAAN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MANAAN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -3548,11 +3548,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MANDALORE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MANDALORE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MANDALORE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MANDALORE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MANDALORE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -3614,11 +3614,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MON_CALAMARI_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MON_CALAMARI_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MON_CALAMARI_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MON_CALAMARI_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MON_CALAMARI_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS TEXT_PLANET_MAJOR__FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MON_CALAMARI_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -3680,11 +3680,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MUSTAFAR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MUSTAFAR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MUSTAFAR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MUSTAFAR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MUSTAFAR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MUSTAFAR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
@@ -3746,11 +3746,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MUUNILINST_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MUUNILINST_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MUUNILINST_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MUUNILINST_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MUUNILINST_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MUUNILINST_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -3812,11 +3812,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_MYRKR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_MYRKR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_MYRKR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_MYRKR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MYRKR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_MYRKR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -3878,11 +3878,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NABOO_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_NABOO_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_NABOO_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_NABOO_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_NABOO_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_NABOO_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -3944,11 +3944,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_NAR_SHADDAA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_NAR_SHADDAA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_NAR_SHADDAA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_NAR_SHADDAA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_NAR_SHADDAA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS TEXT_PLANET_MAJOR__SHADOWPORT TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_NAR_SHADDAA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -4010,11 +4010,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ORD_MANTELL_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ORD_MANTELL_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ORD_MANTELL_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ORD_MANTELL_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ORD_MANTELL_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ORD_MANTELL_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -4076,11 +4076,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_POLUS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_POLUS_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_POLUS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_POLUS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_POLUS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_POLUS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4142,11 +4142,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_RALLTIIR_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_RALLTIIR_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_RALLTIIR_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_RALLTIIR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_RALLTIIR_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_RALLTIIR_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4212,11 +4212,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_ROCHE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ROCHE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_ROCHE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ROCHE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_ROCHE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ROCHE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4278,11 +4278,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_RYLOTH_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_RYLOTH_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_RYLOTH_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_RYLOTH_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_RYLOTH_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SLAVE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_RYLOTH_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4344,11 +4344,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SALEUCAMI_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_SALEUCAMI_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_SALEUCAMI_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SALEUCAMI_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_SALEUCAMI_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_SALEUCAMI_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4410,11 +4410,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SHOLA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_SHOLA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_SHOLA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SHOLA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_SHOLA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_SHOLA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4476,11 +4476,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SLUIS_VAN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_SLUIS_VAN_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_SLUIS_VAN_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SLUIS_VAN_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_SLUIS_VAN_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SLUIS_VAN</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_SLUIS_VAN_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4542,11 +4542,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_SULLUST_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_SULLUST_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_SULLUST_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SULLUST_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_SULLUST_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_SULLUST_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
@@ -4608,11 +4608,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TARIS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_TARIS_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_TARIS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TARIS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_TARIS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_TARIS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
@@ -4674,11 +4674,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TATOOINE_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_TATOOINE_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_TATOOINE_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TATOOINE_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_TATOOINE_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SHADOWPORT</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_TATOOINE_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
@@ -4740,11 +4740,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TELOS_IV_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_TELOS_IV_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_TELOS_IV_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TELOS_IV_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_TELOS_IV_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_TELOS_IV_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4806,11 +4806,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_TERMINUS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_TERMINUS_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_TERMINUS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TERMINUS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_TERMINUS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SHADOWPORT TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_TERMINUS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
@@ -4876,11 +4876,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_THE_MAW_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_THE_MAW_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_THE_MAW_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_THE_MAW_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_THE_MAW_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_THE_MAW_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -4942,11 +4942,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_THYFERRA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_THYFERRA_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_THYFERRA_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_THYFERRA_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_THYFERRA_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_THYFERRA_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -5008,11 +5008,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_UTAPAU_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_UTAPAU_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_UTAPAU_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_UTAPAU_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_UTAPAU_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_UTAPAU_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -5078,11 +5078,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_VERGESSO_ASTEROIDS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_VERGESSO_ASTEROIDS_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_VERGESSO_ASTEROIDS_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_VERGESSO_ASTEROIDS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_VERGESSO_ASTEROIDS_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_SHADOWPORT</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_VERGESSO_ASTEROIDS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
@@ -5144,11 +5144,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_VULPTER_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_VULPTER_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_VULPTER_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_VULPTER_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_VULPTER_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_VULPTER_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
@@ -5210,11 +5210,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_WAYLAND_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_WAYLAND_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_WAYLAND_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_WAYLAND_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_WAYLAND_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_WAYLAND_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
@@ -5280,11 +5280,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_YAG_DHUL_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_YAG_DHUL_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_YAG_DHUL_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_YAG_DHUL_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_YAG_DHUL_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_TRADE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_YAG_DHUL_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
@@ -5346,11 +5346,11 @@
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_YAVIN_4_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_YAVIN_4_WL</Describe_Wildlife>
+		<Describe_Wildlife>TEXT_PLANET_YAVIN_4_GEO</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_YAVIN_4_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_YAVIN_4_GEO</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_YAVIN_4_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>

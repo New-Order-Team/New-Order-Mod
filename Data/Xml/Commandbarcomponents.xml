@@ -6724,7 +6724,7 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
             <Scale>1.0</Scale>
-            <Default_Offset>72 -26</Default_Offset>
+            <Default_Offset>80 37</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_icon">
@@ -6735,7 +6735,7 @@
             <Default_Offset>32 0</Default_Offset>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_GROUND_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -26</Default_Offset>
+            <Default_Offset>42 37</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_level_pips">
@@ -6745,7 +6745,7 @@
             <Scale>1.0</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_GROUND_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -26</Default_Offset>
+            <Default_Offset>42 37</Default_Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_space_level">
@@ -6755,7 +6755,7 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
             <Scale>1.0</Scale>
-            <Default_Offset>72 -13</Default_Offset>
+            <Default_Offset>80 47</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_space_icon">
@@ -6765,7 +6765,7 @@
             <Scale>1.0</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_SPACE_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -13</Default_Offset>
+            <Default_Offset>42 47</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_space_level_pips">
@@ -6775,7 +6775,7 @@
             <Scale>1.0</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_SPACE_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -13</Default_Offset>
+            <Default_Offset>42 47</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_conflict">
@@ -6988,7 +6988,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>50 40</Offset>
+            <Offset>60 -40</Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_planet_ability">
@@ -6997,7 +6997,7 @@
             <Scale>1.0</Scale>
             <Color>255 255 255 255</Color>
             <Base_Layer>0</Base_Layer>
-            <Offset>40 40</Offset>
+            <Offset>40 -40</Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_corruption_text">
