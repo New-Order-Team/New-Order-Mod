@@ -84,10 +84,6 @@
 		<Land_FOW_Reveal_Range>300</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 		
-		<!--<Hardpoints>
-                HP_PX_10_Blaster
-		</Hardpoints>-->
-		
 		<Projectile_Types>Proj_Land_Blaster_PX_10</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.33</Projectile_Fire_Pulse_Delay_Seconds>
@@ -172,13 +168,17 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Score_Cost_Credits>7.23</Score_Cost_Credits>
-		<No_Colorization_Color> 33, 33, 33, 255 </No_Colorization_Color>
+		<!-- <No_Colorization_Color> 33, 33, 33, 255 </No_Colorization_Color> -->
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
 		<Tactical_Bribe_Cost>40</Tactical_Bribe_Cost>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+			</Unit_Ability>
 			<!-- Primary ability 
 			<Unit_Ability>
 				<Type>HARMONIC_BOMB</Type>
@@ -247,26 +247,9 @@
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability 
 			<Unit_Ability>
-				<Type>HARMONIC_BOMB</Type>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Spawned_Object_Type>Proj_Harmonic_Bomb_Slave_I</Spawned_Object_Type>
-				<Bomb_Countdown_Seconds>1.5</Bomb_Countdown_Seconds>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_Boba_Fett</SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>False</Supports_Autofire>
+				<Type>HUNT</Type>
 			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>STIM_PACK</Type>
-				<Expiration_Seconds>15.0</Expiration_Seconds>
-				<Recharge_Seconds>15.0</Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
-				<Disable_Movement>Yes</Disable_Movement>
-				<Mod_Flag>WEAPONS_ENABLED_FLAG, false</Mod_Flag>
-			</Unit_Ability>-->
 		</Unit_Abilities_Data>
 		
 		<Population_Value>1</Population_Value>
