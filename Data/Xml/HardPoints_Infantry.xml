@@ -179,8 +179,8 @@
 		<Fire_Range_Distance>600.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_E_11s_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Infantry, 0.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 40.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions> Structure </Fire_Category_Restrictions>
