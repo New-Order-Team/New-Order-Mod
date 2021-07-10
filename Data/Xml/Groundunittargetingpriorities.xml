@@ -6,8 +6,42 @@
 	the unit has good RPS advantage over.  These should not contain
 	many exclusions or any hard point target priorities.
 	-->
-	
-	<!-- Priorities for specific units -->
+
+	<!-- Regilar infantry are good against other infantry and mining platforms -->
+	<Priority_Set Name="InfantryPriority">
+        <Attack_Priorities>
+            Infantry, 1.0,
+			TacticalStructure, 2.0,
+			Structure, 3.0,
+			
+            Vehicle, 10.0,
+            Turret, 11.0,
+			Bunker, 12.0,
+            LandHero, 13.0,
+        </Attack_Priorities>
+        <Category_Exclusions>
+			Wall, Air
+        </Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
+	</Priority_Set>
+
+	<!-- Plex infantry are good against vehicles and mining platforms -->
+	<Priority_Set Name="PlexPriority">
+        <Attack_Priorities>
+            Vehicle, 1.0,
+			TacticalStructure, 2.0,
+			Structure, 3.0,
+			
+            Infantry, 10.0,
+            Turret, 11.0,
+			Bunker, 12.0,
+            LandHero, 13.0,
+        </Attack_Priorities>
+        <Category_Exclusions>
+			Wall, Air
+        </Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
+	</Priority_Set>
 
 	<!-- PX-10 are good against infantry, MPTLs and mining platforms -->
 	<Priority_Set Name="PX10Priority">
