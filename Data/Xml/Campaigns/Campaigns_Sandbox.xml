@@ -94,7 +94,7 @@
 		<Starting_Forces> Rebel, Abregado_Rae, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Abregado_Rae, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -112,7 +112,7 @@
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -124,7 +124,7 @@
 		<Starting_Forces> Rebel, Atzerri, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -135,7 +135,7 @@
 		<Starting_Forces> Rebel, Bestine, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bestine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bestine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -153,7 +153,7 @@
 		<Starting_Forces> Rebel, Corellia, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Corellia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -169,7 +169,7 @@
 		<Starting_Forces> Rebel, Fresia, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -182,7 +182,7 @@
 		<Starting_Forces> Rebel, Manaan, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Manaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -195,7 +195,7 @@
 		<Starting_Forces> Rebel, Myrkr, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
@@ -396,7 +396,7 @@
 		<Starting_Forces> Rebel, Abregado_Rae, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Abregado_Rae, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Abregado_Rae, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -414,7 +414,7 @@
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -426,7 +426,7 @@
 		<Starting_Forces> Rebel, Atzerri, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -437,7 +437,7 @@
 		<Starting_Forces> Rebel, Bestine, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bestine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bestine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bestine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -455,7 +455,7 @@
 		<Starting_Forces> Rebel, Corellia, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Corellia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Corellia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -471,7 +471,7 @@
 		<Starting_Forces> Rebel, Fresia, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -484,7 +484,7 @@
 		<Starting_Forces> Rebel, Manaan, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Manaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -497,7 +497,7 @@
 		<Starting_Forces> Rebel, Myrkr, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
@@ -725,7 +725,7 @@
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -741,7 +741,7 @@
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bonadan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -752,7 +752,7 @@
 		<Starting_Forces> Rebel, Dantooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -767,7 +767,7 @@
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Geonosis, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -779,7 +779,7 @@
 		<Starting_Forces> Rebel, Hoth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -794,7 +794,7 @@
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hypori, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -805,7 +805,7 @@
 		<Starting_Forces> Rebel, Korriban, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -822,7 +822,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -837,7 +837,7 @@
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -850,7 +850,7 @@
 		<Starting_Forces> Rebel, Muunilinst, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Muunilinst, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -863,7 +863,7 @@
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Polus, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -875,7 +875,7 @@
 		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -890,7 +890,7 @@
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -901,7 +901,7 @@
 		<Starting_Forces> Rebel, Tatooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -934,7 +934,7 @@
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
@@ -1256,7 +1256,7 @@
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1272,7 +1272,7 @@
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bonadan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1283,7 +1283,7 @@
 		<Starting_Forces> Rebel, Dantooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Dantooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dantooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1298,7 +1298,7 @@
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Geonosis, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1310,7 +1310,7 @@
 		<Starting_Forces> Rebel, Hoth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1325,7 +1325,7 @@
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hypori, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1336,7 +1336,7 @@
 		<Starting_Forces> Rebel, Korriban, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1353,7 +1353,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1368,7 +1368,7 @@
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1381,7 +1381,7 @@
 		<Starting_Forces> Rebel, Muunilinst, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Munificent_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Muunilinst, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1394,7 +1394,7 @@
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Polus, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1406,7 +1406,7 @@
 		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1421,7 +1421,7 @@
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1432,7 +1432,7 @@
 		<Starting_Forces> Rebel, Tatooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1465,7 +1465,7 @@
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
@@ -1825,7 +1825,7 @@
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1834,7 +1834,7 @@
 		<Starting_Forces> Rebel, Atzerri, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1847,7 +1847,7 @@
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1860,7 +1860,7 @@
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bonadan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1879,7 +1879,7 @@
 		<Starting_Forces> Rebel, Bothawui, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1890,7 +1890,7 @@
 		<Starting_Forces> Rebel, Endor, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1900,7 +1900,7 @@
 		<Starting_Forces> Rebel, Fresia, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1914,7 +1914,7 @@
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Geonosis, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1925,7 +1925,7 @@
 		<Starting_Forces> Rebel, Hoth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1939,7 +1939,7 @@
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hypori, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1948,7 +1948,7 @@
 		<Starting_Forces> Rebel, Ilum, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Dreadnought </Starting_Forces>-->
 		<Starting_Forces> Rebel, Ilum, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ilum, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ilum, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1961,7 +1961,7 @@
 		<Starting_Forces> Rebel, Jabiim, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Jabiim, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1975,7 +1975,7 @@
 		<Starting_Forces> Rebel, Kamino, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1984,7 +1984,7 @@
 		<Starting_Forces> Rebel, Korriban, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -1994,7 +1994,7 @@
 		<Starting_Forces> Rebel, Manaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Manaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2012,7 +2012,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2027,7 +2027,7 @@
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2042,7 +2042,7 @@
 		<Starting_Forces> Rebel, Muunilinst, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Muunilinst, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2056,7 +2056,7 @@
 		<Starting_Forces> Rebel, Naboo, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2067,7 +2067,7 @@
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Polus, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2076,7 +2076,7 @@
 		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2090,7 +2090,7 @@
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2099,7 +2099,7 @@
 		<Starting_Forces> Rebel, Shola, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2108,7 +2108,7 @@
 		<Starting_Forces> Rebel, Tatooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2120,7 +2120,7 @@
 		<Starting_Forces> Rebel, Utapau, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2148,7 +2148,7 @@
 		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		
@@ -2598,7 +2598,7 @@
 		<Starting_Forces> Rebel, Alderaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2607,7 +2607,7 @@
 		<Starting_Forces> Rebel, Atzerri, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Atzerri, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Atzerri, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2620,7 +2620,7 @@
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2633,7 +2633,7 @@
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bonadan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bonadan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2652,7 +2652,7 @@
 		<Starting_Forces> Rebel, Bothawui, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Bothawui, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Bothawui, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2663,7 +2663,7 @@
 		<Starting_Forces> Rebel, Endor, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2673,7 +2673,7 @@
 		<Starting_Forces> Rebel, Fresia, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2687,7 +2687,7 @@
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Geonosis, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Geonosis, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2698,7 +2698,7 @@
 		<Starting_Forces> Rebel, Hoth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2712,7 +2712,7 @@
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Hypori, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Hypori, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2721,7 +2721,7 @@
 		<Starting_Forces> Rebel, Ilum, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Dreadnought </Starting_Forces>-->
 		<Starting_Forces> Rebel, Ilum, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ilum, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ilum, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ilum, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2734,7 +2734,7 @@
 		<Starting_Forces> Rebel, Jabiim, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Jabiim, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Jabiim, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Jabiim, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2748,7 +2748,7 @@
 		<Starting_Forces> Rebel, Kamino, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2757,7 +2757,7 @@
 		<Starting_Forces> Rebel, Korriban, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2767,7 +2767,7 @@
 		<Starting_Forces> Rebel, Manaan, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Manaan, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Manaan, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2785,7 +2785,7 @@
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2800,7 +2800,7 @@
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Mustafar, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Mustafar, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2815,7 +2815,7 @@
 		<Starting_Forces> Rebel, Muunilinst, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Muunilinst, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Muunilinst, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2829,7 +2829,7 @@
 		<Starting_Forces> Rebel, Naboo, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Recusant_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2840,7 +2840,7 @@
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Polus, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Polus, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2849,7 +2849,7 @@
 		<Starting_Forces> Rebel, Ryloth, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Ryloth, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Ryloth, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2863,7 +2863,7 @@
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Bulwark_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2872,7 +2872,7 @@
 		<Starting_Forces> Rebel, Shola, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2881,7 +2881,7 @@
 		<Starting_Forces> Rebel, Tatooine, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Tatooine, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Tatooine, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2893,7 +2893,7 @@
 		<Starting_Forces> Rebel, Utapau, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Rebel_Tank_Buster_Squad </Starting_Forces>
 
@@ -2921,7 +2921,7 @@
 		<Starting_Forces> Rebel, Yavin, Nebulon_B_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Dreadnought </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Rebel_Tank_Buster_Squad </Starting_Forces>
 		

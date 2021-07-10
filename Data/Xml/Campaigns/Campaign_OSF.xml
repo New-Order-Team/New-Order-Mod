@@ -126,16 +126,16 @@
 		
 		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Rudrig_OSF, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Brigia_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		
 		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Infantry_Squad </Starting_Forces>
 
 	</Campaign>
 	
@@ -237,13 +237,13 @@
 		<Max_Tech_Level> Rebel, 0 </Max_Tech_Level>
 		
 		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Brigia_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_SecForce_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Infantry_Squad </Starting_Forces>
 
 	</Campaign>
  </Campaigns>

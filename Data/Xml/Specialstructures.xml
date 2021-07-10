@@ -1401,19 +1401,16 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Resistance_Fighters_Platoon,
-				SecForce_Platoon,
-				SpecForce_Pathfinder_Platoon,
-				NR_Troopers_Platoon,
+				Rebel_Infantry_Squad,
+				Rebel_Tank_Buster_Squad,
 				Rebel_Arrow_23_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Resistance_Fighters_Platoon, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_SecForce_Trooper_Platoon, 0</Reserve_Spawned_Units_Tech_0>
-
-		<Starting_Spawned_Units_Tech_2>Rebel_Infantry_Squad, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_Infantry_Squad, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_Tank_Buster_Squad, 0</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1494,8 +1491,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				SpecForce_Technician_Platoon,
-				Infiltrator_Team,
+				Rebel_Infiltrator_Team,
 				Alliance_General_Squad,
 				NR_Technician_Platoon,
 				RL_Bombing_Run_Use_Upgrade, 
@@ -1821,11 +1817,8 @@
 		
 	    <Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				PSF_Troopers_Platoon,
-				PSF_Vanguards_Platoon,
-				SpecForce_Ranger_Platoon,
-				NR_Marine_Platoon,
-				NR_SpecForce_Platoon
+				SpecForce_Pathfinder_Squad,
+				SpecForce_Guerrilla_Squad,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
