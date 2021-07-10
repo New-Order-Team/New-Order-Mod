@@ -1,23 +1,24 @@
 <?xml version="1.0"?>
-<Rebel_Trooper_Data>
-	<GroundInfantry Name="Rebel_Trooper">
+<SpecForce_Pathfinder_Data>
+	<GroundInfantry Name="SpecForce_Pathfinder">
 		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
-  		<Encyclopedia_Text>TEXT_UNIT_REBEL_TROOPER_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER</Text_ID>
+  		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_PATHFINDER_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_rebel_trooper.tga</Icon_Name>
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
 		
 		<Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
-            		Temperate, 			RI_INFANTRY.ALO,
-            		Urban, 				RI_INFANTRY.ALO,
-					Arctic, 			RI_INFANTRY.ALO,
-            		Volcanic, 			RI_INFANTRY.ALO,
-            		Desert, 			RI_INFANTRY.ALO,
-            		Forest, 			RI_INFANTRY.ALO,
-            		Swamp, 				RI_INFANTRY.ALO
+            		Temperate, 			RI_INFANTRY_Forest.ALO,
+            		Urban, 				RI_INFANTRY_Forest.ALO,
+					Arctic, 			RI_INFANTRY_Snow.ALO,
+            		Volcanic, 			RI_INFANTRY_Forest.ALO,
+            		Desert, 			RI_INFANTRY_Forest.ALO,
+            		Forest, 			RI_INFANTRY_Forest.ALO,
+            		Swamp, 				RI_INFANTRY_Forest.ALO
 		</Land_Terrain_Model_Mapping>
+		<Land_Model_Anim_Override_Name>RI_INFANTRY.ALO</Land_Model_Anim_Override_Name>
 		
 		<Scale_Factor>0.95</Scale_Factor>
 		<Movement_Animation_Speed> 0.5 </Movement_Animation_Speed>
@@ -26,18 +27,18 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Armor_Type> Armor_I1 </Armor_Type>
-		<Max_Speed> 0.5 </Max_Speed>
-		<Tactical_Health>40</Tactical_Health>
+		<Max_Speed> 0.75 </Max_Speed>
+		<Tactical_Health>45</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Pistol_DH_17</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_DH_17_Blaster_Fire</SFXEvent_Fire>
+		<Projectile_Types>Proj_Land_Blaster_A280</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.7</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_A280_Fire</SFXEvent_Fire>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 100.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
@@ -56,42 +57,33 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<Death_Clone>Damage_Force_Whirlwind, Rebel_Trooper_Force_Whirlwind_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Force_Lightning, Rebel_Trooper_Force_Lightning_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Crush, Rebel_Trooper_Crush_Death_Clone</Death_Clone>
-		<Death_Clone>Damage_Remote_Bomb, Rebel_Trooper_Remote_Bomb_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Whirlwind, SpecForce_Pathfinder_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, SpecForce_Pathfinder_Force_Lightning_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Crush, SpecForce_Pathfinder_Crush_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Remote_Bomb, SpecForce_Pathfinder_Remote_Bomb_Death_Clone</Death_Clone>
 		
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
-			</Unit_Ability>
-		</Unit_Abilities_Data>
 	</GroundInfantry>
 
-	<GroundInfantry Name="Rebel_Trooper_Force_Whirlwind_Death_Clone">
-		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+	<GroundInfantry Name="SpecForce_Pathfinder_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
 
-	<GroundInfantry Name="Rebel_Trooper_Force_Lightning_Death_Clone">
-		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+	<GroundInfantry Name="SpecForce_Pathfinder_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
 
-	<GroundInfantry Name="Rebel_Trooper_Crush_Death_Clone">
-		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+	<GroundInfantry Name="SpecForce_Pathfinder_Crush_Death_Clone">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
 		<Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
 		<Specific_Death_Anim_Index />
 	</GroundInfantry>
 	
-	<GroundInfantry Name="Rebel_Trooper_Remote_Bomb_Death_Clone">
+	<GroundInfantry Name="SpecForce_Pathfinder_Remote_Bomb_Death_Clone">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
@@ -100,8 +92,8 @@
 	<!-- This object type can be commented out or deleted if the base type is never effected by Force Corruption enemy conversion ability. -->
 	<!-- IMPORTANT: For now, only SFXEvent should be changed due to the on-the-fly type pointer change. If more is desired to be changed   -->
 	<!-- there could be serious ramifications, so please consult with Programming team.                                                    -->
-	<GroundInfantry Name="Rebel_Trooper_Converted_To_Enemy">
-		<Variant_Of_Existing_Type> Rebel_Trooper </Variant_Of_Existing_Type>
+	<GroundInfantry Name="SpecForce_Pathfinder_Converted_To_Enemy">
+		<Variant_Of_Existing_Type> SpecForce_Pathfinder </Variant_Of_Existing_Type>
 		<SFXEvent_Select> Unit_Select_Rebel_Soldier_Converted </SFXEvent_Select>						<!-- STUB PLACEHOLDER FOR FRANK -->  
 		<SFXEvent_Move> Unit_Move_Rebel_Soldier_Converted </SFXEvent_Move>                      	<!-- STUB PLACEHOLDER FOR FRANK -->  
 		<SFXEvent_Attack> Unit_Attack_Rebel_Soldier_Converted </SFXEvent_Attack>                	<!-- STUB PLACEHOLDER FOR FRANK -->  
@@ -111,44 +103,65 @@
 		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
 	</GroundInfantry>
 	
-	<GroundInfantry Name="Rebel_Trooper_NonVictroy">
-		<Variant_Of_Existing_Type> Rebel_Trooper </Variant_Of_Existing_Type>
-		<Victory_Relevant>no</Victory_Relevant>
-	</GroundInfantry>
-	
-	<GroundInfantry Name="Rebel_Trooper_Rifle">
-		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+	<GroundInfantry Name="SpecForce_Pathfinder_Sniper">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
 		
-		<Projectile_Types>Proj_Land_Blaster_DH_17</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>2.7</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Types>Proj_Land_Blaster_E17d_Sniper</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_E_17D_Fire</SFXEvent_Fire>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> LandHero, 20.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+	</GroundInfantry>
+
+	<GroundInfantry Name="SpecForce_Pathfinder_Sergeant">
+		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+				<Recharge_Seconds>120</Recharge_Seconds>
+
+				<Effective_Radius> 100.0 </Effective_Radius>
+				<Spawned_Object_Type>Landing_Beacon</Spawned_Object_Type>  
+				<SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+				<Area_Effect_Decal_Distance> 100 </Area_Effect_Decal_Distance>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</GroundInfantry>
 	
-	<GroundInfantry Name="Rebel_Infantry_Squad_Spawner">
+	<GroundInfantry Name="SpecForce_Pathfinder_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
-        <Icon_Name>i_button_rebel_trooper.tga</Icon_Name>
-        <AI_Combat_Power>540</AI_Combat_Power>
+        <Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
+        <AI_Combat_Power>680</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
 	
-	<GroundCompany Name="Rebel_Infantry_Squad">
+	<GroundCompany Name="SpecForce_Pathfinder_Squad">
         <Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_REBEL_TROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_REBEL_TROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_rebel_trooper.tga</Icon_Name>
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 
         <Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>540</Build_Cost_Credits>
+		<Build_Cost_Credits>680</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
-		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>
-			Rebel_Infantry_Squad_Spawner
+			SpecForce_Pathfinder_Squad_Spawner
 		</Company_Units>
 
         <SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
@@ -157,65 +170,54 @@
         <SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>540</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>680</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
+				<Type>WEAKEN_ENEMY</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundCompany>
 	
-	<GroundCompany Name="Rebel_Infantry_Squad_Dummy">
+	<GroundCompany Name="SpecForce_Pathfinder_Squad_Dummy">
 		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
         <Affiliation>Hostile</Affiliation>
 		
 		<Company_Units>
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
+			SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+			SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+			SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
+			SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder, SpecForce_Pathfinder_Sniper, SpecForce_Pathfinder, SpecForce_Pathfinder_Sergeant,
 		</Company_Units>
         <Max_Squad_Size> 9 </Max_Squad_Size>
-		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+		<Create_Team_Type> SpecForce_Pathfinder_Team </Create_Team_Type>
 	</GroundCompany>
 
-	<Container Name="Rebel_Trooper_Team">
+	<Container Name="SpecForce_Pathfinder_Team">
 		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_REBEL_TROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_REBEL_TROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_PATHFINDER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_rebel_trooper.tga</Icon_Name>
+		<Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
 		
         <Affiliation>Rebel</Affiliation>
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Max_Speed> 0.5 </Max_Speed>
+		<Max_Speed> 0.75 </Max_Speed>
 		<FormationSpacing> 0.7 </FormationSpacing>
         <FormationOrder> 2 </FormationOrder>
-		<Tactical_Bribe_Cost>540</Tactical_Bribe_Cost>
+		<Tactical_Bribe_Cost>680</Tactical_Bribe_Cost>
 		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
-
-
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
+				<Type>WEAKEN_ENEMY</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
-	<GroundCompany Name="Rebel_Mini_Infantry_Squad">
-		<Variant_Of_Existing_Type>Rebel_Infantry_Squad_Dummy</Variant_Of_Existing_Type>
-		<Company_Units> 
-			Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper,
-		</Company_Units>
-        <Affiliation>Rebel</Affiliation>
-		<Tech_Level>99</Tech_Level>
-		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-	</GroundCompany>
-</Rebel_Trooper_Data>
+</SpecForce_Pathfinder_Data>

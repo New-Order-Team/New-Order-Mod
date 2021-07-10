@@ -431,6 +431,10 @@
 
 	
 	<File>Units_land_rebel_troopers.xml</File>
+	<File>Units_land_rebel_vanguards.xml</File>
+	<File>Units_land_rebel_pathfinders.xml</File>
+	<File>Units_land_rebel_guerrillas.xml</File>
+	<File>Units_land_rebel_infiltrators.xml</File>
 	<File>Units_land_rebel_minor_troopers.xml</File>
 	
 	<File>Units_land_rebel_isp.xml</File>
