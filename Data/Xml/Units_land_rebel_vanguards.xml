@@ -28,7 +28,7 @@
 		<Armor_Type> Armor_I1 </Armor_Type>
 		<Max_Speed> 0.5 </Max_Speed>
 		<Tactical_Health>40</Tactical_Health>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 		
 		<Projectile_Types>Proj_Land_Infantry_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -71,7 +71,30 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
 			</Unit_Ability>
+            <Unit_Ability>
+                <Type>PROXIMITY_MINES</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Vanguards_Mines </GUI_Activated_Ability_Name> 
+                <Effective_Radius> 70.0 </Effective_Radius>
+                <SFXEvent_Target_Ability />  
+                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Proximity_Mines_Ability Name="Vanguards_Mines">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>70.0</Activation_Max_Range>
+                <Mine_Type>Proximity_Mine</Mine_Type>
+                <Trigger_Radius>30</Trigger_Radius>
+                <Number_Of_Mines>6</Number_Of_Mines>
+                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Proximity_Mines_Ability>
+		</Abilities>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Plex_Soldier_Force_Whirlwind_Death_Clone">
@@ -120,8 +143,40 @@
 	<GroundInfantry Name="Rebel_Tank_Buster_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_rebel_vanguard.tga</Icon_Name>
-        <AI_Combat_Power>840</AI_Combat_Power>
+        <AI_Combat_Power>1310</AI_Combat_Power>
         <CategoryMask> Infantry | AntiVehicle </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
+			</Unit_Ability>
+            <Unit_Ability>
+                <Type>PROXIMITY_MINES</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Vanguards_Mines </GUI_Activated_Ability_Name> 
+                <Effective_Radius> 70.0 </Effective_Radius>
+                <SFXEvent_Target_Ability />  
+                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Proximity_Mines_Ability Name="Vanguards_Mines">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>70.0</Activation_Max_Range>
+                <Mine_Type>Proximity_Mine</Mine_Type>
+                <Trigger_Radius>30</Trigger_Radius>
+                <Number_Of_Mines>6</Number_Of_Mines>
+                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Proximity_Mines_Ability>
+		</Abilities>
     </GroundInfantry>
 	
 	<GroundCompany Name="Rebel_Tank_Buster_Squad">
@@ -133,8 +188,8 @@
 		<GUI_Model_Name>RI_PLEXSOLDIER.ALO</GUI_Model_Name>
 
         <Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>840</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1310</Build_Cost_Credits>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		
@@ -149,8 +204,8 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Plex_Soldier</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>840</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1310</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -160,8 +215,34 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+            <Unit_Ability>
+                <Type>PROXIMITY_MINES</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Vanguards_Mines </GUI_Activated_Ability_Name> 
+                <Effective_Radius> 70.0 </Effective_Radius>
+                <SFXEvent_Target_Ability />  
+                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Proximity_Mines_Ability Name="Vanguards_Mines">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>70.0</Activation_Max_Range>
+                <Mine_Type>Proximity_Mine</Mine_Type>
+                <Trigger_Radius>30</Trigger_Radius>
+                <Number_Of_Mines>6</Number_Of_Mines>
+                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Proximity_Mines_Ability>
+		</Abilities>
 	</GroundCompany>
 	
 	<GroundCompany Name="Rebel_Tank_Buster_Squad_Dummy">
@@ -190,14 +271,39 @@
 		<Max_Speed> 0.5 </Max_Speed>
 		<FormationSpacing> 0.7 </FormationSpacing>
         <FormationOrder> 2 </FormationOrder>
-		<Tactical_Bribe_Cost>840</Tactical_Bribe_Cost>
+		<Tactical_Bribe_Cost>1310</Tactical_Bribe_Cost>
 		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
-
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
 			</Unit_Ability>
+            <Unit_Ability>
+                <Type>PROXIMITY_MINES</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Vanguards_Mines </GUI_Activated_Ability_Name> 
+                <Effective_Radius> 70.0 </Effective_Radius>
+                <SFXEvent_Target_Ability />  
+                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Proximity_Mines_Ability Name="Vanguards_Mines">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>70.0</Activation_Max_Range>
+                <Mine_Type>Proximity_Mine</Mine_Type>
+                <Trigger_Radius>30</Trigger_Radius>
+                <Number_Of_Mines>6</Number_Of_Mines>
+                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Proximity_Mines_Ability>
+		</Abilities>
 	</Container>
 </Rebel_Vanguard_Data>

@@ -57,17 +57,15 @@
 		<Tactical_Health>50</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Pistol_DH_17</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_DH_17_Pistol
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_DH_17_Blaster_Fire</SFXEvent_Fire>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -145,23 +143,21 @@
 	<GroundInfantry Name="SpecForce_Guerrilla_Carbine">
 		<Variant_Of_Existing_Type>SpecForce_Guerrilla</Variant_Of_Existing_Type>
 		
-		<Projectile_Types>Proj_Land_Blaster_9118_Carbine</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_9118_Carbine
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_DH_17_Rifle_Fire</SFXEvent_Fire>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire></SFXEvent_Fire>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="SpecForce_Guerrilla_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_rebel_guerilla.tga</Icon_Name>
-        <AI_Combat_Power>540</AI_Combat_Power>
+        <AI_Combat_Power>1270</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry | AntiStructure </CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -180,8 +176,8 @@
 		<GUI_Model_Name>Ei_bobafett.ALO</GUI_Model_Name>
 
         <Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>540</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1270</Build_Cost_Credits>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
 		
@@ -196,8 +192,8 @@
         <SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>540</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1270</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

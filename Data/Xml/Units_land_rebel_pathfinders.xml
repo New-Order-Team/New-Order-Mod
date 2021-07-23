@@ -27,21 +27,19 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Armor_Type> Armor_I1 </Armor_Type>
-		<Max_Speed> 0.75 </Max_Speed>
+		<Max_Speed> 0.65 </Max_Speed>
 		<Tactical_Health>45</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Blaster_A280</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_A280
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.7</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_A280_Fire</SFXEvent_Fire>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -105,18 +103,17 @@
 	
 	<GroundInfantry Name="SpecForce_Pathfinder_Sniper">
 		<Variant_Of_Existing_Type>SpecForce_Pathfinder</Variant_Of_Existing_Type>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Blaster_E17d_Sniper</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_E17d
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_E_17D_Fire</SFXEvent_Fire>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire></SFXEvent_Fire>
 	</GroundInfantry>
 
 	<GroundInfantry Name="SpecForce_Pathfinder_Sergeant">
@@ -141,7 +138,7 @@
 	<GroundInfantry Name="SpecForce_Pathfinder_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_rebel_pathfinder.tga</Icon_Name>
-        <AI_Combat_Power>680</AI_Combat_Power>
+        <AI_Combat_Power>1020</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
 	
@@ -154,8 +151,8 @@
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 
         <Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>680</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>1020</Build_Cost_Credits>
+		<Build_Time_Seconds>19</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
 		
@@ -170,8 +167,8 @@
         <SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>680</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1020</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -211,7 +208,7 @@
 		<Max_Speed> 0.75 </Max_Speed>
 		<FormationSpacing> 0.7 </FormationSpacing>
         <FormationOrder> 2 </FormationOrder>
-		<Tactical_Bribe_Cost>680</Tactical_Bribe_Cost>
+		<Tactical_Bribe_Cost>1020</Tactical_Bribe_Cost>
 		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">

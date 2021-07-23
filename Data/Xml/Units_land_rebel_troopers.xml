@@ -30,17 +30,15 @@
 		<Tactical_Health>40</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Pistol_DH_17</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_DH_17_Pistol
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_DH_17_Blaster_Fire</SFXEvent_Fire>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 100.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
 		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
@@ -119,16 +117,21 @@
 	<GroundInfantry Name="Rebel_Trooper_Rifle">
 		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		
-		<Projectile_Types>Proj_Land_Blaster_DH_17</Projectile_Types>
+		<Hardpoints>
+			HP_Infantry_A280
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.7</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire></SFXEvent_Fire>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Rebel_Infantry_Squad_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_rebel_trooper.tga</Icon_Name>
-        <AI_Combat_Power>540</AI_Combat_Power>
+        <AI_Combat_Power>630</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
 	
@@ -141,8 +144,8 @@
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
 
         <Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>540</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Cost_Credits>630</Build_Cost_Credits>
+		<Build_Time_Seconds>11</Build_Time_Seconds>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
 		
@@ -157,8 +160,8 @@
         <SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Soldier</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>540</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>630</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -177,10 +180,10 @@
         <Affiliation>Hostile</Affiliation>
 		
 		<Company_Units>
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
-			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper_Rifle, Rebel_Trooper, Rebel_Trooper,
+			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper,
+			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper,
+			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper,
+			Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper, Rebel_Trooper,
 		</Company_Units>
         <Max_Squad_Size> 9 </Max_Squad_Size>
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
@@ -198,7 +201,7 @@
 		<Max_Speed> 0.5 </Max_Speed>
 		<FormationSpacing> 0.7 </FormationSpacing>
         <FormationOrder> 2 </FormationOrder>
-		<Tactical_Bribe_Cost>540</Tactical_Bribe_Cost>
+		<Tactical_Bribe_Cost>630</Tactical_Bribe_Cost>
 		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
 
 
