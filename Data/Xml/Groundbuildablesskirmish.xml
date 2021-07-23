@@ -4522,18 +4522,12 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
 				UC_Empire_Ground_Mining_Facility,
-				UC_Ground_Hutt_Palace_E,
-				UC_Ground_Magnepulse_Cannon_E,
 				
 			Rebel,
 				UC_Rebel_Ground_Mining_Facility,
-				UC_Ground_Hutt_Palace_R,
-				UC_R_Uplink_Station, 
 
 			Underworld,
-				UC_Underwold_Ground_Mining_Facility,
-				UC_Ground_Hutt_Palace_U,
-				UC_U_Ground_Gravity_Generator,				
+				UC_Underwold_Ground_Mining_Facility,	
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
