@@ -164,7 +164,7 @@
 
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Guard_Chase_Range>50.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Attack_Move_Response_Range>50.0</Attack_Move_Response_Range>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>InfantryPriority</Targeting_Priority_Set>
 
