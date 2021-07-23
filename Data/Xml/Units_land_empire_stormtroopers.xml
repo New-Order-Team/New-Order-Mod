@@ -32,9 +32,8 @@
 		<Affiliation>Empire</Affiliation>
 		<Weather_Category>Infantry_Visor</Weather_Category>
 		<Tactical_Health>70</Tactical_Health>
-		<Armor_Type> Armor_I2 </Armor_Type>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Armor_Type> Armor_I1 </Armor_Type>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
 		<Projectile_Types>Proj_Land_Blaster_E_11</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -349,7 +348,8 @@
 		
 		<Text_ID>TEXT_UNIT_NOVATROOPER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_NOVATROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
 		
 		<Land_Model_Name>imp_novatrooper.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>imp_stormtrooper.ALO</Land_Model_Anim_Override_Name>
@@ -360,32 +360,29 @@
 		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
 		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
 		
-		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
-
 		<Affiliation>Empire</Affiliation>
 		<Weather_Category>Infantry_Visor</Weather_Category>
-		<Tactical_Health>80</Tactical_Health>
-		<Armor_Type> Armor_I2 </Armor_Type>
-		<Land_FOW_Reveal_Range>350.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Armor_Type> Armor_I1 </Armor_Type>
+		<Tactical_Health>75</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
 		<Projectile_Types>Proj_Land_Blaster_E_11</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 50.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 6.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 15.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Inaccuracy_Distance> Infantry, 50.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 100.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Air, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 20.0 </Fire_Inaccuracy_Distance>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
-		<SFXEvent_Fire></SFXEvent_Fire>
 		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
 		
 		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
@@ -394,14 +391,6 @@
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
-		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
-		<!-- <Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone> -->
-		<!-- <Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Basic_FW_DC</Death_Clone> -->
-		<!-- <Death_Clone>Damage_Crush, Stormtrooper_Basic_Crush_DC</Death_Clone> -->
-		<!-- <Death_Clone>Damage_Remote_Bomb, Stormtrooper_Basic_RB_DC</Death_Clone> -->
 		
 		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>
 
@@ -414,7 +403,7 @@
 			<Unit_Ability>
 				<Type>INVULNERABILITY</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.25f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
@@ -424,28 +413,44 @@
 	<GroundInfantry Name="Novatrooper_Platoon_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_novatrooper.tga</Icon_Name>
-        <AI_Combat_Power>131</AI_Combat_Power>
+        <AI_Combat_Power>760</AI_Combat_Power>
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
     </GroundInfantry>
 	
 	<GroundCompany Name="Novatrooper_Platoon">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_NOVATROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Damage>840</Damage>
-		<Autoresolve_Health>2016</Autoresolve_Health>
-		<Build_Cost_Credits>2540</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
+		<GUI_Model_Name>imp_novatrooper.alo</GUI_Model_Name>
+		
+        <Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>760</Build_Cost_Credits>
+		<Build_Time_Seconds>14</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
 		
-		<Company_Units>Novatrooper_Platoon_Spawner</Company_Units>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>
+			Novatrooper_Platoon_Spawner
+		</Company_Units>
+		
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 
-		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
-				
-		<!-- Non-Hero unit abilities description -->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>760</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>INVULNERABILITY</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
@@ -454,110 +459,36 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2540</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 	
 	<GroundCompany Name="Novatrooper_Platoon_Dummy">
         <Variant_Of_Existing_Type>Novatrooper_Platoon</Variant_Of_Existing_Type>
         <Affiliation>Hostile</Affiliation>
 		<Company_Units>
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
-			Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
 		</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Create_Team_Type> Novatrooper_Platoon_Team </Create_Team_Type>
 	</GroundCompany>
 
 	<Container Name="Novatrooper_Platoon_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
+		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_NOVATROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>300.0</Space_FOW_Reveal_Range>
-		<MovementClass>Infantry</MovementClass>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>1</Garrison_Value>
-		<CategoryMask>Infantry</CategoryMask>
-
-		<Max_Speed> 1.0 </Max_Speed>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 1 </FormationSpacing> 
-		<MovementClass> Infantry </MovementClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
-		<ContainerArrangement> Dartboard </ContainerArrangement>
-		<FormationOrder> 2 </FormationOrder>
-		<Override_Acceleration> .1 </Override_Acceleration>
-		<Override_Deceleration> .1 </Override_Deceleration>
-		
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-		
+		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
-
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-				
-		<!-- Non-Hero unit abilities description -->
+		
+        <Affiliation>Empire</Affiliation>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<FormationSpacing> 0.7 </FormationSpacing>
+        <FormationOrder> 2 </FormationOrder>
+		<Tactical_Bribe_Cost>760</Tactical_Bribe_Cost>
+		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>INVULNERABILITY</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
@@ -797,7 +728,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
 		<Required_Planets />
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
