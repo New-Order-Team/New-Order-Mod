@@ -17,6 +17,16 @@
 		<Samples>Data\Audio\SFX\GUN_E_15.wav</Samples>
 	</SFXEvent>
 	
+	<SFXEvent Name="Unit_RT_97C_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_RT_97C.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_TL_50_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_TL_50.wav</Samples>
+	</SFXEvent>
+	
 	<SFXEvent Name="Unit_T_21_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_T_21.wav</Samples>
@@ -37,11 +47,6 @@
 		<Samples>Data\Audio\SFX\GUN_E_11S.wav</Samples>
 	</SFXEvent>
 	
-	<SFXEvent Name="Unit_TL_50_Fire">
-		<Use_Preset>Preset_GUNV</Use_Preset>
-		<Samples>Data\Audio\SFX\GUN_TL_50.wav</Samples>
-	</SFXEvent>
-	
 	<SFXEvent Name="Unit_DLT_19_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_DLT19.wav</Samples>
@@ -50,11 +55,6 @@
 	<SFXEvent Name="Unit_DLT_20A_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_DLT20A.wav</Samples>
-	</SFXEvent>
-	
-	<SFXEvent Name="Unit_RT_97C_Fire">
-		<Use_Preset>Preset_GUNV</Use_Preset>
-		<Samples>Data\Audio\SFX\GUN_RT_97C.wav</Samples>
 	</SFXEvent>
 	
 	<SFXEvent Name="SFX_Thermal_Detonator">
@@ -72,11 +72,6 @@
 		<Samples>Data\Audio\SFX\GUN_DH_17_rifle.wav</Samples>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Ion_Disruptor_Fire">
-		<Use_Preset>Preset_GUNV</Use_Preset>
-		<Samples>Data\Audio\SFX\GUN_Ion_Disruptor.wav</Samples>
-	</SFXEvent>
-
 	<SFXEvent Name="Unit_A280_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_A280.wav</Samples>
@@ -85,6 +80,11 @@
 	<SFXEvent Name="Unit_A295_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_A295.wav</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Ion_Disruptor_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_Ion_Disruptor.wav</Samples>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_E_17D_Fire">
@@ -97,14 +97,9 @@
 		<Samples>Data\Audio\SFX\GUN_CR_1.wav</Samples>
 	</SFXEvent>
 
-	<SFXEvent Name="Unit_Adjudicator_Fire">
+	<SFXEvent Name="Unit_Intimidator_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
-		<Samples>Data\Audio\SFX\GUN_Adjudicator.wav</Samples>
-	</SFXEvent>
-
-	<SFXEvent Name="Unit_Czerka_Adventurer_Fire">
-		<Use_Preset>Preset_GUNV</Use_Preset>
-		<Samples>Data\Audio\SFX\GUN_Czerka_Adventurer.wav</Samples>
+		<Samples>Data\Audio\SFX\GUN_Intimidator.wav</Samples>
 	</SFXEvent>
 	
 <!-- Land vehicles -->
