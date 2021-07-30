@@ -93,7 +93,7 @@
 				<Type>JET_PACK</Type>
 				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Boba_Jetpack</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability>Unit_Ability_Mando_Protector</SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Move_Rebel_Soldier</SFXEvent_Target_Ability>
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
 				<Area_Effect_Decal_Distance> 70.0 </Area_Effect_Decal_Distance>
 				<Effective_Radius> 1000.0 </Effective_Radius>
@@ -205,7 +205,7 @@
 				<Type>JET_PACK</Type>
 				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Boba_Jetpack</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability>Unit_Ability_Mando_Protector</SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Move_Rebel_Soldier</SFXEvent_Target_Ability>
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
 				<Area_Effect_Decal_Distance> 70.0 </Area_Effect_Decal_Distance>
 				<Effective_Radius> 1000.0 </Effective_Radius>
@@ -294,7 +294,7 @@
 				<Type>JET_PACK</Type>
 				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Boba_Jetpack</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<SFXEvent_Target_Ability>Unit_Ability_Mando_Protector</SFXEvent_Target_Ability>
+				<SFXEvent_Target_Ability>Unit_Move_Rebel_Soldier</SFXEvent_Target_Ability>
 				<!-- Disabling these, since we now want Boba to be able to fly anywhere on the map, even into FOW -->
 				<Area_Effect_Decal_Distance> 70.0 </Area_Effect_Decal_Distance>
 				<Effective_Radius> 1000.0 </Effective_Radius>

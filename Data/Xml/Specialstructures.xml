@@ -117,15 +117,10 @@
 		<Starting_Spawned_Units_Tech_0>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		
-		<Starting_Spawned_Units_Tech_3>Line_Infantry_Platoon_Repeater, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>Line_Infantry_Platoon_Repeater, 0</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_3>
-		
-		<Starting_Spawned_Units_Tech_5>Line_Infantry_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>Line_Infantry_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_4>Line_Infantry_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Line_Infantry_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
