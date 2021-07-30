@@ -39,7 +39,7 @@
 
 		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
-		<Max_Speed>1.5</Max_Speed>
+		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
 		<Walk_Transition>Yes</Walk_Transition>

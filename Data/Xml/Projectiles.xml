@@ -989,6 +989,12 @@
 		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
 	</Projectile>
 
+	<Projectile Name="Proj_Special_Omniprobe_FOW_Reveal_Ping_Blast">
+		<Variant_Of_Existing_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Variant_Of_Existing_Type>
+		<Land_FOW_Reveal_Range>1000.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+	</Projectile>
+
 	<!-- Special space projectile to instantly detonate and reveal the map via the "FOW Reveal Ping" unit ability -->
 	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>

@@ -38,7 +38,7 @@
 
 		<Movement_Animation_Speed> 0.8117 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 2.2 </Rotation_Animation_Speed>
-		<Max_Speed>1.5</Max_Speed>
+		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>7.5</Stopped_Rate_Of_Turn>
         <Walk_Transition>Yes</Walk_Transition>
@@ -69,11 +69,11 @@
         <Required_Timeline>0</Required_Timeline>
         <Size_Value>75</Size_Value>
 
-        <Armor_Type> Armor_A4 </Armor_Type>
-        <Damage>33.3</Damage>
+        <Armor_Type> Armor_A3 </Armor_Type>
+        <Damage>30</Damage>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>430</Tactical_Health>
-		<Autoresolve_Health>430</Autoresolve_Health>
+        <Tactical_Health>420</Tactical_Health>
+		<Autoresolve_Health>420</Autoresolve_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>999</Energy_Capacity>
         <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -256,7 +256,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_AR_Walker, AT_AR_Walker, AT_AR_Walker</Company_Units>
+		<Company_Units>AT_AR_Walker, AT_AR_Walker, AT_AR_Walker, AT_AR_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_at_ar.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT_DP.ALO</GUI_Model_Name>

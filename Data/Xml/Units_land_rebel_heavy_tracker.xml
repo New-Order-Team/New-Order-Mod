@@ -1,21 +1,20 @@
 <?xml version="1.0"?>
 <Heavy_Tracker_Data>
-
 	<GroundVehicle Name="Heavy_Tracker">
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_HEAVY_TRACKER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HEAVY_TRACKER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_VEHICLE_SUPPORT</Encyclopedia_Unit_Class>
 		<Icon_Name> i_button_heavy_tracker.tga </Icon_Name>
 
-		<Land_Model_Name>heavy_tracker.alo</Land_Model_Name>
+		<Land_Model_Name>reb_heavy_tracker.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.95</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Hover</Type>
 		<Deploys>No</Deploys>
+		<Type>Hover</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
@@ -52,7 +51,7 @@
 		<Size_Value>60</Size_Value>
 		<Damage>40.0</Damage>
 		<Sensor_Range>80</Sensor_Range>
-		<Tactical_Health>1590</Tactical_Health>
+		<Tactical_Health>2310</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -60,38 +59,52 @@
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
 			AFFECTED_BY_SHIELD,
-			WALK_LOCOMOTOR,
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
 			IDLE,
-			TARGETING,
-			WEAPON,
-			TURRET,
 			POWERED,
 			REVEAL,
-			HIDE_WHEN_FOGGED,
-			UNIT_AI,
-			TELEKINESIS_TARGET,
 			STUNNABLE,
-			WIND_DISTURBANCE,
 			SURFACE_FX,
-			DAMAGE_TRACKING,
-			GARRISON_VEHICLE
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+			WIND_DISTURBANCE,
 		</LandBehavior>
-
-		<Garrison_Category> Infantry </Garrison_Category>
-        <Num_Garrison_Slots>1</Num_Garrison_Slots>
-        <Garrison_Bone_Names>Root</Garrison_Bone_Names>
-		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
-		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-        <Garrison_Radius>30</Garrison_Radius>
 		
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 		
-		<Land_FOW_Reveal_Range>470.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>100</Targeting_Min_Attack_Distance>
+		
+		<Projectile_Types>Proj_Land_Heavy_Tracker_Laser</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
-		<Hardpoints>
-			HP_Heavy_Tracker_Main
-		</Hardpoints>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
@@ -99,7 +112,7 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
 		<CategoryMask> Vehicle </CategoryMask>
-		<Property_Flags> CanContainGarrison </Property_Flags>
+		<Property_Flags />
 		<MovementClass>Hover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -113,7 +126,6 @@
 		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
 		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
-
 
 		<SFXEvent_Select>Unit_Select_T4B_Tank</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_T4B_Tank</SFXEvent_Move>
@@ -141,7 +153,7 @@
 		<Overall_Length>60.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
 		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>1659</AI_Combat_Power>
+		<AI_Combat_Power>1350</AI_Combat_Power>
 
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Guard_Chase_Range>200.0</Guard_Chase_Range>
@@ -154,12 +166,12 @@
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
 
 		<Weather_Category>Hover</Weather_Category>
-		<Score_Cost_Credits>1659</Score_Cost_Credits>
+		<Score_Cost_Credits>1350</Score_Cost_Credits>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
-		<Lua_Script>ObjectScript_Heavy_Tracker</Lua_Script>
+		<!-- <Lua_Script>ObjectScript_Heavy_Tracker</Lua_Script> -->
 		
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
@@ -167,16 +179,16 @@
 	<GroundCompany Name="Heavy_Tracker_Command_Platoon">
 		<Text_ID>TEXT_UNIT_HEAVY_TRACKER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HEAVY_TRACKER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_VEHICLE_SUPPORT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_heavy_tracker.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>25.4</Damage>
-		<Autoresolve_Health>1590</Autoresolve_Health>
+		<Damage>40</Damage>
+		<Autoresolve_Health>2310</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
-		<Build_Cost_Credits>1460</Build_Cost_Credits>
+		<Build_Cost_Credits>1350</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>37</Build_Time_Seconds>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>0</Tech_Level>
@@ -196,11 +208,11 @@
 		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_T4B_Tank</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T4B_Tank</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>1460</Score_Cost_Credits>
+		<Score_Cost_Credits>1350</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1460</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
 		<!--<Tactical_Build_Prerequisites>EC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->

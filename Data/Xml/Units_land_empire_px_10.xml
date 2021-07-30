@@ -88,6 +88,7 @@
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.33</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
 		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
@@ -123,7 +124,6 @@
 			
 		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
 
-		<SFXEvent_Fire></SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_Tie_Mauler</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tie_Mauler</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Mauler</SFXEvent_Fleet_Move>
@@ -173,11 +173,14 @@
 
 		<Tactical_Bribe_Cost>40</Tactical_Bribe_Cost>
 
-		<!-- Non-Hero unit abilities description -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>HUNT</Type>
-				<Recharge_Seconds>30</Recharge_Seconds>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_AT_ST</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 			<!-- Primary ability 
 			<Unit_Ability>
@@ -245,10 +248,13 @@
 
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>HUNT</Type>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<Recharge_Seconds>45.0</Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_AT_ST</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
