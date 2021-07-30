@@ -44,7 +44,7 @@
 		<Mass>1.0</Mass>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>100</Tactical_Health>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>

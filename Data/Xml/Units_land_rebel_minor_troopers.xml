@@ -26,9 +26,9 @@
 		<Crouch_Animation_Speed> 1.0 </Crouch_Animation_Speed>
 		<Icon_Name>i_button_antitrooper.tga</Icon_Name>
 		
-		<Hardpoints>
+		<!-- <Hardpoints>
 			HP_Infantry_Antitrooper
-		</Hardpoints>
+		</Hardpoints> -->
 		
 		<Tactical_Health>40</Tactical_Health>
 	</GroundInfantry>
@@ -37,10 +37,10 @@
 		<Variant_Of_Existing_Type>Rebel_Antitrooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ANTITROOPER_RAIL_ARC</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ANTITROOPER_RAIL_ARC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Hardpoints>
+		<!-- <Hardpoints>
 			HP_Infantry_Antitrooper,
 			HP_Infantry_Sergeant_TD
-		</Hardpoints>
+		</Hardpoints> -->
 	</GroundInfantry>
 	
 	<GroundCompany Name="Rebel_Antitrooper_Platoon">

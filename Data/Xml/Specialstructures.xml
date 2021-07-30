@@ -108,7 +108,7 @@
 				E_Web_Platoon,
 				E_Web_15_Platoon,
 				PX_10_Platoon,
-				Imperial_Heavy_Scout_Squad <!-- AT-ST -->
+				AT_AR_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
@@ -257,9 +257,9 @@
 			Empire,
 				Engineering_Platoon,
 				Engineering_Platoon_Remnant,
-				Imperial_General_Squad,
+				<!--Imperial_General_Squad,-->
+				Imperial_Heavy_Scout_Squad <!-- AT-ST -->
 				Chariot_Command_Platoon,
-				AT_AR_Platoon,
 				Floating_Fortress_Platoon
 		</Tactical_Buildable_Objects_Multiplayer>
 

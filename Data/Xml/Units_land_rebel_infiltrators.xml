@@ -31,7 +31,7 @@
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Max_Speed> 0.8 </Max_Speed>
 		<Tactical_Health>100</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -123,8 +123,8 @@
 	
 	<GroundCompany Name="Rebel_Infiltrator_Team">
         <Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_SPECFORCE_INFILTRATOR_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_INFILTRATOR_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_SPECFORCE_INFILTRATOR_TEAM</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_SPECFORCE_INFILTRATOR_TEAM_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_RAID</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_infiltrator.tga</Icon_Name>
 		<GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>

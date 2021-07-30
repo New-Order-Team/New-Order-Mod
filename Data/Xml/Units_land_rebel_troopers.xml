@@ -25,7 +25,7 @@
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Max_Speed> 0.5 </Max_Speed>
 		<Tactical_Health>40</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
@@ -60,6 +60,7 @@
 		<Death_Clone>Damage_Remote_Bomb, Rebel_Trooper_Remote_Bomb_Death_Clone</Death_Clone>
 		
         <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<Targeting_Priority_Set>InfantryPriority</Targeting_Priority_Set>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -203,7 +204,6 @@
         <FormationOrder> 2 </FormationOrder>
 		<Tactical_Bribe_Cost>630</Tactical_Bribe_Cost>
 		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
-
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

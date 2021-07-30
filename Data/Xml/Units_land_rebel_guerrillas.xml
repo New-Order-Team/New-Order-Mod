@@ -52,7 +52,7 @@
 		<SFXEvent_Engine_Moving_Loop> Unit_Jet_Pack_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Max_Speed> 0.5 </Max_Speed>
 		<Tactical_Health>50</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>

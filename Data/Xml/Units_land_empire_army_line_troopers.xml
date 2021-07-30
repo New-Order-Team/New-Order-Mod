@@ -3,8 +3,8 @@
 	<GroundInfantry Name="Imperial_Army_Trooper">
 		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_UNIT_IA_TROOPER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
 		
 		<Land_Model_Name>ei_army_trooper_e11.alo</Land_Model_Name>
@@ -17,7 +17,7 @@
 		<Icon_Name>i_button_army_trooper.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Max_Speed> 0.8 </Max_Speed>
 		<Tactical_Health>50</Tactical_Health>
 
@@ -76,8 +76,8 @@
 	
 	<GroundInfantry Name="Imperial_Army_Trooper_Light_Repeater">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_TROOPER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_RT97C TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_RT97C TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 
 		<!--<Land_Model_Name>ei_army_trooper_e11.alo</Land_Model_Name>-->
 		<Hardpoints>
@@ -89,15 +89,15 @@
 
 	<GroundInfantry Name="Imperial_Army_Sergeant">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_SERGEANT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_SERGEANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>ei_army_sergeant_e11.ALO</Land_Model_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Lieutenant">
 		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_LIEUTENANT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_LIEUTENANT</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>ei_army_lieutenant_e11.alo</Land_Model_Name>
 	</GroundInfantry>
 	
@@ -119,8 +119,8 @@
 	
 	<GroundCompany Name="Line_Infantry_Platoon">
 		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_UNIT_IA_LINE_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_LINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
 		<GUI_Row>1</GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -231,8 +231,8 @@
 
 	<Container Name="Line_Infantry_Platoon_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
-		<Text_ID>TEXT_UNIT_IA_LINE_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_ARMY_LINE_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
 		<Show_Name>No</Show_Name>
 		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
@@ -285,7 +285,7 @@
 	<!-- Imperial Remnant Army Line Platoon -->
 	<GroundInfantry Name="Imperial_Army_Trooper_Remnant">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>ei_army_trooper_e15.alo</Land_Model_Name>
 		<Hardpoints>
 			HP_Infantry_Trooper_E_15
@@ -294,7 +294,7 @@
 	
 	<GroundInfantry Name="Imperial_Army_Trooper_Remnant_TL_50">
 		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_TL50 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_TL50 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<!--<Land_Model_Name>ei_army_trooper_e15.alo</Land_Model_Name>-->
 		<Hardpoints>
 			HP_Infantry_TL_50
@@ -305,7 +305,7 @@
 
 	<GroundInfantry Name="Imperial_Army_Sergeant_Remnant">
 		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>ei_army_sergeant_e15.ALO</Land_Model_Name>
 		<Hardpoints>
 			HP_Infantry_Trooper_E_15
@@ -314,7 +314,7 @@
 
 	<GroundInfantry Name="Imperial_Army_Lieutenant_Remnant">
 		<Variant_Of_Existing_Type>Imperial_Army_Lieutenant</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_TROOPER_DESC TEXT_UNIT_INFANTRY_E15 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Land_Model_Name>ei_army_lieutenant_e15.ALO</Land_Model_Name>
 		<Hardpoints>
 			HP_Infantry_Trooper_E_15
@@ -339,7 +339,7 @@
 	
 	<GroundCompany Name="Line_Infantry_Platoon_Remnant">
 		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Damage>863</Damage>
 		<Autoresolve_Health>1440</Autoresolve_Health>
 		<Build_Cost_Credits>1330</Build_Cost_Credits>
@@ -410,7 +410,7 @@
 
 	<Container Name="Line_Infantry_Platoon_Remnant_Team">
 		<Variant_Of_Existing_Type>Line_Infantry_Platoon_Team</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ARMY_LINE_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_army_trooper.tga</Icon_Name>
 	</Container>
 </Army_Trooper_Data>

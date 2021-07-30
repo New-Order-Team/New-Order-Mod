@@ -102,9 +102,9 @@
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
 		<CanCellStack> yes </CanCellStack>
 		<Mass> 1.0 </Mass>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
-		<Max_Speed> 0.8 </Max_Speed>
+		<Max_Speed> 0.5 </Max_Speed>
 		<Max_Rate_Of_Turn> 16.0 </Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -238,7 +238,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -404,7 +404,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
 
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
@@ -574,7 +574,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
 
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
@@ -731,7 +731,7 @@
 		<FormationOrder> 2 </FormationOrder>
 		<FormationGrouping> Standard </FormationGrouping>
 		
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 
 		<Select_Box_Scale>20</Select_Box_Scale>
@@ -925,7 +925,7 @@
 
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.5 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -1082,7 +1082,7 @@
 		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
@@ -1225,7 +1225,7 @@
 		<IsBuildable>No</IsBuildable>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Size_Value>10</Size_Value>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Damage>1</Damage>
 		<Tactical_Health>15</Tactical_Health>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
@@ -1366,7 +1366,7 @@
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Stealth_Capable>No</Stealth_Capable>
 
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
@@ -1532,16 +1532,6 @@
 	
 	<GroundInfantry Name="Squad_Plex_Soldier">
 		<Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_PLEX_SOLDIER</Text_ID>
-		<LandBehavior>SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-		<Is_Squashable> Yes </Is_Squashable>
-		<Max_Speed> 1 </Max_Speed>
-		<Space_Layer> None </Space_Layer>
-		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
-		<FormationRaggedness> 1.4 </FormationRaggedness>
-		<MaxJiggleDistance> 3.5 </MaxJiggleDistance>
-
 		<!-- When this unit is converted by the "convert to enemy" special ability (Force Corruption), this is what his type pointer changes to -->
 		<Conversion_Ability_Changes_To_Enemy> Squad_Plex_Soldier_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
 

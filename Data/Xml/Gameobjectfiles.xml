@@ -413,6 +413,7 @@
 	<File>Units_land_empire_army_engineers.xml</File>
 	<File>Units_land_empire_e_web_crew.xml</File>
 	<File>Units_land_empire_stormtroopers.xml</File>
+	<File>Units_land_empire_novatroopers.xml</File>
 	
 	<File>Units_land_empire_px_10.xml</File>
 	<File>Units_land_empire_AT-ST.xml</File>

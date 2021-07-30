@@ -26,7 +26,7 @@
 		<Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Armor_Type> Armor_I1 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Max_Speed> 0.65 </Max_Speed>
 		<Tactical_Health>45</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
