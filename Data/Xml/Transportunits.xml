@@ -295,7 +295,7 @@
 	<TransportUnit Name="Imperial_ATAT_Barge_Landing">
 		<Variant_Of_Existing_Type>Imperial_ATAT_Barge</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>1.2</Scale_Factor>
 		<LandBehavior>HIDE_WHEN_FOGGED</LandBehavior> 
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<User_Bound_Min>-700, -700, 0</User_Bound_Min>
