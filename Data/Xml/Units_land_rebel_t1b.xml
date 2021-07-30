@@ -45,7 +45,7 @@
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Armor_Type> Armor_A3 </Armor_Type>
-		<Shield_Armor_Type>Armor_I1</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_I</Shield_Armor_Type>
 		<Shield_Points>370</Shield_Points>
 		<Shield_Refresh_Rate>37</Shield_Refresh_Rate>
 		<Size_Value>70</Size_Value>
@@ -72,6 +72,7 @@
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.6</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Rebel_Missile_Fire</SFXEvent_Fire>
 
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -105,7 +106,6 @@
 		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 
-		<SFXEvent_Fire>Unit_Rebel_Missile_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_T2B_Tank</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_T2B_Tank</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
@@ -160,6 +160,19 @@
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
 	</GroundVehicle>
 	
 	<GroundCompany Name="Rebel_T1b_Platoon">
@@ -209,5 +222,17 @@
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
 	</GroundCompany>
 </T1b_Data>
