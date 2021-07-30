@@ -49,7 +49,7 @@
 		<Garrison_Value>1</Garrison_Value>
 		<Affiliation>Empire</Affiliation>
 
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Damage>8</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>200</Tactical_Health>
@@ -787,13 +787,13 @@
 		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
 
-		<Armor_Type> Armor_I2 </Armor_Type>
+		<Armor_Type> Armor_I </Armor_Type>
 		<Tactical_Health>90</Tactical_Health>
 		<Autoresolve_Health>90</Autoresolve_Health>
 
-		<Hardpoints>
+		<!-- <Hardpoints>
 			HP_Infantry_Imperial_Repeater
-		</Hardpoints>
+		</Hardpoints> -->
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 
