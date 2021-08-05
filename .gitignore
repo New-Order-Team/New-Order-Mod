@@ -1,3 +1,4 @@
 Data/Unused
 *.bak
 *.xlsx
+Data/*.txt
