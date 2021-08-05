@@ -42,7 +42,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -190,7 +190,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -342,7 +342,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -482,7 +482,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 	
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -623,7 +623,7 @@
 
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -766,7 +766,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -893,7 +893,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -1063,7 +1063,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -1204,7 +1204,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
@@ -1331,7 +1331,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors><!-- 
@@ -1473,7 +1473,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors><!-- 
@@ -1617,7 +1617,7 @@
 
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors><!-- 
@@ -1747,7 +1747,7 @@
 
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors><!-- 
@@ -1911,7 +1911,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.15  0.15</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -2056,7 +2056,7 @@
 
 		<Sabotage_Cost_Credits>4000</Sabotage_Cost_Credits>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors><!-- 
@@ -2170,7 +2170,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Build_Cost_Credits>1000</Build_Cost_Credits>
@@ -2358,7 +2358,7 @@
 			Rebel_Survivors_Large, 1.0
 		--></Destruction_Survivors>
 		
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -2743,7 +2743,7 @@
 		<Bombing_Run_Prevention_Radius>800</Bombing_Run_Prevention_Radius>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -2847,7 +2847,7 @@
 		<Obstacle_X_Offset>-60.0</Obstacle_X_Offset>
 		<Obstacle_Y_Offset>-60.0</Obstacle_Y_Offset>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -3209,7 +3209,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -3309,7 +3309,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -3409,7 +3409,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -3478,7 +3478,7 @@
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
 
 		<Tactical_Health>600</Tactical_Health>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		
 		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
 		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
@@ -3561,7 +3561,7 @@
 		<Base_Position>Out_Base</Base_Position>
 
 		<Tactical_Health>600</Tactical_Health>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 
 		<Sabotage_Cost_Credits>1200</Sabotage_Cost_Credits>
 
@@ -3665,7 +3665,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>775</Reinforcement_Prevention_Radius>
@@ -3801,7 +3801,7 @@
 		<GUI_Bounds_Scale>0.05</GUI_Bounds_Scale>
 		<Is_Dummy>No</Is_Dummy>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<Reinforcement_Prevention_Radius>775</Reinforcement_Prevention_Radius>
@@ -3975,7 +3975,7 @@
 		<Required_Planets />
 		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
@@ -4084,7 +4084,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
@@ -4181,7 +4181,7 @@
 		<Required_Planets />
 		<Tactical_Health>4000</Tactical_Health>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
@@ -4308,7 +4308,7 @@
 		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
 		<Turret_Rest_Angle>0.0, -45.0, 0.0</Turret_Rest_Angle>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
@@ -4471,7 +4471,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -4591,7 +4591,7 @@
 		<Radar_Show_Facing>No</Radar_Show_Facing>
 		<Radar_Icon_Size>0.125  0.125</Radar_Icon_Size>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -5015,7 +5015,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 				
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		
 		<Destruction_Survivors><!-- 
@@ -5144,7 +5144,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Select_Box_Scale>180</Select_Box_Scale>
@@ -5295,7 +5295,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
 
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Select_Box_Scale>180</Select_Box_Scale>
@@ -5504,7 +5504,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_S4 </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Size_Value>50</Size_Value>
