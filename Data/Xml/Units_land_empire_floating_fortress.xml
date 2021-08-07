@@ -17,7 +17,7 @@
 
 		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
-		<Stopped_Rate_Of_Turn>1.0</Stopped_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 	
 		<Behavior>SELECTABLE</Behavior>
 		
