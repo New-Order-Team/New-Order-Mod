@@ -282,7 +282,7 @@
 	<!-- ===================================== -->
 
 	<MusicEvent Name="Desert_Land_Rebel_Battle_Music_Event">
-        <Files> R_Sail_Barge_Assault.MP3, E_Den_Of_The_Rancor.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_Sail_Barge_Assault.MP3, E_Den_Of_The_Rancor.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -290,7 +290,7 @@
     </MusicEvent>
 	
 	<MusicEvent Name="Ice_Land_Rebel_Battle_Music_Event">
-        <Files> R_The_Battle_of_Hoth.MP3, E_The_Battle_of_Hoth_2.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_The_Battle_of_Hoth.MP3, E_The_Battle_of_Hoth_2.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -298,7 +298,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Swamp_Land_Rebel_Battle_Music_Event">
-        <Files> R_Anakin_Defeats_Sebulba.MP3, E_Battle_In_The_Swamps.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_Anakin_Defeats_Sebulba.MP3, E_Battle_In_The_Swamps.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -306,7 +306,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Volcanic_Land_Rebel_Battle_Music_Event">
-        <Files> R_Sail_Barge_Assault_Alternate.MP3, E_Volcanic_Assault.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_Sail_Barge_Assault_Alternate.MP3, E_Volcanic_Assault.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -314,7 +314,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Temperate_Land_Rebel_Battle_Music_Event">
-        <Files> R_The_Battle_Rages_On.MP3, E_The_Gungans_Retreat.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_The_Battle_Rages_On.MP3, E_The_Gungans_Retreat.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, BF2_Naboo_Defend_market_intro.mp3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -322,7 +322,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Urban_Land_Rebel_Battle_Music_Event">
-        <Files> R_The_Chase_Through_Coruscant_1.MP3, E_The_Chase_Through_Coruscant_2.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> R_The_Chase_Through_Coruscant_1.MP3, E_The_Chase_Through_Coruscant_2.MP3, BF2_Naboo_Defend_market_intro.mp3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -340,7 +340,7 @@
 	<!-- ======================================= -->
 
 	<MusicEvent Name="Desert_Land_Empire_Battle_Music_Event">
-        <Files> E_Den_Of_The_Rancor.MP3, R_Sail_Barge_Assault.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> E_Den_Of_The_Rancor.MP3, R_Sail_Barge_Assault.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -348,7 +348,7 @@
     </MusicEvent>
 	
 	<MusicEvent Name="Ice_Land_Empire_Battle_Music_Event">
-        <Files> E_The_Battle_of_Hoth_2.MP3, R_The_Battle_of_Hoth.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> E_The_Battle_of_Hoth_2.MP3, R_The_Battle_of_Hoth.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>0.5</Fade_Out_Previous_Seconds>
@@ -356,7 +356,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Swamp_Land_Empire_Battle_Music_Event">
-        <Files> E_Battle_In_The_Swamps.MP3, R_Anakin_Defeats_Sebulba.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> E_Battle_In_The_Swamps.MP3, R_Anakin_Defeats_Sebulba.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -364,7 +364,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Volcanic_Land_Empire_Battle_Music_Event">
-        <Files> E_Volcanic_Assault.MP3, R_Sail_Barge_Assault_Alternate.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3 </Files>
+        <Files> E_Volcanic_Assault.MP3, R_Sail_Barge_Assault_Alternate.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3 </Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -372,7 +372,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Temperate_Land_Empire_Battle_Music_Event">
-        <Files> E_The_Gungans_Retreat.MP3, R_The_Battle_Rages_On.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3</Files>
+        <Files> E_The_Gungans_Retreat.MP3, R_The_Battle_Rages_On.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3</Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -380,7 +380,7 @@
     </MusicEvent>
 
 	<MusicEvent Name="Urban_Land_Empire_Battle_Music_Event">
-        <Files> E_The_Chase_Through_Coruscant_2.MP3, R_The_Chase_Through_Coruscant_1.MP3, Advance_on_the_City.MP3, BFD_Tension_Loop_0.mp3, BFD_Tension_Loop_1.mp3, BFD_Tension_Loop_2.mp3</Files>
+        <Files> E_The_Chase_Through_Coruscant_2.MP3, R_The_Chase_Through_Coruscant_1.MP3, BF1_Tension_Loop_0.mp3, BF1_Tension_Loop_1.mp3, BF1_Tension_Loop_2.mp3</Files>
         <Volume_Percent>55</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -398,7 +398,7 @@
 
 
 	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
-		 <Files> Beginning_The_Approach.MP3, Boarding_The_Federation_Battleship.MP3, Death_Star_Stormtroopers.MP3</Files>
+		 <Files> Boarding_The_Federation_Battleship.MP3, Death_Star_Stormtroopers.MP3</Files>
 		 <Volume_Percent>55</Volume_Percent>
 		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
