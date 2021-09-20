@@ -184,7 +184,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_land_missile_plex.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_E6 </Damage_Type>
+		<Damage_Type>Damage_L7</Damage_Type>
 		<Max_Speed>7.5</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

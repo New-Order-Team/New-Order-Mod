@@ -104,16 +104,6 @@
 
 		<Land_FOW_Reveal_Range>370.0</Land_FOW_Reveal_Range>
 
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
-		<Idle_Chase_Range>-1.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Targeting_Priority_Set>AntiInfantryOnly</Targeting_Priority_Set>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-
 		<Overall_Length>111.0</Overall_Length>
 		<Overall_Width>36.0</Overall_Width>
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
