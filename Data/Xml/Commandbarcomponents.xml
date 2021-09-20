@@ -8658,7 +8658,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>175 213 242 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
    </CommandBarComponent> 
 
@@ -8666,7 +8666,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>175 213 242 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
    </CommandBarComponent> 
    
@@ -8674,7 +8674,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
-            <Text_Color>0 0 0 255</Text_Color>
+            <Text_Color>175 213 242 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
 	</CommandBarComponent>    
    
