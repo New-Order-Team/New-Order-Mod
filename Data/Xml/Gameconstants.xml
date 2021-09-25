@@ -2483,7 +2483,7 @@
 	<Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
 	<Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
 	
-	<Diminishing_Firepower>0, 1</Diminishing_Firepower>  <!--Mild effect-->
+	<Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>  <!--Mild effect-->
 	
 	<!-- <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
 
@@ -2761,9 +2761,9 @@
         0, 255, 100,
         0, 255, 100
     </Planet_Ability_RGBs>
-    <Droid_Date_Color>255 0 0</Droid_Date_Color>
-    <Droid_Text_Color>255 255 255</Droid_Text_Color>
-    <Droid_Seperator_Color>128 128 128</Droid_Seperator_Color>
+    <Droid_Date_Color>175 213 242</Droid_Date_Color>
+    <Droid_Text_Color>175 213 242</Droid_Text_Color>
+    <Droid_Seperator_Color>175 213 242</Droid_Seperator_Color>
     <Droid_Encyclopedia_Offset>24 -179</Droid_Encyclopedia_Offset>
 
 	<Indigenous_Spawn_Destruction_Reward>0</Indigenous_Spawn_Destruction_Reward>
