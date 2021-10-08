@@ -6,7 +6,15 @@
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_QH_7_CHARIOT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_QH_7_CHARIOT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_QH_7_CHARIOT_INFO_1
+			TEXT_UNIT_QH_7_CHARIOT_INFO_2
+			TEXT_UNIT_QH_7_CHARIOT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_QH_7_CHARIOT_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
 		
 		<Show_Hero_Head>Yes</Show_Hero_Head>
@@ -22,7 +30,7 @@
 		<Political_Control>0</Political_Control>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>5.8</Max_Speed>
+		<Max_Speed>4.0</Max_Speed>
 		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -52,9 +60,8 @@
 		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
 		<Armor_Type> Armor_A4 </Armor_Type>
 		<Size_Value>60</Size_Value>
-		<Damage>15</Damage>
 		<Sensor_Range>80</Sensor_Range>
-		<Tactical_Health>670</Tactical_Health>
+		<Tactical_Health>640</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -62,21 +69,21 @@
 		<LandBehavior>
 			ABILITY_COUNTDOWN,
 			AFFECTED_BY_SHIELD,
-			WALK_LOCOMOTOR,
+			DAMAGE_TRACKING,
+			GARRISON_UNIT,
+			HIDE_WHEN_FOGGED,
 			IDLE,
-			TARGETING,
-			WEAPON,
-			TURRET,
 			POWERED,
 			REVEAL,
-			HIDE_WHEN_FOGGED,
-			UNIT_AI,
-			TELEKINESIS_TARGET,
 			STUNNABLE,
-			WIND_DISTURBANCE,
 			SURFACE_FX,
-			DAMAGE_TRACKING,
-			GARRISON_UNIT
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+			WIND_DISTURBANCE,
 		</LandBehavior>
 
 		<Garrison_Category> Vehicle </Garrison_Category>
@@ -168,6 +175,8 @@
 				<Effective_Radius>300.0</Effective_Radius> 
                 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_QH_7_CHARIOT_AB1</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_QH_7_CHARIOT_AB1_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>SELF_DESTRUCT</Type>
@@ -176,6 +185,8 @@
 				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_UNIT_QH_7_CHARIOT_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_QH_7_CHARIOT_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -205,13 +216,21 @@
 	
 	<GroundCompany Name="Chariot_Command_Platoon">
 		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_QH_7_CHARIOT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_QH_7_CHARIOT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_QH_7_CHARIOT_INFO_1
+			TEXT_UNIT_QH_7_CHARIOT_INFO_2
+			TEXT_UNIT_QH_7_CHARIOT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_QH_7_CHARIOT_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_chariot.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>22.4</Damage>
-		<Autoresolve_Health>1440</Autoresolve_Health>
+		<Autoresolve_Health>640</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -226,7 +245,7 @@
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>3</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
+		<Is_Escort>no</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>QH_7_Chariot</Company_Units>

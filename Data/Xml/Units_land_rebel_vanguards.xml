@@ -63,6 +63,7 @@
 		
         <CategoryMask> Infantry | AntiVehicle </CategoryMask>
 		<Targeting_Priority_Set>PlexPriority</Targeting_Priority_Set>
+		<Property_Flags>PlexInfantry</Property_Flags>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

@@ -33,7 +33,7 @@
 		<Type>Hover</Type>
 		<CategoryMask>Vehicle</CategoryMask>
 		<Ranking_In_Category>3</Ranking_In_Category>
-		<Property_Flags>CanContainGarrison</Property_Flags>
+		<Property_Flags> CanContainGarrison, LightVehicle </Property_Flags>
 		<Weather_Category>Hover</Weather_Category>
 		<Victory_Relevant>yes</Victory_Relevant>
 		

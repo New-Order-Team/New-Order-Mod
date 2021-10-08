@@ -89,7 +89,7 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
 
         <Land_FOW_Reveal_Range>420.0</Land_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
@@ -161,6 +161,7 @@
         <GUI_Bracket_Size>1</GUI_Bracket_Size>
 
         <Weather_Category>Walker</Weather_Category>
+		<Property_Flags>LightVehicle</Property_Flags>
 
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_00</Death_Clone>
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_01</Death_Clone>
@@ -274,7 +275,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_AT_ST</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_ST</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>790</Score_Cost_Credits>
+		<Score_Cost_Credits>79</Score_Cost_Credits>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>790</Tactical_Build_Cost_Multiplayer>

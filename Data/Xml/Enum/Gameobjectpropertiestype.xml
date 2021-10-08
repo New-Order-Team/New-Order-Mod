@@ -20,5 +20,6 @@
 	<LightVehicle>			0x00008000	</LightVehicle>
 	<HeavyVehicle>			0x00010000	</HeavyVehicle>
 	<Artillery>				0x00020000	</Artillery>
+	<PlexInfantry>			0x00040000	</PlexInfantry>
 
 </EnumDefinition>

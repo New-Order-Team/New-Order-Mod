@@ -10,9 +10,10 @@
 	<!-- Regilar infantry are good against other infantry and mining platforms -->
 	<Priority_Set Name="InfantryPriority">
         <Attack_Priorities>
-            Infantry, 1.0,
-			TacticalStructure, 2.0,
-			Structure, 3.0,
+			PlexInfantry, 1.0,
+            Infantry, 2.0,
+			TacticalStructure, 3.0,
+			Structure, 4.0,
 			
             Vehicle, 10.0,
             Turret, 11.0,
@@ -70,13 +71,13 @@
 			Structure, 4.0,
 			
 			Vehicle, 10.0,
-			Turret, 11.0,
-			Bunker, 12.0,
+			Bunker, 11.0,
+			Turret, 12.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- Chariot/Arrow-23 are weak, prioritise mining platforms and infantry -->
@@ -85,16 +86,17 @@
 			TacticalStructure, 1.0,
 			Infantry, 2.0,
 			LightVehicle, 3.0,
-			Structure, 4.0,
 			
-			Vehicle, 10.0,
-			Turret, 11.0,
-			Bunker, 12.0,
+			Structure, 10.0,
+			
+			Vehicle, 20.0,
+			Turret, 25.0,
+			Bunker, 30.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- AT-AR have a good laser cannon, prioritise vehicles, then infantry, then structures -->
@@ -102,15 +104,17 @@
 		<Attack_Priorities>
 			Vehicle, 1.0,
 			Infantry, 2.0,
-			Structure, 3.0,
+			TacticalStructure, 3.0,
 			
 			Turret, 10.0,
-			Bunker, 11.0,
+			
+			Structure, 20.0,
+			Bunker, 25.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 	
 	<Priority_Set Name="CenturyPriority">
@@ -123,7 +127,7 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, Turret</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- T1-B is weak, don't attack anything except infantry or air -->
@@ -133,13 +137,35 @@
 			Infantry, 2.0,
 			LandHero, 3.0,
 			TacticalStructure, 4.0,
-			Turret, 9.0,
+			
 			Vehicle, 10.0,
+			
+			Turret, 20.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>
+
+	<!-- ULAV's main gun is good against structures, then prefer light vehicles -->
+	<Priority_Set Name="ULAVPriority">
+		<Attack_Priorities>
+			TacticalStructure, 1.0,
+			Structure, 2.0,
+			Turret, 3.0,
+			Artillery, 4.0,
+			LightVehicle, 5.0,
+			LandHero, 6.0,
+			
+			Infantry, 10.0,
+			
+			Vehicle, 20.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Air
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- General priorities -->

@@ -231,6 +231,7 @@
 
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>10.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Land_Blaster_TIE</Fire_Projectile_Type>
@@ -704,48 +705,30 @@
 	<!-- ################ -->
 	<!-- #   ALLIANCE   # -->
 	<!-- ################ -->
-
 	<HardPoint Name="HP_ULAV_Main">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Land_Laser_QH_7</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.52</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.08</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Land_Laser_ULAV</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.4</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.4</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Infantry, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-	</HardPoint>
-	<HardPoint Name="HP_ULAV_Launcher">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-
-		<Fire_Projectile_Type>Proj_Land_R_AV_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Rebel_Missile_Fire</Fire_SFXEvent>
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-	</HardPoint>
+    </HardPoint>
+	
 	<HardPoint Name="HP_ULAV_Turret">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
@@ -753,9 +736,9 @@
 		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
 		<Health>150.0</Health>
 
-		<Model_To_Attach>RV_ULAV_Turret_01.ALO</Model_To_Attach>
-		<Attachment_Bone>Bone_00</Attachment_Bone>
-		<Collision_Mesh>CollisionT01</Collision_Mesh>
+		<Model_To_Attach>reb_ulav_turret_00.ALO</Model_To_Attach>
+		<Attachment_Bone>Attach_00</Attachment_Bone>
+		<Collision_Mesh>Collision_Turret_00</Collision_Mesh>
 
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B></Fire_Bone_B>
@@ -770,15 +753,15 @@
 		<Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
 		<Turret_Rotate_Extent_Degrees> 90.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 30.0 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
+		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
 		<Barrel_Bone_Name> MuzzleB_00 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Land_Blaster_ULAV_T</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.6</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Land_Blaster_ULAV</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.75</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.75</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tank_Repulsor_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>

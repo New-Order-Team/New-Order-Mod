@@ -88,6 +88,7 @@
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.8</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
 
 		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
