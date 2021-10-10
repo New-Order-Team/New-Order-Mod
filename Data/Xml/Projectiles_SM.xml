@@ -1190,31 +1190,33 @@
 		<Projectile_Damage>20.0</Projectile_Damage>
 	</Projectile>
 
-<Projectile Name="Proj_Facing_Dummy">
-    <Text_ID>TEXT_NONE</Text_ID>
-    <Space_Model_Name>W_LASER_INVISIBLE</Space_Model_Name>
-    <Scale_Factor>1.0</Scale_Factor>
-    <Max_Speed>0.01</Max_Speed>
-    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-    <Projectile_Damage>900000.0</Projectile_Damage>
-    <Damage_Type> Damage_Default </Damage_Type>
-    <AI_Combat_Power>500000</AI_Combat_Power>
-    <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-    <Projectile_Category>Missile</Projectile_Category>
-    <Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance> 
-    <Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
-    <Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
-    <Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-    <Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-    <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-    <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-    <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-    <Projectile_Object_Detonation_Particle />
-    <Projectile_Object_Armor_Reduced_Detonation_Particle />
-    <Projectile_Ground_Detonation_Particle />
-    <Projectile_Lifetime_Detonation_Particle />
-    <Projectile_Absorbed_By_Shields_Particle />
-</Projectile>
-
-
+	<Projectile Name="Proj_Facing_Dummy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_laser_invisible.alo</Space_Model_Name>
+		<Land_Model_Name>w_laser_invisible.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Max_Speed>0.01</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance> 
+		
+		<Projectile_Damage>0.0</Projectile_Damage>
+		
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<Projectile_SFXEvent_Detonate></Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor></Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Object_Armor_Reduced_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle />
+		<AI_Combat_Power>9999</AI_Combat_Power>
+	</Projectile>
 </Projectiles_SM>

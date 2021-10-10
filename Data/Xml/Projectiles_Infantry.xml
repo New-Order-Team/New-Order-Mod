@@ -45,7 +45,7 @@
 		
 		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle /> <!-- Small_Damage_Land -->
 		<Projectile_Object_Armor_Reduced_Detonation_Particle></Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle />

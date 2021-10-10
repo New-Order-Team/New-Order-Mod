@@ -7,8 +7,8 @@
 	<!-- Remaining: 3 + 3 - 4 = 2 -->
 
 	<Fighter>			0x00000001		</Fighter>
-	<Bomber>			0x00000002		</Bomber>
-	<Transport>			0x00000004		</Transport>
+	<Bomber>			0x00000002		</Bomber> <!-- Merge into Fighter -->
+	<Transport>			0x00000004		</Transport> <!-- Merge into Corvette -->
 	<Corvette>			0x00000008		</Corvette>
 	<Frigate>			0x00000010		</Frigate>
 	<!-- Cruiser -->
