@@ -15,16 +15,15 @@
 			TEXT_WEAPONS
 			TEXT_UNIT_ULAV_W_1
 			TEXT_UNIT_ULAV_W_2
+			TEXT_UNIT_ULAV_W_3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
         <Icon_Name> i_button_ulav.tga </Icon_Name>
 		
 		<Land_Model_Name>reb_ulav.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.05</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Scale_Factor>1.0</Scale_Factor>
 		<Type>Hover</Type>
-		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
 
@@ -42,7 +41,7 @@
 		<FormationRaggedness> 1 </FormationRaggedness>
 		<MaxJiggleDistance> 5 </MaxJiggleDistance>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
-		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<UseSecondaryFacing> false </UseSecondaryFacing>
 		<SecondaryTurnInPlaceROTCoefficient> .5 </SecondaryTurnInPlaceROTCoefficient>
 		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
 		<MinSecondaryTurnROTCoefficient> .3 </MinSecondaryTurnROTCoefficient>
@@ -77,7 +76,6 @@
 			SURFACE_FX,
 			TARGETING,
 			TELEKINESIS_TARGET,
-			TURRET,
 			UNIT_AI,
 			WALK_LOCOMOTOR,
 			WEAPON,
@@ -90,7 +88,7 @@
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 
 		<Hardpoints>
-				HP_ULAV_Main
+			HP_ULAV_Main, HP_ULAV_Missile, HP_ULAV_Turret
 		</Hardpoints>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
@@ -98,33 +96,21 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
-		<Projectile_Types>Proj_Land_Blaster_ULAV</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.75</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_Tank_Repulsor_Fire</SFXEvent_Fire>
-		
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
 		
-        <Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>Turret_00</Turret_Bone_Name>
-        <Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
-        <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
-        <Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
-        <Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Projectile_Types>Proj_Proj_Blank</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire />
 
-        <Turret_Targets_Anything_Else> 1 </Turret_Targets_Anything_Else>
-        <Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
-        <Turret_Targets_Ground_Vehicles> 3 </Turret_Targets_Ground_Vehicles>
-        <Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 25.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
 		<CategoryMask> Vehicle | AntiStructure | AntiInfantry </CategoryMask>
 		<MovementClass>HoverNoShield</MovementClass>
@@ -147,8 +133,6 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_T2B_Tank</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_T2B_Tank</SFXEvent_Guard>
-
-		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
 
 		<SFXEvent_Assist_Move> Unit_Assist_Move_T2B_Tank </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_T2B_Tank</SFXEvent_Assist_Attack>
@@ -190,20 +174,15 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPRINT</Type>
-				<Expiration_Seconds>15.0</Expiration_Seconds>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<Mod_Flag>WEAPONS_ENABLED_FLAG, false</Mod_Flag>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Tie_Mauler</SFXEvent_GUI_Unit_Ability_Activated>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Assist_Attack_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>TEXT_UNIT_ULAV_AB1</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_UNIT_ULAV_AB1_DESC</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_ulav.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
 		
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
@@ -220,6 +199,7 @@
 			TEXT_WEAPONS
 			TEXT_UNIT_ULAV_W_1
 			TEXT_UNIT_ULAV_W_2
+			TEXT_UNIT_ULAV_W_3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ulav.tga</Icon_Name>
@@ -255,15 +235,13 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>SPRINT</Type>
-				<Expiration_Seconds>15.0</Expiration_Seconds>
-				<Recharge_Seconds>45.0</Recharge_Seconds>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<Mod_Flag>WEAPONS_ENABLED_FLAG, false</Mod_Flag>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Tie_Mauler</SFXEvent_GUI_Unit_Ability_Activated>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.25</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Assist_Attack_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Alternate_Name_Text>TEXT_UNIT_ULAV_AB1</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_UNIT_ULAV_AB1_DESC</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_ulav.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
