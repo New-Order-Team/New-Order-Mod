@@ -98,15 +98,6 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>INVULNERABILITY</Type>
@@ -156,4 +147,53 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
+	
+	<GroundCompany Name="Novatrooper_Platoon_Skirmish">
+		<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
+		<GUI_Model_Name>imp_novatrooper.alo</GUI_Model_Name>
+		
+        <Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1300</Build_Cost_Credits>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+		
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
+		</Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Create_Team_Type> Novatrooper_Platoon_Team </Create_Team_Type>
+		
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>24</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>INVULNERABILITY</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.25f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundCompany>
 </Novatroopers_Data>
