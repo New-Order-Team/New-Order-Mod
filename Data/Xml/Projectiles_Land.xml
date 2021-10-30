@@ -103,7 +103,7 @@
  
         <Projectile_Damage>30</Projectile_Damage>
          
-        <Projectile_Blast_Area_Range>10.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Range>50.0</Projectile_Blast_Area_Range>
         <Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage> 
         <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
  
