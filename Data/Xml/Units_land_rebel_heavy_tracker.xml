@@ -5,7 +5,15 @@
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_HEAVY_TRACKER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_HEAVY_TRACKER</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_HEAVY_TRACKER_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_HEAVY_TRACKER_INFO_1
+			TEXT_UNIT_HEAVY_TRACKER_INFO_2
+			TEXT_UNIT_HEAVY_TRACKER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_HEAVY_TRACKER_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_VEHICLE_SUPPORT</Encyclopedia_Unit_Class>
 		<Icon_Name> i_button_heavy_tracker.tga </Icon_Name>
 
@@ -62,6 +70,7 @@
 			DAMAGE_TRACKING,
 			HIDE_WHEN_FOGGED,
 			IDLE,
+			LURE,
 			POWERED,
 			REVEAL,
 			STUNNABLE,
@@ -172,13 +181,85 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 		<!-- <Lua_Script>ObjectScript_Heavy_Tracker</Lua_Script> -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>AREA_EFFECT_HEAL</Type>
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Spawned_Object_Type> Proj_Heavy_Tracker_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Heal_Obi_Wan </SFXEvent_Target_Ability> 
+				<Alternate_Name_Text>TEXT_UNIT_HEAVY_TRACKER_AB1</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_HEAVY_TRACKER_AB1_DESC</Alternate_Description_Text>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<Alternate_Name_Text>TEXT_UNIT_HEAVY_TRACKER_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_HEAVY_TRACKER_AB2_DESC</Alternate_Description_Text>
+
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>350</Effective_Radius>
+
+				<Target_Types>
+					PX_10,
+					AT_AR_Walker,
+					QH_7_Chariot,
+					AT_ST_Walker,
+					M1_Repulsor_Tank,
+					Century_Tank,
+					Floating_Fortress,
+					HAV_Juggernaut,
+					AT_AT_Walker_Prototype,
+					AT_AT_Walker,
+					Mobile_Artillery,
+					AT_AA_Walker,
+					MAAT,
+					Dark_Trooper_PhaseII,
+					
+					A_A5_Speeder_Truck,
+					Arrow_23_Landspeeder,
+					ULAV,
+					Freerunner,
+					Heavy_Tracker,
+					T1B_Tank,
+					T2B_Tank,
+					AAT_Rebel,
+					T3B_Tank,
+					T4B_Tank,
+					MPTL,
+					Snowspeeder,
+					V_Wing_Airspeeder,
+				</Target_Types>
+
+				<Recharge_Seconds>60.0</Recharge_Seconds>
+				<Expiration_Seconds>15.0</Expiration_Seconds>
+				
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>canderous_lure</Particle_Effect>
+
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.5f</Mod_Multiplier>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
 		
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 	
 	<GroundCompany Name="Heavy_Tracker_Command_Platoon">
 		<Text_ID>TEXT_UNIT_HEAVY_TRACKER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_HEAVY_TRACKER</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_HEAVY_TRACKER_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_HEAVY_TRACKER_INFO_1
+			TEXT_UNIT_HEAVY_TRACKER_INFO_2
+			TEXT_UNIT_HEAVY_TRACKER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_HEAVY_TRACKER_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_VEHICLE_SUPPORT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_heavy_tracker.tga</Icon_Name>
 		<GUI_Row> 1 </GUI_Row>

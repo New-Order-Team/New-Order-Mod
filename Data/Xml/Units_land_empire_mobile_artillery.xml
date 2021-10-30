@@ -7,7 +7,15 @@
 		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_MOBILE_ARTILLERY</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_ARTILLERY</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_MOBILE_ARTILLERY_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_1
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_2
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_MOBILE_ARTILLERY_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
 		<Land_Model_Name>ev_mobile_artillery.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
@@ -177,7 +185,16 @@
 	<GroundCompany Name="Imperial_Mobile_Artillery_Platoon">
 		<LOD_Bias>4</LOD_Bias>
 		<Text_ID>TEXT_UNIT_MOBILE_ARTILLERY_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_ARTILLERY_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_MOBILE_ARTILLERY_DESC
+			TEXT_UNIT_MOBILE_ARTILLERY_PLATOON_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_1
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_2
+			TEXT_UNIT_MOBILE_ARTILLERY_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_MOBILE_ARTILLERY_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ARTILLERY</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>

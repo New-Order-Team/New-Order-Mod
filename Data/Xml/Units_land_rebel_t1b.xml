@@ -5,8 +5,16 @@
 		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_T1B</Text_ID>
-  		<Encyclopedia_Text>TEXT_UNIT_T1B_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
+  		<Encyclopedia_Text>
+			TEXT_UNIT_T1B_DESC
+			TEXT_UNIT_T1B_INFO_1
+			TEXT_UNIT_T1B_INFO_2
+			TEXT_UNIT_T1B_INFO_3
+			TEXT_UNIT_T1B_INFO_4
+			TEXT_UNIT_T1B_W_1
+			TEXT_UNIT_T1B_W_2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TANK</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>reb_t1b.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
@@ -17,7 +25,7 @@
 		<Political_Control>0</Political_Control>
 		
         <Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>3.0</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Movement_Animation_Speed> 2.3 </Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
@@ -46,11 +54,10 @@
 
 		<Armor_Type> Armor_A3 </Armor_Type>
 		<Shield_Armor_Type>Armor_I</Shield_Armor_Type>
-		<Shield_Points>370</Shield_Points>
-		<Shield_Refresh_Rate>37</Shield_Refresh_Rate>
+		<Shield_Points>430</Shield_Points>
+		<Shield_Refresh_Rate>43</Shield_Refresh_Rate>
 		<Size_Value>70</Size_Value>
-		<Damage>40</Damage>
-		<Tactical_Health>360</Tactical_Health>
+		<Tactical_Health>610</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -177,8 +184,17 @@
 	
 	<GroundCompany Name="Rebel_T1b_Platoon">
 		<Text_ID>TEXT_UNIT_T1B_PLATOON</Text_ID>
-  		<Encyclopedia_Text>TEXT_UNIT_T1B_PLATOON_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
+  		<Encyclopedia_Text>
+			TEXT_UNIT_T1B_DESC
+			TEXT_UNIT_T1B_PLATOON_DESC
+			TEXT_UNIT_T1B_INFO_1
+			TEXT_UNIT_T1B_INFO_2
+			TEXT_UNIT_T1B_INFO_3
+			TEXT_UNIT_T1B_INFO_4
+			TEXT_UNIT_T1B_W_1
+			TEXT_UNIT_T1B_W_2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TANK</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>18.5</Damage>
