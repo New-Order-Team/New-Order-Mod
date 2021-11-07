@@ -13,7 +13,25 @@
 
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
 		<Icon_Name>i_button_atat.tga</Icon_Name>
-		<LandBehavior>ABILITY_COUNTDOWN, SELECTABLE, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, STUNNABLE, DAMAGE_TRACKING, SQUASH, AFFECTED_BY_SHIELD, GARRISON_VEHICLE</LandBehavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			DAMAGE_TRACKING,
+			GARRISON_VEHICLE,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			POWERED,
+			REVEAL,
+			SELECTABLE,
+			SQUASH,
+			STUNNABLE,
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+		</LandBehavior>
 		
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Num_Garrison_Slots>4</Num_Garrison_Slots>
@@ -40,6 +58,8 @@
 		<Max_Speed>0.3</Max_Speed>
 		<Max_Rate_Of_Turn>2</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>1</Stopped_Rate_Of_Turn>
+        <!-- Need this to prevent the AT-AT turn from looking awful -->
+		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>
 		<Walk_Transition>Yes</Walk_Transition>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 		<Space_Layer> Land </Space_Layer>
@@ -49,7 +69,7 @@
 		<FormationGrouping> Solo </FormationGrouping>
 		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
 		<MovementPredictionInterval> 5.0 </MovementPredictionInterval>		
-		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>	
+		<MovementBoxExpansionFactor> 8.0 </MovementBoxExpansionFactor>
 
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -64,21 +84,25 @@
 		<Armor_Type> Armor_A6 </Armor_Type>
 
 		<Damage>160</Damage>
-		<Tactical_Health>2200</Tactical_Health>
-		<Autoresolve_Health>2200</Autoresolve_Health>
+		<Tactical_Health>2450</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Land_FOW_Reveal_Range>700.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>700</Targeting_Max_Attack_Distance>
 		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Ranged_Target_Z_Adjust>90.0</Ranged_Target_Z_Adjust>
 		
 		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01, MISSILE_TARGET02 </Target_Bones>
-
-		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->
-		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 2 </Turret_Targets_Anything_Else>
+		
+		<HardPoints>
+				HP_AT_AT_00
+		</HardPoints>
+		
+		<Projectile_Types>Proj_Land_AT_AT_Laser</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.2</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_AT_AT_Laser_Fire</SFXEvent_Fire>
 		
 		<Deployed_Turret_Rotate_Extent_Degrees>45</Deployed_Turret_Rotate_Extent_Degrees>
 		<Deployed_Turret_Elevate_Extent_Degrees>45</Deployed_Turret_Elevate_Extent_Degrees>
@@ -89,12 +113,16 @@
 		<Turret_Rotate_Speed>2.0</Turret_Rotate_Speed>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-		
-		<Ranged_Target_Z_Adjust>90.0</Ranged_Target_Z_Adjust>
-		
-		<HardPoints>
-				HP_AT_AT_00, <!--HP_AT_AT_01-->
-		</HardPoints>
+
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 4 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 2 </Turret_Targets_Anything_Else>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
 
 		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -155,9 +183,6 @@
 		<Tactical_Bribe_Cost>1000</Tactical_Bribe_Cost>
 
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
-        
-        <!-- Need this to prevent the AT-AT turn from looking awful -->
-		<Close_Enough_Angle_For_Move_Start> 30 </Close_Enough_Angle_For_Move_Start>        
 	</GroundVehicle>
 	
 	<GroundVehicle Name="AT_AT_Walker_REB09">

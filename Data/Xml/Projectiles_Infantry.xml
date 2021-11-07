@@ -161,7 +161,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_land_missile_plex.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type>Damage_L7</Damage_Type>
+		<Damage_Type>Damage_L5</Damage_Type>
 		<Max_Speed>7.5</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -185,11 +185,11 @@
 		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<Projectile_Object_Detonation_Particle>Explosion_Land_Missile</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Explosion_Land_Missile</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Explosion_Land_Missile</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Explosion_Land_Missile</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Explosion_Land_Missile_Plex</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>100</AI_Combat_Power>
 	</Projectile>
 	

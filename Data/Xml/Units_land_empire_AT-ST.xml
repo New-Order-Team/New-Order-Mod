@@ -74,11 +74,14 @@
 		<Damage>40</Damage>
 		<Shield_Points>0</Shield_Points>
 		<Tactical_Health>340</Tactical_Health>
-		<Autoresolve_Health>340</Autoresolve_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		
 		<Hardpoints>
 				HP_AT_ST_00
@@ -89,10 +92,6 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.8</Projectile_Fire_Recharge_Seconds>
 		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
-
-		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 
 		<Turret_Rotate_Extent_Degrees>45</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
