@@ -178,7 +178,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_X_Wing</SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>

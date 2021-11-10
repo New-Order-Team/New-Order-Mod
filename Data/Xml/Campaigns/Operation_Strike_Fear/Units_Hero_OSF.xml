@@ -138,7 +138,7 @@
 		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>

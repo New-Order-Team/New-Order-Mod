@@ -52,7 +52,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_X_Wing</SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -275,7 +275,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -345,7 +345,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -415,7 +415,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
 
 		<FormationOrder>3</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -530,7 +530,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
 
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -600,7 +600,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
 
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -670,7 +670,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Bomber</SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -741,7 +741,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Scout</SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -816,7 +816,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>700.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -876,7 +876,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter2.tga</Icon_Name>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>700.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -932,7 +932,7 @@
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -998,7 +998,7 @@
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -1064,7 +1064,7 @@
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -1119,7 +1119,7 @@
 		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -1241,7 +1241,7 @@
 		<Squadron_Offsets>-30.0,0.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -1358,7 +1358,7 @@
 		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
 
 		<FormationOrder>1</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>

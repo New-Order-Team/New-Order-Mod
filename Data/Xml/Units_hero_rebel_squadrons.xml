@@ -132,7 +132,7 @@
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -287,7 +287,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -359,7 +359,7 @@
 	 			
 	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -585,7 +585,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -729,7 +729,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -801,7 +801,7 @@
 	 			
 	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -979,7 +979,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -1155,7 +1155,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -1338,7 +1338,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -1412,7 +1412,7 @@
 	 			
 	 	<CategoryMask>Bomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -1613,7 +1613,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -1685,7 +1685,7 @@
 	 			
 	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -1864,7 +1864,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -2053,7 +2053,7 @@
 		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -2235,7 +2235,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
@@ -2307,7 +2307,7 @@
 	 			
 	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>200.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
@@ -2487,7 +2487,7 @@
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
 		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>500.0</Guard_Chase_Range>
 		<Idle_Chase_Range>150.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
