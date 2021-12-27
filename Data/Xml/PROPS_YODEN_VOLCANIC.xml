@@ -101,63 +101,6 @@
 		<Is_Decoration>Yes</Is_Decoration>
 	</Props_Volcanic>
 
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x1">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>2.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x2">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>3.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x3">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>4.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x4">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>5.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x5">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>7.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x6">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>9.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-	<Props_Volcanic Name="Prop_Volcano_RockForm03x7">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_Volcano_Rock02.ALO</Land_Model_Name>
-		<Scale_Factor>13</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Is_Decoration>Yes</Is_Decoration>
-		<Is_Editor_Placed>false</Is_Editor_Placed>
-	</Props_Volcanic>
-
 	<Props_Volcanic Name="Prop_Volcano_Crystal_Purplex1">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Crystals_Sullust.ALO</Land_Model_Name>
