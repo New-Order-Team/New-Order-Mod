@@ -301,15 +301,6 @@
 	<File>Units_space_rebel_CC-7700.xml</File>
 	<File>Units_space_empire_nebulon_b2.xml</File>
 
-	<File>Units_space_cis_vulture.xml</File>
-	<File>Units_space_cis_munificent.xml</File>
-	<File>Units_space_cis_recusant.xml</File>
-	<File>Units_space_cis_providence.xml</File> 
-	<File>Units_space_cis_diamond.xml</File> 
-	<File>Units_space_cis_lucrehulk.xml</File>
-	<File>Units_space_cis_tridroid.xml</File>
-	<File>Units_space_cis_droidbomber.xml</File>
-
 	<File>Units_space_empire_tie_hunter.xml</File>
 	<File>Units_space_empire_tie_scimitar.xml</File>
 	<File>Units_space_empire_tie_starhunter.xml</File>
@@ -409,7 +400,7 @@
 	<File>Units_hero_rebel_kyp_durron.xml</File>
 	
 	
-	<File>Units_land_empire_army_line_troopers.xml</File>
+	<File>Units_land_empire_army_troopers.xml</File>
 	<File>Units_land_empire_army_engineers.xml</File>
 	<File>Units_land_empire_e_web_crew.xml</File>
 	<File>Units_land_empire_stormtroopers.xml</File>
@@ -448,7 +439,7 @@
 	<File>Units_land_rebel_v_wing_speeder.xml</File>
 	<File>Units_land_rebel_t1b.xml</File>
 	<File>Units_land_rebel_t2b.xml</File>
-	<File>Units_land_cis_aat.xml</File>
+	<File>Units_land_rebel_aat.xml</File>
 	<File>Units_land_rebel_t3b.xml</File>
 	<File>Units_land_rebel_t4b.xml</File>
 	<File>Units_land_rebel_mptl.xml</File>

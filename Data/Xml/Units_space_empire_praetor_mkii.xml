@@ -194,7 +194,7 @@
 	
 	</SpaceUnit>
 	
-	<SpaceUnit Name="Praetor_II_Death_Clone">
+	<!--<SpaceUnit Name="Praetor_II_Death_Clone">
 		<Text_ID>TEXT_UNIT_PRAETOR_II</Text_ID>
 		<Space_Model_Name>ev_Praetor_II_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
@@ -210,6 +210,6 @@
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-	</SpaceUnit>
+	</SpaceUnit>-->
+	
 </Praetor_II_Data>

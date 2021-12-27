@@ -916,8 +916,7 @@
 
 		<Space_Retreat_Countdown_Seconds> 10.99 </Space_Retreat_Countdown_Seconds> 
 		<Space_Retreat_Pursue_Max_Speed_Mod_Factor> 1.0 </Space_Retreat_Pursue_Max_Speed_Mod_Factor> 
-		<Space_Retreat_Units_Damaged_Mod_Factor> 1.0 </Space_Retreat_Units_Damaged_Mod_Factor> 
-		<Space_Retreat_Flight_Increment> 500.0 </Space_Retreat_Flight_Increment>
+		<Space_Retreat_Units_Damaged_Mod_Factor> 1.0 </Space_Retreat_Units_Damaged_Mod_Factor>
 		<Space_Retreat_Unit_Increment_Wait_Frames> 1 </Space_Retreat_Unit_Increment_Wait_Frames>
 		<Space_Retreat_Off_Map_Dest_Pos> 12000.0, 12000.0, 0.0 </Space_Retreat_Off_Map_Dest_Pos>	<!-- WARNING: For some reason, non-0.0 Z crashes the game -->
 		<Space_Retreat_Countdown_Color_RGBA> 255, 255, 255, 255 </Space_Retreat_Countdown_Color_RGBA>

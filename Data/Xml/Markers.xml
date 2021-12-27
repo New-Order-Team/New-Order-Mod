@@ -1206,10 +1206,10 @@
 		<Land_Model_Name>W_FLAG_MARKER_RED.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
-		<Map_Load_Spawn_Table>
+		<!--<Map_Load_Spawn_Table>
 			Credit_Power_Up, 0.25,
 			Rancor, 0.25
-		</Map_Load_Spawn_Table>
+		</Map_Load_Spawn_Table>-->
 	 </Marker>
 
 	 <!--<Marker Name="Random_Secondary_Structure_R">

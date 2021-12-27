@@ -165,7 +165,6 @@
 	<Encyclopedia_Delay>750</Encyclopedia_Delay>
 	<Long_Encyclopedia_Delay>4000</Long_Encyclopedia_Delay>
 	<Text_Reveal_Rate>120</Text_Reveal_Rate>
-	<Japanese_Line_Percent>0.52</Japanese_Line_Percent>
 	<Japanese_ST_Line_Percent>0.9</Japanese_ST_Line_Percent>
 
 	<AIUsesFogOfWarGalactic> False </AIUsesFogOfWarGalactic>
@@ -173,7 +172,6 @@
 	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> True </ShowUnitAIPlanAttachment>
-	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- This is for the late February 2005 consumer test demo  -->
@@ -230,10 +228,6 @@
 	<Camera_Stop_Left>-50.0f</Camera_Stop_Left>
 	<Camera_Stop_Right>50.0f</Camera_Stop_Right>
 	<Camera_Z_Position>-80.0</Camera_Z_Position>
-
-	<!-- Display of game monetary credits balance -->
-	<Credits_Display_Font_Name> Arial </Credits_Display_Font_Name>
-	<Credits_Display_Font_Size> 8 </Credits_Display_Font_Size>
 
    <!-- Random story generation -->
    <Random_Story_Triggers>STORY_ENTER STORY_LAND_ON STORY_CONQUER STORY_CONSTRUCT STORY_CONSTRUCT_LEVEL STORY_DESTROY STORY_DESTROY_BASE STORY_DEPLOY STORY_MOVE STORY_ACCUMULATE STORY_DEFEAT_HERO STORY_WIN_BATTLES</Random_Story_Triggers>
@@ -557,8 +551,6 @@
 	<Evil_Side_Leader_Name>Sate_Pestage</Evil_Side_Leader_Name>
 	<Corrupt_Side_Leader_Name>Tyber_Zann Tyber_Zann_Team The_Peacebringer Tyber_Zann_Team_No_Peacebringer</Corrupt_Side_Leader_Name>
 
-	<Ships_Per_Stack>5</Ships_Per_Stack>
-
 	<Encyclopedia_Population_Offset>11</Encyclopedia_Population_Offset>
 	<Encyclopedia_Name_Offset>68</Encyclopedia_Name_Offset>
 	<Encyclopedia_Cost_Offset>258</Encyclopedia_Cost_Offset>
@@ -699,8 +691,6 @@
 	<InfantryTurnBlendTime> .2 </InfantryTurnBlendTime>
 
 	<Map_Preview_Image_Size> 1024 </Map_Preview_Image_Size>
-	<Countdowns_Font_Name>EmpireAtWar-Medium</Countdowns_Font_Name>
-	<Countdowns_Font_Size>12</Countdowns_Font_Size>
 	<In_Game_Message_Default_Font_Name>EmpireAtWar-Medium</In_Game_Message_Default_Font_Name>
 	<In_Game_Message_Default_Font_Size>8</In_Game_Message_Default_Font_Size>
 	<Event_Message_Default_Font_Name>EmpireAtWar-Medium</Event_Message_Default_Font_Name>
@@ -2497,9 +2487,6 @@
 	
 	<Planet_Reveal_Delay_Time>0.5</Planet_Reveal_Delay_Time>
 	<Base_Shield_Delay_Time>10.0</Base_Shield_Delay_Time>
-	
-	
-	<Star_Wars_Crawl_Start_Fadeout_Frame>800</Star_Wars_Crawl_Start_Fadeout_Frame>
 	
 	<!-- We now have special fleet slots in the GUI that represent special actions for a fleet to take when
 	they arrive at a planet. Most of those special actions are tied to special abilities (Raid is the only
