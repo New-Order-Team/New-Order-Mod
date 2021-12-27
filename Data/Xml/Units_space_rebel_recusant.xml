@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Recusant_Data>
-	<SpaceUnit Name="Recusant_Frigate">
+	<SpaceUnit Name="Recusant_Frigate_Rebel">
 		<Text_ID>TEXT_UNIT_RECUSANT</Text_ID>
-		<Space_Model_Name>cv_recusant.alo</Space_Model_Name>
+		<Space_Model_Name>cv_recusant_rebel.alo</Space_Model_Name>
 		<Icon_Name>I_BUTTON_Recusant.tga</Icon_Name>
-		<Tech_Level>99</Tech_Level> 
+		<Tech_Level>0</Tech_Level> 
 		
 		<Mass>0.999</Mass>
 		<Scale_Factor>1.62</Scale_Factor>
@@ -183,7 +183,7 @@
             </Laser_Defense_Ability>
 		</Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_RECUSANT_CIS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_RECUSANT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIGHT_DESTROYER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 8814</Score_Cost_Credits>
 		<Population_Value>9</Population_Value>
@@ -200,13 +200,5 @@
 		<Tactical_Bribe_Cost>8814</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>8814</Piracy_Value_Credits>
 		
-	</SpaceUnit>
-
-	<SpaceUnit Name="Recusant_Frigate_Rebel">
-		<Variant_Of_Existing_Type>Recusant_Frigate</Variant_Of_Existing_Type>
-		<Tech_Level>0</Tech_Level>
-		<Space_Model_Name>cv_recusant_rebel.alo</Space_Model_Name>
-		<Text_ID>TEXT_UNIT_RECUSANT</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_RECUSANT</Encyclopedia_Text>
 	</SpaceUnit>
 </Recusant_Data>
