@@ -16,8 +16,8 @@
 			TEXT_UNIT_JUGGERNAUT_W_2
 			TEXT_UNIT_JUGGERNAUT_W_3
 		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_juggernaut.tga</Icon_Name>
 	
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -193,8 +193,8 @@
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_JUGGERNAUT</Text_ID>
   		<Encyclopedia_Text>TEXT_TOOLTIP_JUGGERNAUT</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ev_juggernaut.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_juggernaut.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>

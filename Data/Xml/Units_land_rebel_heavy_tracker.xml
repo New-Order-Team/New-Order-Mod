@@ -28,7 +28,6 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>1.5</Max_Speed>
-		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Vehicle </UnitCollisionClass>
@@ -249,7 +248,7 @@
         <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
 	</GroundVehicle>
 	
-	<GroundCompany Name="Heavy_Tracker_Command_Platoon">
+	<GroundCompany Name="Heavy_Tracker_Platoon">
 		<Text_ID>TEXT_UNIT_HEAVY_TRACKER</Text_ID>
 		<Encyclopedia_Text>
 			TEXT_UNIT_HEAVY_TRACKER_DESC
@@ -276,7 +275,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Required_Planets />
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Formation_Priority>3</Formation_Priority>

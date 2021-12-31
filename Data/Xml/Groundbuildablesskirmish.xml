@@ -13,7 +13,11 @@
 		
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 			
 			Pirates,
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
@@ -39,7 +43,11 @@
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 			
 			Pirates,
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
@@ -104,7 +112,11 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Offense">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 			
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
@@ -115,18 +127,12 @@
 				UC_Underworld_Buildable_Torpedo_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
-			<!-- Rebel, UC_Rebel_DF9, -->
-			
-			Empire,
-				UC_Empire_Buildable_Anti_Vehicle_Turret,
-				UC_Empire_Buildable_Anti_Infantry_Turret,
-				UC_Empire_Buildable_Anti_Aircraft_Turret,
-				UC_Empire_Grenade_Mortar,
 			Rebel,
-				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
-				UC_Rebel_Rapid_Fire_Laser_Turret,
-				UC_Rebel_Rocket_Pod,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
+				
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
@@ -142,7 +148,8 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_AITurret">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
@@ -150,7 +157,8 @@
 				UC_Underworld_Buildable_Mass_Driver_Turret
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
@@ -164,7 +172,11 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Defense">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 		
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
@@ -176,7 +188,11 @@
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 		
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
@@ -194,7 +210,11 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Bacta">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 			
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
@@ -203,7 +223,11 @@
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer>
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 			
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
@@ -217,7 +241,11 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Basic">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 		
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
@@ -229,7 +257,11 @@
 				UC_Underworld_Buildable_Repair_Facility
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
-			<!-- Rebel, UC_Rebel_DF9, -->
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Buildable_Artillery_Turret,
 		
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 

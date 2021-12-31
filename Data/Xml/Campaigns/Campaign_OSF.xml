@@ -102,21 +102,21 @@
 		<Starting_Forces> Empire, Lianna_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, E_Ground_Light_Vehicle_Factory </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Desevro_OSF, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, Imperial_Command_Center </Starting_Forces>
-		<Starting_Forces> Empire, Desevro_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Desevro_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Raxus_Prime_OSF, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Raxus_Prime_OSF, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Raxus_Prime_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Omman_OSF, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, Communications_Array_E </Starting_Forces>
-		<Starting_Forces> Empire, Omman_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Omman_OSF, Army_Trooper_Platoon </Starting_Forces>
 				
 		<!-- Rebel Starting Forces -->
 
@@ -219,14 +219,14 @@
 		<Max_Tech_Level> Empire, 1 </Max_Tech_Level>
 		
 		<Starting_Forces> Empire, Lianna_OSF, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Army_Trooper_Platoon </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Desevro_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Desevro_OSF, Army_Trooper_Platoon </Starting_Forces>
 		<Starting_Forces> Empire, Raxus_Prime_OSF, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Raxus_Prime_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Omman_OSF, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Omman_OSF, Line_Infantry_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Omman_OSF, Army_Trooper_Platoon </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, Communications_Array_E </Starting_Forces>
 				

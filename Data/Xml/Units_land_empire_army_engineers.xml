@@ -1,21 +1,68 @@
 <?xml version="1.0"?>
 <Army_Trooper_Data>
 	<GroundInfantry Name="Imperial_Army_Engineer">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_ENGINEER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Variant_Of_Existing_Type>Infantry_Template</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_UNIT_ARMY_ENGINEER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_ENGINEER_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_ENGINEER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_TROOPER_W_1
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_INFANTRY</Encyclopedia_Unit_Class>
 		
-		<Land_Model_Name>EI_ArmyTrooper.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
+		<Land_Model_Name>ei_army_trooper_e11.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>ei_army_trooper_e11.ALO</Land_Model_Anim_Override_Name>
+		<Scale_Factor>0.055</Scale_Factor>
+	    <Movement_Animation_Speed> 9.6 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 9.6 </Rotation_Animation_Speed>
+		<Walk_Animation_Speed> 9.6 </Walk_Animation_Speed>
+		<Crouch_Animation_Speed> 9.6 </Crouch_Animation_Speed>
 		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
 		
-		<!-- TEST! -->
-		<FormationSpacing> 0.5 </FormationSpacing>
+		<Affiliation>Empire</Affiliation>
+		<Armor_Type> Armor_I </Armor_Type>
+		<Max_Speed> 0.45 </Max_Speed>
+		<Tactical_Health>30</Tactical_Health>
+
+		<Hardpoints>
+			HP_Infantry_Trooper_E_11
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire></SFXEvent_Fire>
+		
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+
+		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone>
+		
+        <CategoryMask> Infantry </CategoryMask>
+		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -43,11 +90,22 @@
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Proximity_Mines_Ability>
 		</Abilities>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Imperial_Army_Engineer_CSPL_12">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
-		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_DESC TEXT_UNIT_INFANTRY_CSPL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_ENGINEER_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_ENGINEER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_ENGINEER_W_2
+		</Encyclopedia_Text>
 
 		<Projectile_Types>Proj_Land_CSPL_Plank_Gas</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
@@ -66,23 +124,21 @@
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Sergeant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_SERGEANT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Land_Model_Name>EI_FieldComanderE11.ALO</Land_Model_Name>
+		<Text_ID>TEXT_UNIT_ARMY_SERGEANT</Text_ID>
+		<Land_Model_Name>ei_army_sergeant_e11.ALO</Land_Model_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Lieutenant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer_Sergeant</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_LIEUTENANT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_TROOPER_DESC TEXT_UNIT_INFANTRY_E11 TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Land_Model_Name>EI_ArmyLieutenant.alo</Land_Model_Name>
+		<Text_ID>TEXT_UNIT_ARMY_LIEUTENANT</Text_ID>
+		<Land_Model_Name>ei_army_lieutenant_e11.alo</Land_Model_Name>
 	</GroundInfantry>
 	
-	<GroundInfantry Name="Engineering_Platoon_Spawner">
+	<GroundInfantry Name="Army_Engineers_Platoon_Spawner">
         <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
         <Icon_Name>i_button_army_engineer.tga</Icon_Name>
-        <AI_Combat_Power>164</AI_Combat_Power>
-        <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+        <AI_Combat_Power>78</AI_Combat_Power>
+        <CategoryMask> Infantry </CategoryMask>  <!-- AntiBunker -->
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -111,20 +167,55 @@
 		</Abilities>
     </GroundInfantry>
 	
-	<GroundCompany Name="Engineering_Platoon">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_ENGINEER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<GroundCompany Name="Army_Engineers_Platoon">
+		<LOD_Bias>5</LOD_Bias>
+		<Text_ID>TEXT_UNIT_ARMY_ENGINEER_PLATOON</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_ENGINEER_DESC
+			TEXT_UNIT_ARMY_ENGINEER_PLATOON_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_ENGINEER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_TROOPER_W_1_PLATOON
+			TEXT_UNIT_ARMY_ENGINEER_W_2_PLATOON
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_INFANTRY</Encyclopedia_Unit_Class>
-		<Damage>700</Damage>
-		<Autoresolve_Health>1440</Autoresolve_Health>
-		<Build_Cost_Credits>1640</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Tech_Level>1</Tech_Level>
-		
-		<Company_Units>Engineering_Platoon_Spawner</Company_Units>
-
 		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
+		
+		<GUI_Row>1</GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>780</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>28</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Imperial_Command_Center</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		
+		<Company_Units>Army_Engineers_Platoon_Spawner</Company_Units>
+
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<GUI_Model_Name>ei_army_trooper_e11.ALO</GUI_Model_Name>
+		<Land_Model_Name>ei_army_trooper_e11.ALO</Land_Model_Name>
+		<Scale_Factor>5</Scale_Factor>
+		<GUI_Offset>0 0 5</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -154,8 +245,8 @@
 		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1640</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>780</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -163,8 +254,8 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 	
-	<GroundCompany Name="Engineering_Platoon_Dummy">
-        <Variant_Of_Existing_Type>Engineering_Platoon</Variant_Of_Existing_Type>
+	<GroundCompany Name="Army_Engineers_Platoon_Dummy">
+        <Variant_Of_Existing_Type>Army_Engineers_Platoon</Variant_Of_Existing_Type>
         <Affiliation>Hostile</Affiliation>
 		<Company_Units>
 			Imperial_Army_Engineer,
@@ -208,17 +299,73 @@
 			Imperial_Army_Engineer_Lieutenant,
 		</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Create_Team_Type> Engineering_Platoon_Team </Create_Team_Type>
+		<Create_Team_Type> Army_Engineers_Platoon_Team </Create_Team_Type>
 	</GroundCompany>
 
-	<Container Name="Engineering_Platoon_Team">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_IA_ENGINEER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_IA_ENGINEER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+	<Container Name="Army_Engineers_Platoon_Team">
+		<Select_Box_Scale>65</Select_Box_Scale>
+		<Text_ID>TEXT_UNIT_ARMY_ENGINEER_PLATOON</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_ENGINEER_DESC
+			TEXT_UNIT_ARMY_ENGINEER_PLATOON_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_ENGINEER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_TROOPER_W_1_PLATOON
+			TEXT_UNIT_ARMY_ENGINEER_W_2_PLATOON
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_INFANTRY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
+		<Show_Name>No</Show_Name>
+		<Behavior>
+			SELECTABLE,
+			TEAM,
+			UNIT_AI,
+		</Behavior>
+		<LandBehavior>
+			GARRISON_UNIT,
+			LAND_TEAM_CONTAINER_LOCOMOTOR,
+			REVEAL,
+			TEAM_TARGETING,
+		</LandBehavior>
+		<SpaceBehavior>
+			REVEAL,
+		</SpaceBehavior>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>300.0</Space_FOW_Reveal_Range>
+		<MovementClass>Infantry</MovementClass>
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Garrison_Value>1</Garrison_Value>
+		<CategoryMask>Infantry</CategoryMask>
+
+		<Max_Speed> 0.45 </Max_Speed>
+		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> 1 </FormationSpacing> 
+		<MovementClass> Infantry </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Is_Squashable> true </Is_Squashable>
+		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
+		<ContainerArrangement> Dartboard </ContainerArrangement>
+		<FormationOrder> 2 </FormationOrder>
+		<Override_Acceleration> .1 </Override_Acceleration>
+		<Override_Deceleration> .1 </Override_Deceleration>
 		
-		<!-- Non-Hero unit abilities description -->
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+		<Icon_Name>i_button_army_engineer.tga</Icon_Name>
+
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Idle_Chase_Range>50.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+		
 		<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>

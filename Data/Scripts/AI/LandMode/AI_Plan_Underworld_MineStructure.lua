@@ -53,7 +53,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"
-		,"Engineering_Platoon_Dummy = 1,2"
+		,"Army_Engineers_Platoon_Dummy = 1,2"
 	}
 	}
 end

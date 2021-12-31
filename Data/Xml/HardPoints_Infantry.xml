@@ -23,12 +23,12 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R10_300</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_E_11_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
@@ -52,7 +52,7 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R10_300</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.6</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -139,12 +139,12 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.1</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>4.1</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>10</Fire_Pulse_Count>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R7_5_300</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_RT_97C_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
@@ -152,6 +152,40 @@
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
+	</HardPoint>
+	<HardPoint Name="HP_Infantry_RT_97C_Suppress">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_BLASTER</Tooltip_Text>
+		<Health>150.0</Health>
+
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B></Fire_Bone_B>
+		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+
+		<Fire_Projectile_Type>Proj_Land_Infantry_R7_5_300_Suppress</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>5</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>250.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_RT_97C_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> LandHero, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
+
+		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
+		<Fire_When_In_Normal_Attack_Mode>No</Fire_When_In_Normal_Attack_Mode>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Infantry_TL_50">

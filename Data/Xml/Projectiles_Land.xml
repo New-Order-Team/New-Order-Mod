@@ -805,7 +805,7 @@
         <Land_Model_Name>proj_land_laser_g.alo</Land_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
         <Damage_Type> Damage_B5 </Damage_Type> 
-        <Max_Speed>40.0</Max_Speed>
+        <Max_Speed>20.0</Max_Speed>
         <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
         <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
         <Projectile_Category>Laser</Projectile_Category>
@@ -893,15 +893,15 @@
 	<Projectile Name="Proj_Land_Freerunner_Laser">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
-		<Scale_Factor>0.3</Scale_Factor>
-		<Damage_Type> Damage_L7 </Damage_Type>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Damage_Type> Damage_L6 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
 
-		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Damage>120.0</Projectile_Damage>
 
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -919,9 +919,9 @@
 	
 	<Projectile Name="Proj_Land_Freerunner_Blaster">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
-		<Scale_Factor>0.15</Scale_Factor>
-		<Damage_Type> Damage_B3 </Damage_Type>
+        <Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
+        <Scale_Factor>0.625</Scale_Factor>
+        <Damage_Type> Damage_W3 </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1343,5 +1343,158 @@
         <Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
         <Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
     </Projectile>
+	
+	<Projectile Name="Proj_Land_Blaster_DF9"> 
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
+        <Scale_Factor>0.625</Scale_Factor>
+        <Damage_Type> Damage_B4 </Damage_Type> 
+        <Max_Speed>40.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+        <Projectile_Max_Flight_Distance>500</Projectile_Max_Flight_Distance> 
+ 
+        <Projectile_Damage>40</Projectile_Damage> 
+ 
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle> 
+        <Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+        <Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle> 
+        <Projectile_Lifetime_Detonation_Particle />
+        <Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+        <Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+        <AI_Combat_Power>40</AI_Combat_Power>
+        <Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+        <Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+    </Projectile>
+	
+	<Projectile Name="Proj_Land_Laser_DF11">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<Damage_Type> Damage_L5 </Damage_Type>
+		<Max_Speed>40.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+
+		<Projectile_Damage>100.0</Projectile_Damage>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Land_Blaster_DF12"> 
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Land_Model_Name>proj_land_laser_r.alo</Land_Model_Name>
+        <Scale_Factor>0.4</Scale_Factor>
+        <Damage_Type> Damage_AA </Damage_Type> 
+        <Max_Speed>40.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+        <Projectile_Max_Flight_Distance>500</Projectile_Max_Flight_Distance>
+		
+		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
+ 
+        <Projectile_Damage>0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>0</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>15</Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+ 
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle> 
+        <Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+        <Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle> 
+        <Projectile_Lifetime_Detonation_Particle />
+        <Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+        <Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+        <AI_Combat_Power>40</AI_Combat_Power>
+        <Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+        <Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+    </Projectile>
+	
+	<Projectile Name="Proj_Land_Missile_DF10">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>proj_land_missile_flak.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_E6 </Damage_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MPTL_ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>7</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		
+		<Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
+		<Projectile_Target_Point_On_Terrain> True </Projectile_Target_Point_On_Terrain>
+		
+		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>700.0</Projectile_Max_Scan_Range>
+		
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage>7.5</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range>25</Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Projectile_Object_Detonation_Particle>Explosion_Land_Missile_Flak</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Explosion_Land_Missile_Flak</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Explosion_Land_Missile_Flak</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Explosion_Land_Missile_Flak</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Explosion_Land_Missile_Flak</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	<!-- <Projectile Name="Proj_Land_Missile_DF10_Expl">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>p_explosion_small01.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> Damage_E7 </Damage_Type>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		
+		<Projectile_Blast_Area_Range>60.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>120.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Death_Explosions> Thermal_Detonator_Explosion </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Unit_Katarn_Building_Bomb_SFX </Death_SFXEvent_Start_Die>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</Projectile> -->
 	
 </Projectiles_SM>

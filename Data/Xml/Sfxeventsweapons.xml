@@ -215,6 +215,11 @@
 		<Use_Preset>Preset_EGB_Land</Use_Preset>
 		<Samples>Data\Audio\EGL_LAAT_By_Long_1.wav</Samples>
 	</SFXEvent>
+	
+	<SFXEvent Name="Unit_DF9_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_DF9.wav</Samples>
+	</SFXEvent>
 <!-- ######################## -->
 <!-- # New Order events END # -->
 <!-- ######################## -->

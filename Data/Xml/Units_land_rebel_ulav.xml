@@ -87,6 +87,8 @@
 
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
 
+		<Target_Bones> Hull </Target_Bones>
+		
 		<Hardpoints>
 			HP_ULAV_Main, HP_ULAV_Missile, HP_ULAV_Turret
 		</Hardpoints>
@@ -100,7 +102,7 @@
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
 		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
 		
-		<Projectile_Types>Proj_Proj_Blank</Projectile_Types>
+		<Projectile_Types>Proj_Blank</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>

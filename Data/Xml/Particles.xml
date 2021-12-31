@@ -30,34 +30,59 @@
 		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
 		<Explosion_Scorch_Mark />
         <SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
+		<Lua_Script>ObjectScript_Plank_Gas</Lua_Script>
+    </Particle>
+    <Particle Name="CSPL_12_Plank_Gas_Infantry">
+        <Land_Model_Name>w_laser_invisible.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Behavior>PARTICLE, ABILITY_COUNTDOWN</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Scorch_Mark />
 		
         <Abilities SubObjectList="Yes">
             <Force_Healing_Ability Name="Plank_Gas_Infantry">
                 <Activation_Style>Ground_Automatic</Activation_Style>
                 <Heal_Range>100.0</Heal_Range>
-				<Heal_Amount>-1.0</Heal_Amount>
+				<Heal_Amount>-1.5</Heal_Amount>
                 <Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
                 <Applicable_Unit_Categories> Infantry | LandHero </Applicable_Unit_Categories>
             </Force_Healing_Ability>
 		</Abilities>
-		<Lua_Script>ObjectScript_Plank_Gas</Lua_Script>
     </Particle>
     <Particle Name="CSPL_12_Plank_Gas_Vehicle">
         <Land_Model_Name>w_laser_invisible.ALO</Land_Model_Name>
-		<Scale_Factor>0.05</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>No</Is_Decoration>
 		<Behavior>PARTICLE, ABILITY_COUNTDOWN</Behavior>
 		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
 		<Explosion_Scorch_Mark />
-        <SFXEvent_Engine_Idle_Loop> Unit_Riot_Infantry_Loop_Low </SFXEvent_Engine_Idle_Loop>
 		
         <Abilities SubObjectList="Yes">
             <Force_Healing_Ability Name="Plank_Gas_Vehicles">
                 <Activation_Style>Ground_Automatic</Activation_Style>
                 <Heal_Range>100.0</Heal_Range>
-                <Heal_Amount>-10.0</Heal_Amount>
+                <Heal_Amount>-7.5</Heal_Amount>
                 <Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-                <Applicable_Unit_Categories> Vehicle | Structure </Applicable_Unit_Categories>
+                <Applicable_Unit_Categories> Vehicle </Applicable_Unit_Categories>
+            </Force_Healing_Ability>
+		</Abilities>
+    </Particle>
+    <Particle Name="CSPL_12_Plank_Gas_Structure">
+        <Land_Model_Name>w_laser_invisible.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Behavior>PARTICLE, ABILITY_COUNTDOWN</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Scorch_Mark />
+		
+        <Abilities SubObjectList="Yes">
+            <Force_Healing_Ability Name="Plank_Gas_Vehicles">
+                <Activation_Style>Ground_Automatic</Activation_Style>
+                <Heal_Range>100.0</Heal_Range>
+                <Heal_Amount>-15.0</Heal_Amount>
+                <Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+                <Applicable_Unit_Categories> Structure </Applicable_Unit_Categories>
             </Force_Healing_Ability>
 		</Abilities>
     </Particle>

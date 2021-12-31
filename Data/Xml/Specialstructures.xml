@@ -103,17 +103,17 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Line_Infantry_Platoon,
-				Line_Infantry_Platoon_Remnant,
+				Army_Trooper_Platoon,
+				<!-- Line_Infantry_Platoon_Remnant, -->
 				E_Web_Platoon,
-				E_Web_15_Platoon,
+				<!-- E_Web_15_Platoon, -->
 				PX_10_Platoon,
 				AT_AR_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Line_Infantry_Platoon, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Line_Infantry_Platoon, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Army_Trooper_Platoon, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Trooper_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		
@@ -250,18 +250,18 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Engineering_Platoon,
-				Engineering_Platoon_Remnant,
+				Army_Engineers_Platoon,
+				<!-- Engineering_Platoon_Remnant, -->
 				<!--Imperial_General_Squad,-->
-				Imperial_Heavy_Scout_Squad <!-- AT-ST -->
+				Imperial_Heavy_Scout_Squad, <!-- AT-ST -->
 				Chariot_Command_Platoon,
-				Floating_Fortress_Platoon
+				Floating_Fortress_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		
-		<Starting_Spawned_Units_Tech_0>Engineering_Platoon, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Engineering_Platoon, 0</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Army_Engineers_Platoon, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Army_Engineers_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		
 		<Starting_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_5>
 		<Reserve_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_5>
@@ -1399,6 +1399,7 @@
 				Rebel_Infantry_Squad,
 				Rebel_Tank_Buster_Squad,
 				Rebel_Arrow_23_Platoon,
+				A_A5_Speeder_Truck_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
@@ -1553,7 +1554,7 @@
 			Rebel,
 				ULAV_Platoon,
 				Freerunner_Platoon,
-				A_A5_Speeder_Truck_Platoon,
+				Heavy_Tracker_Platoon,
 				<!-- LAAT_Rebel_Platoon, -->
 				<!-- Rebel_Speeder_Wing, -->
 				<!-- V_Wing_Airspeeder_Wing -->
@@ -1681,6 +1682,7 @@
 			Rebel,
 				SpecForce_Pathfinder_Squad,
 				SpecForce_Guerrilla_Squad,
+				Freerunner_APC_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
@@ -1826,8 +1828,7 @@
 				Rebel_AAT_Team,
 				Rebel_T3b_Platoon,
 				Rebel_Heavy_Tank_Brigade, <!-- T4-B -->
-				Heavy_Tracker_Command_Platoon,
-				Rebel_Artillery_Brigade <!-- MPTL -->
+				Rebel_Artillery_Brigade, <!-- MPTL -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
@@ -1932,7 +1933,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_Infiltrator_Team,
-				Alliance_General_Squad,
+				Freerunner_Command_Platoon,
 				NR_Technician_Platoon,
 				RL_Bombing_Run_Use_Upgrade, 
 				RL_Planetary_Bombard_Use_Upgrade

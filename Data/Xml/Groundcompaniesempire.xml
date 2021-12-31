@@ -258,7 +258,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		
-		<Create_Team_Type> Line_Infantry_Platoon_Team </Create_Team_Type>
+		<Create_Team_Type> Army_Trooper_Platoon_Team </Create_Team_Type>
 	</GroundCompany>	
 
 
@@ -281,7 +281,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		
-		<Create_Team_Type> Line_Infantry_Platoon_Team </Create_Team_Type>
+		<Create_Team_Type> Army_Trooper_Platoon_Team </Create_Team_Type>
 	</GroundCompany>
 
 
@@ -305,7 +305,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
 		
-		<Create_Team_Type> Line_Infantry_Platoon_Team </Create_Team_Type>
+		<Create_Team_Type> Army_Trooper_Platoon_Team </Create_Team_Type>
 	</GroundCompany>	
 
 	<!--multiplayer cantina-->

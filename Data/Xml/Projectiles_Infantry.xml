@@ -44,10 +44,63 @@
 		<Projectile_Damage>6</Projectile_Damage>
 		<AI_Combat_Power>6</AI_Combat_Power>
 	</Projectile>
-	<Projectile Name="Proj_Land_Infantry_R10">
+	
+	<Projectile Name="Proj_Land_Infantry_R7_5_300">
+		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
+		<Projectile_Damage>7.5</Projectile_Damage>
+		<AI_Combat_Power>7.5</AI_Combat_Power>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
+	</Projectile>
+	<Projectile Name="Proj_Land_Infantry_R7_5_300_Suppress">
+		<Variant_Of_Existing_Type>Proj_Land_Infantry_R7_5_300</Variant_Of_Existing_Type>
+		<Projectile_Damage>3.75</Projectile_Damage>
+		<AI_Combat_Power>7.5</AI_Combat_Power>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
+		
+		<Projectile_Object_Detonation_Particle>Proj_Infantry_Suppress</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Proj_Infantry_Suppress</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Proj_Infantry_Suppress</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Proj_Infantry_Suppress</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Proj_Infantry_Suppress</Projectile_Absorbed_By_Shields_Particle>
+	</Projectile>
+	<Projectile Name="Proj_Infantry_Suppress">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_invisible.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>0.0</Max_Speed>
+		<Damage_Type> Damage_I </Damage_Type>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		
+		<Projectile_Blast_Area_Range>20</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Death_Explosions>  </Death_Explosions>
+		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
+		<AI_Combat_Power>0</AI_Combat_Power>
+
+        <Projectile_Combat_Mod>COMBAT_MOD_SPEED</Projectile_Combat_Mod>
+        <Projectile_Combat_Mod_Duration>5</Projectile_Combat_Mod_Duration>
+		<Projectile_Combat_Mod_Value>-0.8</Projectile_Combat_Mod_Value>
+        <Projectile_Combat_Mod_Effect>Suppress_Effect</Projectile_Combat_Mod_Effect>
+        <Projectile_Combat_Mod_Category_Mask> Infantry | LandHero </Projectile_Combat_Mod_Category_Mask>
+	</Projectile>
+	
+	<Projectile Name="Proj_Land_Infantry_R10_300">
 		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
 		<Projectile_Damage>10</Projectile_Damage>
 		<AI_Combat_Power>10</AI_Combat_Power>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
 	</Projectile>
 	<Projectile Name="Proj_Land_Infantry_R12">
 		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
@@ -78,14 +131,6 @@
 		<Land_Model_Name>proj_inf_blaster_p.ALO</Land_Model_Name>
 		<Projectile_Damage>12</Projectile_Damage>
 		<AI_Combat_Power>12</AI_Combat_Power>
-	</Projectile>
-	
-	<!-- Slugthrowers -->
-	<Projectile Name="Proj_Land_Infantry_S5">
-		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
-		<Land_Model_Name>p_infantry_blaster_short_y.ALO</Land_Model_Name>
-		<Projectile_Damage>5</Projectile_Damage>
-		<AI_Combat_Power>5</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Land_Infantry_9118_Carbine">

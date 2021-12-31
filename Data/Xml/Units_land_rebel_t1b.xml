@@ -7,10 +7,12 @@
 		<Text_ID>TEXT_UNIT_T1B</Text_ID>
   		<Encyclopedia_Text>
 			TEXT_UNIT_T1B_DESC
+			TEXT_EMPTY
 			TEXT_UNIT_T1B_INFO_1
 			TEXT_UNIT_T1B_INFO_2
 			TEXT_UNIT_T1B_INFO_3
 			TEXT_UNIT_T1B_INFO_4
+			TEXT_WEAPONS
 			TEXT_UNIT_T1B_W_1
 			TEXT_UNIT_T1B_W_2
 		</Encyclopedia_Text>
@@ -187,18 +189,18 @@
   		<Encyclopedia_Text>
 			TEXT_UNIT_T1B_DESC
 			TEXT_UNIT_T1B_PLATOON_DESC
+			TEXT_EMPTY
 			TEXT_UNIT_T1B_INFO_1
 			TEXT_UNIT_T1B_INFO_2
 			TEXT_UNIT_T1B_INFO_3
 			TEXT_UNIT_T1B_INFO_4
+			TEXT_WEAPONS
 			TEXT_UNIT_T1B_W_1
 			TEXT_UNIT_T1B_W_2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TANK</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>18.5</Damage>
-		<Autoresolve_Health>1020</Autoresolve_Health>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>930</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>

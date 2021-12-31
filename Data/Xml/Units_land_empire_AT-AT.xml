@@ -8,7 +8,16 @@
 		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_AT_AT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>
+			TEXT_UNIT_AT_AT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_AT_AT_INFO_1
+			TEXT_UNIT_AT_AT_INFO_2
+			TEXT_UNIT_AT_AT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_AT_AT_W_1
+			TEXT_UNIT_AT_AT_W_2
+		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
@@ -155,7 +164,7 @@
 		<Overall_Length>60.0</Overall_Length> <!-- Hand tweaked for vehicle pitching up and down on terrain -->
 		<Overall_Width>0.0</Overall_Width> <!-- 0.0 means don't roll left and right on terrain -->
 		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
-		<AI_Combat_Power>2980</AI_Combat_Power>
+		<AI_Combat_Power>200</AI_Combat_Power>
 
 		<Select_Box_Scale>75</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -175,7 +184,7 @@
 		<Death_Clone>Damage_Normal, AT_AT_Walker_Death_Clone_01</Death_Clone>
 		<Death_Clone>Damage_Normal, AT_AT_Walker_Death_Clone_02</Death_Clone>
 
-		<Score_Cost_Credits>2980</Score_Cost_Credits>
+		<Score_Cost_Credits>200</Score_Cost_Credits>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Vehicle_Thief_Inside_Clone>AT_AT_Walker_Captured</Vehicle_Thief_Inside_Clone>
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
@@ -292,14 +301,24 @@
 	<GroundCompany Name="Imperial_Heavy_Assault_Company">
 		<LOD_Bias>0.5</LOD_Bias>
 		<Text_ID>TEXT_UNIT_AT_AT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_AT_AT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_AT_AT_INFO_1
+			TEXT_UNIT_AT_AT_INFO_2
+			TEXT_UNIT_AT_AT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_AT_AT_W_1
+			TEXT_UNIT_AT_AT_W_2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
+		
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>78.4</Damage>
-		<Autoresolve_Health>2200</Autoresolve_Health>
 		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>2980</Build_Cost_Credits>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>89</Build_Time_Seconds>
+		<Build_Time_Seconds>76</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Tech_Level>3</Tech_Level>
@@ -324,12 +343,11 @@
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_AT_AT</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AT</SFXEvent_Fleet_Move>
-		<Score_Cost_Credits>2980</Score_Cost_Credits>
-
+		<Score_Cost_Credits>200</Score_Cost_Credits>
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2980</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<!--<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>-->
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -337,8 +355,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		<Encyclopedia_Text>TEXT_UNIT_AT_AT_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
 		<Population_Value>1</Population_Value>
