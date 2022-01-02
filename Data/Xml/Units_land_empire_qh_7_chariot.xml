@@ -20,7 +20,7 @@
 		<Show_Hero_Head>Yes</Show_Hero_Head>
 		<Is_Generic_Hero>Yes</Is_Generic_Hero>
 
-		<Land_Model_Name>qh-7_chariot_light_assault_vehicle.alo</Land_Model_Name>
+		<Land_Model_Name>imp_qh_7_chariot.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.13</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -93,10 +93,31 @@
 		
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		
+		<Projectile_Types>Proj_Land_Laser_QH_7</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Tie_Crawler_Fire</SFXEvent_Fire>
 
-		<Hardpoints>
-		     HP_QH_7_Chariot
-		</Hardpoints>
+		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Turret_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
