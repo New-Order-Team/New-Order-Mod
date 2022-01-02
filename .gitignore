@@ -2,3 +2,4 @@ Data/Unused
 *.bak
 *.xlsx
 Data/*.txt
+Data/*.tsv
