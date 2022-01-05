@@ -159,32 +159,7 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>10.0</Fire_Cone_Width>
-		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Land_Blaster_TIE</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>3.06</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.74</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>300.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-			
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-    </HardPoint>
-	
-	<HardPoint Name="HP_Century_01">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-
-		<Model_To_Attach>century_tank_ltl.alo</Model_To_Attach>
+		<Model_To_Attach>imp_century_tank_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
 
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
@@ -200,9 +175,9 @@
 		<Turret_Elevate_Extent_Degrees>10.0</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
-		<Fire_Projectile_Type>Proj_Land_Light_Turbolaser_Green</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.5</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.5</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Land_Light_Turbolaser_Century</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>500.0</Fire_Range_Distance>
