@@ -112,11 +112,11 @@
 		<Projectile_Damage>0.0</Projectile_Damage>
 		
 		<!-- Ask artists to adjust detonation particle to be the same size as area blast range for correct visual effect -->
-		<Projectile_Blast_Area_Range>125.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Range>120.0</Projectile_Blast_Area_Range>
 		<Projectile_Blast_Area_Damage>500.0</Projectile_Blast_Area_Damage>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
         <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
-        <Projectile_Blast_Area_Dropoff_Tiers>15</Projectile_Blast_Area_Dropoff_Tiers>
+        <Projectile_Blast_Area_Dropoff_Tiers>12</Projectile_Blast_Area_Dropoff_Tiers>
 		<Damage_Type>Damage_E7</Damage_Type>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Plex_Missile_Detonation</Projectile_SFXEvent_Detonate>

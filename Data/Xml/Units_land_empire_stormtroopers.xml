@@ -358,7 +358,7 @@
 		<Size_Value>10</Size_Value>
 
 		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Max_Speed>1.0</Max_Speed>
+		<Max_Speed>0.6</Max_Speed>
 		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
 		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
 		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
@@ -390,7 +390,6 @@
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Damage>4</Damage>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		
 		<Hardpoints>
@@ -469,12 +468,14 @@
 		<!-- Non-Hero unit abilities description -->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>STEALTH</Type>
-                <GUI_Activated_Ability_Name>Stealth_Infiltrator</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>30.0</Recharge_Seconds>
-				<Expiration_Seconds>300.0</Expiration_Seconds>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 60.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 1.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Dark_Trooper_1</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 			
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
@@ -483,12 +484,20 @@
 				<Bomb_Countdown_Seconds>15</Bomb_Countdown_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+			
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <GUI_Activated_Ability_Name>Stealth_StormCommando</GUI_Activated_Ability_Name> 
+                <Recharge_Seconds>-1.0</Recharge_Seconds>
+				<Expiration_Seconds>100000.0</Expiration_Seconds>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Stealth_Infiltrator">
-				<Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 192</Stealth_Color>
+			<Stealth_Ability Name="Stealth_StormCommando">
+				<Activation_Style> Ground_Automatic </Activation_Style> <!-- User_Input | Ground_Automatic -->
+				<Initially_Enabled>Yes</Initially_Enabled>
+                <Stealth_Color>255, 255, 255, 127</Stealth_Color>
                 <Stealth_Transition_Time>.5</Stealth_Transition_Time>
 			</Stealth_Ability>
 			
@@ -557,12 +566,14 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>STEALTH</Type>
-                <GUI_Activated_Ability_Name>Stealth_Infiltrator</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>30.0</Recharge_Seconds>
-				<Expiration_Seconds>300.0</Expiration_Seconds>
-            </Unit_Ability>
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds> 60.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 1.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Dark_Trooper_1</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
 			
 			<Unit_Ability>
 				<Type>UNTARGETED_STICKY_BOMB</Type>
@@ -571,12 +582,20 @@
 				<Bomb_Countdown_Seconds>15</Bomb_Countdown_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Scout_Trooper_Bomb</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
+			
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <GUI_Activated_Ability_Name>Stealth_StormCommando</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>-1.0</Recharge_Seconds>
+				<Expiration_Seconds>100000.0</Expiration_Seconds>
+            </Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Stealth_Infiltrator">
-				<Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 192</Stealth_Color>
+			<Stealth_Ability Name="Stealth_StormCommando">
+				<Activation_Style> Ground_Automatic </Activation_Style> <!-- User_Input | Ground_Automatic -->
+				<Initially_Enabled>Yes</Initially_Enabled>
+                <Stealth_Color>255, 255, 255, 127</Stealth_Color>
                 <Stealth_Transition_Time>.5</Stealth_Transition_Time>
 			</Stealth_Ability>
 		</Abilities>

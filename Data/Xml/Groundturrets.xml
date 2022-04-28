@@ -98,7 +98,7 @@
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Base_Level_Available>1</Base_Level_Available>
-		<Armor_Type> Armor_S6 </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
@@ -188,8 +188,8 @@
 
 	<GroundStructure Name="Rebel_Anti_Aircraft_Turret">
 		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_STRUCTURE_DF12</Text_ID>
-		<Encyclopedia_Text>TEXT_STRUCTURE_DF12_DESC</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_DF12</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_DF12_DESC</Encyclopedia_Text>
 		<Icon_Name>i_button_r_anti_aircraft.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>
@@ -313,8 +313,8 @@
 
 	<GroundStructure Name="Rebel_Anti_Infantry_Turret">
 		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_STRUCTURE_DF9</Text_ID>
-		<Encyclopedia_Text>TEXT_STRUCTURE_DF9_DESC</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_DF9</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_DF9_DESC</Encyclopedia_Text>
 		<Icon_Name>i_button_r_anti_infantry.tga</Icon_Name>
 		
 		<Scale_Factor>1.0</Scale_Factor>
@@ -430,8 +430,8 @@
 
    <GroundStructure Name="Rebel_Anti_Vehicle_Turret">
 		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_STRUCTURE_DF11</Text_ID>
-		<Encyclopedia_Text>TEXT_STRUCTURE_DF11_DESC</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_DF11</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_DF11_DESC</Encyclopedia_Text>
 		<Icon_Name>i_button_r_anti_vehicle.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>
@@ -499,8 +499,8 @@
    
 	<GroundStructure Name="Rebel_Artillery_Turret">
 		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
-		<Text_ID>TEXT_STRUCTURE_DF10</Text_ID>
-		<Encyclopedia_Text>TEXT_STRUCTURE_DF10_DESC</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_DF10</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_DF10_DESC</Encyclopedia_Text>
 		<Icon_Name>UB_Turretptl05.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>

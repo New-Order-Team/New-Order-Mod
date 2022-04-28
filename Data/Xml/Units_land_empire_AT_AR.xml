@@ -88,11 +88,11 @@
 		<Projectile_Types>Proj_Land_Laser_AT_AR</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
 		<SFXEvent_Fire>Unit_AT_ST_Fire</SFXEvent_Fire>
 
-        <Land_FOW_Reveal_Range>420.0</Land_FOW_Reveal_Range>
-        <Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+        <Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
         <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 		<Target_Bones> B_Head </Target_Bones>
 		
