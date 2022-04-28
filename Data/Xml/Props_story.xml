@@ -2693,21 +2693,9 @@
 		<Galactic_Model_Name>I_EB_STATION_LEVEL5.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
-		<AI_Combat_Power>35000</AI_Combat_Power>
-		<Build_Time_Seconds>150</Build_Time_Seconds>
-		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
-		<Tech_Level>9</Tech_Level>
-		<Base_Level>5</Base_Level>
-		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
-		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Behavior> IDLE </Behavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Prev_Level_Base>Empire_Star_Base_4</Prev_Level_Base>
-		<Next_Level_Base />
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<CategoryMask> Capital </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>2750</Autoresolve_Health>
@@ -2723,30 +2711,6 @@
 
 		<Armor_Type> Armor_Space </Armor_Type>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 5</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
-
-
-		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
-		
-		<Tactical_Buildable_Objects_Campaign>
-			Empire,
-				ES_Enhanced_Reactors_L1_Upgrade,
-				ES_Enhanced_Reactors_L2_Upgrade,
-				ES_Enhanced_Reactors_L3_Upgrade,
-				ES_Reinforced_Armor_L1_Upgrade,
-				ES_Reinforced_Armor_L2_Upgrade,
-				ES_Reinforced_Armor_L3_Upgrade,
-				ES_Improved_Weapons_L1_Upgrade,
-				ES_Improved_Weapons_L2_Upgrade,
-				ES_Improved_Weapons_L3_Upgrade,
-				ES_Improved_Defenses_L1_Upgrade,
-				ES_Improved_Defenses_L2_Upgrade,
-				ES_Improved_Defenses_L3_Upgrade,
-		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
