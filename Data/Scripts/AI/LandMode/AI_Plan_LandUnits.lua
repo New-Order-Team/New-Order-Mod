@@ -7,7 +7,9 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"	
-		,"Infantry | Vehicle | Air = 2, 20"
+		,"Infantry = 0,5"
+		,"Vehicle = 0,5"
+		,"Air = 0,2"
 	}
 	}
 	

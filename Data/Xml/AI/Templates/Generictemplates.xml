@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <AITemplates>
-	<!-- Generic New Order AI Templates -->
 	<Generic_Galactic_Default>
 
 		<Priority>1</Priority>
@@ -13,6 +12,12 @@
 			<Infrastructure>GenericInfrastructureBudgetAllocation</Infrastructure>
 			<MajorItem>GenericMajorItemBudgetAllocation</MajorItem>
 		</Budget>
+	
+		<Turn_Off>
+			<Goals>
+				<Goal_Type>Death_Star_Use</Goal_Type>
+			</Goals>
+		</Turn_Off>
 
 		<Turn_On>
 			<Goals>
