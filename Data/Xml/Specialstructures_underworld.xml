@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <SpecialStructures>
-
-
-
 	<SpecialStructure Name="U_Ground_Palace">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_PALACE_UNDERWORLD</Text_ID>
@@ -45,7 +42,7 @@
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<HardPoints>
@@ -207,8 +204,6 @@
 	
 	</SpecialStructure>
 
-
-
 	<SpecialStructure Name="U_Ground_Barracks">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BARRACKS_UNDERWORLD</Text_ID>
@@ -249,7 +244,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -376,9 +371,6 @@
 
 	</SpecialStructure>
 
-
-
-
 	<SpecialStructure Name="U_Ground_Droid_Works">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_DROID_WORKS</Text_ID>
@@ -418,7 +410,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -580,7 +572,7 @@
 		
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 
 		<Destruction_Survivors> 
@@ -654,9 +646,6 @@
 				UL_Weapon_Boost_L2_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
-
-<!-- put this back once canderous is approved Canderous_Assault_Tank_Company, -->
-
 		<AI_Combat_Power>300</AI_Combat_Power>
 
 		<Starting_Spawned_Units_Tech_0>MZ8_Pulse_Cannon_Tank, 2</Starting_Spawned_Units_Tech_0>
@@ -702,314 +691,6 @@
 			
 		</Abilities>
 	</SpecialStructure>
-
-
-
-
-	<SpecialStructure Name="Garrison_Bunker_Template">
-		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </Encyclopedia_Text>
-		<MP_Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BUNKER </MP_Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
-		<Icon_Name>i_button_nb_bunker.tga</Icon_Name>
-
-        <Space_Layer> Land </Space_Layer>	
-        <UnitCollisionClass> Vehicle </UnitCollisionClass>	
-        <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
-        <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
-
-
-		<Select_Box_Scale>110</Select_Box_Scale>
-		<GUI_Row> 0 </GUI_Row>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
-
-		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior> TACTICAL_SELL, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET</LandBehavior>
-		<Tactical_Sell_Credits> 250 </Tactical_Sell_Credits>
-
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Is_Community_Property>Yes</Is_Community_Property>
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
-		<Is_Dummy>No</Is_Dummy>
-		<Influences_Capture_Point>False</Influences_Capture_Point>
-		
-		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
-
-		<Armor_Type> Armor_Bunker </Armor_Type>
-		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
-
-		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
-		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
-
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
-
-		<Affiliation>Neutral</Affiliation>
-		<Size_Value>50</Size_Value>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-
-		<Tactical_Health>1000</Tactical_Health>
-		<Victory_Relevant>No</Victory_Relevant>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
-		<CategoryMask> Structure </CategoryMask>
-
-
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
-
-		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-        <AI_Combat_Power>100</AI_Combat_Power>
-		<Property_Flags>TacticalStructure</Property_Flags>
-
-	</SpecialStructure>
-
-	<SpecialStructure Name="Garrison_Bunker_Empire">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Empire</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<LandBehavior> TACTICAL_SELL, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
-        <Garrison_Radius>10</Garrison_Radius>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
-        <Num_Garrison_Slots>2</Num_Garrison_Slots>
-        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
-        <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-        <Garrison_Radius>5</Garrison_Radius>
-        <Num_Garrison_Guns>8</Num_Garrison_Guns>
-		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Med_Bunker_Empire">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Empire</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Bacta_Tank_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount> 20.0 </Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Excluded_Unit_Types>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				
-			</Force_Healing_Ability>
-		</Abilities>
-		<Property_Flags> TacticalStructure | HealsInfantry </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Repair_Bunker_Empire">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
-		<Affiliation>Empire</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount>60.0</Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
-		</Abilities>
-		<Property_Flags> TacticalStructure | HealsVehicles </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Garrison_Bunker_Rebel">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Affiliation>Rebel</Affiliation>
-		
-		<LandBehavior> TACTICAL_SELL, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
-        <Garrison_Radius>10</Garrison_Radius>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
-        <Num_Garrison_Slots>2</Num_Garrison_Slots>
-        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
-        <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-        <Garrison_Radius>5</Garrison_Radius>
-        <Num_Garrison_Guns>8</Num_Garrison_Guns>
-		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Med_Bunker_Rebel">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
-		<Affiliation>Rebel</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Bacta_Tank_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount> 20.0 </Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Excluded_Unit_Types>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				
-			</Force_Healing_Ability>
-		</Abilities>
-		<Property_Flags> TacticalStructure | HealsInfantry </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Repair_Bunker_Rebel">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
-		<Affiliation>Rebel</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<Abilities SubObjectList="Yes">
-			<Force_Healing_Ability Name="Repair_Facility_Healing">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Heal_Range>150.0</Heal_Range>
-				<Heal_Amount>60.0</Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
-				<Single_Target_Heal>Yes</Single_Target_Heal>
-				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-				<!-- We can heal the following unit types: -->
-				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
-				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
-				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-				<Target_Light_Effect_Color2 />
-				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
-				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-			</Force_Healing_Ability>
-		</Abilities>
-		<Property_Flags> TacticalStructure | HealsVehicles </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Garrison_Bunker_Underworld">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
-		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
-		<Affiliation>Underworld</Affiliation>
-		<Scale_Factor>1.0</Scale_Factor>
-		
-		<LandBehavior> REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE</LandBehavior>
-        <Garrison_Radius>10</Garrison_Radius>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
-        <Num_Garrison_Slots>2</Num_Garrison_Slots>
-        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
-        <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
-        <Garrison_Radius>5</Garrison_Radius>
-        <Num_Garrison_Guns>8</Num_Garrison_Guns>
-		<Property_Flags>TacticalStructure | CanContainGarrison | GarrisonCanFire </Property_Flags>
-	</SpecialStructure>
-
-	<SpecialStructure Name="Garrison_Bunker_Capturable">
-		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
-		<LandBehavior>SPACE_OBSTACLE, REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,EARTHQUAKE_TARGET, GARRISON_STRUCTURE, CAPTURE_POINT</LandBehavior>
-		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
-        <Ownership_Sticks>No</Ownership_Sticks>
-		<Capture_Point_Transition_Time_Seconds>3</Capture_Point_Transition_Time_Seconds>
-		<Capture_Point_Radius>220</Capture_Point_Radius>
-		<Affiliation>Rebel, Empire, Underworld, Pirates, Neutral,Hutts</Affiliation>
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
-      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
-	</SpecialStructure>
-
 
     <SpecialStructure Name="U_Ground_Mining_Facility">
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -1067,7 +748,7 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1132,7 +813,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 	</SpecialStructure>
 
-<SpecialStructure Name="U_Ground_Gravity_Generator">
+	<SpecialStructure Name="U_Ground_Gravity_Generator">
 		<Text_ID>TEXT_GROUND_GRAVITY_GEN</Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAV_GEN_01  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1167,7 +848,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<Armor_Type> Armor_Structure </Armor_Type>
+		<Armor_Type> Armor_S1 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
 
@@ -1234,8 +915,4 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpecialStructure>
-
-
-
-
 </SpecialStructures>

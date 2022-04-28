@@ -5100,6 +5100,7 @@
 				UC_Rebel_Bunker, 
 				UC_Rebel_Med_Bunker,
 				UC_Rebel_Repair_Bunker,
+				UC_Rebel_Turret_Bunker,
 			Underworld,
 				UC_Underworld_Bunker,
 		</Tactical_Buildable_Objects_Campaign>
@@ -5111,9 +5112,10 @@
 				UC_Empire_Med_Bunker,
 				UC_Empire_Repair_Bunker,
 			Rebel,
-				UC_Rebel_Bunker, 
+				UC_Rebel_Bunker,
 				UC_Rebel_Med_Bunker,
 				UC_Rebel_Repair_Bunker,
+				UC_Rebel_Turret_Bunker,
 			Underworld,
 				UC_Underworld_Bunker,
 
@@ -5221,7 +5223,9 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>		
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</GroundBuildable>
 	
 	<!-- Medical bunker -->
@@ -5231,8 +5235,6 @@
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</GroundBuildable>
 	
 	<!-- Repair bunker -->
@@ -5242,20 +5244,17 @@
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 	</GroundBuildable>
 	
+	<!-- Infantry bunker -->
 	<GroundBuildable Name="UC_Rebel_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
 		<Tactical_Buildable_Constructed> Garrison_Bunker_Rebel </Tactical_Buildable_Constructed>
-		<Land_Model_Name>RB_Bunker.alo</Land_Model_Name>
+		<Land_Model_Name>reb_bunker_infantry.alo</Land_Model_Name>
 		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tactical_Build_Cost_Multiplayer> 120 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -5264,26 +5263,31 @@
 		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
 	
+	<!-- Turret bunker -->
+	<GroundBuildable Name="UC_Rebel_Turret_Bunker">
+		<Variant_Of_Existing_Type>UC_Rebel_Bunker</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Constructed> Turret_Bunker_Rebel </Tactical_Buildable_Constructed>
+		<Land_Model_Name>reb_bunker_gun.alo</Land_Model_Name>
+		<Tactical_Build_Cost_Multiplayer> 220 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+	</GroundBuildable>
+	
 	<!-- Medical bunker -->
 	<GroundBuildable Name="UC_Rebel_Med_Bunker">
 		<Variant_Of_Existing_Type>UC_Rebel_Bunker</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Constructed> Med_Bunker_Rebel </Tactical_Buildable_Constructed>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Land_Model_Name>reb_bunker_bacta.alo</Land_Model_Name>
+		<Tactical_Build_Cost_Multiplayer> 120 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 	</GroundBuildable>
 	
 	<!-- Repair bunker -->
 	<GroundBuildable Name="UC_Rebel_Repair_Bunker">
 		<Variant_Of_Existing_Type>UC_Rebel_Bunker</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Constructed> Repair_Bunker_Rebel </Tactical_Buildable_Constructed>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
-		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Land_Model_Name>reb_bunker_repair.alo</Land_Model_Name>
+		<Tactical_Build_Cost_Multiplayer> 120 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 	</GroundBuildable>
 	
 	<GroundBuildable Name="UC_Underworld_Bunker">

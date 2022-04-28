@@ -8,6 +8,7 @@
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
+	<File>GroundBunkers.xml</File>
 	<File>GroundInfantry.xml</File>
 	<File>GroundVehicles.xml</File>
 	<File>GroundCompaniesRebel.xml</File>
@@ -443,5 +444,7 @@
 	<File>Units_land_rebel_t3b.xml</File>
 	<File>Units_land_rebel_t4b.xml</File>
 	<File>Units_land_rebel_mptl.xml</File>
+	
+	<File>Units_land_test_troopers.xml</File>
 	
 </Game_Object_Files>
