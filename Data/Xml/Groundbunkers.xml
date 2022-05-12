@@ -108,9 +108,12 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Land_Model_Name>imp_bunker_infantry.alo</Land_Model_Name>
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
 		
 		<Affiliation>Empire</Affiliation>
+		
+		<Tactical_Health>2150</Tactical_Health>
 		
 		<LandBehavior>
 			DAMAGE_TRACKING,
@@ -124,13 +127,82 @@
         <Garrison_Radius>10</Garrison_Radius>
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Garrison_Exit_Dist>50</Garrison_Exit_Dist>
-        <Num_Garrison_Slots>2</Num_Garrison_Slots>
-        <Garrison_Bone_Names>b_garrison_00, b_garrison_01, b_garrison_02, b_garrison_03</Garrison_Bone_Names>
+        <Num_Garrison_Slots>3</Num_Garrison_Slots>
+        <Garrison_Bone_Names>b_garrison_00</Garrison_Bone_Names>
         <Garrison_Enter_Dist>0</Garrison_Enter_Dist>
         <Garrison_Radius>5</Garrison_Radius>
-        <Num_Garrison_Guns>8</Num_Garrison_Guns>
+        <Num_Garrison_Guns>24</Num_Garrison_Guns>
+
+		<Score_Cost_Credits>115</Score_Cost_Credits>
+        <AI_Combat_Power>115</AI_Combat_Power>
 		
 		<Property_Flags>Bunker | CanContainGarrison | GarrisonCanFire</Property_Flags>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Turret_Bunker_Empire">
+		<Variant_Of_Existing_Type> Garrison_Bunker_Template </Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
+		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker.tga</Icon_Name>
+
+		<Land_Model_Name>imp_bunker_gun.alo</Land_Model_Name>
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
+
+		<Affiliation>Empire</Affiliation>
+		
+		<Tactical_Health>2260</Tactical_Health>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Land_FOW_Reveal_Range>410.0</Land_FOW_Reveal_Range>
+		
+		<LandBehavior>
+			DAMAGE_TRACKING,
+			EARTHQUAKE_TARGET,
+			HIDE_WHEN_FOGGED,
+			POWERED,
+			REVEAL,
+			STUNNABLE,
+			TARGETING,
+			TURRET,
+			SELECTABLE,
+			UNIT_AI,
+			WEAPON,
+		</LandBehavior>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		
+		<Targeting_Stickiness_Time_Threshold>30.0</Targeting_Stickiness_Time_Threshold>
+		
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+
+		<Projectile_Types>Proj_Land_E_Bunker_Laser</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		<Targeting_Priority_Set>CenturyPriority</Targeting_Priority_Set>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 99.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		
+		<Score_Cost_Credits>211</Score_Cost_Credits>
+        <AI_Combat_Power>211</AI_Combat_Power>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Med_Bunker_Empire">
@@ -140,9 +212,12 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Land_Model_Name>imp_bunker_bacta.alo</Land_Model_Name>
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
 		
 		<Affiliation>Empire</Affiliation>
+		
+		<Tactical_Health>1750</Tactical_Health>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Bacta_Tank_Healing">
@@ -173,6 +248,10 @@
 				
 			</Force_Healing_Ability>
 		</Abilities>
+
+		<Score_Cost_Credits>120</Score_Cost_Credits>
+        <AI_Combat_Power>120</AI_Combat_Power>
+		
 		<Property_Flags>Bunker | HealsInfantry</Property_Flags>
 	</SpecialStructure>
 
@@ -183,9 +262,12 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		
-		<Land_Model_Name>EB_TestBunker.alo</Land_Model_Name>
+		<Land_Model_Name>imp_bunker_repair.alo</Land_Model_Name>
+		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
 		
 		<Affiliation>Empire</Affiliation>
+		
+		<Tactical_Health>1450</Tactical_Health>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
@@ -215,6 +297,10 @@
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
+
+		<Score_Cost_Credits>120</Score_Cost_Credits>
+        <AI_Combat_Power>120</AI_Combat_Power>
+		
 		<Property_Flags>Bunker | HealsVehicles</Property_Flags>
 	</SpecialStructure>
 
@@ -230,7 +316,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		
-		<Tactical_Health>2140</Tactical_Health>
+		<Tactical_Health>2150</Tactical_Health>
 		
 		<LandBehavior>
 			DAMAGE_TRACKING,
@@ -268,7 +354,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		
-		<Tactical_Health>2340</Tactical_Health>
+		<Tactical_Health>2260</Tactical_Health>
 		<Energy_Capacity>999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 		<Land_FOW_Reveal_Range>410.0</Land_FOW_Reveal_Range>
@@ -318,8 +404,8 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 		
-		<Score_Cost_Credits>220</Score_Cost_Credits>
-        <AI_Combat_Power>220</AI_Combat_Power>
+		<Score_Cost_Credits>211</Score_Cost_Credits>
+        <AI_Combat_Power>211</AI_Combat_Power>
 	</SpecialStructure>
 
 	<SpecialStructure Name="Med_Bunker_Rebel">
@@ -334,7 +420,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		
-		<Tactical_Health>1650</Tactical_Health>
+		<Tactical_Health>1750</Tactical_Health>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Bacta_Tank_Healing">
@@ -384,7 +470,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		
-		<Tactical_Health>1420</Tactical_Health>
+		<Tactical_Health>1450</Tactical_Health>
 		
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Repair_Facility_Healing">
