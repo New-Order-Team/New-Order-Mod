@@ -2526,9 +2526,7 @@
 	<Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
 	<Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
 	
-	<Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>  <!--Mild effect-->
-	
-	<!-- <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
+	<Diminishing_Firepower>0, 1</Diminishing_Firepower>
 
 	<Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
 	<Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
