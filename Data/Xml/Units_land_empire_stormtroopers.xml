@@ -8,6 +8,7 @@
 		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		
 		<Land_Model_Name>imp_stormtrooper.ALO</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -22,29 +23,26 @@
 		<Land_Model_Anim_Override_Name>imp_stormtrooper.ALO</Land_Model_Anim_Override_Name>
 		
 		<Scale_Factor>1.0</Scale_Factor>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Walk_Animation_Speed> .366 </Walk_Animation_Speed>
-		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
-		
-		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Movement_Animation_Speed>0.5</Movement_Animation_Speed>
+		<Rotation_Animation_Speed>20.0</Rotation_Animation_Speed>
+		<Walk_Animation_Speed>0.366</Walk_Animation_Speed>
+		<Crouch_Animation_Speed>0.4</Crouch_Animation_Speed>
 
 		<Affiliation>Empire</Affiliation>
 		<Weather_Category>Infantry_Visor</Weather_Category>
-		<Tactical_Health>70</Tactical_Health>
 		<Armor_Type> Armor_I </Armor_Type>
+		<Tactical_Health>70</Tactical_Health>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Blaster_E_11</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 12.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 30.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 20.0 </Targeting_Fire_Inaccuracy>
+		<Hardpoints>
+			HP_Infantry_Trooper_E_11
+		</Hardpoints>
+		
+		<Projectile_Types>Proj_Blank</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire></SFXEvent_Fire>
 
 		<SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
@@ -69,10 +67,8 @@
 		<!-- <Death_Clone>Damage_Crush, Stormtrooper_Basic_Crush_DC</Death_Clone> -->
 		<!-- <Death_Clone>Damage_Remote_Bomb, Stormtrooper_Basic_RB_DC</Death_Clone> -->
 		
-		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>
-
-		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+        <CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<Targeting_Priority_Set>InfantryPriority</Targeting_Priority_Set>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Stormtrooper_Basic_FW_DC">
@@ -154,22 +150,26 @@
     </GroundInfantry>
 	
 	<GroundCompany Name="Stormtrooper_Platoon">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_STORMTROOPER_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPECIAL_OPERATIONS</Encyclopedia_Unit_Class>
-		<Damage>1120</Damage>
-		<Autoresolve_Health>1764</Autoresolve_Health>
-		<Build_Cost_Credits>2960</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<GUI_Model_Name>imp_stormtrooper.ALO</GUI_Model_Name>
+		
+        <Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1300</Build_Cost_Credits>
+		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
 		
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Stormtrooper_Platoon_Spawner</Company_Units>
-
-		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
-		<GUI_Model_Name>imp_stormtrooper.ALO</GUI_Model_Name>
-		<Land_Model_Name>imp_stormtrooper.ALO</Land_Model_Name>
+		
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2960</Tactical_Build_Cost_Multiplayer>
@@ -182,7 +182,7 @@
 	</GroundCompany>
 	
 	<GroundCompany Name="Stormtrooper_Platoon_Dummy">
-        <Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
+        <Variant_Of_Existing_Type>Stormtrooper_Platoon</Variant_Of_Existing_Type>
         <Affiliation>Hostile</Affiliation>
 		<Company_Units>
 			Stormtrooper_Basic,
@@ -230,47 +230,19 @@
 	</GroundCompany>
 
 	<Container Name="Stormtrooper_Platoon_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
+		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_STORMTROOPER_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_STORMTROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
-		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>300.0</Space_FOW_Reveal_Range>
-		<MovementClass>Infantry</MovementClass>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<Garrison_Value>1</Garrison_Value>
-		<CategoryMask>Infantry</CategoryMask>
-
-		<Max_Speed> 1.0 </Max_Speed>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 1 </FormationSpacing> 
-		<MovementClass> Infantry </MovementClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
-		<ContainerArrangement> Dartboard </ContainerArrangement>
-		<FormationOrder> 2 </FormationOrder>
-		<Override_Acceleration> .1 </Override_Acceleration>
-		<Override_Deceleration> .1 </Override_Deceleration>
-		
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
-
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+		
+        <Affiliation>Empire</Affiliation>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Max_Speed> 0.65 </Max_Speed>
+		<FormationSpacing> 0.7 </FormationSpacing>
+        <FormationOrder> 2 </FormationOrder>
+		<Tactical_Bribe_Cost>1300</Tactical_Bribe_Cost>
+		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
 	</Container>
 	
 	

@@ -5082,13 +5082,19 @@
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 
 		<Behavior>DUMMY_GROUND_STRUCTURE</Behavior>
-		<LandBehavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT</LandBehavior>
+		<LandBehavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			LAND_OBSTACLE,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</LandBehavior>
 		<Space_Layer> Land </Space_Layer>	
         <UnitCollisionClass> Vehicle </UnitCollisionClass>	
         <Custom_Hard_XExtent> 26.0 </Custom_Hard_XExtent>
         <Custom_Hard_YExtent> 26.0 </Custom_Hard_YExtent>
 
-		<Minimum_Time_Before_Pad_Can_Build_Again> 20.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 30.0 </Minimum_Time_Before_Pad_Can_Build_Again>
 		
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign> 
@@ -5123,7 +5129,8 @@
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
-		<Land_Model_Name>NB_Bunker.alo</Land_Model_Name>
+		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Scale_Factor> 3.0 </Scale_Factor>
 		<Capture_Point_Radius>200</Capture_Point_Radius>
 		<Influences_Capture_Point>no</Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
@@ -5135,7 +5142,6 @@
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		
 		<Select_Box_Scale> 110 </Select_Box_Scale>
-		<Scale_Factor> 1.0 </Scale_Factor>
 		<Mass>1.0</Mass>
 		
 		<Shield_Points> 0 </Shield_Points>
@@ -5143,7 +5149,7 @@
 		
 		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld</Affiliation>
 		
-		<Hides_When_Built_On>True</Hides_When_Built_On>
+		<!-- <Hides_When_Built_On>True</Hides_When_Built_On> -->
 		<Base_Level_Available> 1 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
 		<Reveal_During_Setup_Phase> True </Reveal_During_Setup_Phase>
@@ -5169,12 +5175,14 @@
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
 		
+		<Property_Flags>IsRushTarget</Property_Flags>
+		
 	</GroundBuildable>
 	
 	<GroundBuildable Name="UC_Empire_Bunker">
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Land_Model_Name> EB_TestBunker.alo </Land_Model_Name>
+		<Land_Model_Name>imp_bunker_infantry.alo</Land_Model_Name>
 		<Tactical_Buildable_Constructed> Garrison_Bunker_Empire </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 50.0 </Tactical_Build_Start_Lower_Z>
 		<Behavior>TACTICAL_UNDER_CONSTRUCTION, REVEAL, HIDE_WHEN_FOGGED</Behavior>
@@ -5201,7 +5209,7 @@
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,null,null,null</Land_Damage_SFX>
-		<Armor_Type> Armor_Bunker </Armor_Type>
+		<Armor_Type> Armor_S6 </Armor_Type>
 		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
 		<Is_Community_Property>Yes</Is_Community_Property>
 		<CategoryMask> Structure </CategoryMask>
@@ -5243,6 +5251,7 @@
 	<GroundBuildable Name="UC_Empire_Med_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Constructed> Med_Bunker_Empire </Tactical_Buildable_Constructed>
+		<Land_Model_Name>imp_bunker_bacta.alo</Land_Model_Name>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		<Tactical_Build_Cost_Multiplayer> 120 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>
@@ -5252,6 +5261,7 @@
 	<GroundBuildable Name="UC_Empire_Repair_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Constructed> Repair_Bunker_Empire </Tactical_Buildable_Constructed>
+		<Land_Model_Name>imp_bunker_repair.alo</Land_Model_Name>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
 		<Tactical_Build_Cost_Multiplayer> 120 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 20 </Tactical_Build_Time_Seconds>

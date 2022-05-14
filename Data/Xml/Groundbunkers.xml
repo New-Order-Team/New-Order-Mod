@@ -26,6 +26,7 @@
 			DUMMY_GROUND_STRUCTURE
 		</Behavior>
 		<LandBehavior>
+			ABILITY_COUNTDOWN,
 			DAMAGE_TRACKING,
 			EARTHQUAKE_TARGET,
 			HIDE_WHEN_FOGGED,
@@ -116,12 +117,14 @@
 		<Tactical_Health>2150</Tactical_Health>
 		
 		<LandBehavior>
+			ABILITY_COUNTDOWN,
 			DAMAGE_TRACKING,
 			EARTHQUAKE_TARGET,
 			GARRISON_STRUCTURE
 			HIDE_WHEN_FOGGED,
 			REVEAL,
 			SELECTABLE,
+			SELF_DESTRUCT,
 		</LandBehavior>
 		
         <Garrison_Radius>10</Garrison_Radius>
@@ -157,6 +160,7 @@
 		<Land_FOW_Reveal_Range>410.0</Land_FOW_Reveal_Range>
 		
 		<LandBehavior>
+			ABILITY_COUNTDOWN,
 			DAMAGE_TRACKING,
 			EARTHQUAKE_TARGET,
 			HIDE_WHEN_FOGGED,
@@ -166,6 +170,7 @@
 			TARGETING,
 			TURRET,
 			SELECTABLE,
+			SELF_DESTRUCT,
 			UNIT_AI,
 			WEAPON,
 		</LandBehavior>
@@ -319,12 +324,14 @@
 		<Tactical_Health>2150</Tactical_Health>
 		
 		<LandBehavior>
+			ABILITY_COUNTDOWN,
 			DAMAGE_TRACKING,
 			EARTHQUAKE_TARGET,
 			GARRISON_STRUCTURE,
 			HIDE_WHEN_FOGGED,
 			REVEAL,
 			SELECTABLE,
+			SELF_DESTRUCT,
 		</LandBehavior>
 		
         <Garrison_Radius>10</Garrison_Radius>
@@ -360,6 +367,7 @@
 		<Land_FOW_Reveal_Range>410.0</Land_FOW_Reveal_Range>
 		
 		<LandBehavior>
+			ABILITY_COUNTDOWN,
 			DAMAGE_TRACKING,
 			EARTHQUAKE_TARGET,
 			HIDE_WHEN_FOGGED,
@@ -369,6 +377,7 @@
 			TARGETING,
 			TURRET,
 			SELECTABLE,
+			SELF_DESTRUCT,
 			UNIT_AI,
 			WEAPON,
 		</LandBehavior>

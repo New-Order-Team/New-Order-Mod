@@ -686,7 +686,7 @@
 			Empire,
 				Stormtrooper_Platoon,
 				<!-- Stormtrooper_Platoon_Remnant, -->
-				Novatrooper_Platoon_Skirmish,
+				Novatrooper_Platoon,
 				<!-- Elite_Guard_Platoon, -->
 				Storm_Commando_Team
 		</Tactical_Buildable_Objects_Multiplayer>

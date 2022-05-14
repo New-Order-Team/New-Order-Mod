@@ -67,13 +67,6 @@
 		</Unit_Abilities_Data>
 	</GroundInfantry>
 	
-	<GroundInfantry Name="Novatrooper_Platoon_Spawner">
-        <Variant_Of_Existing_Type> Company_Spawner_Template </Variant_Of_Existing_Type>
-        <Icon_Name>i_button_novatrooper.tga</Icon_Name>
-        <AI_Combat_Power>1300</AI_Combat_Power>
-        <CategoryMask> Infantry | AntiInfantry </CategoryMask>
-    </GroundInfantry>
-	
 	<GroundCompany Name="Novatrooper_Platoon">
 		<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
@@ -86,81 +79,7 @@
 		<Build_Cost_Credits>1300</Build_Cost_Credits>
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Tech_Level>99</Tech_Level>
-		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
-		
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>
-			Novatrooper_Platoon_Spawner
-		</Company_Units>
-		
-		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>INVULNERABILITY</Type>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.25f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</GroundCompany>
-	
-	<GroundCompany Name="Novatrooper_Platoon_Dummy">
-        <Variant_Of_Existing_Type>Novatrooper_Platoon</Variant_Of_Existing_Type>
-        <Affiliation>Hostile</Affiliation>
-		<Company_Units>
-			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
-			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
-			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
-			Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper, Novatrooper,
-		</Company_Units>
-		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Create_Team_Type> Novatrooper_Platoon_Team </Create_Team_Type>
-	</GroundCompany>
-
-	<Container Name="Novatrooper_Platoon_Team">
-		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
-		
-        <Affiliation>Empire</Affiliation>
-		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-		<Max_Speed> 0.65 </Max_Speed>
-		<FormationSpacing> 0.7 </FormationSpacing>
-        <FormationOrder> 2 </FormationOrder>
-		<Tactical_Bribe_Cost>1300</Tactical_Bribe_Cost>
-		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>INVULNERABILITY</Type>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.25f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-	
-	<GroundCompany Name="Novatrooper_Platoon_Skirmish">
-		<Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
-		<GUI_Model_Name>imp_novatrooper.alo</GUI_Model_Name>
-		
-        <Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>1300</Build_Cost_Credits>
-		<Build_Time_Seconds>24</Build_Time_Seconds>
-		<Tech_Level>99</Tech_Level>
-		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+		<Required_Special_Structures />
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>
@@ -196,4 +115,30 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundCompany>
+
+	<Container Name="Novatrooper_Platoon_Team">
+		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_NOVATROOPER_PLATOON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_NOVATROOPER_PLATOON_DESC TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY_ELITE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_novatrooper.tga</Icon_Name>
+		
+        <Affiliation>Empire</Affiliation>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Max_Speed> 0.65 </Max_Speed>
+		<FormationSpacing> 0.7 </FormationSpacing>
+        <FormationOrder> 2 </FormationOrder>
+		<Tactical_Bribe_Cost>1300</Tactical_Bribe_Cost>
+		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>INVULNERABILITY</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.25f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
 </Novatroopers_Data>
