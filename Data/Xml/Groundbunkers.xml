@@ -96,8 +96,7 @@
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
 				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-				<Spawned_Object_Type> Century_Tank_Self_Destruct </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
+				<Spawned_Object_Type>Bunker_Self_Destruct</Spawned_Object_Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpecialStructure>
