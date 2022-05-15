@@ -10,10 +10,18 @@
 		<Behavior> TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED </Behavior>
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
@@ -63,10 +71,18 @@
 
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 	</GroundBuildable>
@@ -77,10 +93,18 @@
 
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
-		
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 	</GroundBuildable>
@@ -193,23 +217,23 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_AA_TURRET</Encyclopedia_Text>
 
-		<Tactical_Buildable_Constructed> Empire_Anti_Aircraft_Turret </Tactical_Buildable_Constructed>			<!-- Defined int GroundTurrets.xml -->
-		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 18 </Tactical_Build_Time_Seconds>
+		<Tactical_Buildable_Constructed> Empire_Anti_Aircraft_Turret </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
+		<Tactical_Build_Cost_Multiplayer>360</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>360</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0 </Tactical_Build_Start_Lower_Z>
-		<Tactical_Health> 175 </Tactical_Health>
+		<Tactical_Health>360</Tactical_Health>
 
 		<Text_ID>TEXT_STRUCTURE_TURRET_AA</Text_ID>
-		<Land_Model_Name> EB_AATURRET.ALO </Land_Model_Name>
-		<Scale_Factor>1.25</Scale_Factor>
+		<Land_Model_Name> imp_bp5.alo </Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
 
 		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 		<Icon_Name>i_button_e_anti_aircraft.tga</Icon_Name>
 		
 	</GroundBuildable>
@@ -223,15 +247,15 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_AI_TURRET</Encyclopedia_Text>
 
-		<Tactical_Buildable_Constructed> Empire_Anti_Infantry_Turret </Tactical_Buildable_Constructed>			<!-- Defined int GroundTurrets.xml -->
-		<Tactical_Build_Cost_Multiplayer> 675 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Start_Lower_Z> 0 </Tactical_Build_Start_Lower_Z>
-		<Tactical_Health> 150 </Tactical_Health>
+		<Tactical_Buildable_Constructed> Empire_Anti_Infantry_Turret </Tactical_Buildable_Constructed>			<!-- Defined in GroundTurrets.xml -->
+		<Tactical_Build_Cost_Multiplayer>580</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>580</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
+		<Tactical_Health>360</Tactical_Health>
 
 		<Text_ID> TEXT_STRUCTURE_TURRET_AI_UC </Text_ID>
-		<Land_Model_Name> EB_INFANTRYTURRET.ALO </Land_Model_Name>
+		<Land_Model_Name> imp_bp2.alo </Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 
 		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
@@ -239,7 +263,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 		<Icon_Name>i_button_e_anti_infantry.tga</Icon_Name>
 	</GroundBuildable>
@@ -252,25 +276,47 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_AV_TURRET</Encyclopedia_Text>
 
-		<Tactical_Buildable_Constructed> Empire_Anti_Vehicle_Turret </Tactical_Buildable_Constructed>			<!-- Defined int GroundTurrets.xml -->
-		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 23 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Start_Lower_Z> 0 </Tactical_Build_Start_Lower_Z>
-		<Tactical_Health> 200 </Tactical_Health>
+		<Tactical_Buildable_Constructed> Empire_Anti_Vehicle_Turret </Tactical_Buildable_Constructed>			<!-- Defined in GroundTurrets.xml -->
+		<Tactical_Build_Cost_Multiplayer>890</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>890</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
+		<Tactical_Health>400</Tactical_Health>
 
 		<Text_ID> TEXT_STRUCTURE_TURRET_AV_UC </Text_ID>
-		<Land_Model_Name> EB_VEHICLETURRET.ALO </Land_Model_Name>
+		<Land_Model_Name> imp_bp4.alo </Land_Model_Name>
 
 		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 		<Icon_Name>i_button_e_anti_vehicle.tga</Icon_Name>
 		
+	</GroundBuildable>
+
+	<GroundBuildable Name="UC_Empire_Buildable_Artillery_Turret">
+		<Variant_Of_Existing_Type> UC_Empire_Buildable_Abstract_Type </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_STRUCTURE_GRENADE_MORTAR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_GRENADE_MORTAR</Encyclopedia_Text>
+		<Icon_Name>i_button_ev_mdu_grenade.tga</Icon_Name>
+
+		<Tactical_Buildable_Constructed> Empire_Artillery_Turret </Tactical_Buildable_Constructed>			<!-- Defined in GroundTurrets.xml -->
+		<Tactical_Build_Cost_Multiplayer>870</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>870</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
+		<Tactical_Health>360</Tactical_Health>
+		
+		<Land_Model_Name>imp_bp6.alo</Land_Model_Name>
+
+		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 	</GroundBuildable>
 
 

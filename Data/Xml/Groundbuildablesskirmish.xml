@@ -13,61 +13,29 @@
 		
 		<!-- This is a list of the buildable objects at this pad (defined below) - that will be under construction -->
 		<Tactical_Buildable_Objects_Campaign> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-			
-			Pirates,
-				UC_Pirate_Buildable_Anti_Aircraft_Turret,
-				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility,
-			
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
-				UC_Underworld_Buildable_Bacta_Tank,
-				UC_Underworld_Buildable_Repair_Facility,
-				UC_Underworld_Buildable_Sensor_Node,
-			
-			Hutts,
-				UC_Hutt_Grenade_Mortar,
-				UC_Hutt_Rapid_Fire_Laser_Turret,
-				UC_Hutt_Anti_Aircraft_Turret,
-				UC_Hutt_Buildable_Bacta_Tank,
-				UC_Hutt_Buildable_Repair_Facility,
-				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-			
-			Pirates,
-				UC_Pirate_Buildable_Anti_Aircraft_Turret,
-				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
-				UC_Underworld_Buildable_Bacta_Tank,
-				UC_Underworld_Buildable_Repair_Facility,
-				UC_Underworld_Buildable_Sensor_Node,
-			Hutts,
-				UC_Hutt_Grenade_Mortar,
-				UC_Hutt_Rapid_Fire_Laser_Turret,
-				UC_Hutt_Anti_Aircraft_Turret,
-				UC_Hutt_Buildable_Bacta_Tank,
-				UC_Hutt_Buildable_Repair_Facility,
-				UC_Hutt_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
@@ -112,34 +80,28 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Offense">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-			
-			Pirates, 
-				UC_Pirate_Buildable_Anti_Aircraft_Turret,
-				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-				
-			Pirates, 
-				UC_Pirate_Buildable_Anti_Aircraft_Turret,
-				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -148,22 +110,16 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_AITurret">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
-			
-			Pirates, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
-			
-			Pirates, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-			Underworld, 
-				UC_Underworld_Buildable_Mass_Driver_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -172,35 +128,29 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Defense">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-		
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank, 
-				UC_Underworld_Buildable_Repair_Facility, 
-				UC_Underworld_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-		
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank, 
-				UC_Underworld_Buildable_Repair_Facility, 
-				UC_Underworld_Buildable_Sensor_Node
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -210,29 +160,29 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Bacta">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-			
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-			
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank,
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -241,34 +191,28 @@
 	<GroundBuildable Name="Skirmish_Build_Pad_Basic">
 		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Campaign>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-		
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank,
-				UC_Pirate_Buildable_Anti_Infantry_Turret,
-				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank,
-				UC_Underworld_Buildable_Mass_Driver_Turret, 
-				UC_Underworld_Buildable_Repair_Facility
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Buildable_Artillery_Turret,
 			Rebel,
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 				UC_Rebel_Buildable_Anti_Vehicle_Turret,
 				UC_Rebel_Buildable_Anti_Aircraft_Turret,
 				UC_Rebel_Buildable_Artillery_Turret,
-		
-			Pirates, 
-				UC_Pirate_Buildable_Bacta_Tank, 
-				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank, 
-				UC_Underworld_Buildable_Mass_Driver_Turret
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 

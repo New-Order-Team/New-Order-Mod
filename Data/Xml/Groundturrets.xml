@@ -149,32 +149,30 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AA_TURRET</Encyclopedia_Text>
 		<Icon_Name>i_button_e_anti_aircraft.tga</Icon_Name>
 
-		<Scale_Factor>1.25</Scale_Factor>
-		<Land_Model_Name>EB_AATURRET.ALO</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
-		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Land_Model_Name>imp_bp5.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Empire</Affiliation>
 		
-		<Tactical_Health>200</Tactical_Health>
+		<Tactical_Health>360</Tactical_Health>
 		<Tactical_Sell_Credits> 600 </Tactical_Sell_Credits>
 		
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Structure </Attack_Category_Restrictions>
 
-		<Projectile_Types>Proj_Land_E_Flak</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Proj_Land_Blaster_DF12</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>4.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<!-- Air vehicles priority 1, ground vehicles and infantry are N/A (9999) -->
 		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
 
-		<Targeting_Fire_Inaccuracy> Infantry, 60.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 35.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 25.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Fire>Unit_Anti_Air_Fire</SFXEvent_Fire>
 		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
@@ -194,7 +192,7 @@
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Land_Model_Name>reb_df12.alo</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Rebel</Affiliation>
 		
@@ -275,24 +273,22 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AI_TURRET</Encyclopedia_Text>
 		<Icon_Name>i_button_e_anti_infantry.tga</Icon_Name>
 		
-		<Scale_Factor>0.75</Scale_Factor>
-		<Land_Model_Name>EB_INFANTRYTURRET.ALO</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
-		<Blob_Shadow_Scale>25.0, 25.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Land_Model_Name>imp_bp2.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Empire</Affiliation>
 
-		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Health>360</Tactical_Health>
 		<Tactical_Sell_Credits> 400 </Tactical_Sell_Credits>
 		
-		<Targeting_Max_Attack_Distance>220.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Air, Structure </Attack_Category_Restrictions>
 
-		<Projectile_Types>Proj_HRB_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.02</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Proj_Land_Blaster_DF9</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<!-- Ground infantry priority 1, ground vehicles priority 2, air vehicles N/A (9999) -->
 		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
@@ -319,7 +315,7 @@
 		
 		<Scale_Factor>1.0</Scale_Factor>
 		<Land_Model_Name>reb_df9.alo</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>8.0</Ranged_Target_Z_Adjust>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Rebel</Affiliation>
 
@@ -392,24 +388,22 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AV_TURRET</Encyclopedia_Text>
 		<Icon_Name>i_button_e_anti_vehicle.tga</Icon_Name>
 
-		<Scale_Factor>0.75</Scale_Factor>
-		<Land_Model_Name>EB_VEHICLETURRET.ALO</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
-		<Blob_Shadow_Scale>45.0, 45.0</Blob_Shadow_Scale>
-		<Blob_Shadow_Material_Name>Square_Shadow</Blob_Shadow_Material_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Land_Model_Name>imp_bp5.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Empire</Affiliation>
 		
-		<Tactical_Health>300</Tactical_Health>
+		<Tactical_Health>400</Tactical_Health>
 		<Tactical_Sell_Credits> 500 </Tactical_Sell_Credits>
 		
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
 
-		<Projectile_Types>Proj_Ground_AV_Turret_Laser_Green</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Types>Proj_Land_Laser_DF11</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles N/A (9999) -->
 		<Targeting_Priority_Set>AntiVehicleTurret</Targeting_Priority_Set>
@@ -436,7 +430,7 @@
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Land_Model_Name>reb_df11.alo</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Rebel</Affiliation>
 		
@@ -497,6 +491,47 @@
 		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
 	</GroundStructure>
    
+	<GroundStructure Name="Empire_Artillery_Turret">
+		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_DF10</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_DF10_DESC</Encyclopedia_Text>
+		<Icon_Name>UB_Turretptl05.tga</Icon_Name>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Land_Model_Name>imp_bp6.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+
+		<Affiliation>Empire</Affiliation>
+		
+		<Tactical_Health>360</Tactical_Health>
+		<Tactical_Sell_Credits> 500 </Tactical_Sell_Credits>
+		
+		<Targeting_Min_Attack_Distance>75.0</Targeting_Min_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions> Air </Attack_Category_Restrictions>
+
+		<Projectile_Types>Proj_Empire_MDU_Concussion_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		
+		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles N/A (9999) -->
+		<Targeting_Priority_Set>MDURocketTurret</Targeting_Priority_Set>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 50.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>50.0</Targeting_Fire_Inaccuracy_Fixed_Radius>
+
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical> EHD_Turret_Sold </SFXEvent_Sold_Tactical>
+		
+		<CategoryMask> Structure | AntiInfantry | AntiVehicle | AntiStructure </CategoryMask>
+
+		<AI_Combat_Power>125</AI_Combat_Power>
+		<Score_Cost_Credits> 1300 </Score_Cost_Credits>
+	</GroundStructure>
+   
 	<GroundStructure Name="Rebel_Artillery_Turret">
 		<Variant_Of_Existing_Type> Turret_Template </Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_DF10</Text_ID>
@@ -505,7 +540,7 @@
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Land_Model_Name>reb_df10.alo</Land_Model_Name>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+		<Target_Bones>TARGET_00</Target_Bones>
 
 		<Affiliation>Rebel</Affiliation>
 		
@@ -1313,7 +1348,7 @@
 		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
 
@@ -1398,7 +1433,7 @@
 		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
 
@@ -1478,7 +1513,7 @@
 		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 		<SFXEvent_Ambient_Loop>Unit_EM_Field_Generator_Loop</SFXEvent_Ambient_Loop>
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1617,7 +1652,7 @@
 		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1648,7 +1683,7 @@
 		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1765,7 +1800,7 @@
 		<SFXEvent_Build_Started>EHD_Sensor_Node_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1860,7 +1895,7 @@
 		<SFXEvent_Build_Started>RHD_Shield_Generator_Build</SFXEvent_Build_Started>
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1969,7 +2004,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 
@@ -1999,7 +2034,7 @@
 
 		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
 
-		<Armor_Type> Armor_Turret </Armor_Type>
+		<Armor_Type> Armor_S3 </Armor_Type>
 
 	</GroundBuildable>
 

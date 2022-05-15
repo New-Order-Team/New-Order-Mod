@@ -185,7 +185,7 @@
 
 		<Tactical_Buildable_Constructed> Rebel_Anti_Aircraft_Turret </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
 		<Tactical_Build_Cost_Multiplayer>360</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Cost_Campaign>360</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
 		<Tactical_Health>360</Tactical_Health>
@@ -206,7 +206,7 @@
 
 		<Tactical_Buildable_Constructed> Rebel_Anti_Infantry_Turret </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
 		<Tactical_Build_Cost_Multiplayer>580</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Cost_Campaign>580</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
 		<Tactical_Health>360</Tactical_Health>
@@ -229,7 +229,7 @@
 
 		<Tactical_Buildable_Constructed> Rebel_Anti_Vehicle_Turret </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
 		<Tactical_Build_Cost_Multiplayer>890</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Cost_Campaign>890</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
 		<Tactical_Health>400</Tactical_Health>
@@ -251,7 +251,7 @@
 
 		<Tactical_Buildable_Constructed> Rebel_Artillery_Turret </Tactical_Buildable_Constructed>		<!-- Defined in GroundTurrets.xml -->
 		<Tactical_Build_Cost_Multiplayer>870</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>20</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Cost_Campaign>870</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
 		<Tactical_Health>360</Tactical_Health>
