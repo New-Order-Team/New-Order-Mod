@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<GroundBuildables>
+	<!-- NOTE: TACTICAL_UNDER_CONSTRUCTION does not work as a Land_Behavior -->
+	<GroundBuildable Name="Turret_UC_Template">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			SELECTABLE,
+			TACTICAL_UNDER_CONSTRUCTION,
+		</Behavior>
+		<LandBehavior>
+			EARTHQUAKE_TARGET,
+		</LandBehavior>
+
+		<Scale_Factor>1.0</Scale_Factor>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Tactical_Build_Start_Lower_Z>0</Tactical_Build_Start_Lower_Z>
+		
+		<Affiliation>Neutral</Affiliation>
+		<!-- <Base_Level_Available>1</Base_Level_Available> -->
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		
+		<Shield_Points> 0 </Shield_Points>
+		<Armor_Type> Armor_S3 </Armor_Type>
+		
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier> 0.0 </Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Space_Layer> Land </Space_Layer>
+		
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<GUI_Bracket_Size> 0 </GUI_Bracket_Size>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		
+		<CategoryMask> Structure </CategoryMask>
+		<Victory_Relevant> No </Victory_Relevant>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die> Unit_Generic_Building_Death_SFX </Death_SFXEvent_Start_Die>
+		
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP2</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP2_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP2_INFO_1
+			TEXT_STRUCTURE_BP2_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP2_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>imp_bp2.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>imp_bp2.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Anti_Infantry_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP4</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP4_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP4_INFO_1
+			TEXT_STRUCTURE_BP4_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP4_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>imp_bp4.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>imp_bp4.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Anti_Vehicle_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP5</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP5_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP5_INFO_1
+			TEXT_STRUCTURE_BP5_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP5_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>imp_bp5.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>imp_bp5.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Anti_Aircraft_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Grenade_Mortar">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP6</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP6_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP6_INFO_1
+			TEXT_STRUCTURE_BP6_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP6_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>imp_bp6.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>imp_bp6.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Grenade_Mortar</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_e_repair_facility.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Buildable_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Buildable_Bacta_Tank</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Buildable_Sensor_Node">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_UC</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_NODE</Encyclopedia_Text>
+		<Icon_Name>i_button_sensor_node.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_SensorNode.alo</Land_Model_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Sensor_Array_Empire</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_EM_Field_Generator">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMF_GEN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_EMF_GEN</Encyclopedia_Text>
+		<Icon_Name>i_button_ev_mdu_fieldgen.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EV_MDU_FieldGen.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_EM_Field_Generator</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+		<SFXEvent_Ambient_Loop>Unit_EM_Field_Generator_Loop</SFXEvent_Ambient_Loop>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Empire_Offensive_Sensor_Node">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_OFFENSIVE_SENSOR_NODE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE</Encyclopedia_Text>
+		<Icon_Name>i_button_ev_mdu_sensornode.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>EV_MDU_SensorNode.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Build_Started>EHD_Sensor_Node_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Empire_Offensive_Sensor_Node</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF9</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF9_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF9_INFO_1
+			TEXT_STRUCTURE_DF9_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF9_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>reb_df9.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>reb_df9.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Anti_Infantry_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF11</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_AV_TURRET</Encyclopedia_Text>
+		<Icon_Name>reb_df11.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>reb_df11.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Anti_Vehicle_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF12</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF12_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF12_INFO_1
+			TEXT_STRUCTURE_DF12_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF12_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>reb_df12.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>reb_df12.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Anti_Aircraft_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Rocket_Pod">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF10</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
+		<Icon_Name>reb_df10.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>reb_df10.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Rocket_Pod</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>700</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Health>375</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_REBEL_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Repair_Station_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Buildable_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_REBEL_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Bacta_Tank_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Buildable_Bacta_Tank</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Sensor_Node">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_UC</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_NODE</Encyclopedia_Text>
+		<Icon_Name>i_button_sensor_node.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_SensorNode.alo</Land_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Sensor_Node_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Sensor_Array</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Buildable_Repair_Facility_MDU">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_REBEL_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Repair_Station_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_MDU_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Mobile_Shield_Generator">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_MOBILE_SHIELD_GENERATOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_SHIELD_GENERATOR</Encyclopedia_Text>
+		<Icon_Name>i_button_rv_mdu_shieldgen.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RV_MDU_ShieldGen.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Shield_Generator_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Mobile_Shield_Generator</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+		<Base_Shield_Always_Off>True</Base_Shield_Always_Off>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Rebel_Rapid_Fire_Laser_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_RF_LASER_TURRET</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RF_LASER_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_rv_mdu_rapid fire laser cannon.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>RV_MDU_RFLC.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Build_Started>RHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Rebel_Rapid_Fire_Laser_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Buildable_Mass_Driver_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_TURRET_MD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MD_TURRET</Encyclopedia_Text>
+		<Icon_Name>UB_TurretMST50.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>UB_TurretMST50.alo</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Mass_Driver_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Buildable_Torpedo_Turret">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_TURRET_TORP</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TORP_TURRET</Encyclopedia_Text>
+		<Icon_Name>UB_Turretptl05.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>UB_TurretPTL05.alo</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Torpedo_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_U_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Repair_Station_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Buildable_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_U_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Bacta_Tank_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Buildable_Bacta_Tank</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Buildable_Sensor_Node">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_UC</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_NODE</Encyclopedia_Text>
+		<Icon_Name>i_button_sensor_node.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_SensorNode.alo</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Sensor_Node_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Sensor_Array_Underworld</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Sensor_Scrambler">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_SCRAMBLER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</Encyclopedia_Text>
+		<Icon_Name>i_button_uv_mdu_sensor.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>UV_MDU_Sensor.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Sensor_Scrambler</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Ysalamiri_Cage">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_CAGE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_YSALAMIRI_CAGE</Encyclopedia_Text>
+		<Icon_Name>i_button_uv_mdu_cage.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>UV_MDU_Cage.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Ysalamiri_Cage</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Underworld_Rocket_Pod">
+		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_MISSILE_POD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
+		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Land_Model_Name>UV_MDU_Rocket.alo</Land_Model_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Build_Started>UHD_Turret_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Tactical_Buildable_Constructed>Underworld_Rocket_Pod</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Pirate_Buildable_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tactical_Buildable_Constructed>Pirate_Anti_Infantry_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Pirate_Buildable_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tactical_Buildable_Constructed>Pirate_Anti_Vehicle_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Pirate_Buildable_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tactical_Buildable_Constructed>Pirate_Anti_Aircraft_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Pirate_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Repair_Facility</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tactical_Buildable_Constructed>Pirate_Buildable_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Pirate_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Bacta_Tank</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+		<Tactical_Buildable_Constructed>Pirate_Buildable_Bacta_Tank</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Rapid_Fire_Laser_Turret">
+		<Variant_Of_Existing_Type>UC_Rebel_Rapid_Fire_Laser_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Hutt_Rapid_Fire_Laser_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Grenade_Mortar">
+		<Variant_Of_Existing_Type>UC_Empire_Grenade_Mortar</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Hutt_Grenade_Mortar</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Hutt_Anti_Aircraft_Turret</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Repair_Facility</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Hutt_Buildable_Repair_Facility</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Bacta_Tank</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Hutt_Buildable_Bacta_Tank</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+	<GroundBuildable Name="UC_Hutt_Buildable_Sensor_Node">
+		<Variant_Of_Existing_Type>UC_Rebel_Buildable_Sensor_Node</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+		<Tactical_Buildable_Constructed>Sensor_Array</Tactical_Buildable_Constructed>
+		<Tactical_Build_Cost_Multiplayer>10</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Health>10</Tactical_Health>
+	</GroundBuildable>
+</GroundBuildables>

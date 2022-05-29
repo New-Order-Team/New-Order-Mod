@@ -327,6 +327,20 @@
 		<Scale_Factor>1</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
+	
+	<MultiplayerStructureMarker Name="Team_00_BunkerPads_Position">
+		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rebel_Bunker_Pad, Empire_Bunker_Pad, Underworld_Bunker_Pad </Marker_For_Specific_Object_Type>
+		<Galactic_Model_Name />
+		<Space_Model_Name />
+		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
+	</MultiplayerStructureMarker>
 
 	<MultiplayerStructureMarker Name="Team_00_Space_Station">
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
@@ -508,6 +522,20 @@
 		<Scale_Factor>1</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
+	
+	<MultiplayerStructureMarker Name="Team_01_BunkerPads_Position">
+		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rebel_Bunker_Pad, Empire_Bunker_Pad, Underworld_Bunker_Pad </Marker_For_Specific_Object_Type>
+		<Galactic_Model_Name />
+		<Space_Model_Name />
+		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
+	</MultiplayerStructureMarker>
 
 	<MultiplayerStructureMarker Name="Team_01_Space_Station">
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
@@ -687,6 +715,20 @@
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
+		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
+	</MultiplayerStructureMarker>
+	
+	<MultiplayerStructureMarker Name="Team_02_BunkerPads_Position">
+		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Marker_For_Specific_Object_Type> Rebel_Bunker_Pad, Empire_Bunker_Pad, Underworld_Bunker_Pad </Marker_For_Specific_Object_Type>
+		<Galactic_Model_Name />
+		<Space_Model_Name />
+		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Behavior>MARKER</Behavior>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Neutral</Affiliation>
+		<Scale_Factor>3.0</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
 

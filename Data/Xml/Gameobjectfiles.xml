@@ -7,17 +7,24 @@
 	<File>TechBuilding.xml</File>
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
+	
+	<File>GroundTurretsPads.xml</File>
+	<File>GroundTurretsUC.xml</File>
 	<File>GroundTurrets.xml</File>
+	<File>GroundBunkersPads.xml</File>
+	<File>GroundBunkersUC.xml</File>
 	<File>GroundBunkers.xml</File>
+	
 	<File>GroundInfantry.xml</File>
 	<File>GroundVehicles.xml</File>
 	<File>GroundCompaniesRebel.xml</File>
 	<File>GroundCompaniesEmpire.xml</File>
 	<File>GroundIndigenous.xml</File>
 	<File>GroundCompaniesIndigenous.xml</File>
-	<File>GroundBuildablesRebel.xml</File>
-	<File>GroundBuildablesEmpire.xml</File>
-	<File>GroundBuildablesPirate.xml</File>
+	
+	<!-- <File>GroundBuildablesRebel.xml</File> -->
+	<!-- <File>GroundBuildablesEmpire.xml</File> -->
+	<!-- <File>GroundBuildablesPirate.xml</File> -->
 	<File>GroundBuildablesSkirmish.xml</File>
 
 	<File>SpaceProps.xml</File>
@@ -183,7 +190,7 @@
 
 	<File>Units_Space_Neutral_Eclipse.xml</File>
 	<File>Hutt_Faction_Units.xml</File>
-	<File>GroundBuildablesHutts.xml</File>
+	<!-- <File>GroundBuildablesHutts.xml</File> -->
 
 
 	<!-- Expansion General Files -->
@@ -192,7 +199,7 @@
 	<File>Underworld_TransportUnits.xml</File>
 	<File>Minor_Heroes_Expansion.xml</File>
 	<File>Props_Felucia.xml</File>
-	<File>GroundBuildablesUnderworld.xml</File>
+	<!-- <File>GroundBuildablesUnderworld.xml</File> -->
 	<File>GroundStructures_Underworld.xml</File>
 	<File>Mobile_Defense_Units.XML</File>
 	<File>Multiplayer_Structure_Markers.XML</File>

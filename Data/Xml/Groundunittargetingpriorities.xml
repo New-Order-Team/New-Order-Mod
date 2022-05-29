@@ -170,6 +170,77 @@
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
+	
+	<!-- Anti-infantry turrets are good against infantry and mining platforms -->
+	<Priority_Set Name="AntiInfantryTurret">
+        <Attack_Priorities>
+			PlexInfantry, 1.0,
+            Infantry, 2.0,
+			TacticalStructure, 3.0,
+			Structure, 4.0,
+			
+            LandHero, 10.0,
+            Vehicle, 20.0,
+        </Attack_Priorities>
+        <Category_Exclusions>
+			Wall, Air
+        </Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
+	</Priority_Set>
+	
+	<!-- Anti-vehicle turrets are good against vehicles -->
+	<Priority_Set Name="AntiVehicleTurret">
+        <Attack_Priorities>
+			Vehicle, 1.0,
+			TacticalStructure, 2.0,
+			Structure, 3.0,
+			
+            LandHero, 10.0,
+			Infantry, 20.0,
+        </Attack_Priorities>
+        <Category_Exclusions>
+			Wall, Air
+        </Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
+	</Priority_Set>
+
+	<!-- Anti-air turrets are good against air vehicles -->
+	<Priority_Set Name="AntiAirTurret">
+		<Attack_Priorities>
+			Air, 1.0,
+			Infantry, 2.0,
+			
+			LandHero, 10.0,
+			TacticalStructure, 11.0,
+			
+			Vehicle, 20.0,
+			Structure, 21.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall, Structure
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>
+	
+	<!-- Aкешддукн turrets are good against structures, then everything else -->
+	<Priority_Set Name="ArtilleryTurret">
+        <Attack_Priorities>
+			TacticalStructure, 1.0,
+			Structure, 2.0,
+			
+            LandHero, 10.0,
+			Infantry, 20.0,
+			Vehicle, 20.0,
+        </Attack_Priorities>
+        <Category_Exclusions>
+			Wall, Air
+        </Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
+	</Priority_Set>
+	
+	
+	
+	
 
 	<!-- General priorities -->
 	<Priority_Set Name="InfantryAntiInfantry">

@@ -40,7 +40,7 @@
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire>Unit_Adjudicator_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_Intimidator_Fire</SFXEvent_Fire>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> LandHero, 30.0 </Targeting_Fire_Inaccuracy>

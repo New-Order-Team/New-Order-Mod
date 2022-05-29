@@ -372,8 +372,9 @@
 		<AI_Combat_Power>2214</AI_Combat_Power>
 		<Score_Cost_Credits>2214</Score_Cost_Credits>
 		<Hardpoints>
-				HP_AT_AT_prot_00, HP_AT_AT_01
+				HP_AT_AT_prot_00
 		</Hardpoints>
+		<Projectile_Types>Proj_Land_AT_AT_prot_Laser</Projectile_Types>
 	</GroundVehicle>
 	
 	<GroundCompany Name="Imperial_AT_AT_Prot_Company">
