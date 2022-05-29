@@ -47,7 +47,7 @@ function Definitions()
 	-- DebugMessage("%s -- In Definitions", tostring(Script))
 	
 	-- IgnoreTarget = true;
-	Category = "Always_Off" --Weaken_Planet
+	Category = "AlwaysOff" --Weaken_Planet
 	TaskForce = {
 	{
 		"ReserveForce",

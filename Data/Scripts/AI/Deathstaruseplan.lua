@@ -47,7 +47,7 @@ ScriptPoolCount = 0
 
 function Definitions()
 	
-	Category = "Always_Off"  -- Death_Star_Use
+	Category = "AlwaysOff"  -- Death_Star_Use
 	-- MinContrastScale = 0.75
 	-- MaxContrastScale = 1.75
 	TaskForce = {
