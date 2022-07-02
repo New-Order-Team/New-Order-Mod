@@ -726,8 +726,8 @@
 		<Barrel_Bone_Name> Barrel_00 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_Laser_QH_7</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>2.7</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>3.3</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
@@ -739,7 +739,7 @@
 		<Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 	<HardPoint Name="HP_Arrow_23_Launcher">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
@@ -759,19 +759,21 @@
 		<Is_Turret> Yes </Is_Turret>
 		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
 		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 10.0 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 120.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Rotate_Speed> 2.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 75.0 </Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees> 45.0 </Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
 		<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Land_AntiTank_Missile</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Projectile_Type>Proj_Leveler_Blank</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Land_AntiTank_Missile_Ability</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Rebel_Missile_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent></Fire_SFXEvent>
+		
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 	</HardPoint>
 

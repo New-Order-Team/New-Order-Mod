@@ -193,7 +193,7 @@
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>W_grenade.ALO</Land_Model_Name>
         <Space_Model_Name>W_grenade.ALO</Space_Model_Name>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
         <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
         <Max_Speed>7.5</Max_Speed>
         <Damage_Type>Damage_E4</Damage_Type>
@@ -216,7 +216,7 @@
         <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
         <Death_Explosions> Thermal_Detonator_Explosion </Death_Explosions>
         <AI_Combat_Power>300</AI_Combat_Power>
-		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 
     </Projectile>

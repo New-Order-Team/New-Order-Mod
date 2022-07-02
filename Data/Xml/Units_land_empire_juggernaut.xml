@@ -171,7 +171,7 @@
                 <Type>CLUSTER_BOMB</Type>
                 <Recharge_Seconds>10.0</Recharge_Seconds>
                 <GUI_Activated_Ability_Name> Juggernaut_Grenade_Volley </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 300.0 </Effective_Radius>
+                <Effective_Radius> 400.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
@@ -180,9 +180,9 @@
         <Abilities SubObjectList="Yes">
             <Cluster_Bomb_Ability Name="Juggernaut_Grenade_Volley">
                 <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 0.5 </Detonation_Time_In_Secs>
+                <Detonation_Time_In_Secs> 1.0 </Detonation_Time_In_Secs>
                 <Bomb_Type>Proj_Juggernaut_Grenade</Bomb_Type>
-                <Number_Of_Bombs> 6 </Number_Of_Bombs>
+                <Number_Of_Bombs> 12 </Number_Of_Bombs>
                 <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
             </Cluster_Bomb_Ability>
 		</Abilities>
