@@ -14,7 +14,7 @@ function Base_Definitions()
 
     Common_Base_Definitions()
 
-    ServiceRate = 0.1
+    ServiceRate = 10
 
     frag_index = 1
     death_index = 2
@@ -27,8 +27,6 @@ function Base_Definitions()
     if Definitions then
         Definitions()
     end
-
-    GameScoringPluginRunner = nil
 
     Define_Title_Faction_Table()
 end
@@ -55,9 +53,6 @@ function main()
         while true do
             GameService()
             PumpEvents()
-            if GameScoringPluginRunner then
-                GameScoringPluginRunner:update()
-            end
         end
     end
 
@@ -71,6 +66,7 @@ end
 --
 function Reset_Tactical_Stats()
     GameScoringMessage("GameScoring -- Resetting tactical stats.")
+    collectgarbage()
     -- [frag|death][playerid][object_type][build_count, credits_spent, combat_power]
     TacticalKillStatsTable = {[frag_index] = {}, [death_index] = {}}
     TacticalTeamKillStatsTable = {[frag_index] = {}, [death_index] = {}}
@@ -96,17 +92,8 @@ function Reset_Stats()
     GameScoringMessage("GameScoring -- Resetting stats.")
 
     Reset_Tactical_Stats()
-    -- [frag|death][playerid][object_type][build_count, credits_spent, combat_power]
-    GalacticKillStatsTable = {[frag_index] = {}, [death_index] = {}}
-
-    -- [playerid][planetname][object_type][build_count, credits_spent, combat_power]
-    GalacticBuildStatsTable = {}
-
-    -- [playerid][object_type][neutralized_count]
     GalacticNeutralizedTable = {}
 
-    -- [playerid][planet_type][sacked_count, lost_count]
-    GalacticConquestTable = {}
     PlayerTable = {}
     PlayerQuitTable = {}
 end
@@ -125,50 +112,7 @@ end
 -- @since 3/18/2005 3:48:32 PM -- BMH
 --
 function Update_Build_Stats_Table(stat_table, planet, object_type, owner, build_cost)
-    Update_Player_Table(owner)
 
-    if planet then
-        planet_type = planet.Get_Type()
-        planet_name = planet_type.Get_Name()
-    else
-        planet_type = 1
-        planet_name = "Unknown"
-    end
-
-    combat_power = object_type.Get_Combat_Rating()
-    score_value = object_type.Get_Score_Cost_Credits()
-    owner_id = owner.Get_ID()
-
-    GameScoringMessage(
-        "GameScoring -- %s produced %s at %s.",
-        PlayerTable[owner_id].Get_Name(),
-        object_type.Get_Name(),
-        planet_name
-    )
-
-    player_entry = stat_table[owner_id]
-    if player_entry == nil then
-        player_entry = {}
-    end
-
-    planet_entry = player_entry[planet_type]
-    if planet_entry == nil then
-        planet_entry = {}
-    end
-
-    type_entry = planet_entry[object_type]
-    if type_entry == nil then
-        type_entry = {build_count = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value}
-    else
-        type_entry.build_count = type_entry.build_count + 1
-        type_entry.combat_power = type_entry.combat_power + combat_power
-        type_entry.build_cost = type_entry.build_cost + build_cost
-        type_entry.score_value = type_entry.score_value + score_value
-    end
-
-    planet_entry[object_type] = type_entry
-    player_entry[planet_type] = planet_entry
-    stat_table[owner_id] = player_entry
 end
 
 --
@@ -178,47 +122,7 @@ end
 -- @since 3/21/2005 10:34:07 AM -- BMH
 --
 function Print_Build_Stats_Table(stat_table)
-    GameScoringMessage("GameScoring -- Build Stats dump.")
 
-    totals_table = {}
-
-    for owner_id, player_entry in pairs(stat_table) do
-        build_count = 0
-        cost_count = 0
-        power_count = 0
-        score_count = 0
-
-        GameScoringMessage("\tPlayer %s:", PlayerTable[owner_id].Get_Name())
-        for planet_type, planet_entry in pairs(player_entry) do
-            if planet_type == 1 then
-                GameScoringMessage("\t\t%20s:", "Tactical")
-            else
-                GameScoringMessage("\t\t%20s:", planet_type.Get_Name())
-            end
-            for object_type, type_entry in pairs(planet_entry) do
-                GameScoringMessage(
-                    "\t\t%40s: %d : %d : $%d : %d",
-                    object_type.Get_Name(),
-                    type_entry.build_count,
-                    type_entry.combat_power,
-                    type_entry.build_cost,
-                    type_entry.score_value
-                )
-                build_count = build_count + type_entry.build_count
-                cost_count = cost_count + type_entry.build_cost
-                power_count = power_count + type_entry.combat_power
-                score_count = score_count + type_entry.score_value
-            end
-        end
-
-        GameScoringMessage("\tTotal Builds: %d : %d : $%d : %d", build_count, power_count, cost_count, score_count)
-        totals_table[owner_id] = {
-            build_count = build_count,
-            cost_count = cost_count,
-            power_count = power_count,
-            score_count = score_count
-        }
-    end
 end
 
 --
@@ -228,57 +132,7 @@ end
 -- @since 3/15/2005 5:55:55 PM -- BMH
 --
 function Print_Stat_Table(stat_table)
-    frag_table = {}
 
-    GameScoringMessage("Frags:")
-    for k, v in pairs(stat_table[frag_index]) do
-        tkills = 0
-        tpower = 0
-        tscore = 0
-
-        GameScoringMessage("\tPlayer %s:", PlayerTable[k].Get_Name())
-        for kk, vv in pairs(v) do
-            GameScoringMessage("\t%40s: %d : %d : %d", kk.Get_Name(), vv.kills, vv.combat_power, vv.score_value)
-            tkills = tkills + vv.kills
-            tpower = tpower + vv.combat_power
-            tscore = tscore + vv.score_value
-        end
-
-        GameScoringMessage("\tTotal Frags: %d : %d : %d", tkills, tpower, tscore)
-        frag_table[k] = {kills = tkills, combat_power = tpower, score_value = tscore}
-    end
-
-    death_table = {}
-
-    GameScoringMessage("Deaths:")
-    for k, v in pairs(stat_table[death_index]) do
-        tkills = 0
-        tpower = 0
-        tscore = 0
-
-        GameScoringMessage("\tPlayer %s:", PlayerTable[k].Get_Name())
-        for kk, vv in pairs(v) do
-            GameScoringMessage("\t%40s: %d : %d : %d", kk.Get_Name(), vv.kills, vv.combat_power, vv.score_value)
-            tkills = tkills + vv.kills
-            tpower = tpower + vv.combat_power
-            tscore = tscore + vv.score_value
-        end
-
-        GameScoringMessage("\tTotal Deaths: %d : %d : %d", tkills, tpower, tscore)
-        death_table[k] = {kills = tkills, combat_power = tpower, score_value = tscore}
-    end
-
-    for k, player in pairs(PlayerTable) do
-        ft = frag_table[k]
-        dt = death_table[k]
-        if ft == nil or ft.kills == 0 then
-            GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: 0.0", player.Get_Name())
-        elseif dt == nil or dt.kills == 0 then
-            GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: %d", player.Get_Name(), ft.kills)
-        else
-            GameScoringMessage("\tPlayer %s, Weighted Kill Ratio: %f", player.Get_Name(), ft.kills / dt.kills)
-        end
-    end
 end
 
 --
@@ -287,13 +141,8 @@ end
 -- @since 3/15/2005 3:56:43 PM -- BMH
 --
 function GameService()
-    -- GameScoringMessage("GameScoring -- Tactical Stats dump.")
-    -- Print_Stat_Table(TacticalKillStatsTable)
-    -- GameScoringMessage("GameScoring -- Galactic Stats dump.")
-    -- Print_Stat_Table(GalacticKillStatsTable)
-    -- Print_Build_Stats_Table(GalacticBuildStatsTable)
-    -- Print_Build_Stats_Table(TacticalBuildStatsTable)
-    -- Debug_Print_Score_Vals()
+    GameScoringMessage("%s -- Garbage collection result %s", tostring(Script), tostring(gcinfo()))
+    collectgarbage()
 end
 
 --
@@ -332,8 +181,6 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 
     object_type = object.Get_Game_Scoring_Type()
     score_value = object.Get_Game_Scoring_Type().Get_Score_Cost_Credits()
-    combat_power = object.Get_Game_Scoring_Type().Get_Combat_Rating()
-    build_cost = object.Get_Game_Scoring_Type().Get_Build_Cost()
     killer_id = killer.Get_ID()
     owner_id = object.Get_Owner().Get_ID()
 
@@ -352,7 +199,7 @@ function Update_Kill_Stats_Table(stat_table, object, killer)
 
     pe = entry[object_type]
     if pe == nil then
-        pe = {kills = 1, combat_power = combat_power, build_cost = build_cost, score_value = score_value}
+        pe = {kills = 1, score_value = score_value}
     else
         pe.kills = pe.kills + 1
         pe.combat_power = pe.combat_power + combat_power
