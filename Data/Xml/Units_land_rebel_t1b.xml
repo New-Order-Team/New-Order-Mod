@@ -20,7 +20,7 @@
 
 		<Land_Model_Name>reb_t1b.alo</Land_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.92</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Deploys>No</Deploys>
 		<Affiliation>Rebel</Affiliation>
@@ -64,7 +64,27 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>AFFECTED_BY_SHIELD, HUNT,WALK_LOCOMOTOR, IDLE,TARGETING, WEAPON, TURRET, POWERED, SHIELDED, REVEAL,HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			BARRAGE,
+			DAMAGE_TRACKING,
+			GARRISON_UNIT,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			POWERED,
+			REVEAL,
+			SHIELDED,
+			STUNNABLE,
+			SURFACE_FX,
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+			WIND_DISTURBANCE,
+		</LandBehavior>
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
 		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
@@ -78,9 +98,9 @@
 		</Hardpoints>
 		
 		<Projectile_Types>Proj_Land_Flak_Missile</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>2.6</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
 		<SFXEvent_Fire>Unit_Rebel_Missile_Fire</SFXEvent_Fire>
 
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
@@ -105,6 +125,7 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Corvette, 45.0 </Targeting_Fire_Inaccuracy> <!-- LEAVE THIS FOR BARRAGE ABILITY -->
 	
 		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -181,6 +202,18 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>BARRAGE</Type>
+				<Expiration_Seconds>1</Expiration_Seconds>
+				<Recharge_Seconds>15</Recharge_Seconds>
+				<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 5.0f</Mod_Multiplier>
+                <SFXEvent_Target_Ability> Unit_Barrage_Interdictor </SFXEvent_Target_Ability>
+				<Projectile_Types_Override>Proj_Land_Flak_Missile</Projectile_Types_Override>
+                <Area_Effect_Decal_Distance> 75.0 </Area_Effect_Decal_Distance>
+				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+				<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
+			</Unit_Ability>
 	   </Unit_Abilities_Data>
 	</GroundVehicle>
 	
@@ -243,13 +276,9 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_T2B_Tank</SFXEvent_GUI_Unit_Ability_Activated>
-				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>BARRAGE</Type>
 			</Unit_Ability>
 	   </Unit_Abilities_Data>
 	</GroundCompany>

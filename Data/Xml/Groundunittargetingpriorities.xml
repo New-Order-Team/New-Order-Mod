@@ -137,16 +137,9 @@
 	<Priority_Set Name="T1bPriority">
 		<Attack_Priorities>
 			Air, 1.0,
-			Infantry, 2.0,
-			LandHero, 3.0,
-			TacticalStructure, 4.0,
-			
-			Vehicle, 10.0,
-			
-			Turret, 20.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure
+			Wall, Structure, Infantry, LandHero, Vehicle
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
