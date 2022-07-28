@@ -1014,25 +1014,78 @@
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 	</HardPoint>
 
-	<HardPoint Name="HP_T3b_Launcher">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
+	<HardPoint Name="HP_T3b_Launcher_00">
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
 		<Health>150.0</Health>
 
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+
+		<Fire_Projectile_Type>Proj_Blank</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent />
+
+		<Fire_Inaccuracy_Distance> Infantry, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+	</HardPoint>
+	<HardPoint Name="HP_T3b_Launcher_01">
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
+		<Health>150.0</Health>
+
+		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+		<Fire_Cone_Width>20.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
+
+		<Fire_Projectile_Type>Proj_Blank</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent />
+
+		<Fire_Inaccuracy_Distance> Infantry, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+	</HardPoint>
+	<HardPoint Name="HP_T3b_Launcher_02">
+		<Type> HARD_POINT_WEAPON_SPECIAL </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
+		<Health>150.0</Health>
+
+		<Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 
-		<Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.6</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.6</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>3</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+		<Fire_Projectile_Type>Proj_Blank</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Land_MPTL_Torpedo</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_MPTL_Tank_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent />
 
 		<Fire_Inaccuracy_Distance> Infantry, 40.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 40.0 </Fire_Inaccuracy_Distance>
@@ -1044,12 +1097,6 @@
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
-		<Health>150.0</Health>
-
-		<Model_To_Attach>rv_t4_b_00.ALO</Model_To_Attach>
-		<Attachment_Bone>Attach_00</Attachment_Bone>
-		<Collision_Mesh>Turret_Collision</Collision_Mesh>
 
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -1057,96 +1104,20 @@
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-		
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 20.0 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
-		<Barrel_Bone_Name> Barrel_00 </Barrel_Bone_Name>
 
 		<Fire_Projectile_Type>Proj_Land_T4b_Laser</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>5.22</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>6.38</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>5.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>5.8</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tank_T4B_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 20.0 </Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
 	</HardPoint>
-
-	<HardPoint Name="HP_T4B_Tank_00">
-			<Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-
-            <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-            <Fire_Cone_Width>20.0</Fire_Cone_Width>
-            <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>400.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tank_Missile_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-    <HardPoint Name="HP_T4B_Tank_01">
-			<Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-
-            <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-            <Fire_Cone_Width>20.0</Fire_Cone_Width>
-            <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>400.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tank_Missile_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-    <HardPoint Name="HP_T4B_Tank_02">
-			<Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-
-            <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
-            <Fire_Cone_Width>20.0</Fire_Cone_Width>
-            <Fire_Cone_Height>20.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Land_Flak_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.05</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.95</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>400.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Tank_Missile_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
 	
 	<HardPoint Name="HP_MPTL_1">
 			<Type> HARD_POINT_WEAPON_MISSILE </Type>

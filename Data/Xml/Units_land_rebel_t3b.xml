@@ -44,14 +44,30 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Behavior> SELECTABLE </Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, TREAD_SCROLL, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING</LandBehavior>
-		<Property_Flags>GoodInfantryCrusher</Property_Flags>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			POWERED,
+			REVEAL,
+			STUNNABLE,
+			SURFACE_FX,
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TREAD_SCROLL,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+		</LandBehavior>
 		<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		
 		<HardPoints>
-			HP_T3b_Launcher
+			HP_T3b_Launcher_00, HP_T3b_Launcher_01, HP_T3b_Launcher_02
 		</HardPoints>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
@@ -74,30 +90,9 @@
 	
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 99.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-
-		<!--<Projectile_Types>Proj_Blank</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>10.0</Projectile_Fire_Recharge_Seconds>
-		<Turret_Rotate_Extent_Degrees>30.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
-		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
-
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		<Fire_Category_Restrictions> Infantry, Air </Fire_Category_Restrictions>-->
-
-		<!--<Projectile_Types>Proj_Land_MPTL_Torpedo</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-		
-		<Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
-		<Fire_Category_Restrictions> Infantry, Air </Fire_Category_Restrictions>-->
 
 		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
@@ -170,6 +165,28 @@
 		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
 		<Score_Cost_Credits>872</Score_Cost_Credits>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>BLAST</Type>
+				<Recharge_Seconds>15.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> T3b_Torpedo_Salvo </GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Icon_Name>i_sa_full_salvo.tga</Alternate_Icon_Name>
+				<!-- <Supports_Autofire>True</Supports_Autofire> -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Blast_Ability Name="T3b_Torpedo_Salvo">
+                <Activation_Style> User_Input </Activation_Style>
+                <Charge_Up_Seconds>0</Charge_Up_Seconds>
+                <Damage_Multiplier>1</Damage_Multiplier>
+                <Charging_Effect />
+                <Charged_Effect />
+                <SFXEvent_Activate>Unit_Attack_T4B_Tank</SFXEvent_Activate>
+            </Blast_Ability>
+        </Abilities>
 	</GroundVehicle>
 	
 	<GroundCompany Name="Rebel_T3b_Platoon">
@@ -213,6 +230,12 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>BLAST</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
         
   		<Encyclopedia_Text>TEXT_TOOLTIP_T3B_PLATOON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TANK</Encyclopedia_Unit_Class>
