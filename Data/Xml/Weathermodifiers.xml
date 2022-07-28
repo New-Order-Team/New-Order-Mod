@@ -77,7 +77,7 @@
 	<WeatherModifier name="ash">
 		
 		<Sight_Range_Modifier name="Default">1.00f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry">0.70f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry">0.66f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="Infantry_Visor">1.00f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="Walker">1.00f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="LargeWalker">1.00f</Sight_Range_Modifier>
@@ -119,35 +119,35 @@
 	
 	<WeatherModifier name="snow">
 
-		<Sight_Range_Modifier name="Default">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry">0.40f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry_Visor">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Walker">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="LargeWalker">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Tracked">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Hover">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Wheeled">0.75f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Flying">0.75f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Default">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry">0.66f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry_Visor">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Walker">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="LargeWalker">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Tracked">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Hover">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Wheeled">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Flying">1.0f</Sight_Range_Modifier>
 	
 	
 		<Speed_Modifier name="Default">1.0f</Speed_Modifier>
-		<Speed_Modifier name="Infantry">0.75f</Speed_Modifier>
-		<Speed_Modifier name="Infantry_Visor">0.75f</Speed_Modifier>
+		<Speed_Modifier name="Infantry">1.0f</Speed_Modifier>
+		<Speed_Modifier name="Infantry_Visor">1.0f</Speed_Modifier>
 		<Speed_Modifier name="Walker">1.0f</Speed_Modifier>
 		<Speed_Modifier name="LargeWalker">1.0f</Speed_Modifier>
 		<Speed_Modifier name="Tracked">1.0f</Speed_Modifier>
 		<Speed_Modifier name="Hover">1.0f</Speed_Modifier>
 		<Speed_Modifier name="Wheeled">1.0f</Speed_Modifier>
-		<Speed_Modifier name="Flying">0.75f</Speed_Modifier>
+		<Speed_Modifier name="Flying">1.0f</Speed_Modifier>
 		
 		<!-- slight accuracy penalty for missiles/rockets, moderate penalty for lasers -->
 		<Weapon_Accuracy_Modifier name="Default">1.0f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Laser">0.0f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Missile">0.5f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Rocket">-3.0f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="MPTL_Rocket">0.5f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Grenade">1.00f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Bomb">1.00f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Laser">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Missile">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Rocket">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="MPTL_Rocket">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Grenade">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Bomb">1.0f</Weapon_Accuracy_Modifier>
 
 		<Icon_Name>i_encyclopedia_weather_snow.tga</Icon_Name>
 		<Display_Text>TEXT_WEATHER_NAME_SNOW</Display_Text>
@@ -164,7 +164,7 @@
 	<WeatherModifier name="rain">
 
 		<Sight_Range_Modifier name="Default">1.0f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry">0.70f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry">0.66f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="Infantry_Visor">1.00f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="Walker">1.00f</Sight_Range_Modifier>
 		<Sight_Range_Modifier name="LargeWalker">1.00f</Sight_Range_Modifier>
@@ -187,11 +187,11 @@
 		<!-- slight accuracy penalty for lasers -->
 		<Weapon_Accuracy_Modifier name="Default">1.0f</Weapon_Accuracy_Modifier>
 		<Weapon_Accuracy_Modifier name="Laser">1.0f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Missile">1.00f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Rocket">1.00f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Missile">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Rocket">1.0f</Weapon_Accuracy_Modifier>
 		<Weapon_Accuracy_Modifier name="MPTL_Rocket">1.0f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Grenade">1.00f</Weapon_Accuracy_Modifier>
-		<Weapon_Accuracy_Modifier name="Bomb">1.00f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Grenade">1.0f</Weapon_Accuracy_Modifier>
+		<Weapon_Accuracy_Modifier name="Bomb">1.0f</Weapon_Accuracy_Modifier>
 
 		<Icon_Name>i_encyclopedia_weather_rain.tga</Icon_Name>
 		<Display_Text>TEXT_WEATHER_NAME_RAIN</Display_Text>
@@ -208,19 +208,19 @@
 	
 	<WeatherModifier name="sandstorm">
 
-		<Sight_Range_Modifier name="Default">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry">0.40f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Infantry_Visor">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Walker">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="LargeWalker">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Tracked">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Hover">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Wheeled">0.70f</Sight_Range_Modifier>
-		<Sight_Range_Modifier name="Flying">0.70f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Default">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry">0.33f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Infantry_Visor">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Walker">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="LargeWalker">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Tracked">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Hover">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Wheeled">1.0f</Sight_Range_Modifier>
+		<Sight_Range_Modifier name="Flying">1.0f</Sight_Range_Modifier>
 	
 		<Speed_Modifier name="Default">1.0f</Speed_Modifier>
-		<Speed_Modifier name="Infantry">0.70f</Speed_Modifier>
-		<Speed_Modifier name="Infantry_Visor">0.70f</Speed_Modifier>
+		<Speed_Modifier name="Infantry">0.5f</Speed_Modifier>
+		<Speed_Modifier name="Infantry_Visor">0.5f</Speed_Modifier>
 		<Speed_Modifier name="Walker">1.0f</Speed_Modifier>
 		<Speed_Modifier name="LargeWalker">1.0f</Speed_Modifier>
 		<Speed_Modifier name="Tracked">1.0f</Speed_Modifier>
