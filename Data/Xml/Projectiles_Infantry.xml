@@ -202,7 +202,7 @@
 		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
 	</Projectile>
 	
-	<Projectile Name="Proj_Land_Infantry_Missile">
+	<Projectile Name="Proj_Infantry_Plex_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>proj_land_missile_plex.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -210,14 +210,14 @@
 		<Max_Speed>7.5</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Category>MISSILE</Projectile_Category>
 		
 		<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>300</Projectile_Rocket_Straight_Distance>
 
 		<Projectile_Max_Flight_Distance>600.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>700.0</Projectile_Max_Scan_Range>
+		<Projectile_Max_Scan_Range>300.0</Projectile_Max_Scan_Range>
 
 		<Projectile_Damage>50.0</Projectile_Damage>
 		
@@ -236,6 +236,50 @@
 		<Projectile_Lifetime_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Lifetime_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Explosion_Land_Missile_Plex</Projectile_Absorbed_By_Shields_Particle>
 		<AI_Combat_Power>100</AI_Combat_Power>
+		
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+	</Projectile>
+	
+	<Projectile Name="Proj_Infantry_Plex_Rocket">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>proj_land_missile_plex.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type>Damage_L5</Damage_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>50</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>10</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>300</Projectile_Rocket_Straight_Distance>
+
+		<Projectile_Max_Flight_Distance>600.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+
+		<Projectile_Damage>50.0</Projectile_Damage>
+		
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Projectile_Object_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Missile_Explosion_Ground_Hit</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Explosion_Land_Missile_Plex</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Explosion_Land_Missile_Plex</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>3.8</Projectile_Fire_Recharge_Seconds>
 	</Projectile>
 	
 	<!--<Projectile Name="Proj_Land_Blaster_CR_1">

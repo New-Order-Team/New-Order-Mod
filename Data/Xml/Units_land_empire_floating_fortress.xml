@@ -15,8 +15,8 @@
 		<Mass>1.0</Mass>
 		<Size_Value>150</Size_Value>
 
-		<Max_Speed>1.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
 		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
 	
 		<Behavior>SELECTABLE</Behavior>
@@ -36,7 +36,7 @@
 			TURRET,
 			UNIT_AI,
 			WALK_LOCOMOTOR,
-			WEAPON,
+			<!-- WEAPON, -->
 			WIND_DISTURBANCE,
 		</LandBehavior>
 
@@ -54,7 +54,6 @@
 
 		<Armor_Type> Armor_A5 </Armor_Type>
 		<Tactical_Health>1640</Tactical_Health>
-		<Autoresolve_Health>1640</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>	
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -73,11 +72,11 @@
 				HP_A9_Floating_Fort_01
 		</Hardpoints>
 		
-		<Projectile_Types>Proj_Blank</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<SFXEvent_Fire></SFXEvent_Fire>
+		<!-- <Projectile_Types>Proj_Blank</Projectile_Types> -->
+		<!-- <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count> -->
+		<!-- <Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds> -->
+		<!-- <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds> -->
+		<!-- <SFXEvent_Fire></SFXEvent_Fire> -->
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
@@ -134,31 +133,17 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<!-- Non-Hero unit abilities description 
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>CONCENTRATE_FIRE</Type>
-				<Effective_Radius>500</Effective_Radius>
-				<Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
-				<GUI_Activated_Ability_Name>Target_Identification_Network</GUI_Activated_Ability_Name>
-				<SFXEvent_Target_Ability> Unit_Attack_AT_AT </SFXEvent_Target_Ability>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLOATING_FORTRESS</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FLOATING_FORTRESS_DESCRIPTION</Alternate_Description_Text>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>15</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Floating_Fortress_TIN</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated />
+				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-
-		<Abilities SubObjectList="Yes">
-			<Concentrate_Fire_Attack_Ability Name="Target_Identification_Network">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Vehicle | Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Target_Damage_Increase_Percent>0.25</Target_Damage_Increase_Percent>
-				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
-				<Stacking_Category>0</Stacking_Category>
-			</Concentrate_Fire_Attack_Ability>
-		</Abilities>-->
 	</GroundVehicle>
 
 	<GroundCompany Name="Floating_Fortress_Platoon">
@@ -200,12 +185,12 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>1880</Score_Cost_Credits>
 
-		<!-- Non-Hero unit abilities description 
+		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>CONCENTRATE_FIRE</Type>
+				<Type>HARMONIC_BOMB</Type>
 			</Unit_Ability>
-		</Unit_Abilities_Data>-->
+		</Unit_Abilities_Data>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1880</Tactical_Build_Cost_Multiplayer>

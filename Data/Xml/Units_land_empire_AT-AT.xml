@@ -26,6 +26,7 @@
 			ABILITY_COUNTDOWN,
 			AFFECTED_BY_SHIELD,
 			DAMAGE_TRACKING,
+			DEPLOY_TROOPERS,
 			GARRISON_VEHICLE,
 			HIDE_WHEN_FOGGED,
 			IDLE,
@@ -86,6 +87,7 @@
 
 		<Type>Walk</Type>
 		<Deploys>Yes</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>150</Size_Value>
@@ -192,6 +194,17 @@
 		<Tactical_Bribe_Cost>1000</Tactical_Bribe_Cost>
 
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Spawned_Object_Type>Assault_Trooper_Platoon</Spawned_Object_Type>
+				<Max_Num_Spawned_Objects>2</Max_Num_Spawned_Objects>
+				<Owner_Attachment_Bone>B_Trooper_00, B_Trooper_01, B_Trooper_02 </Owner_Attachment_Bone>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Deploy_AT_AT</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</GroundVehicle>
 	
 	<GroundVehicle Name="AT_AT_Walker_REB09">
@@ -344,6 +357,12 @@
 		<SFXEvent_Build_Complete>Unit_Complete_AT_AT</SFXEvent_Build_Complete>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AT</SFXEvent_Fleet_Move>
 		<Score_Cost_Credits>200</Score_Cost_Credits>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
@@ -431,4 +450,87 @@
 
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
+	
+	<GroundCompany Name="Assault_Trooper_Platoon">
+        <Variant_Of_Existing_Type>Company_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER_PLATOON</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_TROOPER_DESC
+			TEXT_UNIT_ARMY_TROOPER_PLATOON_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_TROOPER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_TROOPER_W_1_PLATOON
+			TEXT_UNIT_ARMY_TROOPER_W_2_PLATOON
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_army_trooper.tga</Icon_Name>
+		<GUI_Model_Name>ei_army_trooper_e11.ALO</GUI_Model_Name>
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Tech_Level>99</Tech_Level>
+		<Required_Special_Structures />
+		
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>
+			Imperial_Army_Trooper,
+			Imperial_Army_Trooper,
+			Imperial_Army_Trooper_Light_Repeater,
+			Imperial_Army_Trooper,
+			Imperial_Army_Trooper,
+			Imperial_Army_Trooper_Light_Repeater,
+			Imperial_Army_Trooper,
+			Imperial_Army_Trooper,
+			Imperial_Army_Sergeant,
+		</Company_Units>
+        <Max_Squad_Size> 9 </Max_Squad_Size>
+		<Create_Team_Type> Assault_Trooper_Team </Create_Team_Type>
+
+		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundCompany>
+
+	<Container Name="Assault_Trooper_Team">
+		<Variant_Of_Existing_Type>Infantry_Team_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ARMY_TROOPER_PLATOON</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_ARMY_TROOPER_DESC
+			TEXT_UNIT_ARMY_TROOPER_PLATOON_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_ARMY_TROOPER_INFO_1
+			TEXT_UNIT_ARMY_TROOPER_INFO_2
+			TEXT_UNIT_ARMY_TROOPER_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_ARMY_TROOPER_W_1_PLATOON
+			TEXT_UNIT_ARMY_TROOPER_W_2_PLATOON
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_army_trooper.tga</Icon_Name>
+		
+        <Affiliation>Empire</Affiliation>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Max_Speed> 0.45 </Max_Speed>
+		<FormationSpacing> 1 </FormationSpacing> 
+		<FormationOrder> 2 </FormationOrder>
+		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
 </AT-AT_Data>

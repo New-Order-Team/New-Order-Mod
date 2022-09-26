@@ -79,7 +79,7 @@
 			SURFACE_FX,
 			TARGETING,
 			TELEKINESIS_TARGET,
-			TURRET,
+			<!-- TURRET, -->
 			UNIT_AI,
 			WALK_LOCOMOTOR,
 			WEAPON,
@@ -93,33 +93,33 @@
 		<Garrison_Value>4</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 
-		<Hardpoints>
+		<!-- <Hardpoints>
 			HP_T1b_Main
-		</Hardpoints>
+		</Hardpoints> -->
 		
 		<Projectile_Types>Proj_Land_Flak_Missile</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.6</Projectile_Fire_Recharge_Seconds>
 		<SFXEvent_Fire>Unit_Rebel_Missile_Fire</SFXEvent_Fire>
 
-		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-		<Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance>
+		<!-- <Targeting_Min_Attack_Distance>50.0</Targeting_Min_Attack_Distance> -->
 		<Ranged_Target_Z_Adjust>13.0</Ranged_Target_Z_Adjust>
 
-		<Turret_Rotate_Extent_Degrees>5.0</Turret_Rotate_Extent_Degrees>
+		<!-- <Turret_Rotate_Extent_Degrees>5.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
-		<Barrel_Bone_Name>Launcher</Barrel_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Turret_Rotate_Speed>10.0</Turret_Rotate_Speed>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 
-		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Air_Vehicles> 2 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Air_Vehicles> 1 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
 		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
-		<Turret_Targets_Ground_Vehicles> 4 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Vehicles> 4 </Turret_Targets_Ground_Vehicles> -->
 
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
@@ -203,7 +203,7 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 			
-			<Unit_Ability>
+			<!-- <Unit_Ability>
 				<Type>BARRAGE</Type>
 				<Expiration_Seconds>1</Expiration_Seconds>
 				<Recharge_Seconds>15</Recharge_Seconds>
@@ -213,7 +213,7 @@
                 <Area_Effect_Decal_Distance> 75.0 </Area_Effect_Decal_Distance>
 				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 				<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
-			</Unit_Ability>
+			</Unit_Ability> -->
 	   </Unit_Abilities_Data>
 	</GroundVehicle>
 	

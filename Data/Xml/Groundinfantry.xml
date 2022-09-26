@@ -9,7 +9,15 @@
 		<Encyclopedia_Vulnerable_To/>
 		<Encyclopedia_Unit_Class/>
         <GalacticBehavior>SELECTABLE</GalacticBehavior>
-		<LandBehavior> WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, SPAWN_SQUADRON</LandBehavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			REVEAL,
+			SPAWN_SQUADRON,
+			WALK_LOCOMOTOR,
+		</LandBehavior>
 
 		<Affiliation>Rebel, Empire, Underworld, Hutts, Pirates</Affiliation>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
@@ -91,6 +99,7 @@
 			HIDE_WHEN_FOGGED,
 			IDLE,
 			LAND_TEAM_INFANTRY_LOCOMOTOR,
+			LANDING,
 			REVEAL,
 			STUNNABLE,
 			SURFACE_FX,

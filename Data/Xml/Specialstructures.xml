@@ -255,7 +255,8 @@
 				<!--Imperial_General_Squad,-->
 				Imperial_Heavy_Scout_Squad, <!-- AT-ST -->
 				Chariot_Command_Platoon,
-				Floating_Fortress_Platoon,
+				Imperial_Armor_Group, <!-- S-1 Firehawke -->
+				Century_Tank_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>1000</AI_Combat_Power>
@@ -403,7 +404,6 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Imperial_Anti_Aircraft_Company, <!-- AT-AA -->
-				<!-- T_16_Platoon, -->
 				<!-- MAAT_Platoon, -->
 				<!-- IDT_Platoon, -->
 				EL_Bombing_Run_Use_Upgrade,
@@ -543,11 +543,10 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Imperial_Mobile_Artillery_Platoon,
-				Imperial_Armor_Group, <!-- S-1 Firehawke -->
-				Century_Tank_Platoon,
+				Floating_Fortress_Platoon,
 				HAV_Juggernaut_Company,
 				Imperial_Heavy_Assault_Company, <!-- AT-AT -->
+				Imperial_Mobile_Artillery_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
       <AI_Combat_Power>800</AI_Combat_Power>

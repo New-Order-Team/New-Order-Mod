@@ -30,17 +30,14 @@
 		<Tactical_Health>40</Tactical_Health>
 		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Land_Infantry_Missile</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Types>Proj_Infantry_Plex_Missile, Proj_Infantry_Plex_Rocket</Projectile_Types>
 		<SFXEvent_Fire>Unit_DH_17_Blaster_Fire</SFXEvent_Fire>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 40.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> LandHero, 70.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 40.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 40.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 40.0 </Targeting_Fire_Inaccuracy>
 
 		<SFXEvent_Select>Unit_Select_Plex_Soldier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Plex_Soldier</SFXEvent_Move>
@@ -66,12 +63,6 @@
 		<Property_Flags>PlexInfantry</Property_Flags>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
-			</Unit_Ability>
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
@@ -81,6 +72,12 @@
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>50</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -148,12 +145,6 @@
         <CategoryMask> Infantry | AntiVehicle </CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
-			</Unit_Ability>
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
@@ -163,6 +154,12 @@
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>50</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -214,12 +211,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
@@ -229,6 +220,12 @@
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>50</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -276,12 +273,6 @@
 		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>		  
-			</Unit_Ability>
             <Unit_Ability>
                 <Type>PROXIMITY_MINES</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
@@ -291,6 +282,12 @@
                 <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
             </Unit_Ability>
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>50</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">

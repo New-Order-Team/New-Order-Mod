@@ -5,8 +5,13 @@
 <!-- New Order START -->
 
 	<SFXEvent Name="SFX_Ion_Disruptor_Hit">
-			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>Data\Audio\SFX\GUN_Ion_Disruptor_Hit.wav</Samples>      
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_Ion_Disruptor_Hit.wav</Samples>
+    </SFXEvent>
+	
+	<SFXEvent Name="SFX_TIN_Ping">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>Data\Audio\SFX\EXP_TIN_Ping.wav</Samples>
     </SFXEvent>
 
 

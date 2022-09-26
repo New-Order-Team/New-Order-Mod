@@ -158,6 +158,45 @@
 		<Projectile_Lifetime_Detonation_Particle>Self_Destruct_Effect</Projectile_Lifetime_Detonation_Particle>
 	</Projectile>
 	
+	<!-- Target Identification Network ping, as used by A9 Floating Fortress -->
+	<Projectile Name="Proj_Floating_Fortress_TIN">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_invisible.alo</Land_Model_Name>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Range>500.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>0.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		
+		<Projectile_SFXEvent_Detonate>SFX_TIN_Ping</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_TIN_Ping</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<Projectile_Object_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>TIN_Ping_Blast_Particles</Projectile_Absorbed_By_Shields_Particle>
+
+        <Projectile_Combat_Mod>COMBAT_MOD_DEFENSE</Projectile_Combat_Mod>
+        <Projectile_Combat_Mod_Duration>15</Projectile_Combat_Mod_Duration>
+		<Projectile_Combat_Mod_Value>-0.25</Projectile_Combat_Mod_Value>
+        <Projectile_Combat_Mod_Effect>Debuff_TIN</Projectile_Combat_Mod_Effect>
+        <Projectile_Combat_Mod_Category_Mask> Infantry | Vehicle | LandHero | Structure </Projectile_Combat_Mod_Category_Mask>
+	</Projectile>
+	
 	<Projectile Name="Proj_Heavy_Tracker_FOW_Reveal_Ping_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>

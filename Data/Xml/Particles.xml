@@ -10,6 +10,15 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
     </Particle>
+	
+	<!-- Target Identification Network Debuff -->
+	 <Particle Name="Debuff_TIN">
+        <Land_Model_Name>p_debuff_tin.alo</Land_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
+    </Particle>
 
 	<!-- Buzz Droid -->
 	<Particle Name="Buzz_Droid_Explosion">
@@ -129,6 +138,16 @@
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="TIN_Ping_Blast_Particles">
+		<Land_Model_Name>p_target_identification_network.ALO</Land_Model_Name>
+		<Space_Model_Name>p_target_identification_network.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
 	</Particle>
 
 

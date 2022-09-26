@@ -133,13 +133,26 @@
 		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
 	</Priority_Set>
 
-	<!-- T1-B is weak, don't attack anything except infantry or air -->
+	<!-- T1-B is weak, don't attack anything except infantry or air 
 	<Priority_Set Name="T1bPriority">
 		<Attack_Priorities>
 			Air, 1.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
 			Wall, Structure, Infantry, LandHero, Vehicle
+		</Category_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+	</Priority_Set>-->
+	<Priority_Set Name="T1bPriority">
+		<Attack_Priorities>
+			Air, 1.0,
+			Infantry, 2.0,
+			LandHero, 3.0,
+			Vehicle, 4.0,
+			Structure, 5.0,
+		</Attack_Priorities>
+		<Category_Exclusions>
+			Wall
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
