@@ -23,7 +23,7 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10_300</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R5</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -52,7 +52,7 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10_300</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R5</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.6</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -81,11 +81,11 @@
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 
-		<Fire_Projectile_Type>Proj_Land_Infantry_R10</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Projectile_Type>Proj_Land_Infantry_R10_300</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.1</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.1</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>300.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_E_11_Fire</Fire_SFXEvent>
 
