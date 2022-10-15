@@ -7,7 +7,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_balmorra_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_balmorra_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_balmorra_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -21,7 +21,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>2975</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>83.0, 112.0, 10.0</Galactic_Position>
+		<Galactic_Position>83.0, 112.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -73,7 +73,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -85,9 +85,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1835</Planet_Credit_Value>
+		<Planet_Credit_Value>1775</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>0.0, -162.0, 10.0</Galactic_Position>
+		<Galactic_Position>0.0, -162.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -139,7 +139,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
@@ -151,9 +151,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2500</Planet_Credit_Value>
+		<Planet_Credit_Value>2000</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-166.0, 535.0, 10.0</Galactic_Position>
+		<Galactic_Position>-166.0, 535.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -205,7 +205,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_alderaan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_alderaan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -219,7 +219,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1575</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, 144.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, 144.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -264,72 +264,6 @@
 
 	</Planet>
 
-	<Planet Name="Alzoc_III_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_ALZOC_III</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_ice01.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ice01.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.3</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>9.1</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2500</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>444.0, -792.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>5</Special_Structures_Land>
-		<Special_Structures_Space>1</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_AlzocIII_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_AlzocIII_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_ALZOC_III_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ALZOC_III_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_ALZOC_III_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_MINING_WORLD</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_ALZOC_III_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_mining_colony.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_MINING_WORLD</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_MINING_WORLD_DESC</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Anaxes_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_ANAXES</Text_ID>
@@ -337,7 +271,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.3</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>9.1</Mouse_Collide_Override_Sphere_Radius>
@@ -349,9 +283,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1760</Planet_Credit_Value>
+		<Planet_Credit_Value>2100</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>9.0, 155.0, 10.0</Galactic_Position>
+		<Galactic_Position>9.0, 155.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -403,7 +337,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_swamp01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_swamp01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -417,7 +351,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1050</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>192.0, -244.0, 10.0</Galactic_Position>
+		<Galactic_Position>192.0, -244.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -469,10 +403,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_balmorra_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_balmorra_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_balmorra_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -481,9 +415,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2100</Planet_Credit_Value>
+		<Planet_Credit_Value>2900</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>200.0, 72.0, 10.0</Galactic_Position>
+		<Galactic_Position>200.0, 72.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -535,10 +469,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_gas01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_gas01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_gas01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -547,9 +481,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1380</Planet_Credit_Value>
+		<Planet_Credit_Value>1300</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-94.0, -712.0, 10.0</Galactic_Position>
+		<Galactic_Position>-94.0, -725.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -601,7 +535,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ocean01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_ocean01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
@@ -613,9 +547,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1170</Planet_Credit_Value>
+		<Planet_Credit_Value>1450</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>100.0, -250.0, 10.0</Galactic_Position>
+		<Galactic_Position>100.0, -250.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -667,10 +601,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_asteroids.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_asteroids.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_asteroids.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -681,7 +615,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1000</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-116.0, 312.0, 10.0</Galactic_Position>
+		<Galactic_Position>-116.0, 312.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -737,7 +671,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_bonadan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_bonadan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -749,9 +683,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>3100</Planet_Credit_Value>
+		<Planet_Credit_Value>3700</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>750.0, 750.0, 10.0</Galactic_Position>
+		<Galactic_Position>750.0, 750.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -803,7 +737,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>4.9</Mouse_Collide_Override_Sphere_Radius>
@@ -815,9 +749,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1325</Planet_Credit_Value>
+		<Planet_Credit_Value>2225</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>625.0, -265.0, 10.0</Galactic_Position>
+		<Galactic_Position>625.0, -265.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -869,7 +803,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -881,9 +815,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2450</Planet_Credit_Value>
+		<Planet_Credit_Value>2650</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>57.0, 184.0, 10.0</Galactic_Position>
+		<Galactic_Position>57.0, 184.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -935,10 +869,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -947,9 +881,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1370</Planet_Credit_Value>
+		<Planet_Credit_Value>1250</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-50.0, -50.0, 10.0</Galactic_Position>
+		<Galactic_Position>-50.0, -50.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -970,12 +904,12 @@
 		<Describe_Terrain>TEXT_PLANET_BYSS_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_SUBTROP_W</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_FORTRESS_WORLD TEXT_PLANET_MAJOR__MAJOR_SHIPYARDS</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FORTRESS_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_BYSS_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_FORTRESS_WORLD TEXT_PLANET_MAJOR__MAJOR_SHIPYARDS</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_FORTRESS_WORLD_DESC TEXT_PLANET_MAJOR__MAJOR_SHIPYARDS_DESC</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_MAJOR_FORTRESS_WORLD</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_MAJOR_FORTRESS_WORLD_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_rain.tga</Encyclopedia_Weather_Icon>
@@ -1001,10 +935,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1013,9 +947,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1210</Planet_Credit_Value>
+		<Planet_Credit_Value>1550</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>200.0, 150.0, 10.0</Galactic_Position>
+		<Galactic_Position>200.0, 150.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -1065,12 +999,12 @@
 		<Text_ID>TEXT_PLANET_CELANON</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_temperate03a.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_temperate03a.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1079,9 +1013,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>875</Planet_Credit_Value>
+		<Planet_Credit_Value>750</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>375.0, 537.0, 10.0</Galactic_Position>
+		<Galactic_Position>375.0, 537.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -1133,10 +1067,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_alderaan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_alderaan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1145,9 +1079,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1970</Planet_Credit_Value>
+		<Planet_Credit_Value>3350</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>633.0, 416.0, 10.0</Galactic_Position>
+		<Galactic_Position>633.0, 416.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -1199,10 +1133,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1211,9 +1145,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2075</Planet_Credit_Value>
+		<Planet_Credit_Value>1775</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>69.0, 280.0, 10.0</Galactic_Position>
+		<Galactic_Position>69.0, 280.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -1265,10 +1199,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1279,7 +1213,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>2800</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>265.0, 50.0, 10.0</Galactic_Position>
+		<Galactic_Position>265.0, 50.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -1331,7 +1265,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -1343,9 +1277,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2080</Planet_Credit_Value>
+		<Planet_Credit_Value>2375</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, -25.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, -25.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -1397,7 +1331,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_forest01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_forest01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -1409,9 +1343,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1620</Planet_Credit_Value>
+		<Planet_Credit_Value>1950</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>33.0, 169.0, 10.0</Galactic_Position>
+		<Galactic_Position>33.0, 169.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -1463,7 +1397,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -1475,9 +1409,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2080</Planet_Credit_Value>
+		<Planet_Credit_Value>2200</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-14.0, 140.0, 10.0</Galactic_Position>
+		<Galactic_Position>-14.0, 140.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -1498,12 +1432,12 @@
 		<Describe_Terrain>TEXT_PLANET_CORUSCANT_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_TEMP_D</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_ECUMENOPOLIS TEXT_PLANET_MAJOR__WAR_ACADEMY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_CORUSCANT_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_ECUMENOPOLIS</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_ECUMENOPOLIS_DESC</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_MAJOR_ECUMENOPOLIS TEXT_PLANET_MAJOR__WAR_ACADEMY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_MAJOR_ECUMENOPOLIS_DESC TEXT_PLANET_MAJOR__WAR_ACADEMY_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_clear.tga</Encyclopedia_Weather_Icon>
@@ -1522,72 +1456,6 @@
 
 	</Planet>
 
-	<Planet Name="Dagobah_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_DAGOBAH</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_dagobah_low.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_dagobah_low.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>0.7</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>4.9</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>0</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>166.0, -800.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>2</Special_Structures_Land>
-		<Special_Structures_Space>1</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Dagobah_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Dagobah_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_POP_None</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_DAGOBAH_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_DAGOBAH_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_DAGOBAH_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Dantooine_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_DANTOOINE</Text_ID>
@@ -1595,7 +1463,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_dantooine01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_dantooine01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_dantooine01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -1609,7 +1477,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>550</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>0.0, 710.0, 10.0</Galactic_Position>
+		<Galactic_Position>0.0, 710.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -1661,7 +1529,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_forest01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_forest01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -1675,7 +1543,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>315.0, 509.0, 10.0</Galactic_Position>
+		<Galactic_Position>315.0, 509.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -1696,12 +1564,12 @@
 		<Describe_Terrain>TEXT_PLANET_DATHOMIR_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Describe_Advantage>
+		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_DATHOMIR_HIS</Describe_History>
 
-		<Planet_Ability_Icon>i_pa_capital_ship_production.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_MAJOR_SHIPYARDS_DESC</Planet_Ability_Description>
+		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
+		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
@@ -1727,10 +1595,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_tatooine_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_tatooine_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_tatooine_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1739,9 +1607,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2210</Planet_Credit_Value>
+		<Planet_Credit_Value>2150</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>116.0, 125.0, 10.0</Galactic_Position>
+		<Galactic_Position>116.0, 125.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -1793,10 +1661,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1805,9 +1673,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1955</Planet_Credit_Value>
+		<Planet_Credit_Value>1975</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>227.0, -166.0, 10.0</Galactic_Position>
+		<Galactic_Position>227.0, -166.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -1859,7 +1727,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ryloth_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_ryloth_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -1871,9 +1739,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>850</Planet_Credit_Value>
+		<Planet_Credit_Value>350</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-140.0, 340.0, 10.0</Galactic_Position>
+		<Galactic_Position>-140.0, 340.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -1929,10 +1797,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_lwhekk01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_lwhekk01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_lwhekk01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -1941,9 +1809,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1850</Planet_Credit_Value>
+		<Planet_Credit_Value>3750</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>434.0, -383.0, 10.0</Galactic_Position>
+		<Galactic_Position>434.0, -383.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -1995,7 +1863,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_utapau_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_utapau_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -2007,9 +1875,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1850</Planet_Credit_Value>
+		<Planet_Credit_Value>1750</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, -50.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, -50.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2065,7 +1933,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_endor_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_endor_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_endor_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
@@ -2079,7 +1947,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-342.0, -533.0, 10.0</Galactic_Position>
+		<Galactic_Position>-342.0, -533.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2131,7 +1999,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_eriadu_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_eriadu_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_eriadu_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -2143,9 +2011,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1980</Planet_Credit_Value>
+		<Planet_Credit_Value>3500</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, -675.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, -675.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2166,12 +2034,12 @@
 		<Describe_Terrain>TEXT_PLANET_ERIADU_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD TEXT_PLANET_MAJOR__TRADE_WORLD</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_FACTORY_WORLD TEXT_PLANET_MAJOR__TRADE_WORLD TEXT_PLANET_MAJOR__WAR_ACADEMY</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_ERIADU_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_FACTORY_WORLD TEXT_PLANET_MAJOR__TRADE_WORLD</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_FACTORY_WORLD_DESC TEXT_PLANET_MAJOR__TRADE_WORLD_DESC</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_MAJOR_FACTORY_WORLD TEXT_PLANET_MAJOR__TRADE_WORLD TEXT_PLANET_MAJOR__WAR_ACADEMY</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_MAJOR_FACTORY_WORLD_DESC TEXT_PLANET_MAJOR__TRADE_WORLD_DESC TEXT_PLANET_MAJOR__WAR_ACADEMY_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
@@ -2190,72 +2058,6 @@
 
 	</Planet>
 
-	<Planet Name="Felucia_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_FELUCIA</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_swamp01.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_swamp01.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>0.7</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>4.9</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>630</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>669.0, 533.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>5</Special_Structures_Land>
-		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Felucia_00.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Felucia_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_POP_Human</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_FELUCIA_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_FELUCIA_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_FELUCIA_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>10</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Fondor_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_FONDOR</Text_ID>
@@ -2263,7 +2065,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>4.9</Mouse_Collide_Override_Sphere_Radius>
@@ -2275,9 +2077,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1970</Planet_Credit_Value>
+		<Planet_Credit_Value>2350</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>25.0, -216.0, 10.0</Galactic_Position>
+		<Galactic_Position>25.0, -216.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2329,7 +2131,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_ocean01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ocean01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_ocean01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -2341,9 +2143,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>580</Planet_Credit_Value>
+		<Planet_Credit_Value>600</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-57.0, 112.0, 10.0</Galactic_Position>
+		<Galactic_Position>-57.0, 112.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -2395,7 +2197,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_geonosis_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_geonosis_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_geonosis_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -2407,9 +2209,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1380</Planet_Credit_Value>
+		<Planet_Credit_Value>2100</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>633.0, -527.0, 10.0</Galactic_Position>
+		<Galactic_Position>633.0, -527.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -2461,10 +2263,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -2473,9 +2275,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1670</Planet_Credit_Value>
+		<Planet_Credit_Value>1650</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-87.0, -675.0, 10.0</Galactic_Position>
+		<Galactic_Position>-87.0, -675.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -2527,7 +2329,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_desert01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -2541,7 +2343,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>850.0, 100.0, 10.0</Galactic_Position>
+		<Galactic_Position>850.0, 100.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2593,7 +2395,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_hoth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_hoth_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_hoth_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.6</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>4.2</Mouse_Collide_Override_Sphere_Radius>
@@ -2607,7 +2409,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-94.0, -750.0, 10.0</Galactic_Position>
+		<Galactic_Position>-94.0, -775.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -2659,7 +2461,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_desert01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -2673,7 +2475,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>375</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>725.0, -494.0, 10.0</Galactic_Position>
+		<Galactic_Position>725.0, -494.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2718,72 +2520,6 @@
 
 	</Planet>
 
-	<Planet Name="Ilum_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_ILUM</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_ice01.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ice01.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>0.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>0</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-409.0, 400.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>4</Special_Structures_Land>
-		<Special_Structures_Space>0</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Ilum_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Ilum_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_POP_NONE</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_ILUM_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_ILUM_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_ILUM_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Jabiim_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_JABIIM</Text_ID>
@@ -2791,7 +2527,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -2803,9 +2539,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1750</Planet_Credit_Value>
+		<Planet_Credit_Value>1250</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>755.0, 375.0, 10.0</Galactic_Position>
+		<Galactic_Position>755.0, 375.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2857,10 +2593,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_kamino_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_kamino_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -2892,12 +2628,12 @@
 		<Describe_Terrain>TEXT_PLANET_KAMINO_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_PLANET_MAJOR_KAMINO</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_CLONE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_KAMINO_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_PLANET_MAJOR_KAMINO</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_PLANET_MAJOR_KAMINO_DESC</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_MAJOR_CLONE_WORLD</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_MAJOR_CLONE_WORLD_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
@@ -2923,7 +2659,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_forest01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_forest01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -2935,9 +2671,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>735</Planet_Credit_Value>
+		<Planet_Credit_Value>1025</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>475.0, 162.0, 10.0</Galactic_Position>
+		<Galactic_Position>475.0, 162.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -2989,7 +2725,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_kessel_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_kessel_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_kessel_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>4.9</Mouse_Collide_Override_Sphere_Radius>
@@ -3001,9 +2737,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1000</Planet_Credit_Value>
+		<Planet_Credit_Value>1400</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>825.0, 57.0, 10.0</Galactic_Position>
+		<Galactic_Position>850.0, 150.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>2</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -3055,10 +2791,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_swamp01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_swamp01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -3069,7 +2805,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>775</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>12.0, -450.0, 10.0</Galactic_Position>
+		<Galactic_Position>12.0, -450.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3114,72 +2850,6 @@
 
 	</Planet>
 
-	<Planet Name="Korriban_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_KORRIBAN</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_korriban01.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_korriban01.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>9.8</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>0</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>614.0, 616.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>3</Special_Structures_Land>
-		<Special_Structures_Space>0</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Korriban_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Korriban_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_KORRIBAN_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_KORRIBAN_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_KORRIBAN_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_KORRIBAN_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Kuat_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_KUAT</Text_ID>
@@ -3187,7 +2857,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_kuat_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_kuat_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_kuat_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -3199,9 +2869,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2555</Planet_Credit_Value>
+		<Planet_Credit_Value>3250</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>183.0, 100.0, 10.0</Galactic_Position>
+		<Galactic_Position>183.0, 100.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -3253,10 +2923,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -3265,9 +2935,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1700</Planet_Credit_Value>
+		<Planet_Credit_Value>2600</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>433.0, 283.0, 10.0</Galactic_Position>
+		<Galactic_Position>433.0, 283.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -3317,12 +2987,12 @@
 		<Text_ID>TEXT_PLANET_LIANNA</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_temperate_06_gc.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_temperate02d.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_temperate_06_gc.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_temperate02d.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -3331,9 +3001,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1545</Planet_Credit_Value>
+		<Planet_Credit_Value>2425</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>700.0, 525.0, 10.0</Galactic_Position>
+		<Galactic_Position>700.0, 525.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -3342,7 +3012,7 @@
 		<Force_Strength>0.0</Force_Strength>
 		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
 		<Land_Tactical_Map>_Land_Planet_Lianna_00.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Anaxes_01.ted</Space_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Lianna_00.ted</Space_Tactical_Map>
 		<Destroyed_Space_Tactical_Map />
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -3385,10 +3055,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_temperate01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_temperate01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>10.5</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>10</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -3397,9 +3067,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2550</Planet_Credit_Value>
+		<Planet_Credit_Value>2150</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>209.0, -530.0, 10.0</Galactic_Position>
+		<Galactic_Position>209.0, -530.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3451,7 +3121,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_kamino_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_kamino_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_kamino_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>8.4</Mouse_Collide_Override_Sphere_Radius>
@@ -3463,9 +3133,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1405</Planet_Credit_Value>
+		<Planet_Credit_Value>1725</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>317.0, 7.0, 10.0</Galactic_Position>
+		<Galactic_Position>317.0, 7.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>2</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -3517,7 +3187,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_swamp01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_swamp01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_swamp01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -3529,9 +3199,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1560</Planet_Credit_Value>
+		<Planet_Credit_Value>2200</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>366.0, 425.0, 10.0</Galactic_Position>
+		<Galactic_Position>366.0, 425.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>7</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3583,7 +3253,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_moncalamari01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_moncalamari01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_moncalamari01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -3595,9 +3265,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1700</Planet_Credit_Value>
+		<Planet_Credit_Value>2900</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>905.0, 487.0, 10.0</Galactic_Position>
+		<Galactic_Position>905.0, 487.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>3</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -3649,7 +3319,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
@@ -3661,9 +3331,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2580</Planet_Credit_Value>
+		<Planet_Credit_Value>2500</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>16.0, -833.0, 10.0</Galactic_Position>
+		<Galactic_Position>16.0, -833.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3715,7 +3385,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_alderaan_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_alderaan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -3727,9 +3397,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>3495</Planet_Credit_Value>
+		<Planet_Credit_Value>2975</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-83.0, 700.0, 10.0</Galactic_Position>
+		<Galactic_Position>-83.0, 700.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3781,7 +3451,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_forest01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_forest01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_forest01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -3795,7 +3465,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>262.0, 375.0, 10.0</Galactic_Position>
+		<Galactic_Position>262.0, 375.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3847,7 +3517,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_naboo_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_naboo_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_naboo_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -3859,9 +3529,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2725</Planet_Credit_Value>
+		<Planet_Credit_Value>2675</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>333.0, -557.0, 10.0</Galactic_Position>
+		<Galactic_Position>333.0, -557.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -3911,12 +3581,12 @@
 		<Text_ID>TEXT_PLANET_NAR_SHADDAA</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_nar_shaddaa_01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_nar_shaddaa.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_nar_shaddaa_01.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_nar_shaddaa.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.5</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -3927,7 +3597,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1800</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>705.0, -55.0, 10.0</Galactic_Position>
+		<Galactic_Position>705.0, -55.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -3979,7 +3649,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_lwhekk01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_lwhekk01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_lwhekk01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -3991,9 +3661,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1390</Planet_Credit_Value>
+		<Planet_Credit_Value>1750</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>5.0, 405.0, 10.0</Galactic_Position>
+		<Galactic_Position>5.0, 405.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4038,80 +3708,14 @@
 
 	</Planet>
 
-	<Planet Name="Polus_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_POLUS</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_hoth_low.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_hoth_low.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>0.8</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>175</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>175.0, 475.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>3</Special_Structures_Land>
-		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Polus_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Polus_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_POLUS_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_POLUS_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_POLUS_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_POLUS_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>10</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Ralltiir_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_RALLTIIR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_ralltiir_gc.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_ralltiir.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_ralltiir_gc.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_ralltiir.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
@@ -4125,7 +3729,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>2800</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>100.0, 215.0, 10.0</Galactic_Position>
+		<Galactic_Position>100.0, 215.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4177,10 +3781,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_kessel_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_kessel_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_kessel_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -4189,9 +3793,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1020</Planet_Credit_Value>
+		<Planet_Credit_Value>2000</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>530.0, 307.0, 10.0</Galactic_Position>
+		<Galactic_Position>530.0, 307.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -4247,7 +3851,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_ryloth_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ryloth_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_ryloth_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -4259,9 +3863,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1235</Planet_Credit_Value>
+		<Planet_Credit_Value>1175</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>669.0, -610.0, 10.0</Galactic_Position>
+		<Galactic_Position>669.0, -610.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -4313,7 +3917,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_desert01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>8.4</Mouse_Collide_Override_Sphere_Radius>
@@ -4325,9 +3929,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>930</Planet_Credit_Value>
+		<Planet_Credit_Value>1350</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>733.0, 316.0, 10.0</Galactic_Position>
+		<Galactic_Position>733.0, 316.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4372,72 +3976,6 @@
 
 	</Planet>
 
-	<Planet Name="Shola_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_SHOLA</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_volcanic01.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>0</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>916.0, -269.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>6</Special_Structures_Land>
-		<Special_Structures_Space>1</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Shola_02.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Shola_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_SHOLA_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_SHOLA_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_SHOLA_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_SHOLA_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Sluis_Van_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_SLUIS_VAN</Text_ID>
@@ -4445,10 +3983,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_utapau_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_utapau_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -4459,7 +3997,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1550</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, -766.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, -766.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4511,7 +4049,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -4523,9 +4061,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1700</Planet_Credit_Value>
+		<Planet_Credit_Value>2800</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>150.0, -625.0, 10.0</Galactic_Position>
+		<Galactic_Position>150.0, -625.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -4577,7 +4115,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_taris01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_taris01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_taris01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
@@ -4589,9 +4127,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1965</Planet_Credit_Value>
+		<Planet_Credit_Value>2325</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>275.0, 437.0, 10.0</Galactic_Position>
+		<Galactic_Position>275.0, 437.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -4643,7 +4181,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_tatooine_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_tatooine_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_tatooine_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.9</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>6.3</Mouse_Collide_Override_Sphere_Radius>
@@ -4655,9 +4193,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1530</Planet_Credit_Value>
+		<Planet_Credit_Value>450</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>650.0, -500.0, 10.0</Galactic_Position>
+		<Galactic_Position>650.0, -500.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -4707,12 +4245,12 @@
 		<Text_ID>TEXT_PLANET_TELOS_IV</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_telos_iv_gc.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_telos_iv.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_telos_iv_gc.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_telos_iv.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -4721,9 +4259,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>850</Planet_Credit_Value>
+		<Planet_Credit_Value>1350</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>505.0, 725.0, 10.0</Galactic_Position>
+		<Galactic_Position>505.0, 725.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4775,10 +4313,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_urban01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_urban01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -4789,7 +4327,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1550</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>-75.0, -944.0, 10.0</Galactic_Position>
+		<Galactic_Position>-75.0, -944.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
@@ -4844,7 +4382,7 @@
 		<GUI_Model_Name>w_black_hole_small.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -4855,7 +4393,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>825.0, 100.0, 10.0</Galactic_Position>
+		<Galactic_Position>875.0, 150.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4911,7 +4449,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_thyferra01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_thyferra01.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_thyferra01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -4923,9 +4461,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>1810</Planet_Credit_Value>
+		<Planet_Credit_Value>1950</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>1500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>66.0, -283.0, 10.0</Galactic_Position>
+		<Galactic_Position>66.0, -283.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -4970,72 +4508,6 @@
 
 	</Planet>
 
-	<Planet Name="Utapau_NO">
-		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
-		<Text_ID>TEXT_PLANET_UTAPAU</Text_ID>
-		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_utapau_low.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>7.7</Mouse_Collide_Override_Sphere_Radius>
-		<Show_Name>Yes</Show_Name>
-		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
-		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>yes</Camera_Aligned>
-		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2210</Planet_Credit_Value>
-		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>205.0, -833.0, 10.0</Galactic_Position>
-		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
-		<Special_Structures_Land>5</Special_Structures_Land>
-		<Special_Structures_Space>2</Special_Structures_Space>
-		<Max_Space_Base>5</Max_Space_Base>
-		<The_Force>Neutral</The_Force>
-		<Force_Strength>0.0</Force_Strength>
-		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
-		<Land_Tactical_Map>_Land_Planet_Utapau_01.ted</Land_Tactical_Map>
-		<Space_Tactical_Map>_Space_Planet_Utapau_01.ted</Space_Tactical_Map>
-		<Destroyed_Space_Tactical_Map />
-		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_UTAPAU_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_UTAPAU_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_UTAPAU_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_UTAPAU_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
-
-		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
-		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
-		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-		<Native_Icon_Name />
-		<Additional_Population_Capacity>0</Additional_Population_Capacity>
-
-		<Abilities SubObjectList="Yes">
-		</Abilities>
-
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
-		<Galactic_Influence_Range>50.0</Galactic_Influence_Range>
-		<Hyperspace_Fleet_Reveal_Range>30.0</Hyperspace_Fleet_Reveal_Range>
-
-	</Planet>
-
 	<Planet Name="Vergesso_Asteroids_NO">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_PLANET_VERGESSO_ASTEROIDS</Text_ID>
@@ -5043,10 +4515,10 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_asteroids.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_asteroids.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_asteroids.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Mouse_Collide_Override_Sphere_Radius>11.0</Mouse_Collide_Override_Sphere_Radius>
+		<Mouse_Collide_Override_Sphere_Radius>7.0</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
@@ -5055,9 +4527,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>460</Planet_Credit_Value>
+		<Planet_Credit_Value>900</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>400.0, -687.0, 10.0</Galactic_Position>
+		<Galactic_Position>400.0, -687.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
@@ -5111,11 +4583,11 @@
 		<Text_ID>TEXT_PLANET_VULPTER</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_vulpter_gc.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_vulpter.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_vulpter_gc.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_vulpter.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>8.4</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5125,9 +4597,9 @@
 		<Camera_Aligned>yes</Camera_Aligned>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Terrain>Temperate</Terrain>
-		<Planet_Credit_Value>2840</Planet_Credit_Value>
+		<Planet_Credit_Value>3600</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>57.0, 87.0, 10.0</Galactic_Position>
+		<Galactic_Position>57.0, 87.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -5179,7 +4651,7 @@
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_planet_wayland_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_wayland_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>w_planet_wayland_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
@@ -5193,7 +4665,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>283.0, 405.0, 10.0</Galactic_Position>
+		<Galactic_Position>283.0, 405.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -5214,12 +4686,12 @@
 		<Describe_Terrain>TEXT_PLANET_WAYLAND_TER</Describe_Terrain>
 		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
 		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
+		<Describe_Advantage>TEXT_PLANET_MAJOR_CLONE_WORLD</Describe_Advantage>
 		<Describe_History>TEXT_PLANET_WAYLAND_HIS</Describe_History>
 
 		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+		<Planet_Ability_Name>TEXT_PLANET_MAJOR_CLONE_WORLD</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_MAJOR_CLONE_WORLD_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
@@ -5243,11 +4715,11 @@
 		<Text_ID>TEXT_PLANET_YAG_DHUL</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_yag_dhul.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_yag_dhul.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>3.5</Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5259,7 +4731,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>1325</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>87.0, -337.0, 10.0</Galactic_Position>
+		<Galactic_Position>87.0, -337.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>0</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
@@ -5313,9 +4785,9 @@
 		<Text_ID>TEXT_PLANET_YAVIN_4</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_yavinIV_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>gc_yavin.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_yavinIV_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>gc_yavin.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius>5.6</Mouse_Collide_Override_Sphere_Radius>
@@ -5329,7 +4801,7 @@
 		<Terrain>Temperate</Terrain>
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>500</Planet_Destroyed_Credit_Value>
-		<Galactic_Position>460.0, 550.0, 10.0</Galactic_Position>
+		<Galactic_Position>460.0, 550.0, 20.0</Galactic_Position>
 		<Planet_Capture_Bonus_Reward>0.0</Planet_Capture_Bonus_Reward>
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>1</Special_Structures_Space>
