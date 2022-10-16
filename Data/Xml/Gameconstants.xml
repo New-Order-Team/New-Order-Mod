@@ -159,7 +159,7 @@
 	<MaximumSpecialStructures> 5 </MaximumSpecialStructures>
 	<MaximumSpecialStructuresLand> 3 </MaximumSpecialStructuresLand>
 	<MaximumSpecialStructuresSpace> 3 </MaximumSpecialStructuresSpace>
-	<MaximumFleetMovementDistance> 100.0 </MaximumFleetMovementDistance>
+	<MaximumFleetMovementDistance> 0.0 </MaximumFleetMovementDistance>
 	<TradeRouteMovementFactor> 0.5 </TradeRouteMovementFactor>
 	<Tooltip_Delay>330</Tooltip_Delay>
 	<Encyclopedia_Delay>750</Encyclopedia_Delay>

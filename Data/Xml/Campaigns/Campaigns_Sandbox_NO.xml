@@ -15,7 +15,6 @@
 			Galaxy_Core_Art_Model_NO,
 			Aargau_NO,
 			Abregado_rae_NO,
-			Aeten_II_NO,
 			Alderaan_NO,
 			Anaxes_NO,
 			Atzerri_NO,
@@ -235,16 +234,6 @@
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
-
-		<Starting_Forces>Empire, Aeten_II_NO, Empire_Star_Base_1</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Acclamator_Assault_Ship</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Army_Trooper_Platoon</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Army_Trooper_Platoon</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
 
 		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>
@@ -1032,7 +1021,6 @@
 			Galaxy_Core_Art_Model_NO,
 			Aargau_NO,
 			Abregado_rae_NO,
-			Aeten_II_NO,
 			Alderaan_NO,
 			Anaxes_NO,
 			Atzerri_NO,
@@ -1252,16 +1240,6 @@
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
 		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
-
-		<Starting_Forces>Empire, Aeten_II_NO, Empire_Star_Base_1</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Carrack_Cruiser</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Acclamator_Assault_Ship</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, E_Ground_Barracks</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Army_Trooper_Platoon</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Army_Trooper_Platoon</Starting_Forces>
-		<Starting_Forces>Empire, Aeten_II_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
 
 		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>

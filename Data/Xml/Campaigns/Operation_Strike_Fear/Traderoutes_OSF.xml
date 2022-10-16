@@ -7,7 +7,7 @@
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
-            <Visible_Line_Name>Hyperroute_Perlemian</Visible_Line_Name>
+            <Visible_Line_Name>Perlemian</Visible_Line_Name>
 	</TradeRoute>
 	
     <TradeRoute Name="OSF_Lianna_Cadinth">
@@ -25,7 +25,7 @@
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
-            <Visible_Line_Name>Hyperroute_Perlemian</Visible_Line_Name>
+            <Visible_Line_Name>Perlemian</Visible_Line_Name>
 	</TradeRoute>
 	
     <TradeRoute Name="OSF_Desevro_Omman">
