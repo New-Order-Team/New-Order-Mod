@@ -4,11 +4,11 @@
 	<SpacePrimarySkydome Name="Stars_Outer_Rim">
 		<Text_ID />
 		<Galactic_Model_Name></Galactic_Model_Name>
-		<Space_Model_Name>w_stars_outer_rim.alo</Space_Model_Name>
+		<Space_Model_Name>prop_stars_outer_rim.alo</Space_Model_Name>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Scale_Factor>3.0</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SKY_DOME</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
