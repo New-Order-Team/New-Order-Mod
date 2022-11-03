@@ -598,7 +598,7 @@
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
 		<Projectile_Types>Proj_Land_Missile_DF10</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>10.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Targeting_Priority_Set>ArtilleryTurret</Targeting_Priority_Set>

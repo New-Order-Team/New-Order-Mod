@@ -1766,7 +1766,7 @@
 		<Projectile_Max_Scan_Range>700.0</Projectile_Max_Scan_Range>
 		
 		<Projectile_Damage>60.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage>7.5</Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage>15</Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range>25</Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		
