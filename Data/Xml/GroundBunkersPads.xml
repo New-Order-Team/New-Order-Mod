@@ -7,6 +7,10 @@
 			REVEAL,
 			TACTICAL_BUILD_OBJECTS,
 		</Behavior>
+		<LandBehavior>
+			LAND_OBSTACLE,
+			TERRAIN_TEXTURE_MODIFICATION,
+		</LandBehavior>
 
 		<Space_Layer> Land </Space_Layer>
 		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
@@ -25,8 +29,6 @@
 				UC_Rebel_Med_Bunker,
 				UC_Rebel_Repair_Bunker,
 				UC_Rebel_Turret_Bunker,
-			Underworld,
-				UC_Underworld_Bunker,
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -40,24 +42,30 @@
 				UC_Rebel_Med_Bunker,
 				UC_Rebel_Repair_Bunker,
 				UC_Rebel_Turret_Bunker,
-			Underworld,
-				UC_Underworld_Bunker,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_PAD_BUNKER </Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_PAD </Encyclopedia_Text>
-		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
+		<Land_Model_Name> gen_buildpad_large.alo </Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
 		<Influences_Capture_Point>no</Influences_Capture_Point>
-		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
-		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_bunker_pad.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.06 0.06</Radar_Icon_Size>
+		
 		<Select_Box_Scale> 50 </Select_Box_Scale>
 		
-		<Scale_Factor> 3.0 </Scale_Factor>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Shield_Points> 0 </Shield_Points>
 		<Tactical_Health> 10000 </Tactical_Health>
 		<Base_Level_Available> 1 </Base_Level_Available>
@@ -71,10 +79,13 @@
 		<CategoryMask> Structure </CategoryMask>
 		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
 		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
-		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
       <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</GroundBuildable>
@@ -287,7 +298,7 @@
 
 		<Text_ID> TEXT_PAD_BUNKER </Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_PAD </Encyclopedia_Text>
-		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
+		<Land_Model_Name> gen_buildpad_large.alo </Land_Model_Name>
 		<Capture_Point_Radius>0</Capture_Point_Radius>
 		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
@@ -296,7 +307,7 @@
 		<Select_Box_Scale> 50 </Select_Box_Scale>
 		<Respects_Skirmish_Pre_Build_Bases_Option> false </Respects_Skirmish_Pre_Build_Bases_Option>
 		
-		<Scale_Factor> 3.0 </Scale_Factor>
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Shield_Points> 0 </Shield_Points>
 		<Tactical_Health> 10000 </Tactical_Health>
 		<Affiliation> Pirates </Affiliation>
@@ -341,7 +352,7 @@
 
 		<Text_ID> TEXT_PAD_BUNKER </Text_ID>
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_PAD </Encyclopedia_Text>
-		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Land_Model_Name>gen_buildpad_large.alo</Land_Model_Name>
 		<Capture_Point_Radius>0</Capture_Point_Radius>
 		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
 		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
@@ -350,7 +361,7 @@
 		<Select_Box_Scale> 50 </Select_Box_Scale>
 		<Respects_Skirmish_Pre_Build_Bases_Option> false </Respects_Skirmish_Pre_Build_Bases_Option>
 		
-		<Scale_Factor> 3.0 </Scale_Factor>
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Shield_Points> 0 </Shield_Points>
 		<Tactical_Health> 10000 </Tactical_Health>
 		<Affiliation> Hutts </Affiliation>

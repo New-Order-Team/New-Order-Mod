@@ -66,8 +66,12 @@
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_bunker_pad.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.06 0.06</Radar_Icon_Size>
+		
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
@@ -100,6 +104,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_inf.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_infantry.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -140,6 +145,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_gun.tga</Radar_Icon_Name>
 
 		<Land_Model_Name>imp_bunker_gun.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -208,6 +214,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_heal.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_bacta.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -258,6 +265,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_rep.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_repair.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -307,6 +315,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_inf.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_infantry.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -347,6 +356,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_gun.tga</Radar_Icon_Name>
 
 		<Land_Model_Name>reb_bunker_gun.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -415,6 +425,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_heal.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_bacta.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -465,6 +476,7 @@
 		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
 		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_rep.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_repair.alo</Land_Model_Name>
 		<Target_Bones> TARGET_00, TARGET_01, TARGET_02, TARGET_03, TARGET_04 </Target_Bones>
@@ -512,6 +524,7 @@
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		<Land_Model_Name>UB_Bunker.alo</Land_Model_Name>
 		<Icon_Name>i_button_ui_bunker.tga</Icon_Name>
+		<Radar_Icon_Name>mini_map_bunker_inf.tga</Radar_Icon_Name>
 		<Affiliation>Underworld</Affiliation>
 		<Scale_Factor>1.0</Scale_Factor>
 		
