@@ -151,7 +151,7 @@
 		<Marker_For_Specific_Object_Type> E_Ground_Turbolaser_Tower, R_Ground_Turbolaser_Tower </Marker_For_Specific_Object_Type>
 		<Galactic_Model_Name />
 		<Space_Model_Name />
-		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
+		<Land_Model_Name>imp_xx_10_turbolaser_tower.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
@@ -1105,7 +1105,7 @@
 
 	 <Marker Name="Captureable_Turret">
 		<Text_ID> TEXT_GROUND_TURBOLASER_TOWER </Text_ID>
-		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
+		<Land_Model_Name>imp_xx_10_turbolaser_tower.ALO</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Space_Model_Name />
 		<Behavior> CAPTURE_POINT, REVEAL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>

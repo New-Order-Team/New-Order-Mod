@@ -48,7 +48,7 @@
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_PAD </Encyclopedia_Text>
 		<Land_Model_Name> gen_buildpad_large.alo </Land_Model_Name>
 		<Capture_Point_Radius>100</Capture_Point_Radius>
-		<Influences_Capture_Point>no</Influences_Capture_Point>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
@@ -81,13 +81,12 @@
 		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
 		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Affiliation>Neutral, Rebel, Empire</Affiliation>
 		
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
-      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+		<Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
 	</GroundBuildable>
 	
 	<!-- Empire Build Pads -->
