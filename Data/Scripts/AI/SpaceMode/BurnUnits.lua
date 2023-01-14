@@ -59,17 +59,17 @@ end
 function MainForce_Thread()
 
 	-- Cheat to wrap the game up if this is a firesale
-	--if (EvaluatePerception("Should_Firesale_Space", PlayerObject) > 0) then
-	--	reveal_ai = FogOfWar.Reveal_All(PlayerObject)
-	--	MainForce.Set_As_Goal_System_Removable(false)
+	if (EvaluatePerception("Should_Firesale_Space", PlayerObject) > 0) then
+		reveal_ai = FogOfWar.Reveal_All(PlayerObject)
+		MainForce.Set_As_Goal_System_Removable(false)
 		
 		-- We're now also revealing FOW here for the human player (was previously handled by a hard-coded system)
 		-- Make sure that there isn't a scripted scenario underway that doesn't want automatic FOW reveals
-	--	if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or
-	--					(GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
-	--		reveal_human = FogOfWar.Reveal_All(Find_Player("local"))
-	--	end
-	--end
+		if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or
+						(GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
+			reveal_human = FogOfWar.Reveal_All(Find_Player("local"))
+		end
+	end
 
 	-- Do this at least once (it may just be an attempt to burn off extra units, rather than a firesale)
 	repeat
