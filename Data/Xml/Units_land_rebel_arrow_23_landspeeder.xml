@@ -85,7 +85,6 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
 		<CategoryMask> Vehicle </CategoryMask>
-		<Property_Flags> LightVehicle </Property_Flags>
 		<Icon_Name> i_button_arrow_23.tga </Icon_Name>
 		<MovementClass>HoverNoShield</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

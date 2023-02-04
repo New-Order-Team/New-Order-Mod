@@ -274,7 +274,7 @@
 		
 		<Targeting_Priority_Set>ChariotPriority</Targeting_Priority_Set>
 		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
-		<Property_Flags> CanContainGarrison, LightVehicle </Property_Flags>
+		<Property_Flags> CanContainGarrison </Property_Flags>
 	</GroundVehicle>
 	
 	<GroundCompany Name="Freerunner_APC_Platoon">

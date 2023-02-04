@@ -170,7 +170,6 @@
 
 		<Icon_Name>i_button_px_10.tga</Icon_Name> 
 		<Weather_Category>Tracked</Weather_Category>
-		<Property_Flags>LightVehicle</Property_Flags>
 
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 

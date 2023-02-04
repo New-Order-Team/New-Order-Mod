@@ -41,7 +41,6 @@
 
 		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
 
-		<Property_Flags>LightVehicle</Property_Flags>
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.73</Scale_Factor>

@@ -10,7 +10,6 @@
 	<!-- Regilar infantry are good against other infantry and mining platforms -->
 	<Priority_Set Name="InfantryPriority">
         <Attack_Priorities>
-			PlexInfantry, 1.0,
             Infantry, 2.0,
 			TacticalStructure, 3.0,
 			Structure, 4.0,
@@ -69,7 +68,7 @@
 	<Priority_Set Name="ATSTPriority">
 		<Attack_Priorities>
 			Infantry, 1.0,
-			LightVehicle, 2.0,
+			<!-- LightVehicle, 2.0, -->
 			TacticalStructure, 3.0,
 			Structure, 4.0,
 			
@@ -80,7 +79,7 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- Chariot/Arrow-23 are weak, prioritise mining platforms and infantry -->
@@ -88,7 +87,7 @@
 		<Attack_Priorities>
 			TacticalStructure, 1.0,
 			Infantry, 2.0,
-			LightVehicle, 3.0,
+			<!-- LightVehicle, 3.0, -->
 			
 			Structure, 10.0,
 			
@@ -99,7 +98,7 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- AT-AR have a good laser cannon, prioritise vehicles, then infantry, then structures -->
@@ -117,7 +116,7 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 	
 	<Priority_Set Name="CenturyPriority">
@@ -130,7 +129,7 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
 	<!-- T1-B is weak, don't attack anything except infantry or air 
@@ -164,7 +163,7 @@
 			Structure, 2.0,
 			Turret, 3.0,
 			Artillery, 4.0,
-			LightVehicle, 5.0,
+			<!-- LightVehicle, 5.0, -->
 			LandHero, 6.0,
 			
 			Infantry, 10.0,
@@ -174,13 +173,12 @@
 		<Category_Exclusions>
 			Wall, Air
 		</Category_Exclusions>
-		<Property_Exclusions>NotOpportunityTarget, PlexInfantry</Property_Exclusions>
+		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 	
 	<!-- Anti-infantry turrets are good against infantry and mining platforms -->
 	<Priority_Set Name="AntiInfantryTurret">
         <Attack_Priorities>
-			PlexInfantry, 1.0,
             Infantry, 2.0,
 			TacticalStructure, 3.0,
 			Structure, 4.0,

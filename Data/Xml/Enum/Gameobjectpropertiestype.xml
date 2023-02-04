@@ -17,9 +17,11 @@
 	<GarrisonCanFire>		0x00002000	</GarrisonCanFire>
 	
 	<Bunker>				0x00004000	</Bunker>
-	<LightVehicle>			0x00008000	</LightVehicle>
-	<HeavyVehicle>			0x00010000	</HeavyVehicle>
-	<Artillery>				0x00020000	</Artillery>
-	<PlexInfantry>			0x00040000	</PlexInfantry>
+	<Artillery>				0x00008000	</Artillery>
+	<MinRangeAttacker>		0x00010000	</MinRangeAttacker>
+	<IsInterdictor>			0x00020000	</IsInterdictor>
+	<IsCarrier>				0x00040000	</IsCarrier>
+	<IsKiter>				0x00080000	</IsKiter>
+	<IsEscort>				0x00100000	</IsEscort>
 
 </EnumDefinition>

@@ -161,7 +161,6 @@
         <GUI_Bracket_Size>1</GUI_Bracket_Size>
 
         <Weather_Category>Walker</Weather_Category>
-		<Property_Flags>LightVehicle</Property_Flags>
 
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_00</Death_Clone>
         <Death_Clone>Damage_Normal, AT_AR_Walker_Death_Clone_01</Death_Clone>
