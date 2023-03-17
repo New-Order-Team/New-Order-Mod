@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<GroundStructures>
+	<GroundStructure Name="Turret_Template">		
+		<Behavior>
+			SELECTABLE,
+			TACTICAL_SELL,
+		</Behavior>
+		<LandBehavior>
+			DAMAGE_TRACKING,
+			EARTHQUAKE_TARGET,
+			HIDE_WHEN_FOGGED,
+			POWERED,
+			REVEAL,
+			STUNNABLE,
+			TARGETING,
+			TURRET,
+			UNIT_AI,
+			WEAPON,
+		</LandBehavior>
+		
+		<Scale_Factor>1.0</Scale_Factor>
+		
+		<Affiliation> Neutral </Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Reveal_During_Setup_Phase>True</Reveal_During_Setup_Phase>
+		
+		<Mass>1</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Armor_Type>Armor_S3</Armor_Type>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Tactical_Sell_Credits>0</Tactical_Sell_Credits>
+		
+		<Land_FOW_Reveal_Range>300</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.0</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale>50</Select_Box_Scale>
+		
+		<Space_Layer>Land</Space_Layer>
+		
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Custom_Hard_XExtent>10</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>10</Custom_Hard_YExtent>
+		
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		
+		<Property_Flags>Turret</Property_Flags>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor</SFXEvent_Turret_Rotating_Loop>
+		
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		
+		<Targeting_Stickiness_Time_Threshold>30</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Min_Attack_Distance>30</Targeting_Min_Attack_Distance>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</GroundStructure>
+	<GroundStructure Name="Utility_Template">
+		<Behavior>
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			REVEAL,
+			SELECTABLE,
+			TACTICAL_SELL,
+			UNIT_AI,
+		</Behavior>
+		<LandBehavior>
+			EARTHQUAKE_TARGET,
+		</LandBehavior>
+		
+		<Scale_Factor>1.0</Scale_Factor>
+		
+		<Affiliation> Neutral </Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+	
+		<Mass>1</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Armor_Type>Armor_S3</Armor_Type>
+		<Tactical_Sell_Credits>0</Tactical_Sell_Credits>
+	
+		<Land_FOW_Reveal_Range>300</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.0</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale>50</Select_Box_Scale>
+		
+		<Space_Layer>Land</Space_Layer>
+		
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Custom_Hard_XExtent>10</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>10</Custom_Hard_YExtent>
+		
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		
+		<Victory_Relevant>No</Victory_Relevant>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</GroundStructure>
+	<GroundStructure Name="Special_Template">
+		<Behavior>
+			SELECTABLE,
+			TACTICAL_SELL,
+		</Behavior>
+		<LandBehavior>
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			LAND_OBSTACLE,
+			REVEAL,
+			UNIT_AI,
+		</LandBehavior>
+		
+		<Scale_Factor>1.0</Scale_Factor>
+		
+		<Affiliation> Neutral </Affiliation>
+		<Reveal_During_Setup_Phase>False</Reveal_During_Setup_Phase>
+		
+		<Mass>1</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Armor_Type>Armor_S3</Armor_Type>
+		<Tactical_Sell_Credits>0</Tactical_Sell_Credits>
+		
+		<Land_FOW_Reveal_Range>300</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.0</Dense_FOW_Reveal_Range_Multiplier>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale>50</Select_Box_Scale>
+		
+		<Space_Layer>Land</Space_Layer>
+		
+		<UnitCollisionClass>Vehicle</UnitCollisionClass>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Custom_Hard_XExtent>10</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>10</Custom_Hard_YExtent>
+		
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		
+		<Property_Flags>TacticalStructure</Property_Flags>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+	</GroundStructure>
+	<GroundStructure Name="Repair_Facility_Template">
+		<Variant_Of_Existing_Type>Utility_Template</Variant_Of_Existing_Type>
+		<Property_Flags>TacticalStructure | HealsVehicles</Property_Flags>
+		<Land_Model_Name>NB_RepairFacility.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Repair_Facility_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>150.0</Heal_Range>
+				<Heal_Amount>15.0</Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundStructure>
+	<GroundStructure Name="Bacta_Tank_Template">
+		<Variant_Of_Existing_Type>Utility_Template</Variant_Of_Existing_Type>
+		<Property_Flags>TacticalStructure | HealsInfantry</Property_Flags>
+		<SFXEvent_Select>Structure_Bacta_Select_SFX</SFXEvent_Select>
+		<Land_Model_Name>NB_BactaTank.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="Bacta_Tank_Healing">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Heal_Range>150.0</Heal_Range>
+				<Heal_Amount> 0.0 </Heal_Amount>
+				<Heal_Percent> 0.20 </Heal_Percent>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Scout_Trooper, Droid_R2D2, Droid_C3P0, MPTL_Spotter, Veers_AT_AT_Walker, IG-88, Dark_Trooper_PhaseI, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Excluded_Unit_Types>
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Unit_Healed_Particles</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP2</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP2_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP2_INFO_1
+			TEXT_STRUCTURE_BP2_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP2_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>imp_bp2.tga</Icon_Name>
+		<Land_Model_Name>imp_bp2.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Blaster_BP2</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Infantry, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 30.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 90.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 20.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>EHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP4</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP4_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP4_INFO_1
+			TEXT_STRUCTURE_BP4_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP4_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>imp_bp4.tga</Icon_Name>
+		<Land_Model_Name>imp_bp4.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>400</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Laser_BP4</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiVehicleTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Infantry, 40.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 90.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>EHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiVehicle</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP5</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP5_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP5_INFO_1
+			TEXT_STRUCTURE_BP5_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP5_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>imp_bp5.tga</Icon_Name>
+		<Land_Model_Name>imp_bp5.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Structure</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>35</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Flak_BP5</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>4.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Infantry, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 5.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 50.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Anti_Air_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>EHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiAir</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Grenade_Mortar">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_BP6</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BP6_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BP6_INFO_1
+			TEXT_STRUCTURE_BP6_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BP6_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>imp_bp6.tga</Icon_Name>
+		<Land_Model_Name>imp_bp6.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>1000</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Mortar_BP6</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>ArtilleryTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Infantry, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Vehicle, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Air, 90.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Structure, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>50</Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>EHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry | AntiVehicle | AntiStructure</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Repair_Facility_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_e_repair_facility.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Sold_Tactical>EHD_Repair_Station_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Bacta_Tank_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMPIRE_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Sold_Tactical>EHD_Bacta_Tank_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Empire_EM_Field_Generator">
+		<Variant_Of_Existing_Type>Special_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_EMF_GEN</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_EMF_GEN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ev_mdu_fieldgen.tga</Icon_Name>
+		<Land_Model_Name>EV_MDU_FieldGen.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Affiliation>Empire</Affiliation>
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Structure_Sensor_Array_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Passive_Missile_Shield_Radius>300</Passive_Missile_Shield_Radius>
+	</GroundStructure>
+	<GroundStructure Name="Empire_Offensive_Sensor_Node">
+		<Variant_Of_Existing_Type>Special_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_OFFENSIVE_SENSOR_NODE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_OFFENSIVE_SENSOR_NODE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ev_mdu_sensornode.tga</Icon_Name>
+		<LandBehavior>HIDE_WHEN_FOGGED, IDLE, LAND_OBSTACLE, REVEAL, TARGETING, UNIT_AI, WEAPON,</LandBehavior>
+		<Land_Model_Name>EV_MDU_SensorNode.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Health>175</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_HRB_Cannon_Green</Projectile_Types>
+		<Targeting_Fire_Inaccuracy>Structure, 0.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Structure_Sensor_Array_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF9</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF9_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF9_INFO_1
+			TEXT_STRUCTURE_DF9_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF9_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>reb_df9.tga</Icon_Name>
+		<Land_Model_Name>reb_df9.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Blaster_DF9</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiInfantryTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 20.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_DF9_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF11</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF11_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF11_INFO_1
+			TEXT_STRUCTURE_DF11_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF11_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>reb_df11.tga</Icon_Name>
+		<Land_Model_Name>reb_df11.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Health>400</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Laser_DF11</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiVehicleTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiVehicle</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF12</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF12_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF12_INFO_1
+			TEXT_STRUCTURE_DF12_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF12_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>reb_df12.tga</Icon_Name>
+		<Land_Model_Name>reb_df12.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Structure</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>35</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Blaster_DF12</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>4.1</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiAirTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 50.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Anti_Air_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiAir</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Rocket_Pod">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_DF10</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_DF10_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_DF10_INFO_1
+			TEXT_STRUCTURE_DF10_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_DF10_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>reb_df10.tga</Icon_Name>
+		<Land_Model_Name>reb_df10.alo</Land_Model_Name>
+		<Target_Bones>TARGET_00</Target_Bones>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>1000</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Land_Missile_DF10</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>10.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>ArtilleryTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 50.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy_Fixed_Radius>50</Targeting_Fire_Inaccuracy_Fixed_Radius>
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry | AntiVehicle | AntiStructure</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Repair_Facility_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_REBEL_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Sold_Tactical>RHD_Repair_Station_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_MDU_Repair_Facility">
+		<Variant_Of_Existing_Type>Rebel_Buildable_Repair_Facility</Variant_Of_Existing_Type>
+		<SFXEvent_Sold_Tactical>RHD_Repair_Station_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Bacta_Tank_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_REBEL_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Sold_Tactical>RHD_Bacta_Tank_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Mobile_Shield_Generator">
+		<Variant_Of_Existing_Type>Special_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_MOBILE_SHIELD_GENERATOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MOBILE_SHIELD_GENERATOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_rv_mdu_shieldgen.tga</Icon_Name>
+		<LandBehavior>BASE_SHIELD, DAMAGE_TRACKING, HIDE_WHEN_FOGGED, IDLE, LAND_OBSTACLE, POWERED, REVEAL, UNIT_AI,</LandBehavior>
+		<Land_Model_Name>RV_MDU_ShieldGen.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Affiliation>Rebel</Affiliation>
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Structure_Sensor_Array_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Shield_On_Anim>SHIELD_ON</Shield_On_Anim>
+		<Shield_Off_Anim>SHIELD_OFF</Shield_Off_Anim>
+		<Base_Shield_Radius>200</Base_Shield_Radius>
+		<Base_Shield_Always_Off>False</Base_Shield_Always_Off>
+		<Radar_Range_Icon_Name>i_radar_shield.tga</Radar_Range_Icon_Name>
+		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
+		<Reinforcement_Prevention_Radius>200</Reinforcement_Prevention_Radius>
+		<Shield_Requires_Base_Power>no</Shield_Requires_Base_Power>
+	</GroundStructure>
+	<GroundStructure Name="Rebel_Rapid_Fire_Laser_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_RF_LASER_TURRET</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_RF_LASER_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_rv_mdu_rapid fire laser cannon.tga</Icon_Name>
+		<Land_Model_Name>RV_MDU_RFLC.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Health>360</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
+		<Projectile_Types>Proj_RF_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>AntiVehicleTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 3.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Sold_Tactical>RHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Mass_Driver_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_TURRET_MD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MD_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>UB_TurretMST50.tga</Icon_Name>
+		<Land_Model_Name>UB_TurretMST50.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>6</Ranged_Target_Z_Adjust>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Health>300</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
+		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Mass_Driver_Turret</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.02</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>MassDriverTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 25.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_Anti_Air_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>UHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry | AntiAir</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Torpedo_Turret">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_TURRET_TORP</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TORP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>UB_Turretptl05.tga</Icon_Name>
+		<Land_Model_Name>UB_TurretPTL05.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>6</Ranged_Target_Z_Adjust>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Health>300</Tactical_Health>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		<Attack_Category_Restrictions>Air</Attack_Category_Restrictions>
+		<Turret_Elevate_Extent_Degrees>45</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
+		<Projectile_Types>Proj_Ground_Proton_Torpedo_ZC_Turret</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.3</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>TorpTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 25.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>UHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiInfantry | AntiVehicle</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Rocket_Pod">
+		<Variant_Of_Existing_Type>Turret_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_MISSILE_POD</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_uv_rocket.tga</Icon_Name>
+		<Land_Model_Name>UV_MDU_Rocket.ALO</Land_Model_Name>
+		<Affiliation>Underworld</Affiliation>
+		<Tactical_Health>250</Tactical_Health>
+		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>2</Turret_Rotate_Speed>
+		<Turret_Bone_Name>b_turret</Turret_Bone_Name>
+		<Barrel_Bone_Name>b_barrel</Barrel_Bone_Name>
+		<Projectile_Types>Proj_MDU_Rocket_Pod_Rockets</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Targeting_Priority_Set>MDURocketTurret</Targeting_Priority_Set>
+		<Targeting_Fire_Inaccuracy>Structure, 15.0</Targeting_Fire_Inaccuracy>
+		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
+		<SFXEvent_Sold_Tactical>UHD_Turret_Sold</SFXEvent_Sold_Tactical>
+		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure | AntiVehicle | AntiAir</CategoryMask>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Score_Cost_Credits>70</Score_Cost_Credits>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Repair_Facility_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_U_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Sold_Tactical>UHD_Repair_Station_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Bacta_Tank_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_U_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Sold_Tactical>UHD_Bacta_Tank_Sold</SFXEvent_Sold_Tactical>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Sensor_Scrambler">
+		<Variant_Of_Existing_Type>Special_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_SENSOR_SCRAMBLER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SENSOR_SCRAMBLER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_uv_mdu_sensor.tga</Icon_Name>
+		<Land_Model_Name>UV_MDU_Sensor.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Structure_Sensor_Array_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Modifies_Reveal_Range>yes</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-0.75</Reveal_Range_Modifier>
+		<Passive_Missile_Shield_Radius>150</Passive_Missile_Shield_Radius>
+	</GroundStructure>
+	<GroundStructure Name="Underworld_Ysalamiri_Cage">
+		<Variant_Of_Existing_Type>Special_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_YSALAMIRI_CAGE</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_YSALAMIRI_CAGE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_uv_mdu_cage.tga</Icon_Name>
+		<LandBehavior>DISABLE_FORCE_ABILITIES, HIDE_WHEN_FOGGED, IDLE, LAND_OBSTACLE, REVEAL, UNIT_AI,</LandBehavior>
+		<Land_Model_Name>UV_MDU_Cage.alo</Land_Model_Name>
+		<Ranged_Target_Z_Adjust>10</Ranged_Target_Z_Adjust>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Affiliation>Underworld</Affiliation>
+		<SFXEvent_Select>Structure_Cage_Select_SFX</SFXEvent_Select>
+		<CategoryMask>Structure</CategoryMask>
+		<Disable_Force_Abilities_Range>250</Disable_Force_Abilities_Range>
+	</GroundStructure>
+	<GroundStructure Name="Pirate_Anti_Infantry_Turret">
+		<Variant_Of_Existing_Type>Rebel_Anti_Infantry_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Pirate_Anti_Vehicle_Turret">
+		<Variant_Of_Existing_Type>Rebel_Anti_Vehicle_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Pirate_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Pirates</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Pirate_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Repair_Facility_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_PIRATE_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Affiliation>Pirates</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Pirate_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Bacta_Tank_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_PIRATE_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Affiliation>Pirates</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Rapid_Fire_Laser_Turret">
+		<Variant_Of_Existing_Type>Rebel_Rapid_Fire_Laser_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Grenade_Mortar">
+		<Variant_Of_Existing_Type>Empire_Grenade_Mortar</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Anti_Aircraft_Turret">
+		<Variant_Of_Existing_Type>Rebel_Anti_Aircraft_Turret</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Buildable_Repair_Facility">
+		<Variant_Of_Existing_Type>Repair_Facility_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_PIRATE_BUILDABLE_REPAIR_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_r_repair_facility.tga</Icon_Name>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Buildable_Bacta_Tank">
+		<Variant_Of_Existing_Type>Bacta_Tank_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_STRUCTURE_PIRATE_BUILDABLE_BACTA_TANK</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HEAL_TURRET</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_bacta_tank.tga</Icon_Name>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+	<GroundStructure Name="Hutt_Offensive_Sensor_Node">
+		<Variant_Of_Existing_Type>Empire_Offensive_Sensor_Node</Variant_Of_Existing_Type>
+		<Affiliation>Hutts</Affiliation>
+	</GroundStructure>
+
+	<!-- Misc Buildables -->
+	<GroundStructure Name="Landing_Beacon">
+   		<Text_ID>TEXT_UNIT_LANDING_BEACON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LANDING_BEACON</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_UTILITY</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>RV_MDU_ShieldGen.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Icon_Name>I_BUTTON_MDU_REINFORCE_PAD.tga</Icon_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Affiliation> Rebel </Affiliation>
+
+		<Behavior>SELECTABLE, REVEAL, REINFORCEMENT_POINT</Behavior>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<SFXEvent_Select>Structure_Sensor_Select_SFX</SFXEvent_Select>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Structure_Sensor_Array_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+        
+		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Range_Icon_Name>i_radar_landing.tga</Radar_Range_Icon_Name>
+		<Radar_Icon_Name>mini_map_reinforcement.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.06  0.06</Radar_Icon_Size>
+		 
+		<Reinforcement_Enabling_Radius>100.0</Reinforcement_Enabling_Radius>
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Select_Box_Scale>50</Select_Box_Scale>
+
+		<Reinforcement_Region_Blob_Name>Reinforcement_Point_Radius_Overlay</Reinforcement_Region_Blob_Name>
+
+		<Mass>1.0</Mass>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>100</Tactical_Health>
+		<Armor_Type> Armor_I </Armor_Type>
+		<Reveal_During_Setup_Phase> false </Reveal_During_Setup_Phase>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<GUI_Bracket_Width>20</GUI_Bracket_Width>
+		<Control_Point_Domination_Condition_Relevant>No</Control_Point_Domination_Condition_Relevant>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+
+		<Unit_Abilities_Data SubObjectList="Yes"> </Unit_Abilities_Data>
+	</GroundStructure>
+</GroundStructures>

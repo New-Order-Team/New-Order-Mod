@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<QH_7_Chariot_Data>
+
+	<GroundVehicle Name="QH_7_Chariot">
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_QH_7_CHARIOT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_QH_7_CHARIOT_INFO_1
+			TEXT_UNIT_QH_7_CHARIOT_INFO_2
+			TEXT_UNIT_QH_7_CHARIOT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_QH_7_CHARIOT_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
+		
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+
+		<Land_Model_Name>imp_qh_7_chariot.alo</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.13</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>4.0</Max_Speed>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationSpacing> 1.1 </FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient> .4 </SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient> .4 </MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient> .9 </MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>
+		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
+		<Armor_Type> Armor_A4 </Armor_Type>
+		<Size_Value>60</Size_Value>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>640</Tactical_Health>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			DAMAGE_TRACKING,
+			GARRISON_UNIT,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			POWERED,
+			REVEAL,
+			STUNNABLE,
+			SURFACE_FX,
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			WEAPON,
+			WIND_DISTURBANCE,
+		</LandBehavior>
+
+		<Garrison_Category> Vehicle </Garrison_Category>
+		<Garrison_Value>2</Garrison_Value>
+
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>	<!-- This is considered a repulsorlift-driven unit -->
+		
+		<Land_FOW_Reveal_Range>340.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>300</Targeting_Max_Attack_Distance>
+		
+		<Projectile_Types>Proj_Land_Laser_QH_7</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<SFXEvent_Fire>Unit_Tie_Crawler_Fire</SFXEvent_Fire>
+
+		<Turret_Rotate_Extent_Degrees>90</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>15</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>Turret_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+
+		<Targeting_Fire_Inaccuracy> Infantry, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Structure, 10.0 </Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+
+		<CategoryMask> Vehicle </CategoryMask>  <!-- LandHero -->
+		<Icon_Name> i_button_chariot.tga </Icon_Name>
+		<MovementClass>HoverNoShield</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_2M_Tank</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_2M_Tank</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_2M_Tank</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_2M_Tank</SFXEvent_Guard>
+
+		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_2M_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_2M_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_2M_Tank </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_2M_Tank</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>20.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<AI_Combat_Power>431</AI_Combat_Power>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>ChariotPriority</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Weather_Category>Hover</Weather_Category>
+		<Score_Cost_Credits>431</Score_Cost_Credits>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Lua_Script>FieldCommander</Lua_Script>
+
+		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+				<GUI_Activated_Ability_Name> Chariot_Sensor_Jamming </GUI_Activated_Ability_Name> 
+				<Recharge_Seconds>60.0</Recharge_Seconds> 
+				<Expiration_Seconds>30.0</Expiration_Seconds>
+				<Effective_Radius>300.0</Effective_Radius> 
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+				<Alternate_Name_Text>TEXT_UNIT_QH_7_CHARIOT_AB1</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_QH_7_CHARIOT_AB1_DESC</Alternate_Description_Text>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_UNIT_QH_7_CHARIOT_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_QH_7_CHARIOT_AB2_DESC</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Sensor_Jamming_Ability Name="Chariot_Sensor_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
+			<Combat_Bonus_Ability Name="General_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		
+        <Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
+	</GroundVehicle>
+	
+	
+	<GroundCompany Name="Chariot_Command_Platoon">
+		<Text_ID>TEXT_UNIT_QH_7_CHARIOT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_QH_7_CHARIOT_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_QH_7_CHARIOT_INFO_1
+			TEXT_UNIT_QH_7_CHARIOT_INFO_2
+			TEXT_UNIT_QH_7_CHARIOT_INFO_3
+			TEXT_WEAPONS
+			TEXT_UNIT_QH_7_CHARIOT_W_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMAND_VEHICLE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_chariot.tga</Icon_Name>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>22.4</Damage>
+		<Autoresolve_Health>640</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1300</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>32</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Imperial_Command_Center</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>QH_7_Chariot</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_2M_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>1295</Score_Cost_Credits>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SENSOR_JAMMING</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>SELF_DESTRUCT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+		<!--<Tactical_Build_Prerequisites />-->
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		        
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+	
+
+</QH_7_Chariot_Data>

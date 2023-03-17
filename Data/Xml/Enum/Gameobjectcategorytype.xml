@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!-- Dynamic enum definition for GameObjectCategoryType  -->
+<EnumDefinition>
+
+	<!-- This is a bitfield! If we hit the 32 entry barrier, I'll look into support 64 bit enums -->
+	
+	<!-- Remaining: 3 + 3 - 4 = 2 -->
+
+	<Fighter>			0x00000001		</Fighter>
+	<Bomber>			0x00000002		</Bomber> <!-- Merge into Fighter -->
+	<Transport>			0x00000004		</Transport> <!-- Merge into Corvette -->
+	<Corvette>			0x00000008		</Corvette>
+	<Frigate>			0x00000010		</Frigate>
+	<!-- Cruiser -->
+	<Capital>			0x00000020		</Capital>
+	<!-- Dreadnought -->
+	<Super>				0x00000040		</Super>
+	
+	<Infantry>			0x00000080		</Infantry>
+	<Vehicle>			0x00000100		</Vehicle>
+	<Air>				0x00000200		</Air>
+	<Structure>			0x00000400		</Structure>
+	
+	<AntiFighter>		0x00000800		</AntiFighter>
+	<AntiBomber>		0x00001000		</AntiBomber> <!-- Merge into AntiFighter -->
+	<AntiTransport>		0x00002000		</AntiTransport> <!-- Merge into AntiCorvette -->
+	<AntiCorvette>		0x00004000		</AntiCorvette>
+	<AntiFrigate>		0x00008000		</AntiFrigate> <!-- Merge into AntiCorvette -->
+	<!-- AntiCruiser -->
+	<AntiCapital>		0x00010000		</AntiCapital>
+	<!-- AntiDreadnought -->
+	<AntiSuper>			0x00020000		</AntiSuper>
+	
+	<AntiInfantry>		0x00040000		</AntiInfantry>
+	<AntiVehicle>		0x00080000		</AntiVehicle>
+	<AntiAir>			0x00100000		</AntiAir>
+	<AntiStructure>		0x00200000		</AntiStructure>
+
+	<LandHero>			0x00400000		</LandHero>
+
+	<Wall>				0x00800000		</Wall>
+
+	<Upgrade>			0x01000000		</Upgrade>
+
+	<SpaceHero>			0x02000000		</SpaceHero>
+	<NonCombatHero>		0x04000000		</NonCombatHero>
+	<RaidUnit>			0x08000000		</RaidUnit>
+	<SLS_Fighter>		0x10000000		</SLS_Fighter>
+	
+	<!-- Data definitions for "Hero", "all" and "none" -->
+	<Hero>				0x16400000		</Hero>
+	<All>				0xFFFFFFFF		</All>
+	<None>				0x00000000		</None>
+	
+</EnumDefinition>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints\HardPoints.xml</File>
+	<File>HardPoints\HardPoints_Underworld.xml</File>
+	<!-- <File>CIN_HardPoints.xml</File> -->
+	
+	<File>HardPoints\HardPoints_SM.xml</File>
+	<File>HardPoints\HardPoints_Infantry.xml</File>
+	<File>HardPoints\HardPoints_Corvettes.xml</File>
+	<File>HardPoints\HardPoints_Frigates.xml</File>
+	<File>HardPoints\HardPoints_Capital.xml</File>
+	<File>HardPoints\HardPoints_Allegiance.xml</File>
+	<File>HardPoints\Hardpoints_Heroes.xml</File>
+	<File>HardPoints\HardPoints_Land.xml</File>
+	<File>HardPoints\HardPoints_Executor.xml</File>
+	<File>HardPoints\HardPoints_Sovereign.xml</File>
+	<File>HardPoints\HardPoints_Mediator.xml</File>
+	<File>HardPoints\HardPoints_Starbases.xml</File>
+	<File>HardPoints\HardPoints_Viscount.xml</File>
+	<File>HardPoints\HardPoints_Praetor_II.xml</File>
+	<File>HardPoints\HardPoints_Executor_NR.xml</File>
+	<File>HardPoints\HardPoints_Lusankya.xml</File>
+</Hard_Point_Files>

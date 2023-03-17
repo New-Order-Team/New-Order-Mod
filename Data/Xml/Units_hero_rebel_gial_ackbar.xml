@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<Gial_Ackbar_Data>
+
+	<!-- Gial Ackbar era I - Naritus -->
+	<UniqueUnit Name="Naritus">
+		<Variant_Of_Existing_Type>MC80A</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Tech_Level>99</Tech_Level>
+		
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_NARITUS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_NARITUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RES_LEAD </Encyclopedia_Unit_Class>
+		<Ranking_In_Category> 5 </Ranking_In_Category>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+		<Population_Value>17</Population_Value>
+		<CategoryMask> Capital | AntiCorvette | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<SFXEvent_Select>Unit_Select_Ackbar</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ackbar</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
+
+		<Damage>1268</Damage>
+		<Autoresolve_Health>9698</Autoresolve_Health>
+		<AI_Combat_Power>14384</AI_Combat_Power>
+		<Build_Cost_Credits>16550</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>16550</Tactical_Build_Cost_Multiplayer>
+		<Build_Time_Seconds>96</Build_Time_Seconds>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Ackbar_Naritus_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Naritus</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.625</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.625</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.625</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<!-- Gial Ackbar era II - Independence -->
+
+	<UniqueUnit Name="Independence_Ackbar">
+		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Tech_Level>99</Tech_Level>
+		
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_INDEPENDENCE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_INDEPENDENCE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+		<Population_Value>25</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<SFXEvent_Select>Unit_Select_Ackbar</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Ackbar</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
+
+		<Damage>1755</Damage>
+		<Autoresolve_Health>15368</Autoresolve_Health>
+		<AI_Combat_Power>25345</AI_Combat_Power>
+		<Build_Cost_Credits>25340</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>25340</Tactical_Build_Cost_Multiplayer>
+		<Build_Time_Seconds>119</Build_Time_Seconds>
+		
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Ackbar_Independence_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Independence_Ackbar</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.625</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.625</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.625</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<!-- Gial Ackbar era III - Home_One -->
+
+	<UniqueUnit Name="Home_One">
+		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_HOME_ONE</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_HOME_ONE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACKBAR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>31</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3850</Damage>
+		<Autoresolve_Health>16550</Autoresolve_Health>
+		<AI_Combat_Power>21660</AI_Combat_Power>
+		<Override_Bounty_SP>21660</Override_Bounty_SP>
+		<Override_Bounty_MP>21660</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>21660</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>21660</Piracy_Value_Credits>
+		<AI_Combat_Power>21660</AI_Combat_Power>
+		<Score_Cost_Credits>21660</Score_Cost_Credits>
+		<Build_Cost_Credits>31050</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>31050</Tactical_Build_Cost_Multiplayer>
+		
+		<!-- Home One is unique variant -->
+		<Space_Model_Name>F_Mc85.ALO</Space_Model_Name>
+		<Scale_Factor>0.31</Scale_Factor>
+		<Death_Clone>Damage_Normal, Home_One_Death_Clone</Death_Clone>
+
+		<HardPoints>
+			HP_Home_One_00,
+			HP_Home_One_01,
+			HP_Home_One_02,
+			HP_Home_One_03,
+			HP_Home_One_04,
+			HP_Home_One_05,
+			HP_Home_One_06,
+			HP_Home_One_07,
+			HP_Home_One_08,
+			HP_Home_One_09,
+			HP_Home_One_10,
+			HP_Home_One_11,
+			HP_Home_One_12,
+			HP_Home_One_13,
+			HP_Home_One_14,
+			HP_Home_One_15,
+			HP_Home_One_Fighter_Bay,
+			HP_Home_One_Fighter_Bay2
+		</HardPoints>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Home_One</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Home_One_Death_Clone">
+		<Text_ID>TEXT_UNIT_HOME_ONE</Text_ID>
+		<Space_Model_Name>F_Mc85_D.ALO</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+		<Scale_Factor>0.31</Scale_Factor>
+		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+		<Max_Speed>1.75</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</UniqueUnit>
+
+	<!-- Gial Ackbar era IV upgrade - Defiance -->
+	<UniqueUnit Name="Ackbar_Defiance_MC90">
+		<Variant_Of_Existing_Type>Mc90</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_DEFIANCE_MC90</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_DEFIANCE_MC90 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACKBAR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>37</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3544</Damage>
+		<Autoresolve_Health>20300</Autoresolve_Health>
+		<AI_Combat_Power>27988</AI_Combat_Power>
+		<Override_Bounty_SP>27988</Override_Bounty_SP>
+		<Override_Bounty_MP>27988</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>27988</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>27988</Piracy_Value_Credits>
+		<AI_Combat_Power>27988</AI_Combat_Power>
+		<Score_Cost_Credits>27988</Score_Cost_Credits>
+		<Build_Cost_Credits>36650</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>36650</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Ackbar_Defiance_MC90</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<!-- Gial Ackbar era V - Galactic Voyager -->
+	<UniqueUnit Name="Ackbar_Galactic_Voyager">
+		<Variant_Of_Existing_Type>Mc90</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_GALACTIC_VOYAGER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_GALACTIC_VOYAGER </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACKBAR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>37</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3544</Damage>
+		<Autoresolve_Health>20300</Autoresolve_Health>
+		<AI_Combat_Power>27988</AI_Combat_Power>
+		<Override_Bounty_SP>27988</Override_Bounty_SP>
+		<Override_Bounty_MP>27988</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>27988</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>27988</Piracy_Value_Credits>
+		<AI_Combat_Power>27988</AI_Combat_Power>
+		<Score_Cost_Credits>27988</Score_Cost_Credits>
+		<Build_Cost_Credits>36650</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>36650</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Ackbar_Galactic_Voyager</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<!-- Gial Ackbar era V upgrade - Guardian -->
+	<UniqueUnit Name="Ackbar_Guardian">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer_Rebel</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_ACKBAR_GUARDIAN</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_ACKBAR_GUARDIAN </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACKBAR </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_gial_ackbar.tga</Icon_Name>
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Required_Orbiting_Units>Ackbar_Galactic_Voyager</Required_Orbiting_Units>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Gial_Ackbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.30</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Gial_Ackbar_Data>

@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Floating_Fortress_Data>
+	<GroundVehicle Name="Floating_Fortress">
+		<Text_ID>TEXT_UNIT_FLOATING_FORTRESS</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_FLOATING_FORTRESS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_VEHICLE_SUPPORT </Encyclopedia_Unit_Class>
+		<Icon_Name> i_button_floating_fortress.tga </Icon_Name>
+	
+		<Land_Model_Name>ev_a9_floating_fortress.ALO</Land_Model_Name>
+		<Select_Box_Scale>200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Scale_Factor>0.62</Scale_Factor>
+		<Mass>1.0</Mass>
+		<Size_Value>150</Size_Value>
+
+		<Max_Speed>0.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>0.5</Stopped_Rate_Of_Turn>
+	
+		<Behavior>SELECTABLE</Behavior>
+		
+		<LandBehavior>
+			ABILITY_COUNTDOWN,
+			AFFECTED_BY_SHIELD,
+			DAMAGE_TRACKING,
+			HIDE_WHEN_FOGGED,
+			IDLE,
+			POWERED, 
+			REVEAL, 
+			STUNNABLE,
+			SURFACE_FX,
+			TARGETING,
+			TELEKINESIS_TARGET,
+			TURRET,
+			UNIT_AI,
+			WALK_LOCOMOTOR,
+			<!-- WEAPON, -->
+			WIND_DISTURBANCE,
+		</LandBehavior>
+
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<!-- <Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher> -->
+		<!-- <Property_Flags>GoodInfantryCrusher | CanContainGarrison </Property_Flags> -->
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+
+		<Wind_Disturbance_Radius>300</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Affiliation>Empire</Affiliation>
+
+		<Armor_Type> Armor_A5 </Armor_Type>
+		<Tactical_Health>1640</Tactical_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>	
+		<Energy_Capacity>9999</Energy_Capacity>
+		<Energy_Refresh_Rate>9999</Energy_Refresh_Rate>
+		<AI_Combat_Power>1880</AI_Combat_Power>
+		<Damage>60</Damage>
+
+		<Land_FOW_Reveal_Range>430.0</Land_FOW_Reveal_Range>
+		<!-- This value must be less than the range of the hard points -->
+		<Targeting_Min_Attack_Distance> 150.0 </Targeting_Min_Attack_Distance>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>15.0</Ranged_Target_Z_Adjust>
+
+		<Hardpoints>
+				HP_A9_Floating_Fort_00,
+				HP_A9_Floating_Fort_01
+		</Hardpoints>
+		
+		<!-- <Projectile_Types>Proj_Blank</Projectile_Types> -->
+		<!-- <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count> -->
+		<!-- <Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds> -->
+		<!-- <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds> -->
+		<!-- <SFXEvent_Fire></SFXEvent_Fire> -->
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Select>Unit_Select_AT_AT</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_AT_AT</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_AT_AT</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_AT_AT</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_AT_AT</SFXEvent_Guard>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_Gargantuan_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gargantuan_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+ 		
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<Overall_Length>60.0</Overall_Length>
+		<Overall_Width>0.0</Overall_Width>
+
+		<CategoryMask> Vehicle | AntiStructure | AntiInfantry </CategoryMask>
+		<MovementClass>LargeHover</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>75.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Weather_Category>LargeWalker</Weather_Category>
+        <Ranking_In_Category>99</Ranking_In_Category>
+
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+		<Custom_Hard_XExtent> 75.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+		<FormationGrouping> Solo </FormationGrouping>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>AntiStructureVehicle</Targeting_Priority_Set>	
+		<Score_Cost_Credits>1880</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+				<Recharge_Seconds>15</Recharge_Seconds>
+				<Spawned_Object_Type>Proj_Floating_Fortress_TIN</Spawned_Object_Type>
+				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="Floating_Fortress_Platoon">
+		<LOD_Bias>4</LOD_Bias>
+		<Text_ID>TEXT_UNIT_FLOATING_FORTRESS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_FLOATING_FORTRESS</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HAV</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Autoresolve_Health>1640</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>1880</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>2</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>Imperial_Command_Center</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
+		<Company_Units>Floating_Fortress</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_floating_fortress.tga</Icon_Name>
+		<GUI_Model_Name>ev_a9_floating_fortress.alo</GUI_Model_Name>
+		<GUI_Distance>115</GUI_Distance>
+		<GUI_Offset>0 0 15</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_SPMAT</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_SPMAT</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>1880</Score_Cost_Credits>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HARMONIC_BOMB</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1880</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
+</Floating_Fortress_Data>

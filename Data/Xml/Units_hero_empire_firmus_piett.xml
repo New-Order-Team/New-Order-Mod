@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Piett_Files>
+	<UniqueUnit Name="Accuser_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		
+		<Text_ID>TEXT_UNIT_HERO_FIRMUS_PIETT_ACCUSER</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_FIRMUS_PIETT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_firmus_piett.tga</Icon_Name>
+        <Ranking_In_Category>5</Ranking_In_Category>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Population_Value>14</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Damage>3605</Damage>
+		<Autoresolve_Health>12376</Autoresolve_Health>
+		<AI_Combat_Power>15981</AI_Combat_Power>
+		<Override_Bounty_SP>15981</Override_Bounty_SP>
+		<Override_Bounty_MP>15981</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>15981</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>15981</Piracy_Value_Credits>
+		<Score_Cost_Credits>15981</Score_Cost_Credits>
+		<Build_Cost_Credits>18740</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>18740</Tactical_Build_Cost_Multiplayer>
+
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+			<Combat_Bonus_Ability Name="Firmus_Piett_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Firmus_Piett_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Recondite_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.75</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.75</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.75</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+		
+	</UniqueUnit>
+	<UniqueUnit Name="Accuser_Star_Destroyer">
+		<Variant_Of_Existing_Type>Accuser_SD</Variant_Of_Existing_Type>
+	</UniqueUnit>
+</Piett_Files>

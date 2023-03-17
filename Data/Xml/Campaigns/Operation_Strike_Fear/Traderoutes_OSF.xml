@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+
+<TradeRoutes>
+    <TradeRoute Name="OSF_Lianna_Desevro">
+            <Point_A>Lianna_OSF</Point_A>
+            <Point_B>Desevro_OSF</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>Perlemian</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Lianna_Cadinth">
+            <Point_A>Lianna_OSF</Point_A>
+            <Point_B>Cadinth_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Desevro_Estaria">
+            <Point_A>Desevro_OSF</Point_A>
+            <Point_B>Estaria_OSF</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>Perlemian</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Desevro_Omman">
+            <Point_A>Desevro_OSF</Point_A>
+            <Point_B>Omman_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Omman_Dravione">
+            <Point_A>Omman_OSF</Point_A>
+            <Point_B>Dravione_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Dravione_Cadinth">
+            <Point_A>Dravione_OSF</Point_A>
+            <Point_B>Cadinth_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Dravione_Derellium">
+            <Point_A>Dravione_OSF</Point_A>
+            <Point_B>Derellium_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Cadinth_Derellium">
+            <Point_A>Cadinth_OSF</Point_A>
+            <Point_B>Derellium_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Derellium_Caluula">
+            <Point_A>Derellium_OSF</Point_A>
+            <Point_B>Caluula_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Caluula_Brigia">
+            <Point_A>Caluula_OSF</Point_A>
+            <Point_B>Brigia_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Caluula_Dellalt">
+            <Point_A>Caluula_OSF</Point_A>
+            <Point_B>Dellalt_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Brigia_Rudrig">
+            <Point_A>Brigia_OSF</Point_A>
+            <Point_B>Rudrig_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+    </TradeRoute>
+	
+    <TradeRoute Name="OSF_Brigia_Orion_IV">
+            <Point_A>Brigia_OSF</Point_A>
+            <Point_B>Orion_IV_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Rudrig_Raxus_Prime">
+            <Point_A>Rudrig_OSF</Point_A>
+            <Point_B>Raxus_Prime_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+	
+    <TradeRoute Name="OSF_Raxus_Prime_Estaria">
+            <Point_A>Raxus_Prime_OSF</Point_A>
+            <Point_B>Estaria_OSF</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+            <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	</TradeRoute>
+</TradeRoutes>

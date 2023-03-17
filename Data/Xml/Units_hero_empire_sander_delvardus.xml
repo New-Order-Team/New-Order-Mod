@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Sander_Delvardus_Data>
+	<UniqueUnit Name="Thalassa_SBC">
+		<Variant_Of_Existing_Type>Praetor_II</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Tech_Level>99</Tech_Level>
+
+		<Text_ID>TEXT_UNIT_HERO_SANDER_DELVARDUS_THALASSA</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_SANDER_DELVARDUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARLORD </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_sander_delvardus.tga</Icon_Name>
+		<Population_Value>76</Population_Value>
+		<CategoryMask> Capital | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+
+		<Damage>19188</Damage>
+		<Autoresolve_Health>49125</Autoresolve_Health>
+		<AI_Combat_Power>68313</AI_Combat_Power>
+		<Build_Cost_Credits>75990</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>75990</Tactical_Build_Cost_Multiplayer>
+		
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="Praetor_II_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids, Mediator_Cruiser, Viscount_Star_Defender, GBI_Harbinger
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+
+			<Combat_Bonus_Ability Name="Delvardus_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.20</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+			<Combat_Bonus_Ability Name="Delvardus_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Thalassa_SBC</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Reduce_Production_Price_Ability Name="Delvardus_SSD_Price_Reduction">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD,
+				Allegiance, Praetor_II</Applicable_Unit_Types>
+				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Sander_Delvardus_Data>

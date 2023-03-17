@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<A_A5_Speeder_Truck_Files>
+	<GroundVehicle Name="A_A5_Speeder_Truck">
+
+		<Text_ID>TEXT_UNIT_A_A5_SPEEDER_TRUCK</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LANDSPEEDER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_A_A5_SPEEDER_TRUCK</Encyclopedia_Text>
+		<Icon_Name>i_button_aa5.tga</Icon_Name>
+
+		<Land_Model_Name>a-a5_speeder_truck.alo</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>166.5</Select_Box_Scale>
+		<Select_Box_Z_Adjust>5.0</Select_Box_Z_Adjust>
+		<Size_Value>60</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>3.0</Max_Speed>
+		<Max_Thrust>0.24</Max_Thrust>
+		<OverrideAcceleration>0.008</OverrideAcceleration>
+		<OverrideDeceleration>0.016</OverrideDeceleration>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Affiliation>Rebel</Affiliation>
+
+		<Armor_Type>Armor_A1</Armor_Type>
+		<Tactical_Health>650</Tactical_Health>
+		<Autoresolve_Health>650</Autoresolve_Health>
+
+		<Energy_Capacity>600</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Damage>20</Damage>
+		<AI_Combat_Power>474</AI_Combat_Power>
+
+		<Type>Hover</Type>
+		<CategoryMask>Vehicle</CategoryMask>
+		<Ranking_In_Category>3</Ranking_In_Category>
+		<Property_Flags> CanContainGarrison, LightVehicle </Property_Flags>
+		<Weather_Category>Hover</Weather_Category>
+		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<Influences_Capture_Point>false</Influences_Capture_Point>
+
+		<Score_Cost_Credits>474</Score_Cost_Credits>
+
+		<LandBehavior>SELECTABLE, AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SURFACE_FX, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, DAMAGE_TRACKING, GARRISON_VEHICLE</LandBehavior>
+
+		<Garrison_Category>Infantry</Garrison_Category>
+		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Garrison_Bone_Names>Garrison_00, Garrison_01</Garrison_Bone_Names>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones>Attach_00, Attach_01</Target_Bones>
+		<Ranged_Target_Z_Adjust>18.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target>Yes</Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
+		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null, SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started>RHD_Reinforcements_En_Route</SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete>RHD_Reinforcements_Available</SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled>RHD_Reinforcements_Cancelled</SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_Gallofree_HTT</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Gallofree_HTT</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree_HTT</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Gallofree_HTT</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Gallofree_HTT</SFXEvent_Guard>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_Gargantuan_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Gargantuan_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_AT_AT_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer>Land</Space_Layer>
+		<UnitCollisionClass>Giant Vehicle</UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent>55.5</Custom_Hard_XExtent>
+		<Custom_Hard_YExtent>25.0</Custom_Hard_YExtent>
+		<FormationSpacing>1</FormationSpacing>
+		<FormationOrder>3</FormationOrder>
+		<FormationGrouping>Standard</FormationGrouping>
+		<FormationRaggedness>0.75</FormationRaggedness>
+		<MaxJiggleDistance>3.5</MaxJiggleDistance>
+		<MinimumPushReturnDistance>110</MinimumPushReturnDistance>
+		<UseSecondaryFacing>true</UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient>0.5</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>90</SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient>0.01</MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient>0.7</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance>500</SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>370.0</Land_FOW_Reveal_Range>
+
+		<Overall_Length>111.0</Overall_Length>
+		<Overall_Width>36.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>300</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+	</GroundVehicle>
+
+	<GroundCompany Name="A_A5_Speeder_Truck_Platoon">
+		<Text_ID>TEXT_UNIT_A_A5_SPEEDER_TRUCK_PLATOON</Text_ID>
+  		<Encyclopedia_Text>TEXT_TOOLTIP_A_A5_SPEEDER_TRUCK_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LANDSPEEDER</Encyclopedia_Unit_Class>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>14.6</Damage>
+		<Autoresolve_Health>1950</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Cost_Credits>1420</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>44</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<!--<Required_Ground_Base_Level>3</Required_Ground_Base_Level>-->
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Planets />
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>A_A5_Speeder_Truck, A_A5_Speeder_Truck, A_A5_Speeder_Truck</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_aa5.tga</Icon_Name>
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_T2B_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_T2B_Tank</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>1422</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1420</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+</A_A5_Speeder_Truck_Files>

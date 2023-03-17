@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<Hero_181st_Files>
+
+	<!-- Soontir Fel era II - TIE/ln -->
+	<UniqueUnit Name="181st_TIE_ln">
+		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_181ST_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_TIE_LN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+
+		<Tactical_Health>50</Tactical_Health>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Heavy_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>403</AI_Combat_Power>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Soontir_TIE_ln">
+		<Variant_Of_Existing_Type>181st_TIE_ln</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SOONTIR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SOONTIR_FEL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SOONTIR1</Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Icon_Name>i_button_soontir_fel.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="181st_TIE_ln_Squadron">
+		<Text_ID>TEXT_UNIT_HERO_181ST</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>6000</Autoresolve_Health>
+		<Damage>2520</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>8520</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>Soontir_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Squadron_Units>181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln, 181st_TIE_ln</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+
+		<Icon_Name>i_button_181st.tga</Icon_Name>
+		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 8520</Score_Cost_Credits>
+					
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_LN</Encyclopedia_Text>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>8520</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>9</Population_Value>
+        <Ranking_In_Category>8</Ranking_In_Category>
+	</Squadron>
+
+	<!-- Soontir Fel era III - TIE/in -->
+	<UniqueUnit Name="181st_TIE_in">
+		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_181ST_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_TIE_IN</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Space_Model_Name>181_st_interceptor.ALO</Space_Model_Name>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Shield_Points>133</Shield_Points>
+		<Tactical_Health>53</Tactical_Health>
+		<Shield_Refresh_Rate>13</Shield_Refresh_Rate>
+		<Damage>140</Damage>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Laser_Cannon_Heavy_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.0001</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+		
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>120</AI_Combat_Power>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Soontir_TIE_in">
+		<Variant_Of_Existing_Type>181st_TIE_in</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_SOONTIR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SOONTIR_FEL</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SOONTIR2 </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<Icon_Name>i_button_soontir_fel.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="181st_TIE_in_Squadron">
+		<Text_ID>TEXT_UNIT_HERO_181ST</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>22320</Autoresolve_Health>
+		<Damage>5040</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>30100</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>Soontir_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Squadron_Units>181st_TIE_in, 181st_TIE_in, 181st_TIE_in, 181st_TIE_in</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<Icon_Name>i_button_181st.tga</Icon_Name>
+		<GUI_Model_Name>181_st_interceptor.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+					
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_IN</Encyclopedia_Text>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>30100</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+        <Ranking_In_Category>8</Ranking_In_Category>
+	</Squadron>
+	
+	<!-- Turr Phennir era V - TIE/d -->
+	<UniqueUnit Name="181st_TIE_D">
+		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_181ST_P</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_TIE_D</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
+		
+		<Space_Model_Name>181_st_defender.ALO</Space_Model_Name>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		
+		<Shield_Points>200</Shield_Points>
+		<Tactical_Health>20</Tactical_Health>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Damage>167</Damage>
+
+		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
+        <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
+		
+		<HardPoints>
+			HP_181st_TIE_Defender_00,
+			HP_181st_TIE_Defender_01
+		</HardPoints>
+		<Projectile_Types>Proj_Hero_Ship_Fighter_Concussion_Missile_181st, Proj_Hero_Ship_Proton_Torpedo_181st</Projectile_Types>
+		
+		<AI_Combat_Power>120</AI_Combat_Power>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_181ST_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_181ST_SWAP_DESCRIPTION</Alternate_Description_Text>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
+					 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Barrage_Tie_Defender </SFXEvent_GUI_Unit_Ability_Activated> 
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		<Create_Team>Yes</Create_Team>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Phennir_TIE_d">
+		<Variant_Of_Existing_Type>181st_TIE_D</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HERO_TURR_PHENNIR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_TURR_PHENNIR_TIE_D</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJOR </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero </CategoryMask>
+		<Icon_Name>i_button_turr_phennir.tga</Icon_Name>
+	</UniqueUnit>
+	
+	<Squadron Name="181st_TIE_d_Squadron">
+		<Text_ID>TEXT_HERO_181ST_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_181ST_D</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ELITE_FIGHTER </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Targeting_Priority_Set>SM_Elite_Fighter</Targeting_Priority_Set>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>8800</Autoresolve_Health>
+		<Damage>2008</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>11890</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>12</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>Phennir_TIE_d, 181st_TIE_D, 181st_TIE_D, 181st_TIE_D</Squadron_Units>
+		<Squadron_Units>181st_TIE_D, 181st_TIE_D, 181st_TIE_D, 181st_TIE_D</Squadron_Units>
+		<Squadron_Units>181st_TIE_D, 181st_TIE_D, 181st_TIE_D, 181st_TIE_D</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+		<Icon_Name>i_button_181st.tga</Icon_Name>
+		<GUI_Model_Name>181_st_defender.ALO</GUI_Model_Name>
+		<GUI_Distance>120</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SWAP_WEAPONS</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_181ST_SWAP</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_181ST_SWAP_DESCRIPTION</Alternate_Description_Text>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+                <GUI_Activated_Ability_Name>Disruptor_Swap_Weapon</GUI_Activated_Ability_Name> 
+					 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Barrage_Tie_Defender </SFXEvent_GUI_Unit_Ability_Activated> 
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+					
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>11890</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player> 
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>1</Population_Value>
+        <Ranking_In_Category>8</Ranking_In_Category>
+	</Squadron>
+
+</Hero_181st_Files>

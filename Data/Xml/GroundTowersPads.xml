@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<GroundBuildables>
+	<GroundBuildable Name="N_Ground_Turbolaser_Tower_Build_Pad">
+		<Behavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<LandBehavior>
+			LAND_OBSTACLE,
+			SPACE_OBSTACLE,
+			TERRAIN_TEXTURE_MODIFICATION,
+		</LandBehavior>
+		
+		<Space_Layer> Corvette </Space_Layer>
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 40.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				UC_E_Ground_Turbolaser_Tower,
+			Rebel,
+				UC_R_Ground_Turbolaser_Tower,
+		</Tactical_Buildable_Objects_Multiplayer>
+	
+		<Text_ID>TEXT_PAD_TOWER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
+		<Land_Model_Name>gen_buildpad_large.alo</Land_Model_Name>
+		<Capture_Point_Radius>150</Capture_Point_Radius>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> True </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Affiliation>Neutral, Rebel, Empire</Affiliation>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<!-- <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header> -->
+	</GroundBuildable>
+	
+	<GroundBuildable Name="E_Ground_Turbolaser_Tower_Build_Pad">
+		<Behavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<LandBehavior>
+			LAND_OBSTACLE,
+			SPACE_OBSTACLE,
+			TERRAIN_TEXTURE_MODIFICATION,
+		</LandBehavior>
+		
+		<Space_Layer> Corvette </Space_Layer>
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 40.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire, 
+				UC_E_Ground_Turbolaser_Tower,
+		</Tactical_Buildable_Objects_Multiplayer>
+	
+		<Text_ID>TEXT_PAD_TOWER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
+		<Land_Model_Name>gen_buildpad_large.alo</Land_Model_Name>
+		<Capture_Point_Radius>150</Capture_Point_Radius>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> True </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Affiliation>Empire</Affiliation>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<!-- <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header> -->
+	</GroundBuildable>
+	
+	<GroundBuildable Name="R_Ground_Turbolaser_Tower_Build_Pad">
+		<Behavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<LandBehavior>
+			LAND_OBSTACLE,
+			SPACE_OBSTACLE,
+			TERRAIN_TEXTURE_MODIFICATION,
+		</LandBehavior>
+		
+		<Space_Layer> Corvette </Space_Layer>
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 40.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				UC_R_Ground_Turbolaser_Tower,
+		</Tactical_Buildable_Objects_Multiplayer>
+	
+		<Text_ID>TEXT_PAD_TOWER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
+		<Land_Model_Name>gen_buildpad_large.alo</Land_Model_Name>
+		<Capture_Point_Radius>150</Capture_Point_Radius>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> True </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Affiliation>Rebel</Affiliation>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<!-- <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header> -->
+	</GroundBuildable>
+	
+	<GroundBuildable Name="U_Ground_Turbolaser_Tower_Build_Pad">
+		<Behavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<LandBehavior>
+			LAND_OBSTACLE,
+			SPACE_OBSTACLE,
+			TERRAIN_TEXTURE_MODIFICATION,
+		</LandBehavior>
+		
+		<Space_Layer> Corvette </Space_Layer>
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 40.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Underworld,
+				UC_U_Ground_Turbolaser_Tower,
+		</Tactical_Buildable_Objects_Multiplayer>
+	
+		<Text_ID>TEXT_PAD_TOWER</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
+		<Land_Model_Name>gen_buildpad_large.alo</Land_Model_Name>
+		<Capture_Point_Radius>150</Capture_Point_Radius>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Capture_Point_Transition_Time_Seconds>10.0</Capture_Point_Transition_Time_Seconds>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Show_Facing>No</Radar_Show_Facing>
+		<Radar_Icon_Name>mini_map_turbolaser_tower.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.075 0.075</Radar_Icon_Size>
+		
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>500.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>false</Terrain_Texture_Modifier_Square>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> True </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Affiliation>Underworld</Affiliation>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<!-- <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header> -->
+	</GroundBuildable>
+</GroundBuildables>

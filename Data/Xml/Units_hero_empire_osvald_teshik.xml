@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Osvald_Teshik_Data>
+	<UniqueUnit Name="Eleemosynary_SD">
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>TEXT_UNIT_HERO_OSVALD_TESHIK_ELEEMOSYNARY</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_OSVALD_TESHIK </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GA </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_osvald_teshik.tga</Icon_Name>
+		<Population_Value>23</Population_Value>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+		<Shield_Refresh_Rate>960</Shield_Refresh_Rate>
+
+		<Damage>2833</Damage>
+		<Autoresolve_Health>17680</Autoresolve_Health>
+		<AI_Combat_Power>20513</AI_Combat_Power>
+		<Override_Bounty_SP>20513</Override_Bounty_SP>
+		<Override_Bounty_MP>20513</Override_Bounty_MP>
+		<Tactical_Bribe_Cost>20513</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>20513</Piracy_Value_Credits>
+		<AI_Combat_Power>20513</AI_Combat_Power>
+		<Score_Cost_Credits>20513</Score_Cost_Credits>
+		<Build_Cost_Credits>23270</Build_Cost_Credits>
+		<Tactical_Build_Cost_Multiplayer>23270</Tactical_Build_Cost_Multiplayer>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+				<Excluded_Unit_Types>
+					Buzz_Droids
+				</Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>10</Activation_Min_Range>
+	            <Activation_Max_Range>1800</Activation_Max_Range>
+
+
+	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>0</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+			<Combat_Bonus_Ability Name="Osvald_Teshik_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.4</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+			
+			<Combat_Bonus_Ability Name="Osvald_Teshik_Own_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Applicable_Unit_Types>Eleemosynary_SD</Applicable_Unit_Types>
+				<Health_Bonus_Percentage>1.50</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.375</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>1.50</Shield_Bonus_Percentage>
+				<Stacking_Category>19</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Whelm_SSD">
+		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Tech_Level>3</Tech_Level>
+		<Required_Orbiting_Units>Eleemosynary_SD</Required_Orbiting_Units>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Tab_Heroes>yes</Build_Tab_Heroes>
+
+		<Text_ID>TEXT_UNIT_HERO_OSVALD_TESHIK_WHELM</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_OSVALD_TESHIK </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GA </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_osvald_teshik.tga</Icon_Name>
+		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Osvald_Teshik_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>All</Unit_Strength_Category>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.4</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>3</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+	</UniqueUnit>
+</Osvald_Teshik_Data>

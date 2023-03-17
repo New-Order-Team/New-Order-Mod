@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<GroundBuildables>
+	<GroundBuildable Name="Skirmish_Build_Pad">
+		<Behavior>
+			CAPTURE_POINT,
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 15.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+		
+		<Tactical_Buildable_Objects_Campaign> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Grenade_Mortar,
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Rocket_Pod,
+		</Tactical_Buildable_Objects_Campaign>
+		
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Grenade_Mortar,
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Rocket_Pod,
+		</Tactical_Buildable_Objects_Multiplayer>
+		
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_CLASS_PAD </Encyclopedia_Text>
+		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
+		<Capture_Point_Radius>100</Capture_Point_Radius>
+		<Influences_Capture_Point>no</Influences_Capture_Point>
+		<Capture_Point_Transition_Time_Seconds>5.0</Capture_Point_Transition_Time_Seconds>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> True </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
+		<Immune_To_Damage>True</Immune_To_Damage>
+      <Include_In_UI_Map_Header>True</Include_In_UI_Map_Header>
+	</GroundBuildable>
+	<GroundBuildable Name="Skirmish_Build_Pad_Offense">
+		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Skirmish_Build_Pad_Defense">
+		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Skirmish_Build_Pad_Basic">
+		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Skirmish_Build_Pad_Bacta">
+		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Skirmish_Build_Pad_AITurret">
+		<Variant_Of_Existing_Type>Skirmish_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	
+	<!-- Empire Build Pads -->
+	<GroundBuildable Name="Empire_Build_Pad">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<Tactical_Buildable_Objects_Campaign>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Grenade_Mortar,
+		</Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer>
+			Empire,
+				UC_Empire_Buildable_Anti_Infantry_Turret,
+				UC_Empire_Buildable_Anti_Vehicle_Turret,
+				UC_Empire_Buildable_Anti_Aircraft_Turret,
+				UC_Empire_Grenade_Mortar,
+		</Tactical_Buildable_Objects_Multiplayer>
+
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Land_Model_Name> NB_BasePad_Imperial.alo </Land_Model_Name>
+		<Capture_Point_Radius>0</Capture_Point_Radius>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		<Respects_Skirmish_Pre_Build_Bases_Option> false </Respects_Skirmish_Pre_Build_Bases_Option>
+		
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Affiliation> Empire </Affiliation>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> False </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 15 </Minimum_Time_Before_Pad_Can_Build_Again>
+	</GroundBuildable>
+	<GroundBuildable Name="Empire_Build_Pad_Offensive">
+		<Variant_Of_Existing_Type> Empire_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Empire_Build_Pad_Defensive">
+		<Variant_Of_Existing_Type> Empire_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	
+	<!-- Rebel Turret Pads -->
+	<GroundBuildable Name="Rebel_Build_Pad">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		
+		<Tactical_Buildable_Objects_Campaign>
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Rocket_Pod,
+		</Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer>
+			Rebel,
+				UC_Rebel_Buildable_Anti_Infantry_Turret,
+				UC_Rebel_Buildable_Anti_Vehicle_Turret,
+				UC_Rebel_Buildable_Anti_Aircraft_Turret,
+				UC_Rebel_Rocket_Pod,
+		</Tactical_Buildable_Objects_Multiplayer>
+
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Land_Model_Name>NB_BasePad_Rebel.alo</Land_Model_Name>
+		<Capture_Point_Radius>0</Capture_Point_Radius>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		<Respects_Skirmish_Pre_Build_Bases_Option> false </Respects_Skirmish_Pre_Build_Bases_Option>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Affiliation> Rebel </Affiliation>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> False </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 15 </Minimum_Time_Before_Pad_Can_Build_Again>
+	</GroundBuildable>
+	<GroundBuildable Name="Rebel_Build_Pad_Offensive">
+		<Variant_Of_Existing_Type> Rebel_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Rebel_Build_Pad_Defensive">
+		<Variant_Of_Existing_Type> Rebel_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+	</GroundBuildable>
+	<GroundBuildable Name="Rebel_Build_Pad_M1">
+		<Variant_Of_Existing_Type> Rebel_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty> false </Visible_To_Enemies_When_Empty>
+	</GroundBuildable>
+	<GroundBuildable Name="Rebel_Build_Pad_Bacta">
+		<Variant_Of_Existing_Type>Rebel_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty> false </Visible_To_Enemies_When_Empty>
+	</GroundBuildable>
+	<GroundBuildable Name="Rebel_Build_Pad_AITurret">
+		<Variant_Of_Existing_Type>Rebel_Build_Pad</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty> false </Visible_To_Enemies_When_Empty>
+	</GroundBuildable>
+	
+	<!-- Underworld Turret Pads -->
+	<GroundBuildable Name="Underworld_Build_Pad">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		<Tactical_Buildable_Objects_Campaign>
+			Underworld,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+		</Tactical_Buildable_Objects_Campaign>
+		
+		<Tactical_Buildable_Objects_Multiplayer>
+			Underworld,
+				UC_Underworld_Buildable_Mass_Driver_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret,
+		</Tactical_Buildable_Objects_Multiplayer>
+
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Land_Model_Name>NB_Basepad_Underworld.alo</Land_Model_Name>
+		<Capture_Point_Radius>0</Capture_Point_Radius>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+		<Respects_Skirmish_Pre_Build_Bases_Option> false </Respects_Skirmish_Pre_Build_Bases_Option>
+
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Affiliation> Underworld </Affiliation>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> False </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Immune_To_Damage>True</Immune_To_Damage>
+		<Minimum_Time_Before_Pad_Can_Build_Again> 15.0 </Minimum_Time_Before_Pad_Can_Build_Again>
+	</GroundBuildable>
+	<GroundBuildable Name="Underworld_Build_Pad_Offensive">
+		<Variant_Of_Existing_Type> Underworld_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty> false </Visible_To_Enemies_When_Empty>
+	</GroundBuildable>
+	<GroundBuildable Name="Underworld_Build_Pad_Defensive">
+		<Variant_Of_Existing_Type> Underworld_Build_Pad </Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Campaign></Tactical_Buildable_Objects_Campaign>
+		<Tactical_Buildable_Objects_Multiplayer></Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty> false </Visible_To_Enemies_When_Empty>
+	</GroundBuildable>
+
+	<GroundBuildable Name="Pirate_Build_Pad">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		
+		<Tactical_Buildable_Objects_Campaign>
+			Pirates,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+		</Tactical_Buildable_Objects_Campaign>
+		
+		<Tactical_Buildable_Objects_Multiplayer>
+			Pirates,
+				UC_Pirate_Buildable_Anti_Infantry_Turret,
+				UC_Pirate_Buildable_Anti_Vehicle_Turret,
+				UC_Pirate_Buildable_Anti_Aircraft_Turret,
+		</Tactical_Buildable_Objects_Multiplayer>
+
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Land_Model_Name> NB_BasePad.alo </Land_Model_Name>
+		<Capture_Point_Radius>0</Capture_Point_Radius>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Affiliation> Pirates </Affiliation>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> False </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<GUI_Bracket_Width> 20 </GUI_Bracket_Width>
+		<GUI_Bracket_Height> 0 </GUI_Bracket_Height>
+		<GUI_Bracket_Size> 1 </GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Radar_Icon_Size>0.05  0.05</Radar_Icon_Size>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+	<GroundBuildable Name="Hutt_Build_Pad">
+		<Behavior>
+			HIDE_WHEN_FOGGED,
+			REVEAL,
+			TACTICAL_BUILD_OBJECTS,
+		</Behavior>
+		
+		<Tactical_Buildable_Objects_Campaign>
+			Hutts,
+				UC_Hutt_Rapid_Fire_Laser_Turret,
+				UC_Hutt_Anti_Aircraft_Turret,
+				UC_Hutt_Grenade_Mortar,
+		</Tactical_Buildable_Objects_Campaign>
+
+		<Text_ID> TEXT_PAD_TURRET </Text_ID>
+		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
+		<Capture_Point_Radius>0</Capture_Point_Radius>
+		<Loop_Idle_Anim_00> No </Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living> No </Collidable_By_Projectile_Living>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
+		<Select_Box_Scale> 50 </Select_Box_Scale>
+
+		<Space_Layer> Land </Space_Layer>	
+		<UnitCollisionClass> Build Pad </UnitCollisionClass>	
+		<Custom_Hard_XExtent> 10.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+		
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Shield_Points> 0 </Shield_Points>
+		<Tactical_Health> 10000 </Tactical_Health>
+		<Affiliation> Hutts </Affiliation>
+		<Base_Level_Available> 1 </Base_Level_Available>
+		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+		<Reveal_During_Setup_Phase_Only> False </Reveal_During_Setup_Phase_Only>
+		<Land_FOW_Reveal_Range>100.0</Land_FOW_Reveal_Range>
+		<Victory_Relevant> No </Victory_Relevant>
+		<No_Reflection_Below_Detail_Level> 1 </No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level> 1 </No_Refraction_Below_Detail_Level>
+		<CategoryMask> Structure </CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+		<Immune_To_Damage>True</Immune_To_Damage>
+	</GroundBuildable>
+</GroundBuildables>

@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<LAAT_Files>
+	<GroundVehicle Name="LAAT">
+		<Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01, MISSILE_TARGET02 </Target_Bones>
+		<No_Colorization_Color> 54, 134, 242, 255 </No_Colorization_Color>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>90.0, 50.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_LAAT</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LAAT</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
+		
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Num_Garrison_Slots>3</Num_Garrison_Slots>
+		<Garrison_Exit_Dist>0</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>30</Garrison_Radius>
+
+		<Garrison_Bone_Names>Root</Garrison_Bone_Names>
+
+		<Land_Model_Name>EV_LAAT.ALO</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Deploys>Yes</Deploys>
+		<Auto_Deploys>No</Auto_Deploys>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>6.0</Max_Speed>
+		<Movement_Animation_Speed> 2.30 </Movement_Animation_Speed>
+		<Max_Rate_Of_Turn>10.0</Max_Rate_Of_Turn>
+		<Stopped_Rate_Of_Turn>40</Stopped_Rate_Of_Turn>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Attack_Animation_Is_Overlay>yes</Attack_Animation_Is_Overlay>
+		<Space_Layer>Frigate</Space_Layer>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<FormationSpacing>3.0</FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient> .1</SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle>180 </SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient> .1 </MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient> .1</MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>
+		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Ranged_Target_Z_Adjust>150.0</Ranged_Target_Z_Adjust>
+		<Armor_Type> Armor_A1 </Armor_Type>
+		<Size_Value>60</Size_Value>
+		<Damage>10</Damage>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>1000</Tactical_Health>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, WIND_DISTURBANCE, SURFACE_FX,DAMAGE_TRACKING, GARRISON_VEHICLE</LandBehavior>
+		<Property_Flags>CanContainGarrison</Property_Flags>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+
+		<Land_FOW_Reveal_Range>1000.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Hardpoints>
+				HP_LAAT_00, HP_LAAT_01, HP_LAAT_02, HP_LAAT_03, HP_LAAT_04
+		</Hardpoints>
+				
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<CategoryMask> Air </CategoryMask>
+		<Icon_Name>i_button_laat.tga</Icon_Name>
+		<MovementClass>Flying</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<SFXEvent_Fire></SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Lancet</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Lancet</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lancet</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Lancet</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Lancet</SFXEvent_Guard>
+
+		<SFXEvent_Engine_Idle_Loop>Unit_LAAT_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_LAAT_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_LAAT_Idle_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Moving> Unit_LAAT_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>ATATAntiEverything</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>100.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Select_Box_Scale>80</Select_Box_Scale>
+		<Select_Box_Z_Adjust>150.0f</Select_Box_Z_Adjust>
+		<Weather_Category>Flying</Weather_Category>
+		<Score_Cost_Credits>125</Score_Cost_Credits>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Converted_To_Enemy_Die_Time_Seconds>45</Converted_To_Enemy_Die_Time_Seconds>
+	</GroundVehicle>
+	<GroundCompany Name="LAAT_Platoon">
+		<Text_ID>TEXT_UNIT_LAAT_PLATOON</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>978</Damage>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>2350</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>4</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>walker</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>LAAT, LAAT</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>i_button_laat.tga</Icon_Name>
+		<GUI_Model_Name>EV_LAAT.ALO</GUI_Model_Name>
+		<GUI_Distance>300</GUI_Distance>
+		<GUI_Offset>0 0 30</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Lancet</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Lancet</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>1578</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_LAAT_PLATOON</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+	
+	<GroundVehicle Name="LAAT_Rebel">
+		<Variant_Of_Existing_Type>LAAT</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+	</GroundVehicle>
+	<GroundCompany Name="LAAT_Rebel_Platoon">
+		<Variant_Of_Existing_Type>LAAT_Platoon</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_LAAT_PLATOON</Text_ID>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>1</Tech_Level>
+		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>LAAT_Rebel, LAAT_Rebel</Company_Units>
+		<Encyclopedia_Text>TEXT_TOOLTIP_LAAT_PLATOON</Encyclopedia_Text>
+	</GroundCompany>
+</LAAT_Files>

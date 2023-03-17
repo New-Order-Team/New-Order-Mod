@@ -1,0 +1,2015 @@
+<?xml version="1.0"?>
+<Campaigns>
+	<Campaign Name="Sandbox_GFFA_NO_Empire">
+		<Campaign_Set>Sandbox_GFFA_NO</Campaign_Set>
+		<Sort_Order>10</Sort_Order>
+
+		<Text_ID>TEXT_CAMPAIGN_SINGLE_56</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56</Description_Text>
+
+		<Camera_Shift_X>40.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1200.0</Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model_NO,
+			Aargau_NO,
+			Abregado_rae_NO,
+			Alderaan_NO,
+			Anaxes_NO,
+			Atzerri_NO,
+			Balmorra_NO,
+			Bespin_NO,
+			Bestine_IV_NO,
+			Bilbringi_VII_NO,
+			Bonadan_NO,
+			Bothawui_NO,
+			Brentaal_IV_NO,
+			Byss_NO,
+			Carida_NO,
+			Celanon_NO,
+			Centares_NO,
+			Champala_NO,
+			Commenor_NO,
+			Corellia_NO,
+			Corulag_NO,
+			Coruscant_NO,
+			Dantooine_NO,
+			Dathomir_NO,
+			Demophon_NO,
+			Denon_NO,
+			Dorin_NO,
+			Druckenwell_NO,
+			Duro_NO,
+			Endor_NO,
+			Eriadu_NO,
+			Fondor_NO,
+			Fresia_NO,
+			Geonosis_NO,
+			Gerrenthum_NO,
+			Honoghr_NO,
+			Hoth_NO,
+			Hypori_NO,
+			Jabiim_NO,
+			Kamino_NO,
+			Kashyyyk_NO,
+			Kessel_NO,
+			Kinyen_NO,
+			Kuat_NO,
+			Lantillies_NO,
+			Lianna_NO,
+			Malastare_NO,
+			Manaan_NO,
+			Mandalore_NO,
+			Mon_Calamari_NO,
+			Mustafar_NO,
+			Muunilinst_NO,
+			Myrkr_NO,
+			Naboo_NO,
+			Nar_Shaddaa_NO,
+			Ord_Mantell_NO,
+			Ralltiir_NO,
+			Roche_NO,
+			Ryloth_NO,
+			Saleucami_NO,
+			Sluis_Van_NO,
+			Sullust_NO,
+			Taris_NO,
+			Tatooine_NO,
+			Telos_IV_NO,
+			Terminus_NO,
+			The_Maw_NO,
+			Thyferra_NO,
+			Vergesso_Asteroids_NO,
+			Vulpter_NO,
+			Wayland_NO,
+			Yag_Dhul_NO,
+			Yavin_4_NO,
+		</Locations>
+
+		<Trade_Routes>
+			Coruscant_Anaxes_NO,
+			Anaxes_Corulag_NO,
+			Corulag_Brentaal_IV_NO,
+			Brentaal_IV_Ralltiir_NO,
+			Ralltiir_Lantillies_NO,
+			Lantillies_Roche_NO,
+			Roche_Centares_NO,
+			Centares_Lianna_NO,
+			Coruscant_Aargau_NO,
+			Aargau_Corellia_NO,
+			Corellia_Denon_NO,
+			Denon_Druckenwell_NO,
+			Druckenwell_Geonosis_NO,
+			Geonosis_Ryloth_NO,
+			Corellia_Duro_NO,
+			Duro_Bestine_IV_NO,
+			Bestine_IV_Yag_Dhul_NO,
+			Yag_Dhul_Kinyen_NO,
+			Kinyen_Gerrenthum_NO,
+			Gerrenthum_Terminus_NO,
+			Abregado_rae_Fondor_NO,
+			Fondor_Thyferra_NO,
+			Thyferra_Yag_Dhul_NO,
+			Yag_Dhul_Sullust_NO,
+			Sullust_Eriadu_NO,
+			Eriadu_Sluis_Van_NO,
+			Bonadan_Telos_IV_NO,
+			Telos_IV_Celanon_NO,
+			Celanon_Taris_NO,
+			Taris_Champala_NO,
+			Champala_Brentaal_IV_NO,
+			Brentaal_IV_Demophon_NO,
+			Demophon_Denon_NO,
+			Denon_Malastare_NO,
+			Malastare_Eriadu_NO,
+			Eriadu_Mustafar_NO,
+			Mustafar_Terminus_NO,
+			Naboo_Druckenwell_NO,
+			Fondor_Bestine_IV_NO,
+			Bestine_IV_Atzerri_NO,
+			Atzerri_Denon_NO,
+			Gerrenthum_Eriadu_NO,
+			Celanon_Centares_NO,
+			Taris_Ord_Mantell_NO,
+			Ord_Mantell_Dorin_NO,
+			Coruscant_Bilbringi_VII_NO,
+			Bilbringi_VII_Dorin_NO,
+			Muunilinst_Ord_Mantell_NO,
+			Centares_Jabiim_NO,
+			Kamino_Tatooine_NO,
+			Tatooine_Geonosis_NO,
+			Geonosis_Naboo_NO,
+			Naboo_Malastare_NO,
+			Taris_Lantillies_NO,
+			Lantillies_Kashyyyk_NO,
+			Brentaal_IV_Alderaan_NO,
+			Alderaan_Commenor_NO,
+			Druckenwell_Bothawui_NO,
+			Bothawui_Nar_Shaddaa_NO,
+			Bothawui_Kamino_NO,
+			Gerrenthum_Bespin_NO,
+			Bespin_Hoth_NO,
+			Demophon_Kuat_NO,
+			Kuat_Balmorra_NO,
+			Balmorra_Commenor_NO,
+			Commenor_Kashyyyk_NO,
+			Kashyyyk_Saleucami_NO,
+			Celanon_Dantooine_NO,
+			Kinyen_Endor_NO,
+			Muunilinst_Dantooine_NO,
+			Dantooine_Taris_NO,
+			Coruscant_Fresia_NO,
+			Celanon_Yavin_4_NO,
+			Lianna_Bonadan_NO,
+			Coruscant_Vulpter_NO,
+			Coruscant_Byss_NO,
+			Commenor_Manaan_NO,
+			Kessel_The_Maw_NO,
+			Centares_Saleucami_NO,
+			Saleucami_Nar_Shaddaa_NO,
+			Naboo_Vergesso_Asteroids_NO,
+			Jabiim_Kamino_NO,
+			Mon_Calamari_Lianna_NO,
+			Taris_Mandalore_NO,
+			Taris_Wayland_NO,
+			Wayland_Myrkr_NO,
+			Myrkr_Taris_NO,
+			Alderaan_Carida_NO,
+			Carida_Ralltiir_NO,
+		</Trade_Routes>
+
+		<Home_Location>Rebel, Hoth_NO</Home_Location>
+		<Home_Location>Empire, Coruscant_NO</Home_Location>
+
+		<Starting_Active_Player>Empire</Starting_Active_Player>
+
+		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
+
+		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Credits> Empire,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Atzerri_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bonadan_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bothawui_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Byss_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Celanon_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Centares_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Corellia_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Corulag_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Coruscant_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Dantooine_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Dorin_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Druckenwell_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Duro_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Endor_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Eriadu_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Fondor_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Fresia_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Jabiim_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kamino_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kashyyyk_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kessel_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kinyen_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kuat_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Lianna_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Malastare_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Manaan_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Mandalore_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Calamari_Cruiser</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Muunilinst_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Naboo_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Saleucami_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Taris_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Telos_IV_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, The_Maw_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Wayland_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Yag_Dhul_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+	</Campaign>
+
+	<Campaign Name="Sandbox_GFFA_NO_Rebel">
+		<Campaign_Set>Sandbox_GFFA_NO</Campaign_Set>
+		<Sort_Order>10</Sort_Order>
+
+		<Text_ID>TEXT_CAMPAIGN_SINGLE_56</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56</Description_Text>
+
+		<Camera_Shift_X>40.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1200.0</Camera_Distance>
+
+		<Locations>
+			Galaxy_Core_Art_Model_NO,
+			Aargau_NO,
+			Abregado_rae_NO,
+			Alderaan_NO,
+			Anaxes_NO,
+			Atzerri_NO,
+			Balmorra_NO,
+			Bespin_NO,
+			Bestine_IV_NO,
+			Bilbringi_VII_NO,
+			Bonadan_NO,
+			Bothawui_NO,
+			Brentaal_IV_NO,
+			Byss_NO,
+			Carida_NO,
+			Celanon_NO,
+			Centares_NO,
+			Champala_NO,
+			Commenor_NO,
+			Corellia_NO,
+			Corulag_NO,
+			Coruscant_NO,
+			Dantooine_NO,
+			Dathomir_NO,
+			Demophon_NO,
+			Denon_NO,
+			Dorin_NO,
+			Druckenwell_NO,
+			Duro_NO,
+			Endor_NO,
+			Eriadu_NO,
+			Fondor_NO,
+			Fresia_NO,
+			Geonosis_NO,
+			Gerrenthum_NO,
+			Honoghr_NO,
+			Hoth_NO,
+			Hypori_NO,
+			Jabiim_NO,
+			Kamino_NO,
+			Kashyyyk_NO,
+			Kessel_NO,
+			Kinyen_NO,
+			Kuat_NO,
+			Lantillies_NO,
+			Lianna_NO,
+			Malastare_NO,
+			Manaan_NO,
+			Mandalore_NO,
+			Mon_Calamari_NO,
+			Mustafar_NO,
+			Muunilinst_NO,
+			Myrkr_NO,
+			Naboo_NO,
+			Nar_Shaddaa_NO,
+			Ord_Mantell_NO,
+			Ralltiir_NO,
+			Roche_NO,
+			Ryloth_NO,
+			Saleucami_NO,
+			Sluis_Van_NO,
+			Sullust_NO,
+			Taris_NO,
+			Tatooine_NO,
+			Telos_IV_NO,
+			Terminus_NO,
+			The_Maw_NO,
+			Thyferra_NO,
+			Vergesso_Asteroids_NO,
+			Vulpter_NO,
+			Wayland_NO,
+			Yag_Dhul_NO,
+			Yavin_4_NO,
+		</Locations>
+
+		<Trade_Routes>
+			Coruscant_Anaxes_NO,
+			Anaxes_Corulag_NO,
+			Corulag_Brentaal_IV_NO,
+			Brentaal_IV_Ralltiir_NO,
+			Ralltiir_Lantillies_NO,
+			Lantillies_Roche_NO,
+			Roche_Centares_NO,
+			Centares_Lianna_NO,
+			Coruscant_Aargau_NO,
+			Aargau_Corellia_NO,
+			Corellia_Denon_NO,
+			Denon_Druckenwell_NO,
+			Druckenwell_Geonosis_NO,
+			Geonosis_Ryloth_NO,
+			Corellia_Duro_NO,
+			Duro_Bestine_IV_NO,
+			Bestine_IV_Yag_Dhul_NO,
+			Yag_Dhul_Kinyen_NO,
+			Kinyen_Gerrenthum_NO,
+			Gerrenthum_Terminus_NO,
+			Abregado_rae_Fondor_NO,
+			Fondor_Thyferra_NO,
+			Thyferra_Yag_Dhul_NO,
+			Yag_Dhul_Sullust_NO,
+			Sullust_Eriadu_NO,
+			Eriadu_Sluis_Van_NO,
+			Bonadan_Telos_IV_NO,
+			Telos_IV_Celanon_NO,
+			Celanon_Taris_NO,
+			Taris_Champala_NO,
+			Champala_Brentaal_IV_NO,
+			Brentaal_IV_Demophon_NO,
+			Demophon_Denon_NO,
+			Denon_Malastare_NO,
+			Malastare_Eriadu_NO,
+			Eriadu_Mustafar_NO,
+			Mustafar_Terminus_NO,
+			Naboo_Druckenwell_NO,
+			Fondor_Bestine_IV_NO,
+			Bestine_IV_Atzerri_NO,
+			Atzerri_Denon_NO,
+			Gerrenthum_Eriadu_NO,
+			Celanon_Centares_NO,
+			Taris_Ord_Mantell_NO,
+			Ord_Mantell_Dorin_NO,
+			Coruscant_Bilbringi_VII_NO,
+			Bilbringi_VII_Dorin_NO,
+			Muunilinst_Ord_Mantell_NO,
+			Centares_Jabiim_NO,
+			Kamino_Tatooine_NO,
+			Tatooine_Geonosis_NO,
+			Geonosis_Naboo_NO,
+			Naboo_Malastare_NO,
+			Taris_Lantillies_NO,
+			Lantillies_Kashyyyk_NO,
+			Brentaal_IV_Alderaan_NO,
+			Alderaan_Commenor_NO,
+			Druckenwell_Bothawui_NO,
+			Bothawui_Nar_Shaddaa_NO,
+			Bothawui_Kamino_NO,
+			Gerrenthum_Bespin_NO,
+			Bespin_Hoth_NO,
+			Demophon_Kuat_NO,
+			Kuat_Balmorra_NO,
+			Balmorra_Commenor_NO,
+			Commenor_Kashyyyk_NO,
+			Kashyyyk_Saleucami_NO,
+			Celanon_Dantooine_NO,
+			Kinyen_Endor_NO,
+			Muunilinst_Dantooine_NO,
+			Dantooine_Taris_NO,
+			Coruscant_Fresia_NO,
+			Celanon_Yavin_4_NO,
+			Lianna_Bonadan_NO,
+			Coruscant_Vulpter_NO,
+			Coruscant_Byss_NO,
+			Commenor_Manaan_NO,
+			Kessel_The_Maw_NO,
+			Centares_Saleucami_NO,
+			Saleucami_Nar_Shaddaa_NO,
+			Naboo_Vergesso_Asteroids_NO,
+			Jabiim_Kamino_NO,
+			Mon_Calamari_Lianna_NO,
+			Taris_Mandalore_NO,
+			Taris_Wayland_NO,
+			Wayland_Myrkr_NO,
+			Myrkr_Taris_NO,
+			Alderaan_Carida_NO,
+			Carida_Ralltiir_NO,
+		</Trade_Routes>
+
+		<Home_Location>Rebel, Hoth_NO</Home_Location>
+		<Home_Location>Empire, Coruscant_NO</Home_Location>
+
+		<Starting_Active_Player>Rebel</Starting_Active_Player>
+
+		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
+
+		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Starting_Credits> Rebel,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Credits> Empire,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Aargau_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Abregado_rae_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Alderaan_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Anaxes_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Atzerri_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Atzerri_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Balmorra_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bespin_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Bestine_IV_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bilbringi_VII_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bonadan_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bonadan_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Bothawui_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Bothawui_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Brentaal_IV_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Byss_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Byss_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Carida_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Celanon_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Celanon_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Centares_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Centares_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Champala_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Commenor_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Corellia_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corellia_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Corulag_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Corulag_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Coruscant_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Coruscant_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Dantooine_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dantooine_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Dathomir_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Demophon_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Denon_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Dorin_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Dorin_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Druckenwell_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Druckenwell_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Duro_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Duro_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Endor_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Endor_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Eriadu_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Eriadu_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Fondor_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fondor_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Fresia_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Fresia_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Geonosis_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Gerrenthum_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Honoghr_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hoth_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Hypori_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Jabiim_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Jabiim_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kamino_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kamino_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kashyyyk_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kashyyyk_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kessel_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kessel_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kinyen_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kinyen_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Kuat_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Kuat_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Lantillies_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Lianna_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Lianna_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Malastare_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Malastare_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Manaan_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Manaan_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Mandalore_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Mandalore_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Calamari_Cruiser</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mon_Calamari_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Mustafar_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Muunilinst_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Muunilinst_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Myrkr_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Naboo_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Naboo_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Nar_Shaddaa_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ord_Mantell_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ralltiir_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Roche_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Ryloth_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Saleucami_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Saleucami_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sluis_Van_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Sullust_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Taris_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Taris_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Tatooine_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Telos_IV_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Telos_IV_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Terminus_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, The_Maw_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, The_Maw_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Thyferra_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vergesso_Asteroids_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Vulpter_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Wayland_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Wayland_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Empire, Yag_Dhul_NO, Empire_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Carrack_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Army_Trooper_Platoon</Starting_Forces>
+		<Starting_Forces>Empire, Yag_Dhul_NO, Imperial_Heavy_Scout_Squad</Starting_Forces>
+
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Star_Base_1</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Y-Wing_Squadron</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Corellian_Corvette</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, R_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Infantry_Squad</Starting_Forces>
+		<Starting_Forces>Rebel, Yavin_4_NO, Rebel_Tank_Buster_Squad</Starting_Forces>
+
+	</Campaign>
+
+</Campaigns>

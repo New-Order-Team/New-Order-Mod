@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<Galactic_Markup>
+	<Planets HintSet="Galactic_Hints">
+		<!-- Main targets of campaign -->
+		<Rudrig_OSF>
+			<PriorityTarget>5.0</PriorityTarget>
+		</Rudrig_OSF>
+		
+		<Brigia_OSF>
+			<PriorityTarget>5.0</PriorityTarget>
+		</Brigia_OSF>
+		
+		<Dellalt_OSF>
+			<PriorityTarget>5.0</PriorityTarget>
+		</Dellalt_OSF>
+	
+		<Orion_IV_OSF>
+			<PriorityTarget>5.0</PriorityTarget>
+		</Orion_IV_OSF>
+	
+		<!-- Neutral planets on southern route, good place to defend -->
+		<Caluula_OSF>
+			<Chokepoint>1.0</Chokepoint>
+		</Caluula_OSF>
+	
+		<Derellium_OSF>
+			<Chokepoint>1.0</Chokepoint>
+		</Derellium_OSF>
+	</Planets>
+</Galactic_Markup>
