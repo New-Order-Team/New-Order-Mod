@@ -3,3 +3,4 @@ Data/Unused
 *.xlsx
 Data/*.txt
 Data/*.tsv
+Data/Scripts/.idea
