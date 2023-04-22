@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
-
 <SFXEvents>
+	<!-- New Order START -->
+	
+	<!-- Ground Units -->
 
-<!-- ########################## -->
-<!-- # New Order events START # -->
-<!-- ########################## -->
-
-<!-- Land Infantry -->
+	<!-- Infantry -->
 	<SFXEvent Name="Unit_E_11_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_E_11.wav</Samples>
@@ -102,7 +100,8 @@
 		<Samples>Data\Audio\SFX\GUN_Intimidator.wav</Samples>
 	</SFXEvent>
 	
-<!-- Land vehicles -->
+	<!-- Ground vehicles -->
+	
 	<SFXEvent Name="Unit_PX_10_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_PX_10.wav</Samples>
@@ -138,10 +137,6 @@
 		<Samples>Data\Audio\SFX\GUN_Fortress.wav</Samples>
     </SFXEvent>
 	
-	
-	
-	
-
 	<SFXEvent Name="Unit_T1B_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_T1B.wav</Samples>
@@ -171,8 +166,8 @@
 	</SFXEvent>
 	
 	<SFXEvent Name="Unit_Freerunner_Fire">
-			<Use_Preset>Preset_GUNV</Use_Preset>
-			<Samples>Data\Audio\SFX\GUN_FREERUNNER.wav</Samples>
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Data\Audio\SFX\GUN_FREERUNNER.wav</Samples>
     </SFXEvent>
 
 	<SFXEvent Name="Unit_AAT_Laser_Fire">
@@ -188,8 +183,6 @@
 		<Samples>Data\Audio\SFX\GUN_AAT_Light_Blaster.wav</Samples>
 	</SFXEvent>
 	
-	
-	
 	<SFXEvent Name="Unit_LAAT_Fire">
 		<Use_Preset>Preset_GUNS</Use_Preset>
 		<Samples>Data\Audio\GUN_LAAT_1.wav</Samples>
@@ -198,28 +191,27 @@
 		<Use_Preset>Preset_GUNS</Use_Preset>
 		<Samples>Data\Audio\GUN_Beam_1.wav</Samples>
 	</SFXEvent>
-	<SFXEvent Name="Unit_LAAT_Idle_Engine_Loop">
-		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
-		<Samples>Data\Audio\EGL_LAAT_1.wav</Samples>
-		<Min_Pitch>100</Min_Pitch>
-		<Max_Pitch>120</Max_Pitch>
-	</SFXEvent>
-	<SFXEvent Name="Unit_LAAT_Moving_Engine_Loop">
-		<Use_Preset>Preset_EGL_Land</Use_Preset>
-		<Samples>Data\Audio\EGL_LAAT_1.wav</Samples>
-		<Min_Pitch>180</Min_Pitch>
-		<Max_Pitch>200</Max_Pitch>
-	</SFXEvent>
-	
-	<SFXEvent Name="Unit_LAAT_Fly_By">
-		<Use_Preset>Preset_EGB_Land</Use_Preset>
-		<Samples>Data\Audio\EGL_LAAT_By_Long_1.wav</Samples>
-	</SFXEvent>
 	
 	<SFXEvent Name="Unit_DF9_Fire">
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_DF9.wav</Samples>
 	</SFXEvent>
+	
+	<!-- SpaceUnits -->
+
+	<SFXEvent Name="Unit_Turbo_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<!--<Samples>
+			Data\Audio\SFX\GUN_Turbo_1.wav
+			Data\Audio\SFX\GUN_Turbo_2.wav
+			Data\Audio\SFX\GUN_Turbo_3.wav
+		</Samples>-->
+		<Samples>
+			GUN_Turbo_1.wav
+			GUN_Turbo_2.wav
+		</Samples>
+	</SFXEvent>
+	
 <!-- ######################## -->
 <!-- # New Order events END # -->
 <!-- ######################## -->
@@ -252,12 +244,6 @@
 		 <SFXEvent Name="Unit_Pirate_Ship_Laser_Cannon_Fire">
 				 <Use_Preset>Preset_GUNS</Use_Preset>
 				 <Samples>GUN_Pirate_Laser_Cannon_1.wav</Samples>        
-		 </SFXEvent>
-
-
-		 <SFXEvent Name="Unit_Turbo_Fire">
-			  <Use_Preset>Preset_GUNS</Use_Preset>
-			  <Samples>GUN_Turbo_1.wav GUN_Turbo_2.wav</Samples>
 		 </SFXEvent>
 	
 		 <SFXEvent Name="Unit_Torpedo_Fire">

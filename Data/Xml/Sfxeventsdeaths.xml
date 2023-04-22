@@ -1,51 +1,78 @@
 <?xml version="1.0"?>
-
 <SFXEvents>
-
-<!-- New Order START -->
+	<!-- New Order START -->
+	
+	<!-- Ground Units -->
 
 	<SFXEvent Name="SFX_Ion_Disruptor_Hit">
 		<Use_Preset>Preset_EXP</Use_Preset>
 		<Samples>Data\Audio\SFX\GUN_Ion_Disruptor_Hit.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 	
 	<SFXEvent Name="SFX_TIN_Ping">
 		<Use_Preset>Preset_EXPC</Use_Preset>
 		<Samples>Data\Audio\SFX\EXP_TIN_Ping.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
+	<!-- Space Units -->
+	
+	<!-- Lasers and turbolasers -->
+	<SFXEvent Name="SFX_Small_Damage_Detonation">
+		<Use_Preset>Preset_GUN</Use_Preset>
+		<Samples>
+			EXP_Small_Damage_1.wav
+			EXP_Small_Damage_2.wav
+			EXP_Small_Damage_3.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_Normal_Damage_Detonation">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_Medium_Damage_Detonation">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="SFX_Large_Damage_Detonation">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>
+	</SFXEvent>
+	
+	<!-- Ion cannons -->
+	<SFXEvent Name="SFX_Ion_Detonation">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Exp_stun_grenade_1.wav</Samples>  
+	</SFXEvent>
 
-
-
-<!-- New Order END -->
+	<!-- New Order END -->
 	
 
-    <SFXEvent Name="Unit_Star_Destroyer_Death_SFX">
-				<Use_Preset>Preset_EXPC</Use_Preset>
-            <Samples>EXP_Star_Destroyer.wav</Samples>    
-    </SFXEvent>
-    
-    <SFXEvent Name="Unit_Star_Destroyer_Death_Crack_SFX">
-				<Use_Preset>Preset_EXPC</Use_Preset>
-            <Samples>EXP_Cracking_Star_Destroyer.wav</Samples>  
-    </SFXEvent>
+	<SFXEvent Name="Unit_Star_Destroyer_Death_SFX">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>EXP_Star_Destroyer.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Star_Destroyer_Death_Crack_SFX">
+		<Use_Preset>Preset_EXPC</Use_Preset>
+		<Samples>EXP_Cracking_Star_Destroyer.wav</Samples>  
+	</SFXEvent>
 
   	<SFXEvent Name="Unit_Calamari_Death_SFX">
 			<Use_Preset>Preset_EXPC</Use_Preset>
 			<Samples>EXP_Calamari.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
  
-    <SFXEvent Name="Unit_Space_Station_Death_SFX">
+	<SFXEvent Name="Unit_Space_Station_Death_SFX">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-         <Samples>EXP_Calamari.wav EXP_Star_Destroyer.wav</Samples>
+		 <Samples>EXP_Calamari.wav EXP_Star_Destroyer.wav</Samples>
  </SFXEvent>
 
-    <SFXEvent Name="Unit_Space_Station_Break_Death_SFX">
+	<SFXEvent Name="Unit_Space_Station_Break_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
-         <Samples>EXP_Metal_Break_1.wav EXP_Metal_Break_2.wav EXP_Metal_Break_3.wav EXP_Metal_Break_4.wav EXP_Metal_Break_5.wav</Samples>
+		 <Samples>EXP_Metal_Break_1.wav EXP_Metal_Break_2.wav EXP_Metal_Break_3.wav EXP_Metal_Break_4.wav EXP_Metal_Break_5.wav</Samples>
  </SFXEvent>
 
-    
+	
 
 
 
@@ -60,29 +87,29 @@
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Y_Wing_1.wav EXP_Y_Wing_2.wav EXP_Rebel_Fighter_2.wav</Samples>
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_A_Wing_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_A_Wing_1.wav EXP_A_Wing_2.wav EXP_Rebel_Fighter_3.wav</Samples>
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_TIE_Fighter_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_TIE_Fighter_1.wav EXP_TIE_Fighter_2.wav EXP_Tie_Fighter_3.wav EXP_Tie_Fighter_4.wav</Samples>
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
-      <SFXEvent Name="Unit_Corvette_Death_SFX">
+	  <SFXEvent Name="Unit_Corvette_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Corvette_1.wav EXP_Corvette_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
    	<SFXEvent Name="Unit_Cruiser_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Cruiser_1.wav EXP_Cruiser_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 
 
@@ -97,7 +124,7 @@
 	<SFXEvent Name="Unit_AT_AT_Death_SFX">
 			<Use_Preset>Preset_EXPC</Use_Preset>
 			<Samples>EXP_ATAT_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Anim_AT_AT_Death_Fall">
 			<Use_Preset>Preset_EXP</Use_Preset>
@@ -105,38 +132,38 @@
 
 			<Min_Volume>80</Min_Volume>
 			<Max_Volume>80</Max_Volume>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Anim_AT_AT_Ground_Slam">
 			<Use_Preset>Preset_EXPC</Use_Preset>
 			<Samples>EXP_ATAT_Hit_Ground.wav</Samples>
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_AT_ST_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_ATST_1.wav EXP_ATST.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
-    <SFXEvent Name="Unit_Anim_AT_ST_Ground_Slam">
+	<SFXEvent Name="Unit_Anim_AT_ST_Ground_Slam">
 		  <Use_Preset>Preset_EXP</Use_Preset>
-        <Samples>EXP_ATAT_Hit_Ground.wav</Samples>
-        <Min_Pitch>140</Min_Pitch>
-        <Max_Pitch>140</Max_Pitch>
+		<Samples>EXP_ATAT_Hit_Ground.wav</Samples>
+		<Min_Pitch>140</Min_Pitch>
+		<Max_Pitch>140</Max_Pitch>
 		  <Min_Volume>100</Min_Volume>
 		  <Max_Volume>100</Max_Volume>
-        <Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
+		<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
 </SFXEvent>
 
 
 	<SFXEvent Name="Unit_Anim_AT_ST_Death_Fall">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_ATST_Falling.wav</Samples>
-            <Min_Pitch>140</Min_Pitch>
-            <Max_Pitch>140</Max_Pitch>
-				<Min_Volume>70</Min_Volume>
-				<Max_Volume>70</Max_Volume>
-    </SFXEvent>
+		<Min_Pitch>140</Min_Pitch>
+		<Max_Pitch>140</Max_Pitch>
+		<Min_Volume>70</Min_Volume>
+		<Max_Volume>70</Max_Volume>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Anim_Tank_Ground_Slam">
 		 <Use_Preset>Preset_EXP</Use_Preset>
@@ -148,27 +175,27 @@
 	<SFXEvent Name="Unit_Speeder_Bike_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_SpeederBike.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Snow_Speeder_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Rebel_Fighter_1.wav EXP_Rebel_Fighter_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Turret_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Turret_1.wav EXP_Turret_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Generic_Building_Death_SFX">
 			<Use_Preset>Preset_EXPC</Use_Preset>
 			<Samples>EXP_Building_5.wav EXP_Building_6.wav EXP_Building_7.wav EXP_Building_8.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
-    <SFXEvent Name="Unit_Wall_Death_SFX">
+	<SFXEvent Name="Unit_Wall_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Wall_1.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	 <SFXEvent Name="Unit_Katarn_Building_Bomb_SFX">
 			 <Use_Preset>Preset_EXPC</Use_Preset>
@@ -209,57 +236,57 @@
 	<SFXEvent Name="Unit_Tank_Death_SFX">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_Tank_1.wav EXP_Tank_2.wav EXP_Tank_3.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 
-    <SFXEvent Name="Unit_Anim_Infantry_Death_Dirt">
+	<SFXEvent Name="Unit_Anim_Infantry_Death_Dirt">
 			<Use_Preset>Preset_FSI</Use_Preset>
 			<Samples>BF_Dirt_Rebel_1.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
-    <SFXEvent Name="Unit_Anim_Infantry_Death_Snow">
+	<SFXEvent Name="Unit_Anim_Infantry_Death_Snow">
 			<Use_Preset>Preset_FSI</Use_Preset>
 			<Samples>BF_Snow_Rebel_1.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
-     <SFXEvent Name="Unit_Anim_Infantry_Death_Grass">
+	 <SFXEvent Name="Unit_Anim_Infantry_Death_Grass">
 			<Use_Preset>Preset_FSI</Use_Preset>
 			<Samples>BF_Grass_Rebel_1.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
-      <SFXEvent Name="Unit_Anim_Infantry_Death_Concrete">
+	  <SFXEvent Name="Unit_Anim_Infantry_Death_Concrete">
 			<Use_Preset>Preset_FSI</Use_Preset>
 			<Samples>BF_Concrete_Rebel_1.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 
 
 
 		  <SFXEvent Name="Unit_Anim_Trooper_Death_Dirt">
-				 <Use_Preset>Preset_FSI</Use_Preset>
-				 <Samples>BF_Dirt_Trooper_1.wav</Samples>
+		 <Use_Preset>Preset_FSI</Use_Preset>
+		 <Samples>BF_Dirt_Trooper_1.wav</Samples>
 		  </SFXEvent>
 
 		  <SFXEvent Name="Unit_Anim_Trooper_Death_Snow">
-				 <Use_Preset>Preset_FSI</Use_Preset>
-				 <Samples>BF_Snow_Trooper_1.wav</Samples>
+		 <Use_Preset>Preset_FSI</Use_Preset>
+		 <Samples>BF_Snow_Trooper_1.wav</Samples>
 		  </SFXEvent>
 
 			<SFXEvent Name="Unit_Anim_Trooper_Death_Grass">
-				 <Use_Preset>Preset_FSI</Use_Preset>
-				 <Samples>BF_Grass_Trooper_1.wav</Samples>
+		 <Use_Preset>Preset_FSI</Use_Preset>
+		 <Samples>BF_Grass_Trooper_1.wav</Samples>
 		  </SFXEvent>
 
 		 <SFXEvent Name="Unit_Anim_Trooper_Death_Concrete">
-				 <Use_Preset>Preset_FSI</Use_Preset>
-				 <Samples>BF_Concrete_Trooper_1.wav</Samples>
+		 <Use_Preset>Preset_FSI</Use_Preset>
+		 <Samples>BF_Concrete_Trooper_1.wav</Samples>
 		  </SFXEvent>
 
 
    <SFXEvent Name="Unit_Anim_Bantha_Death">
 			<Use_Preset>Preset_DTH</Use_Preset>
 			<Samples>Bantha_Death.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 
 	<SFXEvent Name="Unit_Wampa_Death">
@@ -381,88 +408,70 @@
 	<SFXEvent Name="SFX_Proton_Torpedo_Detonation">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>Explosion_Proton_Torpedo.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Plex_Missile_Detonation">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Plex_1.wav</Samples>       
-    </SFXEvent>
+			<Samples>EXP_Plex_1.wav</Samples>   
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Grenade_Detonation">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Grenade_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Grenade_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Stun_Grenade_Detonation">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Stun_Grenade_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Stun_Grenade_1.wav</Samples>  
+	</SFXEvent>
 
 
 	<SFXEvent Name="SFX_Concussion_Missile_Detonation">
 			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Concussion_1.wav</Samples>      
-    </SFXEvent>
-
-	<SFXEvent Name="SFX_Ion_Detonation">
-			<Use_Preset>Preset_EXP</Use_Preset>
-			<Samples>EXP_Concussion_1.wav</Samples>      
-    </SFXEvent>
-
-
-	<SFXEvent Name="SFX_Small_Damage_Detonation">
-			<Use_Preset>Preset_GUN</Use_Preset>
-			<Samples>EXP_Small_Damage_1.wav EXP_Small_Damage_2.wav EXP_Small_Damage_3.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Infantry_Blaster_Detonation">
 			<Use_Preset>Preset_GUN</Use_Preset>
-			<Samples>EXP_Small_Damage_1.wav EXP_Small_Damage_2.wav EXP_Small_Damage_3.wav</Samples>      
-    </SFXEvent>
-
-
-	<SFXEvent Name="SFX_Normal_Damage_Detonation">
-			<Use_Preset>Preset_GUNV</Use_Preset>
-			<Samples>Force_Damage.wav</Samples>      
-    </SFXEvent>
-
+			<Samples>EXP_Small_Damage_1.wav EXP_Small_Damage_2.wav EXP_Small_Damage_3.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Shield_Absorb_Detonation">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Shield_Absorb_1.wav EXP_Shield_Absorb_2.wav EXP_Shield_Absorb_3.wav EXP_Shield_Absorb_4.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Shield_Absorb_1.wav EXP_Shield_Absorb_2.wav EXP_Shield_Absorb_3.wav EXP_Shield_Absorb_4.wav</Samples>  
+	</SFXEvent>
 
 
 	<SFXEvent Name="SFX_SPMAT_Detonation">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Grenade_1.wav</Samples>     
+			<Samples>EXP_Grenade_1.wav</Samples> 
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Magnepulse_Detonation">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Magnepulse_Detonate_3.wav</Samples>     
+			<Samples>EXP_Magnepulse_Detonate_3.wav</Samples> 
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Weaken_Detonation">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Weaken_1.wav</Samples>     
+			<Samples>EXP_Weaken_1.wav</Samples> 
 			<Kills_Previous_Object_SFX>Yes</Kills_Previous_Object_SFX>
-    </SFXEvent>
+	</SFXEvent>
 
 
 	<SFXEvent Name="SFX_Sizemic_Detonation">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Sizemic_Charge_2.wav</Samples>     
+			<Samples>EXP_Sizemic_Charge_2.wav</Samples> 
 			<Min_Predelay>1000</Min_Predelay>
 			<Max_Predelay>1000</Max_Predelay>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="SFX_Asteroid_Detonation">
 			<Use_Preset>Preset_GUNV</Use_Preset>
-			<Samples>EXP_Asteroid_Ship_1.wav EXP_Asteroid_Ship_2.wav EXP_Asteroid_Ship_3.wav EXP_Asteroid_Ship_4.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Asteroid_Ship_1.wav EXP_Asteroid_Ship_2.wav EXP_Asteroid_Ship_3.wav EXP_Asteroid_Ship_4.wav</Samples>  
+	</SFXEvent>
 
 
 
@@ -470,8 +479,8 @@
 
 	<SFXEvent Name="SFX_Ewok_Rock_Hit">
 			<Use_Preset>Preset_GUN</Use_Preset>
-			<Samples>EXP_Ewok_Rock_1.wav EXP_Ewok_Rock_2.wav EXP_Ewok_Rock_3.wav EXP_Ewok_Rock_4.wav EXP_Ewok_Rock_5.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Ewok_Rock_1.wav EXP_Ewok_Rock_2.wav EXP_Ewok_Rock_3.wav EXP_Ewok_Rock_4.wav EXP_Ewok_Rock_5.wav</Samples>  
+	</SFXEvent>
 
 
 
@@ -481,67 +490,67 @@
 	<SFXEvent Name="Unit_Hardpoint_Laser_Death">
 			<Use_Preset>Preset_EXP</Use_Preset>
 			<Samples>EXP_HP_LASER_1.wav EXP_HP_LASER_2.wav</Samples>
-    </SFXEvent>
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Turbo_Laser_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_TURBO_1.wav EXP_HP_TURBO_2.wav</Samples>       
-    </SFXEvent>
+			<Samples>EXP_HP_TURBO_1.wav EXP_HP_TURBO_2.wav</Samples>   
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Torpedo_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_TORP_1.wav</Samples>       
-    </SFXEvent>
+			<Samples>EXP_HP_TORP_1.wav</Samples>   
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Ion_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_SHIELDS_2.wav</Samples>       
-    </SFXEvent>
+			<Samples>EXP_HP_SHIELDS_2.wav</Samples>   
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Missile_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_MISSILE_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_MISSILE_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Shields_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_SHIELDS_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_SHIELDS_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Engines_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_ENGINES_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_ENGINES_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Gravity_Well_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_GRAV_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_GRAV_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Bay_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_BAY_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_BAY_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Mass_Driver_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_MISSILE_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_MISSILE_1.wav</Samples>  
+	</SFXEvent>
 
 	<SFXEvent Name="Unit_Hardpoint_Special_Death">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_HP_MISSILE_1.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_HP_MISSILE_1.wav</Samples>  
+	</SFXEvent>
 
 
 	<!-- Stubbed in by PatP; change if/when desired -->
 	<SFXEvent Name="Unit_Ewok_Bomber_Death_Explosion">
 			<Use_Preset>Preset_EXPC</Use_Preset>
-			<Samples>EXP_Building_6.wav</Samples>      
-    </SFXEvent>
+			<Samples>EXP_Building_6.wav</Samples>  
+	</SFXEvent>
 
 
 
-    
-      
+	
+	  
 </SFXEvents>

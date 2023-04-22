@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <SpacePrimarySkydomes>
+	<!-- New Order START -->
 
 	<SpacePrimarySkydome Name="Stars_Outer_Rim">
 		<Text_ID />
@@ -8,13 +9,30 @@
 		<Is_Decoration>Yes</Is_Decoration>
 		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>3.0</Scale_Factor>
 		<Behavior>SKY_DOME</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<In_Background>yes</In_Background>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</SpacePrimarySkydome>
+
+	<SpacePrimarySkydome Name="Stars_Low">
+		<Text_ID />
+		<Galactic_Model_Name></Galactic_Model_Name>
+		<Space_Model_Name>skybox_stars_low.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Behavior>SKY_DOME</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<In_Background>yes</In_Background>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</SpacePrimarySkydome>
+
+	<!-- New Order END -->
 	
 	<SpacePrimarySkydome Name="Cin_Space_Green_Screen">
 		<Text_ID />
@@ -56,21 +74,6 @@
     <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Scale_Factor>20.0</Scale_Factor>
 		<Behavior></Behavior>
-		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
-		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		<In_Background>yes</In_Background>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-	</SpacePrimarySkydome>
-
-	<SpacePrimarySkydome Name="Stars_Low">
-		<Text_ID />
-		<Galactic_Model_Name></Galactic_Model_Name>
-		<Space_Model_Name>w_stars_low.alo</Space_Model_Name>
-		<Is_Decoration>Yes</Is_Decoration>
-    <Is_Discardable>No</Is_Discardable>
-    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
-		<Scale_Factor>2.0</Scale_Factor>
-		<Behavior>SKY_DOME</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<In_Background>yes</In_Background>

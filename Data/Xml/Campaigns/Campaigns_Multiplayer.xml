@@ -1804,7 +1804,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Wayland, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, B-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Marauder_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Wayland, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, R_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -2169,8 +2169,8 @@
 		<Starting_Forces> Rebel, Korriban, Rebel_Light_Tank_Brigade </Starting_Forces>
 		
 		<!-- Rebel Space Forces -->
-		<Starting_Forces> Rebel, Saleucami, Marauder_Missile_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Saleucami, Marauder_Missile_Cruiser </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Marauder_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Saleucami, Marauder_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Saleucami, Rebel_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Rebel, Saleucami, Rebel_Ground_Mining_Facility </Starting_Forces>

@@ -61,6 +61,7 @@
 	<File>Campaigns\Operation_Strike_Fear\Planets_OSF.xml</File>
 
 	<File>Projectiles.xml</File>
+	<File>Projectiles_Space.xml</File>
 	<File>Projectiles_SM.xml</File>
 	<File>Projectiles_Land.xml</File>
 	<File>Projectiles_Infantry.xml</File>
@@ -135,10 +136,10 @@
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
 
-	<File>Units_Space_Empire_TIE_Defender.xml</File>
+	<!--<File>Units_Space_Empire_TIE_Defender.xml</File>
 	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
-	<File>Units_Space_Empire_Executor.xml</File>
+	<File>Units_Space_Empire_Executor.xml</File>-->
 	
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
@@ -213,204 +214,7 @@
 
 
 	<!-- Mod New Files -->
-	
-	<!-- SSD-buildable heroes is in priority, so they appear on the left -->
-	<File>Units_hero_empire_vader.XML</File>
-	<File>Units_hero_empire_josef_grunger.xml</File>
-	<File>Units_hero_empire_osvald_teshik.xml</File>
-	<File>Units_hero_empire_zsinj.xml</File>
-	<File>Units_hero_empire_ardus_kaine.xml</File>
-	<File>Units_hero_empire_natasi_daala.xml</File>
-	<File>Units_hero_empire_gilad_pellaeon.xml</File>
-	<File>Units_hero_empire_teren_rogriss.xml</File>
-	
-	<File>Units_hero_rebel_gial_ackbar.xml</File>
-	<File>Units_hero_rebel_wedge_antilles.xml</File>
-	
-	
-	
-	
-	<File>Units_bh_empire_boba_fett.XML</File>
-	<File>Units_bh_empire_bossk.XML</File>
-	<File>Units_bh_empire_ig88.XML</File>
-	<File>Units_hero_empire_wilhuff_tarkin.XML</File>
-	
-	<File>Units_hero_empire_181st.XML</File>
-	
-	<File>Units_space_empire_lancer_frigate.xml</File>
-	<File>Units_space_empire_venator.xml</File>
-	<File>Units_space_empire_vsd2.xml</File>
-	<File>Units_space_empire_strike.xml</File>
-
-	<File>Units_space_empire_escort_carrier.xml</File>
-	<File>Units_space_empire_isd.xml</File>
-	<File>Units_space_empire_allegiance.xml</File>
-	<File>Units_space_empire_vindicator.xml</File>
-	
-
-	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
-	<File>Units_space_rebel_dreadnought.xml</File>
-	<File>Units_space_rebel_mc40_frigate.xml</File>
-	<File>Units_space_rebel_mc80b.xml</File>
-	<File>Units_space_rebel_NebulaSD.xml</File>
-	
-	<File>Units_space_rebel_majestic.xml</File>
-	<File>Units_space_rebel_dauntless.xml</File>
-	<File>Units_space_rebel_mc90.xml</File>
-	<File>Units_space_rebel_sacheen.xml</File>
-	<File>Units_space_rebel_liberator.xml</File>
-
-	<File>Units_space_rebel_recusant.xml</File>
-	<File>Units_space_rebel_munificent.xml</File>
-	
-	<File>Units_space_empire_alpha_3.xml</File>
-	<File>Units_space_empire_arc_170.xml</File>
-	<File>Units_space_empire_Assault_Gunboat.xml</File>
-	<File>Units_space_empire_Missile_Boat.xml</File>
-	<File>Units_space_empire_tie_avenger.xml</File>
-
-	<File>Units_space_rebel_a-wing.xml</File>
-	<File>Units_space_rebel_b-wing.xml</File>
-	<File>Units_space_rebel_e-wing.xml</File>
-	<File>Units_space_rebel_k-wing.xml</File>
-	<File>Units_space_rebel_R_41.xml</File>
-
-	<File>Units_space_rebel_warrior_gunship.xml</File>
-	<File>Units_hero_empire_blackhole.xml</File>
-	<File>Units_space_empire_gladiator.xml</File>
-
-	<File>Units_space_rebel_AAF.xml</File>
-	<File>Units_space_rebel_AAF2.xml</File>
-	<File>Units_space_rebel_home_one_type_mc80.XML</File>
-	<File>Units_hero_empire_mils_giel.xml</File>
-	<File>Units_space_rebel_mediator.xml</File>
-
-	<File>Units_hero_empire_malcor_brashin.xml</File>
-	<File>Units_hero_empire_rom_mohc.xml</File>
-	<File>Units_hero_empire_armand_isard.xml</File>
-	<File>Units_hero_empire_firmus_piett.xml</File>
-	<File>Units_hero_empire_ysanne_isard.xml</File>
-
-	<File>Units_hero_rebel_bail_organa.xml</File>
-	<File>Units_hero_rebel_leia_organa.xml</File>
-	<File>Units_hero_rebel_jan_dodonna.xml</File>
-	<File>Units_hero_rebel_carlist_rieekan.xml</File>
-	<File>Units_hero_rebel_walex_blissex.xml</File>
-	<File>Units_hero_rebel_pharl_mcquarrie.xml</File>
-	<File>Units_hero_rebel_ral_rai_muvunc.xml</File>
-	<File>Units_hero_rebel_airen_cracken.xml</File>
-	<File>Units_hero_rebel_lando_calrissian.xml</File>
-	<File>Units_hero_rebel_brenn_tantor.xml</File>
-	<File>Units_hero_rebel_crix_madine.xml</File>
-	<File>Units_hero_rebel_traest_krefey.xml</File>
-	<File>Units_hero_rebel_hiram_drayson.xml</File>
-	<File>Units_hero_rebel_ethan_abaht.xml</File>
-	<File>Units_hero_rebel_borsk_feylia.xml</File>
-	<File>Units_hero_rebel_sien_sovv.xml</File>
-
-	<File>Units_space_rebel_bothan_assault_cruiser.xml</File>
-	<File>Units_space_rebel_CC-7700.xml</File>
-	<File>Units_space_empire_nebulon_b2.xml</File>
-
-	<File>Units_space_empire_tie_hunter.xml</File>
-	<File>Units_space_empire_tie_scimitar.xml</File>
-	<File>Units_space_empire_tie_starhunter.xml</File>
-
-	<File>Units_space_rebel_Strident.xml</File>
-	<File>Units_space_rebel_GalacticBC.xml</File>
-	<File>Units_space_rebel_MonCalHC.xml</File>
-	<File>Units_space_empire_Turbulent.xml</File>
-	<File>Units_space_rebel_Ranger.xml</File>
-
-	<File>Units_space_empire_Sovereign.xml</File>
-	<File>Units_space_rebel_viscount.xml</File>
-	<File>Units_space_rebel_bulwark.xml</File>
-
-	<File>Units_space_rebel_mc80a.xml</File>
-	<File>Units_hero_empire_terrinald_screed.xml</File>
-	<File>Units_hero_empire_hurst_romodi.xml</File>
-	<File>Units_hero_empire_sate_pestage.xml</File>
-	<File>Units_hero_rebel_raymus_antilles.xml</File>
-	<File>Units_hero_rebel_rahm_kota.xml</File>
-	<File>Units_hero_rebel_bria_tharen.xml</File>
-	<File>Units_hero_empire_shea_hublin.xml</File>
-	<File>Units_hero_rebel_mon_mothma.xml</File>
-	<File>Units_hero_empire_motti.xml</File>
-	<File>Units_hero_empire_cassio_tagge.xml</File>
-	<File>Units_hero_rebel_tyr_taskeen.xml</File>
-
-	<File>Units_sls_empire.xml</File>
-	<File>Units_space_empire_praetor_mkii.xml</File>
-	
-	<File>Units_space_empire_carrack.xml</File>
-	<File>Units_space_rebel_dp20.xml</File>
-	<File>Units_space_empire_vsd.xml</File>
-	<File>Units_space_rebel_nebulon_b.xml</File>
-	<File>Units_space_empire_acclamator.xml</File>
-	<File>Units_space_empire_immobilizer_418.xml</File>
-
-	<File>Units_hero_empire_sander_delvardus.xml</File>
-	<File>Units_space_empire_vsd_lp.xml</File>
-	<File>Units_hero_empire_treuten_teradoc.xml</File>
-	<File>Units_hero_empire_blitzer_harrsk.xml</File>
-	<File>Units_hero_empire_martio_batch.xml</File>
-	<File>Units_hero_empire_nial_declann.xml</File>
-	<File>Units_hero_empire_octavian_grant.xml</File>
-	<File>Units_hero_empire_afsheen_makati.xml</File>
-	<File>Units_hero_empire_danetta_pitta.xml</File>
-	<File>Units_hero_empire_ishin_il_raz.xml</File>
-	<File>Units_hero_empire_peccati_syn.xml</File>
-	<File>Units_hero_empire_miltin_takel.xml</File>
-	<File>Units_hero_empire_ruufan_tigellinus.xml</File>
-	<File>Units_hero_empire_demetrius_zaarin.xml</File>
-	
-	
-	<File>Units_space_rebel_cr90.xml</File>
-	<File>Units_space_rebel_consular.xml</File>
-	<File>Units_space_rebel_rep_assault_cruiser.xml</File>
-	<File>Units_space_rebel_marauder.xml</File>
-	<File>Units_space_rebel_mc80.xml</File>
-	
-	<File>Units_hero_empire_trachta.xml</File>
-	<File>Units_hero_empire_ledre_okins.xml</File>
-	<File>Units_hero_empire_maximillian_veers.xml</File>
-	<File>Units_hero_empire_delak_krennel.xml</File>
-	<File>Units_hero_rebel_nammo.xml</File>
-	<File>Units_hero_rebel_willham_burke.xml</File>
-	<File>Units_hero_rebel_adar_tallon.xml</File>
-	<File>Units_hero_rebel_han_solo.xml</File>
-	<File>Units_hero_rebel_areta_bell.xml</File>
-	<File>Units_hero_empire_redd_wessel.xml</File>
-	<File>Units_hero_empire_immodet.xml</File>
-	<File>Units_hero_empire_freja_covell.xml</File>
-	<File>Units_hero_empire_arndall_lott.xml</File>
-	<File>Units_hero_empire_tessala_corvae.xml</File>
-	<File>Units_hero_rebel_firmus_nantz.xml</File>
-	<File>Units_hero_rebel_talon_karrde.xml</File>
-	
-	<File>Units_hero_rebel_kyle_katarn.xml</File>
-	<File>Units_hero_rebel_corran_horn.xml</File>
-	<File>Units_hero_rebel_kam_solusar.xml</File>
-	
-	
-	<File>Units_hero_empire_sil_sorannan.xml</File>
-	<File>Units_hero_empire_villim_disra.xml</File>
-	<File>Units_hero_empire_ark_poinard.xml</File>
-	<File>Units_hero_empire_kurlen_flennic.xml</File>
-	<File>Units_hero_empire_ephin_sarreti.xml</File>
-	<File>Units_hero_empire_foga_brill.xml</File>
-	<File>Units_hero_empire_tol_getelles.xml</File>
-	<File>Units_hero_empire_hestiv.xml</File>
-	<File>Units_hero_empire_sutt_ramic.xml</File>
-	<File>Units_hero_empire_brakiss.xml</File>
-	
-	<File>Units_hero_rebel_syub_snunb.xml</File>
-	<File>Units_hero_rebel_keyan_farlander.xml</File>
-	<File>Units_hero_rebel_cal_omas.xml</File>
-	<File>Units_hero_rebel_kapp_dendo.xml</File>
-	<File>Units_hero_rebel_kyp_durron.xml</File>
-	
-	
+	<!-- GROUND -->
 	<File>Units_land_empire_army_troopers.xml</File>
 	<File>Units_land_empire_army_engineers.xml</File>
 	<File>Units_land_empire_e_web_crew.xml</File>
@@ -432,7 +236,6 @@
 	<File>units_land_empire_laat.xml</File>
 	<File>units_land_empire_maat.xml</File>
 
-	
 	<File>Units_land_rebel_troopers.xml</File>
 	<File>Units_land_rebel_vanguards.xml</File>
 	<File>Units_land_rebel_pathfinders.xml</File>
@@ -457,4 +260,177 @@
 	
 	<File>Units_land_test_troopers.xml</File>
 	
+	<!-- SPACE -->
+	<File>Units\Units_space_empire_acclamator_assault_ship.xml</File>
+	<File>Units\Units_space_empire_adz_corvette.xml</File>
+	<File>Units\Units_space_empire_allegiance_battlecruiser.xml</File>
+	<File>Units\Units_space_empire_assault_gunboat.xml</File>
+	<File>Units\Units_space_empire_carrack_cruiser.xml</File>
+	<File>Units\Units_space_empire_customs_corvette.xml</File>
+	<File>Units\Units_space_empire_dominator_ii_destroyer.xml</File>
+	<File>Units\Units_space_empire_dreadnought_cruiser.xml</File>
+	<File>Units\Units_space_empire_enforcer_cruiser.xml</File>
+	<File>Units\Units_space_empire_escort_carrier.xml</File>
+	<File>Units\Units_space_empire_executor_dreadnought.xml</File>
+	<File>Units\Units_space_empire_gladiator_cruiser.xml</File>
+	<File>Units\Units_space_empire_imperial_ii_destroyer.xml</File>
+	<File>Units\Units_space_empire_interdictor_cruiser.xml</File>
+	<File>Units\Units_space_empire_lancer_frigate.xml</File>
+	<File>Units\Units_space_empire_nebulon_b_frigate_e.xml</File>
+	<File>Units\Units_space_empire_praetor_ii_battlecruiser.xml</File>
+	<File>Units\Units_space_empire_raider_i_corvette.xml</File>
+	<File>Units\Units_space_empire_star_destroyer.xml</File>
+	<File>Units\Units_space_empire_strike_cruiser.xml</File>
+	<File>Units\Units_space_empire_tector_destroyer.xml</File>
+	<File>Units\Units_space_empire_tie_bomber.xml</File>
+	<File>Units\Units_space_empire_tie_defender.xml</File>
+	<File>Units\Units_space_empire_tie_fighter.xml</File>
+	<File>Units\Units_space_empire_tie_fighter_mod.xml</File>
+	<File>Units\Units_space_empire_tie_interceptor.xml</File>
+	<File>Units\Units_space_empire_tie_interceptor_mod.xml</File>
+	<File>Units\Units_space_empire_tie_phantom.xml</File>
+	<File>Units\Units_space_empire_tie_scimitar.xml</File>
+	<File>Units\Units_space_empire_venator_destroyer.xml</File>
+	<File>Units\Units_space_empire_victory_destroyer.xml</File>
+	<File>Units\Units_space_empire_victory_ii_destroyer.xml</File>
+	<File>Units\Units_space_empire_vigil_corvette.xml</File>
+	<File>Units\Units_space_empire_vindicator_cruiser.xml</File>
+	<File>Units\Units_space_rebel_a_wing.xml</File>
+	<File>Units\Units_space_rebel_agave_corvette.xml</File>
+	<File>Units\Units_space_rebel_alliance_assault_frigate.xml</File>
+	<File>Units\Units_space_rebel_b_wing.xml</File>
+	<File>Units\Units_space_rebel_bulwark_iii_battlecruiser.xml</File>
+	<File>Units\Units_space_rebel_calamari_cruiser.xml</File>
+	<File>Units\Units_space_rebel_cc-7700_frigate.xml</File>
+	<File>Units\Units_space_rebel_corellian_corvette.xml</File>
+	<File>Units\Units_space_rebel_corellian_gunboat.xml</File>
+	<File>Units\Units_space_rebel_dauntless_cruiser.xml</File>
+	<File>Units\Units_space_rebel_defender_carrier.xml</File>
+	<File>Units\Units_space_rebel_e_wing.xml</File>
+	<File>Units\Units_space_rebel_endurance_carrier.xml</File>
+	<File>Units\Units_space_rebel_home_one_battlecruiser.xml</File>
+	<File>Units\Units_space_rebel_independence_battlecruiser.xml</File>
+	<File>Units\Units_space_rebel_k_wing.xml</File>
+	<File>Units\Units_space_rebel_liberator_cruiser.xml</File>
+	<File>Units\Units_space_rebel_majestic_cruiser.xml</File>
+	<File>Units\Units_space_rebel_marauder_corvette.xml</File>
+	<File>Units\Units_space_rebel_mc30_frigate.xml</File>
+	<File>Units\Units_space_rebel_mc40a_cruiser.xml</File>
+	<File>Units\Units_space_rebel_mc80a_cruiser.xml</File>
+	<File>Units\Units_space_rebel_mc80b_cruiser.xml</File>
+	<File>Units\Units_space_rebel_mc90_cruiser.xml</File>
+	<File>Units\Units_space_rebel_mediator_battlecruiser.xml</File>
+	<File>Units\Units_space_rebel_nebula_destroyer.xml</File>
+	<File>Units\Units_space_rebel_nebulon_b_frigate.xml</File>
+	<File>Units\Units_space_rebel_neutron_star_cruiser.xml</File>
+	<File>Units\Units_space_rebel_r_41.xml</File>
+	<File>Units\Units_space_rebel_sacheen_cruiser.xml</File>
+	<File>Units\Units_space_rebel_warrior_gunship.xml</File>
+	<File>Units\Units_space_rebel_x_wing.xml</File>
+	<File>Units\Units_space_rebel_y_wing_a4.xml</File>
+	<File>Units\Units_space_rebel_y_wing_s3.xml</File>
+	<File>Units\Units_space_rebel_z_95.xml</File>
+	
+	<!-- SSD-buildable heroes is in priority, so they appear on the left -->
+	<File>Units_hero_empire_vader.XML</File>
+	<File>Units_hero_empire_josef_grunger.xml</File>
+	<File>Units_hero_empire_osvald_teshik.xml</File>
+	<File>Units_hero_empire_zsinj.xml</File>
+	<File>Units_hero_empire_ardus_kaine.xml</File>
+	<File>Units_hero_empire_natasi_daala.xml</File>
+	<File>Units_hero_empire_gilad_pellaeon.xml</File>
+	<File>Units_hero_empire_teren_rogriss.xml</File>
+	
+	<File>Units_bh_empire_boba_fett.XML</File>
+	<File>Units_bh_empire_bossk.XML</File>
+	<File>Units_bh_empire_ig88.XML</File>
+	
+	<File>Units_hero_empire_wilhuff_tarkin.XML</File>
+	<File>Units_hero_empire_181st.XML</File>
+	<File>Units_hero_empire_blackhole.xml</File>
+	<File>Units_hero_empire_mils_giel.xml</File>
+	<File>Units_hero_empire_malcor_brashin.xml</File>
+	<File>Units_hero_empire_rom_mohc.xml</File>
+	<File>Units_hero_empire_armand_isard.xml</File>
+	<File>Units_hero_empire_firmus_piett.xml</File>
+	<File>Units_hero_empire_ysanne_isard.xml</File>
+	<File>Units_hero_empire_terrinald_screed.xml</File>
+	<File>Units_hero_empire_hurst_romodi.xml</File>
+	<File>Units_hero_empire_sate_pestage.xml</File>
+	<File>Units_hero_empire_shea_hublin.xml</File>
+	<File>Units_hero_empire_motti.xml</File>
+	<File>Units_hero_empire_cassio_tagge.xml</File>
+	<File>Units_hero_empire_sander_delvardus.xml</File>
+	<File>Units_hero_empire_treuten_teradoc.xml</File>
+	<File>Units_hero_empire_blitzer_harrsk.xml</File>
+	<File>Units_hero_empire_martio_batch.xml</File>
+	<File>Units_hero_empire_nial_declann.xml</File>
+	<File>Units_hero_empire_octavian_grant.xml</File>
+	<File>Units_hero_empire_afsheen_makati.xml</File>
+	<File>Units_hero_empire_danetta_pitta.xml</File>
+	<File>Units_hero_empire_ishin_il_raz.xml</File>
+	<File>Units_hero_empire_peccati_syn.xml</File>
+	<File>Units_hero_empire_miltin_takel.xml</File>
+	<File>Units_hero_empire_ruufan_tigellinus.xml</File>
+	<File>Units_hero_empire_demetrius_zaarin.xml</File>
+	<File>Units_hero_empire_trachta.xml</File>
+	<File>Units_hero_empire_ledre_okins.xml</File>
+	<File>Units_hero_empire_maximillian_veers.xml</File>
+	<File>Units_hero_empire_delak_krennel.xml</File>
+	<File>Units_hero_empire_redd_wessel.xml</File>
+	<File>Units_hero_empire_immodet.xml</File>
+	<File>Units_hero_empire_freja_covell.xml</File>
+	<File>Units_hero_empire_arndall_lott.xml</File>
+	<File>Units_hero_empire_tessala_corvae.xml</File>
+	<File>Units_hero_empire_sil_sorannan.xml</File>
+	<File>Units_hero_empire_villim_disra.xml</File>
+	<File>Units_hero_empire_ark_poinard.xml</File>
+	<File>Units_hero_empire_kurlen_flennic.xml</File>
+	<File>Units_hero_empire_ephin_sarreti.xml</File>
+	<File>Units_hero_empire_foga_brill.xml</File>
+	<File>Units_hero_empire_tol_getelles.xml</File>
+	<File>Units_hero_empire_hestiv.xml</File>
+	<File>Units_hero_empire_sutt_ramic.xml</File>
+	<File>Units_hero_empire_brakiss.xml</File>
+
+	<File>Units_hero_rebel_gial_ackbar.xml</File>
+	<File>Units_hero_rebel_wedge_antilles.xml</File>
+	<File>Units_hero_rebel_bail_organa.xml</File>
+	<File>Units_hero_rebel_leia_organa.xml</File>
+	<File>Units_hero_rebel_jan_dodonna.xml</File>
+	<File>Units_hero_rebel_carlist_rieekan.xml</File>
+	<File>Units_hero_rebel_walex_blissex.xml</File>
+	<File>Units_hero_rebel_pharl_mcquarrie.xml</File>
+	<File>Units_hero_rebel_ral_rai_muvunc.xml</File>
+	<File>Units_hero_rebel_airen_cracken.xml</File>
+	<File>Units_hero_rebel_lando_calrissian.xml</File>
+	<File>Units_hero_rebel_brenn_tantor.xml</File>
+	<File>Units_hero_rebel_crix_madine.xml</File>
+	<File>Units_hero_rebel_traest_krefey.xml</File>
+	<File>Units_hero_rebel_hiram_drayson.xml</File>
+	<File>Units_hero_rebel_ethan_abaht.xml</File>
+	<File>Units_hero_rebel_borsk_feylia.xml</File>
+	<File>Units_hero_rebel_sien_sovv.xml</File>
+	<File>Units_hero_rebel_raymus_antilles.xml</File>
+	<File>Units_hero_rebel_rahm_kota.xml</File>
+	<File>Units_hero_rebel_bria_tharen.xml</File>
+	<File>Units_hero_rebel_mon_mothma.xml</File>
+	<File>Units_hero_rebel_tyr_taskeen.xml</File>
+	<File>Units_hero_rebel_nammo.xml</File>
+	<File>Units_hero_rebel_willham_burke.xml</File>
+	<File>Units_hero_rebel_adar_tallon.xml</File>
+	<File>Units_hero_rebel_han_solo.xml</File>
+	<File>Units_hero_rebel_areta_bell.xml</File>
+	<File>Units_hero_rebel_firmus_nantz.xml</File>
+	<File>Units_hero_rebel_talon_karrde.xml</File>
+	<File>Units_hero_rebel_kyle_katarn.xml</File>
+	<File>Units_hero_rebel_corran_horn.xml</File>
+	<File>Units_hero_rebel_kam_solusar.xml</File>
+	<File>Units_hero_rebel_syub_snunb.xml</File>
+	<File>Units_hero_rebel_keyan_farlander.xml</File>
+	<File>Units_hero_rebel_cal_omas.xml</File>
+	<File>Units_hero_rebel_kapp_dendo.xml</File>
+	<File>Units_hero_rebel_kyp_durron.xml</File>
+
+	<File>Units_sls_empire.xml</File>	
 </Game_Object_Files>

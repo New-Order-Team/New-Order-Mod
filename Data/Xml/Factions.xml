@@ -15,7 +15,7 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 229, 152, 84, 255 </Color>
+		<Color> 255, 158, 105, 255 </Color>
 		<Display_Font_Color> 229, 152, 84, 255 </Display_Font_Color>
 		<No_Colorization_Color> 229, 152, 84, 255 </No_Colorization_Color>
 		<Big_Fleet_Color> 229, 152, 84, 150 </Big_Fleet_Color>
@@ -118,65 +118,27 @@
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
 		<Bombardment_Required_Orbital_Ships>
-			Sacheen,
-			MC_40a,
-			Liberator_Carrier,
-			Munificent_Frigate,
-			Majestic_Heavy_Cruiser,
-			Bothan_Assault_Cruiser,
-			MC80A,
+			Y_Wing_A4_Squadron,
+			X_Wing_Squadron,
+			E_Wing_Squadron,
+			
+			Y_Wing_S3_Squadron,
+			B_Wing_Squadron,
+			K_Wing_Squadron,
+			
+			MC40a_Cruiser,
+			Liberator_Cruiser,
 			Calamari_Cruiser,
-			MC_80b,
-			Bulwark_Mk1,
-			Calamari_Cruiser_HO_Type,
-			NebulaSD,
-			EnduranceSD,
+			MC80A_Cruiser,
+			MC80B_Cruiser,
+			Nebula_Destroyer,
+			Endurance_Carrier,
 			Dauntless_Cruiser,
-			Mc90,
-			Galactic_Battle_Carrier,
-			Strident_Star_Defender,
-			MC_Heavy_Carrier,
-			Mediator_Cruiser,
-			Viscount_Star_Defender,
-			
-			Star_Destroyer_NR,
-			Star_Destroyer_NR_Mod,
-			ISD_IIa,
-			
-			Peregrine,
-			Peregrine_II,
-			KD_Harrier,
-			KD_Eagle,
-			Peregrine_III,
-			KD_Osprey,
-			KD_Buzzard,
-			KD_Falcon,
-			GBI_Elegos_AKla,
-			GBI_Harbinger,
-			Naritus,
-			Independence_Ackbar,
-			Home_One,
-			Ackbar_Defiance_MC90,
-			Ackbar_Galactic_Voyager,
-			Ackbar_Guardian,
-			Defiance,
-			Nammo_Defiance,
-			Burke_Mantan_Wanderer,
-			Burke_Remember_Alderaan,
-			Tallon_Silent_Water,
-			Leia_Rebel_Dream,
-			Firmus_Nantz_Valiant,
-			Areta_Bell_Swift_Liberty,
-			Areta_Bell_Endurance,
-			Calrissian_Liberator,
-			Mon_Remonda,
-			Sien_Sovv_Guardian,
-			Ralroost,
-			Etahn_ABaht_Intrepid,
-			Wedge_Antilles_Mon_Mothma,
-			Wedge_Antilles_Lusankya,
-			Syub_Snunb_Resolve,
-			Keyan_Farlander_Mon_Adapyne
+			MC90_Cruiser,
+			Independence_Battlecruiser,
+			Home_One_Battlecruiser,
+			Mediator_Battlecruiser,
+			Bulwark_III_Battlecruiser
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Ground_Proton_Torpedo_X_Wing </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 4 </Bombardment_Number_Of_Salvos>
@@ -874,7 +836,7 @@
 		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
 		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
 		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 73, 120, 230, 255 </Color>
+		<Color> 92, 173, 255, 255 </Color>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Display_Font_Color> 73, 120, 230, 255 </Display_Font_Color>
 		<Big_Fleet_Color> 73, 120, 230, 150 </Big_Fleet_Color>
@@ -967,30 +929,24 @@
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
 		<Bombardment_Required_Orbital_Ships>
-			Tartan_Patrol_Cruiser,
-			Heavy_Carrack,
-			Nebulon_B_Frigate_Empire,
-			Nebulon_B2_Frigate_Imp,
-			Gladiator_Carrier,
+			Carrack_Cruiser,
 			Strike_Cruiser,
-			Dreadnought_Imp,
+			Escort_Carrier,
+			Gladiator_Cruiser,
+			Dreadnought_Cruiser,
 			Acclamator_Assault_Ship,
-			Victory_Destroyer,
-			Victory_2_Destroyer,
 			Vindicator_Cruiser,
-			Venator,
+			Enforcer_Cruiser,
+			Victory_Destroyer,
+			Victory_II_Destroyer,
+			Venator_Destroyer,
 			Star_Destroyer,
-			Star_Destroyer_2,
-			Tector,
-			Dominator,
-			Turbulent_Destroyer,
-			Allegiance,
-			Praetor_II,
-			Executor_Super_Star_Destroyer,
-			Sovereign-class_Star_Dreadnought,
-			
-			Victory_Destroyer_LP,
-			Dreadnought_Katana,
+			Imperial_II_Destroyer,
+			Dominator_II_Destroyer,
+			Tector_Destroyer,
+			Allegiance_Battlecruiser,
+			Praetor_II_Battlecruiser,
+			Executor_Dreadnought,
 						
 			Exactor_SD,
 			Immortal_SD,

@@ -7,8 +7,8 @@
 	<!-- Remaining: 3 + 3 - 4 = 2 -->
 
 	<Fighter>			0x00000001		</Fighter>
-	<Bomber>			0x00000002		</Bomber> <!-- Merge into Fighter -->
-	<Transport>			0x00000004		</Transport> <!-- Merge into Corvette -->
+	<Bomber>			0x00000002		</Bomber>
+	<Transport>			0x00000004		</Transport>
 	<Corvette>			0x00000008		</Corvette>
 	<Frigate>			0x00000010		</Frigate>
 	<!-- Cruiser -->
@@ -25,10 +25,8 @@
 	<AntiBomber>		0x00001000		</AntiBomber> <!-- Merge into AntiFighter -->
 	<AntiTransport>		0x00002000		</AntiTransport> <!-- Merge into AntiCorvette -->
 	<AntiCorvette>		0x00004000		</AntiCorvette>
-	<AntiFrigate>		0x00008000		</AntiFrigate> <!-- Merge into AntiCorvette -->
-	<!-- AntiCruiser -->
+	<AntiFrigate>		0x00008000		</AntiFrigate>
 	<AntiCapital>		0x00010000		</AntiCapital>
-	<!-- AntiDreadnought -->
 	<AntiSuper>			0x00020000		</AntiSuper>
 	
 	<AntiInfantry>		0x00040000		</AntiInfantry>

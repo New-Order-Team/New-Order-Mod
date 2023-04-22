@@ -1,30 +1,57 @@
 <?xml version="1.0"?>
-
 <SFXEvents>
+	<!-- New Order START -->
 
-<!-- ########################## -->
-<!-- # New Order events START # -->
-<!-- ########################## -->
+	<!-- Ground Units -->
+	
+	<SFXEvent Name="Unit_LAAT_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_1.wav</Samples>
+		<Min_Pitch>100</Min_Pitch>
+		<Max_Pitch>120</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_LAAT_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_1.wav</Samples>
+		<Min_Pitch>180</Min_Pitch>
+		<Max_Pitch>200</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_LAAT_Fly_By">
+		<Use_Preset>Preset_EGB_Land</Use_Preset>
+		<Samples>Data\Audio\EGL_LAAT_By_Long_1.wav</Samples>
+	</SFXEvent>
 
     <SFXEvent Name="Unit_AAT_Turret_Motor">
 		<Use_Preset>Preset_EGL_Land</Use_Preset>
 		<Samples>Data\Audio\SFX\TURRET_AAT.wav</Samples>
 	</SFXEvent>
+	
 	<SFXEvent Name="Unit_AAT_Idle_Engine_Loop">
 		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
 		<Samples>Data\Audio\SFX\IDLE_AAT.wav</Samples>
 	</SFXEvent>
+	
 	<SFXEvent Name="Unit_AAT_Moving_Engine_Loop">
 		<Use_Preset>Preset_EGL_Land</Use_Preset>
 		<Samples>Data\Audio\SFX\MOVE_AAT.wav</Samples>
 	</SFXEvent>
 
+	<!-- Space Units -->
+	
+	<SFXEvent Name="Unit_Ship_Hyperspace_Enter">
+		<Use_Preset>Preset_HYPER</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Hyperspace_Enter_1.wav
+			Data\Audio\SFX\Hyperspace_Enter_2.wav
+			Data\Audio\SFX\Hyperspace_Enter_3.wav
+		</Samples>
+		<Min_Volume>100</Min_Volume>
+		<Max_Volume>100</Max_Volume>
+ 	</SFXEvent>
 
-
-
-
-
-
+	<!-- New Order END -->
 
      <SFXEvent Name="Unit_Star_Destroyer_Idle_Engine_Loop">
 				<Use_Preset>Preset_EGLC_Idle</Use_Preset>
@@ -837,12 +864,6 @@
 
 
 
-	<SFXEvent Name="Unit_Ship_Hyperspace_Enter">
-			  <Use_Preset>Preset_EXPC</Use_Preset>
-			  <Samples>Hyperspace_Enter_1.wav Hyperspace_Enter_2.wav</Samples>
-			  <Max_Instances>3</Max_Instances>
-			  <Priority>5</Priority>
- 	</SFXEvent>
 	
 	<SFXEvent Name="Unit_Ship_Hyperspace_Exit">
 			  <Use_Preset>Preset_EXPC</Use_Preset>

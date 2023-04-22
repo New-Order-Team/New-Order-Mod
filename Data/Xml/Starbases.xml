@@ -2144,26 +2144,44 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron2,
-				Y-Wing_Squadron,
-				Z95_Headhunter_Squadron,
-				R41_Squadron,
+				<!--Z_95_Squadron,
+				R_41_Squadron,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				E_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,-->
 
-				Consular_Cruiser,
-				Republic_Assault_Cruiser,
 				Corellian_Corvette,
 				Corellian_Gunboat,
-
+				Agave_Corvette,
+				Warrior_Gunship,
+				Marauder_Corvette,
 				Nebulon_B_Frigate,
 				CC-7700_Frigate,
-				Munificent_Frigate_Rebel,
-				Dreadnought,
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Sacheen_Cruiser,
+				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
+				Liberator_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
+				Calamari_Cruiser,
+				MC80A_Cruiser,
+				MC80B_Cruiser,
+				Nebula_Destroyer,
+				Endurance_Carrier,
+				Dauntless_Cruiser,
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				Mediator_Battlecruiser,
+				Bulwark_III_Battlecruiser,
 
-				Recusant_Frigate_Rebel,
-				Bulwark_Mk1,
-
-				RS_Level_Two_Starbase_Upgrade<!---->
+				<!--RS_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2736,21 +2754,43 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Arc_170_Squadron,
+				<!--TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Phantom_Squadron,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				Assault_Gunboat_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,--> 
 
-				Empire_Corellian_Gunboat,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Adz_Corvette,
+				Lancer_Frigate,
+				Vigil_Corvette,
+				Nebulon_B_Frigate_E,
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Gladiator_Cruiser,
+				Dreadnought_Cruiser,
 				Acclamator_Assault_Ship,
-				Nebulon_B_Frigate_Empire,
-				Gladiator_Carrier,
+				Interdictor_Cruiser,
+				Vindicator_Cruiser,
+				Enforcer_Cruiser,
 				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Venator,
-				ES_Level_Two_Starbase_Upgrade
+				Victory_II_Destroyer,
+				Venator_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				Dominator_II_Destroyer,
+				Tector_Destroyer,
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				Executor_Dreadnought,
+				
+				<!--ES_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	

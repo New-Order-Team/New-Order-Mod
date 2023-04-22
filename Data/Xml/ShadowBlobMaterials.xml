@@ -118,7 +118,7 @@ Format:
         <!--<Texture_Name>i_selection_cutout_space.tga</Texture_Name>
         <Texture_Name_2>i_selection_space.tga</Texture_Name_2>-->
 		<Texture_Name>i_selection_cutout.tga</Texture_Name>
-		<Texture_Name_2>i_selection_land.tga</Texture_Name_2>
+		<Texture_Name_2>i_selection_empire.tga</Texture_Name_2>
         <Shader_Name>BlobStencilMasked.fx</Shader_Name>
     </Material>
 
