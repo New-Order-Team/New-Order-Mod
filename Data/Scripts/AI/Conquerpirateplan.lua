@@ -14,10 +14,10 @@ function Definitions()
 		"MainForce"
 		,"DenyHeroAttach"
 		,"MinimumTotalSize = 5"
-		,"Infantry | Vehicle | Air | Fighter | Corvette | Frigate | Cruiser | Capital = 100%"
+		,"Infantry | Vehicle | Air | Fighter | Corvette | Frigate | Capital = 100%"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Cruiser", "Infantry | Vehicle | Air" }	
+	RequiredCategories = { "Corvette | Frigate", "Infantry | Vehicle | HeavyVehicle | Air" }	
 	
 	PerFailureContrastAdjust = 0.05
 	

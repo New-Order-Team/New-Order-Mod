@@ -53,7 +53,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Armor_Type> Armor_Hero </Armor_Type>
 
-		<Projectile_Types>Proj_Land_Blaster_E-11</Projectile_Types>
+		<Projectile_Types>Proj_Land_Infantry_R5</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
@@ -162,7 +162,7 @@
 			<Reduce_Production_Time_Ability Name="Trachta_Officers_Time_Reduction">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types> Fleet_Com_Empire_Team, Moff_Empire_Team, Field_Com_Empire_Team, ISB_Squad </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Fleet_Com_Empire_Team, Moff_Empire_Team, Field_Com_Empire_Team </Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 				<Time_Reduction_Percentage>0.5</Time_Reduction_Percentage>
 				<Stacking_Category>4</Stacking_Category>

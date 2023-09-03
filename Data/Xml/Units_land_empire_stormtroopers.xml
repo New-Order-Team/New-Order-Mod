@@ -162,6 +162,8 @@
 		<Build_Time_Seconds>24</Build_Time_Seconds>
 		<Tech_Level>1</Tech_Level>
 		<Required_Special_Structures>E_Ground_Officer_Academy</Required_Special_Structures>
+        <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Stormtrooper_Platoon_Spawner</Company_Units>
@@ -284,6 +286,8 @@
 		<Build_Cost_Credits>2960</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Tech_Level>5</Tech_Level>
+        <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Create_Team_Type> Stormtrooper_Platoon_Remnant_Team </Create_Team_Type>
 		
 		<Company_Units>
@@ -572,94 +576,4 @@
 			</Stealth_Ability>
 		</Abilities>
 	</HeroCompany>
-	
-	
-	
-	<GenericHeroUnit Name="Imperial_Army_General">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_GENERAL</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_GENERAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ei_field_commander_bust.tga</Icon_Name>
-		
-		<Land_Model_Name>EI_ArmyGeneral.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
-		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
-		<Crouch_Animation_Speed> .4 </Crouch_Animation_Speed>
-		
-		<Tactical_Health>150</Tactical_Health>
-		
-		<Show_Hero_Head>Yes</Show_Hero_Head>
-		<Is_Generic_Hero>Yes</Is_Generic_Hero>
-		
-		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<Lua_Script>FieldCommander</Lua_Script>
-		
-		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
-		<Stay_In_Transport_During_Ground_Battle>No</Stay_In_Transport_During_Ground_Battle>
-		<Always_Spawn_In_Orbit>No</Always_Spawn_In_Orbit>
-		
-	   <Neutralization_Cost>10000.0</Neutralization_Cost>
-	   <Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-	   <Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
-
-		<Select_Box_Scale>27</Select_Box_Scale>
-		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
-		<Selection_Blob_Material_Name>Selection_Empire_Hero</Selection_Blob_Material_Name>
-        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
-
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="General_Combat_Bonus">
-				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Unit_Strength_Category>All</Unit_Strength_Category>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-		</Abilities>
-	</GenericHeroUnit>
-	<HeroCompany Name="Imperial_General_Squad">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_COMMAND_SQUAD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMAND_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
-		<Damage>100</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health>
-		<Build_Cost_Credits>2000</Build_Cost_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Tech_Level>1</Tech_Level>
-		<Create_Team_Type> Imperial_General_Team </Create_Team_Type>
-		<Required_Special_Structures>Imperial_Command_Center</Required_Special_Structures>
-		<Required_Planets>Carida, Corulag</Required_Planets>
-		
-		<Company_Units>Imperial_Army_Trooper, Imperial_Army_Trooper, Imperial_Army_General, Imperial_Army_Trooper, Imperial_Army_Trooper</Company_Units>
-
-		<Icon_Name>i_button_EI_field_commander.tga</Icon_Name>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</HeroCompany>
-
-	<Container Name="Imperial_General_Team">
-		<Variant_Of_Existing_Type>Line_Infantry_Platoon_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_ARMY_COMMAND_SQUAD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_COMMAND_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GENERAL</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_EI_field_commander.tga</Icon_Name>
-		<Garrison_Value>1</Garrison_Value>
-	</Container>
 </Stormtroopers_Data>

@@ -1,13 +1,20 @@
 <?xml version="1.0"?>
 <Vader_Data>
 
-	<!-- Vader era I - Exactor -->
+	<!-- Vader era I - Devastator (Supreme Commander) -->
 	<HeroUnit Name="Darth_Vader">
 		<Weather_Category>Infantry_Visor</Weather_Category>
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
+		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_HERO_CLASS_FORCE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>EI_VADER.ALO</Land_Model_Name>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 
@@ -82,11 +89,9 @@
 		<Targeting_Fire_Inaccuracy> Air, 0.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 0.0 </Targeting_Fire_Inaccuracy>
 
-		<Starting_Spawned_Units_Tech_0>501st_Stromtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>501st_Stormtrooper_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Commander_Bow, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>501st_Stromtrooper, 0</Reserve_Spawned_Units_Tech_0> 
-		<Reserve_Spawned_Units_Tech_0>Commander_Bow, 0</Reserve_Spawned_Units_Tech_0> 	
 		<Spawned_Squadron_Location_Bones>Root</Spawned_Squadron_Location_Bones>
 		<Spawned_Squadron_Location_Flyout_Distances>10.0</Spawned_Squadron_Location_Flyout_Distances>
 		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
@@ -141,9 +146,6 @@
 		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
@@ -152,7 +154,7 @@
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 		<Population_Value>1</Population_Value>
 		
-		<Unique_Space_Unit>Exactor_SD</Unique_Space_Unit>
+		<Unique_Space_Unit>Devastator_SD</Unique_Space_Unit>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -178,7 +180,7 @@
 		
 		<Abilities SubObjectList="Yes">
 			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
-			<Redirect_Blaster_Ability Name="Vader_Redirect_Blaster">
+			<Redirect_Blaster_Ability Name="Darth_Vader_Redirect_Blaster">
 				<Activation_Style>Take_Damage</Activation_Style>
 				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
 				<Redirect_Chance>0.75</Redirect_Chance>
@@ -192,7 +194,7 @@
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 
-			<Force_Whirlwind_Ability Name="Vader_Force_Whirlwind">
+			<Force_Whirlwind_Ability Name="Darth_Vader_Force_Whirlwind">
 				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->
@@ -219,7 +221,7 @@
 				<Owner_Light_Effect_Pulse_Count />
 			</Force_Whirlwind_Ability>
 
-			<Force_Telekinesis_Ability Name="Vader_Force_Telekinesis">
+			<Force_Telekinesis_Ability Name="Darth_Vader_Force_Telekinesis">
 				<Activation_Style>Special_Attack</Activation_Style>
 				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -237,7 +239,7 @@
 				<Target_Particle_Bone_Name>Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT</Target_Particle_Bone_Name>
 			</Force_Telekinesis_Ability>
 
-			<Earthquake_Attack_Ability Name="Vader_Attack_Structures">
+			<Earthquake_Attack_Ability Name="Darth_Vader_Attack_Structures">
 				<Activation_Style>Special_Attack</Activation_Style>
 				<Terminate_Effect_On_Move_Command>Yes</Terminate_Effect_On_Move_Command>
 				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -255,7 +257,7 @@
 				<Target_Particle_Bone_Name />
 			</Earthquake_Attack_Ability>
 
-			<System_Spy_Ability Name="Vader_System_Spy_Force_Sensitive">
+			<System_Spy_Ability Name="Darth_Vader_System_Spy_Force_Sensitive">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
@@ -263,7 +265,7 @@
 				<See_Force_Sensitive_Heroes>Yes</See_Force_Sensitive_Heroes>
 			</System_Spy_Ability>
 
-			<Combat_Bonus_Ability Name="Vader_Ground_Combat_Bonus">
+			<Combat_Bonus_Ability Name="Darth_Vader_Ground_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -277,12 +279,12 @@
 				<Stacking_Category>1</Stacking_Category>
 			</Combat_Bonus_Ability>
 
-			<Combat_Bonus_Ability Name="Vader_Space_Combat_Bonus">
+			<Combat_Bonus_Ability Name="Darth_Vader_Space_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -290,15 +292,6 @@
 				<Defense_Bonus_Percentage>0.2</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>1</Stacking_Category>
-			</Combat_Bonus_Ability>
-
-			<Combat_Bonus_Ability Name="Darth_Vader_Own_Combat_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Applicable_Unit_Types>Exactor_SD, Immortal_SD</Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.5</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.5</Damage_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.5</Shield_Bonus_Percentage>
-				<Stacking_Category>19</Stacking_Category>
 			</Combat_Bonus_Ability>
 		</Abilities>
 	</HeroUnit>
@@ -308,32 +301,23 @@
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 	</HeroUnit>
 
-	<UniqueUnit Name="Exactor_SD">
+	<UniqueUnit Name="Devastator_SD">
 		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 
-		<Text_ID>TEXT_UNIT_HERO_VADER_EXACTOR</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXACTOR </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER_DEVASTATOR</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
-		<Population_Value>16</Population_Value>
-		<Space_Override_Population_Value>16</Space_Override_Population_Value>
-		<Damage>3090</Damage>
-		<Autoresolve_Health>10608</Autoresolve_Health>
-		<AI_Combat_Power>13698</AI_Combat_Power>
-		<Override_Bounty_SP>13698</Override_Bounty_SP>
-		<Override_Bounty_MP>13698</Override_Bounty_MP>
-		<Tactical_Bribe_Cost>13698</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>13698</Piracy_Value_Credits>
-		<Score_Cost_Credits>13698</Score_Cost_Credits>
-		<Build_Cost_Credits>16670</Build_Cost_Credits>
-		<Tactical_Build_Cost_Multiplayer>16670</Tactical_Build_Cost_Multiplayer>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+
 		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
@@ -342,8 +326,6 @@
 		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
 		
@@ -363,9 +345,14 @@
 
 	<HeroCompany Name="Darth_Team">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_HERO_CLASS_FORCE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -405,49 +392,32 @@
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
 			</Unit_Ability>
-			<Unit_Ability>
-				<Type>TRACTOR_BEAM</Type>
-	            <GUI_Activated_Ability_Name> ISD_Tractor_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>5</Recharge_Seconds>
-	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
-					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>  
-			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
 
-	<!-- Vader era III - Immortal -->
+	<!-- Vader era II - Immortal (Supreme Commander) -->
 	<HeroUnit Name="Darth_Vader_Immortal">
 		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
 		<Unique_Space_Unit>Immortal_SD</Unique_Space_Unit>
 	</HeroUnit>
 
 	<UniqueUnit Name="Immortal_SD">
-		<Variant_Of_Existing_Type>Star_Destroyer_2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperial_II_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 
-		<Text_ID>TEXT_UNIT_HERO_VADER_IMMORTAL</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_IMMORTAL </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER_IMMORTAL</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
-		<Population_Value>20</Population_Value>
-		<Space_Override_Population_Value>20</Space_Override_Population_Value>
 		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
-		<Damage>3765</Damage>
-		<Autoresolve_Health>12048</Autoresolve_Health>
-		<AI_Combat_Power>15813</AI_Combat_Power>
-		<Override_Bounty_SP>15813</Override_Bounty_SP>
-		<Override_Bounty_MP>15813</Override_Bounty_MP>
-		<Tactical_Bribe_Cost>15813</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>15813</Piracy_Value_Credits>
-		<Score_Cost_Credits>15813</Score_Cost_Credits>
-		<Build_Cost_Credits>20040</Build_Cost_Credits>
-		<Tactical_Build_Cost_Multiplayer>20040</Tactical_Build_Cost_Multiplayer>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+
 		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
@@ -456,8 +426,6 @@
 		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
 		
@@ -474,15 +442,17 @@
 		<SFXEvent_Build_Complete>Unit_Respawn_Vader_Executor</SFXEvent_Build_Complete>
 		<SFXEvent_Hero_Respawned>Unit_Respawn_Vader_Executor</SFXEvent_Hero_Respawned>
 	</UniqueUnit>
-	<TransportUnit Name="Imperial_Landing_Craft_Vader">
-		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
-	</TransportUnit>
 
 	<HeroCompany Name="Darth_Team_Immortal">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_UNIT_HERO_VADER</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_HERO_CLASS_FORCE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -498,7 +468,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Imperial_Landing_Craft_Vader</Company_Transport_Unit>
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Company_Units>Darth_Vader_Immortal</Company_Units>
 		<CategoryMask>LandHero | SpaceHero</CategoryMask>
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
@@ -522,39 +492,32 @@
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<Spawned_Object_Type> Force_Whirlwind_Particles </Spawned_Object_Type>
 			</Unit_Ability>
-			<Unit_Ability>
-				<Type>TRACTOR_BEAM</Type>
-	            <GUI_Activated_Ability_Name> ISD_Tractor_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>5</Recharge_Seconds>
-	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
-					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>  
-			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
 
-	<!-- Vader era III upgrade - Executor -->
+	<!-- Vader era II upgrade - Executor (Supreme Commander) -->
 	<HeroUnit Name="Darth_Vader_Executor">
 		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
 		<Unique_Space_Unit>Executor_SSD</Unique_Space_Unit>
 	</HeroUnit>
 
 	<UniqueUnit Name="Executor_SSD">
-		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor_Dreadnought</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
-		
-		<Population_Value>221</Population_Value>
 
-		<Text_ID>TEXT_UNIT_HERO_VADER_EXECUTOR</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXECUTOR </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER_EXECUTOR</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_DREADNOUGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		<CategoryMask> Capital | AntiFrigate | AntiCapital | SpaceHero </CategoryMask>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+
 		<SFXEvent_Select>Unit_Select_Vader_Executor</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Vader_Executor</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Vader_Executor</SFXEvent_Fleet_Move>
@@ -563,8 +526,6 @@
 		<SFXEvent_Barrage>Unit_Barrage_Vader_Executor</SFXEvent_Barrage>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Vader_Executor </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Vader_Executor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Vader_Executor</SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Vader_Executor </SFXEvent_Health_Critical_Warning>
 		
@@ -584,9 +545,14 @@
 
 	<HeroCompany Name="Darth_Team_Executor">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_UNIT_HERO_VADER_EXECUTOR</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_VADER_EXECUTOR </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_DARTH_VADER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_DARTH_VADER_DESC
+			TEXT_TRAITS
+			TEXT_HERO_DARTH_VADER_SC_TRAIT
+			TEXT_HERO_DARTH_VADER_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_HERO_CLASS_FORCE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -594,8 +560,8 @@
 		<Damage>62650</Damage>
 		<Combat_Power_Value>0</Combat_Power_Value>
 
-		<Tech_Level>3</Tech_Level>
-		<Required_Orbiting_Units>Imperial_Landing_Craft_Vader</Required_Orbiting_Units>
+		<Tech_Level>99</Tech_Level>
+		<Required_Orbiting_Units>Landing_Craft_Vader</Required_Orbiting_Units>
 		<Build_Cost_Credits>220590</Build_Cost_Credits>
 		<Build_Time_Seconds>454</Build_Time_Seconds>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
@@ -634,6 +600,9 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
+	<TransportUnit Name="Landing_Craft_Vader">
+		<Variant_Of_Existing_Type>Imperial_Landing_Craft</Variant_Of_Existing_Type>
+	</TransportUnit>
 
 	<!-- 501st Start -->
 	
@@ -659,7 +628,7 @@
 			Swamp, 				Ei_trooper_SGT.ALO
 		</Land_Terrain_Model_Mapping>
 	</GroundInfantry>
-	<GroundCompany Name="501st_Stromtrooper_Squad">
+	<GroundCompany Name="501st_Stormtrooper_Squad">
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Icon_Name>i_button_501st_stormtrooper.tga</Icon_Name>
@@ -671,10 +640,10 @@
 		501st_Stormtrooper_Sergeant
 		</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Create_Team_Type> 501st_Stromtrooper_Team </Create_Team_Type>
+		<Create_Team_Type> 501st_Stormtrooper_Team </Create_Team_Type>
 	</GroundCompany>
 	
-	<Container Name="501st_Stromtrooper_Team">
+	<Container Name="501st_Stormtrooper_Team">
 		<Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_VADER_501ST</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_VADER_501ST TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -743,18 +712,10 @@
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
 		<Victory_Relevant>yes</Victory_Relevant>
-
-		<Damage>3</Damage>
-
-		<Projectile_Types>Proj_Land_Blaster_DLT_20A</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
-
-		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Air, 20.0 </Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+		
+		<Hardpoints>
+			HP_Infantry_Commando_E_11
+		</Hardpoints>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>

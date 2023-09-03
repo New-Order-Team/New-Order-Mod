@@ -17,11 +17,11 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Corvette = 0,16"
 		,"Frigate = 0,8"
-		,"Cruiser = 0,4"
-		,"Capital = 0,2"
+		,"Capital = 0,4"
+		,"Dreadnought = 0,1"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Cruiser | Capital" }
+	RequiredCategories = { "Corvette | Frigate | Capital" }
 	AllowFreeStoreUnits = false
 	
 	DebugMessage("%s -- Done Definitions", tostring(Script))

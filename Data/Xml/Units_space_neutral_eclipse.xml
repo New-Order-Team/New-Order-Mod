@@ -141,7 +141,6 @@
 
 			<Super_Laser_Ability Name="Eclipse_Super_Laser_Attack_Ability">
 				<Activation_Style> User_Input </Activation_Style>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ECLIPSE_SL_DESCRIPTION</Alternate_Description_Text>
 				<Applicable_Unit_Categories> Capital | Corvette | Frigate | Structure </Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
                 <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>

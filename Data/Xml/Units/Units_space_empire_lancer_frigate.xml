@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Lancer_Frigate">
 		
 		<Text_ID>TEXT_UNIT_LANCER_FRIGATE</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_LANCER_FRIGATE_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_LANCER_FRIGATE_DESC TEXT_EMPTY TEXT_UNIT_LANCER_FRIGATE_INFO_1 TEXT_UNIT_LANCER_FRIGATE_INFO_2 TEXT_UNIT_LANCER_FRIGATE_INFO_3 TEXT_UNIT_LANCER_FRIGATE_INFO_4 TEXT_WEAPONS TEXT_UNIT_LANCER_FRIGATE_W_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_lancer_frigate.tga</Icon_Name>
 		
@@ -13,7 +13,7 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>315.0</Select_Box_Scale>
+		<Select_Box_Scale>188.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -29,20 +29,20 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>11.0</Build_Time_Seconds>
-		<Build_Cost_Credits>990.0</Build_Cost_Credits>
-		<Population_Value>3.0</Population_Value>
+		<Build_Time_Seconds>9.0</Build_Time_Seconds>
+		<Build_Cost_Credits>720.0</Build_Cost_Credits>
+		<Population_Value>2.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>990.0</AI_Combat_Power>
-		<Score_Cost_Credits>990.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>990.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>990.0</Piracy_Value_Credits>
+		<AI_Combat_Power>720.0</AI_Combat_Power>
+		<Score_Cost_Credits>63.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>720.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>720.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>8810.0</Autoresolve_Health>
+		<Autoresolve_Health>11250.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -61,10 +61,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A3</Armor_Type>
-		<Tactical_Health>8810.0</Tactical_Health>
+		<Tactical_Health>11250.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>9260.0</Shield_Points>
-		<Shield_Refresh_Rate>386.0</Shield_Refresh_Rate>
+		<Shield_Points>11250.0</Shield_Points>
+		<Shield_Refresh_Rate>469.0</Shield_Refresh_Rate>
 		<Energy_Capacity>9600.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1920.0</Energy_Refresh_Rate>
 		
@@ -82,6 +82,7 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -182,9 +183,37 @@
 		
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>990.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>11.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>720.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LASER_DEFENSE</Type>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Effective_Radius>650</Effective_Radius>
+				<GUI_Activated_Ability_Name>Laser_Defence_Lancer</GUI_Activated_Ability_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Laser_Defense_Ability Name="Laser_Defence_Lancer">
+				<Activation_Style>User_Input</Activation_Style>
+				<Defense_Duration_In_Secs>15</Defense_Duration_In_Secs>
+				<Laser_Color>139,230,104,255</Laser_Color>
+				<Bone_Names>MuzzleA_04, MuzzleA_06, MuzzleA_11, MuzzleA_12</Bone_Names>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+				<Protection_Radius>900</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.025</Recharge_Time_In_Secs>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+		</Abilities>
 	</SpaceUnit>
 	
 </Lancer_Frigate_Data>

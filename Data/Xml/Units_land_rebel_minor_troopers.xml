@@ -4,7 +4,7 @@
 <!-- Kaminoan Rebel Antitroopers Platoon -->
 <!-- Kaminoan Rebel Antitrooper -->
 	<GroundInfantry Name="Rebel_Antitrooper">
-		<Variant_Of_Existing_Type>SecForce_Trooper</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ANTITROOPER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ANTITROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		
@@ -44,7 +44,7 @@
 	</GroundInfantry>
 	
 	<GroundCompany Name="Rebel_Antitrooper_Platoon">
-		<Variant_Of_Existing_Type>Rebel_SecForce_Trooper_Platoon</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ANTITROOPER_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ANTITROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Damage>387</Damage>
@@ -76,7 +76,7 @@
 	</GroundCompany>
 
 	<Container Name="Rebel_Antitrooper_Platoon_Team">
-		<Variant_Of_Existing_Type>Rebel_SecForce_Trooper_Platoon_Team</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Rebel_Trooper_Team</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ANTITROOPER_PLATOON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_ANTITROOPER_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Icon_Name>i_button_antitrooper.tga</Icon_Name>

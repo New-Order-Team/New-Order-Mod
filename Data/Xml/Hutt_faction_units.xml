@@ -64,7 +64,7 @@
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter </CategoryMask>
 		<Death_Clone>Damage_Normal, Corellian_Corvette_Death_Clone</Death_Clone>
 
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -274,7 +274,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
-		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -560,7 +560,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 

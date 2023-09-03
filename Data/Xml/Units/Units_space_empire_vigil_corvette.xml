@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Vigil_Corvette">
 		
 		<Text_ID>TEXT_UNIT_VIGIL_CORVETTE</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_VIGIL_CORVETTE_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_VIGIL_CORVETTE_DESC TEXT_EMPTY TEXT_UNIT_VIGIL_CORVETTE_INFO_1 TEXT_UNIT_VIGIL_CORVETTE_INFO_2 TEXT_UNIT_VIGIL_CORVETTE_INFO_3 TEXT_UNIT_VIGIL_CORVETTE_INFO_4 TEXT_WEAPONS TEXT_UNIT_VIGIL_CORVETTE_W_1 TEXT_UNIT_VIGIL_CORVETTE_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_vigil_corvette.tga</Icon_Name>
 		
@@ -12,7 +12,7 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>320.0</Select_Box_Scale>
+		<Select_Box_Scale>191.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -28,20 +28,20 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>11.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1080.0</Build_Cost_Credits>
-		<Population_Value>2.0</Population_Value>
+		<Build_Time_Seconds>9.0</Build_Time_Seconds>
+		<Build_Cost_Credits>650.0</Build_Cost_Credits>
+		<Population_Value>3.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>1080.0</AI_Combat_Power>
-		<Score_Cost_Credits>1080.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1080.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1080.0</Piracy_Value_Credits>
+		<AI_Combat_Power>650.0</AI_Combat_Power>
+		<Score_Cost_Credits>53.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>650.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>650.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>13860.0</Autoresolve_Health>
+		<Autoresolve_Health>16000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -60,10 +60,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A4</Armor_Type>
-		<Tactical_Health>13860.0</Tactical_Health>
+		<Tactical_Health>16000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>12880.0</Shield_Points>
-		<Shield_Refresh_Rate>537.0</Shield_Refresh_Rate>
+		<Shield_Points>16000.0</Shield_Points>
+		<Shield_Refresh_Rate>667.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
 		<Energy_Refresh_Rate>550.0</Energy_Refresh_Rate>
 		
@@ -84,7 +84,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -150,9 +150,9 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
-		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		
-		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Mod_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		
 		<Formation_Priority>3</Formation_Priority>
 		
@@ -162,8 +162,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>1080.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>11.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>650.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

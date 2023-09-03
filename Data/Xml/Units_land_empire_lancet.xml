@@ -150,7 +150,7 @@
                 <Should_Heal>No</Should_Heal>
                 <Charging_Time_In_Seconds>2.0</Charging_Time_In_Seconds>
                 <Drain_Radius> 150.0 </Drain_Radius> 
-                <Activation_Max_Range>150.0</Activation_Max_Range>
+                <!-- <Activation_Max_Range>150.0</Activation_Max_Range> -->
             </Drain_Life_Ability>
 
         </Abilities>
@@ -224,7 +224,7 @@
                 <Max_Drain_Victims>1</Max_Drain_Victims>
                 <Should_Heal>No</Should_Heal>
                 <Charging_Time_In_Seconds>2.0</Charging_Time_In_Seconds>
-                <Activation_Max_Range>200.0</Activation_Max_Range>
+                <!-- <Activation_Max_Range>200.0</Activation_Max_Range> -->
             </Drain_Life_Ability>
 
         </Abilities>

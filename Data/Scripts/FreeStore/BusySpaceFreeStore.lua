@@ -107,7 +107,7 @@ function On_Unit_Service(object)
 			return
 		end
 		
-		if object.Is_Category("Fighter") or object.Is_Category("Bomber") or object.Is_Category("Transport") or object.Is_Category("Corvette") or object.Is_Category("Frigate") or object.Is_Category("Cruiser") then			
+		if object.Is_Category("Fighter") or object.Is_Category("Bomber") or object.Is_Category("Transport") or object.Is_Category("Corvette") or object.Is_Category("Frigate") then			
 			if Service_Kite(object) then
 				return
 			end

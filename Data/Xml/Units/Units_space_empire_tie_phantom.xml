@@ -3,7 +3,7 @@
 	<SpaceUnit Name="TIE_Phantom">
 		
 		<Text_ID>TEXT_UNIT_TIE_PHANTOM</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_TIE_PHANTOM_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_TIE_PHANTOM_DESC TEXT_EMPTY TEXT_UNIT_TIE_PHANTOM_INFO_1 TEXT_UNIT_TIE_PHANTOM_INFO_2 TEXT_UNIT_TIE_PHANTOM_INFO_3 TEXT_UNIT_TIE_PHANTOM_INFO_4 TEXT_WEAPONS TEXT_UNIT_TIE_PHANTOM_W_1 TEXT_UNIT_TIE_PHANTOM_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_phantom.tga</Icon_Name>
 		
@@ -15,7 +15,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		
-		<Select_Box_Scale>30.0</Select_Box_Scale>
+		<Select_Box_Scale>18.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Empire</Affiliation>
@@ -29,7 +29,8 @@
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>304.0</AI_Combat_Power>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.01</Maintenance_Cost>
@@ -67,6 +68,7 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -117,16 +119,63 @@
 		<Death_Explosions>Fighter_Explosion_Space_Empire</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Expiration_Seconds>90</Expiration_Seconds>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Tie_Phantom</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			<System_Spy_Ability Name="Phantom_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+			<Stealth_Ability Name="Stealth_Tie_Phantom">
+				<Activation_Style>User_Input</Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Stealth_Ability>
+		</Abilities>
 	</SpaceUnit>
 	
 	<Squadron Name="TIE_Phantom_Squadron">
 		
 		<Text_ID>TEXT_UNIT_TIE_PHANTOM_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_TIE_PHANTOM_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_TIE_PHANTOM_DESC TEXT_EMPTY TEXT_UNIT_TIE_PHANTOM_INFO_1 TEXT_UNIT_TIE_PHANTOM_INFO_2 TEXT_UNIT_TIE_PHANTOM_INFO_3 TEXT_UNIT_TIE_PHANTOM_INFO_4 TEXT_WEAPONS TEXT_UNIT_TIE_PHANTOM_W_1 TEXT_UNIT_TIE_PHANTOM_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_phantom.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
@@ -134,14 +183,14 @@
 		<Tech_Level>99.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>540.0</Build_Cost_Credits>
+		<Build_Time_Seconds>5.0</Build_Time_Seconds>
+		<Build_Cost_Credits>60.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>540.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>540.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>540.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>60.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>60.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>60.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>264.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -176,9 +225,55 @@
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>540.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>60.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Expiration_Seconds>90</Expiration_Seconds>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Tie_Phantom</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Stealth_On_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Stealth_Off_Tie_Phantom</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+			<System_Spy_Ability Name="Phantom_System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1</Duration_In_Secs>
+				<See_Base_Levels>Yes</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Fleet_Contents>Yes</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Political_Control>Yes</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+			<Stealth_Ability Name="Stealth_Tie_Phantom">
+				<Activation_Style>User_Input</Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Stealth_Ability>
+		</Abilities>
 	</Squadron>
 	
 </TIE_Phantom_Data>

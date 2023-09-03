@@ -50,7 +50,7 @@
 
 		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
 
-		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter </CategoryMask>
 
 		<SFXEvent_Ambient_Moving> Unit_Buzz_Droids_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>

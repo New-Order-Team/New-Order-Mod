@@ -13,7 +13,7 @@ function Definitions()
 	{
 		"SpaceForce"	
 		,"MinimumTotalSize = 5"
-		,"Corvette | Frigate | Cruiser | Capital = 100%"
+		,"Corvette | Frigate | Capital = 100%"
 		,"Dreadnought = 0,3"
 		,"AntiFighter = 1,10"
 		,"SpaceHero = 0,2"
@@ -26,7 +26,7 @@ function Definitions()
 		,"LandHero = 0,1"
 	}
 	}
-	RequiredCategories = { "Infantry", "Vehicle", "AntiFighter", "Cruiser | Capital" }		--Must have at least one ground unit, also make sure space force is reasonable
+	RequiredCategories = { "Infantry", "Vehicle | HeavyVehicle", "AntiFighter", "Frigate | Capital", "AntiCapital" }		--Must have at least one ground unit, also make sure space force is reasonable
 
 	PerFailureContrastAdjust = 0.5
 	

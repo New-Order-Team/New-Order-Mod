@@ -104,7 +104,6 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Army_Trooper_Platoon,
-				<!-- Line_Infantry_Platoon_Remnant, -->
 				E_Web_Platoon,
 				<!-- E_Web_15_Platoon, -->
 				PX_10_Platoon,
@@ -116,11 +115,6 @@
 		<Reserve_Spawned_Units_Tech_0>Army_Trooper_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_4>Line_Infantry_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>Line_Infantry_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>PX_10_Platoon, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>PX_10_Platoon, 0</Reserve_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -264,8 +258,8 @@
 		<Starting_Spawned_Units_Tech_0>Army_Engineers_Platoon, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Army_Engineers_Platoon, 0</Reserve_Spawned_Units_Tech_0>
 		
-		<Starting_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_5>
+		<!-- <Starting_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 1</Starting_Spawned_Units_Tech_5> -->
+		<!-- <Reserve_Spawned_Units_Tech_5>Engineering_Platoon_Remnant, 0</Reserve_Spawned_Units_Tech_5> -->
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1189,7 +1183,7 @@
 		
 		<Special_Weapon_Index>1</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
-		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 		
 		<Projectile_Fire_Recharge_Seconds>60.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
@@ -1933,7 +1927,6 @@
 			Rebel,
 				Rebel_Infiltrator_Team,
 				Freerunner_Command_Platoon,
-				NR_Technician_Platoon,
 				RL_Bombing_Run_Use_Upgrade, 
 				RL_Planetary_Bombard_Use_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2372,7 +2365,7 @@
 		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
 		<Special_Weapon_Index>0</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 1 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
-		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 
 		<Space_Victory_Relevant>No</Space_Victory_Relevant>
 		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>
@@ -5648,7 +5641,7 @@
 		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
 		<Special_Weapon_Index>0</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 1 </Special_Weapon_Target_Action_Index>
-		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 		<Icon_Name>i_button_ion_cannon.tga</Icon_Name>
 		<GUI_Model_Name>RB_IONCANNON.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -5713,7 +5706,7 @@
 		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
 		<Special_Weapon_Index>1</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index>
-		<Special_Weapon_Valid_Targets>Transport | Corvette | Frigate | Capital | Super</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>

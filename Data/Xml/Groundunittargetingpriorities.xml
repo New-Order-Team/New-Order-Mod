@@ -20,7 +20,7 @@
 			Bunker, 40.0,
         </Attack_Priorities>
         <Category_Exclusions>
-			Wall, Air
+			Air
         </Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret
@@ -41,7 +41,7 @@
             LandHero, 13.0,
         </Attack_Priorities>
         <Category_Exclusions>
-			Wall, Air
+			Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
@@ -59,7 +59,7 @@
 			Bunker, 13.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -77,7 +77,7 @@
 			Turret, 12.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -96,7 +96,7 @@
 			Bunker, 30.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -114,7 +114,7 @@
 			Bunker, 25.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -127,7 +127,7 @@
 			Infantry, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -138,7 +138,7 @@
 			Air, 1.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Infantry, LandHero, Vehicle
+			Structure, Infantry, LandHero, Vehicle
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>-->
@@ -150,9 +150,6 @@
 			Vehicle, 4.0,
 			Structure, 5.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
@@ -171,7 +168,7 @@
 			Vehicle, 20.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -187,7 +184,7 @@
             Vehicle, 20.0,
         </Attack_Priorities>
         <Category_Exclusions>
-			Wall, Air
+			Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
@@ -203,7 +200,7 @@
 			Infantry, 20.0,
         </Attack_Priorities>
         <Category_Exclusions>
-			Wall, Air
+			Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
@@ -221,7 +218,7 @@
 			Structure, 21.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure
+			Structure
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -237,7 +234,7 @@
 			Vehicle, 20.0,
         </Attack_Priorities>
         <Category_Exclusions>
-			Wall, Air
+			Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
@@ -255,7 +252,7 @@
 			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret
@@ -271,7 +268,7 @@
 			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -284,7 +281,7 @@
 			Vehicle, 4.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -298,9 +295,6 @@
 			Structure, 5.0,
 			Vehicle, 6.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 	
@@ -313,7 +307,7 @@
 			Vehicle, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -327,9 +321,6 @@
 			TacticalStructure, 5.0,
 			Structure, 6.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
@@ -342,7 +333,7 @@
 			Infantry, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -356,7 +347,7 @@
 			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure
+			Structure
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -370,9 +361,6 @@
 			TacticalStructure, 5.0,
 			Structure, 6.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 
@@ -385,9 +373,6 @@
 			Infantry, 5.0,
 			Vehicle, 6.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
 	
@@ -400,7 +385,7 @@
 			Vehicle, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -414,7 +399,7 @@
 			Infantry, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -434,7 +419,7 @@
 			TacticalStructure, 6.0,
         </Attack_Priorities>
         <Category_Exclusions>
-            Wall, Air
+            Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
     </Priority_Set>
@@ -448,9 +433,6 @@
 			Structure, 3.0,
 			TacticalStructure, 4.0,
         </Attack_Priorities>
-        <Category_Exclusions>
-            Wall
-        </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
    </Priority_Set>
 
@@ -460,7 +442,7 @@
 			Air, 1.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure
+			Structure
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -471,7 +453,7 @@
 			LandHero, 1.0,	Infantry, 2.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air, Vehicle
+			Structure, Air, Vehicle
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret, Underworld_Mass_Driver_Turret, Underworld_Torpedo_Turret
@@ -488,7 +470,7 @@
 			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -503,9 +485,6 @@
             Structure, 6.0,     
             TacticalStructure, 6.0
         </Attack_Priorities>
-        <Category_Exclusions>
-            Wall
-        </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
 	
@@ -519,7 +498,7 @@
             TacticalStructure, 5.0
         </Attack_Priorities>
         <Category_Exclusions>
-            Wall, Air
+            Air
         </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>				
 	</Priority_Set>
@@ -534,9 +513,6 @@
             LandHero, 5.0,
             Infantry, 6.0
         </Attack_Priorities>
-        <Category_Exclusions>
-            Wall
-        </Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>				
 	</Priority_Set>
 
@@ -547,7 +523,7 @@
 			Vehicle, 3.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>		
 	</Priority_Set>
@@ -558,7 +534,7 @@
 			LandHero, 0.5,	Infantry, 1.0,	TacticalStructure, 2.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>
 			NotOpportunityTarget
@@ -576,7 +552,7 @@
 			LandHero, 1.0,	Infantry, 2.0,	Vehicle, 3.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret, Underworld_Mass_Driver_Turret, Underworld_Torpedo_Turret
@@ -598,7 +574,7 @@
 			Turret, 1.0,	Vehicle, 2.0,	Infantry, 3.0,	TacticalStructure, 4.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -608,7 +584,7 @@
 			LandHero, 0.5,	Infantry, 1.0,	TacticalStructure, 2.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -618,7 +594,7 @@
 			Vehicle, 1.0,	LandHero, 1.5,	TacticalStructure, 2.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
 	</Priority_Set>
@@ -628,7 +604,7 @@
 			LandHero, 0.5,	Infantry, 1.0,		Turret, 2.0,		Vehicle, 3.0,     TacticalStructure, 4.0
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Structure, Air
+			Structure, Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, Rebel_Anti_Infantry_Turret, Pirate_Anti_Infantry_Turret
@@ -645,7 +621,7 @@
 			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, 
@@ -666,9 +642,6 @@
 			LandHero, 5.0,
 			Infantry, 6.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Unit_Exclusions>
 			Empire_Anti_Infantry_Turret, 
 			Rebel_Anti_Infantry_Turret, 
@@ -690,9 +663,6 @@
 			Infantry, 7.0,
 			Structure, 8.0,
 		</Attack_Priorities>
-		<Category_Exclusions>
-			Wall
-		</Category_Exclusions>
 		<Unit_Exclusions>
 			AT_AA_Walker
 			MPTL,	
@@ -719,7 +689,7 @@
 			Infantry, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Plex_Soldier_Team,
@@ -740,7 +710,7 @@
 			TacticalStructure, 5.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Unit_Exclusions>
 			Plex_Soldier_Team,
@@ -764,7 +734,7 @@
 			Infantry, 6.0,
 		</Attack_Priorities>
 		<Category_Exclusions>
-			Wall, Air
+			Air
 		</Category_Exclusions>
 		<Property_Exclusions>
 			NotOpportunityTarget

@@ -10,10 +10,10 @@ function Definitions()
 		"MainForce"
 		,"MinimumTotalSize = 4"
 		,"MinimumTotalForce = 2500"					
-		,"Fighter | Corvette | Frigate | Cruiser | Capital | Dreadnought = 100%"
+		,"Fighter | Corvette | Frigate | Capital | Dreadnought = 100%"
 	}
 	}
-	RequiredCategories = { "AntiFighter", "Cruiser | Capital | Dreadnought" }
+	RequiredCategories = { "AntiFighter", "Frigate | Capital | Dreadnought" }
 	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 

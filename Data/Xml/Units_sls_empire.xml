@@ -189,7 +189,7 @@
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> SLS_Fighter | AntiBomber | AntiFighter </CategoryMask>
+		<CategoryMask> SLS_Fighter | AntiFighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>

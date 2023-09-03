@@ -43,7 +43,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SOONTIR1</Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter </CategoryMask>
 		<Icon_Name>i_button_soontir_fel.tga</Icon_Name>
 	</UniqueUnit>
 	
@@ -175,7 +175,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SOONTIR2 </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter </CategoryMask>
 		<Icon_Name>i_button_soontir_fel.tga</Icon_Name>
 	</UniqueUnit>
 	
@@ -310,7 +310,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJOR </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_turr_phennir.tga</Icon_Name>
 	</UniqueUnit>
 	

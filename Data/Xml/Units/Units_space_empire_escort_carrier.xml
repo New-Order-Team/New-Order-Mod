@@ -3,14 +3,14 @@
 	<SpaceUnit Name="Escort_Carrier">
 		
 		<Text_ID>TEXT_UNIT_ESCORT_CARRIER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_ESCORT_CARRIER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ESCORT_CARRIER_DESC TEXT_EMPTY TEXT_UNIT_ESCORT_CARRIER_INFO_1 TEXT_UNIT_ESCORT_CARRIER_INFO_2 TEXT_UNIT_ESCORT_CARRIER_INFO_3 TEXT_UNIT_ESCORT_CARRIER_INFO_4 TEXT_WEAPONS TEXT_UNIT_ESCORT_CARRIER_W_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CARRIER_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_escort_carrier.tga</Icon_Name>
 		
 		<Space_Model_Name>super_transport_viii_escort_carrier.ALO</Space_Model_Name>
 		<Scale_Factor>0.3</Scale_Factor>
 		
-		<Select_Box_Scale>750.0</Select_Box_Scale>
+		<Select_Box_Scale>450.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -27,21 +27,20 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>14.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1540.0</Build_Cost_Credits>
-		<Population_Value>6.0</Population_Value>
+		<Build_Time_Seconds>10.0</Build_Time_Seconds>
+		<Build_Cost_Credits>930.0</Build_Cost_Credits>
+		<Population_Value>7.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes, Bilbringi, Bonadan, Bothawui, Byss, Corellia, Fondor, Kuat, Lantilles, Lianna, Mandalore, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>1540.0</AI_Combat_Power>
-		<Score_Cost_Credits>1540.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1540.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1540.0</Piracy_Value_Credits>
+		<AI_Combat_Power>930.0</AI_Combat_Power>
+		<Score_Cost_Credits>81.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>930.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>930.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>37020.0</Autoresolve_Health>
+		<Autoresolve_Health>40250.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -59,11 +58,11 @@
 		<OverrideDeceleration>0.04</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A5</Armor_Type>
-		<Tactical_Health>37020.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A4</Armor_Type>
+		<Tactical_Health>40250.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>22060.0</Shield_Points>
-		<Shield_Refresh_Rate>919.0</Shield_Refresh_Rate>
+		<Shield_Points>25750.0</Shield_Points>
+		<Shield_Refresh_Rate>1073.0</Shield_Refresh_Rate>
 		<Energy_Capacity>4500.0</Energy_Capacity>
 		<Energy_Refresh_Rate>900.0</Energy_Refresh_Rate>
 		
@@ -84,7 +83,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1160.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -96,7 +95,6 @@
 			HP_Escort_Carrier_1,
 			HP_Escort_Carrier_2,
 			HP_Escort_Carrier_3,
-			HP_Escort_Carrier_4,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
@@ -192,8 +190,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>1540.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>930.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

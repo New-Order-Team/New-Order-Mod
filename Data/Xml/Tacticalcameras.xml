@@ -118,7 +118,7 @@
 
         <!-- smoothness of terrain height following -->
 		<Location_Follows_Terrain>0</Location_Follows_Terrain>
-		<Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time>
+		<!-- <Location_Height_Smooth_Time>0.1</Location_Height_Smooth_Time> -->
 		
 		<Near_Clip>10.0</Near_Clip>
 		<Far_Clip>7000.0</Far_Clip>

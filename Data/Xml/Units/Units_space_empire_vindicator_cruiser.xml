@@ -3,14 +3,15 @@
 	<SpaceUnit Name="Vindicator_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_VINDICATOR_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_VINDICATOR_CRUISER_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_MEDIUM</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_VINDICATOR_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_VINDICATOR_CRUISER_INFO_1 TEXT_UNIT_VINDICATOR_CRUISER_INFO_2 TEXT_UNIT_VINDICATOR_CRUISER_INFO_3 TEXT_UNIT_VINDICATOR_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_VINDICATOR_CRUISER_W_1 TEXT_UNIT_VINDICATOR_CRUISER_W_2 TEXT_UNIT_VINDICATOR_CRUISER_W_3 TEXT_UNIT_VINDICATOR_CRUISER_W_4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_vindicator_cruiser.tga</Icon_Name>
 		
-		<Space_Model_Name>EnforcerShip.alo</Space_Model_Name>
-		<Scale_Factor>0.198</Scale_Factor>
+		<Space_Model_Name>imp_vindicator.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		
-		<Select_Box_Scale>750.0</Select_Box_Scale>
+		<Select_Box_Scale>450.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -26,21 +27,20 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>18.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2330.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>21.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2780.0</Build_Cost_Credits>
+		<Population_Value>7.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes, Bilbringi, Bonadan, Bothawui, Byss, Corellia, Fondor, Kuat, Lantilles, Lianna, Mandalore, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>2330.0</AI_Combat_Power>
-		<Score_Cost_Credits>2330.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2330.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2330.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2780.0</AI_Combat_Power>
+		<Score_Cost_Credits>241.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2780.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2780.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>29290.0</Autoresolve_Health>
+		<Autoresolve_Health>33250.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.5</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -58,11 +58,11 @@
 		<OverrideDeceleration>0.04</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A7</Armor_Type>
-		<Tactical_Health>29290.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A6</Armor_Type>
+		<Tactical_Health>33250.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>35020.0</Shield_Points>
-		<Shield_Refresh_Rate>1459.0</Shield_Refresh_Rate>
+		<Shield_Points>38250.0</Shield_Points>
+		<Shield_Refresh_Rate>1594.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1200.0</Energy_Refresh_Rate>
 		
@@ -83,7 +83,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1180.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -101,6 +101,7 @@
 			HP_Vindicator_Cruiser_7,
 			HP_Vindicator_Cruiser_8,
 			HP_Vindicator_Cruiser_9,
+			HP_Vindicator_Cruiser_10,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Interdictor</SFXEvent_Select>
@@ -174,10 +175,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
-		
-		<Tactical_Build_Cost_Multiplayer>2330.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2780.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>21.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

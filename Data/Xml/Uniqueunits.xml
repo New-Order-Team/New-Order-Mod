@@ -108,7 +108,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
 		<MovementClass> Space </MovementClass>
-		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber | AntiSuper </CategoryMask>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
 		<MovementClass> Space </MovementClass>
@@ -263,7 +263,7 @@
 				
 		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 		<MovementClass> Space </MovementClass>
-		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter </CategoryMask>
 		
 		<Victory_Relevant>yes</Victory_Relevant>
 		
@@ -727,7 +727,7 @@
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 

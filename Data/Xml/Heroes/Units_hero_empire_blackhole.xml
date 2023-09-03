@@ -3,7 +3,7 @@
 
 	<!--Cronal era III - Blackhole on Singularity -->
 	<UniqueUnit Name="Singularity_SD">
-		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -87,14 +87,6 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
-		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_3>
-
 		<Space_Model_Name>imperial_ii-class_star_destroyer_black.alo</Space_Model_Name>
 		
 		<!-- Passive - sensor undetectable -->
@@ -107,7 +99,7 @@
 			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
 	            <Activation_Style> User_Input </Activation_Style>
 	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Moldy_Crow</Applicable_Unit_Types>
 				<Excluded_Unit_Types>
 					Buzz_Droids
 				</Excluded_Unit_Types>

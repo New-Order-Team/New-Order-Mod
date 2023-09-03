@@ -40,7 +40,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx2">
@@ -82,7 +82,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx3">
@@ -124,7 +124,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx4">
@@ -166,7 +166,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx5">
@@ -208,7 +208,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx6">
@@ -250,7 +250,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
   	<GroundStructure Name="Empire_Wallx7">
@@ -292,7 +292,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -334,7 +334,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx2">
@@ -375,7 +375,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx3">
@@ -416,7 +416,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx4">
@@ -457,7 +457,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx5">
@@ -498,7 +498,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx6">
@@ -539,7 +539,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall_Cornerx7">
@@ -580,7 +580,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -622,7 +622,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx2">
@@ -663,7 +663,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx3">
@@ -704,7 +704,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx4">
@@ -745,7 +745,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx5">
@@ -786,7 +786,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx6">
@@ -827,7 +827,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 	<GroundStructure Name="Empire_Wall__Inside_Cornerx7">
@@ -868,7 +868,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -911,7 +911,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx2">
@@ -953,7 +953,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx3">
@@ -995,7 +995,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx4">
@@ -1037,7 +1037,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx5">
@@ -1079,7 +1079,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx6">
@@ -1121,7 +1121,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wallx7">
@@ -1163,7 +1163,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -1205,7 +1205,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx2">
@@ -1246,7 +1246,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx3">
@@ -1287,7 +1287,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx4">
@@ -1328,7 +1328,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx5">
@@ -1369,7 +1369,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx6">
@@ -1410,7 +1410,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Cornerx7">
@@ -1451,7 +1451,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -1493,7 +1493,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx2">
@@ -1534,7 +1534,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx3">
@@ -1575,7 +1575,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx4">
@@ -1616,7 +1616,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx5">
@@ -1657,7 +1657,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx6">
@@ -1698,7 +1698,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 	<GroundStructure Name="Wall_Inside_Cornerx7">
@@ -1739,7 +1739,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 

@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <Factions>
-
 	<Faction Name="Underworld">
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
@@ -298,7 +297,7 @@
 
         <SFXEvent_Unit_Type_Spotted>Silri,		                        Unit_Announce_Silri_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Grand_Admiral_Thrawn,		        Unit_Announce_Thrawn_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
+        <SFXEvent_Unit_Type_Spotted>Executor_Dreadnought,		Unit_Announce_Executor_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Luke_Skywalker_Jedi,		        Unit_Announce_Luke_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Gargantuan_Battle_Platform,		    Unit_Announce_Gargantuan_Underworld_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -685,13 +684,9 @@
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_UNDERWORLD.TGA</Multiplayer_Map_Preview_Icon>
 	
       <Alternate_Icon_Prefix> u_ </Alternate_Icon_Prefix>
-
 	</Faction>
 
-
-
 	<Faction Name="Hutts">
-
 		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
 
@@ -733,134 +728,5 @@
 		<Easily_Bribed> Yes </Easily_Bribed>
 
 		<Can_Control_Planets>true</Can_Control_Planets>
-
 	</Faction>
-	<Faction Name="CIS">
-
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
-
-		<Text_ID> TEXT_FACTION_CIS </Text_ID>
-		<Icon_Name> I_BUTTON_COMMAND_BAR_CIS_SYMBOL.TGA </Icon_Name>
-		<Alternate_Icon_Name> I_BUTTON_COMMAND_BAR_CIS_SYMBOL.TGA </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 21, 21, 25, 255 </Color>
-		<No_Colorization_Color> 21, 21, 25, 255 </No_Colorization_Color>
-		<Display_Font_Color> 21, 21, 25, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 21, 21, 25, 150 </Big_Fleet_Color>
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>False</Is_Playable>
-		<Primary_Enemy>  </Primary_Enemy>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event> </Strategic_Map_Music_Event>
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA> 21, 21, 25, 255 </Selection_Blob_RGBA>
-
-		<Debug_Ground_Structures>Pirate_Command_Center</Debug_Ground_Structures>
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-
-		<Allies />
-		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts,Pirates</Enemies>
-		<Easily_Bribed> Yes </Easily_Bribed>
-		<Primary_Enemy> Empire </Primary_Enemy>
-
-		<Can_Control_Planets>true</Can_Control_Planets>
-
-	</Faction>
-	<Faction Name="CIS_Remnants">
-
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
-
-		<Text_ID> TEXT_FACTION_CIS_REMNANTS </Text_ID>
-		<Icon_Name> I_BUTTON_COMMAND_BAR_CIS_SYMBOL.TGA </Icon_Name>
-		<Alternate_Icon_Name> I_BUTTON_COMMAND_BAR_CIS_SYMBOL.TGA </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> i_icon_fleet.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 21, 21, 25, 255 </Color>
-		<No_Colorization_Color> 21, 21, 25, 255 </No_Colorization_Color>
-		<Display_Font_Color> 21, 21, 25, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 21, 21, 25, 150 </Big_Fleet_Color>
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>False</Is_Playable>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event> </Strategic_Map_Music_Event>
-		<Space_Tactical_Unit_Cap>300</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA> 21, 21, 25, 255 </Selection_Blob_RGBA>
-
-		<Debug_Ground_Structures>Pirate_Command_Center</Debug_Ground_Structures>
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-
-		<Allies>Neutral, Rebel</Allies>
-		<Enemies>Empire, Hostile, Sarlacc, Underworld, Hutts,Pirates</Enemies>
-		<Easily_Bribed> Yes </Easily_Bribed>
-		<Primary_Enemy> Empire </Primary_Enemy>
-		<Basic_AI>BasicEmpire</Basic_AI>
-
-		<Can_Control_Planets>true</Can_Control_Planets>
-
-	</Faction>
-
-	<Faction Name="Empire_Bonus">
-
-		<Is_Debug_Switchable_To> No </Is_Debug_Switchable_To>
-		<Create_Player_In_Multiplayer_Games> Yes </Create_Player_In_Multiplayer_Games>
-
-		<Scatters_From_Crushers> true </Scatters_From_Crushers>
-		<Text_ID> TEXT_FACTION_HOSTILE </Text_ID>
-		<Icon_Name> i_icon_pirate.tga </Icon_Name>
-		<Alternate_Icon_Name> pirate_icon.tga </Alternate_Icon_Name>
-		<Ground_Base_Icon_Name> groundbase_icon.tga </Ground_Base_Icon_Name>
-		<Star_Base_Icon_Name> spacestation_icon.tga </Star_Base_Icon_Name>
-		<Ground_Transport_Icon_Name> trooper_icon.tga </Ground_Transport_Icon_Name>
-		<Fleet_Icon_Name> galacticfleeticon.tga </Fleet_Icon_Name>
-		<Ship_Icon_Name> g_fleet.tga </Ship_Icon_Name>
-		<Squadron_Icon_Name> g_squad.tga </Squadron_Icon_Name>
-		<Color> 153, 21, 223, 255 </Color>
-		<No_Colorization_Color> 153, 21, 223, 255 </No_Colorization_Color>
-		<Display_Font_Color> 153, 21, 223, 255 </Display_Font_Color>
-		<Big_Fleet_Color> 153, 21, 223, 255 </Big_Fleet_Color>
-		<Credits_Accumulation_Factor> 1.0 </Credits_Accumulation_Factor>
-		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
-		<Planet_Icon_Offset> 13.0, 10.0, -1.1 </Planet_Icon_Offset>
-		<Is_Playable>false</Is_Playable>
-		<Primary_Enemy> </Primary_Enemy>
-		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
-		<Is_Neutral> No </Is_Neutral>
-		<Force_Alignment>Neutral</Force_Alignment>
-		<Strategic_Map_Music_Event> </Strategic_Map_Music_Event>
-		<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap>
-		<Maintenance_Cost>0.0</Maintenance_Cost>
-		<Land_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Land_Mode_Garrison_Selection_Blob_Material_Name>
-		<Space_Mode_Garrison_Selection_Blob_Material_Name>Selection_Garrison_Land</Space_Mode_Garrison_Selection_Blob_Material_Name>
-		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
-
-		<Allies>Neutral, Rebel, Pirates, Sarlacc, Underworld, CIS, CIS_Remnants</Allies>
-		<Enemies>Empire</Enemies>
-
-	</Faction>
-
 </Factions>

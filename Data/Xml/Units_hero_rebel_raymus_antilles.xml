@@ -168,7 +168,7 @@
 		<Icon_Name>i_button_raymus_antilles.tga</Icon_Name>
 		<Population_Value>2</Population_Value>
 		<Armor_Type> Armor_Hero_Corvette </Armor_Type>
-		<CategoryMask> Corvette | AntiFighter | AntiBomber | AntiCorvette | SpaceHero </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter | AntiCorvette | SpaceHero </CategoryMask>
 
 		<Space_Model_Name>RV_AntilliesVette.alo</Space_Model_Name>
 		<Death_Clone>Damage_Normal, Sundered_Heart_Death_Clone</Death_Clone>

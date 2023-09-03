@@ -12,7 +12,8 @@ function Definitions()
 		, "TaskForceRequired"
 		, "DenySpecialWeaponAttach"
 		,"AntiFighter = 0,8"
-		,"Cruiser | Capital = 0,4"
+		,"Frigate = 0,4"
+		,"Capital = 0,2"
 	}
 	}
 	
@@ -21,7 +22,7 @@ end
 
 function MainForce_Thread()
 
-	focus_fire_on_target = Find_Nearest(Target, "Frigate | Cruiser | Capital | Dreadnought", PlayerObject, false)
+	focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital | Dreadnought", PlayerObject, false)
 	
 	BlockOnCommand(MainForce.Produce_Force())
 	QuickReinforce(PlayerObject, AITarget, MainForce)
@@ -34,7 +35,7 @@ function MainForce_Thread()
 	
 		Sleep(5)
 		
-		focus_fire_on_target = Find_Nearest(Target, "Frigate | Cruiser | Capital | Dreadnought", PlayerObject, false)
+		focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital | Dreadnought", PlayerObject, false)
 	until (not TestValid(focus_fire_on_target) or MainForce.Get_Distance(focus_fire_on_target) > 4000)
 	
 	DebugMessage("%s -- station threats destroyed, exiting", tostring(Script))

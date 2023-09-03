@@ -31,31 +31,28 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Y-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_1>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron4, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_5>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -208,28 +205,25 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Y-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_1>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron4, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_5>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -383,42 +377,25 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>X-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron3, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>X-Wing_Squadron4, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron5, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron5, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>B-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>E_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>E_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_5>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 
 		<Tactical_Buildable_Objects_Campaign> 
@@ -583,50 +560,25 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron2, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_1>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Z95_Headhunter2_Squadron, 2</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter2_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>X-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron3, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron3, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>X-Wing_Squadron4, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>X-Wing_Squadron3, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X-Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron5, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron5, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>B-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>E_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>E_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_5>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Rebel,
@@ -805,58 +757,25 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>R41_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>R41_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, -1</Reserve_Spawned_Units_Tech_1>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>X-Wing_Squadron2, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron2, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron3, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>X-Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron2, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>X-Wing_Squadron4, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>B-Wing_Squadron2, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>B-Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>X-Wing_Squadron3, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X-Wing_Squadron3, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron4, 2</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron4, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>E_Wing_Squadron2, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>E_Wing_Squadron2, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>X-Wing_Squadron5, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>X-Wing_Squadron5, -1</Reserve_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>Defender_Starfighter_Squadron, -1</Reserve_Spawned_Units_Tech_5>
 
 
 		<Tactical_Buildable_Objects_Campaign> 
@@ -1032,30 +951,17 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_6>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_6>
-		<Starting_Spawned_Units_Tech_6>TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_6>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, -1</Reserve_Spawned_Units_Tech_3>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Empire,
@@ -1190,30 +1096,17 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_6>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_6>
-		<Starting_Spawned_Units_Tech_6>TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_6>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, -1</Reserve_Spawned_Units_Tech_3>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Empire,
@@ -1355,45 +1248,17 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
-
+		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, 2</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, -1</Reserve_Spawned_Units_Tech_6>
-		<Starting_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, -1</Reserve_Spawned_Units_Tech_6>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, -1</Reserve_Spawned_Units_Tech_3>
 		
 
 		<Tactical_Buildable_Objects_Campaign>
@@ -1547,39 +1412,16 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 5</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 3</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, 2</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, -1</Reserve_Spawned_Units_Tech_6>
-		<Starting_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, -1</Reserve_Spawned_Units_Tech_6>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, -1</Reserve_Spawned_Units_Tech_3>
 		
 		
 		<Tactical_Buildable_Objects_Campaign>
@@ -1738,42 +1580,16 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>V-Wing_Nimbus_Squadron, -1</Reserve_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>Arc_170_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Arc_170_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 6</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_2>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 5</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_3>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_4>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<Starting_Spawned_Units_Tech_5>TIE_Avenger_Squadron, 4</Starting_Spawned_Units_Tech_5>
-		<Reserve_Spawned_Units_Tech_5>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_5>
-		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-		<Starting_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, 3</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Starhunter_Squadron, -1</Reserve_Spawned_Units_Tech_6>
-		<Starting_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, 1</Starting_Spawned_Units_Tech_6>
-		<Reserve_Spawned_Units_Tech_6>TIE_Scimitar_Squadron, -1</Reserve_Spawned_Units_Tech_6>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Mod_Squadron, -1</Reserve_Spawned_Units_Tech_3>
 		
 		
 		<Tactical_Buildable_Objects_Campaign>
@@ -1943,8 +1759,8 @@
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -2011,8 +1827,8 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -2079,8 +1895,8 @@
 	
 	<StarBase Name="Pirate_Asteroid_Base_Weak">
 		<Variant_Of_Existing_Type>Pirate_Asteroid_Base</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<HardPoints>
 			HP_Pirate_Base_Fighter_Bay_00_Weak, HP_Pirate_Base_Shield_Gen_00_Weak, HP_Pirate_Base_Heavy_Turret_00_Weak, HP_Pirate_Base_Heavy_Turret_01_Weak, HP_Pirate_Base_Turbolaser_00_Weak, HP_Pirate_Base_Turbolaser_01_Weak, HP_Pirate_Base_Turbolaser_02_Weak, HP_Pirate_Base_Turbolaser_03_Weak, HP_Pirate_Base_Laser_Cannon_00_Weak, HP_Pirate_Base_Laser_Cannon_01_Weak
 		</HardPoints>
@@ -2270,26 +2086,44 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron2,
-				Y-Wing_Squadron,
-				Z95_Headhunter2_Squadron,
-				Rebel_X-Wing_Squadron,
+				<!--Z_95_Squadron,
+				R_41_Squadron,
 				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				E_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,-->
 
 				Corellian_Corvette,
-				Marauder_Corvette,
 				Corellian_Gunboat,
-
+				Agave_Corvette,
+				Warrior_Gunship,
+				Marauder_Corvette,
 				Nebulon_B_Frigate,
 				CC-7700_Frigate,
-				Dreadnought,
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Sacheen_Cruiser,
+				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-
-				Bulwark_Mk1,
+				Liberator_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
 				Calamari_Cruiser,
-				MC80A,
-				Calamari_Cruiser_HO_Type,
-				RS_Level_Three_Starbase_Upgrade
+				MC80A_Cruiser,
+				MC80B_Cruiser,
+				Nebula_Destroyer,
+				Endurance_Carrier,
+				Dauntless_Cruiser,
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				Mediator_Battlecruiser,
+				Bulwark_III_Battlecruiser,
+				
+				<!-- RS_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2389,28 +2223,44 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-				X-Wing_Squadron2,
-				A_Wing_Squadron2,
-				B-Wing_Squadron,
+				<!--Z_95_Squadron,
+				R_41_Squadron,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				E_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,-->
 
 				Corellian_Corvette,
-				Marauder_Corvette,
 				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
+				Agave_Corvette,
+				Warrior_Gunship,
+				Marauder_Corvette,
+				Nebulon_B_Frigate,
+				CC-7700_Frigate,
 				MC30_Frigate,
-				Alliance_Assault_Frigate2,
-
+				MC40a_Cruiser,
+				Sacheen_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				Liberator_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
 				Calamari_Cruiser,
-				MC80A,
-				Calamari_Cruiser_HO_Type,
-				MC_80b,
+				MC80A_Cruiser,
+				MC80B_Cruiser,
+				Nebula_Destroyer,
+				Endurance_Carrier,
 				Dauntless_Cruiser,
-				RS_Level_Four_Starbase_Upgrade
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				Mediator_Battlecruiser,
+				Bulwark_III_Battlecruiser,
+				
+				<!-- RS_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2520,26 +2370,44 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				X-Wing_Squadron2,
-				X-Wing_Squadron3,
-				A_Wing_Squadron3,
-				B-Wing_Squadron2,
+				<!--Z_95_Squadron,
+				R_41_Squadron,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
 				E_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,-->
 
-				Marauder_Corvette,
+				Corellian_Corvette,
 				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
+				Agave_Corvette,
+				Warrior_Gunship,
+				Marauder_Corvette,
+				Nebulon_B_Frigate,
+				CC-7700_Frigate,
 				MC30_Frigate,
-				Alliance_Assault_Frigate2,
-
-				Calamari_Cruiser_HO_Type,
-				MC_80b,
+				MC40a_Cruiser,
+				Sacheen_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				Liberator_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
+				Calamari_Cruiser,
+				MC80A_Cruiser,
+				MC80B_Cruiser,
+				Nebula_Destroyer,
+				Endurance_Carrier,
 				Dauntless_Cruiser,
-				RS_Level_Five_Starbase_Upgrade
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				Mediator_Battlecruiser,
+				Bulwark_III_Battlecruiser,
+				
+				<!-- RS_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2653,28 +2521,42 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				X-Wing_Squadron4,
-				X-Wing_Squadron5,
-				B-Wing_Squadron2,
-				E_Wing_Squadron2,
+				<!--Z_95_Squadron,
+				R_41_Squadron,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				E_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,-->
 
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Agave_Corvette,
 				Warrior_Gunship,
-				Sacheen,
-				Ranger_Gunship,
-
+				Marauder_Corvette,
+				Nebulon_B_Frigate,
+				CC-7700_Frigate,
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Sacheen_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				Liberator_Cruiser,
+				Majestic_Cruiser,
 				Defender_Carrier,
-				CC-7700E_Frigate,
-				Majestic_Heavy_Cruiser,
-				Bothan_Assault_Cruiser,
-
-				EnduranceSD,
-				NebulaSD,
-				Mc90,
-				Galactic_Battle_Carrier,
-				MC_Heavy_Carrier,
-				Strident_Star_Defender,
-				Mediator_Cruiser,
-				RS_Level_Six_Starbase_Upgrade
+				Calamari_Cruiser,
+				MC80A_Cruiser,
+				MC80B_Cruiser,
+				Nebula_Destroyer,
+				Endurance_Carrier,
+				Dauntless_Cruiser,
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				Mediator_Battlecruiser,
+				Bulwark_III_Battlecruiser,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2760,7 +2642,7 @@
 				TIE_Fighter_Mod_Squadron,
 				TIE_Interceptor_Mod_Squadron,
 				Assault_Gunboat_Squadron,
-				TIE_Defender_Squadron,
+				TIE_Defender_Starfighter_Squadron,
 				TIE_Bomber_Squadron,
 				TIE_Scimitar_Squadron,--> 
 
@@ -2877,19 +2759,43 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				Empire_Corellian_Gunboat,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
+				<!--TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Phantom_Squadron,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				Assault_Gunboat_Squadron,
+				TIE_Defender_Starfighter_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,--> 
 
-				Dreadnought_Imp,
-				Nebulon_B_Frigate_Empire,
-				Gladiator_Carrier,
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Adz_Corvette,
+				Lancer_Frigate,
+				Vigil_Corvette,
+				Nebulon_B_Frigate_E,
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Gladiator_Cruiser,
+				Dreadnought_Cruiser,
+				Acclamator_Assault_Ship,
+				Interdictor_Cruiser,
+				Vindicator_Cruiser,
+				Enforcer_Cruiser,
 				Victory_Destroyer,
-				Victory_2_Destroyer,
-
+				Victory_II_Destroyer,
+				Venator_Destroyer,
 				Star_Destroyer,
-				Tector,
-				ES_Level_Three_Starbase_Upgrade
+				Imperial_II_Destroyer,
+				Dominator_II_Destroyer,
+				Tector_Destroyer,
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				Executor_Dreadnought,
+				
+				<!-- ES_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2985,30 +2891,43 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
+				<!--TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Phantom_Squadron,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
 				Assault_Gunboat_Squadron,
+				TIE_Defender_Starfighter_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,--> 
 
-				Empire_Corellian_Gunboat,
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Adz_Corvette,
 				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
-				Interdictor_Cruiser,
-				Nebulon_B2_Frigate_Imp,
+				Vigil_Corvette,
+				Nebulon_B_Frigate_E,
+				Carrack_Cruiser,
 				Strike_Cruiser,
-				Vindicator_Cruiser,
 				Escort_Carrier,
+				Gladiator_Cruiser,
+				Dreadnought_Cruiser,
+				Acclamator_Assault_Ship,
+				Interdictor_Cruiser,
+				Vindicator_Cruiser,
+				Enforcer_Cruiser,
 				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Star_Destroyer_2,
-				Dominator,
-				Tector,
-
-				Allegiance,
-				Praetor_II,
-				ES_Level_Four_Starbase_Upgrade
+				Victory_II_Destroyer,
+				Venator_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				Dominator_II_Destroyer,
+				Tector_Destroyer,
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				Executor_Dreadnought,
+				
+				<!-- ES_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -3114,28 +3033,43 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
+				<!--TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Phantom_Squadron,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
 				Assault_Gunboat_Squadron,
+				TIE_Defender_Starfighter_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,--> 
 
-				Empire_Corellian_Gunboat,
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Adz_Corvette,
 				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
-				Interdictor_Cruiser,
+				Vigil_Corvette,
+				Nebulon_B_Frigate_E,
+				Carrack_Cruiser,
 				Strike_Cruiser,
-				Vindicator_Cruiser,
 				Escort_Carrier,
+				Gladiator_Cruiser,
+				Dreadnought_Cruiser,
+				Acclamator_Assault_Ship,
+				Interdictor_Cruiser,
+				Vindicator_Cruiser,
+				Enforcer_Cruiser,
 				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Star_Destroyer_2,
-				Dominator,
-
-				Allegiance,
-				Praetor_II,
-				ES_Level_Five_Starbase_Upgrade
+				Victory_II_Destroyer,
+				Venator_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				Dominator_II_Destroyer,
+				Tector_Destroyer,
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				Executor_Dreadnought,
+				
+				<!-- ES_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -3251,27 +3185,41 @@
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				TIE_Starhunter_Squadron,
+				<!--TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Phantom_Squadron,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
 				Assault_Gunboat_Squadron,
+				TIE_Defender_Starfighter_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,--> 
 
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Adz_Corvette,
 				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Interdictor_Cruiser,
+				Vigil_Corvette,
+				Nebulon_B_Frigate_E,
+				Carrack_Cruiser,
 				Strike_Cruiser,
+				Escort_Carrier,
+				Gladiator_Cruiser,
+				Dreadnought_Cruiser,
+				Acclamator_Assault_Ship,
+				Interdictor_Cruiser,
 				Vindicator_Cruiser,
+				Enforcer_Cruiser,
 				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Star_Destroyer_2,
-				Dominator,
-				Turbulent_Destroyer,
-
-				Allegiance,
-				Praetor_II,
-				ES_Level_Six_Starbase_Upgrade
+				Victory_II_Destroyer,
+				Venator_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				Dominator_II_Destroyer,
+				Tector_Destroyer,
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				Executor_Dreadnought,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -3328,14 +3276,7 @@
 	<StarBase Name="Skirmish_Rebel_Star_Base_1E3">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-
-				Corellian_Corvette,
-				Marauder_Corvette,
-				Corellian_Gunboat,
-				
+			Rebel,				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3347,20 +3288,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-				X-Wing_Squadron2,
-				A_Wing_Squadron2,
-				B-Wing_Squadron,
-
-				Corellian_Corvette,
-				Marauder_Corvette,
-				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
-				
+				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1E3</Prev_Level_Base>
@@ -3371,22 +3299,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-				X-Wing_Squadron2,
-				A_Wing_Squadron2,
-				B-Wing_Squadron,
-
-				Corellian_Corvette,
-				Marauder_Corvette,
-				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
-				MC30_Frigate,
-				Alliance_Assault_Frigate2,
-				
+				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2E3</Prev_Level_Base>
@@ -3397,28 +3310,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-				X-Wing_Squadron2,
-				A_Wing_Squadron2,
-				B-Wing_Squadron,
-
-				Corellian_Corvette,
-				Marauder_Corvette,
-				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
-				MC30_Frigate,
-				Alliance_Assault_Frigate2,
-
-				Calamari_Cruiser,
-				MC80A,
-				Calamari_Cruiser_HO_Type,
-				MC_80b,
-				Dauntless_Cruiser,
-				
+				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3E3</Prev_Level_Base>
@@ -3429,27 +3321,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Y-Wing_Squadron,
-				Rebel_X-Wing_Squadron,
-				X-Wing_Squadron2,
-				A_Wing_Squadron2,
-				B-Wing_Squadron,
-
-				Corellian_Corvette,
-				Marauder_Corvette,
-				Corellian_Gunboat,
-
-				CC-7700E_Frigate,
-				MC_40a,
-				Liberator_Carrier,
-				MC30_Frigate,
-				Alliance_Assault_Frigate2,
-
-				Calamari_Cruiser,
-				MC80A,
-				Calamari_Cruiser_HO_Type,
-				MC_80b,
-				Dauntless_Cruiser
+				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4E3</Prev_Level_Base>
 		<Next_Level_Base />
@@ -3461,14 +3333,6 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				Assault_Gunboat_Squadron,
-
-				Empire_Corellian_Gunboat,
-				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Two_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3480,18 +3344,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				Assault_Gunboat_Squadron,
-
-				Empire_Corellian_Gunboat,
-				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Nebulon_B2_Frigate_Imp,
-				Strike_Cruiser,
-				Escort_Carrier,
-				
+				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Three_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_1E3</Prev_Level_Base>
@@ -3502,23 +3355,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				Assault_Gunboat_Squadron,
-
-				Empire_Corellian_Gunboat,
-				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
-				Interdictor_Cruiser,
-				Nebulon_B2_Frigate_Imp,
-				Strike_Cruiser,
-				Vindicator_Cruiser,
-				Escort_Carrier,
-				Victory_Destroyer,
-				Victory_2_Destroyer,
-				
+				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Four_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_2E3</Prev_Level_Base>
@@ -3529,30 +3366,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				Assault_Gunboat_Squadron,
-
-				Empire_Corellian_Gunboat,
-				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
-				Interdictor_Cruiser,
-				Nebulon_B2_Frigate_Imp,
-				Strike_Cruiser,
-				Vindicator_Cruiser,
-				Escort_Carrier,
-				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Star_Destroyer_2,
-				Dominator,
-				Tector,
-
-				Allegiance,
-				Praetor_II,
-				
+				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_3E3</Prev_Level_Base>
@@ -3563,29 +3377,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Avenger_Squadron,
-				Assault_Gunboat_Squadron,
-
-				Empire_Corellian_Gunboat,
-				Lancer_Frigate,
-				Tartan_Patrol_Cruiser,
-				Heavy_Carrack,
-
-				Dreadnought_Imp,
-				Interdictor_Cruiser,
-				Nebulon_B2_Frigate_Imp,
-				Strike_Cruiser,
-				Vindicator_Cruiser,
-				Escort_Carrier,
-				Victory_Destroyer,
-				Victory_2_Destroyer,
-
-				Star_Destroyer_2,
-				Dominator,
-				Tector,
-
-				Allegiance,
-				Praetor_II
+				ES_Hypervelocity_Gun_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_4E3</Prev_Level_Base>
 		<Next_Level_Base />

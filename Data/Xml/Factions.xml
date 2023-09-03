@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <Factions>
-
 	<Faction Name="Rebel">
-
 		<Is_Debug_Switchable_To> Yes </Is_Debug_Switchable_To>
 		<Create_Player_In_Multiplayer_Games> No </Create_Player_In_Multiplayer_Games>
 
@@ -51,7 +49,7 @@
 
 		<!-- Unlike the Empire, the Rebel's tech levels go from 0-3 instead of 1-4. It needs to be adjusted
 		before displaying it to the player otherwise it won't match the tech tree we show in-game. -->
-		<Displayed_Tech_Level_Adjustment> +1 </Displayed_Tech_Level_Adjustment>
+		<!-- <Displayed_Tech_Level_Adjustment> +1 </Displayed_Tech_Level_Adjustment> -->
 		
 		<Infantry_Icon_Name>i_button_rebel_soldier.tga</Infantry_Icon_Name>
 		<Vehicle_Icon_Name>i_r_vehicle.tga</Vehicle_Icon_Name>
@@ -127,6 +125,7 @@
 			K_Wing_Squadron,
 			
 			MC40a_Cruiser,
+			Neutron_Star_Cruiser,
 			Liberator_Cruiser,
 			Calamari_Cruiser,
 			MC80A_Cruiser,
@@ -171,10 +170,8 @@
 
 		<Debug_Ground_Structures>
 			R_Ground_Barracks,
-			R_Ground_Officer_Academy,
-			Power_Generator_R,
-			Communications_Array_R,
-			Ground_Cantina_R
+			R_Ground_Light_Vehicle_Factory,
+			Communications_Array_R
 		</Debug_Ground_Structures>
 
         <Superweapon_Win_Movie>Rebel_Win_Deathstar</Superweapon_Win_Movie>
@@ -364,7 +361,7 @@
         <SFXEvent_Unit_Type_Spotted>Urai_Fen,		                    Unit_Announce_Urai_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Silri,		                        Unit_Announce_Silri_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Grand_Admiral_Thrawn,		        Unit_Announce_Thrawn_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+        <SFXEvent_Unit_Type_Spotted>Executor_Dreadnought,		Unit_Announce_Executor_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Luke_Skywalker_Jedi,		        Unit_Announce_Luke_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Gargantuan_Battle_Platform,		    Unit_Announce_Gargantuan_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -776,7 +773,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts, CIS</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -789,7 +786,7 @@
 
 		<Multiplayer_Campaign_Heroes>
 			Mon_Mothma_Team,
-			Bail_Organa_Team,
+			<!--Bail_Organa_Team,
 			Garm_Bel_Iblis_Team,
 			Carlist_Rieekan_Team,
 			Walex_Blissex_Team,
@@ -798,7 +795,7 @@
 			Leia_Organa_Team,
 			Pharl_McQuarrie_Team,
 			Ral_Rai_Muvunc_Team,
-			Airen_Cracken_Team,
+			Airen_Cracken_Team,-->
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_REBEL.TGA</Multiplayer_Map_Preview_Icon>
@@ -931,10 +928,10 @@
 		<Bombardment_Required_Orbital_Ships>
 			Carrack_Cruiser,
 			Strike_Cruiser,
-			Escort_Carrier,
-			Gladiator_Cruiser,
 			Dreadnought_Cruiser,
+			Gladiator_Cruiser,
 			Acclamator_Assault_Ship,
+			Interdictor_Cruiser,
 			Vindicator_Cruiser,
 			Enforcer_Cruiser,
 			Victory_Destroyer,
@@ -946,58 +943,7 @@
 			Tector_Destroyer,
 			Allegiance_Battlecruiser,
 			Praetor_II_Battlecruiser,
-			Executor_Dreadnought,
-						
-			Exactor_SD,
-			Immortal_SD,
-			Executor_SSD,
-			Executrix_SD,
-			Warlord_SD,
-			Oriflamme_SD,
-			Arlionne_SD,
-			Demolisher_SD,
-			Gorgon_SD,
-			Knight_Hammer_SSD,
-			Steel_Talon_SD,
-			Empirical,
-			Arc_Hammer,
-			Singularity_SD,
-			Meniscus_SD,
-			Recondite_SD,
-			Rampage_SD,
-			Aggressor_SSD,
-			Steadfast_SD,
-			Impenetrable_SD,
-			Emperors_Disciple_SD,
-			Fi_SD,
-			Magic_Dragon_SD,
-			Eleemosynary_SD,
-			Whelm_SSD,
-			Avatar_SD,
-			Glory_SD,
-			Admonitor_Star_Destroyer,
-			Iron_Fist_SD,
-			Iron_Fist_SSD,
-			Helmsman_SBC,
-			Accuser_SD,
-			Ilthmars_Fist_SBC,
-			Thalassa_SBC,
-			13X_SD,
-			Reaper_SSD,
-			Chimaera_SD,
-			Chimaera_SD_SC,
-			Reaper_Pellaeon_SSD,
-			Megador_SSD,
-			Agonizer_SD,
-			Dominion_SSD,
-			Reckoning_SD,
-			Intimidator_SSD,
-			Relentless_SD_Disra,
-			Relentless_SD_Sarreti,
-			Stalwart_SD,
-			Erinnic_SD,
-			
-			Invincible_SD
+			Executor_Dreadnought
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 4 </Bombardment_Number_Of_Salvos>
@@ -1030,9 +976,8 @@
 
 		<Debug_Ground_Structures>
 			E_Ground_Barracks,
-			E_Ground_Officer_Academy,
-			E_Ground_Light_Vehicle_Factory
-			Power_Generator_E,
+			Imperial_Command_Center,
+			E_Ground_Light_Vehicle_Factory,
 			Communications_Array_E
 		</Debug_Ground_Structures>
 
@@ -1224,7 +1169,7 @@
         <SFXEvent_Unit_Type_Spotted>Urai_Fen,		                    Unit_Announce_Urai_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Silri,		                        Unit_Announce_Silri_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Grand_Admiral_Thrawn,		        Unit_Announce_Thrawn_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
+        <SFXEvent_Unit_Type_Spotted>Executor_Dreadnought,		Unit_Announce_Executor_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Luke_Skywalker_Jedi,		        Unit_Announce_Luke_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Gargantuan_Battle_Platform,		    Unit_Announce_Gargantuan_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
@@ -1610,7 +1555,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts, CIS</Enemies>
+		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1622,17 +1567,18 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 		
 		<Multiplayer_Campaign_Heroes>
-			Emperor_Palpatine_Team,
+			Sate_Pestage_Team
+			<!--Emperor_Palpatine_Team,
 			Boba_Fett_Team,
 			General_Veers_Team,
-			Accuser_SD
+			Accuser_SD-->
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_EMPIRE.TGA</Multiplayer_Map_Preview_Icon>
 
         <Tech_Level_Icon_Name> i_button_e_tech_upgrade_ </Tech_Level_Icon_Name>
 
-      <Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
+		<Alternate_Icon_Prefix> e_ </Alternate_Icon_Prefix>
 
 		<Automatic_Planetary_Corruption_Upgrade_Type> 
 			Generic_Intimidation_Corruption_Upgrade,

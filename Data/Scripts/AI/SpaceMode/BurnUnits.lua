@@ -82,9 +82,9 @@ function MainForce_Thread()
 		-- Use all idle units, mapwide
 		MainForce.Collect_All_Free_Units()	
 	
-		target = Find_Nearest(MainForce, "Interdictor", PlayerObject, false)
+		target = Find_Nearest(MainForce, "IsInterdictor", PlayerObject, false)
 		if target == nil then
-			target = Find_Nearest(MainForce, "Structure | Capital | Super", PlayerObject, false)
+			target = Find_Nearest(MainForce, "SpaceStructure | Capital | Dreadnought", PlayerObject, false)
 			if target == nil then
 				target = Find_Nearest(MainForce, PlayerObject, false)
 			end	

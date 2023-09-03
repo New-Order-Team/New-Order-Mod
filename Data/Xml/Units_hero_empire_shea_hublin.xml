@@ -32,7 +32,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
 
-		<CategoryMask> Fighter | SpaceHero | AntiFighter | AntiBomber </CategoryMask>
+		<CategoryMask> Fighter | SpaceHero | AntiFighter </CategoryMask>
 		<AI_Combat_Power>330</AI_Combat_Power>
 	</UniqueUnit>
 	

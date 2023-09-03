@@ -38,15 +38,16 @@
 			*
 			(
 				(Variable_Self.TechLevel >= 3) *
-				Variable_Self.BudgetFractionToBuild { Parameter_Type = "Executor_Super_Star_Destroyer" }
+				Variable_Self.BudgetFractionToBuild { Parameter_Type = "Executor_Dreadnought" }
 			)
 			+
 			Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
 			*
-			(
+			0
+			<!--(
 				(Variable_Self.TechLevel >= 5) *
 				Variable_Self.BudgetFractionToBuild { Parameter_Type = "Viscount_Star_Defender" }
-			)
+			)-->
 		)
 	</GenericMajorItemBudgetAllocation>
 

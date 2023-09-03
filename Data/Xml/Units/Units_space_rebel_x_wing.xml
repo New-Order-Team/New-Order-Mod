@@ -3,7 +3,7 @@
 	<SpaceUnit Name="X_Wing">
 		
 		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_X_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_X_WING_DESC TEXT_EMPTY TEXT_UNIT_X_WING_INFO_1 TEXT_UNIT_X_WING_INFO_2 TEXT_UNIT_X_WING_INFO_3 TEXT_UNIT_X_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_X_WING_W_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		
@@ -14,7 +14,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		
-		<Select_Box_Scale>30.0</Select_Box_Scale>
+		<Select_Box_Scale>18.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Rebel</Affiliation>
@@ -28,7 +28,8 @@
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>29.0</AI_Combat_Power>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.01</Maintenance_Cost>
@@ -66,6 +67,7 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -122,16 +124,23 @@
 		<Death_Explosions>Fighter_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 	<Squadron Name="X_Wing_Squadron">
 		
 		<Text_ID>TEXT_UNIT_X_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_X_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_X_WING_DESC TEXT_EMPTY TEXT_UNIT_X_WING_INFO_1 TEXT_UNIT_X_WING_INFO_2 TEXT_UNIT_X_WING_INFO_3 TEXT_UNIT_X_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_X_WING_W_1</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		
 		<Affiliation>Rebel</Affiliation>
+		<CategoryMask>Fighter | AntiFighter | AntiFrigate | AntiCapital</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
@@ -139,14 +148,14 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>390.0</Build_Cost_Credits>
+		<Build_Time_Seconds>6.0</Build_Time_Seconds>
+		<Build_Cost_Credits>190.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>390.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>390.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>390.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>190.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>190.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>190.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>312.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -181,9 +190,70 @@
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>390.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>190.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Create_Team_Type>X_Wing_Container</Create_Team_Type>
+
 	</Squadron>
+	
+	<Container Name="X_Wing_Container">
+		
+		<Text_ID>TEXT_UNIT_X_WING_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_UNIT_X_WING_DESC TEXT_EMPTY TEXT_UNIT_X_WING_INFO_1 TEXT_UNIT_X_WING_INFO_2 TEXT_UNIT_X_WING_INFO_3 TEXT_UNIT_X_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_X_WING_W_1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		
+		<Affiliation>Rebel</Affiliation>
+		<CategoryMask>Fighter | AntiFighter | AntiFrigate | AntiCapital</CategoryMask>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>No</Is_Bomber>
+		
+		<Tech_Level>99</Tech_Level>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		
+		<Min_Speed>1</Min_Speed>
+		<Max_Speed>2.71</Max_Speed>
+		
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI,
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN,
+		</SpaceBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Torpedo_Strike_X_Wing</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<Projectile_Types_Override>Proj_Space_Torpedo_Tiny_PTL_600</Projectile_Types_Override>
+				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_X_Wing">
+				<Activation_Style>User_Input</Activation_Style>
+				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Structure</Applicable_Unit_Categories>
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+	</Container>
 	
 </X_Wing_Data>

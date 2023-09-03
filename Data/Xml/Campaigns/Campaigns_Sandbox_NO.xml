@@ -184,8 +184,8 @@
 
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 
-		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
-		<Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
+		<Story_Name>Rebel, Campaigns\Sandbox_GFFA\Story_Plots_Sandbox_GFFA_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Campaigns\Sandbox_GFFA\Story_Plots_Sandbox_GFFA_Empire.xml</Story_Name>
 
 		<AI_Player_Control>Rebel, BasicRebel</AI_Player_Control>
 
@@ -204,12 +204,12 @@
 		</AI_Victory_Conditions>
 
 		<Starting_Credits> Rebel,  50000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
 
 		<Starting_Credits> Empire,  50000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 4 </Max_Tech_Level>
 
 		<Starting_Forces>Rebel, Aargau_NO, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>
@@ -1190,8 +1190,8 @@
 
 		<Starting_Active_Player>Rebel</Starting_Active_Player>
 
-		<Story_Name>Rebel, Story_Plots_Sandbox_56_Rebel.xml</Story_Name>
-		<Story_Name>Empire, Story_Plots_Sandbox_56_Empire.xml</Story_Name>
+		<Story_Name>Rebel, Campaigns\Sandbox_GFFA\Story_Plots_Sandbox_GFFA_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Campaigns\Sandbox_GFFA\Story_Plots_Sandbox_GFFA_Empire.xml</Story_Name>
 
 		<AI_Player_Control>Empire, BasicEmpire</AI_Player_Control>
 
@@ -1210,12 +1210,12 @@
 		</AI_Victory_Conditions>
 
 		<Starting_Credits> Rebel,  50000 </Starting_Credits>
-		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
-		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 3 </Max_Tech_Level>
 
 		<Starting_Credits> Empire,  50000 </Starting_Credits>
-		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
-		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 4 </Max_Tech_Level>
 
 		<Starting_Forces>Rebel, Aargau_NO, Rebel_Star_Base_1</Starting_Forces>
 		<Starting_Forces>Rebel, Aargau_NO, Z95_Headhunter_Squadron</Starting_Forces>

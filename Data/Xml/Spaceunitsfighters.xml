@@ -5,6 +5,10 @@
 		<Variant_Of_Existing_Type>Z_95</Variant_Of_Existing_Type>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Z-95_Headhunter_Rebel">
+		<Variant_Of_Existing_Type>Z_95</Variant_Of_Existing_Type>
+	</SpaceUnit>
+
 	<SpaceUnit Name="A-Wing">
 		<Variant_Of_Existing_Type>A_Wing</Variant_Of_Existing_Type>
 	</SpaceUnit>
@@ -125,7 +129,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> </SFXEvent_Engine_Cinematic_Focus_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Icon_Name>i_button_tie_scout.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -300,7 +304,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
 
-		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<CategoryMask> Fighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>

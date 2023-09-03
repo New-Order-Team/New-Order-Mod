@@ -3,14 +3,14 @@
 	<SpaceUnit Name="Mediator_Battlecruiser">
 		
 		<Text_ID>TEXT_UNIT_MEDIATOR_BATTLECRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MEDIATOR_BATTLECRUISER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_MEDIATOR_BATTLECRUISER_DESC TEXT_EMPTY TEXT_UNIT_MEDIATOR_BATTLECRUISER_INFO_1 TEXT_UNIT_MEDIATOR_BATTLECRUISER_INFO_2 TEXT_UNIT_MEDIATOR_BATTLECRUISER_INFO_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mediator_battlecruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>rv_mediator_battlecruiser.ALO</Space_Model_Name>
 		<Scale_Factor>0.94</Scale_Factor>
 		
-		<Select_Box_Scale>4500.0</Select_Box_Scale>
+		<Select_Box_Scale>2700.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -23,14 +23,22 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
+		<Build_Time_Seconds>85.0</Build_Time_Seconds>
+		<Build_Cost_Credits>13850.0</Build_Cost_Credits>
+		<Population_Value>60.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, MonCalimari</Required_Planets>
+		<AI_Combat_Power>13850.0</AI_Combat_Power>
+		<Score_Cost_Credits>1199.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>13850.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>13850.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
+		<Autoresolve_Health>270000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>5</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -39,6 +47,7 @@
 		<MovementClass>Space</MovementClass>
 		<Mass>0.999</Mass>
 		<Max_Thrust>0.25</Max_Thrust>
+		<Max_Speed>1.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.5</Min_Speed_Fraction_For_Turn>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
@@ -47,10 +56,30 @@
 		<OverrideDeceleration>0.02</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
+		<Armor_Type>Armor_Space_A13</Armor_Type>
+		<Tactical_Health>270000.0</Tactical_Health>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Points>330000.0</Shield_Points>
+		<Shield_Refresh_Rate>13750.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>36000.0</Energy_Refresh_Rate>
 		
 		<Behavior>DUMMY_STARSHIP</Behavior>
+		<SpaceBehavior>
+			SIMPLE_SPACE_LOCOMOTOR,
+			ION_STUN_EFFECT,
+			REVEAL,
+			UNIT_AI,
+			ASTEROID_FIELD_DAMAGE,
+			SELECTABLE,
+			TARGETING,
+			POWERED,
+			HIDE_WHEN_FOGGED,
+			DAMAGE_TRACKING,
+			NEBULA,
+			SHIELDED,
+			SPAWN_SQUADRON,
+		</SpaceBehavior>
 		
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
@@ -137,7 +166,20 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
+		<Tactical_Build_Cost_Multiplayer>13850.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>85.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>1</Expiration_Seconds>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Mediator_Battlecruiser_Data>

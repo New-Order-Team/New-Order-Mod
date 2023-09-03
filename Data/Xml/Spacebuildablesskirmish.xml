@@ -19,8 +19,6 @@
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Sensor,
 				UC_Rebel_Defense_Satellite_Jammer,
-			CIS_Remnants,
-				UC_CIS_Defense_Satellite_Vulture_Pod,
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
@@ -33,9 +31,6 @@
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Sensor,
 				UC_Rebel_Defense_Satellite_Jammer,
-			CIS_Remnants,
-				UC_CIS_Defense_Satellite_Vulture_Pod,
-				
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Text_ID> TEXT_ORBITAL_DEFENSE_SATELLITE </Text_ID>
@@ -45,7 +40,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Neutral, Rebel, Empire, CIS_Remnants</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Tactical_Health>1200</Tactical_Health>
 		
@@ -59,7 +54,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Capture_Point_Radius>350</Capture_Point_Radius>
@@ -153,7 +148,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -255,7 +250,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_LASER </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_LASER </MP_Encyclopedia_Text>
@@ -338,7 +333,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -431,7 +426,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_MISSILE </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_MISSILE </MP_Encyclopedia_Text>
@@ -499,7 +494,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1000</Tactical_Health>
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -561,7 +556,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>2500</Shield_Points>
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -648,7 +643,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1500</Tactical_Health>
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -694,7 +689,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>3000</Shield_Points>
 		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
 		<Tactical_Health>1500</Tactical_Health>
@@ -810,7 +805,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1000</Tactical_Health>
 		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
 
@@ -855,7 +850,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>2500</Shield_Points>
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -920,184 +915,10 @@
 
 		</Abilities>
 	</SpaceBuildable>
-	
-	
-	
-<!--  *************************************** -->
-<!--  ***** VULTURE DROID POD SATELLITE ***** -->
-<!--  *************************************** -->
-
-	<SpaceBuildable Name="UC_CIS_Defense_Satellite_Vulture_Pod">
-   		<Text_ID>TEXT_UNIT_SATELLITE_VPOD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_VPOD</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_VPOD</MP_Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SATELLITE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>nv_space_build_center.alo</Space_Model_Name>
-		<Icon_Name>i_button_vpod.tga</Icon_Name>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-
-		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
-
-		<Tactical_Buildable_Constructed> CIS_Defense_Satellite_Vulture_Pod </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 4725 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>4725</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 16 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
-
-		<Affiliation>CIS_Remnants</Affiliation>
-		<Victory_Relevant>No</Victory_Relevant>
-		<Size_Value>30</Size_Value>
-		<GUI_Row> 0 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Tactical_Health>1000</Tactical_Health>
-		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
-
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-				
-		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
-		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-
-		<CategoryMask> Structure </CategoryMask>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-		<Space_Layer> StaticObject </Space_Layer>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
-
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="UC_Rebel_Defense_Satellite_Vulture_Pod">
-		<Variant_Of_Existing_Type>UC_CIS_Defense_Satellite_Vulture_Pod</Variant_Of_Existing_Type>
-
-		<Tactical_Buildable_Constructed> Rebel_Defense_Satellite_Vulture_Pod </Tactical_Buildable_Constructed>
-		<Tactical_Build_Cost_Multiplayer> 4725 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>4725</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 16 </Tactical_Build_Time_Seconds>
-
-		<Affiliation>Rebel</Affiliation>
-		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="CIS_Defense_Satellite_Vulture_Pod">
-   		<Text_ID>TEXT_UNIT_SATELLITE_VPOD</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_VPOD</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_VPOD</MP_Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SATELLITE</Encyclopedia_Unit_Class>
-
-		<Space_Model_Name>nv_space_build_center.alo</Space_Model_Name>
-		<Icon_Name>i_button_vpod.tga</Icon_Name>
-		<Select_Box_Scale>330</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<GUI_Bracket_Size>1</GUI_Bracket_Size>
-		<GUI_Row> 0 </GUI_Row>
-		<Space_FOW_Reveal_Range>2200.0</Space_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
-
-		<SpaceBehavior> SELF_DESTRUCT, TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL, SPAWN_SQUADRON, ABILITY_COUNTDOWN </SpaceBehavior>
-
-		<Affiliation>CIS_Remnants</Affiliation>
-		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
-		<Shield_Points>2500</Shield_Points>
-		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
-		<Tactical_Health>1500</Tactical_Health>
-		<Energy_Capacity>10000</Energy_Capacity>
-		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
-		<Damage>1</Damage>
-
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Vulture_Droid_Squadron, 60</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-
-		<HardPoints>
-			HP_VULTURE_POD_00
-		</HardPoints>
-
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-
-		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
-		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		
-		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
-		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
-		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-		
-		<CategoryMask> Structure </CategoryMask>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Score_Cost_Credits> 4725 </Score_Cost_Credits>
-		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-		<Space_Layer> StaticObject </Space_Layer>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
-		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
-		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
-		<Victory_Relevant>No</Victory_Relevant>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SELF_DESTRUCT_DESCRIPTION_SAT</Alternate_Description_Text>
-				<Expiration_Seconds>1.0</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds> 
-				<Spawned_Object_Type> Satellite_Self_Destruct_Blast </Spawned_Object_Type>
-				<GUI_Activated_Ability_Name>Satellite_Self_Destruct</GUI_Activated_Ability_Name>
-				<Stop_When_Activated>No</Stop_When_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</SpaceBuildable>
-
-	<SpaceBuildable Name="Rebel_Defense_Satellite_Vulture_Pod">
-		<Variant_Of_Existing_Type>CIS_Defense_Satellite_Vulture_Pod</Variant_Of_Existing_Type>
-		<Affiliation>Rebel</Affiliation>
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 60</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>2.5</Spawned_Squadron_Delay_Seconds>
-	</SpaceBuildable>
-
-
-
-
-
-
-
 
 <!--  ******************************* -->
 <!--  ***** UNUSED IN NEW ORDER ***** -->
 <!--  ******************************* -->
-	
-
-
-
-
 	<SpaceBuildable Name="Underworld_Defense_Satellite_Plasma">
 		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_PLASMA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_DEFENSE_SATELLITE_PLASMA </Encyclopedia_Text>
@@ -1117,7 +938,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>500</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1200</Tactical_Health>
@@ -1202,7 +1023,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1273,7 +1094,7 @@
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>800</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1400</Tactical_Health>
@@ -1366,7 +1187,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>700</Shield_Points>
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Tactical_Health>1100</Tactical_Health>
@@ -1428,7 +1249,7 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+				<!-- <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name> -->
 			</Force_Healing_Ability>
 		</Abilities>	
 
@@ -1470,7 +1291,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -1555,7 +1376,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
@@ -1608,7 +1429,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>250.0</Space_FOW_Reveal_Range>
 
@@ -1657,7 +1478,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>600</Shield_Points>
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Tactical_Health>1000</Tactical_Health>
@@ -1833,7 +1654,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 				
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -1904,7 +1725,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1990,7 +1811,7 @@
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		
-		<Armor_Type> Armor_Space </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 

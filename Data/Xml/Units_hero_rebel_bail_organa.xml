@@ -136,7 +136,7 @@
 		<Icon_Name>i_button_bail_organa.tga</Icon_Name>
 		<Population_Value>1</Population_Value>
 		<Armor_Type> Armor_Hero_Corvette </Armor_Type>
-		<CategoryMask> Corvette | AntiFighter | AntiBomber | AntiCorvette | SpaceHero </CategoryMask>
+		<CategoryMask> Corvette | AntiFighter | AntiCorvette | SpaceHero </CategoryMask>
 		
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED, TRANSPORT</Behavior>
 		<Landing_Transport_Variant>Alliance_Shuttle_Landing</Landing_Transport_Variant>

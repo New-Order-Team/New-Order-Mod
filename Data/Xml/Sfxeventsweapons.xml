@@ -211,6 +211,28 @@
 			GUN_Turbo_2.wav
 		</Samples>
 	</SFXEvent>
+
+	<SFXEvent Name="Unit_Ion_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+			GUN_Ion_1.wav
+			Gun_ion_2.wav
+		</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Ion_Huge_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+			Gun_ion_cannon_1.wav
+		</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Empire_Ship_Laser_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+			GUN_TIE_Crawler.wav
+		</Samples>        
+	</SFXEvent>
 	
 <!-- ######################## -->
 <!-- # New Order events END # -->
@@ -219,11 +241,6 @@
 		 <SFXEvent Name="Unit_Rebel_Ship_Laser_Fire">
 					<Use_Preset>Preset_GUNV</Use_Preset>
 					<Samples>GUN_X_Wing_1.wav</Samples>
-		 </SFXEvent>
-	
-		 <SFXEvent Name="Unit_Empire_Ship_Laser_Fire">
-				 <Use_Preset>Preset_GUNS</Use_Preset>
-				 <Samples>GUN_TIE_Fighter_1.wav</Samples>        
 		 </SFXEvent>
 
 		 <SFXEvent Name="Unit_Pirate_Ship_Laser_Fire">
@@ -261,11 +278,6 @@
 				 <Samples>GUN_Repulsor_1.wav</Samples>
 				 <Min_Volume>60</Min_Volume>
 			    <Max_Volume>60</Max_Volume>
-		  </SFXEvent>
-
-		 <SFXEvent Name="Unit_Ion_Fire">
-				 <Use_Preset>Preset_GUNS</Use_Preset>
-				 <Samples>GUN_Ion_1.wav</Samples>
 		  </SFXEvent>
 	
 

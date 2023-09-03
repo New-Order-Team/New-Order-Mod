@@ -13,10 +13,10 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"
-		,"Corvette | Frigate | Cruiser | Capital = 100%"
+		,"Corvette | Frigate | Capital = 100%"
 	}
 	}
-	RequiredCategories = {"AntiFighter", "Cruiser | Capital"}
+	RequiredCategories = {"AntiFighter", "Frigate | Capital"}
 	
 	LandSecured = false
 	end_blockade = 0

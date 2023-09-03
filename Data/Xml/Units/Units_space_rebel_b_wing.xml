@@ -3,7 +3,7 @@
 	<SpaceUnit Name="B_Wing">
 		
 		<Text_ID>TEXT_UNIT_B_WING</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_B_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_B_WING_DESC TEXT_EMPTY TEXT_UNIT_B_WING_INFO_1 TEXT_UNIT_B_WING_INFO_2 TEXT_UNIT_B_WING_INFO_3 TEXT_UNIT_B_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_B_WING_W_1 TEXT_UNIT_B_WING_W_2 TEXT_UNIT_B_WING_W_3 TEXT_UNIT_B_WING_W_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_b_wing.tga</Icon_Name>
 		
@@ -14,7 +14,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		
-		<Select_Box_Scale>30.0</Select_Box_Scale>
+		<Select_Box_Scale>18.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Rebel</Affiliation>
@@ -28,7 +28,8 @@
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>312.0</AI_Combat_Power>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>1.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.01</Maintenance_Cost>
@@ -39,7 +40,7 @@
 		<Mass>0.985</Mass>
 		<Max_Thrust>1</Max_Thrust>
 		<Min_Speed>1</Min_Speed>
-		<Max_Speed>2.43</Max_Speed>
+		<Max_Speed>2.71</Max_Speed>
 		<Max_Lift>3</Max_Lift>
 		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
@@ -70,7 +71,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>640.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
@@ -101,6 +102,11 @@
 		<SFXEvent_Move_Into_Nebula>Unit_Nebula_B_Wing</SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_B_Wing</SFXEvent_Move_Into_Asteroid_Field>
 		
+		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Y_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
 		<Land_FOW_Reveal_Range>130</Land_FOW_Reveal_Range>
@@ -118,6 +124,7 @@
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -127,11 +134,12 @@
 	<Squadron Name="B_Wing_Squadron">
 		
 		<Text_ID>TEXT_UNIT_B_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_B_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_B_WING_DESC TEXT_EMPTY TEXT_UNIT_B_WING_INFO_1 TEXT_UNIT_B_WING_INFO_2 TEXT_UNIT_B_WING_INFO_3 TEXT_UNIT_B_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_B_WING_W_1 TEXT_UNIT_B_WING_W_2 TEXT_UNIT_B_WING_W_3 TEXT_UNIT_B_WING_W_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_b_wing.tga</Icon_Name>
 		
 		<Affiliation>Rebel</Affiliation>
+		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
@@ -139,14 +147,14 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>750.0</Build_Cost_Credits>
+		<Build_Time_Seconds>7.0</Build_Time_Seconds>
+		<Build_Cost_Credits>320.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>750.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>750.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>750.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>320.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>320.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>320.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>288.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -181,8 +189,8 @@
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>750.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>320.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

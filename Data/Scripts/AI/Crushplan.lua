@@ -14,18 +14,19 @@ function Definitions()
 	{
 		"SpaceForce"	
         ,"MinimumTotalForce = 30000"
-		,"Corvette | Frigate | Cruiser | Capital | Dreadnought = 100%"
+		,"Corvette | Frigate | Dreadnought = 100%"
 		,"AntiFighter = 2,20"
+		,"AntiCapital = 1,10"
 		,"SpaceHero = 0,2"
 	},
 	{
 		"GroundForce"
 		,"MinimumTotalForce = 2000"
-		,"Infantry | Vehicle | Air = 100%"
+		,"Infantry | Vehicle | HeavyVehicle | Air = 100%"
 		,"LandHero = 0,2"
 	}
 	}
-	RequiredCategories = { "Infantry", "Vehicle", "AntiFighter", "Cruiser", "Capital | Dreadnought" }		--Must have at least one ground unit, also make sure space force is reasonable
+	RequiredCategories = { "Infantry", "Vehicle | HeavyVehicle", "AntiFighter", "Frigate", "Capital | Dreadnought" }		--Must have at least one ground unit, also make sure space force is reasonable
 
 	PerFailureContrastAdjust = 0.5
 	

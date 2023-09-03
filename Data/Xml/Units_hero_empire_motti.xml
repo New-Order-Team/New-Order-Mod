@@ -31,7 +31,7 @@
 			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam">
 	            <Activation_Style> User_Input </Activation_Style>
 	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Moldy_Crow</Applicable_Unit_Types>
 				<Excluded_Unit_Types>
 					Buzz_Droids
 				</Excluded_Unit_Types>

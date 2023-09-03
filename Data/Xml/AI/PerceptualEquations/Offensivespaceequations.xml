@@ -149,6 +149,23 @@
 		)
 	</Allowed_As_Defender_Space>
 
+	
+	<Allowed_As_Defender_Space_Untargeted>
+		(Game.IsCampaignGame == 0)
+		+
+		(Game.IsCampaignGame == 1)
+		*
+		(
+			(1 - Variable_Self.IsDefender)
+			+
+			(Variable_Self.IsDefender) * (Variable_Self.BaseLevel == 0.0)
+			+
+			(Variable_Self.IsDefender) * (3 > Variable_Self.BaseLevel) * (Game.Age > (120 # 240)) 
+			* 
+			(Function_Enemy_Outnumbered.Evaluate > 0)
+		)
+	</Allowed_As_Defender_Space_Untargeted>
+
 
 	<!-- unused and doesn't work 
 	<Offense_Delay_Space_Expired>

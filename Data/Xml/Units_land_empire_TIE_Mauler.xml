@@ -76,7 +76,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<Projectile_Types>Proj_Land_Blaster_TIE</Projectile_Types>
+		<Projectile_Types>Proj_Land_Blaster_Century</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.8</Projectile_Fire_Recharge_Seconds>
@@ -161,7 +161,6 @@
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
-				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -183,7 +182,6 @@
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
-				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>  
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>

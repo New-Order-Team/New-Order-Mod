@@ -1,12 +1,19 @@
 <?xml version="1.0"?>
-<Pestage_Data>
+<Hero_Data>
 
-	<!-- Sate Pestage era I -->
+	<!-- Sate Pestage era I-II (Leader) -->
 	<HeroUnit Name="Sate_Pestage">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_UNIT_HERO_SATE_PESTAGE</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_SATE_PESTAGE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_VIZIER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_SATE_PESTAGE</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_SATE_PESTAGE_DESC
+			TEXT_TRAITS
+			TEXT_HERO_SATE_PESTAGE_LEADER_TRAIT
+			TEXT_HERO_SATE_PESTAGE_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>
+			TEXT_ENCYCLOPEDIA_HERO_CLASS_POLITICIAN
+		</Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_sate_pestage.tga</Icon_Name>
 		<Mass>1.0</Mass>
@@ -39,19 +46,19 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes">
-			<Reduce_Production_Time_Ability Name="Pestage_Time_Reduction">
+			<Reduce_Production_Time_Ability Name="Sate_Pestage_Time_Reduction">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types />
-				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
-				<Stacking_Category>2</Stacking_Category>
-				<Galaxy_Wide> No </Galaxy_Wide>
+				<Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+				<Galaxy_Wide>Yes</Galaxy_Wide>
 			</Reduce_Production_Time_Ability>
-			<Planet_Income_Bonus_Ability Name="Pestage_Income_Bonus">
-				<Specific_Mod_Source_Text>TEXT_ECONOMY_HERO</Specific_Mod_Source_Text>
+			<Planet_Income_Bonus_Ability Name="Sate_Pestage_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_LEADER</Specific_Mod_Source_Text>
 				<!-- 20% bonus to base planetary income -->
-				<Percentage_Income_Modifier>0.2</Percentage_Income_Modifier>
+				<Percentage_Income_Modifier>0.05</Percentage_Income_Modifier>
 				<!-- plus an absolute 0 credits to planetary income -->
 				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
 				<Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
@@ -59,11 +66,18 @@
 		</Abilities>
 	</HeroUnit>
 	
-	<HeroCompany Name="Emperor_Palpatine_Team">
+	<HeroCompany Name="Sate_Pestage_Team">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>TEXT_UNIT_HERO_SATE_PESTAGE</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SATE_PESTAGE</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_VIZIER </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_HERO_SATE_PESTAGE</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_HERO_SATE_PESTAGE_DESC
+			TEXT_TRAITS
+			TEXT_HERO_SATE_PESTAGE_LEADER_TRAIT
+			TEXT_HERO_SATE_PESTAGE_TRAIT_1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>
+			TEXT_ENCYCLOPEDIA_HERO_CLASS_POLITICIAN
+		</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_sate_pestage.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Available_In_Skirmish>yes</Available_In_Skirmish>
@@ -90,4 +104,4 @@
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
 	</HeroCompany>
 
-</Pestage_Data>
+</Hero_Data>

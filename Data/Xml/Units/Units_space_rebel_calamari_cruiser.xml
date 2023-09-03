@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Calamari_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_CALAMARI_CRUISER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_CALAMARI_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_CALAMARI_CRUISER_INFO_1 TEXT_UNIT_CALAMARI_CRUISER_INFO_2 TEXT_UNIT_CALAMARI_CRUISER_INFO_3 TEXT_UNIT_CALAMARI_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_CALAMARI_CRUISER_W_1 TEXT_UNIT_CALAMARI_CRUISER_W_2 TEXT_UNIT_CALAMARI_CRUISER_W_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_calamari_cruiser.tga</Icon_Name>
 		
@@ -11,7 +11,7 @@
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		
-		<Select_Box_Scale>1500.0</Select_Box_Scale>
+		<Select_Box_Scale>900.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -27,20 +27,19 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>35.0</Build_Time_Seconds>
-		<Build_Cost_Credits>5280.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>33.0</Build_Time_Seconds>
+		<Build_Cost_Credits>4900.0</Build_Cost_Credits>
+		<Population_Value>12.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, Lantilles, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>5280.0</AI_Combat_Power>
-		<Score_Cost_Credits>5280.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>5280.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>5280.0</Piracy_Value_Credits>
+		<AI_Combat_Power>4900.0</AI_Combat_Power>
+		<Score_Cost_Credits>369.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>4900.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>4900.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>52470.0</Autoresolve_Health>
+		<Autoresolve_Health>56000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>1</Maintenance_Cost>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -58,11 +57,11 @@
 		<OverrideDeceleration>0.04</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A9</Armor_Type>
-		<Tactical_Health>52470.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A8</Armor_Type>
+		<Tactical_Health>56000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>48420.0</Shield_Points>
-		<Shield_Refresh_Rate>2018.0</Shield_Refresh_Rate>
+		<Shield_Points>64250.0</Shield_Points>
+		<Shield_Refresh_Rate>2677.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -83,7 +82,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1730.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -191,9 +190,20 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>5280.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>4900.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>33.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>1</Expiration_Seconds>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Calamari_Cruiser_Data>

@@ -698,7 +698,7 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Affiliation>Neutral</Affiliation>
 		<LandBehavior>UNIT_AI</LandBehavior>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Space_Layer> Land </Space_Layer>
 		<Avoidance_Disabled> true </Avoidance_Disabled>
 		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>

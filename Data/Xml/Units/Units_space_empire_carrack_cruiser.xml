@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Carrack_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_CARRACK_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_CARRACK_CRUISER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_CARRACK_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_CARRACK_CRUISER_INFO_1 TEXT_UNIT_CARRACK_CRUISER_INFO_2 TEXT_UNIT_CARRACK_CRUISER_INFO_3 TEXT_UNIT_CARRACK_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_CARRACK_CRUISER_W_1 TEXT_UNIT_CARRACK_CRUISER_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_carrack_cruiser.tga</Icon_Name>
 		
@@ -13,7 +13,7 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>440.0</Select_Box_Scale>
+		<Select_Box_Scale>263.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -30,21 +30,20 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>14.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1610.0</Build_Cost_Credits>
+		<Build_Time_Seconds>13.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1400.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes, Bilbringi, Bonadan, Bothawui, Byss, Corellia, Fondor, Kuat, Lantilles, Lianna, Mandalore, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>1610.0</AI_Combat_Power>
-		<Score_Cost_Credits>1610.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1610.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1610.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1400.0</AI_Combat_Power>
+		<Score_Cost_Credits>122.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1400.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1400.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>17220.0</Autoresolve_Health>
+		<Autoresolve_Health>19750.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -53,7 +52,7 @@
 		<MovementClass>Space</MovementClass>
 		<Mass>0.999</Mass>
 		<Max_Thrust>1</Max_Thrust>
-		<Max_Speed>2.14</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.5</Min_Speed_Fraction_For_Turn>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -62,11 +61,11 @@
 		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A7</Armor_Type>
-		<Tactical_Health>17220.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A6</Armor_Type>
+		<Tactical_Health>19750.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>18110.0</Shield_Points>
-		<Shield_Refresh_Rate>755.0</Shield_Refresh_Rate>
+		<Shield_Points>19750.0</Shield_Points>
+		<Shield_Refresh_Rate>823.0</Shield_Refresh_Rate>
 		<Energy_Capacity>4500.0</Energy_Capacity>
 		<Energy_Refresh_Rate>900.0</Energy_Refresh_Rate>
 		
@@ -86,7 +85,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -155,8 +154,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>1610.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>14.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1400.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

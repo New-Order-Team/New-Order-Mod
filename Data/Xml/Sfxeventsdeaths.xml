@@ -37,6 +37,10 @@
 		<Use_Preset>Preset_GUNV</Use_Preset>
 		<Samples>Force_Damage.wav</Samples>
 	</SFXEvent>
+	<SFXEvent Name="SFX_Huge_Damage_Detonation">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>
+	</SFXEvent>
 	
 	<!-- Ion cannons -->
 	<SFXEvent Name="SFX_Ion_Detonation">

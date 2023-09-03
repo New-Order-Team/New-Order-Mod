@@ -34,6 +34,11 @@
 		<AI_Combat_Power>0</AI_Combat_Power>
 	</Projectile>
 	
+	<Projectile Name="Proj_Land_Infantry_R3">
+		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
+		<Projectile_Damage>3</Projectile_Damage>
+		<AI_Combat_Power>3</AI_Combat_Power>
+	</Projectile>
 	<Projectile Name="Proj_Land_Infantry_R5">
 		<Variant_Of_Existing_Type>Proj_Land_Infantry_Blaster_Template</Variant_Of_Existing_Type>
 		<Projectile_Damage>5</Projectile_Damage>

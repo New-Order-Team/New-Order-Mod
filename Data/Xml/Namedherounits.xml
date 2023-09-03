@@ -1531,7 +1531,7 @@
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
-				<Applicable_Unit_Categories>Fighter | Bomber | Corvette | Frigate | Capital | Super</Applicable_Unit_Categories>
+				<!-- <Applicable_Unit_Categories>Fighter | Bomber | Corvette | Frigate | Capital | Super</Applicable_Unit_Categories> -->
 				<Applicable_Unit_Types />
 				<!-- Allied units do double-damage against the unit with the Find Weakness defense reduction effect -->
 				<Damage_Bonus_Percentage>1.0</Damage_Bonus_Percentage>

@@ -3,14 +3,14 @@
 	<SpaceUnit Name="Endurance_Carrier">
 		
 		<Text_ID>TEXT_UNIT_ENDURANCE_CARRIER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_ENDURANCE_CARRIER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ENDURANCE_CARRIER_DESC TEXT_EMPTY TEXT_UNIT_ENDURANCE_CARRIER_INFO_1 TEXT_UNIT_ENDURANCE_CARRIER_INFO_2 TEXT_UNIT_ENDURANCE_CARRIER_INFO_3 TEXT_UNIT_ENDURANCE_CARRIER_INFO_4 TEXT_WEAPONS TEXT_UNIT_ENDURANCE_CARRIER_W_1 TEXT_UNIT_ENDURANCE_CARRIER_W_2 TEXT_UNIT_ENDURANCE_CARRIER_W_3 TEXT_UNIT_ENDURANCE_CARRIER_W_4 TEXT_UNIT_ENDURANCE_CARRIER_W_5</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CARRIER_MEDIUM</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_endurance_carrier.tga</Icon_Name>
 		
 		<Space_Model_Name>endurance-class_fleet_carrier.alo</Space_Model_Name>
 		<Scale_Factor>0.4</Scale_Factor>
 		
-		<Select_Box_Scale>1300.0</Select_Box_Scale>
+		<Select_Box_Scale>780.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -27,20 +27,19 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>27.0</Build_Time_Seconds>
-		<Build_Cost_Credits>3790.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>28.0</Build_Time_Seconds>
+		<Build_Cost_Credits>4010.0</Build_Cost_Credits>
+		<Population_Value>12.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, Lantilles, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>3790.0</AI_Combat_Power>
-		<Score_Cost_Credits>3790.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>3790.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>3790.0</Piracy_Value_Credits>
+		<AI_Combat_Power>4010.0</AI_Combat_Power>
+		<Score_Cost_Credits>347.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>4010.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>4010.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>67570.0</Autoresolve_Health>
+		<Autoresolve_Health>65000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>1</Maintenance_Cost>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -59,10 +58,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A10</Armor_Type>
-		<Tactical_Health>67570.0</Tactical_Health>
+		<Tactical_Health>65000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>45960.0</Shield_Points>
-		<Shield_Refresh_Rate>1915.0</Shield_Refresh_Rate>
+		<Shield_Points>50000.0</Shield_Points>
+		<Shield_Refresh_Rate>2083.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -83,7 +82,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1860.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -139,10 +138,10 @@
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
 		<Starting_Spawned_Units_Tech_4>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>K_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>K_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 		
 		<Formation_Priority>4</Formation_Priority>
@@ -152,8 +151,8 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>3790.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>27.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>4010.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>28.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

@@ -136,20 +136,6 @@
 
 		<Abilities SubObjectList="Yes">
 			<!-- No space specialisation: he is mostly land-oriented hero -->
-			<!--<Combat_Bonus_Ability Name="Carlist_Rieekan_Combat_Bonus">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>All</Unit_Strength_Category>
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender</Excluded_Unit_Types>
-				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.2</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.2</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.05</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>5</Stacking_Category>
-			</Combat_Bonus_Ability>-->
 			<Combat_Bonus_Ability Name="Carlist_Rieekan_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>

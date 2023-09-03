@@ -248,7 +248,7 @@
                 <Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Ranged_Target_Z_Adjust>100.0</Ranged_Target_Z_Adjust>
-		<Death_Explosions>Huge_Explosion_Land2</Death_Explosions>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
 		<Death_Projectiles>Proj_Exploding_Land_Barrel_Detonation</Death_Projectiles>
 		
 		<CategoryMask>Structure</CategoryMask>
@@ -1227,7 +1227,7 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Affiliation>Neutral</Affiliation>
 		<LandBehavior>UNIT_AI</LandBehavior>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Space_Layer> Land </Space_Layer>
 		<Avoidance_Disabled> true </Avoidance_Disabled>
 		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>
@@ -1245,7 +1245,7 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 		<Affiliation>Neutral</Affiliation>
 		<LandBehavior>UNIT_AI</LandBehavior>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Space_Layer> Land </Space_Layer>
 		<Avoidance_Disabled> true </Avoidance_Disabled>
 		<Custom_Hard_XExtent> 60.0 </Custom_Hard_XExtent>

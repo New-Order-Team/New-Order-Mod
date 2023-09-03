@@ -3,6 +3,12 @@
 	
 	<Squadron Name="Z95_Headhunter_Squadron">
 		<Variant_Of_Existing_Type>Z_95_Squadron</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+	</Squadron>
+	
+	<Squadron Name="Z95_Headhunter_Rebel_Squadron">
+		<Variant_Of_Existing_Type>Z_95_Squadron</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
 	</Squadron>
 
 	<Squadron Name="Rebel_X-Wing_Squadron">

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Zsinj_Data>
 	<UniqueUnit Name="Intimidator_SSD">
-		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor_Dreadnought</Variant_Of_Existing_Type>
 		<Tech_Level>5</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 

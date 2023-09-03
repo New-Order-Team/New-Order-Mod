@@ -3,7 +3,7 @@
 
 	<!-- Gial Ackbar era I - Naritus -->
 	<UniqueUnit Name="Naritus">
-		<Variant_Of_Existing_Type>MC80A</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>MC80A_Cruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Tech_Level>99</Tech_Level>
 		
@@ -34,7 +34,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -58,7 +58,7 @@
 	<!-- Gial Ackbar era II - Independence -->
 
 	<UniqueUnit Name="Independence_Ackbar">
-		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Independence_Battlecruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Tech_Level>99</Tech_Level>
 		
@@ -89,7 +89,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -113,7 +113,7 @@
 	<!-- Gial Ackbar era III - Home_One -->
 
 	<UniqueUnit Name="Home_One">
-		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Home_One_Battlecruiser</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -172,7 +172,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -214,7 +214,7 @@
 
 	<!-- Gial Ackbar era IV upgrade - Defiance -->
 	<UniqueUnit Name="Ackbar_Defiance_MC90">
-		<Variant_Of_Existing_Type>Mc90</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>MC90_Cruiser</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -247,7 +247,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -270,7 +270,7 @@
 
 	<!-- Gial Ackbar era V - Galactic Voyager -->
 	<UniqueUnit Name="Ackbar_Galactic_Voyager">
-		<Variant_Of_Existing_Type>Mc90</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>MC90_Cruiser</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -303,7 +303,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -326,7 +326,8 @@
 	
 	<!-- Gial Ackbar era V upgrade - Guardian -->
 	<UniqueUnit Name="Ackbar_Guardian">
-		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer_Rebel</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Executor_Dreadnought</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
@@ -351,7 +352,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.30</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

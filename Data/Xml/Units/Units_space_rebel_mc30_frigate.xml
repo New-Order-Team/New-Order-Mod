@@ -3,8 +3,8 @@
 	<SpaceUnit Name="MC30_Frigate">
 		
 		<Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MC30_FRIGATE_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_MC30_FRIGATE_DESC TEXT_EMPTY TEXT_UNIT_MC30_FRIGATE_INFO_1 TEXT_UNIT_MC30_FRIGATE_INFO_2 TEXT_UNIT_MC30_FRIGATE_INFO_3 TEXT_UNIT_MC30_FRIGATE_INFO_4 TEXT_WEAPONS TEXT_UNIT_MC30_FRIGATE_W_1 TEXT_UNIT_MC30_FRIGATE_W_2 TEXT_UNIT_MC30_FRIGATE_W_3 TEXT_UNIT_MC30_FRIGATE_W_4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc30_frigate.tga</Icon_Name>
 		
 		<Space_Model_Name>RV_MC30CMONCAL.ALO</Space_Model_Name>
@@ -13,12 +13,12 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>475.0</Select_Box_Scale>
+		<Select_Box_Scale>285.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
 		<Affiliation>Rebel</Affiliation>
-		<Ranking_In_Category>16</Ranking_In_Category>
+		<Ranking_In_Category>15</Ranking_In_Category>
 		<CategoryMask>Corvette | AntiCapital</CategoryMask>
 		<Property_Flags>IsKiter</Property_Flags>
 		<Ship_Class>frigate</Ship_Class>
@@ -30,42 +30,42 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>12.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1280.0</Build_Cost_Credits>
+		<Build_Time_Seconds>16.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1950.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>1280.0</AI_Combat_Power>
-		<Score_Cost_Credits>1280.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1280.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1280.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<Score_Cost_Credits>169.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1950.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1950.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>9970.0</Autoresolve_Health>
+		<Autoresolve_Health>19500.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
-		<Maintenance_Cost>0.1</Maintenance_Cost>
-		<Squadron_Capacity>0</Squadron_Capacity>
-		<Transport_Capacity>0</Transport_Capacity>
+		<Maintenance_Cost>0.25</Maintenance_Cost>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
 		
 		<MovementClass>Space</MovementClass>
 		<Mass>0.999</Mass>
-		<Max_Thrust>0.5</Max_Thrust>
-		<Max_Speed>2.14</Max_Speed>
-		<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
+		<Max_Thrust>1</Max_Thrust>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.5</Min_Speed_Fraction_For_Turn>
-		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
-		<OverrideAcceleration>0.04</OverrideAcceleration>
-		<OverrideDeceleration>0.04</OverrideDeceleration>
+		<OverrideAcceleration>0.05</OverrideAcceleration>
+		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A3</Armor_Type>
-		<Tactical_Health>9970.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A4</Armor_Type>
+		<Tactical_Health>19500.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>8830.0</Shield_Points>
-		<Shield_Refresh_Rate>368.0</Shield_Refresh_Rate>
+		<Shield_Points>22250.0</Shield_Points>
+		<Shield_Refresh_Rate>927.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
 		<Energy_Refresh_Rate>550.0</Energy_Refresh_Rate>
 		
@@ -85,8 +85,8 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>500</Guard_Chase_Range>
+		<Targeting_Max_Attack_Distance>1125.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
@@ -107,6 +107,7 @@
 			HP_MC30_Frigate_11,
 			HP_MC30_Frigate_12,
 			HP_MC30_Frigate_13,
+			HP_MC30_Frigate_14,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_MC30_Frigate</SFXEvent_Select>
@@ -149,20 +150,20 @@
 		<SFXEvent_Bombard_Incoming>RHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
 		<SFXEvent_Bombard_Select_Target>RHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
 		
-		<SFXEvent_Engine_Idle_Loop>Unit_Interdictor_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop>Unit_Interdictor_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Interdictor_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
-		<SFXEvent_Ambient_Loop>Unit_Interdictor_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Engine_Idle_Loop>Unit_Calamari_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Calamari_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1</Radar_Icon_Scale_Space>
 		
-		<Space_FOW_Reveal_Range>1000</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1200</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Layer_Z_Adjust>-90</Layer_Z_Adjust>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Asteroid_Damage_Hit_Particles>Medium_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Formation_Priority>3</Formation_Priority>
@@ -175,9 +176,20 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>1280.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>12.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1950.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>1</Expiration_Seconds>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </MC30_Frigate_Data>

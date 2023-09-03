@@ -3,7 +3,7 @@
 
 	<!-- Jan Dodonna era II - Defiance -->
 	<UniqueUnit Name="Defiance">
-		<Variant_Of_Existing_Type>Calamari_Cruiser_HO_Type</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Independence_Battlecruiser</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -85,7 +85,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Viscount_Star_Defender, Mediator_Cruiser, Ackbar_Guardian, Sien_Sovv_Guardian, Wedge_Antilles_Lusankya, GBI_Harbinger</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>

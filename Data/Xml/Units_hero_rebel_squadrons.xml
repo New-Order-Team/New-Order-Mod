@@ -4,7 +4,7 @@
 	<!-- Era I -->
 	<!-- Era 1: Blue Squadron under Adrian Verana -->
 	<UniqueUnit Name="Blue_Z-95">
-		<Variant_Of_Existing_Type>Z-95_Headhunter</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Z_95</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_Z95</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -42,7 +42,7 @@
 	</UniqueUnit>
 
 	<UniqueUnit Name="Blue_Y-Wing">
-		<Variant_Of_Existing_Type>Y-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Y_Wing_S3</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_S3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -72,7 +72,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_adrian_verana.tga</Icon_Name>
 	</UniqueUnit>
 	
@@ -122,7 +122,7 @@
 		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
 
-		<GUI_Model_Name>z-95_headhunter.ALO</GUI_Model_Name>
+		<GUI_Model_Name>Z_95.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -159,7 +159,7 @@
 	<!-- Era II -->
 	<!-- Era 2: Red Squadron under Garven Dreis -->
 	<UniqueUnit Name="Red_T65_B">
-		<Variant_Of_Existing_Type>X-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>X_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_RED_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED_T65_B</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -220,7 +220,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 		<Icon_Name>i_button_garven_dreis.tga</Icon_Name>
 
 		<SFXEvent_Select>Unit_Select_Red_Leader</SFXEvent_Select>
@@ -357,7 +357,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	 			
-	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -421,7 +421,7 @@
 
 	<!-- Era 2: Gold Squadron under Jon Vander -->
 	<UniqueUnit Name="Gold_BTL_A4">
-		<Variant_Of_Existing_Type>Y-Wing2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Y_Wing_A4</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_GOLD_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GOLD_BTL_A4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -449,47 +449,24 @@
 				<Type>LURE</Type>
 				<Effective_Radius>500</Effective_Radius>
 				<Target_Types>
-					Y-Wing,
-					Y-Wing_Squadron,
-					Y-Wing2,
-					Y-Wing_Squadron2,
-					Y-Wing_Longprobe,
-					Y-Wing_Longprobe_Squadron,
-					Z-95_Headhunter,
-					Z95_Headhunter_Squadron,
-					Z-95_Headhunter2,
-					Z95_Headhunter2_Squadron,
-					R41,
-					R41_Squadron,
-					X-Wing,
-					Rebel_X-Wing_Squadron,
-					X-Wing2,
-					X-Wing_Squadron2,
-					X-Wing3,
-					X-Wing_Squadron3,
-					X-Wing4,
-					X-Wing_Squadron4,
-					X-Wing5,
-					X-Wing_Squadron5,
-					A-Wing,
+					Y_Wing_S3,
+					Y_Wing_S3_Squadron,
+					Y_Wing_A4,
+					Y_Wing_A4_Squadron,
+					Z_95,
+					Z_95_Squadron,
+					R_41,
+					R_41_Squadron,
+					X_Wing,
+					X_Wing_Squadron,
+					A_Wing,
 					A_Wing_Squadron,
-					A-Wing2,
-					A_Wing_Squadron2,
-					A_Wing_Squadron3,
-					B-Wing,
-					B-Wing_Squadron,
-					B-Wing_E,
-					B-Wing_Squadron2,
-					K-Wing,
+					B_Wing,
+					B_Wing_Squadron,
+					K_Wing,
 					K_Wing_Squadron,
 					E_Wing,
 					E_Wing_Squadron,
-					E_Wing4,
-					E_Wing_Squadron2,
-					Arc_170,
-					Arc_170_Squadron,
-					V-wing_Nimbus,
-					V-Wing_Nimbus_Squadron,
 					TIE_Fighter,
 					TIE_Fighter_Squadron,
 					TIE_Bomber,
@@ -500,20 +477,16 @@
 					TIE_Interceptor_Squadron,
 					TIE_Phantom,
 					TIE_Phantom_Squadron,
-					TIE_Avenger,
-					TIE_Avenger_Squadron,
 					TIE_Defender,
 					TIE_Defender_Squadron,
+					TIE_Fighter_Mod,
+					TIE_Fighter_Mod_Squadron,
+					TIE_Interceptor_Mod,
+					TIE_Interceptor_Mod_Squadron,
 					Assault_Gunboat,
 					Assault_Gunboat_Squadron,
-					Missile_Boat,
-					Missile_Boat_Squadron,
-					TIE_Hunter,
-					TIE_Hunter_Squadron,
 					TIE_Scimitar,
-					TIE_Scimitar_Squadron,
-					TIE_Starhunter,
-					TIE_Starhunter_Squadron,
+					TIE_Scimitar_Squadron
 				</Target_Types>
 
 				<Recharge_Seconds>30</Recharge_Seconds>
@@ -538,7 +511,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_jon_vander.tga</Icon_Name>
 	</UniqueUnit>
 	
@@ -622,7 +595,7 @@
 	<!-- Era III -->
 	<!-- Era 3: Rogue Squadron under Luke Skywalker -->
 	<UniqueUnit Name="Red_T65C_A2">
-		<Variant_Of_Existing_Type>X-Wing2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>X_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_RED_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_RED_T65C_A2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -683,7 +656,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 		<Icon_Name>i_button_luke_skywalker_pilot.tga</Icon_Name>
 	</UniqueUnit>
 	
@@ -799,7 +772,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	 			
-	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -863,7 +836,7 @@
 	
 	<!-- Era 3: Aggressor Squadron under Horton Salm -->
 	<UniqueUnit Name="Aggressor_BTL_S3">
-		<Variant_Of_Existing_Type>Y-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Y_Wing_S3</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_BTL_S3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -893,7 +866,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_horton_salm.tga</Icon_Name>
 
 		<SFXEvent_Fire></SFXEvent_Fire>
@@ -1007,7 +980,7 @@
 	
 	<!-- Era 3: Green Squadron under Jake Farrell -->
 	<UniqueUnit Name="Green_A_Wing">
-		<Variant_Of_Existing_Type>A-Wing2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>A_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_GREEN_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_GREEN_A_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -1085,7 +1058,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_jake_farrell.tga</Icon_Name>
 
 		<SFXEvent_Fire></SFXEvent_Fire>
@@ -1204,7 +1177,7 @@
 	
 	<!-- Era 3: Blue Squadron under Merrick Simms -->
 	<UniqueUnit Name="Blue_B_Wing">
-		<Variant_Of_Existing_Type>B-Wing</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>B_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_BLUE_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_BLUE_B_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -1268,7 +1241,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
 		<Icon_Name>i_button_merrick_simms.tga</Icon_Name>
 
 		<SFXEvent_Fire></SFXEvent_Fire>
@@ -1482,7 +1455,7 @@
 	<!-- Era IV -->
 	<!-- Era 4: Rogue Squadron under Wedge Antilles -->
 	<UniqueUnit Name="Rogue_T65_AC4">
-		<Variant_Of_Existing_Type>X-Wing3</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>X_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_T65_AC4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -1567,7 +1540,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 
 	</UniqueUnit>
 	
@@ -1683,7 +1656,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	 			
-	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -1745,9 +1718,9 @@
         </Abilities>
 	</Container>
 	
-	<!-- Era 4: Aggressor Squadron under Horton Salm (B-wing/E) -->
+	<!-- Era 4: Aggressor Squadron under Horton Salm (B_Wing/E) -->
 	<UniqueUnit Name="Aggressor_B_Wing_E">
-		<Variant_Of_Existing_Type>B-Wing_E</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>B_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_AGGRESSOR_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_AGGRESSOR_B_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -1901,7 +1874,7 @@
 	
 	<!-- Era 4: Cracken's Flight Group under Pash Cracken -->
 	<UniqueUnit Name="CFG_A_Wing">
-		<Variant_Of_Existing_Type>A-Wing2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>A_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_CFG_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_CFG_A_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -2006,7 +1979,7 @@
 		<SFXEvent_Enemy_Health_Low_Warning>  </SFXEvent_Enemy_Health_Low_Warning> 
 		<SFXEvent_Unit_Lost>  </SFXEvent_Unit_Lost>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero </CategoryMask>
 
 		<Create_Team>Yes</Create_Team>
 	</UniqueUnit>
@@ -2104,7 +2077,7 @@
 	<!-- Era V -->
 	<!-- Era 5: Rogue Squadron under Gavin Darklighter -->
 	<UniqueUnit Name="Rogue_XJ3">
-		<Variant_Of_Existing_Type>X-Wing4</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>X_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_ROGUE_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_ROGUE_XJ3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -2190,7 +2163,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 	</UniqueUnit>
 	
 	<Squadron Name="Rogue_Squadron_Darklighter">
@@ -2305,7 +2278,7 @@
 		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 	 			
-	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate</CategoryMask>
+	 	<CategoryMask>SpaceHero | Fighter | AntiFighter | AntiCapital | AntiFrigate</CategoryMask>
 		<FormationOrder>2</FormationOrder>
 		<Squadron_Formation_Error_Tolerance>50.0</Squadron_Formation_Error_Tolerance>
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
@@ -2369,7 +2342,7 @@
 	
 	<!-- Era 5: Taanab Yellow Aces under Wes Janson -->
 	<UniqueUnit Name="TYA_E_Wing">
-		<Variant_Of_Existing_Type>E_Wing4</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>E_Wing</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_HERO_SQ_TYA_P</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_SQ_TYA_E_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ACE </Encyclopedia_Unit_Class>
@@ -2442,7 +2415,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, </SFXEvent_Attack_Hardpoint>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | SpaceHero</CategoryMask>
 	</UniqueUnit>
 	
 	<Squadron Name="Taanab_Yellow_Aces">

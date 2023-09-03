@@ -3,7 +3,7 @@
 	<SpaceUnit Name="TIE_Scimitar">
 		
 		<Text_ID>TEXT_UNIT_TIE_SCIMITAR</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_TIE_SCIMITAR_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_TIE_SCIMITAR_DESC TEXT_EMPTY TEXT_UNIT_TIE_SCIMITAR_INFO_1 TEXT_UNIT_TIE_SCIMITAR_INFO_2 TEXT_UNIT_TIE_SCIMITAR_INFO_3 TEXT_UNIT_TIE_SCIMITAR_INFO_4 TEXT_WEAPONS TEXT_UNIT_TIE_SCIMITAR_W_1 TEXT_UNIT_TIE_SCIMITAR_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_scimitar.tga</Icon_Name>
 		
@@ -15,7 +15,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		
-		<Select_Box_Scale>30.0</Select_Box_Scale>
+		<Select_Box_Scale>18.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Empire</Affiliation>
@@ -71,7 +71,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
@@ -130,11 +130,12 @@
 	<Squadron Name="TIE_Scimitar_Squadron">
 		
 		<Text_ID>TEXT_UNIT_TIE_SCIMITAR_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_TIE_SCIMITAR_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_TIE_SCIMITAR_DESC TEXT_EMPTY TEXT_UNIT_TIE_SCIMITAR_INFO_1 TEXT_UNIT_TIE_SCIMITAR_INFO_2 TEXT_UNIT_TIE_SCIMITAR_INFO_3 TEXT_UNIT_TIE_SCIMITAR_INFO_4 TEXT_WEAPONS TEXT_UNIT_TIE_SCIMITAR_W_1 TEXT_UNIT_TIE_SCIMITAR_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_scimitar.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
+		<CategoryMask>Bomber | AntiFighter | AntiFrigate | AntiCapital</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
@@ -142,14 +143,14 @@
 		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>490.0</Build_Cost_Credits>
+		<Build_Time_Seconds>7.0</Build_Time_Seconds>
+		<Build_Cost_Credits>400.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>490.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>490.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>490.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>400.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>400.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>400.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>360.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -184,8 +185,8 @@
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>490.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>400.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

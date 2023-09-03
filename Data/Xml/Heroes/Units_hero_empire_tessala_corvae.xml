@@ -127,9 +127,9 @@
 
 			<Combat_Bonus_Ability Name="Corvae_Armor_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
-				<Unit_Strength_Category>All</Unit_Strength_Category>
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>AT_ST_Walker, AT_AT_Walker, AT-AP_Walker, HAV_Juggernaut, AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
+				<Unit_Strength_Category>Vehicle</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Vehicle</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -142,7 +142,7 @@
 			<Combat_Bonus_Ability Name="Corvae_Range_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>AT_AA_Walker, SPMAT_Walker, Mobile_Artillery </Applicable_Unit_Types>
 				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>

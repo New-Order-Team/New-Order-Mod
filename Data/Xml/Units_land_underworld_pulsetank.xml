@@ -172,7 +172,7 @@
                 <Owner_Attachment_Bone>b_overheat_00</Owner_Attachment_Bone>
                 <Particle_Effect>Pulse_Cannon_Tank_Overheat</Particle_Effect>
                 <Stop_When_Activated>No</Stop_When_Activated>
-                <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+                <!-- <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>  -->
                 <GUI_Activated_Ability_Name>Pulse_Tank_Self_Destruct</GUI_Activated_Ability_Name>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
 				<Supports_Autofire>True</Supports_Autofire>

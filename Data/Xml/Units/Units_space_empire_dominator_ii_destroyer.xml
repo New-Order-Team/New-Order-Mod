@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Dominator_II_Destroyer">
 		
 		<Text_ID>TEXT_UNIT_DOMINATOR_II_DESTROYER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_DOMINATOR_II_DESTROYER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_DOMINATOR_II_DESTROYER_DESC TEXT_EMPTY TEXT_UNIT_DOMINATOR_II_DESTROYER_INFO_1 TEXT_UNIT_DOMINATOR_II_DESTROYER_INFO_2 TEXT_UNIT_DOMINATOR_II_DESTROYER_INFO_3 TEXT_UNIT_DOMINATOR_II_DESTROYER_INFO_4 TEXT_WEAPONS TEXT_UNIT_DOMINATOR_II_DESTROYER_W_1 TEXT_UNIT_DOMINATOR_II_DESTROYER_W_2 TEXT_UNIT_DOMINATOR_II_DESTROYER_W_3 TEXT_UNIT_DOMINATOR_II_DESTROYER_W_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_dominator_ii_destroyer.tga</Icon_Name>
 		
@@ -11,7 +11,7 @@
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.386</Scale_Factor>
 		
-		<Select_Box_Scale>2000.0</Select_Box_Scale>
+		<Select_Box_Scale>1200.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -30,20 +30,19 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
 		<Build_Time_Seconds>46.0</Build_Time_Seconds>
-		<Build_Cost_Credits>7060.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Cost_Credits>7160.0</Build_Cost_Credits>
+		<Population_Value>20.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, Lantilles, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>7060.0</AI_Combat_Power>
-		<Score_Cost_Credits>7060.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>7060.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>7060.0</Piracy_Value_Credits>
+		<AI_Combat_Power>7160.0</AI_Combat_Power>
+		<Score_Cost_Credits>613.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>7160.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>7160.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>125100.0</Autoresolve_Health>
+		<Autoresolve_Health>125000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>2</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -62,10 +61,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A11</Armor_Type>
-		<Tactical_Health>125100.0</Tactical_Health>
+		<Tactical_Health>125000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>73000.0</Shield_Points>
-		<Shield_Refresh_Rate>3042.0</Shield_Refresh_Rate>
+		<Shield_Points>75000.0</Shield_Points>
+		<Shield_Refresh_Rate>3125.0</Shield_Refresh_Rate>
 		<Energy_Capacity>25000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>5000.0</Energy_Refresh_Rate>
 		
@@ -86,7 +85,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>5000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -195,9 +194,17 @@
 		
 		<Lua_Script>ObjectScript_Interdict</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>7060.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7160.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>46.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<Disable_Movement>Yes</Disable_Movement>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Dominator_II_Destroyer_Data>

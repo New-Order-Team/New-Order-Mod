@@ -3,7 +3,7 @@
 	
 	<!-- Empire: ISD Invincible -->
 	<UniqueUnit Name="Invincible_SD">
-		<Variant_Of_Existing_Type>Star_Destroyer_NO_Fighters</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Star_Destroyer</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
@@ -37,12 +37,6 @@
 			HP_ISD_I_Fighter_Bay,
 			HP_ISD_I_Tractor_Beam
 		</HardPoints>
-		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 	</UniqueUnit>
 	
 	<!-- Alliance: Red Squadron under Keyan Farlander -->
@@ -53,7 +47,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | AntiCapital | AntiFrigate | SpaceHero</CategoryMask>
 		<Icon_Name>i_button_keyan_farlander.tga</Icon_Name>
 		
 		<Shield_Points>100</Shield_Points>

@@ -2316,7 +2316,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -2358,7 +2358,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -2400,7 +2400,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
    </GroundStructure>
 
@@ -2544,7 +2544,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2586,7 +2586,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2628,7 +2628,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2755,7 +2755,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Small_Explosion_Land</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 	</GroundStructure>
@@ -2809,7 +2809,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2849,7 +2849,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2889,7 +2889,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Turret_Death_SFX</Death_SFXEvent_Start_Die>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Proj_Wall_Destruction</Death_Explosions>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 	</GroundStructure>
 
@@ -2977,7 +2977,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 	</GroundStructure>
 
 
@@ -3006,7 +3006,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
-		<CategoryMask>Wall</CategoryMask>
+		<CategoryMask>Structure</CategoryMask>
 	</GroundStructure>
 
 	<GroundStructure Name="Imperial_Observation_Bunker">

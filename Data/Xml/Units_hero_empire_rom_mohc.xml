@@ -2,7 +2,7 @@
 <Rom_Mohc_Files>
 	<!-- Tech Level 2 Rom Mohc: Land - Trooper + Escort, Space - Empirical -->
 	<HeroUnit Name="Rom_Mohc">
-		<Variant_Of_Existing_Type>Imperial_Army_General</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperial_Army_Lieutenant</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_HERO_ROM_MOHC</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_HERO_ROM_MOHC</Encyclopedia_Text>
@@ -700,12 +700,12 @@
 	</UniqueUnit>
 
 	<GroundInfantry Name="Rom_Mohc_Escort_Sergeant">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper_Sergeant</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
 		<Armor_Type> Armor_I </Armor_Type>
 		<Autoresolve_Health>50</Autoresolve_Health>
 		<Tactical_Health>50</Tactical_Health>
 
-		<Projectile_Types>Proj_Land_Blaster_T-21</Projectile_Types>
+		<Projectile_Types>Proj_Land_Infantry_R5</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>30</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>

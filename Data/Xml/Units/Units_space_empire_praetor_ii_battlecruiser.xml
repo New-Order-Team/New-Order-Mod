@@ -3,14 +3,14 @@
 	<SpaceUnit Name="Praetor_II_Battlecruiser">
 		
 		<Text_ID>TEXT_UNIT_PRAETOR_II_BATTLECRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_PRAETOR_II_BATTLECRUISER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_PRAETOR_II_BATTLECRUISER_DESC TEXT_EMPTY TEXT_UNIT_PRAETOR_II_BATTLECRUISER_INFO_1 TEXT_UNIT_PRAETOR_II_BATTLECRUISER_INFO_2 TEXT_UNIT_PRAETOR_II_BATTLECRUISER_INFO_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_praetor_ii_battlecruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>ev_Praetor_MkII.ALO</Space_Model_Name>
 		<Scale_Factor>5.9769</Scale_Factor>
 		
-		<Select_Box_Scale>6000.0</Select_Box_Scale>
+		<Select_Box_Scale>3600.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -26,20 +26,19 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>126.0</Build_Time_Seconds>
-		<Build_Cost_Credits>20950.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>262.0</Build_Time_Seconds>
+		<Build_Cost_Credits>44490.0</Build_Cost_Credits>
+		<Population_Value>90.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, MonCalimari</Required_Planets>
-		<AI_Combat_Power>20950.0</AI_Combat_Power>
-		<Score_Cost_Credits>20950.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>20950.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>20950.0</Piracy_Value_Credits>
+		<AI_Combat_Power>44490.0</AI_Combat_Power>
+		<Score_Cost_Credits>3852.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>44490.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>44490.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>481130.0</Autoresolve_Health>
+		<Autoresolve_Health>450000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>5</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -57,11 +56,11 @@
 		<OverrideDeceleration>0.02</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A13</Armor_Type>
-		<Tactical_Health>481130.0</Tactical_Health>
+		<Armor_Type>Armor_Space_A14</Armor_Type>
+		<Tactical_Health>450000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>448080.0</Shield_Points>
-		<Shield_Refresh_Rate>18670.0</Shield_Refresh_Rate>
+		<Shield_Points>450000.0</Shield_Points>
+		<Shield_Refresh_Rate>18750.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>36000.0</Energy_Refresh_Rate>
 		
@@ -174,8 +173,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>20950.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>126.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>44490.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>262.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

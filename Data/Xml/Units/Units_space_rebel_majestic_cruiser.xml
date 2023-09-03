@@ -3,15 +3,15 @@
 	<SpaceUnit Name="Majestic_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_MAJESTIC_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MAJESTIC_CRUISER_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_MEDIUM</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_MAJESTIC_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MAJESTIC_CRUISER_INFO_1 TEXT_UNIT_MAJESTIC_CRUISER_INFO_2 TEXT_UNIT_MAJESTIC_CRUISER_INFO_3 TEXT_UNIT_MAJESTIC_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MAJESTIC_CRUISER_W_1 TEXT_UNIT_MAJESTIC_CRUISER_W_2 TEXT_UNIT_MAJESTIC_CRUISER_W_3 TEXT_UNIT_MAJESTIC_CRUISER_W_4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_majestic_cruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Majestic.ALO</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.34</Scale_Factor>
 		
-		<Select_Box_Scale>750.0</Select_Box_Scale>
+		<Select_Box_Scale>450.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -27,20 +27,19 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>22.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2880.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>25.0</Build_Time_Seconds>
+		<Build_Cost_Credits>3380.0</Build_Cost_Credits>
+		<Population_Value>8.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes, Bilbringi, Bonadan, Bothawui, Byss, Corellia, Fondor, Kuat, Lantilles, Lianna, Mandalore, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>2880.0</AI_Combat_Power>
-		<Score_Cost_Credits>2880.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2880.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2880.0</Piracy_Value_Credits>
+		<AI_Combat_Power>3380.0</AI_Combat_Power>
+		<Score_Cost_Credits>293.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>3380.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>3380.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>34790.0</Autoresolve_Health>
+		<Autoresolve_Health>38000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.5</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -59,10 +58,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A8</Armor_Type>
-		<Tactical_Health>34790.0</Tactical_Health>
+		<Tactical_Health>38000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>34740.0</Shield_Points>
-		<Shield_Refresh_Rate>1448.0</Shield_Refresh_Rate>
+		<Shield_Points>40750.0</Shield_Points>
+		<Shield_Refresh_Rate>1698.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1200.0</Energy_Refresh_Rate>
 		
@@ -82,7 +81,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1770.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -131,8 +130,8 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>2880.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>22.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3380.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

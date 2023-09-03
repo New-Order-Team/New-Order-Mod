@@ -92,7 +92,6 @@
 				<Type>SELF_DESTRUCT</Type>
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
-				<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 				<Spawned_Object_Type>Bunker_Self_Destruct</Spawned_Object_Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
@@ -299,7 +298,7 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+				<!-- <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name> Seems to be unused -->
 			</Force_Healing_Ability>
 		</Abilities>
 
@@ -510,7 +509,7 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+				<!-- <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name> Seems to be unused -->
 			</Force_Healing_Ability>
 		</Abilities>
 

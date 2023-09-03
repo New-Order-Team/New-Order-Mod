@@ -3,7 +3,7 @@
 	<SpaceUnit Name="A_Wing">
 		
 		<Text_ID>TEXT_UNIT_A_WING</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_A_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_A_WING_DESC TEXT_EMPTY TEXT_UNIT_A_WING_INFO_1 TEXT_UNIT_A_WING_INFO_2 TEXT_UNIT_A_WING_INFO_3 TEXT_UNIT_A_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_A_WING_W_1 TEXT_UNIT_A_WING_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		
@@ -14,7 +14,7 @@
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		
-		<Select_Box_Scale>30.0</Select_Box_Scale>
+		<Select_Box_Scale>18.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Rebel</Affiliation>
@@ -28,7 +28,8 @@
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>29.0</AI_Combat_Power>
-		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.01</Maintenance_Cost>
@@ -68,7 +69,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
@@ -127,11 +128,12 @@
 	<Squadron Name="A_Wing_Squadron">
 		
 		<Text_ID>TEXT_UNIT_A_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_A_WING_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_A_WING_DESC TEXT_EMPTY TEXT_UNIT_A_WING_INFO_1 TEXT_UNIT_A_WING_INFO_2 TEXT_UNIT_A_WING_INFO_3 TEXT_UNIT_A_WING_INFO_4 TEXT_WEAPONS TEXT_UNIT_A_WING_W_1 TEXT_UNIT_A_WING_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		
 		<Affiliation>Rebel</Affiliation>
+		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
@@ -140,13 +142,13 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>6.0</Build_Time_Seconds>
-		<Build_Cost_Credits>240.0</Build_Cost_Credits>
+		<Build_Cost_Credits>130.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>240.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>240.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>240.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>130.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>130.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>130.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>264.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -181,7 +183,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>240.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>130.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>

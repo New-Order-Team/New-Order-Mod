@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Bulwark_III_Battlecruiser">
 		
 		<Text_ID>TEXT_UNIT_BULWARK_III_BATTLECRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_BULWARK_III_BATTLECRUISER_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_BULWARK_III_BATTLECRUISER_DESC TEXT_EMPTY TEXT_UNIT_BULWARK_III_BATTLECRUISER_INFO_1 TEXT_UNIT_BULWARK_III_BATTLECRUISER_INFO_2 TEXT_UNIT_BULWARK_III_BATTLECRUISER_INFO_3 TEXT_UNIT_BULWARK_III_BATTLECRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_BULWARK_III_BATTLECRUISER_W_1 TEXT_UNIT_BULWARK_III_BATTLECRUISER_W_2 TEXT_UNIT_BULWARK_III_BATTLECRUISER_W_3 TEXT_UNIT_BULWARK_III_BATTLECRUISER_W_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_bulwark_iii_battlecruiser.tga</Icon_Name>
 		
@@ -21,20 +21,19 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>126.0</Build_Time_Seconds>
-		<Build_Cost_Credits>21000.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>97.0</Build_Time_Seconds>
+		<Build_Cost_Credits>16020.0</Build_Cost_Credits>
+		<Population_Value>68.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, MonCalimari</Required_Planets>
-		<AI_Combat_Power>21000.0</AI_Combat_Power>
-		<Score_Cost_Credits>21000.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>21000.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>21000.0</Piracy_Value_Credits>
+		<AI_Combat_Power>16020.0</AI_Combat_Power>
+		<Score_Cost_Credits>1387.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>16020.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>16020.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>276500.0</Autoresolve_Health>
+		<Autoresolve_Health>275000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>5</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -53,10 +52,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A14</Armor_Type>
-		<Tactical_Health>276500.0</Tactical_Health>
+		<Tactical_Health>275000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>398460.0</Shield_Points>
-		<Shield_Refresh_Rate>16603.0</Shield_Refresh_Rate>
+		<Shield_Points>400000.0</Shield_Points>
+		<Shield_Refresh_Rate>16667.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>36000.0</Energy_Refresh_Rate>
 		
@@ -77,7 +76,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>2820.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2400.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -134,8 +133,8 @@
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>21000.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>126.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>16020.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>97.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

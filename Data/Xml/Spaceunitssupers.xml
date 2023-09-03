@@ -90,7 +90,7 @@
 		<Build_Speech_Countdowns> Speech_Death_Star_Build_ </Build_Speech_Countdowns>
 		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
 		<Victory_Relevant>No</Victory_Relevant>
-		<CategoryMask> Super </CategoryMask>
+		<CategoryMask> Dreadnought </CategoryMask>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLE_STATION</Encyclopedia_Unit_Class>
 		<Targeting_Max_Attack_Distance>20000.0</Targeting_Max_Attack_Distance>

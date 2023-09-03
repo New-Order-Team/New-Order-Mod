@@ -3,14 +3,14 @@
 	<SpaceUnit Name="Neutron_Star_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_NEUTRON_STAR_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_NEUTRON_STAR_CRUISER_DESC</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_MEDIUM</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_NEUTRON_STAR_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_NEUTRON_STAR_CRUISER_INFO_1 TEXT_UNIT_NEUTRON_STAR_CRUISER_INFO_2 TEXT_UNIT_NEUTRON_STAR_CRUISER_INFO_3 TEXT_UNIT_NEUTRON_STAR_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_NEUTRON_STAR_CRUISER_W_1</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_neutron_star_cruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>neutron_star-class_bulk_cruiser.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		
-		<Select_Box_Scale>750.0</Select_Box_Scale>
+		<Select_Box_Scale>450.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -26,21 +26,20 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>21.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2690.0</Build_Cost_Credits>
-		<Population_Value>5.0</Population_Value>
+		<Build_Time_Seconds>19.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2510.0</Build_Cost_Credits>
+		<Population_Value>8.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes, Bilbringi, Bonadan, Bothawui, Byss, Corellia, Fondor, Kuat, Lantilles, Lianna, Mandalore, MonCalimari, SluisVan, Sullust</Required_Planets>
-		<AI_Combat_Power>2690.0</AI_Combat_Power>
-		<Score_Cost_Credits>2690.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2690.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2690.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2510.0</AI_Combat_Power>
+		<Score_Cost_Credits>218.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2510.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2510.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>34720.0</Autoresolve_Health>
+		<Autoresolve_Health>38000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.5</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -59,10 +58,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A7</Armor_Type>
-		<Tactical_Health>34720.0</Tactical_Health>
+		<Tactical_Health>38000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>51990.0</Shield_Points>
-		<Shield_Refresh_Rate>2166.0</Shield_Refresh_Rate>
+		<Shield_Points>38000.0</Shield_Points>
+		<Shield_Refresh_Rate>1583.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1200.0</Energy_Refresh_Rate>
 		
@@ -80,9 +79,10 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1180.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -97,6 +97,7 @@
 			HP_Neutron_Star_Cruiser_4,
 			HP_Neutron_Star_Cruiser_5,
 			HP_Neutron_Star_Cruiser_6,
+			HP_Neutron_Star_Cruiser_7,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Assault_Frigate</SFXEvent_Select>
@@ -156,6 +157,12 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
+		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
+		
+		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 3</Starting_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 3</Starting_Spawned_Units_Tech_2>
+		
 		<Formation_Priority>4</Formation_Priority>
 		
 		<Remove_Upon_Death>True</Remove_Upon_Death>
@@ -164,8 +171,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>2690.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>21.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2510.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

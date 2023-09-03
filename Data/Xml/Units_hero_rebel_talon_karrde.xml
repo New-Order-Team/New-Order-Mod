@@ -89,7 +89,7 @@
 			HP_Wild_Karrde_02
 		</HardPoints>
 
-		<CategoryMask> Fighter | AntiFighter | AntiBomber | SpaceHero </CategoryMask>
+		<CategoryMask> Fighter | AntiFighter | SpaceHero </CategoryMask>
 		<GUI_Model_Name>RV_WildKarrde.ALO</GUI_Model_Name>
 		<GUI_Distance>1200</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

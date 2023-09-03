@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Corellian_Corvette">
 		
 		<Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_CORELLIAN_CORVETTE_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_CORELLIAN_CORVETTE_DESC TEXT_EMPTY TEXT_UNIT_CORELLIAN_CORVETTE_INFO_1 TEXT_UNIT_CORELLIAN_CORVETTE_INFO_2 TEXT_UNIT_CORELLIAN_CORVETTE_INFO_3 TEXT_UNIT_CORELLIAN_CORVETTE_INFO_4 TEXT_WEAPONS TEXT_UNIT_CORELLIAN_CORVETTE_W_1 TEXT_UNIT_CORELLIAN_CORVETTE_W_2</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
 		
@@ -13,7 +13,7 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>190.0</Select_Box_Scale>
+		<Select_Box_Scale>113.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
 		
@@ -30,20 +30,20 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>450.0</Build_Cost_Credits>
-		<Population_Value>1.0</Population_Value>
+		<Build_Time_Seconds>7.0</Build_Time_Seconds>
+		<Build_Cost_Credits>400.0</Build_Cost_Credits>
+		<Population_Value>2.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>450.0</AI_Combat_Power>
-		<Score_Cost_Credits>450.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>450.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>450.0</Piracy_Value_Credits>
+		<AI_Combat_Power>400.0</AI_Combat_Power>
+		<Score_Cost_Credits>35.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>400.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>400.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>7970.0</Autoresolve_Health>
+		<Autoresolve_Health>9500.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -52,7 +52,7 @@
 		<MovementClass>Space</MovementClass>
 		<Mass>0.995</Mass>
 		<Max_Thrust>1</Max_Thrust>
-		<Max_Speed>2.14</Max_Speed>
+		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Min_Speed_Fraction_For_Turn>0.5</Min_Speed_Fraction_For_Turn>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
@@ -61,10 +61,10 @@
 		<OverrideDeceleration>0.07</OverrideDeceleration>
 		
 		<Armor_Type>Armor_Space_A1</Armor_Type>
-		<Tactical_Health>7970.0</Tactical_Health>
+		<Tactical_Health>9500.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>3940.0</Shield_Points>
-		<Shield_Refresh_Rate>164.0</Shield_Refresh_Rate>
+		<Shield_Points>6750.0</Shield_Points>
+		<Shield_Refresh_Rate>281.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1350.0</Energy_Capacity>
 		<Energy_Refresh_Rate>270.0</Energy_Refresh_Rate>
 		
@@ -84,7 +84,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
@@ -156,9 +156,19 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>450.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>400.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.25f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Corellian_Corvette_Data>

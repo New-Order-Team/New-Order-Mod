@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Executor_Dreadnought">
 		
 		<Text_ID>TEXT_UNIT_EXECUTOR_DREADNOUGHT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_EXECUTOR_DREADNOUGHT_DESC</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_EXECUTOR_DREADNOUGHT_DESC TEXT_EMPTY TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_1 TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_2 TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DREADNOUGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_executor_dreadnought.tga</Icon_Name>
 		
@@ -13,7 +13,7 @@
 		<Custom_Hard_XExtent>100.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>100.0</Custom_Hard_YExtent>
 		
-		<Select_Box_Scale>23750.0</Select_Box_Scale>
+		<Select_Box_Scale>14250.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -29,20 +29,19 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>443.0</Build_Time_Seconds>
-		<Build_Cost_Credits>76000.0</Build_Cost_Credits>
-		<Population_Value>0.0</Population_Value>
+		<Build_Time_Seconds>582.0</Build_Time_Seconds>
+		<Build_Cost_Credits>100080.0</Build_Cost_Credits>
+		<Population_Value>200.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bilbringi, Byss, Corellia, Fondor, Kuat, MonCalimari</Required_Planets>
-		<AI_Combat_Power>76000.0</AI_Combat_Power>
-		<Score_Cost_Credits>76000.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>76000.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>76000.0</Piracy_Value_Credits>
+		<AI_Combat_Power>100080.0</AI_Combat_Power>
+		<Score_Cost_Credits>8667.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>100080.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>100080.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>1158000.0</Autoresolve_Health>
+		<Autoresolve_Health>1000000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>10</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -61,10 +60,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A15</Armor_Type>
-		<Tactical_Health>1158000.0</Tactical_Health>
+		<Tactical_Health>1000000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>666390.0</Shield_Points>
-		<Shield_Refresh_Rate>27766.0</Shield_Refresh_Rate>
+		<Shield_Points>1000000.0</Shield_Points>
+		<Shield_Refresh_Rate>41667.0</Shield_Refresh_Rate>
 		<Energy_Capacity>99000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1000.0</Energy_Refresh_Rate>
 		
@@ -179,8 +178,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>76000.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>443.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>100080.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>582.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

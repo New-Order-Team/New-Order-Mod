@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Sander_Delvardus_Data>
 	<UniqueUnit Name="Thalassa_SBC">
-		<Variant_Of_Existing_Type>Praetor_II</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Praetor_II_Battlecruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Tech_Level>99</Tech_Level>
 
@@ -22,9 +22,9 @@
 			<Tractor_Beam_Attack_Ability Name="Praetor_II_Tractor_Beam">
 	            <Activation_Style> User_Input </Activation_Style>
 	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Calrissian_Cobra, Moldy_Crow, Wild_Karrde</Applicable_Unit_Types>
+	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Moldy_Crow</Applicable_Unit_Types>
 				<Excluded_Unit_Types>
-					Buzz_Droids, Mediator_Cruiser, Viscount_Star_Defender, GBI_Harbinger
+					Buzz_Droids, Mediator_Battlecruiser, GBI_Harbinger
 				</Excluded_Unit_Types>
 	            
 	            <Activation_Min_Range>10</Activation_Min_Range>
@@ -41,7 +41,7 @@
 				<Unit_Strength_Category>All</Unit_Strength_Category>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Excluded_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD</Excluded_Unit_Types>
+				<Excluded_Unit_Types />
 				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -59,15 +59,6 @@
 				<Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
 				<Stacking_Category>19</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
-			<Reduce_Production_Price_Ability Name="Delvardus_SSD_Price_Reduction">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Executor_Super_Star_Destroyer, Sovereign-class_Star_Dreadnought, Executor_SSD, Aggressor_SSD, Whelm_SSD, Iron_Fist_SSD, Reaper_SSD, Knight_Hammer_SSD, Dominion_SSD, Reaper_Pellaeon_SSD, Megador_SSD, Intimidator_SSD,
-				Allegiance, Praetor_II</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
-				<Stacking_Category>3</Stacking_Category>
-			</Reduce_Production_Price_Ability>
 		</Abilities>
 	</UniqueUnit>
 </Sander_Delvardus_Data>
