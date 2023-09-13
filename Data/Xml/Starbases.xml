@@ -2642,7 +2642,7 @@
 				TIE_Fighter_Mod_Squadron,
 				TIE_Interceptor_Mod_Squadron,
 				Assault_Gunboat_Squadron,
-				TIE_Defender_Starfighter_Squadron,
+				TIE_Defender_Squadron,
 				TIE_Bomber_Squadron,
 				TIE_Scimitar_Squadron,--> 
 
@@ -3273,113 +3273,755 @@
 	
 
 	<!-- Rebel Skirmish Starbases -->
-	<StarBase Name="Skirmish_Rebel_Star_Base_1E3">
+	
+	<!-- Era 2 -->
+	<StarBase Name="Skirmish_Rebel_Star_Base_1_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Rebel,				
-				RS_Ion_Cannon_Use_Upgrade,
-				RS_Level_Two_Starbase_Upgrade
+			Rebel,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				
+				RS_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
-		<Next_Level_Base>Skirmish_Rebel_Star_Base_2E3</Next_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_2_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Rebel_Star_Base_2E3">
+	<StarBase Name="Skirmish_Rebel_Star_Base_2_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				RS_Ion_Cannon_Use_Upgrade,
-				RS_Level_Three_Starbase_Upgrade
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				RS_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Rebel_Star_Base_3E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_3_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Rebel_Star_Base_3E3">
+	<StarBase Name="Skirmish_Rebel_Star_Base_3_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				RS_Ion_Cannon_Use_Upgrade,
-				RS_Level_Four_Starbase_Upgrade
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				RS_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Rebel_Star_Base_4E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_4_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Rebel_Star_Base_4E3">
+	<StarBase Name="Skirmish_Rebel_Star_Base_4_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				CC-7700_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				Calamari_Cruiser,
+				MC80A_Cruiser,
+				
 				RS_Ion_Cannon_Use_Upgrade,
-				RS_Level_Five_Starbase_Upgrade
+				RS_Level_Five_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Rebel_Star_Base_5E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_5_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Rebel_Star_Base_5E3">
+	<StarBase Name="Skirmish_Rebel_Star_Base_5_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
+				A_Wing_Squadron,
+				Y_Wing_A4_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				CC-7700_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				Calamari_Cruiser,
+				MC80A_Cruiser,
+				
+				Home_One_Battlecruiser,
+				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4E3</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4_Era_2</Prev_Level_Base>
+		<Next_Level_Base />
+	</StarBase>
+	
+	<!-- Era 3 -->
+	<StarBase Name="Skirmish_Rebel_Star_Base_1_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,				
+				A_Wing_Squadron,
+				E_Wing_Squadron,
+				
+				RS_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base />
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_2_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_2_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				A_Wing_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				RS_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_3_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_3_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				A_Wing_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				RS_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_4_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_4_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				A_Wing_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				MC80B_Cruiser,
+				MC80A_Cruiser,
+				MC90_Cruiser,
+				
+				RS_Ion_Cannon_Use_Upgrade,
+				RS_Level_Five_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_5_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_5_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				A_Wing_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				Y_Wing_S3_Squadron,
+				B_Wing_Squadron,
+				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Neutron_Star_Cruiser,
+				Alliance_Assault_Frigate,
+				
+				MC80B_Cruiser,
+				MC80A_Cruiser,
+				MC90_Cruiser,
+				
+				Home_One_Battlecruiser,
+				
+				RS_Ion_Cannon_Use_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4_Era_3</Prev_Level_Base>
+		<Next_Level_Base />
+	</StarBase>
+	
+	<!-- Era 4 -->
+	<StarBase Name="Skirmish_Rebel_Star_Base_1_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Defender_Starfighter_Squadron,
+				E_Wing_Squadron,
+				
+				RS_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base />
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_2_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_2_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Defender_Starfighter_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				
+				Agave_Corvette,
+				Warrior_Gunship,
+				Sacheen_Cruiser,
+				
+				RS_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_1_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_3_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_3_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Defender_Starfighter_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,
+				
+				Agave_Corvette,
+				Warrior_Gunship,
+				Sacheen_Cruiser,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
+				
+				RS_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_2_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_4_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_4_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Defender_Starfighter_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,
+				
+				Agave_Corvette,
+				Warrior_Gunship,
+				Sacheen_Cruiser,
+				<!-- Hajen_Interdictor, -->
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
+				
+				Nebula_Destroyer,
+				Endurance_Carrier,
+				MC90_Cruiser,
+				
+				RS_Ion_Cannon_Use_Upgrade,
+				RS_Level_Five_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_3_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Rebel_Star_Base_5_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Rebel_Star_Base_5_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Rebel,
+				Defender_Starfighter_Squadron,
+				E_Wing_Squadron,
+				X_Wing_Squadron,
+				B_Wing_Squadron,
+				K_Wing_Squadron,
+				
+				Agave_Corvette,
+				Warrior_Gunship,
+				Sacheen_Cruiser,
+				<!-- Hajen_Interdictor, -->
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
+				Majestic_Cruiser,
+				Defender_Carrier,
+				
+				Nebula_Destroyer,
+				Endurance_Carrier,
+				MC90_Cruiser,
+				
+				Home_One_Battlecruiser,
+				
+				RS_Ion_Cannon_Use_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Rebel_Star_Base_4_Era_4</Prev_Level_Base>
 		<Next_Level_Base />
 	</StarBase>
 
 
 	<!-- Empire Skirmish Starbases -->
-	<StarBase Name="Skirmish_Empire_Star_Base_1E3">
+	<!-- Era 2 -->
+	<StarBase Name="Skirmish_Empire_Star_Base_1_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				ES_Hypervelocity_Gun_Use_Upgrade,
-				ES_Level_Two_Starbase_Upgrade
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Bomber_Squadron,
+				
+				ES_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
-		<Next_Level_Base>Skirmish_Empire_Star_Base_2E3</Next_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_2_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Empire_Star_Base_2E3">
+	<StarBase Name="Skirmish_Empire_Star_Base_2_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				ES_Hypervelocity_Gun_Use_Upgrade,
-				ES_Level_Three_Starbase_Upgrade
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Bomber_Squadron,
+				Assault_Gunboat_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				
+				ES_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_1E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Empire_Star_Base_3E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_1_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_3_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Empire_Star_Base_3E3">
+	<StarBase Name="Skirmish_Empire_Star_Base_3_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				ES_Hypervelocity_Gun_Use_Upgrade,
-				ES_Level_Four_Starbase_Upgrade
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				Assault_Gunboat_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				
+				ES_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_2E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Empire_Star_Base_4E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_2_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_4_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Empire_Star_Base_4E3">
+	<StarBase Name="Skirmish_Empire_Star_Base_4_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				Assault_Gunboat_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
 				ES_Hypervelocity_Gun_Use_Upgrade,
-				ES_Level_Five_Starbase_Upgrade
+				ES_Level_Five_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_3E3</Prev_Level_Base>
-		<Next_Level_Base>Skirmish_Empire_Star_Base_5E3</Next_Level_Base>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_3_Era_2</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_5_Era_2</Next_Level_Base>
 	</StarBase>
 
-	<StarBase Name="Skirmish_Empire_Star_Base_5E3">
+	<StarBase Name="Skirmish_Empire_Star_Base_5_Era_2">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				Assault_Gunboat_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
+				Praetor_II_Battlecruiser,
+				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
-		<Prev_Level_Base>Skirmish_Empire_Star_Base_4E3</Prev_Level_Base>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_4_Era_2</Prev_Level_Base>
+		<Next_Level_Base />
+	</StarBase>
+	
+	<!-- Era 3 -->
+	<StarBase Name="Skirmish_Empire_Star_Base_1_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Bomber_Squadron,
+				
+				ES_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base />
+		<Next_Level_Base>Skirmish_Empire_Star_Base_2_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_2_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				
+				ES_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_1_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_3_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_3_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				
+				ES_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_2_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_4_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_4_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
+				ES_Hypervelocity_Gun_Use_Upgrade,
+				ES_Level_Five_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_3_Era_3</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_5_Era_3</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_5_Era_3">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Squadron,
+				TIE_Interceptor_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Dreadnought_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
+				
+				ES_Hypervelocity_Gun_Use_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_4_Era_3</Prev_Level_Base>
+		<Next_Level_Base />
+	</StarBase>
+	
+	<!-- Era 4 -->
+	<StarBase Name="Skirmish_Empire_Star_Base_1_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				TIE_Bomber_Squadron,
+				
+				ES_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base />
+		<Next_Level_Base>Skirmish_Empire_Star_Base_2_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_2_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Adz_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				
+				ES_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_1_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_3_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_3_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Adz_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Enforcer_Cruiser,
+				Vindicator_Cruiser,
+				
+				ES_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_2_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_4_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_4_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Adz_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Enforcer_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
+				ES_Hypervelocity_Gun_Use_Upgrade,
+				ES_Level_Five_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_3_Era_4</Prev_Level_Base>
+		<Next_Level_Base>Skirmish_Empire_Star_Base_5_Era_4</Next_Level_Base>
+	</StarBase>
+
+	<StarBase Name="Skirmish_Empire_Star_Base_5_Era_4">
+		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Empire,
+				TIE_Fighter_Mod_Squadron,
+				TIE_Interceptor_Mod_Squadron,
+				TIE_Defender_Squadron,
+				TIE_Bomber_Squadron,
+				TIE_Scimitar_Squadron,
+				
+				Adz_Corvette,
+				Raider_I_Corvette,
+				Vigil_Corvette,
+				Lancer_Frigate,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				Enforcer_Cruiser,
+				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
+				Star_Destroyer,
+				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
+				
+				ES_Hypervelocity_Gun_Use_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Prev_Level_Base>Skirmish_Empire_Star_Base_4_Era_4</Prev_Level_Base>
 		<Next_Level_Base />
 	</StarBase>
 

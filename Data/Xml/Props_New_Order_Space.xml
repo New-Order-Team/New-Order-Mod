@@ -26,18 +26,6 @@
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</SpaceProp>
 	
-	<SpaceProp Name="Backdrop_Comet">
-		<Text_ID />
-		<Space_Model_Name>prop_comet.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Behavior> IDLE </Behavior>
-		<In_Background> Yes </In_Background>
-		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
-		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-	</SpaceProp>
-	
 	<!-- Planet Backdrops -->
 	<SpaceProp Name="Backdrop_Planet_Bothawui">
 		<Text_ID />
