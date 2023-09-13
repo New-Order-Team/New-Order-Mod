@@ -4,11 +4,10 @@
 
 	<!--Value planets based mostly on income and trade routes.  Also consider structure and base capabilities -->
 	<GenericPlanetValue>
-		( 2.0 * Variable_Target.BaseIncome +
-		  1.0 * Variable_Target.MaxStructureSlots + 
-		  5.0 * Variable_Target.MaxGroundbaseLevel + 
-		  10.0 * Variable_Target.MaxStarbaseLevel +
-		  10.0 * Variable_Target.TradeRoutes) / 30.0 
+		( 1.0 * Variable_Target.BaseIncome +
+		  80.0 * Variable_Target.MaxStructureSlotsUnnormalized + 
+		  80.0 * Variable_Target.MaxStarbaseLevelUnnormalized +
+		  80.0 * Variable_Target.TradeRoutes) / 50.0 
 	</GenericPlanetValue>
 
 	<FriendlySpaceForceStrength>
@@ -22,21 +21,6 @@
 	<Is_Home_Planet>
 		Variable_Target.Type.Token == Variable_Self.HomePlanet.Type.Token
 	</Is_Home_Planet>
-	
-	<!-- High Income Planet -->
-	<High_Income_Planet>
-		Function_GenericPlanetValue.Evaluate
-		*
-		(1.0 - Function_Is_Connected_To_Enemy.Evaluate)
-		*
-		(
-			1.0
-			+
-			(Variable_Target.BaseIncomeUnnormalized > 1200) * 2
-			+
-			(Variable_Target.BaseIncomeUnnormalized > 2000) * 3
-		)
-	</High_Income_Planet>
 
 	<One>
 		1.0

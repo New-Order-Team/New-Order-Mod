@@ -1,6 +1,12 @@
 <?xml version="1.0" ?>
 <!--   -->
 <FunctionSet>
+
+	<Flush_MajorItem_Budget>
+		<Goal>Flush_MajorItem_Budget</Goal>
+		<Function>Need_To_Flush_MajorItem_Budget</Function>
+	</Flush_MajorItem_Budget>
+
 	<Build_Space_Forces>
 		<Goal>Build_Space_Forces</Goal>
 		<Function>Allow_Blind_Space_Production</Function>
@@ -10,12 +16,6 @@
 		<Goal>Build_Ground_Forces</Goal>
 		<Function>Allow_Blind_Ground_Production</Function>
 	</Build_Ground_Forces>
-
-	<Flush_MajorItem_Budget>
-		<Goal>Flush_MajorItem_Budget</Goal>
-		<Function>Need_To_Flush_MajorItem_Budget</Function>
-	</Flush_MajorItem_Budget>
-
 
 	<Reclaim_Excess_MajorItem_Budget>
 		<Goal>Reclaim_Excess_MajorItem_Budget</Goal>

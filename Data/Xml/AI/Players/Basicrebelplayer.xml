@@ -11,8 +11,8 @@
 	</Personality>
 
     <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
-    <SpaceFreeStoreScript>BusySpaceFreeStore</SpaceFreeStoreScript>
-    <LandFreeStoreScript>BusyLandFreeStore</LandFreeStoreScript>
+    <SpaceFreeStoreScript>BusyTacticalFreeStore</SpaceFreeStoreScript>
+    <LandFreeStoreScript>BusyTacticalFreeStore</LandFreeStoreScript>
 	
 	<GoalProposalFunctionSets>
 		SystemFunctions
@@ -22,20 +22,20 @@
 		BasicInformationGalacticSet
 		BasicOffensiveSpaceSet
 		BasicLandGoalSet
-		<!-- AI_GoalSet_ExpansionGeneric_Galactic -->
-		<!-- AI_GoalSet_ExpansionGeneric_Land -->
-		<!-- AI_GoalSet_Empire_Land -->
+		AI_GoalSet_ExpansionGeneric_Galactic
+		AI_GoalSet_ExpansionGeneric_Land
+		AI_GoalSet_Rebel_Land
 	</GoalProposalFunctionSets>
 	
 	<Templates>
 		<Space>
-			Generic_Space
+            Test_Space
 		</Space>
 		<Land>
-			Generic_Land
+            Test_Land
 		</Land>
 		<Galactic>
-			Generic_Galactic_Default
+			Basic_Rebel_Default
 		</Galactic>
 	</Templates>
 
