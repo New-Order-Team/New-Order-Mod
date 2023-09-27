@@ -3164,8 +3164,8 @@
 	<MP_Color_Cyan>79, 255, 250</MP_Color_Cyan>
 	<MP_Color_Purple>189, 105, 255</MP_Color_Purple>
 	<MP_Color_Yellow>255, 225, 79</MP_Color_Yellow>
-	<MP_Color_Gray>60, 232, 78</MP_Color_Gray>
-	<MP_Color_Eight>170, 170, 170</MP_Color_Eight>
+	<MP_Color_Gray>170, 170, 170</MP_Color_Gray>
+	<MP_Color_Eight>60, 232, 78</MP_Color_Eight>
 
 	<!-- Localized splash screen asset names -->
 	<Localized_Splash_Screen> ENGLISH, 	Splash.DDS </Localized_Splash_Screen>
