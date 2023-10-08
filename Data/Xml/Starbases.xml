@@ -25,7 +25,7 @@
 		<Next_Level_Base>Rebel_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -58,18 +58,18 @@
 			Rebel,
 		</Tactical_Buildable_Objects_Campaign>
 
-		<Autoresolve_Health>7850</Autoresolve_Health>
+		<Autoresolve_Health>160000</Autoresolve_Health>
 		<Damage>1950</Damage>
-		<Shield_Points>4925</Shield_Points>
-		<Tactical_Health>2925</Tactical_Health>
-		<Shield_Refresh_Rate>492.5</Shield_Refresh_Rate>
+		<Shield_Points>240000</Shield_Points>
+		<Tactical_Health>160000</Tactical_Health>
+		<Shield_Refresh_Rate>2400</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
@@ -156,7 +156,7 @@
 		<Space_Model_Name>RB_station_01_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -189,15 +189,15 @@
 		<Next_Level_Base>Rebel_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>16450</Autoresolve_Health>
 		<Damage>3925</Damage>
-		<Shield_Points>10360</Shield_Points>
-		<Tactical_Health>6090</Tactical_Health>
-		<Shield_Refresh_Rate>1036</Shield_Refresh_Rate>
+		<Shield_Points>360000</Shield_Points>
+		<Tactical_Health>240000</Tactical_Health>
+		<Shield_Refresh_Rate>3600</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -230,7 +230,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -326,7 +326,7 @@
 		<Space_Model_Name>RB_station_02_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -359,15 +359,15 @@
 		<Next_Level_Base>Rebel_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>29415</Autoresolve_Health>
 		<Damage>7425</Damage>
-		<Shield_Points>18385</Shield_Points>
-		<Tactical_Health>11030</Tactical_Health>
-		<Shield_Refresh_Rate>1838.5</Shield_Refresh_Rate>
+		<Shield_Points>480000</Shield_Points>
+		<Tactical_Health>320000</Tactical_Health>
+		<Shield_Refresh_Rate>4800</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -403,7 +403,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -509,7 +509,7 @@
 		<Space_Model_Name>RB_station_03_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -542,15 +542,15 @@
 		<Next_Level_Base>Rebel_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>47550</Autoresolve_Health>
 		<Damage>11600</Damage>
-		<Shield_Points>29720</Shield_Points>
-		<Tactical_Health>17830</Tactical_Health>
-		<Shield_Refresh_Rate>2972</Shield_Refresh_Rate>
+		<Shield_Points>600000</Shield_Points>
+		<Tactical_Health>400000</Tactical_Health>
+		<Shield_Refresh_Rate>6000</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -585,7 +585,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -705,7 +705,7 @@
 		<Space_Model_Name>RB_station_04_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -739,15 +739,15 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Autoresolve_Health>74950</Autoresolve_Health>
 		<Damage>18850</Damage>
-		<Shield_Points>46850</Shield_Points>
-		<Tactical_Health>28100</Tactical_Health>
-		<Shield_Refresh_Rate>4685</Shield_Refresh_Rate>
+		<Shield_Points>720000</Shield_Points>
+		<Tactical_Health>480000</Tactical_Health>
+		<Shield_Refresh_Rate>7200</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -783,7 +783,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -903,7 +903,7 @@
 		<Space_Model_Name>RB_station_05_break.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -939,13 +939,13 @@
 		<Next_Level_Base>Empire_Star_Base_2</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Damage>2800</Damage>
-		<Shield_Points>4200</Shield_Points>
-		<Tactical_Health>2800</Tactical_Health>
-		<Shield_Refresh_Rate>420</Shield_Refresh_Rate>
+		<Shield_Points>240000</Shield_Points>
+		<Tactical_Health>160000</Tactical_Health>
+		<Shield_Refresh_Rate>2400</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -968,7 +968,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1049,7 +1049,7 @@
 		<Space_Model_Name>EB_station_break_break_01.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1084,13 +1084,13 @@
 		<Next_Level_Base>Empire_Star_Base_3</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>14725</Autoresolve_Health>
 		<Damage>5650</Damage>
-		<Shield_Points>8775</Shield_Points>
-		<Tactical_Health>5950</Tactical_Health>
-		<Shield_Refresh_Rate>877.5</Shield_Refresh_Rate>
+		<Shield_Points>360000</Shield_Points>
+		<Tactical_Health>240000</Tactical_Health>
+		<Shield_Refresh_Rate>3600</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1113,7 +1113,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1201,7 +1201,7 @@
 		<Space_Model_Name>EB_station_break_break_02.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1236,13 +1236,13 @@
 		<Next_Level_Base>Empire_Star_Base_4</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>26315</Autoresolve_Health>
 		<Damage>10525</Damage>
-		<Shield_Points>15790</Shield_Points>
-		<Tactical_Health>10525</Tactical_Health>
-		<Shield_Refresh_Rate>1579</Shield_Refresh_Rate>
+		<Shield_Points>480000</Shield_Points>
+		<Tactical_Health>320000</Tactical_Health>
+		<Shield_Refresh_Rate>4800</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1266,7 +1266,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1364,7 +1364,7 @@
 		<Space_Model_Name>EB_station_break_break_03.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1399,13 +1399,13 @@
 		<Next_Level_Base>Empire_Star_Base_5</Next_Level_Base>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>42250</Autoresolve_Health>
 		<Damage>16900</Damage>
-		<Shield_Points>25350</Shield_Points>
-		<Tactical_Health>16900</Tactical_Health>
-		<Shield_Refresh_Rate>2535</Shield_Refresh_Rate>
+		<Shield_Points>600000</Shield_Points>
+		<Tactical_Health>400000</Tactical_Health>
+		<Shield_Refresh_Rate>6000</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1429,7 +1429,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1531,7 +1531,7 @@
 		<Space_Model_Name>EB_station_break_break_04.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1567,13 +1567,13 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>67000</Autoresolve_Health>
 		<Damage>26800</Damage>
-		<Shield_Points>40200</Shield_Points>
-		<Tactical_Health>26800</Tactical_Health>
-		<Shield_Refresh_Rate>4020</Shield_Refresh_Rate>
+		<Shield_Points>720000</Shield_Points>
+		<Tactical_Health>480000</Tactical_Health>
+		<Shield_Refresh_Rate>7200</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1597,7 +1597,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		
 		<HardPoints>
@@ -1717,7 +1717,7 @@
 		<Space_Model_Name>EB_station_break_break_05.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>
@@ -1746,7 +1746,7 @@
 		<Next_Level_Base />
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>750</Autoresolve_Health>
 		<Damage>35</Damage>
@@ -1820,7 +1820,7 @@
 		<Size_Value>10</Size_Value>
 		<Tech_Level>0</Tech_Level>
 		<Base_Level>1</Base_Level>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
@@ -1914,7 +1914,7 @@
 		<Space_Model_Name>NB_APBase_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<CategoryMask> Capital </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Death_Persistence_Duration> 40 </Death_Persistence_Duration>
 		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
 	</StarBase>

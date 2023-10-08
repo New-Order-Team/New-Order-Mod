@@ -3,7 +3,7 @@
 	<SpaceUnit Name="MC40a_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_MC40A_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MC40A_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MC40A_CRUISER_INFO_1 TEXT_UNIT_MC40A_CRUISER_INFO_2 TEXT_UNIT_MC40A_CRUISER_INFO_3</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_MC40A_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MC40A_CRUISER_INFO_1 TEXT_UNIT_MC40A_CRUISER_INFO_2 TEXT_UNIT_MC40A_CRUISER_INFO_3 TEXT_UNIT_MC40A_CRUISER_INFO_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc40a_cruiser.tga</Icon_Name>
 		
@@ -11,7 +11,7 @@
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.34</Scale_Factor>
 		
-		<Select_Box_Scale>375.0</Select_Box_Scale>
+		<Select_Box_Scale>250.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -27,16 +27,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>19.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2390.0</Build_Cost_Credits>
+		<Build_Time_Seconds>16.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1870.0</Build_Cost_Credits>
 		<Population_Value>6.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2390.0</AI_Combat_Power>
-		<Score_Cost_Credits>207.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2390.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2390.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1870.0</AI_Combat_Power>
+		<Score_Cost_Credits>190.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1870.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1870.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -81,6 +81,7 @@
 			NEBULA,
 			SHIELDED,
 			SPAWN_SQUADRON,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
@@ -160,8 +161,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>2390.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>19.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1870.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>16.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">

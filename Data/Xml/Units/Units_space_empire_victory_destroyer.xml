@@ -11,7 +11,7 @@
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.386</Scale_Factor>
 		
-		<Select_Box_Scale>675.0</Select_Box_Scale>
+		<Select_Box_Scale>450.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -28,18 +28,18 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
 		<Build_Time_Seconds>35.0</Build_Time_Seconds>
-		<Build_Cost_Credits>5270.0</Build_Cost_Credits>
-		<Population_Value>10.0</Population_Value>
+		<Build_Cost_Credits>5150.0</Build_Cost_Credits>
+		<Population_Value>11.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>5270.0</AI_Combat_Power>
-		<Score_Cost_Credits>451.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>5270.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>5270.0</Piracy_Value_Credits>
+		<AI_Combat_Power>5150.0</AI_Combat_Power>
+		<Score_Cost_Credits>472.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>5150.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>5150.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>57500.0</Autoresolve_Health>
+		<Autoresolve_Health>61250.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>1</Maintenance_Cost>
 		<Squadron_Capacity>40</Squadron_Capacity>
@@ -58,10 +58,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A10</Armor_Type>
-		<Tactical_Health>57500.0</Tactical_Health>
+		<Tactical_Health>61250.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>42500.0</Shield_Points>
-		<Shield_Refresh_Rate>1771.0</Shield_Refresh_Rate>
+		<Shield_Points>47750.0</Shield_Points>
+		<Shield_Refresh_Rate>1990.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -83,7 +83,7 @@
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -228,7 +228,7 @@
 		
 		<Lua_Script>ObjectScript_Missile_Salvo</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>5270.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>5150.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>35.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 

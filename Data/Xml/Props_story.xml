@@ -3152,7 +3152,7 @@
 		<Tech_Level>9</Tech_Level>
 		<IsBuildable>No</IsBuildable>
 		<Shield_Points>0</Shield_Points>
-		<Affiliation>Rebel, Empire, Hutts</Affiliation>
+		<Affiliation>Neutral</Affiliation>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Score_Cost_Credits> 0 </Score_Cost_Credits>
 	</Props_Story>

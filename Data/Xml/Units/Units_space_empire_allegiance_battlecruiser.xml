@@ -3,20 +3,20 @@
 	<SpaceUnit Name="Allegiance_Battlecruiser">
 		
 		<Text_ID>TEXT_UNIT_ALLEGIANCE_BATTLECRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_DESC TEXT_EMPTY TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_1 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_2 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_3</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_DESC TEXT_EMPTY TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_1 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_2 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_3 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_1 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_2 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_3 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_4 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_5 TEXT_UNIT_ALLEGIANCE_BATTLECRUISER_W_6</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_allegiance_battlecruiser.tga</Icon_Name>
 		
-		<Space_Model_Name>F_Allegiance.ALO</Space_Model_Name>
-		<Scale_Factor>0.634</Scale_Factor>
+		<Space_Model_Name>imp_allegiance.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
 		
-		<Select_Box_Scale>1650.0</Select_Box_Scale>
+		<Select_Box_Scale>1100.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category>11</Ranking_In_Category>
-		<CategoryMask>Capital | AntiCapital</CategoryMask>
+		<CategoryMask>Dreadnought | AntiCapital</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>SuperCapital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -26,19 +26,19 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>140.0</Build_Time_Seconds>
-		<Build_Cost_Credits>23480.0</Build_Cost_Credits>
-		<Population_Value>45.0</Population_Value>
+		<Build_Time_Seconds>18.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2170.0</Build_Cost_Credits>
+		<Population_Value>44.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>23480.0</AI_Combat_Power>
-		<Score_Cost_Credits>2034.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>23480.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>23480.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2170.0</AI_Combat_Power>
+		<Score_Cost_Credits>2198.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2170.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2170.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>190000.0</Autoresolve_Health>
+		<Autoresolve_Health>210000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>5</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -57,10 +57,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A14</Armor_Type>
-		<Tactical_Health>190000.0</Tactical_Health>
+		<Tactical_Health>210000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>260000.0</Shield_Points>
-		<Shield_Refresh_Rate>10833.0</Shield_Refresh_Rate>
+		<Shield_Points>230000.0</Shield_Points>
+		<Shield_Refresh_Rate>9583.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>36000.0</Energy_Refresh_Rate>
 		
@@ -78,14 +78,65 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
+		<Targeting_Max_Attack_Distance>3900.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
 		<Targeting_Priority_Set>Battlecruiser</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
+		
+		<HardPoints>
+			HP_Allegiance_Battlecruiser_1,
+			HP_Allegiance_Battlecruiser_2,
+			HP_Allegiance_Battlecruiser_3,
+			HP_Allegiance_Battlecruiser_4,
+			HP_Allegiance_Battlecruiser_5,
+			HP_Allegiance_Battlecruiser_6,
+			HP_Allegiance_Battlecruiser_7,
+			HP_Allegiance_Battlecruiser_8,
+			HP_Allegiance_Battlecruiser_9,
+			HP_Allegiance_Battlecruiser_10,
+			HP_Allegiance_Battlecruiser_11,
+			HP_Allegiance_Battlecruiser_12,
+			HP_Allegiance_Battlecruiser_13,
+			HP_Allegiance_Battlecruiser_14,
+			HP_Allegiance_Battlecruiser_15,
+			HP_Allegiance_Battlecruiser_16,
+			HP_Allegiance_Battlecruiser_17,
+			HP_Allegiance_Battlecruiser_18,
+			HP_Allegiance_Battlecruiser_19,
+			HP_Allegiance_Battlecruiser_20,
+			HP_Allegiance_Battlecruiser_21,
+			HP_Allegiance_Battlecruiser_22,
+			HP_Allegiance_Battlecruiser_23,
+			HP_Allegiance_Battlecruiser_24,
+			HP_Allegiance_Battlecruiser_25,
+			HP_Allegiance_Battlecruiser_26,
+			HP_Allegiance_Battlecruiser_27,
+			HP_Allegiance_Battlecruiser_28,
+			HP_Allegiance_Battlecruiser_29,
+			HP_Allegiance_Battlecruiser_30,
+			HP_Allegiance_Battlecruiser_31,
+			HP_Allegiance_Battlecruiser_32,
+			HP_Allegiance_Battlecruiser_33,
+			HP_Allegiance_Battlecruiser_34,
+			HP_Allegiance_Battlecruiser_35,
+			HP_Allegiance_Battlecruiser_36,
+			HP_Allegiance_Battlecruiser_37,
+			HP_Allegiance_Battlecruiser_38,
+			HP_Allegiance_Battlecruiser_39,
+			HP_Allegiance_Battlecruiser_40,
+			HP_Allegiance_Battlecruiser_41,
+			HP_Allegiance_Battlecruiser_42,
+			HP_Allegiance_Battlecruiser_43,
+			HP_Allegiance_Battlecruiser_44,
+			HP_Allegiance_Battlecruiser_45,
+			HP_Allegiance_Battlecruiser_46,
+		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
@@ -155,9 +206,18 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>23480.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>140.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2170.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 2.0</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Allegiance_Battlecruiser_Data>

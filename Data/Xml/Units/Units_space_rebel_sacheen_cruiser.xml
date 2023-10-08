@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Sacheen_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_SACHEEN_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_SACHEEN_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_SACHEEN_CRUISER_INFO_1 TEXT_UNIT_SACHEEN_CRUISER_INFO_2 TEXT_UNIT_SACHEEN_CRUISER_INFO_3</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_SACHEEN_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_SACHEEN_CRUISER_INFO_1 TEXT_UNIT_SACHEEN_CRUISER_INFO_2 TEXT_UNIT_SACHEEN_CRUISER_INFO_3 TEXT_UNIT_SACHEEN_CRUISER_INFO_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_sacheen_cruiser.tga</Icon_Name>
 		
@@ -12,13 +12,13 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>281.0</Select_Box_Scale>
+		<Select_Box_Scale>188.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>15</Ranking_In_Category>
-		<CategoryMask>Corvette | AntiCorvette | AntiFrigate</CategoryMask>
+		<CategoryMask>Frigate | AntiCorvette | AntiFrigate</CategoryMask>
 		<Ship_Class>frigate</Ship_Class>
 		<Space_Layer>Frigate</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -28,16 +28,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>730.0</Build_Cost_Credits>
+		<Build_Time_Seconds>15.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1660.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>730.0</AI_Combat_Power>
-		<Score_Cost_Credits>63.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>730.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>730.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1660.0</AI_Combat_Power>
+		<Score_Cost_Credits>168.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1660.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1660.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -59,7 +59,7 @@
 		<OverrideDeceleration>0.05</OverrideDeceleration>
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
-		<Armor_Type>Armor_Space_A4</Armor_Type>
+		<Armor_Type>Armor_Space_A6</Armor_Type>
 		<Tactical_Health>20000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>24000.0</Shield_Points>
@@ -143,8 +143,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>730.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1660.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

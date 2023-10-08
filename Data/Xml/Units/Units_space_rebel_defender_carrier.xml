@@ -10,7 +10,7 @@
 		<Space_Model_Name>F_Majestic.ALO</Space_Model_Name>
 		<Scale_Factor>0.34</Scale_Factor>
 		
-		<Select_Box_Scale>450.0</Select_Box_Scale>
+		<Select_Box_Scale>300.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -28,15 +28,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
 		<Build_Time_Seconds>10.0</Build_Time_Seconds>
-		<Build_Cost_Credits>930.0</Build_Cost_Credits>
+		<Build_Cost_Credits>940.0</Build_Cost_Credits>
 		<Population_Value>6.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>930.0</AI_Combat_Power>
-		<Score_Cost_Credits>80.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>930.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>930.0</Piracy_Value_Credits>
+		<AI_Combat_Power>940.0</AI_Combat_Power>
+		<Score_Cost_Credits>95.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>940.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>940.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>38000.0</Autoresolve_Health>
@@ -81,7 +81,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -124,7 +124,7 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>930.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>940.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>

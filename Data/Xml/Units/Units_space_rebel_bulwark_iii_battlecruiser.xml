@@ -11,7 +11,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>11</Ranking_In_Category>
-		<CategoryMask>Capital | AntiCapital</CategoryMask>
+		<CategoryMask>Dreadnought | AntiCapital</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>SuperCapital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -21,16 +21,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>97.0</Build_Time_Seconds>
-		<Build_Cost_Credits>16020.0</Build_Cost_Credits>
+		<Build_Time_Seconds>101.0</Build_Time_Seconds>
+		<Build_Cost_Credits>16630.0</Build_Cost_Credits>
 		<Population_Value>68.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>16020.0</AI_Combat_Power>
-		<Score_Cost_Credits>1387.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>16020.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>16020.0</Piracy_Value_Credits>
+		<AI_Combat_Power>16630.0</AI_Combat_Power>
+		<Score_Cost_Credits>1684.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>16630.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>16630.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>275000.0</Autoresolve_Health>
@@ -76,7 +76,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>2400.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>4700.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -133,8 +133,8 @@
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>16020.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>97.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>16630.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>101.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

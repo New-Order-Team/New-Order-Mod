@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Nebulon_B_Frigate_E">
 		
 		<Text_ID>TEXT_UNIT_NEBULON_B_FRIGATE</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_NEBULON_B_FRIGATE_DESC TEXT_EMPTY TEXT_UNIT_NEBULON_B_FRIGATE_INFO_1 TEXT_UNIT_NEBULON_B_FRIGATE_INFO_2 TEXT_UNIT_NEBULON_B_FRIGATE_INFO_3 TEXT_UNIT_NEBULON_B_FRIGATE_INFO_4 TEXT_WEAPONS TEXT_UNIT_NEBULON_B_FRIGATE_W_1 TEXT_UNIT_NEBULON_B_FRIGATE_W_2</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_NEBULON_B_FRIGATE_DESC TEXT_EMPTY TEXT_UNIT_NEBULON_B_FRIGATE_E_INFO_1 TEXT_UNIT_NEBULON_B_FRIGATE_E_INFO_2 TEXT_UNIT_NEBULON_B_FRIGATE_E_INFO_3 TEXT_UNIT_NEBULON_B_FRIGATE_E_INFO_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_nebulon_b_frigate.tga</Icon_Name>
 		
@@ -13,7 +13,7 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>225.0</Select_Box_Scale>
+		<Select_Box_Scale>150.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
@@ -29,20 +29,20 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>760.0</Build_Cost_Credits>
-		<Population_Value>2.0</Population_Value>
+		<Build_Time_Seconds>8.0</Build_Time_Seconds>
+		<Build_Cost_Credits>470.0</Build_Cost_Credits>
+		<Population_Value>3.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>760.0</AI_Combat_Power>
-		<Score_Cost_Credits>65.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>760.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>760.0</Piracy_Value_Credits>
+		<AI_Combat_Power>470.0</AI_Combat_Power>
+		<Score_Cost_Credits>48.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>470.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>470.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>12000.0</Autoresolve_Health>
+		<Autoresolve_Health>15750.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Squadron_Capacity>0</Squadron_Capacity>
@@ -61,10 +61,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A3</Armor_Type>
-		<Tactical_Health>12000.0</Tactical_Health>
+		<Tactical_Health>15750.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>12000.0</Shield_Points>
-		<Shield_Refresh_Rate>500.0</Shield_Refresh_Rate>
+		<Shield_Points>12750.0</Shield_Points>
+		<Shield_Refresh_Rate>531.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
 		<Energy_Refresh_Rate>550.0</Energy_Refresh_Rate>
 		
@@ -84,7 +84,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1300.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -168,8 +168,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>760.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>470.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

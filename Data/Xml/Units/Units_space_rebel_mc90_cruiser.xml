@@ -10,7 +10,7 @@
 		<Space_Model_Name>F_Mc90.ALO</Space_Model_Name>
 		<Scale_Factor>0.233</Scale_Factor>
 		
-		<Select_Box_Scale>941.0</Select_Box_Scale>
+		<Select_Box_Scale>628.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		
@@ -26,16 +26,16 @@
 		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>50.0</Build_Time_Seconds>
-		<Build_Cost_Credits>7830.0</Build_Cost_Credits>
+		<Build_Time_Seconds>51.0</Build_Time_Seconds>
+		<Build_Cost_Credits>7990.0</Build_Cost_Credits>
 		<Population_Value>17.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>7830.0</AI_Combat_Power>
-		<Score_Cost_Credits>642.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>7830.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>7830.0</Piracy_Value_Credits>
+		<AI_Combat_Power>7990.0</AI_Combat_Power>
+		<Score_Cost_Credits>717.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>7990.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>7990.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>82500.0</Autoresolve_Health>
@@ -79,9 +79,10 @@
 			NEBULA,
 			SHIELDED,
 			SPAWN_SQUADRON,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>3100.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -197,8 +198,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>7830.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>50.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>7990.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>51.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">

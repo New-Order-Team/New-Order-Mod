@@ -13,13 +13,13 @@
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>285.0</Select_Box_Scale>
+		<Select_Box_Scale>190.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>15</Ranking_In_Category>
-		<CategoryMask>Corvette | AntiCapital</CategoryMask>
+		<CategoryMask>Frigate | AntiCapital</CategoryMask>
 		<Property_Flags>IsKiter</Property_Flags>
 		<Ship_Class>frigate</Ship_Class>
 		<Space_Layer>Frigate</Space_Layer>
@@ -30,20 +30,20 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>16.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1950.0</Build_Cost_Credits>
+		<Build_Time_Seconds>18.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2170.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
-		<Score_Cost_Credits>169.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1950.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1950.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2170.0</AI_Combat_Power>
+		<Score_Cost_Credits>220.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2170.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2170.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>19500.0</Autoresolve_Health>
+		<Autoresolve_Health>20000.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.25</Maintenance_Cost>
 		<Squadron_Capacity>12</Squadron_Capacity>
@@ -62,10 +62,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A4</Armor_Type>
-		<Tactical_Health>19500.0</Tactical_Health>
+		<Tactical_Health>20000.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>22250.0</Shield_Points>
-		<Shield_Refresh_Rate>927.0</Shield_Refresh_Rate>
+		<Shield_Points>22750.0</Shield_Points>
+		<Shield_Refresh_Rate>948.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
 		<Energy_Refresh_Rate>550.0</Energy_Refresh_Rate>
 		
@@ -83,9 +83,10 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1125.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1300.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -176,8 +177,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>1950.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2170.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
