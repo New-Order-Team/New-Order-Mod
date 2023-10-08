@@ -1,44 +1,3 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua#5 $
---/////////////////////////////////////////////////////////////////////////////////////////////////
---
--- (C) Petroglyph Games, Inc.
---
---
---  *****           **                          *                   *
---  *   **          *                           *                   *
---  *    *          *                           *                   *
---  *    *          *     *                 *   *          *        *
---  *   *     *** ******  * **  ****      ***   * *      * *****    * ***
---  *  **    *  *   *     **   *   **   **  *   *  *    * **   **   **   *
---  ***     *****   *     *   *     *  *    *   *  *   **  *    *   *    *
---  *       *       *     *   *     *  *    *   *   *  *   *    *   *    *
---  *       *       *     *   *     *  *    *   *   * **   *   *    *    *
---  *       **       *    *   **   *   **   *   *    **    *  *     *   *
--- **        ****     **  *    ****     *****   *    **    ***      *   *
---                                          *        *     *
---                                          *        *     *
---                                          *       *      *
---                                      *  *        *      *
---                                      ****       *       *
---
---/////////////////////////////////////////////////////////////////////////////////////////////////
--- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
---/////////////////////////////////////////////////////////////////////////////////////////////////
---
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua $
---
---    Original Author: James Yarrow
---
---            $Author: James_Yarrow $
---
---            $Change: 54441 $
---
---          $DateTime: 2006/09/13 15:08:39 $
---
---          $Revision: #5 $
---
---/////////////////////////////////////////////////////////////////////////////////////////////////
-
 require("pgevents")
 
 
@@ -49,11 +8,15 @@ function Definitions()
 	TaskForce = {
 		{
 		"ReserveForce"
-		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade | RS_Level_Six_Starbase_Upgrade = 0,1"
-		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade | ES_Level_Six_Starbase_Upgrade = 0,1"
-		,"Fighter | Bomber = 0,1"
-		,"Corvette | Frigate = 1,4"
-		,"Capital | Super | SpaceHero = 0,2"
+		,"SpaceHero = 0,1"
+		,"Dreadnought = 0,1"
+		,"Capital = 0,3"
+		,"Frigate = 0,3"
+		,"Corvette = 0,3"
+		,"AntiFighter = 0,1"
+		,"Fighter | Bomber = 0,5"
+		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
+		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
 		}
 	}
 	RequiredCategories = {"Corvette | Frigate | Capital"}
@@ -69,20 +32,16 @@ function ReserveForce_Thread()
 		
 	-- Give some time to accumulate money.
 	tech_level = PlayerObject.Get_Tech_Level()
-	min_credits = 15000
+	min_credits = 5000
 	max_sleep_seconds = 15
 	if tech_level == 2 then
-		min_credits = 20000
-		max_sleep_seconds = 20
+		min_credits = 7500
 	elseif tech_level == 3 then
-		min_credits = 25000
-		max_sleep_seconds = 15
+		min_credits = 10000
 	elseif tech_level == 4 then
-		min_credits = 35000
-		max_sleep_seconds = 15
+		min_credits = 15000
 	elseif tech_level == 5 then
-		min_credits = 40000
-		max_sleep_seconds = 15
+		min_credits = 20000
 	end
 	
 	current_sleep_seconds = 0

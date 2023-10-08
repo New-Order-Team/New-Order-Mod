@@ -247,7 +247,7 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 	-- all units but Interdictors try to maneuver against artillery and turbolasers
 	-- Interdictors should use missile shield instead
     -- if unit.Get_Type() ~= Find_Object_Type("Interdictor_Cruiser") then
-	lib_issued_movement_response = Respond_To_MinRange_Attacks(tf, unit)
+	-- lib_issued_movement_response = Respond_To_MinRange_Attacks(tf, unit)
 	-- end
 		
 	if Should_Crush(unit, attacker) then
@@ -278,6 +278,7 @@ function Default_Unit_Damaged(tf, unit, attacker, deliberate)
 	if lib_shield_level < 0.2 then
 		lib_ability_activated = Try_Ability(unit, "INVULNERABILITY")
 	end
+	
 	-- [Sudno]: DEFEND works differently in New Order
 	if (not lib_ability_activated) and (lib_shield_level < 0.1) then
 		lib_ability_activated = Try_Ability(unit, "DEFEND")

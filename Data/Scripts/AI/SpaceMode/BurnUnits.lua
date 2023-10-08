@@ -1,44 +1,3 @@
--- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/BurnUnits.lua#6 $
---/////////////////////////////////////////////////////////////////////////////////////////////////
---
--- (C) Petroglyph Games, Inc.
---
---
---  *****           **                          *                   *
---  *   **          *                           *                   *
---  *    *          *                           *                   *
---  *    *          *     *                 *   *          *        *
---  *   *     *** ******  * **  ****      ***   * *      * *****    * ***
---  *  **    *  *   *     **   *   **   **  *   *  *    * **   **   **   *
---  ***     *****   *     *   *     *  *    *   *  *   **  *    *   *    *
---  *       *       *     *   *     *  *    *   *   *  *   *    *   *    *
---  *       *       *     *   *     *  *    *   *   * **   *   *    *    *
---  *       **       *    *   **   *   **   *   *    **    *  *     *   *
--- **        ****     **  *    ****     *****   *    **    ***      *   *
---                                          *        *     *
---                                          *        *     *
---                                          *       *      *
---                                      *  *        *      *
---                                      ****       *       *
---
---/////////////////////////////////////////////////////////////////////////////////////////////////
--- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
---/////////////////////////////////////////////////////////////////////////////////////////////////
---
---              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/SpaceMode/BurnUnits.lua $
---
---    Original Author: Steve_Copeland
---
---            $Author: James_Yarrow $
---
---            $Change: 56734 $
---
---          $DateTime: 2006/10/24 14:15:48 $
---
---          $Revision: #6 $
---
---/////////////////////////////////////////////////////////////////////////////////////////////////
-
 require("pgevents")
 
 function Definitions()
@@ -59,16 +18,20 @@ end
 function MainForce_Thread()
 
 	-- Cheat to wrap the game up if this is a firesale
+	if (EvaluatePerception("Should_Firesale_Space", PlayerObject) == nil) then
+		ScriptExit()
+	end
+	
 	if (EvaluatePerception("Should_Firesale_Space", PlayerObject) > 0) then
 		reveal_ai = FogOfWar.Reveal_All(PlayerObject)
 		MainForce.Set_As_Goal_System_Removable(false)
 		
 		-- We're now also revealing FOW here for the human player (was previously handled by a hard-coded system)
 		-- Make sure that there isn't a scripted scenario underway that doesn't want automatic FOW reveals
-		if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or
-						(GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
-			reveal_human = FogOfWar.Reveal_All(Find_Player("local"))
-		end
+		-- if Is_Multiplayer_Mode() == false and ((EvaluatePerception("Is_Skirmish_Mode", PlayerObject) == 1) or
+		-- 				(GlobalValue.Get("Allow_AI_Controlled_Fog_Reveal") == 1)) then
+		-- 	reveal_human = FogOfWar.Reveal_All(Find_Player("local"))
+		-- end
 	end
 
 	-- Do this at least once (it may just be an attempt to burn off extra units, rather than a firesale)
@@ -82,12 +45,12 @@ function MainForce_Thread()
 		-- Use all idle units, mapwide
 		MainForce.Collect_All_Free_Units()	
 	
-		target = Find_Nearest(MainForce, "IsInterdictor", PlayerObject, false)
+		target = Find_Nearest(MainForce, "SpaceStructure", PlayerObject, false)
 		if target == nil then
-			target = Find_Nearest(MainForce, "SpaceStructure | Capital | Dreadnought", PlayerObject, false)
+			target = Find_Nearest(MainForce, "Capital | Dreadnought", PlayerObject, false)
 			if target == nil then
 				target = Find_Nearest(MainForce, PlayerObject, false)
-			end	
+			end
 		end
 	
 		while TestValid(target) do

@@ -43,20 +43,89 @@ require("pgevents")
 
 --
 -- Plan for corvettes to exploit their turbo or power to weapons abilities in a quick strike on a vulnerable unit.
+-- [Sudno]: Plan for fast units to exploit their speed and/or alpha-strike abilities in a quick strike on a vulnerable unit.
 --
 
-
-function Definitions()	
-	Category = "AlwaysOff"
+function Definitions()
+	DebugMessage("%s -- In Definitions", tostring(Script))
+	
+	Category = "Turbo_Attack_Unit"
 	TaskForce = {
+	-- First Task Force
 	{
-		"ReserveForce"
+		"MainForce"
 		,"DenyHeroAttach"
-		,"TaskForceRequired"
+		,"Customs_Corvette | Raider_I_Corvette | Carrack_Cruiser = 1, 10"
+		,"Corellian_Corvette | Corellian_Gunboat | Agave_Corvette | Warrior_Gunship | MC30_Frigate = 1, 10"
 	}
 	}
+	
+	IgnoreTarget = true
+	AllowEngagedUnits = true
+
+	needs_turbo = false
+
+	DebugMessage("%s -- Done Definitions", tostring(Script))
 end
 
-function ReserveForce_Thread()		
+function MainForce_Thread()
+	BlockOnCommand(MainForce.Produce_Force());
+	
+	QuickReinforce(PlayerObject, AITarget, MainForce)
+		
+	MainForce.Enable_Attack_Positioning(false)
+	
+	-- Move into position while avoiding threat and without stopping for attacks on the way
+	needs_turbo = true
+	Try_Ability(MainForce, "TURBO")
+	BlockOnCommand(MainForce.Move_To(AITarget, 10, "ASTEROID"))
+	MainForce.Activate_Ability("TURBO", false)
+	needs_turbo = false
+
+	-- Nah, let attack location plans steal units away 
+	-- MainForce.Set_As_Goal_System_Removable(false)
+
+	-- Make a tactical strike on one particular unit (and verify that there's still a good target here).
+	enemy = FindTarget(MainForce, "Good_Turbo_Attack_Unit_Opportunity", "Enemy_Unit", 1.0)
+	if TestValid(enemy) then
+		BlockOnCommand(MainForce.Attack_Target(enemy, 10, "ASTEROID"), 10) -- Timeout after 10 seconds.
+	end	
+	
+	-- Try to flee to a safe spot after the tactical strike
+	escape_loc = FindTarget(MainForce, "Space_Area_Is_Hidden", "Tactical_Location", 1.0, 5000.0)
+	if escape_loc then
+		needs_turbo = true 
+		MainForce.Activate_Ability("Turbo", true)
+		BlockOnCommand(MainForce.Move_To(escape_loc, 10, "ASTEROID"))
+	end
+
 	ScriptExit()
+end
+
+-- Make sure that units don't sit idle at the end of their move order, waiting for others
+function MainForce_Unit_Move_Finished(tf, unit)
+
+	if Attacking and not unit.Has_Attack_Target() then
+		DebugMessage("%s -- %s reached end of move, giving new order", tostring(Script), tostring(unit))
+	
+		-- Assist the tf with whatever is holding it up
+		kill_target = FindDeadlyEnemy(tf)
+		if TestValid(kill_target) then
+			unit.Attack_Target(kill_target)
+		else
+			unit.Attack_Move(tf)
+		end
+	end
+end
+
+-- Try to recover use of turbo or power to weapons if it was lost while we were trying to use it.
+function MainForce_Unit_Ability_Ready(tf, unit, ability)
+
+	--MessageBox("%s -- Recovering %s for %s!", tostring(Script), ability, tostring(unit))
+	if ability == "Turbo" and needs_turbo then
+		unit.Activate_Ability("Turbo", true)
+	end
+	
+	-- Default handler behavior is still desired
+	Default_Unit_Ability_Ready(tf, unit, ability)
 end

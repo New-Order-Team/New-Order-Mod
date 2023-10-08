@@ -77,7 +77,7 @@ function ReserveForce_Thread()
 		min_credits = 2000
 	end
 	
-	max_sleep_seconds = 60
+	max_sleep_seconds = 30
 	current_sleep_seconds = 0
 	while (PlayerObject.Get_Credits() < min_credits) and (current_sleep_seconds < max_sleep_seconds) do
 		current_sleep_seconds = current_sleep_seconds + 1

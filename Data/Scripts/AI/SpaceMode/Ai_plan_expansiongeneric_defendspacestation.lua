@@ -1,4 +1,3 @@
-
 require("pgevents")
 
 function Definitions()
@@ -11,38 +10,35 @@ function Definitions()
 		"MainForce"
 		, "TaskForceRequired"
 		, "DenySpecialWeaponAttach"
-		,"AntiFighter = 0,8"
-		,"Frigate = 0,4"
-		,"Capital = 0,2"
 	}
 	}
-	
-	DebugMessage("%s -- Done Definitions", tostring(Script))
+
 end
 
 function MainForce_Thread()
 
 	focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital | Dreadnought", PlayerObject, false)
 	
-	BlockOnCommand(MainForce.Produce_Force())
-	QuickReinforce(PlayerObject, AITarget, MainForce)
-	MainForce.Set_As_Goal_System_Removable(false)
-	MainForce.Set_Plan_Result(true)
+	while TestValid(focus_fire_on_target) do
+		-- Cancel all goals
+		--Purge_Goals(PlayerObject)
+		
+		Sleep(1)
+		
+		-- Use all idle units, mapwide
+		MainForce.Collect_All_Free_Units()	
+		
+		while TestValid(focus_fire_on_target) do
+			MainForce.Collect_All_Free_Units()
+			BlockOnCommand(MainForce.Attack_Target(focus_fire_on_target), 5)
+		end
 	
-	repeat
-		MainForce.Collect_All_Free_Units()
-		BlockOnCommand(MainForce.Attack_Target(focus_fire_on_target), 15)
-	
-		Sleep(5)
+		Sleep(1)
+		MainForce.Set_Plan_Result(true)
 		
 		focus_fire_on_target = Find_Nearest(Target, "Frigate | Capital | Dreadnought", PlayerObject, false)
-	until (not TestValid(focus_fire_on_target) or MainForce.Get_Distance(focus_fire_on_target) > 4000)
 	
-	DebugMessage("%s -- station threats destroyed, exiting", tostring(Script))
-	MainForce.Set_As_Goal_System_Removable(true)
-	MainForce.Set_Plan_Result(true)
-	MainForce.Release_Forces(1.0)
-	ScriptExit()	
+	end
 end
 
 function MainForce_Unit_Damaged(tf, unit, attacker, deliberate)
