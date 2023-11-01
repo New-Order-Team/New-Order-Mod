@@ -88,12 +88,6 @@
 		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
@@ -102,19 +96,20 @@
 		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Imperial_Command_Center </Starting_Forces>
-		<Starting_Forces> Empire, Lianna_OSF, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Desevro_OSF, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Desevro_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, E_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Empire, Desevro_OSF, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
-		<Starting_Forces> Empire, Raxus_Prime_OSF, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Raxus_Prime_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Raxus_Prime_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Omman_OSF, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Omman_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, Communications_Array_E </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, Army_Trooper_Platoon </Starting_Forces>
@@ -221,16 +216,34 @@
 		<Max_Tech_Level> Empire, 1 </Max_Tech_Level>
 		
 		<Starting_Forces> Empire, Lianna_OSF, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Nebulon_B_Frigate_E </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, E_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Empire, Lianna_OSF, Imperial_Command_Center </Starting_Forces>
 		<Starting_Forces> Empire, Lianna_OSF, Army_Trooper_Platoon </Starting_Forces>
+		
 		<Starting_Forces> Empire, Desevro_OSF, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Desevro_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Desevro_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Desevro_OSF, Army_Trooper_Platoon </Starting_Forces>
+		
 		<Starting_Forces> Empire, Raxus_Prime_OSF, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, Customs_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Raxus_Prime_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Raxus_Prime_OSF, Army_Trooper_Platoon </Starting_Forces>
 		
 		<Starting_Forces> Empire, Omman_OSF, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Omman_OSF, Army_Trooper_Platoon </Starting_Forces>
+		<Starting_Forces> Empire, Omman_OSF, Customs_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Omman_OSF, Communications_Array_E </Starting_Forces>
+		<Starting_Forces> Empire, Omman_OSF, Army_Trooper_Platoon </Starting_Forces>
 				
 		<!-- Rebel Starting Forces -->
 
@@ -239,12 +252,28 @@
 		<Max_Tech_Level> Rebel, 0 </Max_Tech_Level>
 		
 		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Rudrig_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Rudrig_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Rudrig_OSF, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Rudrig_OSF, Rebel_Infantry_Squad </Starting_Forces>
+		
 		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brigia_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Brigia_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Brigia_OSF, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Brigia_OSF, Rebel_Infantry_Squad </Starting_Forces>
+		
 		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dellalt_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Dellalt_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Dellalt_OSF, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Dellalt_OSF, Rebel_Infantry_Squad </Starting_Forces>
+		
 		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Command_Center </Starting_Forces>
 		<Starting_Forces> Rebel, Orion_IV_OSF, Rebel_Infantry_Squad </Starting_Forces>
 
 	</Campaign>

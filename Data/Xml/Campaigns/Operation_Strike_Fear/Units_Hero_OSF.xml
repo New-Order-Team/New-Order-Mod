@@ -12,31 +12,7 @@
         <Ranking_In_Category>1</Ranking_In_Category>
 		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-		
-		<HardPoints>
-			HP_ISD_I_00,
-			HP_ISD_I_01,
-			HP_ISD_I_02,
-			HP_ISD_I_03,
-			HP_ISD_I_04,
-			HP_ISD_I_05,
-			HP_ISD_I_06,
-			HP_ISD_I_07,
-			HP_ISD_I_08,
-			HP_ISD_I_09,
-			HP_ISD_I_10,
-			HP_ISD_I_11,
-			HP_ISD_I_100,
-			HP_ISD_I_101,
-			HP_ISD_I_102,
-			HP_ISD_I_103,
-			HP_ISD_I_104,
-			HP_ISD_I_105,
-			HP_ISD_I_106,
-			HP_ISD_I_107,
-			HP_ISD_I_Fighter_Bay,
-			HP_ISD_I_Tractor_Beam
-		</HardPoints>
+		<AI_Combat_Power>5000</AI_Combat_Power>
 	</UniqueUnit>
 	
 	<!-- Alliance: Red Squadron under Keyan Farlander -->

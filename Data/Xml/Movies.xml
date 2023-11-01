@@ -495,19 +495,4 @@
         <Alpha>true</Alpha>
 		<Pause_Game_While_Playing>true</Pause_Game_While_Playing>
 	</Movie>
-
-
-
-
-	
-	<Movie Name="Campaign_Intro_OSF">
-		<Movie_File>Data\Art\Movies\Binked\Text_Scroll_Intro_Music.bik</Movie_File>
-		<Text_Crawl_Name>OSF_Text_Crawl</Text_Crawl_Name>
-		<Text_Crawl_Start_Frame>250</Text_Crawl_Start_Frame>
-        <Has_Credits>false</Has_Credits>
-        <Alpha>false</Alpha>
-		<Pause_Game_While_Playing>true</Pause_Game_While_Playing>
-	</Movie>
-
-
 </Movies>
