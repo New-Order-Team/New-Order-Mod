@@ -99,7 +99,7 @@ function Try_Missile_Salvo()
 			DebugMessage("Has_Attack_Target")
 			target = Object.Get_Attack_Target()
 			DebugMessage("Attacking %s %s %s", tostring(target), tostring(target.Get_Hull()), tostring(target.Get_Shield()))
-			if (target.Is_Category("Structure") or target.Is_Category("Frigate") or target.Is_Category("Capital") or target.Is_Category("Super")) and target.Get_Shield() < 0.1 then
+			if (target.Is_Category("SpaceStructure") or target.Is_Category("Frigate") or target.Is_Category("Capital") or target.Is_Category("Dreadnought")) and target.Get_Shield() < 0.1 then
 				Try_Ability(Object, ability_name)
 				if TestValid(target) then
 					Object.Attack_Target(target)

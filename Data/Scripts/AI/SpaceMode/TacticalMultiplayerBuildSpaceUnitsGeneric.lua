@@ -7,19 +7,19 @@ function Definitions()
 	IgnoreTarget = true
 	TaskForce = {
 		{
-		"ReserveForce"
-		,"SpaceHero = 0,1"
-		,"Dreadnought = 0,1"
-		,"Capital = 0,3"
-		,"Frigate = 0,3"
-		,"Corvette = 0,3"
-		,"AntiFighter = 0,1"
-		,"Fighter | Bomber = 0,5"
-		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
-		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
+			"ReserveForce"
+			,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
+			,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
+			,"Fighter | Bomber = 0,5"
+			,"Corvette = 0,3"
+			,"Frigate = 0,3"
+			,"Capital = 0,3"
+			,"Dreadnought = 0,1"
+			,"SpaceHero = 0,1"
+			,"AntiFighter = 0,1"
 		}
 	}
-	RequiredCategories = {"Corvette | Frigate | Capital"}
+	RequiredCategories = {"Corvette | Frigate | Capital | SpaceHero | Upgrade"}
 	AllowFreeStoreUnits = false
 
 end
