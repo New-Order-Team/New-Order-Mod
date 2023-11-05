@@ -4,11 +4,11 @@
 		
 		<Text_ID>TEXT_UNIT_DEFENDER_CARRIER</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_DEFENDER_CARRIER_DESC TEXT_EMPTY TEXT_UNIT_DEFENDER_CARRIER_INFO_1 TEXT_UNIT_DEFENDER_CARRIER_INFO_2 TEXT_UNIT_DEFENDER_CARRIER_INFO_3 TEXT_UNIT_DEFENDER_CARRIER_INFO_4 TEXT_WEAPONS TEXT_UNIT_DEFENDER_CARRIER_W_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_HEAVY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_CARRIER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_defender_carrier.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Majestic.ALO</Space_Model_Name>
-		<Scale_Factor>0.34</Scale_Factor>
+		<Scale_Factor>0.423</Scale_Factor>
 		
 		<Select_Box_Scale>300.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -27,16 +27,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>10.0</Build_Time_Seconds>
-		<Build_Cost_Credits>940.0</Build_Cost_Credits>
+		<Build_Time_Seconds>13.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1310.0</Build_Cost_Credits>
 		<Population_Value>6.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>940.0</AI_Combat_Power>
-		<Score_Cost_Credits>95.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>940.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>940.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1310.0</AI_Combat_Power>
+		<Score_Cost_Credits>87.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1310.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1310.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>38000.0</Autoresolve_Health>
@@ -59,9 +59,9 @@
 		
 		<Armor_Type>Armor_Space_A6</Armor_Type>
 		<Tactical_Health>38000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>24250.0</Shield_Points>
-		<Shield_Refresh_Rate>1010.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>202.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1200.0</Energy_Refresh_Rate>
 		
@@ -86,7 +86,7 @@
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>MediumAvoidCombat</Targeting_Priority_Set>
+		<Targeting_Priority_Set>LightAvoidCombat</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -124,8 +124,8 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>940.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1310.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

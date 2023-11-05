@@ -8,7 +8,7 @@
 		<Icon_Name>i_button_mc90_cruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Mc90.ALO</Space_Model_Name>
-		<Scale_Factor>0.233</Scale_Factor>
+		<Scale_Factor>0.338</Scale_Factor>
 		
 		<Select_Box_Scale>628.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -16,7 +16,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>12</Ranking_In_Category>
-		<CategoryMask>Capital | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Capital | AntiCapital | AntiDreadnought</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>Capital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -26,16 +26,16 @@
 		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>51.0</Build_Time_Seconds>
-		<Build_Cost_Credits>7990.0</Build_Cost_Credits>
+		<Build_Time_Seconds>53.0</Build_Time_Seconds>
+		<Build_Cost_Credits>8330.0</Build_Cost_Credits>
 		<Population_Value>17.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>7990.0</AI_Combat_Power>
-		<Score_Cost_Credits>717.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>7990.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>7990.0</Piracy_Value_Credits>
+		<AI_Combat_Power>8330.0</AI_Combat_Power>
+		<Score_Cost_Credits>534.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>8330.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>8330.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>82500.0</Autoresolve_Health>
@@ -58,9 +58,9 @@
 		
 		<Armor_Type>Armor_Space_A11</Armor_Type>
 		<Tactical_Health>82500.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>90000.0</Shield_Points>
-		<Shield_Refresh_Rate>3750.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>750.0</Shield_Refresh_Rate>
 		<Energy_Capacity>25000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>5000.0</Energy_Refresh_Rate>
 		
@@ -82,12 +82,12 @@
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>3100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>HeavyBattleship</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -185,6 +185,10 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		
 		<Starting_Spawned_Units_Tech_3>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>X_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		
@@ -198,8 +202,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>7990.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>51.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>8330.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>53.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -207,6 +211,7 @@
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>1</Expiration_Seconds>
 				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.01f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>

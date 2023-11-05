@@ -250,8 +250,8 @@
 
 	<!-- Shields and Power Recharge -->
 
-	<ShieldRechargeIntervalInSecs>5.0</ShieldRechargeIntervalInSecs>
-	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
+	<ShieldRechargeIntervalInSecs>1.0</ShieldRechargeIntervalInSecs>
+	<EnergyRechargeIntervalInSecs>1.0</EnergyRechargeIntervalInSecs>
 	<EnergyToShieldExchangeRate>0.5</EnergyToShieldExchangeRate>
 
 	
@@ -945,9 +945,11 @@
 		Damage_TBL19,
 		Damage_TBL20,
 		Damage_SFQ4,
-		Damage_KDO8,
+		Damage_KDO,
 		Damage_ION,
-		Damage_CML,
+		Damage_CML4,
+		Damage_CML8,
+		Damage_CML12,
 		Damage_PTL,
 		
 		<!-- Land -->
@@ -2673,14 +2675,14 @@
 	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A6, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A7, 0.6  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A8, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A9, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A10, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A11, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A13, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A14, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A15, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A16, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A9, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A10, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A11, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A12, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A13, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL5, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2692,13 +2694,13 @@
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A7, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A8, 0.6  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A9, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A10, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A11, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A13, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A14, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A15, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A16, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A10, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A11, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A12, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A13, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL6, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2711,12 +2713,12 @@
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A8, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A9, 0.6  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A10, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A11, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A13, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A14, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A15, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A16, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A11, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A12, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A13, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL7, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2730,11 +2732,11 @@
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A9, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A10, 0.6  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A11, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A13, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A14, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A15, 0.4  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A16, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A12, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A13, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL8, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2748,11 +2750,11 @@
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A9, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A10, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A11, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A12, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A13, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A14, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A15, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A16, 0.6  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A13, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL9, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2767,10 +2769,10 @@
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A10, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A11, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A12, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A13, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A14, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A15, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A16, 0.6  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A13, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A14, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL10, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2786,9 +2788,9 @@
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A11, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A12, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A13, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A14, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A15, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A16, 0.6  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A14, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A15, 0.2  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL11, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2805,8 +2807,8 @@
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A12, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A13, 0.8  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A14, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A15, 0.6  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A16, 0.6  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A15, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL12, Armor_Space_A16, 0.2  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2823,8 +2825,8 @@
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A12, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A13, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A14, 0.8  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A15, 0.8  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A16, 0.8  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A15, 0.6  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL13, Armor_Space_A16, 0.4  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2842,7 +2844,7 @@
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A13, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A14, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A15, 0.8  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A16, 0.8  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_TBL14, Armor_Space_A16, 0.6  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL15, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL15, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL15, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -2957,36 +2959,36 @@
 	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A5, 0.84  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A6, 0.68  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A7, 0.51  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A8, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A9, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A10, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A11, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A12, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A13, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A14, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A15, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A16, 0.35  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A5, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A6, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A7, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A8, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A9, 0.75  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A10, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A11, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A12, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A13, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A14, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A15, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_KDO8, Armor_Space_A16, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A5, 0.7  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A6, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A7, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A8, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A9, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A10, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A11, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A12, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A13, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A14, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A15, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_SFQ4, Armor_Space_A16, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_S, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A5, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A6, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A7, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A8, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A9, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A10, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A11, 0.7  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A12, 0.4  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A13, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A14, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A15, 0.1  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_KDO, Armor_Space_A16, 0.1  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_S, 2.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_F, 0.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_A1, 0.0  </Damage_To_Armor_Mod>
@@ -3005,24 +3007,60 @@
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_A14, 0.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_A15, 0.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION, Armor_Space_A16, 0.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_S, 0.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A5, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A6, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A7, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A8, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A9, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A10, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A11, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A12, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A13, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A14, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A15, 1.0  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_CML, Armor_Space_A16, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_S, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A5, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A6, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A7, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A8, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A9, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A10, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A11, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A12, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A13, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A14, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A15, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML4, Armor_Space_A16, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_S, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A5, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A6, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A7, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A8, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A9, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A10, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A11, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A12, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A13, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A14, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A15, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML8, Armor_Space_A16, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_S, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A2, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A3, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A4, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A5, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A6, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A7, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A8, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A9, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A10, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A11, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A12, 1.0  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A13, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A14, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A15, 0.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_CML12, Armor_Space_A16, 0.5  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_PTL, Armor_Space_S, 0.5  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_PTL, Armor_Space_F, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_PTL, Armor_Space_A1, 1.0  </Damage_To_Armor_Mod>
@@ -3115,7 +3153,7 @@
 	
 	<!-- Gameplay option defaults -->
 		
-	<MP_Default_Credits>										6000		</MP_Default_Credits>
+	<MP_Default_Credits>										5000		</MP_Default_Credits>
 	<MP_Default_Start_Tech_Level>							1			</MP_Default_Start_Tech_Level>
 	<MP_Default_Max_Tech_Level>							5			</MP_Default_Max_Tech_Level>
 	
@@ -3420,7 +3458,7 @@
 	<Default_Bounty_By_Category_SP>Frigate, 750</Default_Bounty_By_Category_SP>
 	<Default_Bounty_By_Category_SP>Capital, 2000</Default_Bounty_By_Category_SP>
 	<Default_Bounty_By_Category_SP>Dreadnought, 5000</Default_Bounty_By_Category_SP>
-	<Default_Bounty_By_Category_SP>SLS_Fighter, 5000</Default_Bounty_By_Category_SP>
+	<Default_Bounty_By_Category_SP>FighterHero, 5000</Default_Bounty_By_Category_SP>
 	<Default_Bounty_By_Category_SP>SpaceHero, 5000</Default_Bounty_By_Category_SP>
 	<Default_Bounty_By_Category_SP>LandHero, 5000</Default_Bounty_By_Category_SP>
 
@@ -3434,7 +3472,7 @@
 	<Default_Bounty_By_Category_MP>Frigate, 750</Default_Bounty_By_Category_MP>
 	<Default_Bounty_By_Category_MP>Capital, 2000</Default_Bounty_By_Category_MP>
 	<Default_Bounty_By_Category_MP>Dreadnought, 5000</Default_Bounty_By_Category_MP>
-	<Default_Bounty_By_Category_MP>SLS_Fighter, 5000</Default_Bounty_By_Category_MP>
+	<Default_Bounty_By_Category_MP>FighterHero, 5000</Default_Bounty_By_Category_MP>
 	<Default_Bounty_By_Category_MP>SpaceHero, 5000</Default_Bounty_By_Category_MP>
 	<Default_Bounty_By_Category_MP>LandHero, 5000</Default_Bounty_By_Category_MP>
 

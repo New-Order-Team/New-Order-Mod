@@ -19,7 +19,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>17</Ranking_In_Category>
-		<CategoryMask>Corvette | AntiFighter  | AntiCorvette</CategoryMask>
+		<CategoryMask>Corvette | AntiCorvette</CategoryMask>
 		<Property_Flags>IsKiter</Property_Flags>
 		<Ship_Class>corvette</Ship_Class>
 		<Space_Layer>Corvette</Space_Layer>
@@ -30,16 +30,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>380.0</Build_Cost_Credits>
+		<Build_Time_Seconds>8.0</Build_Time_Seconds>
+		<Build_Cost_Credits>450.0</Build_Cost_Credits>
 		<Population_Value>2.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>380.0</AI_Combat_Power>
-		<Score_Cost_Credits>38.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>380.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>380.0</Piracy_Value_Credits>
+		<AI_Combat_Power>450.0</AI_Combat_Power>
+		<Score_Cost_Credits>30.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>450.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>450.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -62,9 +62,9 @@
 		
 		<Armor_Type>Armor_Space_A2</Armor_Type>
 		<Tactical_Health>10000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>10000.0</Shield_Points>
-		<Shield_Refresh_Rate>417.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>83.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1350.0</Energy_Capacity>
 		<Energy_Refresh_Rate>270.0</Energy_Refresh_Rate>
 		
@@ -84,7 +84,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
@@ -101,6 +101,9 @@
 			HP_Warrior_Gunship_5,
 			HP_Warrior_Gunship_6,
 			HP_Warrior_Gunship_7,
+			HP_Warrior_Gunship_8,
+			HP_Warrior_Gunship_9,
+			HP_Warrior_Gunship_10,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Gunboat</SFXEvent_Select>
@@ -157,8 +160,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>380.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>450.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

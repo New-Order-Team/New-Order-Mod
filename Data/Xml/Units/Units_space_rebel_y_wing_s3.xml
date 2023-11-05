@@ -18,7 +18,7 @@
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Bomber | AntiFrigate | AntiCapital | AntiDreadnought</CategoryMask>
 		<Ship_Class>bomber</Ship_Class>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>No</Is_Escort>
@@ -53,9 +53,9 @@
 		
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>28.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>45.0</Shield_Points>
-		<Shield_Refresh_Rate>2.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.4</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
 		<Energy_Refresh_Rate>360.0</Energy_Refresh_Rate>
 		
@@ -136,7 +136,7 @@
 		<Icon_Name>i_button_y_wing_s3.tga</Icon_Name>
 		
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Bomber | AntiFrigate | AntiCapital | AntiDreadnought</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
@@ -144,14 +144,14 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>570.0</Build_Cost_Credits>
+		<Build_Time_Seconds>7.0</Build_Time_Seconds>
+		<Build_Cost_Credits>260.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>570.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>570.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>570.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>260.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>260.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>260.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>336.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -186,8 +186,8 @@
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>570.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>260.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

@@ -19,13 +19,13 @@
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Bomber | AntiCapital</CategoryMask>
 		<Ship_Class>bomber</Ship_Class>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
 		
-		<Tech_Level>1.0</Tech_Level>
+		<Tech_Level>99.0</Tech_Level>
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>39.0</AI_Combat_Power>
@@ -68,7 +68,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
@@ -133,22 +133,22 @@
 		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Bomber | AntiCapital</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>No</Is_Escort>
 		<Is_Bomber>Yes</Is_Bomber>
 		
-		<Tech_Level>1.0</Tech_Level>
+		<Tech_Level>99.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>470.0</Build_Cost_Credits>
+		<Build_Time_Seconds>6.0</Build_Time_Seconds>
+		<Build_Cost_Credits>170.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>470.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>470.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>470.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>170.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>170.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>170.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>312.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -183,8 +183,8 @@
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>470.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>170.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

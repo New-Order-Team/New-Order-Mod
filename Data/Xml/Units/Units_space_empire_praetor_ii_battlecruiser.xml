@@ -8,7 +8,7 @@
 		<Icon_Name>i_button_praetor_ii_battlecruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>ev_Praetor_MkII.ALO</Space_Model_Name>
-		<Scale_Factor>5.9769</Scale_Factor>
+		<Scale_Factor>8.7</Scale_Factor>
 		
 		<Select_Box_Scale>2400.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -16,7 +16,7 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category>11</Ranking_In_Category>
-		<CategoryMask>Dreadnought | AntiCapital</CategoryMask>
+		<CategoryMask>Dreadnought | AntiDreadnought</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>SuperCapital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -26,16 +26,16 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>274.0</Build_Time_Seconds>
-		<Build_Cost_Credits>46610.0</Build_Cost_Credits>
+		<Build_Time_Seconds>268.0</Build_Time_Seconds>
+		<Build_Cost_Credits>45570.0</Build_Cost_Credits>
 		<Population_Value>90.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>46610.0</AI_Combat_Power>
-		<Score_Cost_Credits>4721.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>46610.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>46610.0</Piracy_Value_Credits>
+		<AI_Combat_Power>45570.0</AI_Combat_Power>
+		<Score_Cost_Credits>3032.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>45570.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>45570.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>450000.0</Autoresolve_Health>
@@ -58,9 +58,9 @@
 		
 		<Armor_Type>Armor_Space_A14</Armor_Type>
 		<Tactical_Health>450000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>450000.0</Shield_Points>
-		<Shield_Refresh_Rate>18750.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>3750.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>36000.0</Energy_Refresh_Rate>
 		
@@ -85,7 +85,7 @@
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>Battlecruiser</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -173,8 +173,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>46610.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>274.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>45570.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>268.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

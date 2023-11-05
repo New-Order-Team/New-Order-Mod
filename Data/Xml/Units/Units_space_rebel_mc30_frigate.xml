@@ -4,22 +4,22 @@
 		
 		<Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_MC30_FRIGATE_DESC TEXT_EMPTY TEXT_UNIT_MC30_FRIGATE_INFO_1 TEXT_UNIT_MC30_FRIGATE_INFO_2 TEXT_UNIT_MC30_FRIGATE_INFO_3 TEXT_UNIT_MC30_FRIGATE_INFO_4 TEXT_WEAPONS TEXT_UNIT_MC30_FRIGATE_W_1 TEXT_UNIT_MC30_FRIGATE_W_2 TEXT_UNIT_MC30_FRIGATE_W_3 TEXT_UNIT_MC30_FRIGATE_W_4</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_LIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_TORPEDO</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc30_frigate.tga</Icon_Name>
 		
 		<Space_Model_Name>RV_MC30CMONCAL.ALO</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>0.348</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
-		<Select_Box_Scale>190.0</Select_Box_Scale>
+		<Select_Box_Scale>290.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>15</Ranking_In_Category>
-		<CategoryMask>Frigate | AntiCapital</CategoryMask>
+		<CategoryMask>Frigate | AntiCapital | AntiDreadnought</CategoryMask>
 		<Property_Flags>IsKiter</Property_Flags>
 		<Ship_Class>frigate</Ship_Class>
 		<Space_Layer>Frigate</Space_Layer>
@@ -30,16 +30,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>18.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2170.0</Build_Cost_Credits>
+		<Build_Time_Seconds>17.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2110.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2170.0</AI_Combat_Power>
-		<Score_Cost_Credits>220.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2170.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2170.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2110.0</AI_Combat_Power>
+		<Score_Cost_Credits>140.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2110.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2110.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -63,9 +63,9 @@
 		
 		<Armor_Type>Armor_Space_A4</Armor_Type>
 		<Tactical_Health>20000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>22750.0</Shield_Points>
-		<Shield_Refresh_Rate>948.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>190.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
 		<Energy_Refresh_Rate>550.0</Energy_Refresh_Rate>
 		
@@ -86,7 +86,7 @@
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1125.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -177,8 +177,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>2170.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>18.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2110.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -186,6 +186,7 @@
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>1</Expiration_Seconds>
 				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.01f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>

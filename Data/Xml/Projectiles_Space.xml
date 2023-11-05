@@ -14,12 +14,12 @@
 		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_Default</Damage_Type>
-		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>120.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>75.0</Projectile_Energy_Per_Shot>
 		
 		<AI_Combat_Power>0.0</AI_Combat_Power>
 	</Projectile>
@@ -38,7 +38,7 @@
 		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_Default</Damage_Type>
-		<Projectile_Damage>900000.0</Projectile_Damage>
+		<Projectile_Damage>0.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -48,7 +48,7 @@
 		<AI_Combat_Power>500000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_HLC_G_Single_20">
+	<Projectile Name="Proj_Space_Laser_HLC_G_Single_10">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x0.alo</Space_Model_Name>
@@ -64,64 +64,28 @@
 		<Projectile_Max_Flight_Distance>550.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_HLC</Damage_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Damage>10.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>20.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>10.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_HLC_R_Single_30">
+	<Projectile Name="Proj_Space_Laser_HLC_G_Single_30">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_HLC</Damage_Type>
-		<Projectile_Damage>30.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>30.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_HLC_R_Single_40">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_HLC</Damage_Type>
-		<Projectile_Damage>40.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>4.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>40.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_HLC_R_Single_50">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>proj_space_laser_g_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -133,18 +97,28 @@
 		<Projectile_Max_Flight_Distance>880.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_HLC</Damage_Type>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>5.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>50.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>30.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Dual_3900">
+	<Projectile Name="Proj_Space_Laser_HLC_R_Single_20">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -153,21 +127,97 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_HLC</Damage_Type>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>20.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_HLC_R_Single_30">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>880.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_HLC</Damage_Type>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>30.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_ION_I_Dual_2000">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_dual_x12.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>3900.0</Projectile_Damage>
+		<Projectile_Damage>2000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>390.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>200.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_ION_I_Single_10">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -186,11 +236,54 @@
 		
 		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>10.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_ION_I_Single_100">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_single_x3.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_ION</Damage_Type>
+		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>10.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>100.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_ION_I_Single_15">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -209,42 +302,21 @@
 		
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>15.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Single_210">
+	<Projectile Name="Proj_Space_Laser_ION_I_Single_20">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_laser_i_single_x3.alo</Space_Model_Name>
+		<Space_Model_Name>proj_space_laser_i_single_x0.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1430.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>210.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>21.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>210.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_ION_I_Single_40">
-		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Behavior>
 			PROJECTILE,
@@ -256,18 +328,28 @@
 		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>40.0</Projectile_Damage>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>4.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>40.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>20.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Single_480">
+	<Projectile Name="Proj_Space_Laser_ION_I_Single_270">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_single_x5.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -276,20 +358,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>480.00000000000006</Projectile_Damage>
+		<Projectile_Damage>270.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>48.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>27.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>270.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Single_60">
+	<Projectile Name="Proj_Space_Laser_ION_I_Single_30">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_i_single_x1.alo</Space_Model_Name>
@@ -302,21 +391,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>770.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>6.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>60.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>30.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Single_630">
+	<Projectile Name="Proj_Space_Laser_ION_I_Single_375">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_single_x6.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -325,21 +424,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2090.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1320.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>630.0</Projectile_Damage>
+		<Projectile_Damage>375.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>630.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>375.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_I_Triple_5850">
+	<Projectile Name="Proj_Space_Laser_ION_I_Triple_3000">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_i_triple_x12.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -348,20 +457,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>5850.0</Projectile_Damage>
+		<Projectile_Damage>3000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>585.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>300.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_I_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_I_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_R_Single_480">
+	<Projectile Name="Proj_Space_Laser_ION_R_Single_270">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x5.alo</Space_Model_Name>
@@ -374,27 +490,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>480.00000000000006</Projectile_Damage>
+		<Projectile_Damage>270.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>48.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>27.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<AI_Combat_Power>270.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_KDO_G_Octuple_9600">
+	<Projectile Name="Proj_Space_Laser_KDO_G_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_octuple_x9.alo</Space_Model_Name>
@@ -407,24 +523,24 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2750.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_KDO</Damage_Type>
-		<Projectile_Damage>9600.0</Projectile_Damage>
+		<Projectile_Damage>4000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>960.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>400.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
+		<AI_Combat_Power>500.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_LC_G_Single_10">
@@ -449,6 +565,13 @@
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 		<AI_Combat_Power>10.0</AI_Combat_Power>
 	</Projectile>
@@ -476,6 +599,13 @@
 		
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>15.0</AI_Combat_Power>
 	</Projectile>
 	
@@ -492,7 +622,7 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>550.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_LC</Damage_Type>
 		<Projectile_Damage>20.0</Projectile_Damage>
@@ -502,37 +632,21 @@
 		
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>20.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_LC_G_Single_40">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_g_single_x0.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_LC</Damage_Type>
-		<Projectile_Damage>40.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>4.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>40.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_LC_R_Single_10">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -551,11 +665,21 @@
 		
 		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>10.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_LC_R_Single_15">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -574,34 +698,21 @@
 		
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>15.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_LC_R_Single_20">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>550.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_LC</Damage_Type>
-		<Projectile_Damage>20.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>20.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_LC_R_Single_40">
-		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -613,18 +724,28 @@
 		<Projectile_Max_Flight_Distance>720.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_LC</Damage_Type>
-		<Projectile_Damage>40.0</Projectile_Damage>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>4.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>40.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>20.0</AI_Combat_Power>
 	</Projectile>
 	
 	<Projectile Name="Proj_Space_Laser_LC_R_Single_5">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -643,36 +764,20 @@
 		
 		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
 		<AI_Combat_Power>5.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL10_G_Dual_2860">
+	<Projectile Name="Proj_Space_Laser_LC_R_Single_8">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2970.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL10</Damage_Type>
-		<Projectile_Damage>2860.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>286.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>1430.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL10_R_Dual_2860">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_dual_x10.alo</Space_Model_Name>
+		<Space_Model_Name>proj_space_laser_r_single_x0.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
@@ -682,27 +787,60 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2970.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>550.0</Projectile_Max_Flight_Distance>
 		
-		<Damage_Type>Damage_TBL10</Damage_Type>
-		<Projectile_Damage>2860.0</Projectile_Damage>
+		<Damage_Type>Damage_LC</Damage_Type>
+		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>286.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Tiny</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Tiny</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Tiny_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1430.0</AI_Combat_Power>
+		<AI_Combat_Power>8.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL10_R_Single_1430">
+	<Projectile Name="Proj_Space_Laser_TBL10_G_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_g_dual_x10.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>1760.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_TBL10</Damage_Type>
+		<Projectile_Damage>1500.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>150.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>750.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_TBL10_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x10.alo</Space_Model_Name>
@@ -715,28 +853,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2970.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1760.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL10</Damage_Type>
-		<Projectile_Damage>1430.0</Projectile_Damage>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>143.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>75.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1430.0</AI_Combat_Power>
+		<AI_Combat_Power>750.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL12_G_Dual_3900">
+	<Projectile Name="Proj_Space_Laser_TBL12_G_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_g_dual_x12.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -745,20 +886,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL12</Damage_Type>
-		<Projectile_Damage>3900.0</Projectile_Damage>
+		<Projectile_Damage>2000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>390.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>200.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL12_G_Quad_7800">
+	<Projectile Name="Proj_Space_Laser_TBL12_G_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_quad_x12.alo</Space_Model_Name>
@@ -771,28 +919,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL12</Damage_Type>
-		<Projectile_Damage>7800.0</Projectile_Damage>
+		<Projectile_Damage>4000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>780.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>400.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL12_R_Dual_3900">
+	<Projectile Name="Proj_Space_Laser_TBL12_G_Quad2">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_g_quad2_x12.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -801,20 +952,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL12</Damage_Type>
-		<Projectile_Damage>3900.0</Projectile_Damage>
+		<Projectile_Damage>4000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>390.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>400.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL12_R_Single_1950">
+	<Projectile Name="Proj_Space_Laser_TBL12_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x12.alo</Space_Model_Name>
@@ -827,28 +985,64 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL12</Damage_Type>
-		<Projectile_Damage>1950.0</Projectile_Damage>
+		<Projectile_Damage>1000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>195.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>100.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_TBL14_R_Single">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x14.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_TBL14</Damage_Type>
+		<Projectile_Damage>1600.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>160.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Huge</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1950.0</AI_Combat_Power>
+		<AI_Combat_Power>1600.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL14_R_Dual_6000">
+	<Projectile Name="Proj_Space_Laser_TBL16_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_g_single_x16.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -857,44 +1051,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>3850.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL14</Damage_Type>
-		<Projectile_Damage>6000.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>600.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>3000.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL16_G_Single_4250">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>4290.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2420.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL16</Damage_Type>
-		<Projectile_Damage>4250.000000000001</Projectile_Damage>
+		<Projectile_Damage>2250.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>425.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>225.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>4250.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Huge</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Huge</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Huge</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>2250.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL16_R_Single_4250">
+	<Projectile Name="Proj_Space_Laser_TBL16_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x16.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -903,20 +1084,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>4290.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2420.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL16</Damage_Type>
-		<Projectile_Damage>4250.000000000001</Projectile_Damage>
+		<Projectile_Damage>2250.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>425.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>225.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>4250.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Huge</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>2250.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL1_G_Single_60">
+	<Projectile Name="Proj_Space_Laser_TBL1_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x1.alo</Space_Model_Name>
@@ -929,30 +1117,30 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>770.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL1</Damage_Type>
-		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>6.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>60.0</AI_Combat_Power>
+		<AI_Combat_Power>30.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL1_R_Single_60">
+	<Projectile Name="Proj_Space_Laser_TBL1_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_laser_r_x1.alo</Space_Model_Name>
+		<Space_Model_Name>proj_space_laser_r_single_x1.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
@@ -962,21 +1150,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>770.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL1</Damage_Type>
-		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_Damage>30.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>6.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>60.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>30.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL20_R_Single_7350">
+	<Projectile Name="Proj_Space_Laser_TBL20_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_single_x20.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -985,20 +1183,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>5170.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2860.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL20</Damage_Type>
-		<Projectile_Damage>7350.0</Projectile_Damage>
+		<Projectile_Damage>2415.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>735.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>242.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>7350.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Huge</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Huge</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Huge_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>2415.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL2_G_Single_120">
+	<Projectile Name="Proj_Space_Laser_TBL2_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x2.alo</Space_Model_Name>
@@ -1011,27 +1216,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>880.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL2</Damage_Type>
-		<Projectile_Damage>120.00000000000001</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>12.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>6.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>120.0</AI_Combat_Power>
+		<AI_Combat_Power>60.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL2_R_Single_120">
+	<Projectile Name="Proj_Space_Laser_TBL2_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x2.alo</Space_Model_Name>
@@ -1044,60 +1249,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>880.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL2</Damage_Type>
-		<Projectile_Damage>120.00000000000001</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>12.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>6.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>120.0</AI_Combat_Power>
+		<AI_Combat_Power>60.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL2_R_Single_350">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_single_x4.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL2</Damage_Type>
-		<Projectile_Damage>350.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>35.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>350.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL3_R_Single_210">
+	<Projectile Name="Proj_Space_Laser_TBL3_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x3.alo</Space_Model_Name>
@@ -1110,28 +1282,31 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1430.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL3</Damage_Type>
-		<Projectile_Damage>210.0</Projectile_Damage>
+		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>21.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>10.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>210.0</AI_Combat_Power>
+		<AI_Combat_Power>100.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL4_G_Quad_320">
+	<Projectile Name="Proj_Space_Laser_TBL4_G_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_g_quad_x4.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
 			PROJECTILE,
@@ -1140,20 +1315,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1100.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>320.0</Projectile_Damage>
+		<Projectile_Damage>160.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>32.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>16.0</Projectile_Energy_Per_Shot>
 		
-		<AI_Combat_Power>80.0</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>40.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL4_G_Single_350">
+	<Projectile Name="Proj_Space_Laser_TBL4_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x4.alo</Space_Model_Name>
@@ -1166,50 +1348,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1100.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>350.0</Projectile_Damage>
+		<Projectile_Damage>150.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>35.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>15.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>350.0</AI_Combat_Power>
+		<AI_Combat_Power>150.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL4_R_Dual_700">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>700.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>70.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>350.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL4_R_Quad_320">
+	<Projectile Name="Proj_Space_Laser_TBL4_R_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_quad_x4.alo</Space_Model_Name>
@@ -1222,60 +1381,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1100.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>320.0</Projectile_Damage>
+		<Projectile_Damage>160.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>32.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>16.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>80.0</AI_Combat_Power>
+		<AI_Combat_Power>40.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL4_R_Quad_360">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_quad_x4.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>360.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>36.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>90.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL4_R_Single_350">
+	<Projectile Name="Proj_Space_Laser_TBL4_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x4.alo</Space_Model_Name>
@@ -1288,27 +1414,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1100.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL4</Damage_Type>
-		<Projectile_Damage>350.0</Projectile_Damage>
+		<Projectile_Damage>150.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>35.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>15.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>350.0</AI_Combat_Power>
+		<AI_Combat_Power>150.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL5_G_Single_480">
+	<Projectile Name="Proj_Space_Laser_TBL5_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x5.alo</Space_Model_Name>
@@ -1321,27 +1447,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL5</Damage_Type>
-		<Projectile_Damage>480.00000000000006</Projectile_Damage>
+		<Projectile_Damage>270.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>48.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>27.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<AI_Combat_Power>270.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL5_R_Single_480">
+	<Projectile Name="Proj_Space_Laser_TBL5_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x5.alo</Space_Model_Name>
@@ -1354,27 +1480,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL5</Damage_Type>
-		<Projectile_Damage>480.00000000000006</Projectile_Damage>
+		<Projectile_Damage>270.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>48.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>27.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<AI_Combat_Power>270.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL6_G_Single_630">
+	<Projectile Name="Proj_Space_Laser_TBL6_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_single_x6.alo</Space_Model_Name>
@@ -1387,76 +1513,30 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2090.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1320.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL6</Damage_Type>
-		<Projectile_Damage>630.0</Projectile_Damage>
+		<Projectile_Damage>375.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>630.0</AI_Combat_Power>
+		<AI_Combat_Power>375.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL6_R_Dual_1260">
+	<Projectile Name="Proj_Space_Laser_TBL6_R_Quad">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2090.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL6</Damage_Type>
-		<Projectile_Damage>1260.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>126.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>630.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL6_R_Quad_640">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2090.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL6</Damage_Type>
-		<Projectile_Damage>640.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>64.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>160.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL6_R_Single_480">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_single_x5.alo</Space_Model_Name>
+		<Space_Model_Name>proj_space_laser_r_quad_x6.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
@@ -1466,27 +1546,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1320.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL6</Damage_Type>
-		<Projectile_Damage>480.00000000000006</Projectile_Damage>
+		<Projectile_Damage>380.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>48.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<AI_Combat_Power>95.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL6_R_Single_630">
+	<Projectile Name="Proj_Space_Laser_TBL6_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x6.alo</Space_Model_Name>
@@ -1499,27 +1579,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2090.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1320.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL6</Damage_Type>
-		<Projectile_Damage>630.0</Projectile_Damage>
+		<Projectile_Damage>375.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>630.0</AI_Combat_Power>
+		<AI_Combat_Power>375.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL8_G_Dual_2160">
+	<Projectile Name="Proj_Space_Laser_TBL8_G_Dual">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_g_dual_x8.alo</Space_Model_Name>
@@ -1532,30 +1612,30 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2530.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1540.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL8</Damage_Type>
-		<Projectile_Damage>2160.0</Projectile_Damage>
+		<Projectile_Damage>1080.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>216.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>108.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1080.0</AI_Combat_Power>
+		<AI_Combat_Power>540.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL8_G_Octuple_9600">
+	<Projectile Name="Proj_Space_Laser_TBL8_G_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_laser_g_octuple_x9.alo</Space_Model_Name>
+		<Space_Model_Name>proj_space_laser_g_single_x8.alo</Space_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		
 		<Behavior>
@@ -1565,27 +1645,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2750.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1540.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL8</Damage_Type>
-		<Projectile_Damage>9600.0</Projectile_Damage>
+		<Projectile_Damage>540.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>960.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>54.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
+		<AI_Combat_Power>540.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL8_R_Single_1080">
+	<Projectile Name="Proj_Space_Laser_TBL8_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x8.alo</Space_Model_Name>
@@ -1598,83 +1678,27 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2530.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1540.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL8</Damage_Type>
-		<Projectile_Damage>1080.0</Projectile_Damage>
+		<Projectile_Damage>540.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>108.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>54.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1080.0</AI_Combat_Power>
+		<AI_Combat_Power>540.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_TBL8_R_Triple_3240">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_triple_x8.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2530.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL8</Damage_Type>
-		<Projectile_Damage>3240.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>324.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>1080.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL9_G_Single_1200">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2750.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_TBL9</Damage_Type>
-		<Projectile_Damage>1200.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>120.0</Projectile_Energy_Per_Shot>
-		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Laser_TBL9_R_Single_1200">
+	<Projectile Name="Proj_Space_Laser_TBL9_R_Single">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
 		<Space_Model_Name>proj_space_laser_r_single_x9.alo</Space_Model_Name>
@@ -1687,31 +1711,30 @@
 		<Projectile_Category>LASER</Projectile_Category>
 		<Max_Speed>45</Max_Speed>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2750.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
 		
 		<Damage_Type>Damage_TBL9</Damage_Type>
-		<Projectile_Damage>1200.0</Projectile_Damage>
+		<Projectile_Damage>550.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
-		<Projectile_Energy_Per_Shot>120.0</Projectile_Energy_Per_Shot>
+		<Projectile_Energy_Per_Shot>55.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Large_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
+		<AI_Combat_Power>550.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Missile_Lrg_AML_1200">
+	<Projectile Name="Proj_Space_Missile_Large_CML12">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_missile_lrg.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_missile_large.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
@@ -1720,36 +1743,35 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Max_Speed>6.9</Max_Speed>
 		<Max_Rate_Of_Turn>0.75</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2750.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1650.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>500</Projectile_Max_Scan_Range>
 		
 		<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>250</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
 		
-		<Damage_Type>Damage_AML</Damage_Type>
-		<Projectile_Damage>1200.0</Projectile_Damage>
+		<Damage_Type>Damage_CML12</Damage_Type>
+		<Projectile_Damage>750.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Missile_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
+		<AI_Combat_Power>750.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Missile_Med_AML_1200">
+	<Projectile Name="Proj_Space_Missile_Medium_CML8">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_missile_med.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_missile_medium.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
@@ -1758,74 +1780,35 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Max_Speed>8.95</Max_Speed>
 		<Max_Rate_Of_Turn>5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
 		
 		<Projectile_Rocket_Curve_Distance>500</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>500</Projectile_Rocket_Straight_Distance>
 		
-		<Damage_Type>Damage_AML</Damage_Type>
-		<Projectile_Damage>1200.0</Projectile_Damage>
+		<Damage_Type>Damage_CML8</Damage_Type>
+		<Projectile_Damage>400.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Missile_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
+		<AI_Combat_Power>400.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Missile_Med_CML_1200">
+	<Projectile Name="Proj_Space_Missile_Small_CML4">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_missile_med.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Max_Speed>8.95</Max_Speed>
-		<Max_Rate_Of_Turn>5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1870.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
-		
-		<Projectile_Rocket_Curve_Distance>500</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>500</Projectile_Rocket_Straight_Distance>
-		
-		<Damage_Type>Damage_CML</Damage_Type>
-		<Projectile_Damage>1200.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>1200.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Missile_Sml_CML_150">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_missile_sml.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_missile_small.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
@@ -1834,44 +1817,14 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Max_Speed>11</Max_Speed>
 		<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>770.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
 		
 		<Projectile_Rocket_Curve_Distance>30</Projectile_Rocket_Curve_Distance>
 		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
 		<Projectile_Rocket_Straight_Distance>30</Projectile_Rocket_Straight_Distance>
 		
-		<Damage_Type>Damage_CML</Damage_Type>
-		<Projectile_Damage>150.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>150.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Missile_Tiny_CML_100">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_missile_tiny.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_CML</Damage_Type>
+		<Damage_Type>Damage_CML4</Damage_Type>
 		<Projectile_Damage>100.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
@@ -1879,21 +1832,57 @@
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Small_Damage_Space</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Missile_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
 		<AI_Combat_Power>100.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Torpedo_Lrg_PTL_1500">
+	<Projectile Name="Proj_Space_Missile_Small_CML8">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_torpedo_lrg.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_missile_small.alo</Space_Model_Name>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Max_Speed>11</Max_Speed>
+		<Max_Rate_Of_Turn>10</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>770.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
+		
+		<Projectile_Rocket_Curve_Distance>30</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>30</Projectile_Rocket_Straight_Distance>
+		
+		<Damage_Type>Damage_CML8</Damage_Type>
+		<Projectile_Damage>100.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Missile_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>100.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Torpedo_Large_PTL">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_torpedo_large.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
@@ -1902,181 +1891,124 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Max_Speed>4.2</Max_Speed>
 		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>1240.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_PTL</Damage_Type>
-		<Projectile_Damage>1500.0</Projectile_Damage>
+		<Projectile_Damage>2000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Torpedo_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>1500.0</AI_Combat_Power>
+		<AI_Combat_Power>2000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Torpedo_Lrg_PTL_3240">
+	<Projectile Name="Proj_Space_Torpedo_Medium_PTL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_torpedo_lrg.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_torpedo_medium.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
 			HIDE_WHEN_FOGGED,
 		</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Max_Speed>4.2</Max_Speed>
-		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1900.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
+		<Max_Speed>5.8</Max_Speed>
+		<Max_Rate_Of_Turn>11.25</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>1240.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>375</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_PTL</Damage_Type>
-		<Projectile_Damage>3240.0</Projectile_Damage>
+		<Projectile_Damage>2000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Torpedo_Hit_Medium</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>3240.0</AI_Combat_Power>
+		<AI_Combat_Power>2000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Torpedo_Lrg_PTL_3600">
+	<Projectile Name="Proj_Space_Torpedo_Small_ION_300">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_torpedo_lrg.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_torpedo_small.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
 			HIDE_WHEN_FOGGED,
 		</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Max_Speed>4.2</Max_Speed>
-		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>2060.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
-		
-		<Damage_Type>Damage_PTL</Damage_Type>
-		<Projectile_Damage>3600.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>3600.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Torpedo_Lrg_PTL_8000">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_torpedo_lrg.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Max_Speed>4.2</Max_Speed>
-		<Max_Rate_Of_Turn>7.5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>990.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
-		
-		<Damage_Type>Damage_PTL</Damage_Type>
-		<Projectile_Damage>8000.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>8000.0</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Space_Torpedo_Tiny_ION_600">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_torpedo_tiny.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>15</Max_Rate_Of_Turn>
 		<Projectile_Max_Flight_Distance>410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>600.0</Projectile_Damage>
+		<Projectile_Damage>300.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Torpedo_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>600.0</AI_Combat_Power>
+		<AI_Combat_Power>300.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Torpedo_Tiny_PTL_600">
+	<Projectile Name="Proj_Space_Torpedo_Small_PTL">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
-		<Space_Model_Name>proj_space_torpedo_tiny.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
+		<Space_Model_Name>proj_space_torpedo_small.alo</Space_Model_Name>
 		
 		<Behavior>
 			PROJECTILE,
 			HIDE_WHEN_FOGGED,
 		</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>15</Max_Rate_Of_Turn>
 		<Projectile_Max_Flight_Distance>410.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>750</Projectile_Max_Scan_Range>
 		
 		<Damage_Type>Damage_PTL</Damage_Type>
-		<Projectile_Damage>600.0</Projectile_Damage>
+		<Projectile_Damage>300.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
 		
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		
-		<Projectile_Object_Detonation_Particle>Conc_Missile_Detonation_Particle</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>Space_Torpedo_Hit_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_Hit_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
 		
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		
-		<AI_Combat_Power>600.0</AI_Combat_Power>
+		<AI_Combat_Power>300.0</AI_Combat_Power>
 	</Projectile>
 	
 </Projectiles>

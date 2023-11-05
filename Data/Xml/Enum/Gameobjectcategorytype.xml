@@ -35,7 +35,7 @@
 	<LandHero>			0x10000000		</LandHero>
 	<SpaceHero>			0x20000000		</SpaceHero>
 	<NonCombatHero>		0x40000000		</NonCombatHero>
-	<SLS_Fighter>		0x80000000		</SLS_Fighter>
+	<FighterHero>		0x80000000		</FighterHero>
 	
 	<Hero>				0xF0000000		</Hero>
 	<All>				0xFFFFFFFF		</All>

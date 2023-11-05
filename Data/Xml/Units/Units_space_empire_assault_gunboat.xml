@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Assault_Gunboat">
 		
 		<Text_ID>TEXT_UNIT_ASSAULT_GUNBOAT</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_ASSAULT_GUNBOAT_DESC TEXT_EMPTY TEXT_UNIT_ASSAULT_GUNBOAT_INFO_1 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_2 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_3 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_4</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ASSAULT_GUNBOAT_DESC TEXT_EMPTY TEXT_UNIT_ASSAULT_GUNBOAT_INFO_1 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_2 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_3 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_4 TEXT_WEAPONS TEXT_UNIT_ASSAULT_GUNBOAT_W_1 TEXT_UNIT_ASSAULT_GUNBOAT_W_2 TEXT_UNIT_ASSAULT_GUNBOAT_W_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
 		
@@ -18,11 +18,11 @@
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Bomber | AntiFighter | AntiFrigate | AntiCapital</CategoryMask>
-		<Ship_Class>fighter</Ship_Class>
+		<CategoryMask>Bomber | AntiCorvette | AntiFrigate</CategoryMask>
+		<Ship_Class>bomber</Ship_Class>
 		<Victory_Relevant>Yes</Victory_Relevant>
-		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>No</Is_Bomber>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
 		
 		<Tech_Level>2.0</Tech_Level>
 		<Population_Value>0.0</Population_Value>
@@ -33,13 +33,14 @@
 		<Damage>1</Damage>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>0.01</Maintenance_Cost>
+		<Squadron_Capacity>0</Squadron_Capacity>
 		
 		<MovementClass>Space</MovementClass>
 		<Mass>0.985</Mass>
 		<Max_Thrust>1</Max_Thrust>
 		<Min_Speed>1</Min_Speed>
 		<Max_Speed>2.57</Max_Speed>
-		<Max_Lift>4</Max_Lift>
+		<Max_Lift>3</Max_Lift>
 		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
 		<Max_Rate_Of_Roll>2.5</Max_Rate_Of_Roll>
@@ -51,9 +52,9 @@
 		
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>27.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>35.0</Shield_Points>
-		<Shield_Refresh_Rate>1.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.30000000000000004</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
 		<Energy_Refresh_Rate>360.0</Energy_Refresh_Rate>
 		
@@ -69,30 +70,38 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
+		
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
-		<SFXEvent_Select>Unit_Select_Tie_Defender</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Tie_Defender</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Defender</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Tie_Defender</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Tie_Defender</SFXEvent_Guard>
+		<HardPoints>
+			HP_Assault_Gunboat_1,
+			HP_Assault_Gunboat_2,
+			HP_Assault_Gunboat_3,
+		</HardPoints>
 		
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Defender</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Select>Unit_Select_Tie_Bomber</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Tie_Bomber</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Bomber</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Tie_Bomber</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Tie_Bomber</SFXEvent_Guard>
 		
-		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Tie_Defender</SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Tie_Defender</SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Bomber</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Bomber</SFXEvent_Attack_Hardpoint>
 		
-		<SFXEvent_Ambient_Moving>Unit_TIE_Fighter_Fly_By</SFXEvent_Ambient_Moving>
+		<SFXEvent_Move_Into_Nebula>Unit_Nebula_Tie_Bomber</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Tie_Bomber</SFXEvent_Move_Into_Asteroid_Field>
+		
+		<SFXEvent_Ambient_Moving>Unit_Y_Wing_Fly_By</SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds>10</SFXEvent_Ambient_Moving_Max_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds>5</SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_TIE_Fighter_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Y_Wing_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		
@@ -104,14 +113,14 @@
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Custom_Footprint_Radius>15</Custom_Footprint_Radius>
 		
-		<Formation_Priority>1</Formation_Priority>
-		<FormationOrder>1</FormationOrder>
+		<Formation_Priority>2</Formation_Priority>
+		<FormationOrder>2</FormationOrder>
 		
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
-		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
-		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space_Empire</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -121,27 +130,27 @@
 	<Squadron Name="Assault_Gunboat_Squadron">
 		
 		<Text_ID>TEXT_UNIT_ASSAULT_GUNBOAT_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_ASSAULT_GUNBOAT_DESC TEXT_EMPTY TEXT_UNIT_ASSAULT_GUNBOAT_INFO_1 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_2 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_3 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_4</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_ASSAULT_GUNBOAT_DESC TEXT_EMPTY TEXT_UNIT_ASSAULT_GUNBOAT_INFO_1 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_2 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_3 TEXT_UNIT_ASSAULT_GUNBOAT_INFO_4 TEXT_WEAPONS TEXT_UNIT_ASSAULT_GUNBOAT_W_1 TEXT_UNIT_ASSAULT_GUNBOAT_W_2 TEXT_UNIT_ASSAULT_GUNBOAT_W_3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
 		
 		<Affiliation>Empire</Affiliation>
-		<CategoryMask>Bomber | AntiFighter | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Bomber | AntiCorvette | AntiFrigate</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>No</Is_Bomber>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
 		
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>570.0</Build_Cost_Credits>
+		<Build_Time_Seconds>6.0</Build_Time_Seconds>
+		<Build_Cost_Credits>210.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>570.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>570.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>570.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>210.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>210.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>210.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>324.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -167,17 +176,17 @@
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>200</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>500</Autonomous_Move_Extension_Vs_Attacker>
+		<Autonomous_Move_Extension_Vs_Attacker>300</Autonomous_Move_Extension_Vs_Attacker>
 		
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Complete>Unit_Complete_Tie_Defender</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Bomber</SFXEvent_Build_Complete>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		
-		<Formation_Priority>1</Formation_Priority>
-		<FormationOrder>1</FormationOrder>
+		<Formation_Priority>2</Formation_Priority>
+		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>570.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>210.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

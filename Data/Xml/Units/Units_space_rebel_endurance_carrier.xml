@@ -4,11 +4,11 @@
 		
 		<Text_ID>TEXT_UNIT_ENDURANCE_CARRIER</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_ENDURANCE_CARRIER_DESC TEXT_EMPTY TEXT_UNIT_ENDURANCE_CARRIER_INFO_1 TEXT_UNIT_ENDURANCE_CARRIER_INFO_2 TEXT_UNIT_ENDURANCE_CARRIER_INFO_3 TEXT_UNIT_ENDURANCE_CARRIER_INFO_4 TEXT_WEAPONS TEXT_UNIT_ENDURANCE_CARRIER_W_1 TEXT_UNIT_ENDURANCE_CARRIER_W_2 TEXT_UNIT_ENDURANCE_CARRIER_W_3 TEXT_UNIT_ENDURANCE_CARRIER_W_4 TEXT_UNIT_ENDURANCE_CARRIER_W_5</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CARRIER_MEDIUM</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_CARRIER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_endurance_carrier.tga</Icon_Name>
 		
 		<Space_Model_Name>endurance-class_fleet_carrier.alo</Space_Model_Name>
-		<Scale_Factor>0.4</Scale_Factor>
+		<Scale_Factor>0.28</Scale_Factor>
 		
 		<Select_Box_Scale>520.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -16,7 +16,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>13</Ranking_In_Category>
-		<CategoryMask>Capital | AntiFrigate</CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Property_Flags>IsCarrier</Property_Flags>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>Capital</Space_Layer>
@@ -27,16 +27,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>22.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2970.0</Build_Cost_Credits>
+		<Build_Time_Seconds>26.0</Build_Time_Seconds>
+		<Build_Cost_Credits>3600.0</Build_Cost_Credits>
 		<Population_Value>12.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2970.0</AI_Combat_Power>
-		<Score_Cost_Credits>301.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2970.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2970.0</Piracy_Value_Credits>
+		<AI_Combat_Power>3600.0</AI_Combat_Power>
+		<Score_Cost_Credits>240.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>3600.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>3600.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>65000.0</Autoresolve_Health>
@@ -59,9 +59,9 @@
 		
 		<Armor_Type>Armor_Space_A10</Armor_Type>
 		<Tactical_Health>65000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>50000.0</Shield_Points>
-		<Shield_Refresh_Rate>2083.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>417.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -82,7 +82,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>2300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -137,6 +137,27 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z_95_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Y_Wing_S3_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>Y_Wing_S3_Squadron, 1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>E_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>B_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>E_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>B_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
+		
 		<Starting_Spawned_Units_Tech_4>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>K_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
@@ -151,8 +172,8 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>2970.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>22.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3600.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

@@ -4,11 +4,11 @@
 		
 		<Text_ID>TEXT_UNIT_ESCORT_CARRIER</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_ESCORT_CARRIER_DESC TEXT_EMPTY TEXT_UNIT_ESCORT_CARRIER_INFO_1 TEXT_UNIT_ESCORT_CARRIER_INFO_2 TEXT_UNIT_ESCORT_CARRIER_INFO_3 TEXT_UNIT_ESCORT_CARRIER_INFO_4 TEXT_WEAPONS TEXT_UNIT_ESCORT_CARRIER_W_1</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CARRIER_LIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_CARRIER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_escort_carrier.tga</Icon_Name>
 		
 		<Space_Model_Name>super_transport_viii_escort_carrier.ALO</Space_Model_Name>
-		<Scale_Factor>0.3</Scale_Factor>
+		<Scale_Factor>0.29</Scale_Factor>
 		
 		<Select_Box_Scale>300.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -27,16 +27,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>10.0</Build_Time_Seconds>
-		<Build_Cost_Credits>930.0</Build_Cost_Credits>
+		<Build_Time_Seconds>13.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1300.0</Build_Cost_Credits>
 		<Population_Value>7.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>930.0</AI_Combat_Power>
-		<Score_Cost_Credits>94.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>930.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>930.0</Piracy_Value_Credits>
+		<AI_Combat_Power>1300.0</AI_Combat_Power>
+		<Score_Cost_Credits>86.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1300.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1300.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -60,9 +60,9 @@
 		
 		<Armor_Type>Armor_Space_A4</Armor_Type>
 		<Tactical_Health>40250.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>25750.0</Shield_Points>
-		<Shield_Refresh_Rate>1073.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>215.0</Shield_Refresh_Rate>
 		<Energy_Capacity>4500.0</Energy_Capacity>
 		<Energy_Refresh_Rate>900.0</Energy_Refresh_Rate>
 		
@@ -83,7 +83,7 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -95,6 +95,8 @@
 			HP_Escort_Carrier_1,
 			HP_Escort_Carrier_2,
 			HP_Escort_Carrier_3,
+			HP_Escort_Carrier_4,
+			HP_Escort_Carrier_5,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
@@ -190,8 +192,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>930.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1300.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>13.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

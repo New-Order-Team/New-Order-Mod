@@ -4,12 +4,12 @@
 		
 		<Text_ID>TEXT_UNIT_MC80B_CRUISER</Text_ID>
 		<Encyclopedia_Text>TEXT_UNIT_MC80B_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MC80B_CRUISER_INFO_1 TEXT_UNIT_MC80B_CRUISER_INFO_2 TEXT_UNIT_MC80B_CRUISER_INFO_3 TEXT_UNIT_MC80B_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MC80B_CRUISER_W_1 TEXT_UNIT_MC80B_CRUISER_W_2 TEXT_UNIT_MC80B_CRUISER_W_3</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_LIGHT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_HYBRID</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc80b_cruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Mc80c.ALO</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.8</Scale_Factor>
 		
 		<Select_Box_Scale>600.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -17,7 +17,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>13</Ranking_In_Category>
-		<CategoryMask>Capital | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>Capital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -27,16 +27,16 @@
 		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>43.0</Build_Time_Seconds>
-		<Build_Cost_Credits>6570.0</Build_Cost_Credits>
+		<Build_Time_Seconds>38.0</Build_Time_Seconds>
+		<Build_Cost_Credits>5670.0</Build_Cost_Credits>
 		<Population_Value>14.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>6570.0</AI_Combat_Power>
-		<Score_Cost_Credits>473.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>6570.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>6570.0</Piracy_Value_Credits>
+		<AI_Combat_Power>5670.0</AI_Combat_Power>
+		<Score_Cost_Credits>327.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>5670.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>5670.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>65000.0</Autoresolve_Health>
@@ -59,9 +59,9 @@
 		
 		<Armor_Type>Armor_Space_A8</Armor_Type>
 		<Tactical_Health>65000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>77500.0</Shield_Points>
-		<Shield_Refresh_Rate>3229.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>646.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -83,12 +83,12 @@
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>LightBattleship</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -170,6 +170,14 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		
 		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>B_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
@@ -184,8 +192,8 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>6570.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>43.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5670.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -193,6 +201,7 @@
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>1</Expiration_Seconds>
 				<Recharge_Seconds>120</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.01f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>

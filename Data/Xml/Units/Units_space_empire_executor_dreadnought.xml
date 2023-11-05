@@ -8,7 +8,7 @@
 		<Icon_Name>i_button_executor_dreadnought.tga</Icon_Name>
 		
 		<Space_Model_Name>ev_executor_star_dreadnaught.ALO</Space_Model_Name>
-		<Scale_Factor>0.774</Scale_Factor>
+		<Scale_Factor>1.115</Scale_Factor>
 		
 		<Custom_Hard_XExtent>100.0</Custom_Hard_XExtent>
 		<Custom_Hard_YExtent>100.0</Custom_Hard_YExtent>
@@ -29,16 +29,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>571.0</Build_Time_Seconds>
-		<Build_Cost_Credits>98060.0</Build_Cost_Credits>
+		<Build_Time_Seconds>613.0</Build_Time_Seconds>
+		<Build_Cost_Credits>105470.0</Build_Cost_Credits>
 		<Population_Value>200.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>98060.0</AI_Combat_Power>
-		<Score_Cost_Credits>9933.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>98060.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>98060.0</Piracy_Value_Credits>
+		<AI_Combat_Power>105470.0</AI_Combat_Power>
+		<Score_Cost_Credits>7016.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>105470.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>105470.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>1000000.0</Autoresolve_Health>
@@ -61,9 +61,9 @@
 		
 		<Armor_Type>Armor_Space_A15</Armor_Type>
 		<Tactical_Health>1000000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>1000000.0</Shield_Points>
-		<Shield_Refresh_Rate>41667.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>8333.0</Shield_Refresh_Rate>
 		<Energy_Capacity>99000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1000.0</Energy_Refresh_Rate>
 		
@@ -88,7 +88,7 @@
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>Battlecruiser</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -178,8 +178,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>98060.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>571.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>105470.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>613.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

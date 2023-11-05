@@ -29,15 +29,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>270.0</Build_Cost_Credits>
+		<Build_Cost_Credits>350.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>270.0</AI_Combat_Power>
-		<Score_Cost_Credits>27.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>270.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>270.0</Piracy_Value_Credits>
+		<AI_Combat_Power>350.0</AI_Combat_Power>
+		<Score_Cost_Credits>23.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>350.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>350.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -60,9 +60,9 @@
 		
 		<Armor_Type>Armor_Space_A2</Armor_Type>
 		<Tactical_Health>7999.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>7000.0</Shield_Points>
-		<Shield_Refresh_Rate>292.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>58.0</Shield_Refresh_Rate>
 		<Energy_Capacity>1350.0</Energy_Capacity>
 		<Energy_Refresh_Rate>270.0</Energy_Refresh_Rate>
 		
@@ -87,7 +87,7 @@
 		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300</Autonomous_Move_Extension_Vs_Attacker>
 		
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<SFXEvent_Select>Unit_Select_Marauder_Cruiser</SFXEvent_Select>
@@ -143,7 +143,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>270.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>350.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>

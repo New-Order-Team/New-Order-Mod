@@ -9,7 +9,7 @@
 		
 		<Space_Model_Name>F_Assault.ALO</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>0.924</Scale_Factor>
+		<Scale_Factor>0.68</Scale_Factor>
 		
 		<Select_Box_Scale>350.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -17,7 +17,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>14</Ranking_In_Category>
-		<CategoryMask>Frigate | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Frigate | AntiCorvette | AntiFrigate</CategoryMask>
 		<Ship_Class>frigate</Ship_Class>
 		<Space_Layer>Frigate</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -27,16 +27,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>17.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2150.0</Build_Cost_Credits>
+		<Build_Time_Seconds>18.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2330.0</Build_Cost_Credits>
 		<Population_Value>8.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2150.0</AI_Combat_Power>
-		<Score_Cost_Credits>217.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2150.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2150.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2330.0</AI_Combat_Power>
+		<Score_Cost_Credits>155.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2330.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2330.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -60,9 +60,9 @@
 		
 		<Armor_Type>Armor_Space_A7</Armor_Type>
 		<Tactical_Health>35000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>40000.0</Shield_Points>
-		<Shield_Refresh_Rate>1667.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>333.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1200.0</Energy_Refresh_Rate>
 		
@@ -82,7 +82,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1200.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -157,6 +157,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		
 		<Formation_Priority>4</Formation_Priority>
 		
@@ -166,8 +167,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>2150.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>17.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2330.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

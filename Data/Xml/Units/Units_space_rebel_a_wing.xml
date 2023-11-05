@@ -7,7 +7,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		
-		<Space_Model_Name>reb_a_wing.ALO</Space_Model_Name>
+		<Space_Model_Name>reb_a_wing.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
@@ -51,9 +51,9 @@
 		
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>22.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>22.0</Shield_Points>
-		<Shield_Refresh_Rate>1.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>0.2</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
 		<Energy_Refresh_Rate>360.0</Energy_Refresh_Rate>
 		
@@ -69,7 +69,7 @@
 			SHIELDED,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>700.0</Targeting_Max_Attack_Distance>
 		
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
@@ -141,14 +141,14 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>420.0</Build_Cost_Credits>
+		<Build_Time_Seconds>6.0</Build_Time_Seconds>
+		<Build_Cost_Credits>100.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>420.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>420.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>420.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>100.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>100.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>100.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>264.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -183,8 +183,8 @@
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>420.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>100.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	

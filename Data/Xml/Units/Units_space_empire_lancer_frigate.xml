@@ -7,9 +7,10 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FRIGATE</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_lancer_frigate.tga</Icon_Name>
 		
-		<Space_Model_Name>F_Lancer.ALO</Space_Model_Name>
+		<Space_Model_Name>imp_lancer_frigate.alo</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>0.3</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		
@@ -29,16 +30,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>400.0</Build_Cost_Credits>
+		<Build_Time_Seconds>8.0</Build_Time_Seconds>
+		<Build_Cost_Credits>480.0</Build_Cost_Credits>
 		<Population_Value>2.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>400.0</AI_Combat_Power>
-		<Score_Cost_Credits>40.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>400.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>400.0</Piracy_Value_Credits>
+		<AI_Combat_Power>480.0</AI_Combat_Power>
+		<Score_Cost_Credits>32.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>480.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>480.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -62,9 +63,9 @@
 		
 		<Armor_Type>Armor_Space_A3</Armor_Type>
 		<Tactical_Health>11250.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>11250.0</Shield_Points>
-		<Shield_Refresh_Rate>469.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>94.0</Shield_Refresh_Rate>
 		<Energy_Capacity>9600.0</Energy_Capacity>
 		<Energy_Refresh_Rate>1920.0</Energy_Refresh_Rate>
 		
@@ -90,7 +91,7 @@
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -183,15 +184,15 @@
 		
 		<Lua_Script>ObjectScript_PointDefense</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>400.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>480.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>LASER_DEFENSE</Type>
 				<Recharge_Seconds>30</Recharge_Seconds>
-				<Effective_Radius>650</Effective_Radius>
+				<Effective_Radius>500</Effective_Radius>
 				<GUI_Activated_Ability_Name>Laser_Defence_Lancer</GUI_Activated_Ability_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
@@ -204,7 +205,7 @@
 				<Laser_Color>139,230,104,255</Laser_Color>
 				<Bone_Names>MuzzleA_04, MuzzleA_06, MuzzleA_11, MuzzleA_12</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>900</Protection_Radius>
+				<Protection_Radius>500</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>4</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>

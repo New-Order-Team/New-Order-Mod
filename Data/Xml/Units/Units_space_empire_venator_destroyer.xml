@@ -3,12 +3,12 @@
 	<SpaceUnit Name="Venator_Destroyer">
 		
 		<Text_ID>TEXT_UNIT_VENATOR_DESTROYER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_VENATOR_DESTROYER_DESC TEXT_EMPTY TEXT_UNIT_VENATOR_DESTROYER_INFO_1 TEXT_UNIT_VENATOR_DESTROYER_INFO_2 TEXT_UNIT_VENATOR_DESTROYER_INFO_3 TEXT_UNIT_VENATOR_DESTROYER_INFO_4 TEXT_WEAPONS TEXT_UNIT_VENATOR_DESTROYER_W_1 TEXT_UNIT_VENATOR_DESTROYER_W_2 TEXT_UNIT_VENATOR_DESTROYER_W_3</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CARRIER_MEDIUM</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_UNIT_VENATOR_DESTROYER_DESC TEXT_EMPTY TEXT_UNIT_VENATOR_DESTROYER_INFO_1 TEXT_UNIT_VENATOR_DESTROYER_INFO_2 TEXT_UNIT_VENATOR_DESTROYER_INFO_3 TEXT_UNIT_VENATOR_DESTROYER_INFO_4 TEXT_WEAPONS TEXT_UNIT_VENATOR_DESTROYER_W_1 TEXT_UNIT_VENATOR_DESTROYER_W_2 TEXT_UNIT_VENATOR_DESTROYER_W_3 TEXT_UNIT_VENATOR_DESTROYER_W_4</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_CARRIER</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_venator_destroyer.tga</Icon_Name>
 		
 		<Space_Model_Name>venator-class_star_destroyer.ALO</Space_Model_Name>
-		<Scale_Factor>0.233</Scale_Factor>
+		<Scale_Factor>0.335</Scale_Factor>
 		
 		<Select_Box_Scale>569.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -16,7 +16,7 @@
 		
 		<Affiliation>Empire</Affiliation>
 		<Ranking_In_Category>13</Ranking_In_Category>
-		<CategoryMask>Capital | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Capital</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>Capital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -26,16 +26,16 @@
 		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>41.0</Build_Time_Seconds>
-		<Build_Cost_Credits>6250.0</Build_Cost_Credits>
+		<Build_Time_Seconds>33.0</Build_Time_Seconds>
+		<Build_Cost_Credits>4820.0</Build_Cost_Credits>
 		<Population_Value>11.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>6250.0</AI_Combat_Power>
-		<Score_Cost_Credits>339.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>6250.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>6250.0</Piracy_Value_Credits>
+		<AI_Combat_Power>4820.0</AI_Combat_Power>
+		<Score_Cost_Credits>257.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>4820.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>4820.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>59750.0</Autoresolve_Health>
@@ -58,9 +58,9 @@
 		
 		<Armor_Type>Armor_Space_A9</Armor_Type>
 		<Tactical_Health>59750.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>49000.0</Shield_Points>
-		<Shield_Refresh_Rate>2042.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>408.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -81,12 +81,12 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>2300.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>LightBattleship</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -190,8 +190,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>6250.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>41.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>4820.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>33.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

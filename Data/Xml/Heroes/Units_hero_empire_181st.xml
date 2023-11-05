@@ -13,7 +13,7 @@
 
 		<Tactical_Health>50</Tactical_Health>
 
-		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Ship_Class>FighterHero</Ship_Class>
 		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
         <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
 
@@ -24,7 +24,7 @@
 		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> FighterHero, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
@@ -143,7 +143,7 @@
 		<Shield_Refresh_Rate>13</Shield_Refresh_Rate>
 		<Damage>140</Damage>
 
-		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Ship_Class>FighterHero</Ship_Class>
 		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
         <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
 
@@ -156,7 +156,7 @@
 		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> SLS_Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> FighterHero, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
@@ -274,7 +274,7 @@
 		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
 		<Damage>167</Damage>
 
-		<Ship_Class>SLS_Fighter</Ship_Class>
+		<Ship_Class>FighterHero</Ship_Class>
 		<Armor_Type> Armor_Hero_Fighter </Armor_Type>
         <Shield_Armor_Type>Armor_Hero_Fighter</Shield_Armor_Type>
 		

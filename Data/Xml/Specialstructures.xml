@@ -1183,11 +1183,11 @@
 		
 		<Special_Weapon_Index>1</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 0 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
-		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 		
 		<Projectile_Fire_Recharge_Seconds>60.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.25</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Types>Proj_Planetary_Turbolaser</Projectile_Types>
 		
 		<Icon_Name>i_button_magnepulse_cannon.tga</Icon_Name>
@@ -2365,7 +2365,7 @@
 		<Is_Special_Weapon_In_Space>Yes</Is_Special_Weapon_In_Space>
 		<Special_Weapon_Index>0</Special_Weapon_Index>
 		<Special_Weapon_Target_Action_Index> 1 </Special_Weapon_Target_Action_Index> <!-- HV Gun = 0, Ion Cannon = 1, Magnepulse Cannon = 2 -->
-		<Special_Weapon_Valid_Targets>Frigate | Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
+		<Special_Weapon_Valid_Targets>Capital | Dreadnought | SpaceStructure</Special_Weapon_Valid_Targets>
 
 		<Space_Victory_Relevant>No</Space_Victory_Relevant>
 		<Land_Victory_Relevant>Yes</Land_Victory_Relevant>
@@ -6007,7 +6007,7 @@
 		<Armor_Type> Armor_Space </Armor_Type>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> FighterHero, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
@@ -6095,7 +6095,7 @@
 		<Armor_Type> Armor_Structure </Armor_Type>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> SLS_Fighter, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> FighterHero, 70.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>

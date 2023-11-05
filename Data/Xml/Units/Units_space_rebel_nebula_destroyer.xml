@@ -9,7 +9,7 @@
 		
 		<Space_Model_Name>nebula-class_star_destroyer.alo</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>0.4</Scale_Factor>
+		<Scale_Factor>0.28</Scale_Factor>
 		
 		<Select_Box_Scale>520.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -17,7 +17,7 @@
 		
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>13</Ranking_In_Category>
-		<CategoryMask>Capital | AntiFrigate | AntiCapital</CategoryMask>
+		<CategoryMask>Capital | AntiCorvette | AntiFrigate</CategoryMask>
 		<Ship_Class>capital</Ship_Class>
 		<Space_Layer>Capital</Space_Layer>
 		<Victory_Relevant>Yes</Victory_Relevant>
@@ -27,16 +27,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>33.0</Build_Time_Seconds>
-		<Build_Cost_Credits>4890.0</Build_Cost_Credits>
+		<Build_Time_Seconds>35.0</Build_Time_Seconds>
+		<Build_Cost_Credits>5240.0</Build_Cost_Credits>
 		<Population_Value>12.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>4890.0</AI_Combat_Power>
-		<Score_Cost_Credits>496.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>4890.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>4890.0</Piracy_Value_Credits>
+		<AI_Combat_Power>5240.0</AI_Combat_Power>
+		<Score_Cost_Credits>349.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>5240.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>5240.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>57500.0</Autoresolve_Health>
@@ -59,9 +59,9 @@
 		
 		<Armor_Type>Armor_Space_A10</Armor_Type>
 		<Tactical_Health>57500.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>65000.0</Shield_Points>
-		<Shield_Refresh_Rate>2708.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>542.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		
@@ -82,12 +82,12 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>3100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>LightBattleship</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -139,6 +139,12 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 1</Starting_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		
 		<Starting_Spawned_Units_Tech_4>X_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		
@@ -149,8 +155,8 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>4890.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>33.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5240.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>35.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

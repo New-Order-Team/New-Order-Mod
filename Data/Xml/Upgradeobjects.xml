@@ -1,6 +1,157 @@
 <?xml version="1.0"?>
 <UpgradeObjects>
 
+	<!-- New Order Upgrades -->
+	
+	<!-- REBEL -->
+	<!-- Align Ion Cannon: Allows the player to fire the planetary Ion Cannon once. -->
+	<UpgradeObject Name="RS_Ion_Cannon_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_ion_cannon.tga</Icon_Name>
+		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_SPECIAL_WEAPON_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Ion_Cannon_Available</SFXEvent_Build_Complete>
+		<SFXEvent_Special_Weapon_Ready>RHD_Ion_Cannon_Available</SFXEvent_Special_Weapon_Ready>
+
+	  		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="RS_Ion_Cannon_Use_Effect">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<!-- Increased Supplies (Level 1): Increases income from mining by 33%. -->
+	<UpgradeObject Name="RS_Increased_Supplies_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 4000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type> RS_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
+				<Income_Multiplier>1.333</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
+	<UpgradeObject Name="RS_Increased_Supplies_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Rebel</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> RS_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> RS_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<!-- EMPIRE -->
+	<!-- Hypervelocity Gun: Allows the player to fire the Hypervelocity Gun once. -->
+	<UpgradeObject Name="ES_Hypervelocity_Gun_Use_Upgrade">
+		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
+		<Affiliation>Empire</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>3000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 15 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Previous_Upgrade_Level_Type />
+		<Next_Upgrade_Level_Type />
+		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_hypervelocity_gun.tga</Icon_Name>
+		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
+
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_ES_SPECIAL_WEAPON_USE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Hypervelocity_Available</SFXEvent_Build_Complete>
+      <SFXEvent_Special_Weapon_Ready>EHD_Hypervelocity_Available</SFXEvent_Special_Weapon_Ready>
+		<Abilities SubObjectList="Yes">
+			<Battlefield_Modifier_Ability Name="ES_Hypervelocity_Gun_Use_Effect">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
+				<Apply_To_All_Allies>No</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
 	<!-- ================== REBEL UNIT RESEARCH UPGRADES =================== -->
 
 	<UpgradeObject Name="RL_Plex_Soldier_Research_Upgrade">
@@ -2040,189 +2191,6 @@
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 
-	<!-- Increased Supplies (Level 1): Increases income by 20%. -->
-	<UpgradeObject Name="RS_Increased_Supplies_L1_Upgrade">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type> RS_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
-		
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
-		
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		<Abilities SubObjectList="Yes">
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L1_Bonus">
-				<Income_Multiplier>1.20</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<!--<Income_Stream_Mod_Ability Name="RS_Increased_Supplies2_L1_Bonus">
-				<Income_Multiplier>1.15</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies3_L1_Bonus">
-				<Income_Multiplier>1.15</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies4_L1_Bonus">
-				<Income_Multiplier>1.15</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies5_L1_Bonus">
-				<Income_Multiplier>1.15</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>-->
-		</Abilities>
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
-	<!-- Increased Supplies (Level 2): Increases starbase income by 40%. -->
-	<UpgradeObject Name="RS_Increased_Supplies_L2_Upgrade">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites> RS_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type> RS_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
-		
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
-		
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		<Abilities SubObjectList="Yes">
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies1_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Rebel_Mineral_Extractor</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<!--<Income_Stream_Mod_Ability Name="RS_Increased_Supplies2_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies3_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies4_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>
-			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies5_L2_Bonus">
-				<Income_Multiplier>1.40</Income_Multiplier>
-				<Income_Additive_Value>0.0</Income_Additive_Value>
-				<Interval_Multiplier>1.0</Interval_Multiplier>
-				<Stacking_Category>1</Stacking_Category>
-				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
-				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
-				<Reverse_Application_Logic>No</Reverse_Application_Logic>
-			</Income_Stream_Mod_Ability>-->
-		</Abilities>
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
-	<!-- Align Ion Cannon: Allows the player to fire the planetary Ion Cannon once. -->
-	<UpgradeObject Name="RS_Ion_Cannon_Use_Upgrade">
-		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
-		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 280 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_ion_cannon.tga</Icon_Name>
-		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
-		
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_RS_SPECIAL_WEAPON_USE</Text_ID>
-		
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Ion_Cannon_Available</SFXEvent_Build_Complete>
-		<SFXEvent_Special_Weapon_Ready>RHD_Ion_Cannon_Available</SFXEvent_Special_Weapon_Ready>
-
-	  		<Abilities SubObjectList="Yes">
-			<Battlefield_Modifier_Ability Name="RS_Ion_Cannon_Use_Effect">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
-				<Apply_To_All_Allies>No</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
-		</Abilities>
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
 	<!-- Reinforced Armor (Level 1): Fighters take 25% less damage. -->
 	<UpgradeObject Name="RS_Reinforced_Armor_L1_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
@@ -3023,42 +2991,6 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>3</Stacking_Category>
 			</Combat_Bonus_Ability>
-		</Abilities>
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
-	<!-- Hypervelocity Gun: Allows the player to fire the Hypervelocity Gun once. -->
-	<UpgradeObject Name="ES_Hypervelocity_Gun_Use_Upgrade">
-		<Behavior>DUMMY_UPGRADE, DUMMY_DESTROY_AFTER_SPECIAL_WEAPON_FIRED</Behavior>
-		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 2800 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>260</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> No </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_multi_hypervelocity_gun.tga</Icon_Name>
-		<Is_Skirmish_Tactical_Super_Weapon>true</Is_Skirmish_Tactical_Super_Weapon>
-
-		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_ES_SPECIAL_WEAPON_USE  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPERWEAPON </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_ES_SPECIAL_WEAPON_USE</Text_ID>
-		
-		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Hypervelocity_Available</SFXEvent_Build_Complete>
-      <SFXEvent_Special_Weapon_Ready>EHD_Hypervelocity_Available</SFXEvent_Special_Weapon_Ready>
-		<Abilities SubObjectList="Yes">
-			<Battlefield_Modifier_Ability Name="ES_Hypervelocity_Gun_Use_Effect">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Enable_Special_Weapons>Yes</Enable_Special_Weapons>
-				<Apply_To_All_Allies>No</Apply_To_All_Allies>
-				<Stacking_Category>0</Stacking_Category>
-			</Battlefield_Modifier_Ability>
 		</Abilities>
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>

@@ -9,7 +9,7 @@
 		
 		<Space_Model_Name>reb_dauntless.alo</Space_Model_Name>
 		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
-		<Scale_Factor>0.386</Scale_Factor>
+		<Scale_Factor>0.28</Scale_Factor>
 		
 		<Select_Box_Scale>720.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -27,16 +27,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>38.0</Build_Time_Seconds>
-		<Build_Cost_Credits>5680.0</Build_Cost_Credits>
+		<Build_Time_Seconds>42.0</Build_Time_Seconds>
+		<Build_Cost_Credits>6370.0</Build_Cost_Credits>
 		<Population_Value>14.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>5680.0</AI_Combat_Power>
-		<Score_Cost_Credits>575.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>5680.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>5680.0</Piracy_Value_Credits>
+		<AI_Combat_Power>6370.0</AI_Combat_Power>
+		<Score_Cost_Credits>424.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>6370.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>6370.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>70000.0</Autoresolve_Health>
@@ -59,9 +59,9 @@
 		
 		<Armor_Type>Armor_Space_A12</Armor_Type>
 		<Tactical_Health>70000.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
 		<Shield_Points>67500.0</Shield_Points>
-		<Shield_Refresh_Rate>2813.0</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>563.0</Shield_Refresh_Rate>
 		<Energy_Capacity>25000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>5000.0</Energy_Refresh_Rate>
 		
@@ -82,12 +82,12 @@
 			SPAWN_SQUADRON,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>3900.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2200.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		
-		<Targeting_Priority_Set>HeavyBattleship</Targeting_Priority_Set>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		
 		<HardPoints>
@@ -131,6 +131,8 @@
 		
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		
 		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
 		
 		<Formation_Priority>4</Formation_Priority>
@@ -140,8 +142,8 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>5680.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>38.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6370.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>42.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 	

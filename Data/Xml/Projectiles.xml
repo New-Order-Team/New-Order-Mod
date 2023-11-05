@@ -162,40 +162,25 @@
 	<!-- Target Identification Network ping, as used by A9 Floating Fortress -->
 	<Projectile Name="Proj_Floating_Fortress_TIN">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_laser_invisible.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>0.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE</Behavior>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		
-		<Projectile_Category>DEFAULT</Projectile_Category>
 		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>0.0</Projectile_Damage>
-		<Projectile_Blast_Area_Range>500.0</Projectile_Blast_Area_Range>
-		<Projectile_Blast_Area_Damage>0.0</Projectile_Blast_Area_Damage>
-		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		
-		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<AI_Combat_Power>0</AI_Combat_Power>
+		<Projectile_Weaken_Enemy_On_Detonation>Yes</Projectile_Weaken_Enemy_On_Detonation>
+		<Projectile_Weaken_Enemy_Duration_Seconds>15.0</Projectile_Weaken_Enemy_Duration_Seconds>
+        <Projectile_Weaken_Enemy_Radius>500</Projectile_Weaken_Enemy_Radius>
+		<Projectile_Weaken_Enemy_Spawn_Effect>Debuff_TIN</Projectile_Weaken_Enemy_Spawn_Effect>
+		<Projectile_Weaken_Enemy_Take_Damage_Increase_Percent>0.25</Projectile_Weaken_Enemy_Take_Damage_Increase_Percent>
+		<Projectile_Weaken_Enemy_Cause_Damage_Reduction_Percent>0.0</Projectile_Weaken_Enemy_Cause_Damage_Reduction_Percent>
+		<Projectile_Weaken_Enemy_Targets_Category_Mask>All</Projectile_Weaken_Enemy_Targets_Category_Mask>
 		
 		<Projectile_SFXEvent_Detonate>SFX_TIN_Ping</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_TIN_Ping</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<Projectile_Object_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Ground_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle>TIN_Ping_Blast_Particles</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>TIN_Ping_Blast_Particles</Projectile_Absorbed_By_Shields_Particle>
-
-        <Projectile_Combat_Mod>COMBAT_MOD_DEFENSE</Projectile_Combat_Mod>
-        <Projectile_Combat_Mod_Duration>15</Projectile_Combat_Mod_Duration>
-		<Projectile_Combat_Mod_Value>-0.25</Projectile_Combat_Mod_Value>
-        <Projectile_Combat_Mod_Effect>Debuff_TIN</Projectile_Combat_Mod_Effect>
-        <Projectile_Combat_Mod_Category_Mask> Infantry | Vehicle | LandHero | Structure </Projectile_Combat_Mod_Category_Mask>
 	</Projectile>
 	
 	<Projectile Name="Proj_Heavy_Tracker_FOW_Reveal_Ping_Blast">
@@ -262,7 +247,73 @@
     </Projectile>
 	
 	
+	<!-- SPACE -->
+	<Projectile Name="Proj_Planetary_Turbolaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>p_planetary_turbolaser.alo</Land_Model_Name>
+		<Space_Model_Name>p_planetary_turbolaser.alo</Space_Model_Name>
+		<Damage_Type> Damage_TBL20 </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>100.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		
+		<!-- CAN'T have acceleration on projectile - will not work with INTERCEPT CODE!!!! -->
+		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
+		
+		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>15000.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<AI_Combat_Power>40000</AI_Combat_Power>
+	</Projectile>
 	
+	<Projectile Name="Proj_Ion_Cannon_Planetary">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>P_ion_cannon00.alo</Land_Model_Name>
+		<Space_Model_Name>P_ion_cannon00.alo</Space_Model_Name>
+		<Damage_Type> Damage_ION </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>100.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		
+		<!-- CAN'T have acceleration on projectile - will not work with INTERCEPT CODE!!!! -->
+		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
+		
+		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>25000.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
+		<Projectile_Disable_Engines_Duration>15.0</Projectile_Disable_Engines_Duration>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<AI_Combat_Power>40000</AI_Combat_Power>
+
+		<!-- Stun specifics -->
+		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation>
+		<Projectile_Ion_Stun_Duration>15.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
+		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.999f</Projectile_Ion_Stun_Speed_Reduction_Percent> <!-- almost total speed reduction -->
+		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.999f</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent><!-- almost total fire rate reduction -->
+		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
+	</Projectile>
 	
 	
 	
@@ -1898,75 +1949,6 @@
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>60000</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Planetary_Turbolaser">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>p_planetary_turbolaser.alo</Land_Model_Name>
-		<Space_Model_Name>p_planetary_turbolaser.alo</Space_Model_Name>
-		<Damage_Type> Damage_Turbolaser </Damage_Type>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>100.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>DEFAULT</Projectile_Category>
-		
-		<!-- CAN'T have acceleration on projectile - will not work with INTERCEPT CODE!!!! -->
-		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
-		
-		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>1400.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle />
-		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Disable_Engines_Duration>10.0</Projectile_Disable_Engines_Duration>
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>40000</AI_Combat_Power>
-	</Projectile>
-	
-	<Projectile Name="Proj_Ion_Cannon_Planetary">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>P_ion_cannon00.alo</Land_Model_Name>
-		<Space_Model_Name>P_ion_cannon00.alo</Space_Model_Name>
-		<Damage_Type> Damage_Ion_Planet </Damage_Type>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>100.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>DEFAULT</Projectile_Category>
-		
-		<!-- CAN'T have acceleration on projectile - will not work with INTERCEPT CODE!!!! -->
-		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
-		
-		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>15000.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle />
-		<Projectile_Ground_Detonation_Particle />
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Disables_Engines_When_Power_Drained>Yes</Projectile_Disables_Engines_When_Power_Drained>
-		<Projectile_Disable_Engines_Duration>30.0</Projectile_Disable_Engines_Duration>
-		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<AI_Combat_Power>40000</AI_Combat_Power>
-
-		<!-- Stun specifics -->
-		<Projectile_Ion_Stun_On_Detonation>true</Projectile_Ion_Stun_On_Detonation>
-		<Projectile_Ion_Stun_Duration>30.0</Projectile_Ion_Stun_Duration> <!-- must be same as Projectile_Disable_Engines_Duration in this case -->
-		<Projectile_Ion_Stun_Speed_Reduction_Percent>0.999f</Projectile_Ion_Stun_Speed_Reduction_Percent> <!-- almost total speed reduction -->
-		<Projectile_Ion_Stun_Shot_Rate_Reduction_Percent>0.999f</Projectile_Ion_Stun_Shot_Rate_Reduction_Percent><!-- almost total fire rate reduction -->
-		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
 	</Projectile>
 	
 	<Projectile Name="Proj_Ground_Turbolaser_Green">
