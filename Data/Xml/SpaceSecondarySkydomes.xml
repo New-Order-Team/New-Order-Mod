@@ -182,13 +182,14 @@
 		<In_Background>yes</In_Background>
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</SpaceSecondarySkydome>
-
+	
+	<!-- New Order secondary skydomes -->
 	<SpaceSecondarySkydome Name="Sky_Bespin_00">
 		<Text_ID />
 		<Galactic_Model_Name></Galactic_Model_Name>
-		<Space_Model_Name>w_sky_bespin.alo</Space_Model_Name>
+		<Space_Model_Name>skydome_sky_bespin_dawn.alo</Space_Model_Name>
 		<Is_Decoration>Yes</Is_Decoration>
-    <Is_Discardable>No</Is_Discardable>
+		<Is_Discardable>No</Is_Discardable>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Scale_Factor>25.0</Scale_Factor>
 		<Behavior></Behavior>
@@ -198,7 +199,21 @@
         <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</SpaceSecondarySkydome>
 	
-	<!-- New Order secondary skydomes -->
+	<SpaceSecondarySkydome Name="Sky_Bespin_01">
+		<Text_ID />
+		<Galactic_Model_Name></Galactic_Model_Name>
+		<Space_Model_Name>skydome_sky_bespin_dusk.alo</Space_Model_Name>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Is_Discardable>No</Is_Discardable>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Scale_Factor>25.0</Scale_Factor>
+		<Behavior></Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<In_Background>yes</In_Background>
+        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+	</SpaceSecondarySkydome>
+	
 	<SpaceSecondarySkydome Name="Object_Comet_00">
 		<Text_ID />
 		<Galactic_Model_Name></Galactic_Model_Name>
