@@ -93,9 +93,9 @@
 		<Garrison_Value>4</Garrison_Value>
 		<SurfaceFX_Name>Hover</SurfaceFX_Name>
 
-		<!-- <Hardpoints>
+		<Hardpoints>
 			HP_T1b_Main
-		</Hardpoints> -->
+		</Hardpoints>
 		
 		<Projectile_Types>Proj_Land_Flak_Missile</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>

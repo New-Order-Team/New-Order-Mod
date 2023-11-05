@@ -142,6 +142,9 @@
 				<Bomb_Countdown_Seconds>0.0</Bomb_Countdown_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated />
 				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Name_Text>TEXT_UNIT_FLOATING_FORTRESS_AB1</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_FLOATING_FORTRESS_AB1_DESC</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_tin.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
@@ -189,6 +192,7 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HARMONIC_BOMB</Type>
+				<Alternate_Icon_Name>i_sa_tin.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
