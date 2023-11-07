@@ -5537,11 +5537,25 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
-		<Fire_Bone_A>Attach_00</Fire_Bone_A>
-		<Fire_Bone_B>Attach_00</Fire_Bone_B>
+		<Model_To_Attach>imp_turret_oct_00.alo</Model_To_Attach>
+		<Attachment_Bone>Attach_00</Attachment_Bone>
+		<Collision_Mesh>Collision_Turret_00</Collision_Mesh>
+		
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Bone_Name>turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>barrel_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>105.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+		
+		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>270.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_KDO_G_Octuple</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>11.200000000000001</Fire_Min_Recharge_Seconds>
@@ -5556,17 +5570,34 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Enforcer_Cruiser_3">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
-		<Fire_Bone_A>Attach_01</Fire_Bone_A>
-		<Fire_Bone_B>Attach_01</Fire_Bone_B>
+		<Model_To_Attach>imp_turret_oct_01.alo</Model_To_Attach>
+		<Attachment_Bone>Attach_01</Attachment_Bone>
+		<Collision_Mesh>Collision_Turret_01</Collision_Mesh>
+		
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Bone_Name>turret_01</Turret_Bone_Name>
+		<Barrel_Bone_Name>barrel_01</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>0.5</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>105.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+		
+		<Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>270.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_KDO_G_Octuple</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>11.200000000000001</Fire_Min_Recharge_Seconds>
@@ -5581,6 +5612,9 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Enforcer_Cruiser_4">
@@ -8083,6 +8117,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -8114,12 +8149,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_3">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -8151,12 +8190,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_4">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -8188,12 +8231,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_5">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -8225,12 +8272,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_6">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -8262,12 +8313,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_7">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -8299,12 +8354,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_8">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t06.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -8336,12 +8395,16 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_9">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_victory_ii_t07.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -8373,6 +8436,9 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+		
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 	</HardPoint>
 	
 	<HardPoint Name="HP_Victory_II_Destroyer_10">
@@ -8668,6 +8734,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -8707,6 +8774,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -8746,6 +8814,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -8785,6 +8854,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -8824,6 +8894,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -8863,6 +8934,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -8902,6 +8974,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_06.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -8941,6 +9014,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>venator-class_star_destroyer_hdtl_07.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -11429,6 +11503,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -11466,6 +11541,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -11503,6 +11579,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -11540,6 +11617,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -11577,6 +11655,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -11614,6 +11693,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -11651,6 +11731,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -11688,6 +11769,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -11725,6 +11807,7 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -11762,6 +11845,7 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -12158,6 +12242,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -12195,6 +12280,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -12232,6 +12318,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -12269,6 +12356,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -12306,6 +12394,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -12343,6 +12432,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -12380,6 +12470,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -12417,6 +12508,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -15340,6 +15432,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -15382,6 +15475,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -15424,6 +15518,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -15466,6 +15561,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -15509,6 +15605,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_q12_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -15552,6 +15649,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -15595,6 +15693,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_06.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -15638,6 +15737,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_07.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -15681,6 +15781,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_08.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -15724,6 +15825,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_09.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -15767,6 +15869,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_10.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_10</Attachment_Bone>
@@ -15810,6 +15913,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_11.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_11</Attachment_Bone>
@@ -15853,6 +15957,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_12.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_12</Attachment_Bone>
@@ -15896,6 +16001,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_q12_13.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_13</Attachment_Bone>
@@ -15939,6 +16045,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_14.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_14</Attachment_Bone>
@@ -15982,6 +16089,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_15.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_15</Attachment_Bone>
@@ -16025,6 +16133,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_16.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_16</Attachment_Bone>
@@ -16068,6 +16177,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_17.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_17</Attachment_Bone>
@@ -16111,6 +16221,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_18.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_18</Attachment_Bone>
@@ -16154,6 +16265,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_19.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_19</Attachment_Bone>
@@ -16197,6 +16309,7 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_20.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_20</Attachment_Bone>
