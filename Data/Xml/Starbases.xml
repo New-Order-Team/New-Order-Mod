@@ -3627,6 +3627,10 @@
 				Raider_I_Corvette,
 				Vigil_Corvette,
 				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
+				
 				ES_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base>Skirmish_Empire_Star_Base_1_Era_2</Prev_Level_Base>
@@ -3653,6 +3657,10 @@
 				Escort_Carrier,
 				Dreadnought_Cruiser,
 				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
 				
 				ES_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3686,6 +3694,8 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
 				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade,
@@ -3722,7 +3732,6 @@
 				Imperial_II_Destroyer,
 				
 				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
 				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3738,6 +3747,9 @@
 				TIE_Fighter_Squadron,
 				TIE_Interceptor_Squadron,
 				TIE_Bomber_Squadron,
+				
+				Customs_Corvette,
+				Raider_I_Corvette,
 				
 				ES_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3757,6 +3769,10 @@
 				Customs_Corvette,
 				Raider_I_Corvette,
 				Vigil_Corvette,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
 				
 				ES_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3784,6 +3800,10 @@
 				Escort_Carrier,
 				Dreadnought_Cruiser,
 				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
 				
 				ES_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3817,6 +3837,8 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
 				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade,
@@ -3869,6 +3891,9 @@
 				TIE_Interceptor_Mod_Squadron,
 				TIE_Bomber_Squadron,
 				
+				Adz_Corvette,
+				Raider_I_Corvette,
+				
 				ES_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3882,11 +3907,14 @@
 				TIE_Fighter_Mod_Squadron,
 				TIE_Interceptor_Mod_Squadron,
 				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Adz_Corvette,
 				Raider_I_Corvette,
 				Vigil_Corvette,
+				
+				Carrack_Cruiser,
+				Strike_Cruiser,
+				Escort_Carrier,
 				
 				ES_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3914,6 +3942,10 @@
 				Escort_Carrier,
 				Enforcer_Cruiser,
 				Vindicator_Cruiser,
+				Interdictor_Cruiser,
+				
+				Victory_Destroyer,
+				Victory_II_Destroyer,
 				
 				ES_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3947,6 +3979,8 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
+				
+				Allegiance_Battlecruiser,
 				
 				ES_Hypervelocity_Gun_Use_Upgrade,
 				ES_Level_Five_Starbase_Upgrade,
