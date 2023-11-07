@@ -237,6 +237,18 @@
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
+		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
 		<Max_Squad_Size>12</Max_Squad_Size>
 		
 		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>

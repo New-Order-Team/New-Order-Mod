@@ -263,7 +263,7 @@
 		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
 		
 		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>15000.0</Projectile_Damage>
+		<Projectile_Damage>25000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -292,7 +292,7 @@
 		<Projectile_Acceleration_Per_Frame>0.0</Projectile_Acceleration_Per_Frame>
 		
 		<Projectile_Max_Flight_Distance>150000.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>25000.0</Projectile_Damage>
+		<Projectile_Damage>35000.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>

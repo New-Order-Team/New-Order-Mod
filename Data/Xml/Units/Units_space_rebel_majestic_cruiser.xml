@@ -3,7 +3,7 @@
 	<SpaceUnit Name="Majestic_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_MAJESTIC_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MAJESTIC_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MAJESTIC_CRUISER_INFO_1 TEXT_UNIT_MAJESTIC_CRUISER_INFO_2 TEXT_UNIT_MAJESTIC_CRUISER_INFO_3 TEXT_UNIT_MAJESTIC_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MAJESTIC_CRUISER_W_1 TEXT_UNIT_MAJESTIC_CRUISER_W_2 TEXT_UNIT_MAJESTIC_CRUISER_W_3 TEXT_UNIT_MAJESTIC_CRUISER_W_4</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_MAJESTIC_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MAJESTIC_CRUISER_INFO_1 TEXT_UNIT_MAJESTIC_CRUISER_INFO_2 TEXT_UNIT_MAJESTIC_CRUISER_INFO_3 TEXT_UNIT_MAJESTIC_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MAJESTIC_CRUISER_W_1 TEXT_UNIT_MAJESTIC_CRUISER_W_2 TEXT_UNIT_MAJESTIC_CRUISER_W_3 TEXT_UNIT_MAJESTIC_CRUISER_W_4 TEXT_UNIT_MAJESTIC_CRUISER_W_5</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_MEDIUM</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_majestic_cruiser.tga</Icon_Name>
 		
@@ -27,16 +27,16 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>21.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2740.0</Build_Cost_Credits>
+		<Build_Time_Seconds>19.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2490.0</Build_Cost_Credits>
 		<Population_Value>8.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2740.0</AI_Combat_Power>
-		<Score_Cost_Credits>165.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2740.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2740.0</Piracy_Value_Credits>
+		<AI_Combat_Power>2490.0</AI_Combat_Power>
+		<Score_Cost_Credits>152.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>2490.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2490.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>38000.0</Autoresolve_Health>
@@ -79,9 +79,10 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
-		<Targeting_Max_Attack_Distance>1100.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -100,6 +101,12 @@
 			HP_Majestic_Cruiser_8,
 			HP_Majestic_Cruiser_9,
 			HP_Majestic_Cruiser_10,
+			HP_Majestic_Cruiser_11,
+			HP_Majestic_Cruiser_12,
+			HP_Majestic_Cruiser_13,
+			HP_Majestic_Cruiser_14,
+			HP_Majestic_Cruiser_15,
+			HP_Majestic_Cruiser_16,
 		</HardPoints>
 		
 		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
@@ -130,9 +137,33 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		
-		<Tactical_Build_Cost_Multiplayer>2740.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>21.0</Tactical_Build_Time_Seconds>
+		<Lua_Script>ObjectScript_Missile_Salvo</Lua_Script>
+		
+		<Tactical_Build_Cost_Multiplayer>2490.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>19.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>BLAST</Type>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Missile_Strike_Blast</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Icon_Name>i_sa_full_salvo.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Blast_Ability Name="Missile_Strike_Blast">
+				<Activation_Style>User_Input</Activation_Style>
+				<Charge_Up_Seconds>0</Charge_Up_Seconds>
+				<Damage_Multiplier>1</Damage_Multiplier>
+				<Charging_Effect>nan</Charging_Effect>
+				<Charged_Effect>nan</Charged_Effect>
+				<SFXEvent_Activate>Unit_Barrage_Victory_Destroyer</SFXEvent_Activate>
+			</Blast_Ability>
+		</Abilities>
 	</SpaceUnit>
 	
 </Majestic_Cruiser_Data>

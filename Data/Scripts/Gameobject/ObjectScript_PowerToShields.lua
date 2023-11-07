@@ -72,7 +72,11 @@ end
 
 function State_AI_Autofire(message)
 	if message == OnUpdate then
-		if (Object.Get_Shield() < 0.1) and (Object.Get_Rate_Of_Damage_Taken() > 0.0) then
+		if 
+			(Object.Get_Shield() < 0.1) and (Object.Get_Rate_Of_Damage_Taken() > 0.0)
+			or
+			(Object.Get_Shield() < 0.25) and (Object.Get_Rate_Of_Damage_Taken() > 400.0)
+		then
 			if Object.Is_Ability_Ready(ability_name) then
 				Object.Activate_Ability(ability_name, true)
 			end
@@ -92,7 +96,11 @@ function State_Human_Autofire(message)
 	if message == OnUpdate then
 
 		if Object.Is_Ability_Autofire(ability_name) then
-			if (Object.Get_Shield() < 0.1) and (Object.Get_Rate_Of_Damage_Taken() > 0.0) then
+			if 
+				(Object.Get_Shield() < 0.1) and (Object.Get_Rate_Of_Damage_Taken() > 0.0)
+				or
+				(Object.Get_Shield() < 0.25) and (Object.Get_Rate_Of_Damage_Taken() > 400.0)
+			then
 				if Object.Is_Ability_Ready(ability_name) then
 					Object.Activate_Ability(ability_name, true)
 				end

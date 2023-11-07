@@ -3299,7 +3299,7 @@
 				Calamari_Cruiser,
 				MC80A_Cruiser,
 				
-				Home_One_Battlecruiser,
+				<!-- Home_One_Battlecruiser, -->
 				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
@@ -3331,7 +3331,7 @@
 				Calamari_Cruiser,
 				MC80A_Cruiser,
 				
-				Home_One_Battlecruiser,
+				<!-- Home_One_Battlecruiser, -->
 				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3431,7 +3431,7 @@
 				MC80A_Cruiser,
 				MC90_Cruiser,
 				
-				Home_One_Battlecruiser,
+				<!-- Home_One_Battlecruiser, -->
 				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
@@ -3464,7 +3464,7 @@
 				MC80A_Cruiser,
 				MC90_Cruiser,
 				
-				Home_One_Battlecruiser,
+				<!-- Home_One_Battlecruiser, -->
 				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3589,7 +3589,7 @@
 				Endurance_Carrier,
 				MC90_Cruiser,
 				
-				Home_One_Battlecruiser,
+				<!-- Home_One_Battlecruiser, -->
 				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3604,9 +3604,8 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
-				TIE_Bomber_Squadron,
+				Customs_Corvette,
+				Raider_I_Corvette,
 				
 				ES_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3618,11 +3617,6 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
-				TIE_Bomber_Squadron,
-				Assault_Gunboat_Squadron,
-				
 				Customs_Corvette,
 				Raider_I_Corvette,
 				Vigil_Corvette,
@@ -3641,10 +3635,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
 				Assault_Gunboat_Squadron,
 				
 				Customs_Corvette,
@@ -3672,10 +3663,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
 				Assault_Gunboat_Squadron,
 				
 				Customs_Corvette,
@@ -3708,10 +3696,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
 				Assault_Gunboat_Squadron,
 				
 				Customs_Corvette,
@@ -3744,10 +3729,6 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
-				TIE_Bomber_Squadron,
-				
 				Customs_Corvette,
 				Raider_I_Corvette,
 				
@@ -3761,11 +3742,6 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
-				
 				Customs_Corvette,
 				Raider_I_Corvette,
 				Vigil_Corvette,
@@ -3784,11 +3760,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Customs_Corvette,
 				Raider_I_Corvette,
@@ -3815,11 +3787,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Customs_Corvette,
 				Raider_I_Corvette,
@@ -3851,11 +3819,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Squadron,
-				TIE_Interceptor_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Customs_Corvette,
 				Raider_I_Corvette,
@@ -3886,11 +3850,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_1_Era_4">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Empire,
-				TIE_Fighter_Mod_Squadron,
-				TIE_Interceptor_Mod_Squadron,
-				TIE_Bomber_Squadron,
-				
+			Empire,				
 				Adz_Corvette,
 				Raider_I_Corvette,
 				
@@ -3903,11 +3863,7 @@
 	<StarBase Name="Skirmish_Empire_Star_Base_2_Era_4">
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Empire,
-				TIE_Fighter_Mod_Squadron,
-				TIE_Interceptor_Mod_Squadron,
-				TIE_Bomber_Squadron,
-				
+			Empire,				
 				Adz_Corvette,
 				Raider_I_Corvette,
 				Vigil_Corvette,
@@ -3926,11 +3882,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Mod_Squadron,
-				TIE_Interceptor_Mod_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Adz_Corvette,
 				Raider_I_Corvette,
@@ -3957,11 +3909,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Mod_Squadron,
-				TIE_Interceptor_Mod_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Adz_Corvette,
 				Raider_I_Corvette,
@@ -3993,11 +3941,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Empire_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
-				TIE_Fighter_Mod_Squadron,
-				TIE_Interceptor_Mod_Squadron,
 				TIE_Defender_Squadron,
-				TIE_Bomber_Squadron,
-				TIE_Scimitar_Squadron,
 				
 				Adz_Corvette,
 				Raider_I_Corvette,

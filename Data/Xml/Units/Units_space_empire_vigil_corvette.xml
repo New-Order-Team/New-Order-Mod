@@ -30,15 +30,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>770.0</Build_Cost_Credits>
+		<Build_Cost_Credits>760.0</Build_Cost_Credits>
 		<Population_Value>3.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>770.0</AI_Combat_Power>
+		<AI_Combat_Power>760.0</AI_Combat_Power>
 		<Score_Cost_Credits>41.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>770.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>770.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>760.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>760.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -164,7 +164,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>770.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>760.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>

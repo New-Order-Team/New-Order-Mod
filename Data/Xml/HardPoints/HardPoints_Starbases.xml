@@ -369,8 +369,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -680,8 +680,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -898,8 +898,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -1126,8 +1126,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -1262,8 +1262,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -1284,8 +1284,8 @@
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -1995,8 +1995,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -2243,8 +2243,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -2925,8 +2925,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -2948,8 +2948,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -3035,8 +3035,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -3059,8 +3059,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>
@@ -3081,8 +3081,8 @@
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_Large_PTL</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>15</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>15</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1100</Fire_Range_Distance>

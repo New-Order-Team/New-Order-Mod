@@ -27,15 +27,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
 		<Build_Time_Seconds>20.0</Build_Time_Seconds>
-		<Build_Cost_Credits>2580.0</Build_Cost_Credits>
+		<Build_Cost_Credits>2540.0</Build_Cost_Credits>
 		<Population_Value>7.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>2580.0</AI_Combat_Power>
+		<AI_Combat_Power>2540.0</AI_Combat_Power>
 		<Score_Cost_Credits>155.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>2580.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>2580.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>2540.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2540.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -173,7 +173,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>2580.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2540.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
