@@ -11,16 +11,16 @@
 		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
-	<Event Name="Empire_Advance_Empire_Era_2">
+	<Event Name="Empire_Advance_Empire_Era_1">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
 		<Reward_Param1>Empire</Reward_Param1>
-		<Reward_Param2>2</Reward_Param2>
+		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_Reveal_Galaxy</Prereq>
 	</Event>
-	<Event Name="Empire_Enters_Tech_02">
+	<Event Name="Empire_Enters_Tech_01">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>2</Event_Param1>
+		<Event_Param1>1</Event_Param1>
 	</Event>
 
 <!-- Lock unnecessary buildings -->
@@ -28,25 +28,25 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_Lock_Assault_Division_HQ">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>E_Ground_Heavy_Vehicle_Factory</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_Lock_Stormtrooper_Corps">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>E_Ground_Officer_Academy</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_Lock_Labor_Camp">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
 		<Reward_Param1>Imperial_Prison_Facility</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 
 <!-- Lock unnecessary units -->
@@ -54,19 +54,25 @@
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>LOCK_UNIT</Reward_Type>
         <Reward_Param1>Arc_170_Squadron</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Disable_Acclamator">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>LOCK_UNIT</Reward_Type>
         <Reward_Param1>Acclamator_Assault_Ship</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Disable_Venator">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>LOCK_UNIT</Reward_Type>
         <Reward_Param1>Venator</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+	<Event Name="Disable_MAAT_Platoon">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1>MAAT_Platoon</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	
 <!-- Spawn heroes -->
@@ -75,7 +81,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Invincible_SD</Reward_Param1>
 		<Reward_Param2>Lianna_OSF</Reward_Param2>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	
 <!-- Flash targets -->
@@ -86,7 +92,7 @@
 		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Rudrig_OSF_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_OSF_Flash_Brigia">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -95,7 +101,7 @@
 		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Brigia_OSF_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_OSF_Flash_Dellalt">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -104,7 +110,7 @@
 		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Dellalt_OSF_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 	<Event Name="Empire_OSF_Flash_Orion_IV">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -113,7 +119,7 @@
 		<Reward_Param2>FLASH_PLANET</Reward_Param2>
 		<Reward_Param4>Orion_IV_OSF_GUI_Flash</Reward_Param4>
 		<Reward_Param5>True</Reward_Param5>
-		<Prereq>Empire_Enters_Tech_02</Prereq>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
 	</Event>
 
 <!-- Winning conditions -->

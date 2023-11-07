@@ -130,6 +130,9 @@
 				<Type>ION_CANNON_SHOT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Create_Team>Yes</Create_Team>
+
 	</SpaceUnit>
 	
 	<Squadron Name="E_Wing_Squadron">
@@ -149,13 +152,13 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>6.0</Build_Time_Seconds>
-		<Build_Cost_Credits>110.0</Build_Cost_Credits>
+		<Build_Cost_Credits>120.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>110.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>110.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>110.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>120.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>120.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>120.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>276.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -190,7 +193,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>110.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>120.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
@@ -234,6 +237,10 @@
 			REVEAL,
 			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
+		
+		<Max_Squad_Size>12</Max_Squad_Size>
+		
+		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -241,7 +248,7 @@
 				<Recharge_Seconds>40</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Torpedo_Strike_X_Wing</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-				<Projectile_Types_Override>Proj_Space_Torpedo_Small_PTL_300</Projectile_Types_Override>
+				<Projectile_Types_Override>Proj_Space_Torpedo_Small_PTL</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_UNIT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TORPEDO_STRIKE</Alternate_Description_Text>
 				<Supports_Autofire>True</Supports_Autofire>
@@ -251,7 +258,7 @@
 		<Abilities SubObjectList="Yes">
 			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_X_Wing">
 				<Activation_Style>User_Input</Activation_Style>
-				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Structure</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Dreadnought, SpaceStructure</Applicable_Unit_Categories>
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
 	</Container>

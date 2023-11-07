@@ -3,7 +3,7 @@
 	<SpaceUnit Name="MC90_Cruiser">
 		
 		<Text_ID>TEXT_UNIT_MC90_CRUISER</Text_ID>
-		<Encyclopedia_Text>TEXT_UNIT_MC90_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MC90_CRUISER_INFO_1 TEXT_UNIT_MC90_CRUISER_INFO_2 TEXT_UNIT_MC90_CRUISER_INFO_3 TEXT_UNIT_MC90_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MC90_CRUISER_W_1 TEXT_UNIT_MC90_CRUISER_W_2 TEXT_UNIT_MC90_CRUISER_W_3 TEXT_UNIT_MC90_CRUISER_W_4 TEXT_UNIT_MC90_CRUISER_W_5</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_UNIT_MC90_CRUISER_DESC TEXT_EMPTY TEXT_UNIT_MC90_CRUISER_INFO_1 TEXT_UNIT_MC90_CRUISER_INFO_2 TEXT_UNIT_MC90_CRUISER_INFO_3 TEXT_UNIT_MC90_CRUISER_INFO_4 TEXT_WEAPONS TEXT_UNIT_MC90_CRUISER_W_1 TEXT_UNIT_MC90_CRUISER_W_2 TEXT_UNIT_MC90_CRUISER_W_3 TEXT_UNIT_MC90_CRUISER_W_4</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc90_cruiser.tga</Icon_Name>
 		
@@ -26,19 +26,19 @@
 		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>53.0</Build_Time_Seconds>
-		<Build_Cost_Credits>8330.0</Build_Cost_Credits>
-		<Population_Value>17.0</Population_Value>
+		<Build_Time_Seconds>61.0</Build_Time_Seconds>
+		<Build_Cost_Credits>9720.0</Build_Cost_Credits>
+		<Population_Value>18.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>8330.0</AI_Combat_Power>
-		<Score_Cost_Credits>534.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>8330.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>8330.0</Piracy_Value_Credits>
+		<AI_Combat_Power>9720.0</AI_Combat_Power>
+		<Score_Cost_Credits>564.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>9720.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>9720.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
-		<Autoresolve_Health>82500.0</Autoresolve_Health>
+		<Autoresolve_Health>84750.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>2</Maintenance_Cost>
 		<Squadron_Capacity>60</Squadron_Capacity>
@@ -57,10 +57,10 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		
 		<Armor_Type>Armor_Space_A11</Armor_Type>
-		<Tactical_Health>82500.0</Tactical_Health>
+		<Tactical_Health>84750.0</Tactical_Health>
 		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
-		<Shield_Points>90000.0</Shield_Points>
-		<Shield_Refresh_Rate>750.0</Shield_Refresh_Rate>
+		<Shield_Points>98000.0</Shield_Points>
+		<Shield_Refresh_Rate>817.0</Shield_Refresh_Rate>
 		<Energy_Capacity>25000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>5000.0</Energy_Refresh_Rate>
 		
@@ -113,16 +113,6 @@
 			HP_MC90_Cruiser_20,
 			HP_MC90_Cruiser_21,
 			HP_MC90_Cruiser_22,
-			HP_MC90_Cruiser_23,
-			HP_MC90_Cruiser_24,
-			HP_MC90_Cruiser_25,
-			HP_MC90_Cruiser_26,
-			HP_MC90_Cruiser_27,
-			HP_MC90_Cruiser_28,
-			HP_MC90_Cruiser_29,
-			HP_MC90_Cruiser_30,
-			HP_MC90_Cruiser_31,
-			HP_MC90_Cruiser_32,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
@@ -202,17 +192,19 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>8330.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>53.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>9720.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>61.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
-				<Expiration_Seconds>1</Expiration_Seconds>
-				<Recharge_Seconds>120</Recharge_Seconds>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.01f</Mod_Multiplier>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>118</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>

@@ -132,7 +132,7 @@
         <Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>1170</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Special_Structures>Rebel_Command_Center</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>

@@ -4,8 +4,8 @@
 		<Campaign_Set>Sandbox_GFFA_NO</Campaign_Set>
 		<Sort_Order>10</Sort_Order>
 
-		<Text_ID>TEXT_CAMPAIGN_SINGLE_56</Text_ID>
-		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56</Description_Text>
+		<Text_ID>TEXT_CAMPAIGN_SANDBOX_GFFA</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SANDBOX_GFFA_DESC</Description_Text>
 
 		<Camera_Shift_X>40.0</Camera_Shift_X>
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>
@@ -1010,8 +1010,8 @@
 		<Campaign_Set>Sandbox_GFFA_NO</Campaign_Set>
 		<Sort_Order>10</Sort_Order>
 
-		<Text_ID>TEXT_CAMPAIGN_SINGLE_56</Text_ID>
-		<Description_Text>TEXT_CAMPAIGN_SINGLE_DESCRIPTION_56</Description_Text>
+		<Text_ID>TEXT_CAMPAIGN_SANDBOX_GFFA</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_SANDBOX_GFFA_DESC</Description_Text>
 
 		<Camera_Shift_X>40.0</Camera_Shift_X>
 		<Camera_Shift_Y>0.0</Camera_Shift_Y>

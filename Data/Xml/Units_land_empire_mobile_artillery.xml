@@ -151,7 +151,7 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<CategoryMask> Vehicle | AntiStructure | AntiVehicle | AntiInfantry</CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiHeavyVehicle | AntiStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Overall_Length>40.0</Overall_Length>
 		<!-- For vehicle pitching up and down on terrain -->

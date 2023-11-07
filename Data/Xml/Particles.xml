@@ -897,6 +897,16 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_TINY</Explosion_Scorch_Mark>
     </Particle>
 
+    <Particle Name="Projectile_Shield_Absorb_Tiny">
+        <Land_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Space_Model_Name>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>10</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+    </Particle>
     <Particle Name="Projectile_Shield_Absorb_Small">
         <Land_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Land_Model_Name>
         <Space_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Space_Model_Name>

@@ -5,8 +5,8 @@
 		<Campaign_Set> Scenario_OSF </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
 
-        <Text_ID> TEXT_SCENARIO_SINGLE_OSF </Text_ID>
-        <Description_Text> TEXT_SCENARIO_SINGLE_OSF_DESCRIPTION </Description_Text>
+        <Text_ID> TEXT_CAMPAIGN_SCENARIO_OSF </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SCENARIO_OSF_DESC </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
@@ -141,8 +141,8 @@
 		<Campaign_Set> Scenario_OSF </Campaign_Set>
 		<Sort_Order>1</Sort_Order>
 
-        <Text_ID> TEXT_SCENARIO_SINGLE_OSF </Text_ID>
-        <Description_Text> TEXT_SCENARIO_SINGLE_OSF_DESCRIPTION </Description_Text>
+        <Text_ID> TEXT_CAMPAIGN_SCENARIO_OSF </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SCENARIO_OSF_DESC </Description_Text>
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>

@@ -128,7 +128,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> HeavyVehicle | AntiHeavyVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Tracked</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -173,8 +173,8 @@
 				<Mod_Multiplier>FIRE_RATE_MULTIPLIER, 2.5f</Mod_Multiplier>
                 <SFXEvent_Target_Ability> Unit_Barrage_Interdictor </SFXEvent_Target_Ability>
 				<Projectile_Types_Override>Proj_Land_Flak_Missile</Projectile_Types_Override>
-                <Area_Effect_Decal_Distance> 75.0 </Area_Effect_Decal_Distance>
-				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>75</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+                <Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
+				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>50</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 				<Target_Position_Z_Offset>0</Target_Position_Z_Offset>
 			</Unit_Ability>
 	   </Unit_Abilities_Data>
@@ -204,7 +204,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>T4B_Tank</Company_Units>
+		<Company_Units>T4B_Tank, T4B_Tank</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_t-4b_repulsor_tank.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

@@ -11,26 +11,25 @@
 		<Behavior> SPACE_OBSTACLE, TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT </Behavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Empire, 
+			<!--Empire, 
 				UC_Empire_Defense_Satellite_Laser,
 				UC_Empire_Defense_Satellite_Sensor,
 				UC_Empire_Defense_Satellite_TB,
 			Rebel,
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,
-				
+				UC_Rebel_Defense_Satellite_Jammer,-->				
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Tactical_Buildable_Objects_Campaign> 
-			Empire, 
+			<!--Empire, 
 				UC_Empire_Defense_Satellite_Laser,
 				UC_Empire_Defense_Satellite_Sensor,
 				UC_Empire_Defense_Satellite_TB,
 			Rebel,
 				UC_Rebel_Defense_Satellite_Laser,
 				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,
+				UC_Rebel_Defense_Satellite_Jammer,-->	
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Text_ID> TEXT_ORBITAL_DEFENSE_SATELLITE </Text_ID>
@@ -53,7 +52,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
@@ -91,10 +90,10 @@
 	<SpaceBuildable Name="Defense_Satellite_Missile_Pad">
 		<Variant_Of_Existing_Type>Defense_Satellite_Laser_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer>
-			Empire,
+			<!--Empire,
 				UC_Empire_Defense_Satellite_Laser,
 			Rebel,
-				UC_Rebel_Defense_Satellite_Laser,
+				UC_Rebel_Defense_Satellite_Laser,-->
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Space_Model_Name>NV_LDS_Pad.ALO</Space_Model_Name>
 				
@@ -145,7 +144,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
@@ -247,7 +246,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
@@ -330,7 +329,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
@@ -423,7 +422,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
@@ -441,7 +440,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Victory_Relevant>No</Victory_Relevant>
-		<Targeting_Priority_Set>Cruiser</Targeting_Priority_Set>
+		<Targeting_Priority_Set>HeavyCruiser</Targeting_Priority_Set>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -509,7 +508,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -577,7 +576,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 4725 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -658,7 +657,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -714,7 +713,7 @@
 			HP_TRACTOR_BEAM_00
 		</HardPoints>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 4725 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -820,7 +819,7 @@
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -872,7 +871,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 4725 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -983,7 +982,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -1044,7 +1043,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -1115,7 +1114,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -1208,7 +1207,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -1306,7 +1305,7 @@
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1391,7 +1390,7 @@
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1444,7 +1443,7 @@
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1519,7 +1518,7 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Score_Cost_Credits> 25000 </Score_Cost_Credits>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -1594,7 +1593,7 @@
 		<Base_Level_Available> 1 </Base_Level_Available>
 		<Required_Ground_Base_Level> 0 </Required_Ground_Base_Level>
 		<Space_FOW_Reveal_Range>850.0</Space_FOW_Reveal_Range>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
         <Is_Community_Property>Yes</Is_Community_Property>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -1653,7 +1652,7 @@
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 				
@@ -1671,7 +1670,7 @@
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		
 		<Select_Box_Scale> 50 </Select_Box_Scale>
-		<Scale_Factor> .75 </Scale_Factor>
+		<Scale_Factor> 0.4 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1696,7 +1695,7 @@
 		<Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
 		<Tactical_Buildable_Constructed> Empire_Mineral_Extractor </Tactical_Buildable_Constructed>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
-		<Scale_Factor> .75 </Scale_Factor>
+		<Scale_Factor> 0.4 </Scale_Factor>
 
 		<Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -1722,7 +1721,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
@@ -1731,7 +1730,7 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   
-		<Tactical_Health>50000</Tactical_Health>
+		<Tactical_Health>25000</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1800,7 +1799,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-		<CategoryMask> Structure </CategoryMask>
+		<CategoryMask> SpaceStructure </CategoryMask>
 		
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Show_Facing>No</Radar_Show_Facing>
@@ -1822,7 +1821,7 @@
 				<Owner_Income_Percentage />
 			</Income_Stream_Ability>
 				
-			<!--<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
+			<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
 				<Heal_Percent>0.004</Heal_Percent>
@@ -1838,10 +1837,10 @@
 				<Owner_Light_Effect_Color2 />
 				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-			</Force_Healing_Ability>-->
+			</Force_Healing_Ability>
 		</Abilities>
 	
-		<Tactical_Health>100000</Tactical_Health>
+		<Tactical_Health>50000</Tactical_Health>
 		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,

@@ -51,37 +51,6 @@
         <Reward_Param1>R41_Squadron</Reward_Param1>
 		<Prereq>Rebels_Enter_Tech_01</Prereq>
 	</Event>
-	<Event Name="Disable_Consular">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>LOCK_UNIT</Reward_Type>
-        <Reward_Param1>Consular_Cruiser</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-	<Event Name="Disable_Rep_Cruiser">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>LOCK_UNIT</Reward_Type>
-        <Reward_Param1>Republic_Assault_Cruiser</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-	<Event Name="Disable_Munificent">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>LOCK_UNIT</Reward_Type>
-        <Reward_Param1>Munificent_Frigate_Rebel</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-	<Event Name="Disable_Recusant">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>LOCK_UNIT</Reward_Type>
-        <Reward_Param1>Recusant_Frigate_Rebel</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-	
-	<Event Name="Disable_Acclamator_Assault_Ship">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>LOCK_UNIT</Reward_Type>
-        <Reward_Param1>Acclamator_Assault_Ship</Reward_Param1>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
 	
 <!-- Spawn heroes -->
 	<Event Name="Spawn_Red_Squadron_OSF">

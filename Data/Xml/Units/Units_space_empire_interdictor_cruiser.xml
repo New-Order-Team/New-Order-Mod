@@ -29,16 +29,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>16.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1840.0</Build_Cost_Credits>
+		<Build_Time_Seconds>17.0</Build_Time_Seconds>
+		<Build_Cost_Credits>2030.0</Build_Cost_Credits>
 		<Population_Value>7.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>1840.0</AI_Combat_Power>
+		<AI_Combat_Power>2030.0</AI_Combat_Power>
 		<Score_Cost_Credits>122.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1840.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1840.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>2030.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2030.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -177,8 +177,8 @@
 		
 		<Lua_Script>ObjectScript_Interdict</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>1840.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>16.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>2030.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>17.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">

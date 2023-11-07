@@ -144,13 +144,13 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>6.0</Build_Time_Seconds>
-		<Build_Cost_Credits>210.0</Build_Cost_Credits>
+		<Build_Cost_Credits>230.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>210.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>210.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>210.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>230.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>230.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>230.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>324.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -185,7 +185,7 @@
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
 		
-		<Tactical_Build_Cost_Multiplayer>210.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>230.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>

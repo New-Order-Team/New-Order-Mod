@@ -27,16 +27,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>155.0</Build_Time_Seconds>
-		<Build_Cost_Credits>26050.0</Build_Cost_Credits>
+		<Build_Time_Seconds>171.0</Build_Time_Seconds>
+		<Build_Cost_Credits>28820.0</Build_Cost_Credits>
 		<Population_Value>52.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>26050.0</AI_Combat_Power>
-		<Score_Cost_Credits>1733.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>26050.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>26050.0</Piracy_Value_Credits>
+		<AI_Combat_Power>28820.0</AI_Combat_Power>
+		<Score_Cost_Credits>1732.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>28820.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>28820.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>245000.0</Autoresolve_Health>
@@ -207,8 +207,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		
-		<Tactical_Build_Cost_Multiplayer>26050.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>155.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>28820.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>171.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">

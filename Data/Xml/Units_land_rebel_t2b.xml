@@ -136,7 +136,7 @@
 		<No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		
-		<CategoryMask> Vehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiStructure </CategoryMask>
 		<MovementClass>HoverNoShield</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

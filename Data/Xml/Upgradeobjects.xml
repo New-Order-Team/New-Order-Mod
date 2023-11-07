@@ -3191,9 +3191,9 @@
 	<UpgradeObject Name="RS_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 5000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>5000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3221,9 +3221,9 @@
 	<UpgradeObject Name="RS_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 10000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3251,9 +3251,9 @@
 	<UpgradeObject Name="RS_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 15000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>15000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3281,9 +3281,9 @@
 	<UpgradeObject Name="RS_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 34650 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>34650</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 116 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 20000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>20000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3307,40 +3307,13 @@
 		</Abilities>		
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
-	
-	<UpgradeObject Name="RS_Level_Six_Starbase_Upgrade">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Rebel</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 40000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 120 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_r_tech_upgrade_6.tga</Icon_Name>
-		
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_SIX_STARBASE  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_LEVEL_SIX_STARBASE </Text_ID>
-		
-		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		
-		
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-
 
 	<UpgradeObject Name="ES_Level_Two_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 10580 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>10580</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 5000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>5000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3368,9 +3341,9 @@
 	<UpgradeObject Name="ES_Level_Three_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 16460 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>16460</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 10000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>10000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3398,9 +3371,9 @@
 	<UpgradeObject Name="ES_Level_Four_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 22310 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>22310</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 74 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 15000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>15000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 45 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3428,9 +3401,9 @@
 	<UpgradeObject Name="ES_Level_Five_Starbase_Upgrade">
 		<Behavior>DUMMY_UPGRADE</Behavior>
 		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 34650 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Cost_Campaign>34650</Tactical_Build_Cost_Campaign>
-		<Tactical_Build_Time_Seconds> 116 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer> 20000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>20000</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 55 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites> </Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
@@ -3452,32 +3425,6 @@
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 			</Starbase_Upgrade_Ability>
 		</Abilities>		
-		<CategoryMask>Upgrade</CategoryMask>
-	</UpgradeObject>
-	
-	<UpgradeObject Name="ES_Level_Six_Starbase_Upgrade">
-		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire</Affiliation>
-		<Tactical_Build_Cost_Multiplayer> 40000 </Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds> 120 </Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
-		<Previous_Upgrade_Level_Type />
-		<Next_Upgrade_Level_Type />
-		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
-		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
-		<Icon_Name>i_button_e_tech_upgrade_6.tga</Icon_Name>
-		
-		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_SIX_STARBASE  </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
-		<Text_ID>TEXT_UPGRADE_LEVEL_SIX_STARBASE </Text_ID>
-		
-		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
-		
-		
 		<CategoryMask>Upgrade</CategoryMask>
 	</UpgradeObject>
 	

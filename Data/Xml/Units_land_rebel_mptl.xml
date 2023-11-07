@@ -111,7 +111,7 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> Vehicle | AntiStructure | AntiVehicle | AntiInfantry</CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiHeavyVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Tracked</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

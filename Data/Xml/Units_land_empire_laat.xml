@@ -185,7 +185,7 @@
 		<Variant_Of_Existing_Type>LAAT_Platoon</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_LAAT_PLATOON</Text_ID>
 		<Affiliation>Rebel</Affiliation>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory</Required_Special_Structures>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
 		<Company_Units>LAAT_Rebel, LAAT_Rebel</Company_Units>

@@ -477,39 +477,6 @@
 		<AI_Combat_Power>1000.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Laser_ION_R_Single_270">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_laser_r_single_x5.alo</Space_Model_Name>
-		<Scale_Factor>1</Scale_Factor>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>LASER</Projectile_Category>
-		<Max_Speed>45</Max_Speed>
-		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>1210.0</Projectile_Max_Flight_Distance>
-		
-		<Damage_Type>Damage_ION</Damage_Type>
-		<Projectile_Damage>270.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>27.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Medium</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Medium_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>270.0</AI_Combat_Power>
-	</Projectile>
-	
 	<Projectile Name="Proj_Space_Laser_KDO_G_Octuple">
 		<Text_ID>TEXT_NONE</Text_ID>
 		
@@ -964,6 +931,39 @@
 		
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		
+		<AI_Combat_Power>1000.0</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Space_Laser_TBL12_R_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		
+		<Space_Model_Name>proj_space_laser_r_dual_x12.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+		
+		<Behavior>
+			PROJECTILE,
+			HIDE_WHEN_FOGGED,
+		</Behavior>
+		<Projectile_Category>LASER</Projectile_Category>
+		<Max_Speed>45</Max_Speed>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>1980.0</Projectile_Max_Flight_Distance>
+		
+		<Damage_Type>Damage_TBL12</Damage_Type>
+		<Projectile_Damage>2000.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		
+		<Projectile_Energy_Per_Shot>200.0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Object_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
 		
 		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>

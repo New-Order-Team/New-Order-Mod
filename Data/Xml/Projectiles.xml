@@ -2117,7 +2117,7 @@
 		<Land_Model_Name>w_thermal_detonator_empire.alo</Land_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Damage_Type> Damage_T7 </Damage_Type>
+		<Damage_Type> Damage_E7 </Damage_Type>
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior> PROJECTILE </Behavior>

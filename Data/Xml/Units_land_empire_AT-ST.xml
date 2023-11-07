@@ -137,7 +137,7 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiStructure </CategoryMask>
 		<Icon_Name>i_button_atst.tga</Icon_Name>
 		<MovementClass>Walker</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>

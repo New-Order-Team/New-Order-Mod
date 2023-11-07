@@ -100,7 +100,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 
-		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<CategoryMask> Vehicle | AntiVehicle | AntiHeavyVehicle | AntiStructure </CategoryMask>
 		<MovementClass>Hover</MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -378,6 +378,7 @@
 
 		<AI_Combat_Power>101</AI_Combat_Power>
 		<Score_Cost_Credits>101</Score_Cost_Credits>
+		<CategoryMask> HeavyVehicle </CategoryMask>
 
 		<HardPoints>
 			HP_Freerunner_Blaster_1,

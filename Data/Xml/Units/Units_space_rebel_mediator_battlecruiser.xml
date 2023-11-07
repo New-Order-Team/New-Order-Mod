@@ -23,19 +23,19 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		
-		<Tech_Level>2.0</Tech_Level>
+		<Tech_Level>99.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>129.0</Build_Time_Seconds>
-		<Build_Cost_Credits>21540.0</Build_Cost_Credits>
+		<Build_Time_Seconds>142.0</Build_Time_Seconds>
+		<Build_Cost_Credits>23830.0</Build_Cost_Credits>
 		<Population_Value>60.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>21540.0</AI_Combat_Power>
-		<Score_Cost_Credits>1433.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>21540.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>21540.0</Piracy_Value_Credits>
+		<AI_Combat_Power>23830.0</AI_Combat_Power>
+		<Score_Cost_Credits>1432.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>23830.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>23830.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>270000.0</Autoresolve_Health>
@@ -188,17 +188,19 @@
 		
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 		
-		<Tactical_Build_Cost_Multiplayer>21540.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>129.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>23830.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>142.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DEFEND</Type>
-				<Expiration_Seconds>1</Expiration_Seconds>
-				<Recharge_Seconds>120</Recharge_Seconds>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.01f</Mod_Multiplier>
+				<Expiration_Seconds>2</Expiration_Seconds>
+				<Recharge_Seconds>118</Recharge_Seconds>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER, 0.10f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 100.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>

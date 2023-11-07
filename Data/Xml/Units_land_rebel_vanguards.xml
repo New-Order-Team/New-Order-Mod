@@ -75,7 +75,9 @@
 				<Type>SWAP_WEAPONS</Type>
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>50</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_UNIT_REBEL_VANGUARD_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_REBEL_VANGUARD_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -157,7 +159,9 @@
 				<Type>SWAP_WEAPONS</Type>
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>50</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_UNIT_REBEL_VANGUARD_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_REBEL_VANGUARD_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -223,7 +227,9 @@
 				<Type>SWAP_WEAPONS</Type>
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>50</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_UNIT_REBEL_VANGUARD_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_REBEL_VANGUARD_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -285,7 +291,9 @@
 				<Type>SWAP_WEAPONS</Type>
 				<Expiration_Seconds>10</Expiration_Seconds>
 				<Recharge_Seconds>50</Recharge_Seconds>
-                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name> 
+                <GUI_Activated_Ability_Name>MAL_Swap_Weapon</GUI_Activated_Ability_Name>
+				<Alternate_Name_Text>TEXT_UNIT_REBEL_VANGUARD_AB2</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_UNIT_REBEL_VANGUARD_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 

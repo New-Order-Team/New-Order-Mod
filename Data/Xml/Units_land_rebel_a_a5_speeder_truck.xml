@@ -103,6 +103,11 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
 		<Land_FOW_Reveal_Range>370.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+
+		<Hardpoints>
+			HP_A_A5_Blaster
+		</Hardpoints>
 
 		<Overall_Length>111.0</Overall_Length>
 		<Overall_Width>36.0</Overall_Width>
@@ -148,7 +153,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
-		<Company_Units>A_A5_Speeder_Truck, A_A5_Speeder_Truck, A_A5_Speeder_Truck</Company_Units>
+		<Company_Units>A_A5_Speeder_Truck, A_A5_Speeder_Truck</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_aa5.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

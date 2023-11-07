@@ -153,7 +153,7 @@
         <Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>1020</Build_Cost_Credits>
 		<Build_Time_Seconds>19</Build_Time_Seconds>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
 		
 		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>

@@ -204,7 +204,6 @@
 				<Expiration_Seconds>2</Expiration_Seconds>
 				<Recharge_Seconds>10</Recharge_Seconds>
 				<Spawned_Object_Type> Self_Destruct_Area_Blast_Effect </Spawned_Object_Type>
-				<Supports_Autofire>True</Supports_Autofire>
 				<Alternate_Name_Text>TEXT_UNIT_QH_7_CHARIOT_AB2</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_UNIT_QH_7_CHARIOT_AB2_DESC</Alternate_Description_Text>
 			</Unit_Ability>

@@ -1976,13 +1976,12 @@
 				Warrior_Gunship,
 				Marauder_Corvette,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-				Liberator_Cruiser,
 				Majestic_Cruiser,
 				Defender_Carrier,
 				Calamari_Cruiser,
@@ -1990,12 +1989,7 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				Dauntless_Cruiser,
-				MC90_Cruiser,
-				Independence_Battlecruiser,
-				Home_One_Battlecruiser,
-				Mediator_Battlecruiser,
-				Bulwark_III_Battlecruiser,
+				MC90_Cruiser
 
 				<!--RS_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2102,13 +2096,12 @@
 				Warrior_Gunship,
 				Marauder_Corvette,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-				Liberator_Cruiser,
 				Majestic_Cruiser,
 				Defender_Carrier,
 				Calamari_Cruiser,
@@ -2116,12 +2109,7 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				Dauntless_Cruiser,
-				MC90_Cruiser,
-				Independence_Battlecruiser,
-				Home_One_Battlecruiser,
-				Mediator_Battlecruiser,
-				Bulwark_III_Battlecruiser,
+				MC90_Cruiser
 				
 				<!-- RS_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2239,13 +2227,12 @@
 				Warrior_Gunship,
 				Marauder_Corvette,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-				Liberator_Cruiser,
 				Majestic_Cruiser,
 				Defender_Carrier,
 				Calamari_Cruiser,
@@ -2253,12 +2240,7 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				Dauntless_Cruiser,
-				MC90_Cruiser,
-				Independence_Battlecruiser,
-				Home_One_Battlecruiser,
-				Mediator_Battlecruiser,
-				Bulwark_III_Battlecruiser,
+				MC90_Cruiser
 				
 				<!-- RS_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2386,13 +2368,12 @@
 				Warrior_Gunship,
 				Marauder_Corvette,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-				Liberator_Cruiser,
 				Majestic_Cruiser,
 				Defender_Carrier,
 				Calamari_Cruiser,
@@ -2400,12 +2381,7 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				Dauntless_Cruiser,
-				MC90_Cruiser,
-				Independence_Battlecruiser,
-				Home_One_Battlecruiser,
-				Mediator_Battlecruiser,
-				Bulwark_III_Battlecruiser,
+				MC90_Cruiser
 				
 				<!-- RS_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2537,13 +2513,12 @@
 				Warrior_Gunship,
 				Marauder_Corvette,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
-				Liberator_Cruiser,
 				Majestic_Cruiser,
 				Defender_Carrier,
 				Calamari_Cruiser,
@@ -2551,12 +2526,7 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				Dauntless_Cruiser,
-				MC90_Cruiser,
-				Independence_Battlecruiser,
-				Home_One_Battlecruiser,
-				Mediator_Battlecruiser,
-				Bulwark_III_Battlecruiser,
+				MC90_Cruiser
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2651,26 +2621,19 @@
 				Adz_Corvette,
 				Lancer_Frigate,
 				Vigil_Corvette,
-				Nebulon_B_Frigate_E,
 				Carrack_Cruiser,
 				Strike_Cruiser,
 				Escort_Carrier,
-				Gladiator_Cruiser,
 				Dreadnought_Cruiser,
-				Acclamator_Assault_Ship,
 				Interdictor_Cruiser,
 				Vindicator_Cruiser,
 				Enforcer_Cruiser,
 				Victory_Destroyer,
 				Victory_II_Destroyer,
-				Venator_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
-				Tector_Destroyer,
-				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
-				Executor_Dreadnought,
+				Allegiance_Battlecruiser
 				
 				<!--ES_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2774,26 +2737,19 @@
 				Adz_Corvette,
 				Lancer_Frigate,
 				Vigil_Corvette,
-				Nebulon_B_Frigate_E,
 				Carrack_Cruiser,
 				Strike_Cruiser,
 				Escort_Carrier,
-				Gladiator_Cruiser,
 				Dreadnought_Cruiser,
-				Acclamator_Assault_Ship,
 				Interdictor_Cruiser,
 				Vindicator_Cruiser,
 				Enforcer_Cruiser,
 				Victory_Destroyer,
 				Victory_II_Destroyer,
-				Venator_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
-				Tector_Destroyer,
-				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
-				Executor_Dreadnought,
+				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2906,26 +2862,19 @@
 				Adz_Corvette,
 				Lancer_Frigate,
 				Vigil_Corvette,
-				Nebulon_B_Frigate_E,
 				Carrack_Cruiser,
 				Strike_Cruiser,
 				Escort_Carrier,
-				Gladiator_Cruiser,
 				Dreadnought_Cruiser,
-				Acclamator_Assault_Ship,
 				Interdictor_Cruiser,
 				Vindicator_Cruiser,
 				Enforcer_Cruiser,
 				Victory_Destroyer,
 				Victory_II_Destroyer,
-				Venator_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
-				Tector_Destroyer,
-				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
-				Executor_Dreadnought,
+				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3048,26 +2997,19 @@
 				Adz_Corvette,
 				Lancer_Frigate,
 				Vigil_Corvette,
-				Nebulon_B_Frigate_E,
 				Carrack_Cruiser,
 				Strike_Cruiser,
 				Escort_Carrier,
-				Gladiator_Cruiser,
 				Dreadnought_Cruiser,
-				Acclamator_Assault_Ship,
 				Interdictor_Cruiser,
 				Vindicator_Cruiser,
 				Enforcer_Cruiser,
 				Victory_Destroyer,
 				Victory_II_Destroyer,
-				Venator_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
-				Tector_Destroyer,
-				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
-				Executor_Dreadnought,
+				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3200,26 +3142,19 @@
 				Adz_Corvette,
 				Lancer_Frigate,
 				Vigil_Corvette,
-				Nebulon_B_Frigate_E,
 				Carrack_Cruiser,
 				Strike_Cruiser,
 				Escort_Carrier,
-				Gladiator_Cruiser,
 				Dreadnought_Cruiser,
-				Acclamator_Assault_Ship,
 				Interdictor_Cruiser,
 				Vindicator_Cruiser,
 				Enforcer_Cruiser,
 				Victory_Destroyer,
 				Victory_II_Destroyer,
-				Venator_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
-				Tector_Destroyer,
-				Allegiance_Battlecruiser,
-				Praetor_II_Battlecruiser,
-				Executor_Dreadnought,
+				Allegiance_Battlecruiser
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -3281,6 +3216,8 @@
 			Rebel,
 				A_Wing_Squadron,
 				Y_Wing_A4_Squadron,
+				Corellian_Corvette,
+				Corellian_Gunboat,
 				
 				RS_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3300,6 +3237,9 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
 				
 				RS_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3323,8 +3263,12 @@
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
+				CC-7700_Frigate,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
+				
+				Calamari_Cruiser,
+				MC80A_Cruiser,
 				
 				RS_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3354,6 +3298,8 @@
 				
 				Calamari_Cruiser,
 				MC80A_Cruiser,
+				
+				Home_One_Battlecruiser,
 				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
@@ -3401,6 +3347,9 @@
 				A_Wing_Squadron,
 				E_Wing_Squadron,
 				
+				Corellian_Corvette,
+				Corellian_Gunboat,
+				
 				RS_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Prev_Level_Base />
@@ -3419,6 +3368,9 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
+				
+				MC30_Frigate,
+				MC40a_Cruiser,
 				
 				RS_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3439,11 +3391,15 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
+				CC-7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
+				
+				MC80B_Cruiser,
+				MC80A_Cruiser,
 				
 				RS_Level_Four_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3464,6 +3420,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
+				CC-7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3473,6 +3430,8 @@
 				MC80B_Cruiser,
 				MC80A_Cruiser,
 				MC90_Cruiser,
+				
+				Home_One_Battlecruiser,
 				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
@@ -3494,6 +3453,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
+				CC-7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3517,8 +3477,11 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_1</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Defender_Starfighter_Squadron,
+				A_Wing_Squadron,
 				E_Wing_Squadron,
+				
+				Agave_Corvette,
+				Warrior_Gunship,
 				
 				RS_Level_Two_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3530,13 +3493,15 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_2</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Defender_Starfighter_Squadron,
+				A_Wing_Squadron,
 				E_Wing_Squadron,
 				X_Wing_Squadron,
 				
 				Agave_Corvette,
 				Warrior_Gunship,
+				
 				Sacheen_Cruiser,
+				MC30_Frigate,
 				
 				RS_Level_Three_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3548,7 +3513,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_3</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Defender_Starfighter_Squadron,
+				A_Wing_Squadron,
 				E_Wing_Squadron,
 				X_Wing_Squadron,
 				B_Wing_Squadron,
@@ -3573,7 +3538,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_4</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Defender_Starfighter_Squadron,
+				A_Wing_Squadron,
 				E_Wing_Squadron,
 				X_Wing_Squadron,
 				B_Wing_Squadron,
@@ -3604,7 +3569,7 @@
 		<Variant_Of_Existing_Type>Skirmish_Rebel_Star_Base_5</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Defender_Starfighter_Squadron,
+				A_Wing_Squadron,
 				E_Wing_Squadron,
 				X_Wing_Squadron,
 				B_Wing_Squadron,

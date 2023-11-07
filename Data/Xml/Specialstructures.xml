@@ -104,7 +104,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				Army_Trooper_Platoon,
-				E_Web_Platoon,
+				<!-- E_Web_Platoon, -->
 				<!-- E_Web_15_Platoon, -->
 				PX_10_Platoon,
 				AT_AR_Platoon,
@@ -679,9 +679,9 @@
 			Empire,
 				Stormtrooper_Platoon,
 				<!-- Stormtrooper_Platoon_Remnant, -->
-				Novatrooper_Platoon,
+				<!-- Novatrooper_Platoon, -->
 				<!-- Elite_Guard_Platoon, -->
-				Storm_Commando_Team
+				<!-- Storm_Commando_Team -->
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>1000</AI_Combat_Power>
@@ -1673,8 +1673,8 @@
 		
 	    <Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				SpecForce_Pathfinder_Squad,
-				SpecForce_Guerrilla_Squad,
+				<!-- SpecForce_Pathfinder_Squad, -->
+				<!-- SpecForce_Guerrilla_Squad, -->
 				Freerunner_APC_Platoon,
 		</Tactical_Buildable_Objects_Multiplayer>
 
@@ -1802,8 +1802,8 @@
 		<Property_Flags>InBase</Property_Flags>
 
       <AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>AAT_Rebel, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AAT_Rebel, 0</Reserve_Spawned_Units_Tech_0>
+		<!-- <Starting_Spawned_Units_Tech_0>AAT_Rebel, 2</Starting_Spawned_Units_Tech_0> -->
+		<!-- <Reserve_Spawned_Units_Tech_0>AAT_Rebel, 0</Reserve_Spawned_Units_Tech_0> -->
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -1818,7 +1818,7 @@
 			Rebel,
 				Rebel_T1b_Platoon,
 				Rebel_Light_Tank_Brigade, <!-- T2-B -->
-				Rebel_AAT_Team,
+				<!-- Rebel_AAT_Team, -->
 				Rebel_T3b_Platoon,
 				Rebel_Heavy_Tank_Brigade, <!-- T4-B -->
 				Rebel_Artillery_Brigade, <!-- MPTL -->

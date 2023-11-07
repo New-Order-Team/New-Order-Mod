@@ -97,7 +97,7 @@
 		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Infantry | AntiVehicle </CategoryMask>
 		<MovementClass> Infantry </MovementClass>
 		<Property_Flags>Fodder</Property_Flags>
 		<OccupationStyle>1x1</OccupationStyle>
@@ -146,7 +146,7 @@
 		<Build_Time_Seconds>37</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -224,7 +224,7 @@
 		<Build_Time_Seconds>49</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

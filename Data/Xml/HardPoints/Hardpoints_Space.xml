@@ -393,29 +393,6 @@
 	</HardPoint>
 	
 	<HardPoint Name="HP_TIE_Bomber_2">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Missile_Small_CML4</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Transport, Corvette, Frigate, Capital, Dreadnought, SpaceStructure, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_TIE_Bomber_3">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -11452,8 +11429,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -11491,8 +11466,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -11530,8 +11503,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -11569,8 +11540,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -11608,8 +11577,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -11647,8 +11614,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -11686,8 +11651,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -11725,8 +11688,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -11764,8 +11725,6 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHIC_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -11803,8 +11762,6 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHIC_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -12201,8 +12158,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -12240,8 +12195,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -12279,8 +12232,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -12318,8 +12269,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -12357,8 +12306,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -12396,8 +12343,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -12435,8 +12380,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -12474,8 +12417,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hotl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -12926,8 +12867,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_10</Attachment_Bone>
@@ -12965,8 +12904,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_OHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_ii-class_star_destroyer_hoti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_12</Attachment_Bone>
@@ -13004,8 +12941,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -13043,8 +12978,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -13495,8 +13428,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -13534,8 +13465,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -13573,8 +13502,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -13612,8 +13539,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -13651,8 +13576,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -13690,8 +13613,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -13729,8 +13650,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_06.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -13768,8 +13687,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_07.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -13807,8 +13724,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_08.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -13846,8 +13761,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_09.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -13885,8 +13798,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_10.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_10</Attachment_Bone>
@@ -13924,8 +13835,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdtl_11.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_11</Attachment_Bone>
@@ -13963,8 +13872,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_12</Attachment_Bone>
@@ -14002,8 +13909,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_QHTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hqtl_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_13</Attachment_Bone>
@@ -14041,8 +13946,6 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHIC_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_14</Attachment_Bone>
@@ -14080,8 +13983,6 @@
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_DHIC_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
 		<Model_To_Attach>imperial_i-class_star_destroyer_hdti_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_15</Attachment_Bone>
@@ -14446,7 +14347,6 @@
 		
 		<Fire_Bone_A>HP_00</Fire_Bone_A>
 		<Fire_Bone_B>HP_00</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_TBL16_R_Single</Fire_Projectile_Type>
@@ -14470,7 +14370,6 @@
 		
 		<Fire_Bone_A>HP_01</Fire_Bone_A>
 		<Fire_Bone_B>HP_01</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_TBL16_R_Single</Fire_Projectile_Type>
@@ -14830,9 +14729,8 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		
-		<Fire_Bone_A>TARGET_00</Fire_Bone_A>
-		<Fire_Bone_B>TARGET_00</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+		<Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Fire_Cone_Width>5.0</Fire_Cone_Width>
 		<Fire_Cone_Height>5.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Facing</Fire_Projectile_Type>
@@ -14856,26 +14754,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_00</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -14894,26 +14780,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_01</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_01</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_01</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -14932,26 +14806,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_02</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_02</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_02</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -14970,26 +14832,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_03</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_32</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_03</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_03</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_32</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_32</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -15008,26 +14858,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_04</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_04</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_04</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -15046,26 +14884,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_05</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_05</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_05</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>80.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -15084,26 +14910,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_06</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_06</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_06</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -15122,26 +14936,14 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_07</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_31</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_07</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_07</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>70.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
+		<Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
@@ -15160,583 +14962,124 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_08</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_08</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_08</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>80.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_MC90_Cruiser_11">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_09</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_09</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_09</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_MC90_Cruiser_12">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_10</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_10</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_10</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_MC90_Cruiser_13">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
 		
-		<Attachment_Bone>Attach_11</Attachment_Bone>
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
 		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_11</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_11</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	
 	<HardPoint Name="HP_MC90_Cruiser_14">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_12</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_12</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_12</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_12</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_12</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_15">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_13</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_13</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_13</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_13</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_13</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_16">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_14</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_14</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_14</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>80.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_14</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_14</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_17">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_15</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_15</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_15</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>75.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_15</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_15</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_18">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_16</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_16</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_16</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>70.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_16</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_16</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_19">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HTBL_T</Tooltip_Text>
-		<Health>1500.0</Health>
-		
-		<Attachment_Bone>Attach_17</Attachment_Bone>
-		
-		<Is_Turret>Yes</Is_Turret>
-		<Turret_Bone_Name>Turret_17</Turret_Bone_Name>
-		<Barrel_Bone_Name>Barrel_17</Barrel_Bone_Name>
-		<Turret_Rotate_Speed>1.0</Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees>80.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>75.0</Turret_Elevate_Extent_Degrees>
-		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-		
-		<Fire_Bone_A>MuzzleB_17</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_17</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>15.0</Fire_Cone_Width>
-		<Fire_Cone_Height>15.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_20">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_05</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_21">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_06</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_22">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_09</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>9.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_23">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_10</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>9.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_24">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_13</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>9.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_25">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
-		
-		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_14</Collision_Mesh>
-		
-		<Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>9.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
-	<HardPoint Name="HP_MC90_Cruiser_26">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
 		
 		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_15</Collision_Mesh>
 		
 		<Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -15760,15 +15103,12 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_27">
+	<HardPoint Name="HP_MC90_Cruiser_15">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TBL</Tooltip_Text>
-		<Health>240.0</Health>
 		
 		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_16</Collision_Mesh>
 		
 		<Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -15792,21 +15132,78 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_28">
+	<HardPoint Name="HP_MC90_Cruiser_16">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+		
+		<Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+	<HardPoint Name="HP_MC90_Cruiser_17">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+		
+		<Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>180.0</Fire_Cone_Width>
+		<Fire_Cone_Height>90.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL5_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.72</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.72</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.72</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1100.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.69135802469136</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 16.666666666666664</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+	<HardPoint Name="HP_MC90_Cruiser_18">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
-		<Health>240.0</Health>
 		
-		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_03</Collision_Mesh>
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
 		
-		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_R_Single_270</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_270</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.48</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.48</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>15.0</Fire_Pulse_Count>
@@ -15824,21 +15221,18 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_29">
+	<HardPoint Name="HP_MC90_Cruiser_19">
 		<Type>HARD_POINT_WEAPON_ION_CANNON</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_IC</Tooltip_Text>
-		<Health>240.0</Health>
 		
-		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_04</Collision_Mesh>
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
 		
-		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_R_Single_270</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_270</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.48</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.48</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>15.0</Fire_Pulse_Count>
@@ -15856,15 +15250,12 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_30">
+	<HardPoint Name="HP_MC90_Cruiser_20">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-		<Health>240.0</Health>
 		
 		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_01</Collision_Mesh>
 		
 		<Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -15884,15 +15275,12 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_31">
+	<HardPoint Name="HP_MC90_Cruiser_21">
 		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-		<Health>240.0</Health>
 		
 		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
-		<Collision_Mesh>MuzzleA_02</Collision_Mesh>
 		
 		<Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -15912,12 +15300,10 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	
-	<HardPoint Name="HP_MC90_Cruiser_32">
+	<HardPoint Name="HP_MC90_Cruiser_22">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>240.0</Health>
 		
 		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 		<Collision_Mesh>SPAWN_00</Collision_Mesh>
@@ -15954,7 +15340,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_00.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_00</Attachment_Bone>
@@ -15997,7 +15382,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_01.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_01</Attachment_Bone>
@@ -16040,7 +15424,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_s16_02.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_02</Attachment_Bone>
@@ -16083,7 +15466,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_03.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_03</Attachment_Bone>
@@ -16127,7 +15509,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_q12_04.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_04</Attachment_Bone>
@@ -16171,7 +15552,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_05.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_05</Attachment_Bone>
@@ -16215,7 +15595,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_06.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_06</Attachment_Bone>
@@ -16259,7 +15638,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_07.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_07</Attachment_Bone>
@@ -16303,7 +15681,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_08.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_08</Attachment_Bone>
@@ -16347,7 +15724,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_09.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_09</Attachment_Bone>
@@ -16391,7 +15767,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_10.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_10</Attachment_Bone>
@@ -16435,7 +15810,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_11.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_11</Attachment_Bone>
@@ -16479,7 +15853,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_12.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_12</Attachment_Bone>
@@ -16523,7 +15896,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_q12_13.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_13</Attachment_Bone>
@@ -16567,7 +15939,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_ball_ti12_14.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_14</Attachment_Bone>
@@ -16611,7 +15982,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_15.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_15</Attachment_Bone>
@@ -16655,7 +16025,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_16.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_16</Attachment_Bone>
@@ -16699,7 +16068,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_17.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_17</Attachment_Bone>
@@ -16743,7 +16111,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_18.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_18</Attachment_Bone>
@@ -16787,7 +16154,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_19.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_19</Attachment_Bone>
@@ -16831,7 +16197,6 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1.0</Health>
 		
 		<Model_To_Attach>imp_turret_q12_20.alo</Model_To_Attach>
 		<Attachment_Bone>Attach_20</Attachment_Bone>
@@ -17580,6 +16945,92 @@
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 		
 		<Power_To_Weapons_Mode_Weapon_Delay_Multiplier>0.5</Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 14.777777777777779</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.777777777777779</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 50.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 50.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Independence_Battlecruiser_1">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL12_R_Dual</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Independence_Battlecruiser_2">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Dual_2000</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>7.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance>Frigate, 66.66666666666667</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Independence_Battlecruiser_3">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Fire_Projectile_Type>Proj_Space_Laser_TBL6_R_Single</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.84</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.84</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.84</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 14.777777777777779</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 14.777777777777779</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 50.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 50.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+	<HardPoint Name="HP_Independence_Battlecruiser_4">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_375</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.84</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>0.84</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>10.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.84</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1200.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 		
 		<Fire_Inaccuracy_Distance>Fighter, 14.777777777777779</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Bomber, 14.777777777777779</Fire_Inaccuracy_Distance>
