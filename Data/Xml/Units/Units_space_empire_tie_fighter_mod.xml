@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_tie_fighter_mod.tga</Icon_Name>
 		
 		<Space_Model_Name>imp_tie_fighter.ALO</Space_Model_Name>
-		<No_Colorization_Color>75, 75, 75, 255</No_Colorization_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>

@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_victory_destroyer.tga</Icon_Name>
 		
 		<Space_Model_Name>imp_victory_i_alt.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.27</Scale_Factor>
 		
 		<Select_Box_Scale>450.0</Select_Box_Scale>

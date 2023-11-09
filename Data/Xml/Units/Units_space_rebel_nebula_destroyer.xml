@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_nebula_destroyer.tga</Icon_Name>
 		
 		<Space_Model_Name>nebula-class_star_destroyer.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.28</Scale_Factor>
 		
 		<Select_Box_Scale>520.0</Select_Box_Scale>

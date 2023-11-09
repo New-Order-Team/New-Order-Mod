@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_alliance_assault_frigate.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Assault.ALO</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.68</Scale_Factor>
 		
 		<Select_Box_Scale>350.0</Select_Box_Scale>

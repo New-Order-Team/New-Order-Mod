@@ -1925,7 +1925,7 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Infiltrator_Team,
+				<!-- Rebel_Infiltrator_Team, -->
 				Freerunner_Command_Platoon,
 				RL_Bombing_Run_Use_Upgrade, 
 				RL_Planetary_Bombard_Use_Upgrade

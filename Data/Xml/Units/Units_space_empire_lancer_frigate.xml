@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_lancer_frigate.tga</Icon_Name>
 		
 		<Space_Model_Name>imp_lancer_frigate.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Target_Bones>Target_00</Target_Bones>
 		

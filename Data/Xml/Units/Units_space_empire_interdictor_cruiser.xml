@@ -186,6 +186,7 @@
 				<Type>INTERDICT</Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
 				<Disable_Movement>Yes</Disable_Movement>
+				<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>

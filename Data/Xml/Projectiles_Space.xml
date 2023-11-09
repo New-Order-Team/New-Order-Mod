@@ -1768,43 +1768,6 @@
 		<AI_Combat_Power>750.0</AI_Combat_Power>
 	</Projectile>
 	
-	<Projectile Name="Proj_Space_Missile_Large_Default">
-		<Text_ID>TEXT_NONE</Text_ID>
-		
-		<Space_Model_Name>proj_space_missile_large.alo</Space_Model_Name>
-		
-		<Behavior>
-			PROJECTILE,
-			HIDE_WHEN_FOGGED,
-		</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Max_Speed>6.9</Max_Speed>
-		<Max_Rate_Of_Turn>0.75</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>100.0</Projectile_Max_Flight_Distance>
-		<Projectile_Max_Scan_Range>500</Projectile_Max_Scan_Range>
-		
-		<Projectile_Rocket_Curve_Distance>800</Projectile_Rocket_Curve_Distance>
-		<Projectile_Rocket_Curve_Offset>250</Projectile_Rocket_Curve_Offset>
-		<Projectile_Rocket_Straight_Distance>400</Projectile_Rocket_Straight_Distance>
-		
-		<Damage_Type>Damage_Default</Damage_Type>
-		<Projectile_Damage>750.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		
-		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
-		
-		<Projectile_Object_Detonation_Particle>Space_Missile_Hit_Large</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_Hit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		
-		<Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		
-		<AI_Combat_Power>0.0</AI_Combat_Power>
-	</Projectile>
-	
 	<Projectile Name="Proj_Space_Missile_Medium_CML8">
 		<Text_ID>TEXT_NONE</Text_ID>
 		

@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_liberator_cruiser.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Liberator.ALO</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>1.28</Scale_Factor>
 		
 		<Select_Box_Scale>400.0</Select_Box_Scale>

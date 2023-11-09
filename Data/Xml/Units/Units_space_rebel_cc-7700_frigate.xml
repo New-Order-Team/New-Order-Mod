@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_cc-7700_frigate.tga</Icon_Name>
 		
 		<Space_Model_Name>cc-7700_frigate.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.318</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
@@ -26,6 +25,7 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -161,6 +161,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Asteroid_Damage_Hit_Particles>Medium_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Is_Interdictor>Yes</Is_Interdictor>
 		
 		<Formation_Priority>3</Formation_Priority>
 		
@@ -181,6 +182,7 @@
 				<Type>INTERDICT</Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
 				<Disable_Movement>Yes</Disable_Movement>
+				<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>

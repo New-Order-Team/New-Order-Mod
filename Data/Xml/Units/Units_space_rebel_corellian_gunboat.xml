@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_corellian_gunboat.tga</Icon_Name>
 		
 		<Space_Model_Name>F_Corellian_Gunship.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.2</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>

@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_k_wing.tga</Icon_Name>
 		
 		<Space_Model_Name>btl_k-wing.alo</Space_Model_Name>
-		<No_Colorization_Color>255,212,110,255</No_Colorization_Color>
 		<Scale_Factor>0.398</Scale_Factor>
 		
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>

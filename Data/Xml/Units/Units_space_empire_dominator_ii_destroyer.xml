@@ -8,7 +8,6 @@
 		<Icon_Name>i_button_dominator_ii_destroyer.tga</Icon_Name>
 		
 		<Space_Model_Name>dominator_i-class_star_destroyer.alo</Space_Model_Name>
-		<No_Colorization_Color>255, 255, 255, 255</No_Colorization_Color>
 		<Scale_Factor>0.284</Scale_Factor>
 		
 		<Select_Box_Scale>800.0</Select_Box_Scale>
@@ -204,6 +203,7 @@
 				<Type>INTERDICT</Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
 				<Disable_Movement>Yes</Disable_Movement>
+				<Reinforcement_Prevention_Radius>2000</Reinforcement_Prevention_Radius>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
