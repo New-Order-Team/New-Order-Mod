@@ -18,7 +18,7 @@
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		
 		<Affiliation>Warlords</Affiliation>
-		<CategoryMask>Fighter | AntiFighter | AntiCapital</CategoryMask>
+		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		<Ship_Class>fighter</Ship_Class>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
@@ -144,7 +144,7 @@
 		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
 		
 		<Affiliation>Warlords</Affiliation>
-		<CategoryMask>Fighter | AntiFighter | AntiCapital</CategoryMask>
+		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
@@ -214,7 +214,7 @@
 		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
 		
 		<Affiliation>Warlords</Affiliation>
-		<CategoryMask>Fighter | AntiFighter | AntiCapital</CategoryMask>
+		<CategoryMask>Fighter | AntiFighter</CategoryMask>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
 		

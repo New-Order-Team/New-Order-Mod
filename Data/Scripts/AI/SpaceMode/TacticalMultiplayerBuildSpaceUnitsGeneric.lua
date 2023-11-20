@@ -10,7 +10,7 @@ function Definitions()
 			"ReserveForce"
 			,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
 			,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
-			,"Fighter | Bomber = 0,5"
+			,"Fighter | Bomber = 0,2"
 			,"Corvette = 0,3"
 			,"Frigate = 0,3"
 			,"Capital = 0,3"

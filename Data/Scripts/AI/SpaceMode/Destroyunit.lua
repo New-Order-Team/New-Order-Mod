@@ -16,7 +16,7 @@ function Definitions()
 	{
 		"EscortForce"
 		,"Fighter = 0,4"
-		,"AntiBomber | Corvette | Frigate = 0,4"
+		,"AntiFighter | Corvette | Frigate = 0,4"
 	}
 	}
 	
