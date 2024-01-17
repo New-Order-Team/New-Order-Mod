@@ -36,7 +36,6 @@
 		<Reveal_For_Attacker>true</Reveal_For_Attacker>
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
-		<Lua_Script>Garrison_Fire_Prevention</Lua_Script>
 	</Marker>
 
 	<Marker Name="Attacker Setup Phase Reveal">
