@@ -36,18 +36,18 @@
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
-
-		<Describe_Population>TEXT_PLANET_AARGAU_POP</Describe_Population>
-		<Describe_Wildlife>TEXT_PLANET_AARGAU_GEO</Describe_Wildlife>
-		<Describe_Terrain>TEXT_PLANET_AARGAU_TER</Describe_Terrain>
-		<Describe_Weather>TEXT_PLANET_CLIMATE_nan</Describe_Weather>
-		<Describe_Tactical>TEXT_EMPTY</Describe_Tactical>
-		<Describe_Advantage>TEXT_EMPTY</Describe_Advantage>
-		<Describe_History>TEXT_PLANET_AARGAU_HIS</Describe_History>
-
-		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
-		<Planet_Ability_Name>TEXT_EMPTY</Planet_Ability_Name>
-		<Planet_Ability_Description>TEXT_EMPTY</Planet_Ability_Description>
+        
+        <Describe_Population>TEXT_PLANET_POP_HUMAN</Describe_Population>
+        <Describe_Wildlife>TEXT_PLANET_AARGAU_GEO</Describe_Wildlife>
+        <Describe_Terrain>TEXT_PLANET_AARGAU_TER</Describe_Terrain>
+        <Describe_Weather>TEXT_PLANET_AARGAU_ECO</Describe_Weather>
+        <Describe_Tactical>TEXT_PLANET_TRAIT_FINANCIAL_DESC</Describe_Tactical>
+        <Describe_Advantage>TEXT_PLANET_TRAIT_FINANCIAL</Describe_Advantage>
+        <Describe_History>TEXT_PLANET_AARGAU_HIS</Describe_History>
+        
+        <Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
+        <Planet_Ability_Name>TEXT_PLANET_TRAIT_FINANCIAL</Planet_Ability_Name>
+        <Planet_Ability_Description>TEXT_PLANET_TRAIT_FINANCIAL_DESC</Planet_Ability_Description>
 
 		<Encyclopedia_Text>TEXT_EMPTY</Encyclopedia_Text>
 		<Encyclopedia_Weather_Icon>i_pa_weather_sun.tga</Encyclopedia_Weather_Icon>
