@@ -17,10 +17,5 @@
 --*****************************************************************************
 
 return {
-    "battle-notification-service",
-    "production-listener",
-    "weekly-game-message-service",
-    "weekly-kuat-flip",
-    "ui-listener",
-    "statemachine-main"
+    "faction-service"
 }

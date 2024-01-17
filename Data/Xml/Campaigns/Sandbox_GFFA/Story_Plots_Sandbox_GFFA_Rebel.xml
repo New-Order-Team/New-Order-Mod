@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 
 <Story_Mode_Plots>
-	<Lua_Script></Lua_Script>
+	<Lua_Script>GCMain</Lua_Script>
 	<Active_Plot>Campaigns\Sandbox_GFFA\Story_Sandbox_GFFA_Rebel.XML</Active_Plot>
 
 	

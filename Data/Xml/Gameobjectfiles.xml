@@ -41,6 +41,7 @@
 	
 	<File>SpecialEffects.xml</File>
 	<File>Particles.xml</File>
+	<File>Particles_GC.xml</File>
 	<File>Markers.xml</File>
 	<File>Multiplayer_Structure_Markers.XML</File>
 	<File>ScriptMarkers.xml</File>

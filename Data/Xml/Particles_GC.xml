@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Particles>
+	<Particle Name="GC_Display_Empire">
+		<Galactic_Model_Name>p_faction_imp.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<In_Midground>true</In_Midground>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+	<Particle Name="GC_Display_Rebel">
+		<Galactic_Model_Name>p_faction_reb.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<In_Midground>true</In_Midground>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+	<Particle Name="GC_Display_Underworld">
+		<Galactic_Model_Name>p_faction_war.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<In_Midground>true</In_Midground>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+	
+	<Particle Name="GC_Display_Neutral">
+		<Galactic_Model_Name>p_faction_neu.alo</Galactic_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<In_Midground>true</In_Midground>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+	</Particle>
+</Particles>
