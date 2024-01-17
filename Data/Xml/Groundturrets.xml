@@ -352,7 +352,7 @@
 		<Tactical_Health>360</Tactical_Health>
 		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions>Structure</Attack_Category_Restrictions>
-		<Turret_Elevate_Extent_Degrees>35</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
@@ -557,7 +557,7 @@
 		<Tactical_Health>360</Tactical_Health>
 		<Targeting_Max_Attack_Distance>500</Targeting_Max_Attack_Distance>
 		<Attack_Category_Restrictions>Structure</Attack_Category_Restrictions>
-		<Turret_Elevate_Extent_Degrees>35</Turret_Elevate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 		<Turret_Rotate_Speed>5</Turret_Rotate_Speed>
 		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
 		<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>
