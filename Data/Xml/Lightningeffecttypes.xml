@@ -73,26 +73,27 @@
 
     <LightningEffect name="Tractor_Beam">
 
-        <Texture_Name>lightning_default.tga</Texture_Name>
+        <Texture_Name>tractor_beam01.dds</Texture_Name>
+		
         <Texture_Repeat>0.0</Texture_Repeat>
         <Texture_Scroll>0.0</Texture_Scroll>
 
-        <Width_Max>1</Width_Max>
-        <Width_Min>1</Width_Min>
+        <Width_Max>25</Width_Max>
+        <Width_Min>5</Width_Min>
         <Displace>0.01, 0.01, 0.01</Displace>
         <Detail>0.1</Detail>	
-        <Color_Start>255, 255,0,0</Color_Start>
-        <Color_End>255,255,0,0</Color_End>
+		<Color_Start>2, 5, 25, 100</Color_Start>
+		<Color_End>2, 5, 25, 100</Color_End>
         <Fadeout_Time_Max>101</Fadeout_Time_Max>
         <Fadeout_Time_Min>100</Fadeout_Time_Min>
         <Update_All>true</Update_All>
-        <Cycles_Per_Distance>-0.01</Cycles_Per_Distance>
-        <Rotations_Per_Second>3</Rotations_Per_Second>
-        <Radius>5</Radius>
+        <Cycles_Per_Distance>-0.001</Cycles_Per_Distance>
+        <Rotations_Per_Second>1.0</Rotations_Per_Second>
+        <Radius>0</Radius>
 
-        <Number_Bolts>3</Number_Bolts>
+        <Number_Bolts>6</Number_Bolts>
         <Bolt_Creation_Interval_Min>0.0</Bolt_Creation_Interval_Min> 
-        <Bolt_Creation_Interval_Max>0.1</Bolt_Creation_Interval_Max> 
+        <Bolt_Creation_Interval_Max>0.0</Bolt_Creation_Interval_Max> 
 
     </LightningEffect>
 

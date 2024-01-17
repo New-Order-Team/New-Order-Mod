@@ -4768,6 +4768,14 @@
 		<Attachment_Bone>SPAWN_00</Attachment_Bone>
 	</HardPoint>
 	
+	<HardPoint Name="HP_Strike_Cruiser_10">
+		<Type>HARD_POINT_TRACTOR_BEAM</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		
+		<Attachment_Bone>Root</Attachment_Bone>
+	</HardPoint>
+	
 	<HardPoint Name="HP_Escort_Carrier_1">
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>

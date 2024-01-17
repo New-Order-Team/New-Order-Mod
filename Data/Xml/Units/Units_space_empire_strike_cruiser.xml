@@ -67,6 +67,7 @@
 		
 		<Behavior>DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>
+			ABILITY_COUNTDOWN,
 			SIMPLE_SPACE_LOCOMOTOR,
 			ION_STUN_EFFECT,
 			REVEAL,
@@ -100,6 +101,7 @@
 			HP_Strike_Cruiser_7,
 			HP_Strike_Cruiser_8,
 			HP_Strike_Cruiser_9,
+			HP_Strike_Cruiser_10,
 		</HardPoints>
 		
 		<SFXEvent_Select>Unit_Select_Broadside_Cruiser</SFXEvent_Select>
@@ -163,6 +165,32 @@
 		<Tactical_Build_Cost_Multiplayer>1850.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+	            <GUI_Activated_Ability_Name> Tractor_Beam_Strike </GUI_Activated_Ability_Name>
+	            <Recharge_Seconds>15</Recharge_Seconds>
+	            <SFXEvent_GUI_Unit_Ability_Activated> </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>  
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="Tractor_Beam_Strike">
+	            <Activation_Style> User_Input </Activation_Style>
+	            <Applicable_Unit_Categories> Transport | Corvette </Applicable_Unit_Categories>
+	            <Applicable_Unit_Types />
+				<Excluded_Unit_Types> Buzz_Droids </Excluded_Unit_Types>
+	            
+	            <Activation_Min_Range>20</Activation_Min_Range>
+	            <Activation_Max_Range>1000</Activation_Max_Range>
+
+	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+	            <Stacking_Category>90</Stacking_Category>            
+			</Tractor_Beam_Attack_Ability>
+		</Abilities>
 	</SpaceUnit>
 	
 </Strike_Cruiser_Data>
