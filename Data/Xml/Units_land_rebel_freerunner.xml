@@ -374,7 +374,7 @@
 		
 		<Shield_Armor_Type>Armor_I</Shield_Armor_Type>
 		<Shield_Points>530</Shield_Points>
-		<Shield_Refresh_Rate>53</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>17</Shield_Refresh_Rate>
 
 		<AI_Combat_Power>101</AI_Combat_Power>
 		<Score_Cost_Credits>101</Score_Cost_Credits>
