@@ -100,9 +100,15 @@
 	<SpecialStructure Name="Garrison_Bunker_Empire">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_INF</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_INF_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_INF_INFO_1
+			TEXT_STRUCTURE_BUNKER_INF_INFO_2
+			TEXT_STRUCTURE_BUNKER_INF_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_ei.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_inf.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_infantry.alo</Land_Model_Name>
@@ -141,9 +147,16 @@
 	<SpecialStructure Name="Turret_Bunker_Empire">
 		<Variant_Of_Existing_Type> Garrison_Bunker_Template </Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_GUN</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_GUN_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_GUN_INFO_1
+			TEXT_STRUCTURE_BUNKER_GUN_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BUNKER_GUN_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_eg.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_gun.tga</Radar_Icon_Name>
 
 		<Land_Model_Name>imp_bunker_gun.alo</Land_Model_Name>
@@ -210,9 +223,15 @@
 	<SpecialStructure Name="Med_Bunker_Empire">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_HEAL</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_HEAL_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_1
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_2
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_eh.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_heal.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_bacta.alo</Land_Model_Name>
@@ -261,9 +280,15 @@
 	<SpecialStructure Name="Repair_Bunker_Empire">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_REP</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_REP_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_REP_INFO_1
+			TEXT_STRUCTURE_BUNKER_REP_INFO_2
+			TEXT_STRUCTURE_BUNKER_REP_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_er.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_rep.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>imp_bunker_repair.alo</Land_Model_Name>
@@ -311,9 +336,15 @@
 	<SpecialStructure Name="Garrison_Bunker_Rebel">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_INF</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_INF_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_INF_INFO_1
+			TEXT_STRUCTURE_BUNKER_INF_INFO_2
+			TEXT_STRUCTURE_BUNKER_INF_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_ri.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_inf.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_infantry.alo</Land_Model_Name>
@@ -352,9 +383,16 @@
 	<SpecialStructure Name="Turret_Bunker_Rebel">
 		<Variant_Of_Existing_Type> Garrison_Bunker_Template </Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_rb_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_GUN</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_GUN_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_GUN_INFO_1
+			TEXT_STRUCTURE_BUNKER_GUN_INFO_2
+			TEXT_WEAPONS
+			TEXT_STRUCTURE_BUNKER_GUN_W_1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_rg.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_gun.tga</Radar_Icon_Name>
 
 		<Land_Model_Name>reb_bunker_gun.alo</Land_Model_Name>
@@ -421,9 +459,15 @@
 	<SpecialStructure Name="Med_Bunker_Rebel">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_HEAL</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_HEAL_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_1
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_2
+			TEXT_STRUCTURE_BUNKER_HEAL_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_rh.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_heal.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_bacta.alo</Land_Model_Name>
@@ -472,9 +516,15 @@
 	<SpecialStructure Name="Repair_Bunker_Rebel">
 		<Variant_Of_Existing_Type>Garrison_Bunker_Template</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_GROUND_BUNKER</Text_ID>
-		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_BUNKER</Encyclopedia_Text>
-		<Icon_Name>i_button_bunker.tga</Icon_Name>
+		<Text_ID>TEXT_STRUCTURE_BUNKER_REP</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_STRUCTURE_BUNKER_REP_DESC
+			TEXT_EMPTY
+			TEXT_STRUCTURE_BUNKER_REP_INFO_1
+			TEXT_STRUCTURE_BUNKER_REP_INFO_2
+			TEXT_STRUCTURE_BUNKER_REP_INFO_3
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_bunker_rr.tga</Icon_Name>
 		<Radar_Icon_Name>mini_map_bunker_rep.tga</Radar_Icon_Name>
 		
 		<Land_Model_Name>reb_bunker_repair.alo</Land_Model_Name>

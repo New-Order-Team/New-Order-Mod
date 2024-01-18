@@ -65,7 +65,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_BP2_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>imp_bp2.tga</Icon_Name>
+		<Icon_Name>i_button_bp2.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>imp_bp2.alo</Land_Model_Name>
 		<Affiliation>Empire</Affiliation>
@@ -89,7 +89,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_BP4_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>imp_bp4.tga</Icon_Name>
+		<Icon_Name>i_button_bp4.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>imp_bp4.alo</Land_Model_Name>
 		<Affiliation>Empire</Affiliation>
@@ -113,7 +113,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_BP5_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>imp_bp5.tga</Icon_Name>
+		<Icon_Name>i_button_bp5.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>imp_bp5.alo</Land_Model_Name>
 		<Affiliation>Empire</Affiliation>
@@ -137,7 +137,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_BP6_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>imp_bp6.tga</Icon_Name>
+		<Icon_Name>i_button_bp6.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>imp_bp6.alo</Land_Model_Name>
 		<Affiliation>Empire</Affiliation>
@@ -249,7 +249,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_DF9_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>reb_df9.tga</Icon_Name>
+		<Icon_Name>i_button_df9.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>reb_df9.alo</Land_Model_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -266,7 +266,7 @@
 		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_STRUCTURE_DF11</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_AV_TURRET</Encyclopedia_Text>
-		<Icon_Name>reb_df11.tga</Icon_Name>
+		<Icon_Name>i_button_df11.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>reb_df11.alo</Land_Model_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -290,7 +290,7 @@
 			TEXT_WEAPONS
 			TEXT_STRUCTURE_DF12_W_1
 		</Encyclopedia_Text>
-		<Icon_Name>reb_df12.tga</Icon_Name>
+		<Icon_Name>i_button_df12.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>reb_df12.alo</Land_Model_Name>
 		<Affiliation>Rebel</Affiliation>
@@ -307,7 +307,7 @@
 		<Variant_Of_Existing_Type>Turret_UC_Template</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_STRUCTURE_DF10</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_MISSILE_POD</Encyclopedia_Text>
-		<Icon_Name>reb_df10.tga</Icon_Name>
+		<Icon_Name>i_button_df10.tga</Icon_Name>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TURRET</Encyclopedia_Unit_Class>
 		<Land_Model_Name>reb_df10.alo</Land_Model_Name>
 		<Affiliation>Rebel</Affiliation>
