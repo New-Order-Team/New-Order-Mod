@@ -3,8 +3,8 @@
 	<HeroUnit Name="Hestiv">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_UNIT_HERO_HESTIV</Text_ID>
-		<Land_Model_Name>EI_ArmyGeneral.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
+		<Land_Model_Name>imp_army_trooper.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>imp_stormtrooper.ALO</Land_Model_Anim_Override_Name>
 		<Icon_Name>i_button_hestiv.tga</Icon_Name>
 		<Spawn_Planet>Coruscant</Spawn_Planet>
 
@@ -65,13 +65,6 @@
 		<Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
-
-		<Starting_Spawned_Units_Tech_0>Hestiv_Escort, 4</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>Hestiv_Escort, 0</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Location_Bones>Root</Spawned_Squadron_Location_Bones>
-		<Spawned_Squadron_Location_Flyout_Distances>100.0</Spawned_Squadron_Location_Flyout_Distances>
-		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
 
 		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
@@ -227,145 +220,4 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</HeroCompany>
-
-	<GroundInfantry Name="Hestiv_Escort_Sergeant">
-		<Variant_Of_Existing_Type>Imperial_Army_Sergeant</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_I </Armor_Type>
-		<Autoresolve_Health>50</Autoresolve_Health>
-		<Tactical_Health>50</Tactical_Health>
-	</GroundInfantry>
-	<GroundInfantry Name="Hestiv_Escort_Trooper">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_I </Armor_Type>
-		<Autoresolve_Health>50</Autoresolve_Health>
-		<Tactical_Health>50</Tactical_Health>
-	</GroundInfantry>
-
-	<GroundInfantry Name="Hestiv_Escort_Repeater_Trooper">
-		<Variant_Of_Existing_Type>Imperial_Army_Trooper_Light_Repeater</Variant_Of_Existing_Type>
-		<Armor_Type> Armor_I </Armor_Type>
-		<Autoresolve_Health>50</Autoresolve_Health>
-		<Tactical_Health>50</Tactical_Health>
-	</GroundInfantry>
-	<GroundCompany Name="Hestiv_Escort">
-		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_ARMY_TROOPER_LIGHT_INFANTRY_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LIGHT_INFANTRY_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>469.6</Damage>
-		<Autoresolve_Health>720</Autoresolve_Health> <!-- changed to reflect the real health of the units-->
-		<Affiliation>Empire</Affiliation>
-		<Build_Cost_Credits>3200</Build_Cost_Credits>
-		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<Build_Time_Seconds>10</Build_Time_Seconds>
-		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
-		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets />
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Formation_Priority>1</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Create_Team_Type> Hestiv_Escort_Team </Create_Team_Type>
-		
-		<Company_Units>Hestiv_Escort_Trooper, Hestiv_Escort_Repeater_Trooper, Hestiv_Escort_Trooper, Hestiv_Escort_Repeater_Trooper, Hestiv_Escort_Trooper, Hestiv_Escort_Repeater_Trooper, Hestiv_Escort_Trooper, Hestiv_Escort_Repeater_Trooper, Hestiv_Escort_Sergeant</Company_Units>
-
-		<Max_Squad_Size> 9 </Max_Squad_Size>
-		<Icon_Name>i_button_ei_line_squad.tga</Icon_Name>
-		<GUI_Model_Name>EI_ArmyTrooper.ALO</GUI_Model_Name>
-		<Land_Model_Name>EI_ArmyTrooper.ALO</Land_Model_Name>
-		<Scale_Factor>5</Scale_Factor>
-		<GUI_Offset>0 0 5</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Storm_Trooper</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.1f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
-		<Maintenance_Cost>0.05</Maintenance_Cost>
-		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits>54</Score_Cost_Credits>
-	</GroundCompany>
-
-	<Container Name="Hestiv_Escort_Team">
-		<Select_Box_Scale>65</Select_Box_Scale>
-		<Text_ID>TEXT_ARMY_TROOPER_LIGHT_INFANTRY_PLATOON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ARMY_TROOPER_LIGHT_INFANTRY_PLATOON TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_INFANTRY</Encyclopedia_Unit_Class>
-		<Show_Name>No</Show_Name>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-		<LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
-		<SpaceBehavior>REVEAL</SpaceBehavior>
-		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
-		<MovementClass>Infantry</MovementClass>
-		<Garrison_Category> Infantry </Garrison_Category>
-		<CategoryMask>Infantry</CategoryMask>
-
-		<Max_Speed> 1.0 </Max_Speed>
-		<Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
-		<Space_Layer> Land </Space_Layer>
-		<UnitCollisionClass> Infantry </UnitCollisionClass>
-		<FormationSpacing> 1 </FormationSpacing> 
-		<MovementClass> Infantry </MovementClass>
-		<OccupationStyle>1x1</OccupationStyle>
-		<Is_Squashable> true </Is_Squashable>
-		<MovementPredictionInterval> 4.0 </MovementPredictionInterval>	
-		<ContainerArrangement> Rows </ContainerArrangement>
-		<FormationOrder> 2 </FormationOrder>
-		<Override_Acceleration> .1 </Override_Acceleration>
-		<Override_Deceleration> .1 </Override_Deceleration>
-		
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
-
-		<Icon_Name>i_button_ei_line_squad.tga</Icon_Name>
-
-		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
-		<Idle_Chase_Range>50.0</Idle_Chase_Range>
-		<Guard_Chase_Range>200.0</Guard_Chase_Range>
-		<Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>SPREAD_OUT</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.1f</Mod_Multiplier>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-		
-	</Container>
 </Hestiv_Files>

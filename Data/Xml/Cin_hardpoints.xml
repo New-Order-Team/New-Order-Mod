@@ -14,7 +14,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_L-F.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_L-F.alo</Model_To_Attach>
             <Attachment_Bone>HP_F-L_COLL</Attachment_Bone>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -55,7 +55,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_F-R.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_F-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_F-R_COLL</Attachment_Bone>
             <Collision_Mesh>HP_F-R_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
@@ -95,7 +95,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_B-L.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_B-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-L_COLL</Attachment_Bone>
             <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_B-L_BLAST</Damage_Decal>
@@ -135,7 +135,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_B-R.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_B-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_B-R_COLL</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
             <Damage_Decal>HP_B-R_BLAST</Damage_Decal>
@@ -175,7 +175,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_M-L.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_M-L.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-L_COLL</Attachment_Bone>
             <Collision_Mesh>HP_M-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_M-L_BLAST</Damage_Decal>
@@ -213,7 +213,7 @@
 			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent> </Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>Cine_EV_StarDestroyer_HP00_M-R.alo</Model_To_Attach>
+            <Model_To_Attach>EV_StarDestroyer_HP00_M-R.alo</Model_To_Attach>
             <Attachment_Bone>HP_M-R_COLL</Attachment_Bone>
             <Collision_Mesh>HP_M-R_COLL</Collision_Mesh>
             <Damage_Decal>HP_M-R_BLAST</Damage_Decal>

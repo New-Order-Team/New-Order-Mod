@@ -43,11 +43,11 @@
 	<File>Particles.xml</File>
 	<File>Particles_GC.xml</File>
 	<File>Markers.xml</File>
-	<File>Multiplayer_Structure_Markers.XML</File>
+	<File>Multiplayer_Structure_Markers.xml</File>
 	<File>ScriptMarkers.xml</File>
 	<File>MiscObjects.xml</File>
 	<File>UpgradeObjects.xml</File>
-	<File>UpgradeObjects_Underworld.XML</File>
+	<File>UpgradeObjects_Underworld.xml</File>
 	<File>SecondaryStructures.xml</File>
 
 	<File>SpaceProps.xml</File>
@@ -108,12 +108,6 @@
 	<!-- Buildable heroes is in priority, so they appear on the left -->
 	<File>Campaigns\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
 	
-	<!--
-	<File>Units_hero_empire_josef_grunger.xml</File>
-	<File>Units_hero_empire_osvald_teshik.xml</File>
-	<File>Units_hero_empire_zsinj.xml</File>
-	<File>Units_hero_empire_ardus_kaine.xml</File>-->
-	
 	<File>Heroes\Units_hero_empire_sate_pestage.xml</File>
 	<File>Heroes\Units_hero_empire_ars_dangor.xml</File>
 	<File>Heroes\Units_hero_empire_moff_council.xml</File>
@@ -128,7 +122,7 @@
 	<File>Heroes\Units_hero_empire_delak_krennel.xml</File>
 	<File>Heroes\Units_hero_empire_natasi_daala.xml</File>
 	
-	<File>Heroes\Units_hero_empire_181st.XML</File>
+	<File>Heroes\Units_hero_empire_181st.xml</File>
 	<File>Heroes\Units_hero_empire_blackhole.xml</File>
 	<File>Heroes\Units_hero_empire_foga_brill.xml</File>
 	<File>Heroes\Units_hero_empire_freja_covell.xml</File>
@@ -140,87 +134,19 @@
 	<File>Heroes\Units_hero_empire_tol_getelles.xml</File>
 	<File>Heroes\Units_hero_empire_ysanne_isard.xml</File>
 	
-	<File>Units_bh_empire_boba_fett.XML</File>
-	<File>Units_bh_empire_bossk.XML</File>
-	<File>Units_bh_empire_ig88.XML</File>
-	<File>Units_hero_empire_rom_mohc.xml</File>
-	<File>Units_hero_empire_wilhuff_tarkin.XML</File>
-	<File>Units_hero_rebel_mon_mothma.xml</File>
-	<File>Units_hero_rebel_han_solo.xml</File>
-	<File>Units_hero_rebel_gial_ackbar.xml</File>
-	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
-	<File>Units_Hero_Rebel_garm_bel_iblis.xml</File>
-	<File>Units_hero_rebel_squadrons.xml</File>
-	<File>Units_hero_rebel_kyle_katarn.xml</File>
-	<File>Units_hero_rebel_raymus_antilles.xml</File>
-	<!--
-
-
-	<File>Units_hero_empire_afsheen_makati.xml</File>
-	<File>Units_hero_empire_ark_poinard.xml</File>
-	<File>Units_hero_empire_armand_isard.xml</File>
-	<File>Units_hero_empire_arndall_lott.xml</File>
-	<File>Units_hero_empire_blitzer_harrsk.xml</File>
-	<File>Units_hero_empire_brakiss.xml</File>
-	<File>Units_hero_empire_cassio_tagge.xml</File>
-	<File>Units_hero_empire_danetta_pitta.xml</File>
-	<File>Units_hero_empire_demetrius_zaarin.xml</File>
-	<File>Units_hero_empire_ephin_sarreti.xml</File>
-	<File>Units_hero_empire_hurst_romodi.xml</File>
-	<File>Units_hero_empire_immodet.xml</File>
-	<File>Units_hero_empire_ishin_il_raz.xml</File>
-	<File>Units_hero_empire_kurlen_flennic.xml</File>
-	<File>Units_hero_empire_ledre_okins.xml</File>
-	<File>Units_hero_empire_martio_batch.xml</File>
-	<File>Units_hero_empire_miltin_takel.xml</File>
-	<File>Units_hero_empire_motti.xml</File>
-	<File>Units_hero_empire_nial_declann.xml</File>
-	<File>Units_hero_empire_octavian_grant.xml</File>
-	<File>Units_hero_empire_peccati_syn.xml</File>
-	<File>Units_hero_empire_redd_wessel.xml</File>
-	<File>Units_hero_empire_ruufan_tigellinus.xml</File>
-	<File>Units_hero_empire_sander_delvardus.xml</File>
-	<File>Units_hero_empire_shea_hublin.xml</File>
-	<File>Units_hero_empire_sil_sorannan.xml</File>
-	<File>Units_hero_empire_terrinald_screed.xml</File>
-	<File>Units_hero_empire_trachta.xml</File>
-	<File>Units_hero_empire_treuten_teradoc.xml</File>
-	<File>Units_hero_empire_villim_disra.xml</File>
-	<File>Units_hero_rebel_adar_tallon.xml</File>
-	<File>Units_hero_rebel_airen_cracken.xml</File>
-	<File>Units_hero_rebel_areta_bell.xml</File>
-	<File>Units_hero_rebel_bail_organa.xml</File>
-	<File>Units_hero_rebel_borsk_feylia.xml</File>
-	<File>Units_hero_rebel_brenn_tantor.xml</File>
-	<File>Units_hero_rebel_bria_tharen.xml</File>
-	<File>Units_hero_rebel_cal_omas.xml</File>
-	<File>Units_hero_rebel_carlist_rieekan.xml</File>
-	<File>Units_hero_rebel_corran_horn.xml</File>
-	<File>Units_hero_rebel_crix_madine.xml</File>
-	<File>Units_hero_rebel_ethan_abaht.xml</File>
-	<File>Units_hero_rebel_firmus_nantz.xml</File>
-	<File>Units_hero_rebel_hiram_drayson.xml</File>
-	<File>Units_hero_rebel_jan_dodonna.xml</File>
-	<File>Units_hero_rebel_kam_solusar.xml</File>
-	<File>Units_hero_rebel_kapp_dendo.xml</File>
-	<File>Units_hero_rebel_keyan_farlander.xml</File>
-	<File>Units_hero_rebel_kyp_durron.xml</File>
-	<File>Units_hero_rebel_lando_calrissian.xml</File>
-	<File>Units_hero_rebel_leia_organa.xml</File>
-	<File>Units_hero_rebel_nammo.xml</File>
-	<File>Units_hero_rebel_pharl_mcquarrie.xml</File>
-	<File>Units_hero_rebel_rahm_kota.xml</File>
-	<File>Units_hero_rebel_ral_rai_muvunc.xml</File>
-	<File>Units_hero_rebel_sien_sovv.xml</File>
-	<File>Units_hero_rebel_syub_snunb.xml</File>
-	<File>Units_hero_rebel_talon_karrde.xml</File>
-	<File>Units_hero_rebel_traest_krefey.xml</File>
-	<File>Units_hero_rebel_tyr_taskeen.xml</File>
-	<File>Units_hero_rebel_walex_blissex.xml</File>
-	<File>Units_hero_rebel_wedge_antilles.xml</File>
-	<File>Units_hero_rebel_willham_burke.xml</File>
-	<File>Units_sls_empire.xml</File>
-	-->
+	<File>Heroes\Units_hero_neutral_boba_fett.xml</File>
+	<File>Heroes\Units_hero_neutral_bossk.xml</File>
+	<File>Heroes\Units_hero_neutral_ig88.xml</File>
+	<File>Heroes\Units_hero_empire_rom_mohc.xml</File>
+	<File>Heroes\Units_hero_empire_wilhuff_tarkin.xml</File>
+	<File>Heroes\Units_hero_rebel_mon_mothma.xml</File>
+	<File>Heroes\Units_hero_rebel_han_solo.xml</File>
+	<File>Heroes\Units_hero_rebel_gial_ackbar.xml</File>
+	<File>Heroes\Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Heroes\Units_Hero_Rebel_garm_bel_iblis.xml</File>
+	<File>Heroes\Units_hero_rebel_squadrons.xml</File>
+	<File>Heroes\Units_hero_rebel_kyle_katarn.xml</File>
+	<File>Heroes\Units_hero_rebel_raymus_antilles.xml</File>
 	
 	<!-- GROUND -->
 	<File>Units_land_empire_army_troopers.xml</File>
@@ -249,7 +175,6 @@
 	<File>Units_land_rebel_pathfinders.xml</File>
 	<File>Units_land_rebel_guerrillas.xml</File>
 	<File>Units_land_rebel_infiltrators.xml</File>
-	<File>Units_land_rebel_minor_troopers.xml</File>
 	
 	<File>Units_land_rebel_isp.xml</File>
 	<File>Units_land_rebel_arrow_23_landspeeder.xml</File>
@@ -393,6 +318,6 @@
 	
 	<File>Minor_Heroes_Expansion.xml</File>
 	<File>GroundStructures_Underworld.xml</File>
-	<File>Mobile_Defense_Units.XML</File>
-	<File>Corruption_Special_Units.XML</File>
+	<File>Mobile_Defense_Units.xml</File>
+	<File>Corruption_Special_Units.xml</File>
 </Game_Object_Files>

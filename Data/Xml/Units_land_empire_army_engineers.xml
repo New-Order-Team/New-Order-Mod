@@ -15,8 +15,8 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SUPPORT_INFANTRY</Encyclopedia_Unit_Class>
 		
-		<Land_Model_Name>EI_FieldComanderE11.alo</Land_Model_Name>
-		<Land_Model_Anim_Override_Name>EI_FieldComanderE11.ALO</Land_Model_Anim_Override_Name>
+		<Land_Model_Name>imp_army_trooper.alo</Land_Model_Name>
+		<Land_Model_Anim_Override_Name>imp_stormtrooper.ALO</Land_Model_Anim_Override_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 	    <Movement_Animation_Speed> 9.6 </Movement_Animation_Speed>
 		<Rotation_Animation_Speed> 9.6 </Rotation_Animation_Speed>
@@ -125,13 +125,11 @@
 	<GroundInfantry Name="Imperial_Army_Engineer_Sergeant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_SERGEANT</Text_ID>
-		<Land_Model_Name>EI_FieldComanderE11.ALO</Land_Model_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Lieutenant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer_Sergeant</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_LIEUTENANT</Text_ID>
-		<Land_Model_Name>EI_FieldComanderE11.alo</Land_Model_Name>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Army_Engineers_Platoon_Spawner">
@@ -207,8 +205,8 @@
 		<Company_Units>Army_Engineers_Platoon_Spawner</Company_Units>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
-		<GUI_Model_Name>EI_FieldComanderE11.ALO</GUI_Model_Name>
-		<Land_Model_Name>EI_FieldComanderE11.ALO</Land_Model_Name>
+		<GUI_Model_Name>imp_army_trooper.ALO</GUI_Model_Name>
+		<Land_Model_Name>imp_army_trooper.ALO</Land_Model_Name>
 		<Scale_Factor>5</Scale_Factor>
 		<GUI_Offset>0 0 5</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
