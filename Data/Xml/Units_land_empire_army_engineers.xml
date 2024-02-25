@@ -125,11 +125,13 @@
 	<GroundInfantry Name="Imperial_Army_Engineer_Sergeant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_SERGEANT</Text_ID>
+		<Land_Model_Name>imp_army_trooper_sgt.alo</Land_Model_Name>
 	</GroundInfantry>
 
 	<GroundInfantry Name="Imperial_Army_Engineer_Lieutenant">
 		<Variant_Of_Existing_Type>Imperial_Army_Engineer_Sergeant</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_ARMY_LIEUTENANT</Text_ID>
+		<Land_Model_Name>imp_army_trooper_lt.alo</Land_Model_Name>
 	</GroundInfantry>
 	
 	<GroundInfantry Name="Army_Engineers_Platoon_Spawner">
