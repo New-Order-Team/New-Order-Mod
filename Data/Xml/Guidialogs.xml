@@ -2522,56 +2522,48 @@
 		</IDC_SUMMARY_SCREEN_RADIO>
 
 		<IDC_STATIC_WEATHER>
-			<Name>EmpireAtWar-Medium</Name>
-			<Character_Padding>0</Character_Padding>
-			<Stretch_Factor>1.3</Stretch_Factor>
-			<Size>6</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Name>EmpireAtWar-Bold</Name>
+			<Size>8</Size>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_WEATHER>
 
 		<IDC_STATIC_TERRAIN>
-			<Name>EmpireAtWar-Medium</Name>
-			<Character_Padding>0</Character_Padding>
-			<Stretch_Factor>1.3</Stretch_Factor>
-			<Size>6</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Name>EmpireAtWar-Bold</Name>
+			<Size>8</Size>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_TERRAIN>
 
 		<IDC_STATIC_WILDLIFE>
-			<Name>Arial Unicode MS</Name>
-			<Character_Padding>0</Character_Padding>
-			<Stretch_Factor>1.0</Stretch_Factor>
+			<Name>Arial</Name>
 			<Size>8</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_WILDLIFE>
 
 		<IDC_STATIC_NATIVE>
-			<Name>EmpireAtWar-Medium</Name>
-			<Character_Padding>0</Character_Padding>
-			<Stretch_Factor>1.3</Stretch_Factor>
-			<Size>6</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Name>EmpireAtWar-Bold</Name>
+			<Size>8</Size>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_NATIVE>
 
 		<IDC_BATTLE_END_PLANET_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>14</Size>
 			<Bottom_Color>255,255,255,255</Bottom_Color>
-			<Top_Color>40,47,64,255</Top_Color>
+			<Top_Color>255,255,255,255</Top_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_BATTLE_END_PLANET_STATIC>
 
 		<IDC_RADIO_BLANK>
@@ -2842,7 +2834,7 @@
 			<Top_Color>175,213,242,255</Top_Color>
 			<Bottom_Color>175,213,242,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_MED1>
 
 		<IDC_STATIC_MED2>
@@ -2851,7 +2843,7 @@
 			<Top_Color>175,213,242,255</Top_Color>
 			<Bottom_Color>175,213,242,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_MED2>
 
 		<IDC_STATIC_MED3>
@@ -2860,7 +2852,7 @@
 			<Top_Color>175,213,242,255</Top_Color>
 			<Bottom_Color>175,213,242,255</Bottom_Color>
 			<Emboss>No</Emboss>
-			<Outline>Yes</Outline>
+			<Outline>No</Outline>
 		</IDC_STATIC_MED3>
 
 		<IDC_VICTORY_STATIC>
@@ -2925,9 +2917,9 @@
 
 		<IDC_TITLE_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
-			<Size>12</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Size>14</Size>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_TITLE_STATIC>
@@ -2935,8 +2927,8 @@
 		<IDC_TIME_STATIC>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>10</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_TIME_STATIC>
@@ -2971,8 +2963,8 @@
 		<IDC_STATIC_LOSS1>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>11</Size>
-			<Top_Color>175,213,242,255</Top_Color>
-			<Bottom_Color>175,213,242,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_LOSS1>
@@ -2980,8 +2972,8 @@
 		<IDC_STATIC_LOSS2>
 			<Name>EmpireAtWar-Bold</Name>
 			<Size>11</Size>
-			<Top_Color>220,193,2,255</Top_Color>
-			<Bottom_Color>220,193,2,255</Bottom_Color>
+			<Top_Color>255,51,58,255</Top_Color>
+			<Bottom_Color>255,51,58,255</Bottom_Color>
 			<Emboss>No</Emboss>
 			<Outline>No</Outline>
 		</IDC_STATIC_LOSS2>
@@ -4324,8 +4316,8 @@
         <IDC_STATIC_LOADING>
             <Name>EmpireAtWar-Bold</Name>
             <Size>8</Size>
-            <Top_Color>99,73,16,255</Top_Color>
-            <Bottom_Color>99,73,16,255</Bottom_Color>
+			<Top_Color>255,255,255,255</Top_Color>
+			<Bottom_Color>255,255,255,255</Bottom_Color>
             <Emboss>No</Emboss>
             <Outline>No</Outline>
         </IDC_STATIC_LOADING>
