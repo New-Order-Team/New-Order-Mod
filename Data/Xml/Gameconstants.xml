@@ -175,7 +175,7 @@
 	
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
 	<!-- This is for the late February 2005 consumer test demo  -->
-	<AlwaysBypassAutoResolve> Yes </AlwaysBypassAutoResolve>	
+	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
 	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
@@ -187,8 +187,8 @@
 	<RetreatAutoResolveWinnerAttrition>0.50</RetreatAutoResolveWinnerAttrition>
 	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
-	<Minimum_Tactical_Overrun_Time_In_Secs> 30.0 </Minimum_Tactical_Overrun_Time_In_Secs>
-	<Tactical_Overrun_Multiple>3.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
+	<Minimum_Tactical_Overrun_Time_In_Secs> 100.0 </Minimum_Tactical_Overrun_Time_In_Secs>
+	<Tactical_Overrun_Multiple>999.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 <!---	<Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple>  --> 		<!-- Comment out to disable overrun auto-resolve -->
 
@@ -197,8 +197,8 @@
 	<Land_Retreat_Allowed_Countdown_Seconds> 30.0 </Land_Retreat_Allowed_Countdown_Seconds>
 
 	<!-- How long to countdown before objects become captureable -->
-	<Space_Capture_Allowed_Countdown_Seconds> 30.0 </Space_Capture_Allowed_Countdown_Seconds>
-	<Land_Capture_Allowed_Countdown_Seconds> 30.0 </Land_Capture_Allowed_Countdown_Seconds>
+	<Space_Capture_Allowed_Countdown_Seconds> 10.0 </Space_Capture_Allowed_Countdown_Seconds>
+	<Land_Capture_Allowed_Countdown_Seconds> 10.0 </Land_Capture_Allowed_Countdown_Seconds>
 
 
 	<GripperCombatGridSnapDistance>35.0</GripperCombatGridSnapDistance>
@@ -219,8 +219,8 @@
 	<Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
 	<Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>
 	<Galactic_Zoom_Light_Level>0.5</Galactic_Zoom_Light_Level>
-	<Galactic_Zoom_In_Light_Angle>0 90 15</Galactic_Zoom_In_Light_Angle>
-	<Galactic_Zoom_Out_Light_Angle>0 90 15</Galactic_Zoom_Out_Light_Angle>
+	<Galactic_Zoom_In_Light_Angle>0 90 0</Galactic_Zoom_In_Light_Angle>
+	<Galactic_Zoom_Out_Light_Angle>0 90 0</Galactic_Zoom_Out_Light_Angle>
 	<Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset>
 	<Galactic_Zoom_In_Station_Rotation>0.04</Galactic_Zoom_In_Station_Rotation>
 
