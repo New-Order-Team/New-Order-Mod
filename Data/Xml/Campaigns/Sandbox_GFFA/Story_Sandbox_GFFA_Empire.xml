@@ -127,14 +127,14 @@
 	<Event Name="Spawn_Darth_Vader_Immortal">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Darth_Team_Immortal</Reward_Param1>
+		<Reward_Param1>Darth_Team</Reward_Param1>
 		<Reward_Param2>Coruscant_NO</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 	<Event Name="Remove_Darth_Vader_Immortal_Timeout">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Darth_Team_Immortal</Reward_Param1>
+		<Reward_Param1>Darth_Team</Reward_Param1>
 		<Reward_Param2>1</Reward_Param2>
 		<Prereq>Empire_Enters_Era_3</Prereq>
 	</Event>

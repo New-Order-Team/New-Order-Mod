@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Vader_Data>
 
-	<!-- Vader era I - Devastator (Supreme Commander) -->
+	<!-- Vader era II - Devastator (Supreme Commander) -->
 	<HeroUnit Name="Darth_Vader">
 		<Weather_Category>Infantry_Visor</Weather_Category>
 		<LOD_Bias>5</LOD_Bias>
@@ -393,7 +393,7 @@
 		</Unit_Abilities_Data>
 	</HeroCompany>
 
-	<!-- Vader era II - Immortal (Supreme Commander) -->
+	<!-- Vader era II sidegrade - Immortal (Supreme Commander) -->
 	<HeroUnit Name="Darth_Vader_Immortal">
 		<Variant_Of_Existing_Type> Darth_Vader </Variant_Of_Existing_Type>
 		<Unique_Space_Unit>Immortal_SD</Unique_Space_Unit>
