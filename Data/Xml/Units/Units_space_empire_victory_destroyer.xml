@@ -7,7 +7,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_victory_destroyer.tga</Icon_Name>
 		
-		<Space_Model_Name>imp_victory_i_alt.alo</Space_Model_Name>
+		<Space_Model_Name>imp_victory_i.alo</Space_Model_Name>
 		<Scale_Factor>0.27</Scale_Factor>
 		
 		<Select_Box_Scale>450.0</Select_Box_Scale>
