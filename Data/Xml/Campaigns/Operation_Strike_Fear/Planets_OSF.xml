@@ -43,7 +43,7 @@
 		<Planet_Credit_Value>0</Planet_Credit_Value>
 		<Galactic_Position>-10.0, -10.0, 0.0</Galactic_Position>
 		<Special_Structures>0</Special_Structures>
-		<In_Background>yes</In_Background>
+		<!-- <In_Background>yes</In_Background> -->  <!-- Commented out so it would overlap the planets -->
 		<Max_Ground_Base>0</Max_Ground_Base>
 		<Max_Space_Base>0</Max_Space_Base>
 	</Planet>
