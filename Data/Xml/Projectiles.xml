@@ -315,6 +315,79 @@
 		<Projectile_Ion_Stun_Stack_Duration>No</Projectile_Ion_Stun_Stack_Duration>
 	</Projectile>
 	
+	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_2000">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_laser_invisible.alo</Space_Model_Name>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Scale_Factor>20.0</Scale_Factor>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, REVEAL</Behavior>
+
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.5</Dense_FOW_Reveal_Range_Multiplier>
+		<Projectile_Max_Lifetime>0.0</Projectile_Max_Lifetime>
+
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_Object_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle />
+		<AI_Combat_Power>0</AI_Combat_Power>
+		
+		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
+	</Projectile>
+	
+	<Projectile Name="Proj_Special_Space_Antimissile_Octets">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_laser_invisible.alo</Space_Model_Name>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, ABILITY_COUNTDOWN</Behavior>
+		<Projectile_Max_Lifetime>150.0</Projectile_Max_Lifetime>
+
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_Object_Detonation_Particle>Antimissile_Octets_500</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Antimissile_Octets_500</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Antimissile_Octets_500</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle />
+		<AI_Combat_Power>0</AI_Combat_Power>
+		
+        <Abilities SubObjectList="Yes">
+			<Laser_Defense_Ability Name="Antimissile_Octets_Ability">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Defense_Duration_In_Secs>999999.0</Defense_Duration_In_Secs>
+				<Laser_Color>255,255,255,255</Laser_Color>
+				<Bone_Names>Root</Bone_Names>
+				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+				<Protection_Radius>2000</Protection_Radius>
+				<Laser_Beam_Frames>2</Laser_Beam_Frames>
+				<Laser_Beam_Width>4</Laser_Beam_Width>
+				<Projectile_Dist_Travelled>20</Projectile_Dist_Travelled>
+				<Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+				<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+				<Recharge_Time_In_Secs>0.01</Recharge_Time_In_Secs>
+				<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+			</Laser_Defense_Ability>
+        </Abilities>
+	</Projectile>
+	
 	
 	
 	

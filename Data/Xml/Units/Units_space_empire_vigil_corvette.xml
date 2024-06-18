@@ -70,6 +70,7 @@
 		
 		<Behavior>DUMMY_STARSHIP</Behavior>
 		<SpaceBehavior>
+			ABILITY_COUNTDOWN,
 			SIMPLE_SPACE_LOCOMOTOR,
 			ION_STUN_EFFECT,
 			REVEAL,
@@ -167,6 +168,16 @@
 		<Tactical_Build_Cost_Multiplayer>760.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 15.0 </Expiration_Seconds>
+				<Recharge_Seconds>40.0</Recharge_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Sprint_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
+				<Space_FOW_Reveal_Range>1500</Space_FOW_Reveal_Range>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</SpaceUnit>
 	
 </Vigil_Corvette_Data>

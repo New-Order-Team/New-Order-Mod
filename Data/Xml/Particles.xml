@@ -20,6 +20,15 @@
         <!-- <Particle_Lifetime_Frames>300</Particle_Lifetime_Frames> -->
     </Particle>
 
+	
+	<!-- Antimissile Octets - Corvette (500) -->
+	 <Particle Name="Antimissile_Octets_500">
+        <Land_Model_Name>p_antimissile_octets_corv.alo</Land_Model_Name>
+        <Scale_Factor>20.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+    </Particle>
+	
 	<!-- Buzz Droid -->
 	<Particle Name="Buzz_Droid_Explosion">
         <Land_Model_Name>p_b_droids.alo</Land_Model_Name>

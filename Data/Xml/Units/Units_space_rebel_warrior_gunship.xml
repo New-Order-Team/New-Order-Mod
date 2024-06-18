@@ -81,6 +81,7 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
@@ -162,6 +163,33 @@
 		<Tactical_Build_Cost_Multiplayer>520.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STUN</Type>
+				<Recharge_Seconds>15.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Warrior_Antimissile_Octets </GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stun_Ability Name="Warrior_Antimissile_Octets">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We need to be within this distance of the clicked target to consider activating Stun -->
+				<Activation_Min_Range>0.0</Activation_Min_Range>
+				<Activation_Max_Range>75.0</Activation_Max_Range>
+				<Stun_Time_In_Secs>0.0</Stun_Time_In_Secs>
+				<Stun_Range>0.0</Stun_Range>
+				<!-- How long does it take for the shockwave to spread from the hero to the max range? -->
+				<Stun_Travel_Time_In_Secs>1.0</Stun_Travel_Time_In_Secs>
+                <Stunned_Effect /> 
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate />
+				<Owner_Particle_Effect>Proj_Special_Space_Antimissile_Octets</Owner_Particle_Effect>
+			</Stun_Ability>
+        </Abilities>
 	</SpaceUnit>
 	
 </Warrior_Gunship_Data>

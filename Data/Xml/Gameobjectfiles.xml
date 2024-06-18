@@ -103,6 +103,7 @@
 	<File>MOV_Cinematics.xml</File>
 
 	<!-- Mod New Files -->
+	<File>Objects_Space.xml</File>
 	
 	<!-- HEROES -->
 	<!-- Buildable heroes is in priority, so they appear on the left -->

@@ -81,6 +81,7 @@
 			NEBULA,
 			SHIELDED,
 			SPAWN_SQUADRON,
+			ABILITY_COUNTDOWN,
 		</SpaceBehavior>
 		
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
@@ -195,6 +196,33 @@
 		<Tactical_Build_Cost_Multiplayer>1420.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>13.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>BUZZ_DROIDS</Type>
+                <Recharge_Seconds>10000</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Buzz_Droids_Star_Viper</SFXEvent_GUI_Unit_Ability_Activated>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_DEPLOY_MINES_NAME</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_DEPLOY_MINES_DESCRIPTION</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_cluster_bomb.tga</Alternate_Icon_Name>
+                <GUI_Activated_Ability_Name>Space_Minefield_Empire</GUI_Activated_Ability_Name>
+                <!-- <Supports_Autofire>True</Supports_Autofire> -->
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+        <Abilities SubObjectList="Yes">
+            <Buzz_Droids_Ability Name="Space_Minefield_Empire">
+                <Activation_Style>User_Input</Activation_Style>
+                <Activation_Min_Range>5</Activation_Min_Range>
+                <Activation_Max_Range>500</Activation_Max_Range>
+                <Chase_Radius>0</Chase_Radius>
+                <Damage_Radius>0</Damage_Radius>
+                <Enemy_Damage_Per_Second>0</Enemy_Damage_Per_Second>
+                <Own_Damage_Per_Second>0</Own_Damage_Per_Second>
+                <Activation_Time_In_Seconds>1</Activation_Time_In_Seconds>
+                <Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
+                <Object_Type>Space_Minefield_Empire</Object_Type>
+            </Buzz_Droids_Ability>
+        </Abilities>
 	</SpaceUnit>
 	
 </Escort_Carrier_Data>
