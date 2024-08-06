@@ -22,23 +22,6 @@
 		<Build_Cost_Credits>89650</Build_Cost_Credits>
 		<Tactical_Build_Cost_Multiplayer>89650</Tactical_Build_Cost_Multiplayer>
 		<Abilities SubObjectList="Yes">
-			<Tractor_Beam_Attack_Ability Name="Praetor_II_Tractor_Beam">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, IG-2000, Houndstooth, Moldy_Crow</Applicable_Unit_Types>
-				<Excluded_Unit_Types>
-					Buzz_Droids, Mediator_Battlecruiser, GBI_Harbinger
-				</Excluded_Unit_Types>
-	            
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>1800</Activation_Max_Range>
-
-
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
-			</Tractor_Beam_Attack_Ability>
-
 			<Combat_Bonus_Ability Name="Giel_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>All</Unit_Strength_Category>

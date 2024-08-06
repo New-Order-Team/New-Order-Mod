@@ -7,7 +7,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
-		<HardPoints>
+		<!--<HardPoints>
 			HP_ISD_I_00,
 			HP_ISD_I_01,
 			HP_ISD_I_02,
@@ -30,7 +30,7 @@
 			HP_ISD_I_107,
 			HP_ISD_I_Fighter_Bay,
 			HP_ISD_I_Tractor_Beam
-		</HardPoints>
+		</HardPoints>-->
 
 		<Text_ID>TEXT_UNIT_HERO_BLACKHOLE_SINGULARITY</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HERO_BLACKHOLE_SINGULARITY </Encyclopedia_Text>

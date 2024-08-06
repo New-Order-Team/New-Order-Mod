@@ -347,13 +347,13 @@
 	
 	<Projectile Name="Proj_Special_Space_Antimissile_Octets">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>w_laser_invisible.alo</Space_Model_Name>
+		<Space_Model_Name>p_antimissile_octets_corv.alo</Space_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, ABILITY_COUNTDOWN</Behavior>
-		<Projectile_Max_Lifetime>150.0</Projectile_Max_Lifetime>
+		<Projectile_Max_Lifetime>10.0</Projectile_Max_Lifetime>
 
 		<Projectile_Category>DEFAULT</Projectile_Category>
 		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
@@ -376,7 +376,7 @@
 				<Laser_Color>255,255,255,255</Laser_Color>
 				<Bone_Names>Root</Bone_Names>
 				<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-				<Protection_Radius>2000</Protection_Radius>
+				<Protection_Radius>200</Protection_Radius>
 				<Laser_Beam_Frames>2</Laser_Beam_Frames>
 				<Laser_Beam_Width>4</Laser_Beam_Width>
 				<Projectile_Dist_Travelled>20</Projectile_Dist_Travelled>

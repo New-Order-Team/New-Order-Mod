@@ -59,7 +59,7 @@
 		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
 		<Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
 		<Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
-		<Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone>
+		<!-- <Death_Clone>Damage_Force_Lightning, Army_Trooper_FL_Death_Clone_00</Death_Clone> -->
 		
         <CategoryMask> Infantry </CategoryMask>
 		<Targeting_Priority_Set>InfantryAntiInfantry</Targeting_Priority_Set>

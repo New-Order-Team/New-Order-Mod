@@ -311,11 +311,13 @@
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, TELEKINESIS_TARGET</SpaceBehavior>
 
 		<HardPoints>
-			HP_IPV-1_00,
-			HP_IPV-1_01,
-			HP_IPV-1_02,
-			HP_IPV-1_03,
-			HP_IPV-1_04
+			HP_IPV_Patrol_01,
+			HP_IPV_Patrol_02,
+			HP_IPV_Patrol_03,
+			HP_IPV_Patrol_04,
+			HP_IPV_Patrol_05,
+			HP_IPV_Patrol_06,
+			HP_IPV_Patrol_07,
 		</HardPoints>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
