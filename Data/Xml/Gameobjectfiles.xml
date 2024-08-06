@@ -34,6 +34,7 @@
 	<File>Campaigns\Operation_Strike_Fear\Planets_OSF.xml</File>
 
 	<File>Projectiles.xml</File>
+	<File>Projectiles_Objects.xml</File>
 	<File>Projectiles_Space.xml</File>
 	<File>Projectiles_SM.xml</File>
 	<File>Projectiles_Land.xml</File>

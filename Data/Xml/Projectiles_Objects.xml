@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Projectiles_Objects>
+	<Projectile Name="Proj_Space_Mine">
+		<Text_ID>TEXT_NONE</Text_ID>
+
+		<Space_Model_Name>gen_space_mine.alo</Space_Model_Name>
+		<!-- <Space_Model_Name>proj_space_missile_large.alo</Space_Model_Name> -->
+		<Scale_Factor>1.0</Scale_Factor>
+
+		<Damage_Type> Damage_CML12 </Damage_Type>
+
+		<Max_Speed>5.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>1000</Projectile_Max_Scan_Range>
+
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>750</AI_Combat_Power>
+
+		<Projectile_Damage>7500</Projectile_Damage>
+
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+
+		<Projectile_Absorbed_By_Shields_Particle>Proj_Space_Mine_Blast</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Proj_Space_Mine_Blast</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Proj_Space_Mine_Blast</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Proj_Space_Mine_Blast</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Proj_Space_Mine_Blast</Projectile_Lifetime_Detonation_Particle>
+	</Projectile>
+	<Projectile Name="Proj_Space_Mine_Blast">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>DEFAULT</Projectile_Category>
+
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0</Projectile_Max_Scan_Range>
+		<Projectile_Max_Lifetime>0.0</Projectile_Max_Lifetime>
+
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 5000 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 350 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_Blast_Area_Max_Victims>5</Projectile_Blast_Area_Max_Victims>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+
+		<Projectile_Absorbed_By_Shields_Particle>Small_Explosion_Space</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>0</AI_Combat_Power>
+	</Projectile>
+</Projectiles_Objects>
