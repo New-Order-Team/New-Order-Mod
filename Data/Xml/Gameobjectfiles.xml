@@ -31,11 +31,10 @@
 
 	<File>Planets.xml</File>
 	<File>Planets_NO.xml</File>
-	<File>Campaigns\Operation_Strike_Fear\Planets_OSF.xml</File>
 
 	<File>Projectiles.xml</File>
 	<File>Projectiles_Objects.xml</File>
-	<File>Projectiles_Space.xml</File>
+	<File>Projectiles_NO.xml</File>
 	<File>Projectiles_SM.xml</File>
 	<File>Projectiles_Land.xml</File>
 	<File>Projectiles_Infantry.xml</File>
@@ -106,50 +105,6 @@
 	<!-- Mod New Files -->
 	<File>Objects_Space.xml</File>
 	
-	<!-- HEROES -->
-	<!-- Buildable heroes is in priority, so they appear on the left -->
-	<File>Campaigns\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
-	
-	<File>Heroes\Units_hero_empire_sate_pestage.xml</File>
-	<File>Heroes\Units_hero_empire_ars_dangor.xml</File>
-	<File>Heroes\Units_hero_empire_moff_council.xml</File>
-	
-	<File>Heroes\Units_hero_empire_darth_vader.xml</File>
-	<File>Heroes\Units_hero_empire_thrawn.xml</File>
-	<File>Heroes\Units_hero_empire_gilad_pellaeon.xml</File>
-	
-	<File>Heroes\Units_hero_empire_firmus_piett.xml</File>
-	<File>Heroes\Units_hero_empire_mils_giel.xml</File>
-	<File>Heroes\Units_hero_empire_teren_rogriss.xml</File>
-	<File>Heroes\Units_hero_empire_delak_krennel.xml</File>
-	<File>Heroes\Units_hero_empire_natasi_daala.xml</File>
-	
-	<File>Heroes\Units_hero_empire_181st.xml</File>
-	<File>Heroes\Units_hero_empire_blackhole.xml</File>
-	<File>Heroes\Units_hero_empire_foga_brill.xml</File>
-	<File>Heroes\Units_hero_empire_freja_covell.xml</File>
-	<File>Heroes\Units_hero_empire_hestiv.xml</File>
-	<File>Heroes\Units_hero_empire_malcor_brashin.xml</File>
-	<File>Heroes\Units_hero_empire_maximillian_veers.xml</File>
-	<File>Heroes\Units_hero_empire_sutt_ramic.xml</File>
-	<File>Heroes\Units_hero_empire_tessala_corvae.xml</File>
-	<File>Heroes\Units_hero_empire_tol_getelles.xml</File>
-	<File>Heroes\Units_hero_empire_ysanne_isard.xml</File>
-	
-	<File>Heroes\Units_hero_neutral_boba_fett.xml</File>
-	<File>Heroes\Units_hero_neutral_bossk.xml</File>
-	<File>Heroes\Units_hero_neutral_ig88.xml</File>
-	<File>Heroes\Units_hero_empire_rom_mohc.xml</File>
-	<File>Heroes\Units_hero_empire_wilhuff_tarkin.xml</File>
-	<File>Heroes\Units_hero_rebel_mon_mothma.xml</File>
-	<File>Heroes\Units_hero_rebel_han_solo.xml</File>
-	<File>Heroes\Units_hero_rebel_gial_ackbar.xml</File>
-	<File>Heroes\Units_Hero_Rebel_LukeSkywalker.xml</File>
-	<File>Heroes\Units_Hero_Rebel_garm_bel_iblis.xml</File>
-	<File>Heroes\Units_hero_rebel_squadrons.xml</File>
-	<File>Heroes\Units_hero_rebel_kyle_katarn.xml</File>
-	<File>Heroes\Units_hero_rebel_raymus_antilles.xml</File>
-	
 	<!-- GROUND -->
 	<File>Units_land_empire_army_troopers.xml</File>
 	<File>Units_land_empire_army_engineers.xml</File>
@@ -196,77 +151,124 @@
 	<File>Units_land_test_troopers.xml</File>
 	
 	<!-- SPACE -->
-	<File>Units\Units_space_empire_tie_fighter.xml</File>
-	<File>Units\Units_space_empire_tie_fighter_mod.xml</File>
-	<File>Units\Units_space_empire_tie_interceptor.xml</File>
-	<File>Units\Units_space_empire_tie_interceptor_mod.xml</File>
-	<File>Units\Units_space_empire_tie_phantom.xml</File>
-	<File>Units\Units_space_empire_tie_defender.xml</File>
-	<File>Units\Units_space_empire_tie_bomber.xml</File>
-	<File>Units\Units_space_empire_assault_gunboat.xml</File>
-	<File>Units\Units_space_empire_tie_scimitar.xml</File>
-	<File>Units\Units_space_empire_customs_corvette.xml</File>
-	<File>Units\Units_space_empire_raider_i_corvette.xml</File>
-	<File>Units\Units_space_empire_adz_corvette.xml</File>
-	<File>Units\Units_space_empire_nebulon_b_frigate_e.xml</File>
-	<File>Units\Units_space_empire_vigil_corvette.xml</File>
-	<File>Units\Units_space_empire_lancer_frigate.xml</File>
-	<File>Units\Units_space_empire_carrack_cruiser.xml</File>
-	<File>Units\Units_space_empire_strike_cruiser.xml</File>
-	<File>Units\Units_space_empire_escort_carrier.xml</File>
-	<File>Units\Units_space_empire_dreadnought_cruiser.xml</File>
-	<File>Units\Units_space_empire_gladiator_cruiser.xml</File>
-	<File>Units\Units_space_empire_acclamator_assault_ship.xml</File>
-	<File>Units\Units_space_empire_vindicator_cruiser.xml</File>
-	<File>Units\Units_space_empire_enforcer_cruiser.xml</File>
-	<File>Units\Units_space_empire_interdictor_cruiser.xml</File>
-	<File>Units\Units_space_empire_victory_destroyer.xml</File>
-	<File>Units\Units_space_empire_victory_ii_destroyer.xml</File>
-	<File>Units\Units_space_empire_venator_destroyer.xml</File>
-	<File>Units\Units_space_empire_star_destroyer.xml</File>
-	<File>Units\Units_space_empire_imperial_ii_destroyer.xml</File>
-	<File>Units\Units_space_empire_tector_destroyer.xml</File>
-	<File>Units\Units_space_empire_dominator_ii_destroyer.xml</File>
-	<File>Units\Units_space_empire_allegiance_battlecruiser.xml</File>
-	<File>Units\Units_space_empire_praetor_ii_battlecruiser.xml</File>
-	<File>Units\Units_space_empire_executor_dreadnought.xml</File>
+	<File>Units\SpaceUnit_A_Wing.xml</File>
+	<File>Units\SpaceUnit_Acclamator_Assault_Ship.xml</File>
+	<File>Units\SpaceUnit_Adz_Corvette.xml</File>
+	<File>Units\SpaceUnit_Agave_Corvette.xml</File>
+	<File>Units\SpaceUnit_Allegiance_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Alliance_Assault_Frigate.xml</File>
+	<File>Units\SpaceUnit_Assault_Gunboat.xml</File>
+	<File>Units\SpaceUnit_B_Wing.xml</File>
+	<File>Units\SpaceUnit_Bulwark_III_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Calamari_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Carrack_Cruiser.xml</File>
+	<File>Units\SpaceUnit_CC_7700_Frigate.xml</File>
+	<File>Units\SpaceUnit_Corellian_Corvette.xml</File>
+	<File>Units\SpaceUnit_Corellian_Gunboat.xml</File>
+	<File>Units\SpaceUnit_Customs_Corvette.xml</File>
+	<File>Units\SpaceUnit_Dauntless_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Defender_Carrier.xml</File>
+	<File>Units\SpaceUnit_Defender_Starfighter.xml</File>
+	<File>Units\SpaceUnit_Dominator_II_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Dreadnought_Cruiser.xml</File>
+	<File>Units\SpaceUnit_E_Wing.xml</File>
+	<File>Units\SpaceUnit_Endurance_Carrier.xml</File>
+	<File>Units\SpaceUnit_Enforcer_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Escort_Carrier.xml</File>
+	<File>Units\SpaceUnit_Executor_Dreadnought.xml</File>
+	<File>Units\SpaceUnit_Gladiator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Hajen_Interdictor.xml</File>
+	<File>Units\SpaceUnit_Home_One_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Imperial_II_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Independence_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Interdictor_Cruiser.xml</File>
+	<File>Units\SpaceUnit_K_Wing.xml</File>
+	<File>Units\SpaceUnit_Lancer_Frigate.xml</File>
+	<File>Units\SpaceUnit_Liberator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Majestic_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Marauder_Corvette.xml</File>
+	<File>Units\SpaceUnit_Marauder_Missile_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC30_Frigate.xml</File>
+	<File>Units\SpaceUnit_MC40a_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC80A_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC80B_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC90_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Nebula_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Nebulon_B_Frigate.xml</File>
+	<File>Units\SpaceUnit_Neutron_Star_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Praetor_II_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_R_22.xml</File>
+	<File>Units\SpaceUnit_R_41.xml</File>
+	<File>Units\SpaceUnit_Raider_I_Corvette.xml</File>
+	<File>Units\SpaceUnit_Sacheen_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Star_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Strike_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Tector_Destroyer.xml</File>
+	<File>Units\SpaceUnit_TIE_Bomber.xml</File>
+	<File>Units\SpaceUnit_TIE_Defender.xml</File>
+	<File>Units\SpaceUnit_TIE_Fighter.xml</File>
+	<File>Units\SpaceUnit_TIE_Fighter_Mod.xml</File>
+	<File>Units\SpaceUnit_TIE_Hunter.xml</File>
+	<File>Units\SpaceUnit_TIE_Interceptor.xml</File>
+	<File>Units\SpaceUnit_TIE_Interceptor_Mod.xml</File>
+	<File>Units\SpaceUnit_TIE_Phantom.xml</File>
+	<File>Units\SpaceUnit_TIE_Scimitar.xml</File>
+	<File>Units\SpaceUnit_Venator_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Victory_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Victory_II_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Vigil_Corvette.xml</File>
+	<File>Units\SpaceUnit_Vindicator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Viscount_Star_Defender.xml</File>
+	<File>Units\SpaceUnit_Warrior_Gunship.xml</File>
+	<File>Units\SpaceUnit_X_Wing.xml</File>
+	<File>Units\SpaceUnit_Y_Wing_A4.xml</File>
+	<File>Units\SpaceUnit_Y_Wing_S3.xml</File>
+	<File>Units\SpaceUnit_Z_95.xml</File>
 	
-	<File>Units\Units_space_rebel_z_95.xml</File>
-	<File>Units\Units_space_rebel_r_41.xml</File>
-	<File>Units\Units_space_rebel_a_wing.xml</File>
-	<File>Units\Units_Space_rebel_defender_starfighter.xml</File>
-	<File>Units\Units_space_rebel_y_wing_a4.xml</File>
-	<File>Units\Units_space_rebel_x_wing.xml</File>
-	<File>Units\Units_space_rebel_e_wing.xml</File>
-	<File>Units\Units_space_rebel_y_wing_s3.xml</File>
-	<File>Units\Units_space_rebel_b_wing.xml</File>
-	<File>Units\Units_space_rebel_k_wing.xml</File>
-	<File>Units\Units_space_rebel_corellian_corvette.xml</File>
-	<File>Units\Units_space_rebel_corellian_gunboat.xml</File>
-	<File>Units\Units_space_rebel_marauder_corvette.xml</File>
-	<File>Units\Units_space_rebel_agave_corvette.xml</File>
-	<File>Units\Units_space_rebel_warrior_gunship.xml</File>
-	<File>Units\Units_space_rebel_nebulon_b_frigate.xml</File>
-	<File>Units\Units_space_rebel_mc40a_cruiser.xml</File>
-	<File>Units\Units_space_rebel_mc30_frigate.xml</File>
-	<File>Units\Units_space_rebel_sacheen_cruiser.xml</File>
-	<File>Units\Units_space_rebel_cc-7700_frigate.xml</File>
-	<File>Units\Units_space_rebel_neutron_star_cruiser.xml</File>
-	<File>Units\Units_space_rebel_alliance_assault_frigate.xml</File>
-	<File>Units\Units_space_rebel_liberator_cruiser.xml</File>
-	<File>Units\Units_space_rebel_majestic_cruiser.xml</File>
-	<File>Units\Units_space_rebel_defender_carrier.xml</File>
-	<File>Units\Units_space_rebel_calamari_cruiser.xml</File>
-	<File>Units\Units_space_rebel_mc80a_cruiser.xml</File>
-	<File>Units\Units_space_rebel_mc80b_cruiser.xml</File>
-	<File>Units\Units_space_rebel_nebula_destroyer.xml</File>
-	<File>Units\Units_space_rebel_endurance_carrier.xml</File>
-	<File>Units\Units_space_rebel_dauntless_cruiser.xml</File>
-	<File>Units\Units_space_rebel_mc90_cruiser.xml</File>
-	<File>Units\Units_space_rebel_independence_battlecruiser.xml</File>
-	<File>Units\Units_space_rebel_home_one_battlecruiser.xml</File>
-	<File>Units\Units_space_rebel_bulwark_iii_battlecruiser.xml</File>
-	<File>Units\Units_space_rebel_mediator_battlecruiser.xml</File>
+	<!-- HEROES -->
+	<!-- Buildable heroes is in priority, so they appear on the left -->
+	<!-- WRONG: heroes refer to units so thet should be AFTER units :( -->
+	<File>Campaigns\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
+	
+	<File>Heroes\Units_hero_empire_sate_pestage.xml</File>
+	<File>Heroes\Units_hero_empire_ars_dangor.xml</File>
+	<File>Heroes\Units_hero_empire_moff_council.xml</File>
+	
+	<File>Heroes\Units_hero_empire_darth_vader.xml</File>
+	<File>Heroes\Units_hero_empire_thrawn.xml</File>
+	<File>Heroes\Units_hero_empire_gilad_pellaeon.xml</File>
+	
+	<File>Heroes\Units_hero_empire_firmus_piett.xml</File>
+	<File>Heroes\Units_hero_empire_mils_giel.xml</File>
+	<File>Heroes\Units_hero_empire_teren_rogriss.xml</File>
+	<File>Heroes\Units_hero_empire_delak_krennel.xml</File>
+	<File>Heroes\Units_hero_empire_natasi_daala.xml</File>
+	
+	<File>Heroes\Units_hero_empire_181st.xml</File>
+	<File>Heroes\Units_hero_empire_blackhole.xml</File>
+	<File>Heroes\Units_hero_empire_foga_brill.xml</File>
+	<File>Heroes\Units_hero_empire_freja_covell.xml</File>
+	<File>Heroes\Units_hero_empire_hestiv.xml</File>
+	<File>Heroes\Units_hero_empire_malcor_brashin.xml</File>
+	<File>Heroes\Units_hero_empire_maximillian_veers.xml</File>
+	<File>Heroes\Units_hero_empire_sutt_ramic.xml</File>
+	<File>Heroes\Units_hero_empire_tessala_corvae.xml</File>
+	<File>Heroes\Units_hero_empire_tol_getelles.xml</File>
+	<File>Heroes\Units_hero_empire_ysanne_isard.xml</File>
+	
+	<File>Heroes\Units_hero_neutral_boba_fett.xml</File>
+	<File>Heroes\Units_hero_neutral_bossk.xml</File>
+	<File>Heroes\Units_hero_neutral_ig88.xml</File>
+	<File>Heroes\Units_hero_empire_rom_mohc.xml</File>
+	<File>Heroes\Units_hero_empire_wilhuff_tarkin.xml</File>
+	<File>Heroes\Units_hero_rebel_mon_mothma.xml</File>
+	<File>Heroes\Units_hero_rebel_han_solo.xml</File>
+	<File>Heroes\Units_hero_rebel_gial_ackbar.xml</File>
+	<File>Heroes\Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Heroes\Units_Hero_Rebel_garm_bel_iblis.xml</File>
+	<File>Heroes\Units_hero_rebel_squadrons.xml</File>
+	<File>Heroes\Units_hero_rebel_kyle_katarn.xml</File>
+	<File>Heroes\Units_hero_rebel_raymus_antilles.xml</File>
 	
 	<!-- UNUSED -->
 	<File>GroundInfantry.xml</File>

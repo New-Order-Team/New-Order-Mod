@@ -17,6 +17,14 @@
 	<!-- Space Units -->
 	
 	<!-- Lasers and turbolasers -->
+	<SFXEvent Name="SFX_Fighter_Damage_Detonation">
+		<Use_Preset>Preset_GUN</Use_Preset>
+		<Samples>
+			EXP_Small_Damage_1.wav
+			EXP_Small_Damage_2.wav
+			EXP_Small_Damage_3.wav
+		</Samples>
+	</SFXEvent>
 	<SFXEvent Name="SFX_Tiny_Damage_Detonation">
 		<Use_Preset>Preset_GUN</Use_Preset>
 		<Samples>

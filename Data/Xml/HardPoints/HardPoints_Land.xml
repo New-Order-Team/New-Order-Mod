@@ -809,11 +809,6 @@
 		<Fire_Range_Distance>400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Tank_T2B_Fire</Fire_SFXEvent>
 
-		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
-		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
-		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
-		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
-
 		<Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>

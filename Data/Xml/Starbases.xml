@@ -1978,7 +1978,7 @@
 				Nebulon_B_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
@@ -2098,7 +2098,7 @@
 				Nebulon_B_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
@@ -2229,7 +2229,7 @@
 				Nebulon_B_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
@@ -2370,7 +2370,7 @@
 				Nebulon_B_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
@@ -2515,7 +2515,7 @@
 				Nebulon_B_Frigate,
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Sacheen_Cruiser,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
@@ -2633,6 +2633,7 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Dominator_II_Destroyer,
+				Tector_Destroyer,
 				Allegiance_Battlecruiser
 				
 				<!--ES_Level_Two_Starbase_Upgrade-->
@@ -3263,7 +3264,7 @@
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				Neutron_Star_Cruiser,
 				Alliance_Assault_Frigate,
 				
@@ -3289,7 +3290,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3321,7 +3322,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3391,7 +3392,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3420,7 +3421,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
@@ -3453,7 +3454,7 @@
 				Corellian_Corvette,
 				Corellian_Gunboat,
 				Nebulon_B_Frigate,
-				CC-7700_Frigate,
+				CC_7700_Frigate,
 				
 				MC30_Frigate,
 				MC40a_Cruiser,
