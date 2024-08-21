@@ -20,7 +20,7 @@
 		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
 		<AI_Combat_Power>750</AI_Combat_Power>
 
-		<Projectile_Damage>3500</Projectile_Damage>
+		<Projectile_Damage>350</Projectile_Damage>
 
 		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
@@ -48,7 +48,7 @@
 		<Projectile_Max_Lifetime>0.0</Projectile_Max_Lifetime>
 
 		<Projectile_Damage>0.0</Projectile_Damage>
-		<Projectile_Blast_Area_Damage> 2500 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Damage> 250 </Projectile_Blast_Area_Damage>
 		<Projectile_Blast_Area_Range> 350 </Projectile_Blast_Area_Range>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Max_Victims>5</Projectile_Blast_Area_Max_Victims>
