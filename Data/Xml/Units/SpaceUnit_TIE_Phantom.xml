@@ -53,7 +53,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>15.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>30.0</Shield_Points>
 		<Shield_Refresh_Rate>0.3</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
@@ -193,7 +193,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>7.0</Build_Time_Seconds>

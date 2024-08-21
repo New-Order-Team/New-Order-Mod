@@ -33,20 +33,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>14.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1470.0</Build_Cost_Credits>
+		<Build_Cost_Credits>1500.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>1470.0</AI_Combat_Power>
+		<AI_Combat_Power>1500.0</AI_Combat_Power>
 		<Score_Cost_Credits>71.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1470.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1470.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>1500.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1500.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -68,7 +68,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A4</Armor_Type>
 		<Tactical_Health>2000.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>2400.0</Shield_Points>
 		<Shield_Refresh_Rate>20.0</Shield_Refresh_Rate>
 		<Energy_Capacity>4500.0</Energy_Capacity>
@@ -143,7 +143,7 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-		<Tactical_Build_Cost_Multiplayer>1470.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1500.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>

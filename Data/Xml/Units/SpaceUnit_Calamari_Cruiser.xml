@@ -32,20 +32,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>40.0</Build_Time_Seconds>
-		<Build_Cost_Credits>5970.0</Build_Cost_Credits>
+		<Build_Time_Seconds>41.0</Build_Time_Seconds>
+		<Build_Cost_Credits>6130.0</Build_Cost_Credits>
 		<Population_Value>11.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>5970.0</AI_Combat_Power>
+		<AI_Combat_Power>6130.0</AI_Combat_Power>
 		<Score_Cost_Credits>246.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>5970.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>5970.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>6130.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>6130.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>5600.0</Autoresolve_Health>
@@ -66,7 +66,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A7</Armor_Type>
 		<Tactical_Health>5600.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>6400.0</Shield_Points>
 		<Shield_Refresh_Rate>53.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
@@ -165,8 +165,8 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>5970.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6130.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>41.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

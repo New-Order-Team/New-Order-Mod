@@ -17,7 +17,7 @@
 		<Icon_Name>i_button_cc_7700_frigate.tga</Icon_Name>
 		<Space_Model_Name>cc-7700_frigate.alo</Space_Model_Name>
 		<Scale_Factor>0.32</Scale_Factor>
-		<Target_Bones>Root</Target_Bones>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Select_Box_Scale>175.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
@@ -35,19 +35,19 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>11.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1040.0</Build_Cost_Credits>
+		<Build_Cost_Credits>1070.0</Build_Cost_Credits>
 		<Population_Value>5.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<AI_Combat_Power>1040.0</AI_Combat_Power>
+		<AI_Combat_Power>1070.0</AI_Combat_Power>
 		<Score_Cost_Credits>51.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1040.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1040.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>1070.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1070.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -69,7 +69,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A4</Armor_Type>
 		<Tactical_Health>2400.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>1525.0</Shield_Points>
 		<Shield_Refresh_Rate>13.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
@@ -158,7 +158,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_Interdict</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>1040.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1070.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">

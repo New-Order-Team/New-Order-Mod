@@ -52,7 +52,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>15.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>15.0</Shield_Points>
 		<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>

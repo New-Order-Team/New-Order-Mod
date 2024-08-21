@@ -15,7 +15,7 @@
 		<Is_Dummy>No</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>10410</Build_Cost_Credits>
-		<AI_Combat_Power>9800</AI_Combat_Power>
+		<AI_Combat_Power>980</AI_Combat_Power>
 		<Build_Time_Seconds>33</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>10</Size_Value>
@@ -32,7 +32,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -58,11 +58,11 @@
 			Rebel,
 		</Tactical_Buildable_Objects_Campaign>
 
-		<Autoresolve_Health>160000</Autoresolve_Health>
+		<Autoresolve_Health>16000</Autoresolve_Health>
 		<Damage>1950</Damage>
-		<Shield_Points>240000</Shield_Points>
-		<Tactical_Health>160000</Tactical_Health>
-		<Shield_Refresh_Rate>2400</Shield_Refresh_Rate>
+		<Shield_Points>24000</Shield_Points>
+		<Tactical_Health>16000</Tactical_Health>
+		<Shield_Refresh_Rate>240</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -179,7 +179,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>10570</Build_Cost_Credits>
-		<AI_Combat_Power>20375</AI_Combat_Power>
+		<AI_Combat_Power>2037</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>20</Size_Value>
@@ -193,11 +193,11 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Autoresolve_Health>16450</Autoresolve_Health>
+		<Autoresolve_Health>1645</Autoresolve_Health>
 		<Damage>3925</Damage>
-		<Shield_Points>360000</Shield_Points>
-		<Tactical_Health>240000</Tactical_Health>
-		<Shield_Refresh_Rate>3600</Shield_Refresh_Rate>
+		<Shield_Points>36000</Shield_Points>
+		<Tactical_Health>24000</Tactical_Health>
+		<Shield_Refresh_Rate>360</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -206,7 +206,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -349,7 +349,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>17550</Build_Cost_Credits>
-		<AI_Combat_Power>36840</AI_Combat_Power>
+		<AI_Combat_Power>3684</AI_Combat_Power>
 		<Build_Time_Seconds>55</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
@@ -363,11 +363,11 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Autoresolve_Health>29415</Autoresolve_Health>
+		<Autoresolve_Health>2941</Autoresolve_Health>
 		<Damage>7425</Damage>
-		<Shield_Points>480000</Shield_Points>
-		<Tactical_Health>320000</Tactical_Health>
-		<Shield_Refresh_Rate>4800</Shield_Refresh_Rate>
+		<Shield_Points>48000</Shield_Points>
+		<Tactical_Health>32000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -378,7 +378,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -532,7 +532,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>22710</Build_Cost_Credits>
-		<AI_Combat_Power>59150</AI_Combat_Power>
+		<AI_Combat_Power>5915</AI_Combat_Power>
 		<Build_Time_Seconds>74</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
@@ -546,11 +546,11 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Autoresolve_Health>47550</Autoresolve_Health>
+		<Autoresolve_Health>4755</Autoresolve_Health>
 		<Damage>11600</Damage>
-		<Shield_Points>600000</Shield_Points>
-		<Tactical_Health>400000</Tactical_Health>
-		<Shield_Refresh_Rate>6000</Shield_Refresh_Rate>
+		<Shield_Points>60000</Shield_Points>
+		<Tactical_Health>40000</Tactical_Health>
+		<Shield_Refresh_Rate>600</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -561,7 +561,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -729,7 +729,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>35410</Build_Cost_Credits>
-		<AI_Combat_Power>93800</AI_Combat_Power>
+		<AI_Combat_Power>9380</AI_Combat_Power>
 		<Build_Time_Seconds>116</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
@@ -743,11 +743,11 @@
 		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
 		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		<Autoresolve_Health>74950</Autoresolve_Health>
+		<Autoresolve_Health>7495</Autoresolve_Health>
 		<Damage>18850</Damage>
-		<Shield_Points>720000</Shield_Points>
-		<Tactical_Health>480000</Tactical_Health>
-		<Shield_Refresh_Rate>7200</Shield_Refresh_Rate>
+		<Shield_Points>72000</Shield_Points>
+		<Tactical_Health>48000</Tactical_Health>
+		<Shield_Refresh_Rate>720</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -758,7 +758,7 @@
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_1>
@@ -926,7 +926,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>10410</Build_Cost_Credits>
-		<AI_Combat_Power>9800</AI_Combat_Power>
+		<AI_Combat_Power>980</AI_Combat_Power>
 		<Build_Time_Seconds>33</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>10</Size_Value>
@@ -943,16 +943,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>7000</Autoresolve_Health>
 		<Damage>2800</Damage>
-		<Shield_Points>240000</Shield_Points>
-		<Tactical_Health>160000</Tactical_Health>
-		<Shield_Refresh_Rate>2400</Shield_Refresh_Rate>
+		<Shield_Points>24000</Shield_Points>
+		<Tactical_Health>16000</Tactical_Health>
+		<Shield_Refresh_Rate>240</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1071,7 +1071,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>10575</Build_Cost_Credits>
-		<AI_Combat_Power>20375</AI_Combat_Power>
+		<AI_Combat_Power>2037</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>20</Size_Value>
@@ -1088,16 +1088,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>14725</Autoresolve_Health>
 		<Damage>5650</Damage>
-		<Shield_Points>360000</Shield_Points>
-		<Tactical_Health>240000</Tactical_Health>
-		<Shield_Refresh_Rate>3600</Shield_Refresh_Rate>
+		<Shield_Points>36000</Shield_Points>
+		<Tactical_Health>24000</Tactical_Health>
+		<Shield_Refresh_Rate>360</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1223,7 +1223,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>17545</Build_Cost_Credits>
-		<AI_Combat_Power>36840</AI_Combat_Power>
+		<AI_Combat_Power>3684</AI_Combat_Power>
 		<Build_Time_Seconds>55</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>30</Size_Value>
@@ -1240,16 +1240,16 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Autoresolve_Health>26315</Autoresolve_Health>
 		<Damage>10525</Damage>
-		<Shield_Points>480000</Shield_Points>
-		<Tactical_Health>320000</Tactical_Health>
-		<Shield_Refresh_Rate>4800</Shield_Refresh_Rate>
+		<Shield_Points>48000</Shield_Points>
+		<Tactical_Health>32000</Tactical_Health>
+		<Shield_Refresh_Rate>480</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1386,7 +1386,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>22710</Build_Cost_Credits>
-		<AI_Combat_Power>59150</AI_Combat_Power>
+		<AI_Combat_Power>5915</AI_Combat_Power>
 		<Build_Time_Seconds>74</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>40</Size_Value>
@@ -1401,11 +1401,11 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Autoresolve_Health>42250</Autoresolve_Health>
+		<Autoresolve_Health>4225</Autoresolve_Health>
 		<Damage>16900</Damage>
-		<Shield_Points>600000</Shield_Points>
-		<Tactical_Health>400000</Tactical_Health>
-		<Shield_Refresh_Rate>6000</Shield_Refresh_Rate>
+		<Shield_Points>60000</Shield_Points>
+		<Tactical_Health>40000</Tactical_Health>
+		<Shield_Refresh_Rate>600</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1413,7 +1413,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -1554,7 +1554,7 @@
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Build_Cost_Credits>35410</Build_Cost_Credits>
-		<AI_Combat_Power>93800</AI_Combat_Power>
+		<AI_Combat_Power>9380</AI_Combat_Power>
 		<Build_Time_Seconds>116</Build_Time_Seconds>
 		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
 		<Size_Value>50</Size_Value>
@@ -1569,11 +1569,11 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Autoresolve_Health>67000</Autoresolve_Health>
+		<Autoresolve_Health>6700</Autoresolve_Health>
 		<Damage>26800</Damage>
-		<Shield_Points>720000</Shield_Points>
-		<Tactical_Health>480000</Tactical_Health>
-		<Shield_Refresh_Rate>7200</Shield_Refresh_Rate>
+		<Shield_Points>72000</Shield_Points>
+		<Tactical_Health>48000</Tactical_Health>
+		<Shield_Refresh_Rate>720</Shield_Refresh_Rate>
 		<Energy_Capacity>5000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1581,7 +1581,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
@@ -1760,7 +1760,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
@@ -1828,7 +1828,7 @@
 		
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 
 
 		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
@@ -1896,7 +1896,7 @@
 	<StarBase Name="Pirate_Asteroid_Base_Weak">
 		<Variant_Of_Existing_Type>Pirate_Asteroid_Base</Variant_Of_Existing_Type>
 		<Armor_Type> Armor_Space_A12 </Armor_Type>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<HardPoints>
 			HP_Pirate_Base_Fighter_Bay_00_Weak, HP_Pirate_Base_Shield_Gen_00_Weak, HP_Pirate_Base_Heavy_Turret_00_Weak, HP_Pirate_Base_Heavy_Turret_01_Weak, HP_Pirate_Base_Turbolaser_00_Weak, HP_Pirate_Base_Turbolaser_01_Weak, HP_Pirate_Base_Turbolaser_02_Weak, HP_Pirate_Base_Turbolaser_03_Weak, HP_Pirate_Base_Laser_Cannon_00_Weak, HP_Pirate_Base_Laser_Cannon_01_Weak
 		</HardPoints>
@@ -1989,7 +1989,9 @@
 				MC80B_Cruiser,
 				Nebula_Destroyer,
 				Endurance_Carrier,
-				MC90_Cruiser
+				MC90_Cruiser,
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
 
 				<!--RS_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2110,6 +2112,8 @@
 				Nebula_Destroyer,
 				Endurance_Carrier,
 				MC90_Cruiser
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
 				
 				<!-- RS_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2241,6 +2245,8 @@
 				Nebula_Destroyer,
 				Endurance_Carrier,
 				MC90_Cruiser
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
 				
 				<!-- RS_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2382,6 +2388,8 @@
 				Nebula_Destroyer,
 				Endurance_Carrier,
 				MC90_Cruiser
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
 				
 				<!-- RS_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2527,6 +2535,9 @@
 				Nebula_Destroyer,
 				Endurance_Carrier,
 				MC90_Cruiser
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
+				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -2632,7 +2643,6 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
-				Dominator_II_Destroyer,
 				Tector_Destroyer,
 				Allegiance_Battlecruiser
 				
@@ -2749,7 +2759,7 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
-				Dominator_II_Destroyer,
+				Tector_Destroyer,
 				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Three_Starbase_Upgrade -->
@@ -2874,7 +2884,7 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
-				Dominator_II_Destroyer,
+				Tector_Destroyer,
 				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Four_Starbase_Upgrade -->
@@ -3009,7 +3019,7 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
-				Dominator_II_Destroyer,
+				Tector_Destroyer,
 				Allegiance_Battlecruiser
 				
 				<!-- ES_Level_Five_Starbase_Upgrade -->
@@ -3154,8 +3164,9 @@
 				Victory_II_Destroyer,
 				Star_Destroyer,
 				Imperial_II_Destroyer,
-				Dominator_II_Destroyer,
+				Tector_Destroyer,
 				Allegiance_Battlecruiser
+				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 	
@@ -3300,8 +3311,6 @@
 				Calamari_Cruiser,
 				MC80A_Cruiser,
 				
-				<!-- Home_One_Battlecruiser, -->
-				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3331,6 +3340,9 @@
 				
 				Calamari_Cruiser,
 				MC80A_Cruiser,
+				
+				Independence_Battlecruiser,
+				Home_One_Battlecruiser,
 				
 				<!-- Home_One_Battlecruiser, -->
 				
@@ -3432,8 +3444,6 @@
 				MC80A_Cruiser,
 				MC90_Cruiser,
 				
-				<!-- Home_One_Battlecruiser, -->
-				
 				RS_Ion_Cannon_Use_Upgrade,
 				RS_Level_Five_Starbase_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3465,7 +3475,7 @@
 				MC80A_Cruiser,
 				MC90_Cruiser,
 				
-				<!-- Home_One_Battlecruiser, -->
+				Home_One_Battlecruiser,
 				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3590,7 +3600,7 @@
 				Endurance_Carrier,
 				MC90_Cruiser,
 				
-				<!-- Home_One_Battlecruiser, -->
+				Home_One_Battlecruiser,
 				
 				RS_Ion_Cannon_Use_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>

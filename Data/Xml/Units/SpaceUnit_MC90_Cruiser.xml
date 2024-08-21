@@ -16,7 +16,11 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc90_cruiser.tga</Icon_Name>
-		<Space_Model_Name>f_mc90.alo</Space_Model_Name>
+		<Space_Model_Name>reb_mc90.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
+		<Select_Box_Scale>628.0</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Affiliation>Rebel</Affiliation>
 		<Ranking_In_Category>12</Ranking_In_Category>
@@ -28,20 +32,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>3.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>60.0</Build_Time_Seconds>
-		<Build_Cost_Credits>9370.0</Build_Cost_Credits>
+		<Build_Time_Seconds>62.0</Build_Time_Seconds>
+		<Build_Cost_Credits>9610.0</Build_Cost_Credits>
 		<Population_Value>18.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>9370.0</AI_Combat_Power>
+		<AI_Combat_Power>9610.0</AI_Combat_Power>
 		<Score_Cost_Credits>427.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>9370.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>9370.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>9610.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>9610.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>9000.0</Autoresolve_Health>
@@ -62,7 +66,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A8</Armor_Type>
 		<Tactical_Health>9000.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>10250.0</Shield_Points>
 		<Shield_Refresh_Rate>85.0</Shield_Refresh_Rate>
 		<Energy_Capacity>25000.0</Energy_Capacity>
@@ -151,11 +155,14 @@
 		<Starting_Spawned_Units_Tech_3>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>X_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
 		<Formation_Priority>4</Formation_Priority>
+		<Remove_Upon_Death>True</Remove_Upon_Death>
+		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>9370.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>9610.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>62.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

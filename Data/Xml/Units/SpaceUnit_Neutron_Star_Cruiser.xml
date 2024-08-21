@@ -30,20 +30,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>1.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>24.0</Build_Time_Seconds>
-		<Build_Cost_Credits>3300.0</Build_Cost_Credits>
+		<Build_Time_Seconds>25.0</Build_Time_Seconds>
+		<Build_Cost_Credits>3380.0</Build_Cost_Credits>
 		<Population_Value>8.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>3300.0</AI_Combat_Power>
+		<AI_Combat_Power>3380.0</AI_Combat_Power>
 		<Score_Cost_Credits>115.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>3300.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>3300.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>3380.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>3380.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -65,7 +65,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A5</Armor_Type>
 		<Tactical_Health>3800.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>3800.0</Shield_Points>
 		<Shield_Refresh_Rate>32.0</Shield_Refresh_Rate>
 		<Energy_Capacity>6000.0</Energy_Capacity>
@@ -157,8 +157,8 @@
 		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
-		<Tactical_Build_Cost_Multiplayer>3300.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>24.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3380.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>25.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -166,7 +166,7 @@
 				<Expiration_Seconds>15</Expiration_Seconds>
 				<Recharge_Seconds>120</Recharge_Seconds>
 				<Armor_Type>Armor_Space_A7</Armor_Type>
-				<Shield_Armor_Type>Armor_Space_SI</Shield_Armor_Type>
+				<Shield_Armor_Type>Shield_Space_SI</Shield_Armor_Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Invulnerable_Han_Solo</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 				<Alternate_Name_Text>TEXT_ABILITY_TENSOR_FIELDS</Alternate_Name_Text>

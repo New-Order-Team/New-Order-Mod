@@ -11,25 +11,21 @@
 		<Behavior> SPACE_OBSTACLE, TACTICAL_BUILD_OBJECTS, REVEAL, HIDE_WHEN_FOGGED, CAPTURE_POINT </Behavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-			<!--Empire, 
+			Empire, 
 				UC_Empire_Defense_Satellite_Laser,
-				UC_Empire_Defense_Satellite_Sensor,
-				UC_Empire_Defense_Satellite_TB,
+				UC_Empire_Defense_Satellite_Missile,
 			Rebel,
 				UC_Rebel_Defense_Satellite_Laser,
-				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,-->				
+				UC_Rebel_Defense_Satellite_Missile,
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Tactical_Buildable_Objects_Campaign> 
-			<!--Empire, 
+			Empire, 
 				UC_Empire_Defense_Satellite_Laser,
-				UC_Empire_Defense_Satellite_Sensor,
-				UC_Empire_Defense_Satellite_TB,
+				UC_Empire_Defense_Satellite_Missile,
 			Rebel,
 				UC_Rebel_Defense_Satellite_Laser,
-				UC_Rebel_Defense_Satellite_Sensor,
-				UC_Rebel_Defense_Satellite_Jammer,-->	
+				UC_Rebel_Defense_Satellite_Missile,
 		</Tactical_Buildable_Objects_Campaign>
 
 		<Text_ID> TEXT_ORBITAL_DEFENSE_SATELLITE </Text_ID>
@@ -90,10 +86,10 @@
 	<SpaceBuildable Name="Defense_Satellite_Missile_Pad">
 		<Variant_Of_Existing_Type>Defense_Satellite_Laser_Pad</Variant_Of_Existing_Type>
 		<Tactical_Buildable_Objects_Multiplayer>
-			<!--Empire,
+			Empire,
 				UC_Empire_Defense_Satellite_Laser,
 			Rebel,
-				UC_Rebel_Defense_Satellite_Laser,-->
+				UC_Rebel_Defense_Satellite_Laser,
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Space_Model_Name>NV_LDS_Pad.ALO</Space_Model_Name>
 				
@@ -122,6 +118,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -180,13 +177,14 @@
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_Laser">
-   		<Text_ID>TEXT_UNIT_SATELLITE_TB</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_TB</Encyclopedia_Text>
-		<MP_Encyclopedia_Text>TEXT_TOOLTIP_SATELLITE_TB</MP_Encyclopedia_Text>
+   		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
+		<Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</Encyclopedia_Text>
+		<MP_Encyclopedia_Text>MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_LASER_00</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SATELLITE</Encyclopedia_Unit_Class>
 
-		<Space_Model_Name>EV_Satallite_TB.alo</Space_Model_Name>
-		<Icon_Name>i_button_tractor_beam.tga</Icon_Name>
+		<Space_Model_Name>NV_LDS.alo</Space_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
+		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -199,9 +197,9 @@
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
-		<Shield_Points>3000</Shield_Points>
-		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
-		<Tactical_Health>1500</Tactical_Health>
+		<Shield_Points>4000</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Tactical_Health>2500</Tactical_Health>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>225</Damage>
@@ -219,9 +217,28 @@
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-		<HardPoints>
-			HP_Space_Acc_Test
-		</HardPoints>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Bone_Name>B_Turret</Turret_Bone_Name>
+		<!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Projectile_Types>Proj_Space_Laser_TBL5_G_Single_63</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.4</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 60.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 60.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 5.0</Fire_Inaccuracy_Distance>
 		
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -245,7 +262,7 @@
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
-		<Projectile_Types>Proj_Ship_Light_Turbolaser_Red</Projectile_Types>
+		<Projectile_Types>Proj_Space_Laser_TBL5_R_Single_63</Projectile_Types>
 	</SpaceBuildable>
 
 
@@ -267,6 +284,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -341,26 +359,34 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
+		<Scale_Factor> 1.0 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
 		
-		<Shield_Points>250000</Shield_Points>
-		<Tactical_Health>150000</Tactical_Health>
-		<Shield_Refresh_Rate>25000</Shield_Refresh_Rate>
+		<Shield_Points>4000</Shield_Points>
+		<Tactical_Health>2500</Tactical_Health>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>1000</Damage>
 		
-		<Projectile_Types>Proj_Space_AMissile_Medium_AML5_90</Projectile_Types>
+		<Projectile_Types>Proj_Space_AMissile_Medium_AML5_100</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>5.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>6.4</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 5.0</Fire_Inaccuracy_Distance>
 		
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 	
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport</Fire_Category_Restrictions>
 		
@@ -387,7 +413,7 @@
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Space_A12 </Armor_Type>
+		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_MISSILE </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> TEXT_TOOLTIP_SATELLITE_MISSILE </MP_Encyclopedia_Text>
@@ -1694,7 +1720,7 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
   
-		<Tactical_Health>25000</Tactical_Health>
+		<Tactical_Health>2500</Tactical_Health>
 		<Tactical_Build_Cost_Multiplayer> 3000 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 30 </Tactical_Build_Time_Seconds>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1788,7 +1814,7 @@
 			<Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
 				<Activation_Style>Skirmish_Automatic</Activation_Style>
 				<Heal_Range>0.0</Heal_Range>
-				<Heal_Percent>0.004</Heal_Percent>
+				<Heal_Percent>0.01</Heal_Percent>
 				<Heal_Amount>0.0</Heal_Amount>
 				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
@@ -1804,8 +1830,8 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	
-		<Tactical_Health>50000</Tactical_Health>
-		<Score_Cost_Credits> 5000 </Score_Cost_Credits>
+		<Tactical_Health>5000</Tactical_Health>
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire,
 				ES_Increased_Supplies_L1_Upgrade,

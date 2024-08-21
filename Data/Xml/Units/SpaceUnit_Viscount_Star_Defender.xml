@@ -24,20 +24,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>99.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>703.0</Build_Time_Seconds>
-		<Build_Cost_Credits>118690.0</Build_Cost_Credits>
+		<Build_Time_Seconds>722.0</Build_Time_Seconds>
+		<Build_Cost_Credits>121830.0</Build_Cost_Credits>
 		<Population_Value>300.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Corellia_NO, Fondor_NO, Kuat_NO, Mon_Calamari_NO, Rendili_NO</Required_Planets>
-		<AI_Combat_Power>118690.0</AI_Combat_Power>
+		<AI_Combat_Power>121830.0</AI_Combat_Power>
 		<Score_Cost_Credits>5535.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>118690.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>118690.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>121830.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>121830.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>150000.0</Autoresolve_Health>
@@ -58,7 +58,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A11</Armor_Type>
 		<Tactical_Health>150000.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>170000.0</Shield_Points>
 		<Shield_Refresh_Rate>1417.0</Shield_Refresh_Rate>
 		<Energy_Capacity>180000.0</Energy_Capacity>
@@ -148,8 +148,8 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
-		<Tactical_Build_Cost_Multiplayer>118690.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>703.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>121830.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>722.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 </SpaceUnits>

@@ -21,7 +21,7 @@
 		<Icon_Name>i_button_nebula_destroyer.tga</Icon_Name>
 		<Space_Model_Name>nebula-class_star_destroyer.alo</Space_Model_Name>
 		<Scale_Factor>0.29</Scale_Factor>
-		<Target_Bones>Root</Target_Bones>
+		<Target_Bones>Target_00</Target_Bones>
 		<Select_Box_Scale>520.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -35,20 +35,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>37.0</Build_Time_Seconds>
-		<Build_Cost_Credits>5390.0</Build_Cost_Credits>
+		<Build_Time_Seconds>38.0</Build_Time_Seconds>
+		<Build_Cost_Credits>5530.0</Build_Cost_Credits>
 		<Population_Value>12.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>5390.0</AI_Combat_Power>
+		<AI_Combat_Power>5530.0</AI_Combat_Power>
 		<Score_Cost_Credits>262.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>5390.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>5390.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>5530.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>5530.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>6000.0</Autoresolve_Health>
@@ -69,7 +69,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A9</Armor_Type>
 		<Tactical_Health>6000.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>6000.0</Shield_Points>
 		<Shield_Refresh_Rate>50.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
@@ -132,8 +132,8 @@
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Tactical_Build_Cost_Multiplayer>5390.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>37.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>5530.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>38.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 </SpaceUnits>

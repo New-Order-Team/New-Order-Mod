@@ -1012,45 +1012,6 @@
 		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Air, 10.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
-	<HardPoint Name="HP_T3b_Main">
-		<Type> HARD_POINT_WEAPON_LASER </Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Tooltip_Text>TEXT_WEAPON_HEAVY_BLASTER</Tooltip_Text>
-		<Health>150.0</Health>
-
-		<Model_To_Attach>rv_t3-b_00.ALO</Model_To_Attach>
-		<Attachment_Bone>Attach_00</Attachment_Bone>
-
-		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-		
-		<Is_Turret> Yes </Is_Turret>
-		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-		<Turret_Rotate_Speed> 0.5 </Turret_Rotate_Speed>
-		<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees> 50.0 </Turret_Elevate_Extent_Degrees>
-		<Turret_Bone_Name> Turret_00 </Turret_Bone_Name>
-		<Barrel_Bone_Name> Barrel_00 </Barrel_Bone_Name>
-
-		<Fire_Projectile_Type>Proj_Land_T3b</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>4.32</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>5.28</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Tank_T4B_Fire</Fire_SFXEvent>
-
-		<Fire_Inaccuracy_Distance> Infantry, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Structure, 10.0 </Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
-	</HardPoint>
 
 	<HardPoint Name="HP_T3b_Launcher_00">
 		<Type> HARD_POINT_WEAPON_SPECIAL </Type>

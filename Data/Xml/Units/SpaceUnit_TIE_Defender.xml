@@ -54,7 +54,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>20.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>70.0</Shield_Points>
 		<Shield_Refresh_Rate>0.6</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
@@ -163,17 +163,17 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>410.0</Build_Cost_Credits>
+		<Build_Cost_Credits>420.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>410.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>410.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>410.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>420.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>420.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>420.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>240.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -205,7 +205,7 @@
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>410.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>420.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -238,7 +238,7 @@
 		</CategoryMask>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Min_Speed>1</Min_Speed>

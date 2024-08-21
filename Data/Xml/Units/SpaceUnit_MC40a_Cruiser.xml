@@ -32,20 +32,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>25.0</Build_Time_Seconds>
-		<Build_Cost_Credits>3410.0</Build_Cost_Credits>
+		<Build_Time_Seconds>26.0</Build_Time_Seconds>
+		<Build_Cost_Credits>3500.0</Build_Cost_Credits>
 		<Population_Value>6.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>3410.0</AI_Combat_Power>
+		<AI_Combat_Power>3500.0</AI_Combat_Power>
 		<Score_Cost_Credits>150.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>3410.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>3410.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>3500.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>3500.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -67,7 +67,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A5</Armor_Type>
 		<Tactical_Health>3200.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>3680.0</Shield_Points>
 		<Shield_Refresh_Rate>31.0</Shield_Refresh_Rate>
 		<Energy_Capacity>4500.0</Energy_Capacity>
@@ -158,14 +158,14 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>3410.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>25.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>3500.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>26.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>BLAST</Type>
 				<Recharge_Seconds>48</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Missile_Strike_Blast</GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Missile_Salvo_Blast</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 				<Alternate_Icon_Name>i_sa_full_salvo.tga</Alternate_Icon_Name>
@@ -187,7 +187,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="Missile_Strike_Blast">
+			<Blast_Ability Name="Missile_Salvo_Blast">
 				<Activation_Style>User_Input</Activation_Style>
 				<Charge_Up_Seconds>0</Charge_Up_Seconds>
 				<Damage_Multiplier>1</Damage_Multiplier>

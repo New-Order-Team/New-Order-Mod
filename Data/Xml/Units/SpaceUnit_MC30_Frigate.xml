@@ -36,20 +36,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>17.0</Build_Time_Seconds>
-		<Build_Cost_Credits>1970.0</Build_Cost_Credits>
+		<Build_Cost_Credits>2020.0</Build_Cost_Credits>
 		<Population_Value>4.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>1970.0</AI_Combat_Power>
+		<AI_Combat_Power>2020.0</AI_Combat_Power>
 		<Score_Cost_Credits>96.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>1970.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>1970.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>2020.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>2020.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -71,7 +71,7 @@
 		<Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
 		<Armor_Type>Armor_Space_A4</Armor_Type>
 		<Tactical_Health>2000.0</Tactical_Health>
-		<Shield_Armor_Type>Armor_Space_S</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Points>2300.0</Shield_Points>
 		<Shield_Refresh_Rate>19.0</Shield_Refresh_Rate>
 		<Energy_Capacity>2750.0</Energy_Capacity>
@@ -101,7 +101,7 @@
 		<Targeting_Priority_Set>AntiCapital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>
-			HP_MC30_Frigate_1, HP_MC30_Frigate_2, HP_MC30_Frigate_3, HP_MC30_Frigate_4, HP_MC30_Frigate_5, HP_MC30_Frigate_6, HP_MC30_Frigate_7, HP_MC30_Frigate_8, HP_MC30_Frigate_9, HP_MC30_Frigate_10, HP_MC30_Frigate_11, HP_MC30_Frigate_12, HP_MC30_Frigate_13, HP_MC30_Frigate_14, HP_MC30_Frigate_15, HP_MC30_Frigate_16, HP_MC30_Frigate_17
+			HP_MC30_Frigate_1, HP_MC30_Frigate_2, HP_MC30_Frigate_3, HP_MC30_Frigate_4, HP_MC30_Frigate_5, HP_MC30_Frigate_6, HP_MC30_Frigate_7, HP_MC30_Frigate_8, HP_MC30_Frigate_9, HP_MC30_Frigate_10, HP_MC30_Frigate_11, HP_MC30_Frigate_12, HP_MC30_Frigate_13, HP_MC30_Frigate_14, HP_MC30_Frigate_15, HP_MC30_Frigate_16, HP_MC30_Frigate_17, HP_MC30_Frigate_18
 		</HardPoints>
 		<SFXEvent_Select>Unit_Select_MC30_Frigate</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_MC30_Frigate</SFXEvent_Move>
@@ -158,19 +158,19 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>1970.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>2020.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>BLAST</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Torpedo_Barrage_Blast</GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name>Torpedo_Salvo_Blast</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Unit_Ability_Activated>
 				<Supports_Autofire>True</Supports_Autofire>
 				<Alternate_Icon_Name>i_sa_full_salvo.tga</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_BARRAGE</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_BARRAGE_DESC</Alternate_Description_Text>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_SALVO</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_SALVO_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>DEFEND</Type>
@@ -187,7 +187,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes">
-			<Blast_Ability Name="Torpedo_Barrage_Blast">
+			<Blast_Ability Name="Torpedo_Salvo_Blast">
 				<Activation_Style>User_Input</Activation_Style>
 				<Charge_Up_Seconds>0</Charge_Up_Seconds>
 				<Damage_Multiplier>1</Damage_Multiplier>
