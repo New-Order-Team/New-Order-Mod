@@ -2,5 +2,6 @@
 
 <Story_Mode_Plots>
 	<Lua_Script>GCMain</Lua_Script>
-	<Active_Plot>Campaigns\Operation_Strike_Fear\Story_Scenario_OSF_Empire.xml</Active_Plot>
+	<Active_Plot>Campaigns\Story\Story_Operation_Strike_Fear_Rebel.xml</Active_Plot>
+
 </Story_Mode_Plots>

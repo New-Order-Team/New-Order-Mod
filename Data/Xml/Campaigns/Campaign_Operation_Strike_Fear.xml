@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Campaigns>
+	<Campaign Name="Scenario_Operation_Strike_Fear_Rebel">
+		<Campaign_Set>Scenario_Operation_Strike_Fear</Campaign_Set>
+		<Sort_Order>26</Sort_Order>
+		<Text_ID>TEXT_CAMPAIGN_OPERATION_STRIKE_FEAR</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_OPERATION_STRIKE_FEAR_DESC</Description_Text>
+		<Camera_Shift_X>40.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1200.0</Camera_Distance>
+		<Locations>
+			Galaxy_Backdrop_OSF,
+			Galaxy_Prop_Indrexu_OSF,
+			Brigia_OSF,
+			Cadinth_OSF,
+			Caluula_OSF,
+			Dellalt_OSF,
+			Derellium_OSF,
+			Desevro_OSF,
+			Dravione_OSF,
+			Estaria_OSF,
+			Lianna_OSF,
+			Omman_OSF,
+			Orion_IV_OSF,
+			Raxus_Prime_OSF,
+			Rudrig_OSF
+		</Locations>
+		<Trade_Routes>
+			Lianna_OSF_Desevro_OSF,
+			Desevro_OSF_Estaria_OSF,
+			Estaria_OSF_Raxus_Prime_OSF,
+			Raxus_Prime_OSF_Rudrig_OSF,
+			Rudrig_OSF_Brigia_OSF,
+			Brigia_OSF_Caluula_OSF,
+			Dellalt_OSF_Caluula_OSF,
+			Caluula_OSF_Derellium_OSF,
+			Derellium_OSF_Cadinth_OSF,
+			Cadinth_OSF_Lianna_OSF,
+			Cadinth_OSF_Dravione_OSF,
+			Derellium_OSF_Dravione_OSF,
+			Desevro_OSF_Omman_OSF,
+			Omman_OSF_Dravione_OSF,
+			Brigia_OSF_Orion_IV_OSF
+		</Trade_Routes>
+		<Home_Location>Rebel, Orion IV _OSF</Home_Location>
+		<Home_Location>Empire, Lianna _OSF</Home_Location>
+		<Starting_Active_Player>Rebel</Starting_Active_Player>
+		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Empire.xml</Story_Name>
+		<AI_Player_Control>Empire, Empire, BasicEmpire</AI_Player_Control>
+		<Markup_Filename>Rebel, OSFhints</Markup_Filename>
+		<Markup_Filename>Empire, OSFhints</Markup_Filename>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 2</Starting_Tech_Level>
+		<Starting_Tech_Level>Empire, 2</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 2</Max_Tech_Level>
+		<Max_Tech_Level>Empire, 2</Max_Tech_Level>
+		<Starting_Forces>Faction</Starting_Forces>
+		<Starting_Forces>Planet</Starting_Forces>
+		<Starting_Forces>Force</Starting_Forces>
+	</Campaign>
+	<Campaign Name="Scenario_Operation_Strike_Fear_Empire">
+		<Campaign_Set>Scenario_Operation_Strike_Fear</Campaign_Set>
+		<Sort_Order>26</Sort_Order>
+		<Text_ID>TEXT_CAMPAIGN_OPERATION_STRIKE_FEAR</Text_ID>
+		<Description_Text>TEXT_CAMPAIGN_OPERATION_STRIKE_FEAR_DESC</Description_Text>
+		<Camera_Shift_X>40.0</Camera_Shift_X>
+		<Camera_Shift_Y>0.0</Camera_Shift_Y>
+		<Camera_Distance>1200.0</Camera_Distance>
+		<Locations>
+			Galaxy_Backdrop_OSF,
+			Galaxy_Prop_Indrexu_OSF,
+			Brigia_OSF,
+			Cadinth_OSF,
+			Caluula_OSF,
+			Dellalt_OSF,
+			Derellium_OSF,
+			Desevro_OSF,
+			Dravione_OSF,
+			Estaria_OSF,
+			Lianna_OSF,
+			Omman_OSF,
+			Orion_IV_OSF,
+			Raxus_Prime_OSF,
+			Rudrig_OSF
+		</Locations>
+		<Trade_Routes>
+			Lianna_OSF_Desevro_OSF,
+			Desevro_OSF_Estaria_OSF,
+			Estaria_OSF_Raxus_Prime_OSF,
+			Raxus_Prime_OSF_Rudrig_OSF,
+			Rudrig_OSF_Brigia_OSF,
+			Brigia_OSF_Caluula_OSF,
+			Dellalt_OSF_Caluula_OSF,
+			Caluula_OSF_Derellium_OSF,
+			Derellium_OSF_Cadinth_OSF,
+			Cadinth_OSF_Lianna_OSF,
+			Cadinth_OSF_Dravione_OSF,
+			Derellium_OSF_Dravione_OSF,
+			Desevro_OSF_Omman_OSF,
+			Omman_OSF_Dravione_OSF,
+			Brigia_OSF_Orion_IV_OSF
+		</Trade_Routes>
+		<Home_Location>Rebel, Orion IV _OSF</Home_Location>
+		<Home_Location>Empire, Lianna _OSF</Home_Location>
+		<Starting_Active_Player>Empire</Starting_Active_Player>
+		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Rebel.xml</Story_Name>
+		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Empire.xml</Story_Name>
+		<AI_Player_Control>Rebel, Rebel, BasicRebel</AI_Player_Control>
+		<Markup_Filename>Rebel, OSFhints</Markup_Filename>
+		<Markup_Filename>Empire, OSFhints</Markup_Filename>
+		<Supports_Custom_Settings>False</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+		<Human_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+		<AI_Victory_Conditions>
+			Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+		<Starting_Credits>Rebel, 10000</Starting_Credits>
+		<Starting_Credits>Empire, 10000</Starting_Credits>
+		<Starting_Tech_Level>Rebel, 2</Starting_Tech_Level>
+		<Starting_Tech_Level>Empire, 2</Starting_Tech_Level>
+		<Max_Tech_Level>Rebel, 2</Max_Tech_Level>
+		<Max_Tech_Level>Empire, 2</Max_Tech_Level>
+		<Starting_Forces>Faction</Starting_Forces>
+		<Starting_Forces>Planet</Starting_Forces>
+		<Starting_Forces>Force</Starting_Forces>
+	</Campaign>
+</Campaigns>

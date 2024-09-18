@@ -204,6 +204,7 @@
 	<File>Units\SpaceUnit_Star_Destroyer.xml</File>
 	<File>Units\SpaceUnit_Strike_Cruiser.xml</File>
 	<File>Units\SpaceUnit_Tector_Destroyer.xml</File>
+	<File>Units\SpaceUnit_TIE_Avenger.xml</File>
 	<File>Units\SpaceUnit_TIE_Bomber.xml</File>
 	<File>Units\SpaceUnit_TIE_Defender.xml</File>
 	<File>Units\SpaceUnit_TIE_Fighter.xml</File>
@@ -227,8 +228,8 @@
 	
 	<!-- HEROES -->
 	<!-- Buildable heroes is in priority, so they appear on the left -->
-	<!-- WRONG: heroes refer to units so thet should be AFTER units :( -->
-	<File>Campaigns\Operation_Strike_Fear\Units_Hero_OSF.xml</File>
+	<!-- Important: heroes are often variants of units so they should be AFTER units :( -->
+	<File>Heroes\Units_Hero_OSF.xml</File>
 	
 	<File>Heroes\Units_hero_empire_sate_pestage.xml</File>
 	<File>Heroes\Units_hero_empire_ars_dangor.xml</File>

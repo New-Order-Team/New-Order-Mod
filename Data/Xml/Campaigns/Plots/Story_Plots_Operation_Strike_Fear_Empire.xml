@@ -2,7 +2,5 @@
 
 <Story_Mode_Plots>
 	<Lua_Script>GCMain</Lua_Script>
-	<Active_Plot>Campaigns\Sandbox_GFFA\Story_Sandbox_GFFA_Rebel.XML</Active_Plot>
-
-	
+	<Active_Plot>Campaigns\Story\Story_Operation_Strike_Fear_Empire.xml</Active_Plot>
 </Story_Mode_Plots>

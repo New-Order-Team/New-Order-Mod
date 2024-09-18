@@ -2,8 +2,8 @@
 
 <Campaign_Files>
 	<!-- <File>Campaigns\Campaigns_Sandbox.xml</File> -->
-	<File>Campaigns\Campaigns_Sandbox_NO.xml</File>
-	<File>Campaigns\Campaign_OSF.xml</File>	
+	<File>Campaigns\Campaign_Operation_Strike_Fear.xml</File>
+	<File>Campaigns\Campaign_Galactic_Civil_War.xml</File>
 	
 	<File>Campaigns\Campaigns_Multiplayer.xml</File>
 	<!--

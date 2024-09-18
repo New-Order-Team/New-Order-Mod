@@ -720,6 +720,14 @@
 		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
 		<Visible_Line_Name>Default</Visible_Line_Name>
 	</TradeRoute>
+	<TradeRoute Name="Celanon_NO_Yavin_4_NO">
+		<Point_A>Celanon_NO</Point_A>
+		<Point_B>Yavin_4_NO</Point_B>
+		<HS_Speed_Factor>3.0</HS_Speed_Factor>
+		<Political_Control_Gain>0</Political_Control_Gain>
+		<Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+		<Visible_Line_Name>Default</Visible_Line_Name>
+	</TradeRoute>
 	<TradeRoute Name="Lianna_OSF_Desevro_OSF">
 		<Point_A>Lianna_OSF</Point_A>
 		<Point_B>Desevro_OSF</Point_B>

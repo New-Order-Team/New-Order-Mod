@@ -2,7 +2,7 @@
 
 <Story_Mode_Plots>
 	<Lua_Script>GCMain</Lua_Script>
-	<Active_Plot>Campaigns\Sandbox_GFFA\Story_Sandbox_GFFA_Empire.XML</Active_Plot>
+	<Active_Plot>Campaigns\Story\Story_Galactic_Civil_War_Rebel.XML</Active_Plot>
 
 	
 </Story_Mode_Plots>
