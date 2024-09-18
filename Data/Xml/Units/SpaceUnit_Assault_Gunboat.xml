@@ -16,8 +16,9 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
-		<Space_Model_Name>f_gunboat.alo</Space_Model_Name>
-		<Scale_Factor>0.25</Scale_Factor>
+		<Space_Model_Name>imp_xg_1.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>-5.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
@@ -64,6 +65,7 @@
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			AMBIENT_SFX,
+			WEAPON,
 			SELECTABLE,
 			TARGETING,
 			POWERED,
@@ -73,7 +75,7 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>

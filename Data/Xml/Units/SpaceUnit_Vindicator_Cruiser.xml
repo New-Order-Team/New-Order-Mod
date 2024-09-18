@@ -41,7 +41,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
+		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Kuat_TC_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
 		<AI_Combat_Power>3350.0</AI_Combat_Power>
 		<Score_Cost_Credits>147.0</Score_Cost_Credits>
 		<Tactical_Bribe_Cost>3350.0</Tactical_Bribe_Cost>

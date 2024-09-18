@@ -1,21 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <SpaceUnits>
-	<SpaceUnit Name="TIE_Hunter">
-		<Text_ID>TEXT_UNIT_TIE_HUNTER</Text_ID>
+	<SpaceUnit Name="TIE_Avenger">
+		<Text_ID>TEXT_UNIT_TIE_AVENGER</Text_ID>
 		<Encyclopedia_Text>
-			TEXT_UNIT_TIE_HUNTER_DESC
+			TEXT_UNIT_TIE_AVENGER_DESC
 			TEXT_EMPTY
-			TEXT_UNIT_TIE_HUNTER_INFO_1
-			TEXT_UNIT_TIE_HUNTER_INFO_2
-			TEXT_UNIT_TIE_HUNTER_INFO_3
-			TEXT_UNIT_TIE_HUNTER_INFO_4
-			TEXT_WEAPONS
-			TEXT_UNIT_TIE_HUNTER_W_1
-			TEXT_UNIT_TIE_HUNTER_W_2
+			TEXT_UNIT_TIE_AVENGER_INFO_1
+			TEXT_UNIT_TIE_AVENGER_INFO_2
+			TEXT_UNIT_TIE_AVENGER_INFO_3
+			TEXT_UNIT_TIE_AVENGER_INFO_4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_tie_hunter.tga</Icon_Name>
-		<Space_Model_Name>imp_tie_hunter.alo</Space_Model_Name>
+		<Icon_Name>i_button_tie_avenger.tga</Icon_Name>
+		<Space_Model_Name>imp_tie_avenger.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
@@ -43,7 +40,7 @@
 		<Mass>0.975</Mass>
 		<Max_Thrust>1</Max_Thrust>
 		<Min_Speed>1</Min_Speed>
-		<Max_Speed>3.29</Max_Speed>
+		<Max_Speed>3.86</Max_Speed>
 		<Max_Lift>4</Max_Lift>
 		<Max_Rate_Of_Turn>5</Max_Rate_Of_Turn>
 		<Bank_Turn_Angle>90</Bank_Turn_Angle>
@@ -72,25 +69,8 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
-		<Projectile_Types>Proj_Space_Laser_G_LAS_1_5</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>1.0</Projectile_Fire_Pulse_Delay_Seconds>
-		<SFXEvent_Fire>Unit_Empire_Ship_Laser_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Fire_Inaccuracy>Fighter, 15.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 15.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Capital, 0.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Dreadnought, 0.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>SpaceStructure, 0.0</Targeting_Fire_Inaccuracy>
-		<HardPoints>
-			HP_TIE_Hunter_1
-		</HardPoints>
 		<SFXEvent_Select>Unit_Select_Tie_Defender</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tie_Defender</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Defender</SFXEvent_Fleet_Move>

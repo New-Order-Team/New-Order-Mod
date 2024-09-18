@@ -17,6 +17,7 @@
 		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
 		<Space_Model_Name>imp_tie_bomber.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
@@ -59,6 +60,7 @@
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			AMBIENT_SFX,
+			WEAPON,
 			SELECTABLE,
 			TARGETING,
 			POWERED,
@@ -68,8 +70,8 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
-		<Projectile_Types>Proj_Space_Laser_LC1_G_Single_2</Projectile_Types>
+		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Space_Laser_G_LAS_1_2</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>1.5</Projectile_Fire_Pulse_Delay_Seconds>

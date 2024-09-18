@@ -64,6 +64,7 @@
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			AMBIENT_SFX,
+			WEAPON,
 			SELECTABLE,
 			TARGETING,
 			POWERED,
@@ -72,7 +73,7 @@
 			NEBULA,
 			SHIELDED
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>750.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>

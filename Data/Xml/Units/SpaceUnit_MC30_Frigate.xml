@@ -13,6 +13,7 @@
 			TEXT_UNIT_MC30_FRIGATE_W_1
 			TEXT_UNIT_MC30_FRIGATE_W_2
 			TEXT_UNIT_MC30_FRIGATE_W_3
+			TEXT_UNIT_MC30_FRIGATE_W_B1
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER_TORPEDO</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc30_frigate.tga</Icon_Name>
@@ -45,7 +46,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
+		<Required_Planets>Anaxes_NO, Bestine_IV_NO, Bilbringi_VII_NO, Bonadan_NO, Bothawui_NO, Corellia_NO, Eriadu_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Kuat_TC_NO, Lantillies_NO, Lianna_NO, Lianna_OSF, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
 		<AI_Combat_Power>2020.0</AI_Combat_Power>
 		<Score_Cost_Credits>96.0</Score_Cost_Credits>
 		<Tactical_Bribe_Cost>2020.0</Tactical_Bribe_Cost>
@@ -94,7 +95,7 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>2660.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>1700.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>

@@ -92,7 +92,7 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>1425.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>1000</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>800</Attack_Move_Response_Range>

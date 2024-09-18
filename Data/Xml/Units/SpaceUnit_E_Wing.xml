@@ -61,6 +61,7 @@
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			AMBIENT_SFX,
+			WEAPON,
 			SELECTABLE,
 			TARGETING,
 			POWERED,
@@ -71,7 +72,7 @@
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
 		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
-		<Projectile_Types>Proj_Space_Laser_LC1_R_Single_5</Projectile_Types>
+		<Projectile_Types>Proj_Space_Laser_R_LAS_1_5</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.67</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>3.0</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.67</Projectile_Fire_Pulse_Delay_Seconds>

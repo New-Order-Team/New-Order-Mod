@@ -14,8 +14,7 @@
 			TEXT_UNIT_NEBULA_DESTROYER_W_2
 			TEXT_UNIT_NEBULA_DESTROYER_W_3
 			TEXT_UNIT_NEBULA_DESTROYER_W_4
-			TEXT_UNIT_NEBULA_DESTROYER_W_5
-			TEXT_UNIT_NEBULA_DESTROYER_W_6
+			TEXT_UNIT_NEBULA_DESTROYER_W_B1
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_LIGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_nebula_destroyer.tga</Icon_Name>
@@ -44,7 +43,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
+		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Kuat_TC_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
 		<AI_Combat_Power>5530.0</AI_Combat_Power>
 		<Score_Cost_Credits>262.0</Score_Cost_Credits>
 		<Tactical_Bribe_Cost>5530.0</Tactical_Bribe_Cost>
@@ -90,16 +89,17 @@
 			DAMAGE_TRACKING,
 			NEBULA,
 			SHIELDED,
-			SPAWN_SQUADRON
+			SPAWN_SQUADRON,
+			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>2775.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2150.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>
-			HP_Nebula_Destroyer_1, HP_Nebula_Destroyer_2, HP_Nebula_Destroyer_3, HP_Nebula_Destroyer_4, HP_Nebula_Destroyer_5, HP_Nebula_Destroyer_6, HP_Nebula_Destroyer_7, HP_Nebula_Destroyer_8, HP_Nebula_Destroyer_9, HP_Nebula_Destroyer_10, HP_Nebula_Destroyer_11, HP_Nebula_Destroyer_12, HP_Nebula_Destroyer_13, HP_Nebula_Destroyer_14, HP_Nebula_Destroyer_15, HP_Nebula_Destroyer_16, HP_Nebula_Destroyer_17, HP_Nebula_Destroyer_18, HP_Nebula_Destroyer_19, HP_Nebula_Destroyer_20, HP_Nebula_Destroyer_21
+			HP_Nebula_Destroyer_1, HP_Nebula_Destroyer_2, HP_Nebula_Destroyer_3, HP_Nebula_Destroyer_4, HP_Nebula_Destroyer_5, HP_Nebula_Destroyer_6, HP_Nebula_Destroyer_7, HP_Nebula_Destroyer_8, HP_Nebula_Destroyer_9, HP_Nebula_Destroyer_10, HP_Nebula_Destroyer_11, HP_Nebula_Destroyer_12, HP_Nebula_Destroyer_13, HP_Nebula_Destroyer_14, HP_Nebula_Destroyer_15, HP_Nebula_Destroyer_16, HP_Nebula_Destroyer_17, HP_Nebula_Destroyer_18, HP_Nebula_Destroyer_19, HP_Nebula_Destroyer_20
 		</HardPoints>
 		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -135,5 +135,25 @@
 		<Tactical_Build_Cost_Multiplayer>5530.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>38.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>BLAST</Type>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Missile_Salvo_Blast</GUI_Activated_Ability_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+				<Alternate_Icon_Name>i_sa_full_salvo.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_ABILITY_MISSILE_SALVO</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_MISSILE_SALVO_DESC</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Blast_Ability Name="Missile_Salvo_Blast">
+				<Activation_Style>User_Input</Activation_Style>
+				<Charge_Up_Seconds>0</Charge_Up_Seconds>
+				<Damage_Multiplier>1</Damage_Multiplier>
+				<SFXEvent_Activate>Unit_Barrage_Victory_Destroyer</SFXEvent_Activate>
+			</Blast_Ability>
+		</Abilities>
 	</SpaceUnit>
 </SpaceUnits>

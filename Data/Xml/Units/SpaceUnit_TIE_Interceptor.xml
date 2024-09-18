@@ -15,6 +15,7 @@
 		<Icon_Name>i_button_tie_interceptor.tga</Icon_Name>
 		<Space_Model_Name>imp_tie_interceptor.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
 		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
@@ -55,6 +56,7 @@
 		<SpaceBehavior>
 			FIGHTER_LOCOMOTOR,
 			AMBIENT_SFX,
+			WEAPON,
 			SELECTABLE,
 			TARGETING,
 			POWERED,
@@ -65,7 +67,7 @@
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-		<Projectile_Types>Proj_Space_Laser_LC1_G_Single_2</Projectile_Types>
+		<Projectile_Types>Proj_Space_Laser_G_LAS_1_2</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.38</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4.0</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.38</Projectile_Fire_Pulse_Delay_Seconds>

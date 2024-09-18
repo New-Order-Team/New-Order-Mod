@@ -14,8 +14,6 @@
 			TEXT_UNIT_DOMINATOR_II_DESTROYER_W_2
 			TEXT_UNIT_DOMINATOR_II_DESTROYER_W_3
 			TEXT_UNIT_DOMINATOR_II_DESTROYER_W_4
-			TEXT_UNIT_DOMINATOR_II_DESTROYER_W_5
-			TEXT_UNIT_DOMINATOR_II_DESTROYER_W_6
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BATTLESHIP_INT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_dominator_ii_destroyer.tga</Icon_Name>
@@ -43,16 +41,16 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
 		<Build_Time_Seconds>48.0</Build_Time_Seconds>
-		<Build_Cost_Credits>7260.0</Build_Cost_Credits>
+		<Build_Cost_Credits>7280.0</Build_Cost_Credits>
 		<Population_Value>25.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>7260.0</AI_Combat_Power>
-		<Score_Cost_Credits>304.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>7260.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>7260.0</Piracy_Value_Credits>
+		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Kuat_TC_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
+		<AI_Combat_Power>7280.0</AI_Combat_Power>
+		<Score_Cost_Credits>305.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>7280.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>7280.0</Piracy_Value_Credits>
 		<Hyperspace_Speed>1.0</Hyperspace_Speed>
 		<Hyperspace>Yes</Hyperspace>
 		<Damage>1</Damage>
@@ -173,7 +171,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		<Lua_Script>ObjectScript_Interdict</Lua_Script>
-		<Tactical_Build_Cost_Multiplayer>7260.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>7280.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>48.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
