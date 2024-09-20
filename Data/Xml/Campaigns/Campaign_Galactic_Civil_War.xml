@@ -162,8 +162,8 @@
 			Rendili_NO_Trellen_NO,
 			Celanon_NO_Yavin_4_NO
 		</Trade_Routes>
-		<Home_Location>Rebel, Yavin 4</Home_Location>
-		<Home_Location>Empire, Coruscant</Home_Location>
+		<Home_Location>Rebel, Yavin_4_NO</Home_Location>
+		<Home_Location>Empire, Coruscant_NO</Home_Location>
 		<Starting_Active_Player>Rebel</Starting_Active_Player>
 		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Galactic_Civil_War_Rebel.xml</Story_Name>
 		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Galactic_Civil_War_Empire.xml</Story_Name>
@@ -350,8 +350,8 @@
 			Rendili_NO_Trellen_NO,
 			Celanon_NO_Yavin_4_NO
 		</Trade_Routes>
-		<Home_Location>Rebel, Yavin 4</Home_Location>
-		<Home_Location>Empire, Coruscant</Home_Location>
+		<Home_Location>Rebel, Yavin_4_NO</Home_Location>
+		<Home_Location>Empire, Coruscant_NO</Home_Location>
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Galactic_Civil_War_Rebel.xml</Story_Name>
 		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Galactic_Civil_War_Empire.xml</Story_Name>

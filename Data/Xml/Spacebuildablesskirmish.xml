@@ -192,7 +192,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<GUI_Row> 0 </GUI_Row>
 
-		<SpaceBehavior> SELF_DESTRUCT, TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, POWERED, DAMAGE_TRACKING, TACTICAL_SELL, TARGETING, ABILITY_COUNTDOWN </SpaceBehavior>
+		<SpaceBehavior> SELF_DESTRUCT, TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL, TARGETING, ABILITY_COUNTDOWN </SpaceBehavior>
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
@@ -226,7 +226,7 @@
 		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
 		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-		<Projectile_Types>Proj_Space_Laser_TBL5_G_Single_63</Projectile_Types>
+		<Projectile_Types>Proj_Space_Laser_G_TBL_5_63</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.4</Projectile_Fire_Recharge_Seconds>
@@ -262,7 +262,7 @@
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
-		<Projectile_Types>Proj_Space_Laser_TBL5_R_Single_63</Projectile_Types>
+		<Projectile_Types>Proj_Space_Laser_R_TBL_5_63</Projectile_Types>
 	</SpaceBuildable>
 
 

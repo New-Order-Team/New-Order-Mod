@@ -4136,4 +4136,62 @@
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_SUN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_WEATHER_SUN_DESC</Encyclopedia_Weather_Info>
 	</Planet>
+	<Planet Name="Yavin_4_NO">
+		<Text_ID>TEXT_PLANET_YAVIN_4</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_PLANET_YAVIN_4_ENC
+		</Encyclopedia_Text>
+		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+		<Terrain>Temperate</Terrain>
+		<Always_Instantiate_Galactic>Yes</Always_Instantiate_Galactic>
+		<Galactic_Model_Name>gc_yavin.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>w_planet_asteroids.alo</Destroyed_Galactic_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<Mouse_Collide_Override_Sphere_Radius>4.8</Mouse_Collide_Override_Sphere_Radius>
+		<GUI_Model_Name>gc_yavin.alo</GUI_Model_Name>
+		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+		<Galactic_Position>460.0, 550.0, 10.0</Galactic_Position>
+		<Show_Name>Yes</Show_Name>
+		<Name_Adjust>12, -12, 0.1</Name_Adjust>
+		<Political_Control>0</Political_Control>
+		<The_Force>Neutral</The_Force>
+		<Force_Strength>0</Force_Strength>
+		<Behavior>
+			SELECTABLE,
+			PLANET,
+			PRODUCTION
+		</Behavior>
+		<Mass>1</Mass>
+		<Pre_Lit>No</Pre_Lit>
+		<Camera_Aligned>Yes</Camera_Aligned>
+		<Planet_Credit_Value>0</Planet_Credit_Value>
+		<Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+		<Max_Space_Base>5</Max_Space_Base>
+		<Special_Structures_Land>6</Special_Structures_Land>
+		<Special_Structures_Space>1</Special_Structures_Space>
+		<Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
+		<Planet_Capture_Bonus_Reward>0</Planet_Capture_Bonus_Reward>
+		<Additional_Population_Capacity>0</Additional_Population_Capacity>
+		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+		<Planet_Black_Market_Modifier>6000</Planet_Black_Market_Modifier>
+		<Planet_Corruption_Removal_Base_Cost>3000</Planet_Corruption_Removal_Base_Cost>
+		<Land_Tactical_Map>_Land_Planet_Yavin_02.ted</Land_Tactical_Map>
+		<Space_Tactical_Map>_Space_Planet_Yavin_01.ted</Space_Tactical_Map>
+		<Native_Icon_Name>load_none.tga</Native_Icon_Name>
+		<Describe_Population>TEXT_PLANET_POP_NONE</Describe_Population>
+		<Describe_Wildlife>TEXT_PLANET_YAVIN_4_GEO</Describe_Wildlife>
+		<Describe_Terrain>TEXT_PLANET_YAVIN_4_TER</Describe_Terrain>
+		<Describe_Weather>TEXT_PLANET_YAVIN_4_ECO</Describe_Weather>
+		<Describe_Tactical>TEXT_PLANET_YAVIN_4_TAC</Describe_Tactical>
+		<Describe_Advantage>TEXT_PLANET_YAVIN_4_ADV</Describe_Advantage>
+		<Describe_History>TEXT_PLANET_YAVIN_4_HIS</Describe_History>
+		<Planet_Ability_Name>TEXT_PLANET_YAVIN_4_PA</Planet_Ability_Name>
+		<Planet_Ability_Description>TEXT_PLANET_YAVIN_4_PA_DESC</Planet_Ability_Description>
+		<Planet_Ability_Icon>i_pa_weather_none.tga</Planet_Ability_Icon>
+		<Encyclopedia_Weather_Icon>i_pa_weather_arid_w.tga</Encyclopedia_Weather_Icon>
+		<Encyclopedia_Weather_Name>TEXT_WEATHER_ARID_W</Encyclopedia_Weather_Name>
+		<Encyclopedia_Weather_Info>TEXT_WEATHER_ARID_W_DESC</Encyclopedia_Weather_Info>
+	</Planet>
 </Planets>

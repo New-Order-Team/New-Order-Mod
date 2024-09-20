@@ -257,7 +257,7 @@
 				<Recharge_Seconds>80</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter_80</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-				<Projectile_Types_Override>Proj_Space_Torpedo_Fighter_PTL_40</Projectile_Types_Override>
+				<Projectile_Types_Override>Proj_Space_Torpedo_XS_PTL_2_40</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
 				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 				<Supports_Autofire>True</Supports_Autofire>

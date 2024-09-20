@@ -42,8 +42,8 @@
 			Omman_OSF_Dravione_OSF,
 			Brigia_OSF_Orion_IV_OSF
 		</Trade_Routes>
-		<Home_Location>Rebel, Orion IV _OSF</Home_Location>
-		<Home_Location>Empire, Lianna _OSF</Home_Location>
+		<Home_Location>Rebel, Orion_IV_OSF</Home_Location>
+		<Home_Location>Empire, Lianna_OSF</Home_Location>
 		<Starting_Active_Player>Rebel</Starting_Active_Player>
 		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Rebel.xml</Story_Name>
 		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Empire.xml</Story_Name>
@@ -110,8 +110,8 @@
 			Omman_OSF_Dravione_OSF,
 			Brigia_OSF_Orion_IV_OSF
 		</Trade_Routes>
-		<Home_Location>Rebel, Orion IV _OSF</Home_Location>
-		<Home_Location>Empire, Lianna _OSF</Home_Location>
+		<Home_Location>Rebel, Orion_IV_OSF</Home_Location>
+		<Home_Location>Empire, Lianna_OSF</Home_Location>
 		<Starting_Active_Player>Empire</Starting_Active_Player>
 		<Story_Name>Rebel, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Rebel.xml</Story_Name>
 		<Story_Name>Empire, Campaigns\Plots\Story_Plots_Operation_Strike_Fear_Empire.xml</Story_Name>
