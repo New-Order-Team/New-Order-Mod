@@ -597,7 +597,7 @@
 
 	<!-- Asteroid Field -->
 	<Asteroid_Field_Damage>20</Asteroid_Field_Damage>
-	<Asteroid_Field_Damage_Rate>0.20</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
+	<Asteroid_Field_Damage_Rate>1.0</Asteroid_Field_Damage_Rate> <!--Probability the damage is applied in each frame, [0..1]-->
 	
 
 	<!-- Pathfinding and Movement -->

@@ -618,7 +618,7 @@
 		<Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
 		<Fire_Cone_Width>230.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -649,7 +649,7 @@
 		<Fire_Bone_B>FP02_PRT_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -805,7 +805,7 @@
 		<Fire_Bone_B>FP03_PRT_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -836,7 +836,7 @@
 		<Fire_Bone_B>FP03_IC_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -867,7 +867,7 @@
 		<Fire_Bone_B>FP03_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -1095,7 +1095,7 @@
 		<Fire_Bone_B>FP04_LC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -1200,7 +1200,7 @@
 		<Fire_Bone_B>FP05_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -1231,7 +1231,7 @@
 		<Fire_Bone_B>FP05_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2429,7 +2429,7 @@
 		<Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2460,7 +2460,7 @@
 		<Fire_Bone_B>FP02_PRT_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2491,7 +2491,7 @@
 		<Fire_Bone_B>FP03_PRT_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2522,7 +2522,7 @@
 		<Fire_Bone_B>FP03_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2863,7 +2863,7 @@
 		<Fire_Bone_B>FP04_TBL_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -2894,7 +2894,7 @@
 		<Fire_Bone_B>FP04_LC_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -3103,7 +3103,7 @@
 		<Fire_Bone_B>FP01_LC_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -3134,7 +3134,7 @@
 		<Fire_Bone_B>FP02_LC_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>
@@ -3165,7 +3165,7 @@
 		<Fire_Bone_B>FP05_TBL2_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_ION_I_Single_63</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_1_63</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>25</Fire_Pulse_Count>

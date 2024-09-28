@@ -64,7 +64,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
 		<Select_Box_Scale> 50 </Select_Box_Scale>
-		<Scale_Factor> 1.0 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -118,7 +118,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
-		<Scale_Factor> 1.0 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -183,7 +183,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SATELLITE</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>NV_LDS.alo</Space_Model_Name>
-		<Scale_Factor> 1.0 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -192,7 +192,21 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<GUI_Row> 0 </GUI_Row>
 
-		<SpaceBehavior> SELF_DESTRUCT, TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, POWERED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL, TARGETING, ABILITY_COUNTDOWN </SpaceBehavior>
+		<SpaceBehavior>
+			DAMAGE_TRACKING, 
+			DUMMY_ORBITAL_STRUCTURE, 
+			HIDE_WHEN_FOGGED, 
+			POWERED, 
+			REVEAL, 
+			SELECTABLE, 
+			SHIELDED, 
+			SPACE_OBSTACLE, 
+			TACTICAL_SELL, 
+			TARGETING, 
+			TURRET, 
+			UNIT_AI, 
+			WEAPON, 
+		</SpaceBehavior>
 
 		<Affiliation>Empire</Affiliation>
 		<Size_Value>30</Size_Value>
@@ -284,7 +298,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
-		<Scale_Factor> 1.0 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -344,7 +358,21 @@
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Empire_Defense_Satellite_Missile">
-		<SpaceBehavior> SELF_DESTRUCT, TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL, ABILITY_COUNTDOWN </SpaceBehavior>
+		<SpaceBehavior>
+			DAMAGE_TRACKING, 
+			DUMMY_ORBITAL_STRUCTURE, 
+			HIDE_WHEN_FOGGED, 
+			POWERED, 
+			REVEAL, 
+			SELECTABLE, 
+			SHIELDED, 
+			SPACE_OBSTACLE, 
+			TACTICAL_SELL, 
+			TARGETING, 
+			TURRET, 
+			UNIT_AI, 
+			WEAPON, 
+		</SpaceBehavior>
 
 		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
@@ -359,7 +387,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
-		<Scale_Factor> 1.0 </Scale_Factor>
+		<Scale_Factor> 0.5 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -373,13 +401,13 @@
 		<Energy_Refresh_Rate>20</Energy_Refresh_Rate>
 		<Damage>1000</Damage>
 		
-		<Projectile_Types>Proj_Space_AMissile_Medium_AML5_100</Projectile_Types>
+		<Projectile_Types>Proj_Space_Missile_M_AML_5_100</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>10</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>6.4</Projectile_Fire_Recharge_Seconds>
 		
-		<Fire_Inaccuracy_Distance>Transport, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
@@ -429,20 +457,6 @@
 		<Influences_Capture_Point> False </Influences_Capture_Point>
 		<Victory_Relevant>No</Victory_Relevant>
 		<Targeting_Priority_Set>HeavyCruiser</Targeting_Priority_Set>
-
-		<!--
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SELF_DESTRUCT</Type>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SELF_DESTRUCT_DESCRIPTION_SAT</Alternate_Description_Text>
-				<Expiration_Seconds>1.0</Expiration_Seconds>
-				<Recharge_Seconds>10</Recharge_Seconds> 
-				<Spawned_Object_Type> Satellite_Self_Destruct_Blast </Spawned_Object_Type>
-				<GUI_Activated_Ability_Name>Satellite_Self_Destruct</GUI_Activated_Ability_Name>
-				<Stop_When_Activated>No</Stop_When_Activated>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-		-->
 	</SpaceBuildable>
 
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Missile">
@@ -1816,7 +1830,7 @@
 				<Heal_Range>0.0</Heal_Range>
 				<Heal_Percent>0.01</Heal_Percent>
 				<Heal_Amount>0.0</Heal_Amount>
-				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types />
