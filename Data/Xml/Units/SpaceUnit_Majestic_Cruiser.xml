@@ -99,7 +99,7 @@
 		<Targeting_Priority_Set>HeavyCruiser</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>
-			HP_Majestic_Cruiser_1, HP_Majestic_Cruiser_2, HP_Majestic_Cruiser_3, HP_Majestic_Cruiser_4, HP_Majestic_Cruiser_5, HP_Majestic_Cruiser_6, HP_Majestic_Cruiser_7, HP_Majestic_Cruiser_8, HP_Majestic_Cruiser_9, HP_Majestic_Cruiser_10, HP_Majestic_Cruiser_11, HP_Majestic_Cruiser_12, HP_Majestic_Cruiser_13, HP_Majestic_Cruiser_14, HP_Majestic_Cruiser_15, HP_Majestic_Cruiser_16
+			HP_Majestic_Cruiser_1, HP_Majestic_Cruiser_2, HP_Majestic_Cruiser_3, HP_Majestic_Cruiser_4, HP_Majestic_Cruiser_5, HP_Majestic_Cruiser_6, HP_Majestic_Cruiser_7, HP_Majestic_Cruiser_8, HP_Majestic_Cruiser_9, HP_Majestic_Cruiser_10, HP_Majestic_Cruiser_11, HP_Majestic_Cruiser_12, HP_Majestic_Cruiser_13, HP_Majestic_Cruiser_14, HP_Majestic_Cruiser_15
 		</HardPoints>
 		<SFXEvent_Unit_Lost>RHD_Unit_Destroyed</SFXEvent_Unit_Lost>
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>

@@ -72,6 +72,8 @@
 			SHIELDED
 		</SpaceBehavior>
 		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Turret_Rotate_Extent_Degrees>15.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
 		<Projectile_Types>Proj_Space_Laser_R_LAS_1_2</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.75</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>

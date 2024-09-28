@@ -35,6 +35,7 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
+		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
@@ -151,6 +152,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Asteroid_Damage_Hit_Particles>Medium_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Is_Interdictor>Yes</Is_Interdictor>
 		<Formation_Priority>3</Formation_Priority>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>

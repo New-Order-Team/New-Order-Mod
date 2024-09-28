@@ -27,17 +27,17 @@
 		<Tech_Level>99.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>722.0</Build_Time_Seconds>
-		<Build_Cost_Credits>121830.0</Build_Cost_Credits>
+		<Build_Time_Seconds>731.0</Build_Time_Seconds>
+		<Build_Cost_Credits>123440.0</Build_Cost_Credits>
 		<Population_Value>300.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Corellia_NO, Fondor_NO, Kuat_NO, Mon_Calamari_NO, Rendili_NO</Required_Planets>
-		<AI_Combat_Power>121830.0</AI_Combat_Power>
+		<AI_Combat_Power>123440.0</AI_Combat_Power>
 		<Score_Cost_Credits>5535.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>121830.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>121830.0</Piracy_Value_Credits>
+		<Tactical_Bribe_Cost>123440.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>123440.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>150000.0</Autoresolve_Health>
@@ -148,8 +148,8 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
-		<Tactical_Build_Cost_Multiplayer>121830.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>722.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>123440.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>731.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 </SpaceUnits>

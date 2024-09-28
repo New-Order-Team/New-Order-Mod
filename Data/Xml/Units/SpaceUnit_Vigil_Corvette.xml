@@ -139,7 +139,7 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
 		<Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Mod_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Mod_Squadron, 1</Starting_Spawned_Units_Tech_4>
 		<Formation_Priority>3</Formation_Priority>
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>

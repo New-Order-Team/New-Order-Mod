@@ -76,10 +76,23 @@
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
 		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Projectile_Types>Proj_Space_Laser_G_LAS_1_2</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.75</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.75</Projectile_Fire_Pulse_Delay_Seconds>
+		<SFXEvent_Fire>Unit_Empire_Ship_Laser_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Fire_Inaccuracy>Fighter, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Capital, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Dreadnought, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>SpaceStructure, 0.0</Targeting_Fire_Inaccuracy>
 		<HardPoints>
-			HP_Assault_Gunboat_1, HP_Assault_Gunboat_2, HP_Assault_Gunboat_3
+			HP_Assault_Gunboat_1, HP_Assault_Gunboat_2
 		</HardPoints>
 		<SFXEvent_Select>Unit_Select_Tie_Bomber</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Tie_Bomber</SFXEvent_Move>
@@ -157,14 +170,14 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>390.0</Build_Cost_Credits>
+		<Build_Time_Seconds>8.0</Build_Time_Seconds>
+		<Build_Cost_Credits>510.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>390.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>390.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>390.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>510.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>510.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>510.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>300.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -196,8 +209,8 @@
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>390.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>510.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -266,7 +279,7 @@
 			</Unit_Ability>
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>45</Recharge_Seconds>
+				<Recharge_Seconds>22.5</Recharge_Seconds>
 				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter_45</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<Projectile_Types_Override>Proj_Space_Torpedo_XS_PTL_2_40</Projectile_Types_Override>

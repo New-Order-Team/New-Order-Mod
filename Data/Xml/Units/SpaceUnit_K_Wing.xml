@@ -73,7 +73,7 @@
 			NEBULA,
 			SHIELDED
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
 		<HardPoints>
@@ -143,14 +143,14 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>660.0</Build_Cost_Credits>
+		<Build_Time_Seconds>11.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1010.0</Build_Cost_Credits>
 		<Population_Value>2.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>660.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>660.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>660.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>1010.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1010.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1010.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>480.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -181,8 +181,8 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>660.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1010.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 	<Squadron Name="K_Wing_Squadron_Half">
@@ -212,14 +212,14 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>9.0</Build_Time_Seconds>
-		<Build_Cost_Credits>660.0</Build_Cost_Credits>
+		<Build_Time_Seconds>11.0</Build_Time_Seconds>
+		<Build_Cost_Credits>1010.0</Build_Cost_Credits>
 		<Population_Value>2.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>660.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>660.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>660.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>1010.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>1010.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1010.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>480.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -244,8 +244,8 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>660.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>1010.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
 </SpaceUnits>

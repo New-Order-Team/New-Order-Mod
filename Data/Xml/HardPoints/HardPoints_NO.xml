@@ -7,7 +7,7 @@
 		<Fire_Bone_A>HP_00</Fire_Bone_A>
 		<Fire_Bone_B>HP_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_G_LAS_1_5</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.9</Fire_Min_Recharge_Seconds>
@@ -32,8 +32,8 @@
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
@@ -57,7 +57,7 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_0_2</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.68</Fire_Min_Recharge_Seconds>
@@ -82,8 +82,8 @@
 		<Fire_Bone_A>MuzzleC_01</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleC_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>40.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>49.5</Fire_Max_Recharge_Seconds>
@@ -107,8 +107,8 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
@@ -132,7 +132,7 @@
 		<Fire_Bone_A>HP_00</Fire_Bone_A>
 		<Fire_Bone_B>HP_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_0_2</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.35</Fire_Min_Recharge_Seconds>
@@ -157,7 +157,7 @@
 		<Fire_Bone_A>HP_00</Fire_Bone_A>
 		<Fire_Bone_B>HP_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_0_2</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.35</Fire_Min_Recharge_Seconds>
@@ -179,37 +179,10 @@
 		<Type>HARD_POINT_WEAPON_LASER</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+		<Fire_Bone_A>HP_00</Fire_Bone_A>
+		<Fire_Bone_B>HP_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
-		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_G_LAS_1_2</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>0.68</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>0.83</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.75</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>500.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
-		<Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
-		<Fire_Inaccuracy_Distance>Fighter, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	<HardPoint Name="HP_Assault_Gunboat_2">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_I_ION_0_2</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.68</Fire_Min_Recharge_Seconds>
@@ -229,14 +202,14 @@
 		<Fire_Inaccuracy_Distance>Dreadnought, 0.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 0.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
-	<HardPoint Name="HP_Assault_Gunboat_3">
+	<HardPoint Name="HP_Assault_Gunboat_2">
 		<Type>HARD_POINT_WEAPON_MISSILE</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
+		<Fire_Bone_A>HP_02</Fire_Bone_A>
+		<Fire_Bone_B>HP_03</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
@@ -283,14 +256,14 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_XS_PTL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>21.6</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>26.4</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>10.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>13.2</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_When_In_Rocket_Attack_Mode>No</Fire_When_In_Rocket_Attack_Mode>
 		<Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
@@ -311,8 +284,8 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>54.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>66.0</Fire_Max_Recharge_Seconds>
@@ -333,8 +306,8 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Missile_XS_AML_2_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>9.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>11.0</Fire_Max_Recharge_Seconds>
@@ -359,8 +332,8 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Rocket_XS_CML_0_30</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>54.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>66.0</Fire_Max_Recharge_Seconds>
@@ -406,14 +379,14 @@
 		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_XS_PTL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>16.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>15.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
@@ -432,8 +405,8 @@
 		<Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_R_LAS_2_10</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>5.4</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.6</Fire_Max_Recharge_Seconds>
@@ -457,8 +430,8 @@
 		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Laser_R_LAS_1_1</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.9</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>1.1</Fire_Max_Recharge_Seconds>
@@ -482,14 +455,14 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>20.0</Fire_Cone_Width>
-		<Fire_Cone_Height>20.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_XS_PTL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>36.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>44.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>18.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>22.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>40.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>20.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
@@ -558,14 +531,14 @@
 		<Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Ion_Torpedo_XS_ITL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>16.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>15.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
@@ -584,14 +557,14 @@
 		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_XS_PTL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>16.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>15.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
@@ -610,14 +583,14 @@
 		<Fire_Bone_A>MuzzleE_00</Fire_Bone_A>
 		<Fire_Bone_B>MuzzleE_01</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>30.0</Fire_Cone_Width>
-		<Fire_Cone_Height>30.0</Fire_Cone_Height>
+		<Fire_Cone_Width>15.0</Fire_Cone_Width>
+		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Torpedo_XS_PTL_2_40</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>27.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>33.0</Fire_Max_Recharge_Seconds>
+		<Fire_Min_Recharge_Seconds>13.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>16.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>800.0</Fire_Range_Distance>
+		<Fire_Pulse_Delay_Seconds>15.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
@@ -5074,7 +5047,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC30_Frigate_15">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>FP_PT_L_00</Fire_Bone_A>
@@ -5089,14 +5062,13 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC30_Frigate_16">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>FP_PT_L_00</Fire_Bone_A>
@@ -5111,14 +5083,13 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC30_Frigate_17">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>FP_PT_R_00</Fire_Bone_A>
@@ -5133,14 +5104,13 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC30_Frigate_18">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>FP_PT_R_00</Fire_Bone_A>
@@ -5155,7 +5125,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -5674,7 +5643,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_7">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
@@ -5689,7 +5658,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -5699,7 +5667,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_8">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
@@ -5714,7 +5682,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -5724,7 +5691,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_9">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
@@ -5739,7 +5706,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -5749,7 +5715,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_10">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
@@ -5764,7 +5730,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -5774,7 +5739,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_11">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
@@ -5789,7 +5754,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -5799,7 +5763,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_MC40a_Cruiser_12">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
@@ -5814,7 +5778,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -6524,15 +6487,15 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
+		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>45.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
 		<Fire_Projectile_Type>Proj_Space_Missile_M_AML_5_100</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>21.6</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>26.4</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+		<Fire_Min_Recharge_Seconds>10.8</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>13.2</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>12.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
@@ -6544,21 +6507,21 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Majestic_Cruiser_9">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>45.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Missile_M_AML_5_100</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>21.6</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>26.4</Fire_Max_Recharge_Seconds>
+		<Fire_Projectile_Type>Proj_Space_Dummy</Fire_Projectile_Type>
+		<Blast_Ability_Fire_Projectile_Type>Proj_Space_Missile_M_AML_5_100</Blast_Ability_Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
@@ -6619,8 +6582,8 @@
 		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
 		<Fire_Cone_Width>45.0</Fire_Cone_Width>
 		<Fire_Cone_Height>45.0</Fire_Cone_Height>
@@ -6688,30 +6651,6 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Majestic_Cruiser_15">
-		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		<Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
-		<Fire_Cone_Height>45.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Dummy</Fire_Projectile_Type>
-		<Blast_Ability_Fire_Projectile_Type>Proj_Space_Missile_M_AML_5_100</Blast_Ability_Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 6.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 6.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Category_Restrictions>Fighter, Bomber, </Fire_Category_Restrictions>
-	</HardPoint>
-	<HardPoint Name="HP_Majestic_Cruiser_16">
 		<Type>HARD_POINT_FIGHTER_BAY</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -8961,7 +8900,7 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 2.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	<HardPoint Name="HP_Venator_Destroyer_15">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Attachment_Bone>MuzzleC_01</Attachment_Bone>
@@ -8977,14 +8916,13 @@
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, Frigate, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Venator_Destroyer_16">
-		<Type>HARD_POINT_WEAPON_TORPEDO</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Attachment_Bone>MuzzleC_00</Attachment_Bone>
@@ -9000,7 +8938,6 @@
 		<Fire_Pulse_Count>2.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>30.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -10330,7 +10267,7 @@
 		<Fire_Inaccuracy_Distance>SpaceStructure, 6.0</Fire_Inaccuracy_Distance>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_12">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_02</Fire_Bone_A>
@@ -10345,7 +10282,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10353,7 +10289,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_13">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_03</Fire_Bone_A>
@@ -10368,7 +10304,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10376,7 +10311,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_14">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleF_18</Fire_Bone_A>
@@ -10391,7 +10326,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10399,7 +10333,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_15">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_01</Fire_Bone_A>
@@ -10414,7 +10348,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10422,7 +10355,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_16">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_02</Fire_Bone_A>
@@ -10437,7 +10370,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10445,7 +10377,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_17">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_03</Fire_Bone_A>
@@ -10460,7 +10392,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10468,7 +10399,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_18">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleF_18</Fire_Bone_A>
@@ -10483,7 +10414,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -10491,7 +10421,7 @@
 		<Fire_Category_Restrictions>Fighter, Bomber, Transport, Corvette, </Fire_Category_Restrictions>
 	</HardPoint>
 	<HardPoint Name="HP_Nebula_Destroyer_19">
-		<Type>HARD_POINT_WEAPON_MISSILE</Type>
+		<Type>HARD_POINT_WEAPON_SPECIAL</Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Fire_Bone_A>MuzzleG_01</Fire_Bone_A>
@@ -10506,7 +10436,6 @@
 		<Fire_Pulse_Count>8.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>9.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1850.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Frigate, 18.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
@@ -14560,7 +14489,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -14583,7 +14511,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -14606,7 +14533,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -14629,7 +14555,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -14652,7 +14577,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
@@ -14675,7 +14599,6 @@
 		<Fire_Pulse_Count>1.0</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 		<Fire_Inaccuracy_Distance>Capital, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Dreadnought, 9.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>SpaceStructure, 9.0</Fire_Inaccuracy_Distance>
