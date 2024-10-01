@@ -18,8 +18,7 @@
 		<Space_Model_Name>reb_y_wing.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+		<Mouse_Collide_Override_Sphere_Radius>25</Mouse_Collide_Override_Sphere_Radius>
 		<Select_Box_Scale>12.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -53,7 +52,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>35.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>40.0</Shield_Points>
 		<Shield_Refresh_Rate>0.3</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
@@ -174,22 +173,22 @@
 			DUMMY_SPACE_FIGHTER_SQUADRON
 		</Behavior>
 		<Squadron_Units>Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4, Y_Wing_A4</Squadron_Units>
-		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>75.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
 		<Max_Squad_Size>12</Max_Squad_Size>
-		<Squadron_Formation_Error_Tolerance>25</Squadron_Formation_Error_Tolerance>
+		<Squadron_Formation_Error_Tolerance>100</Squadron_Formation_Error_Tolerance>
 		<Create_Team_Type>Y_Wing_A4_Container</Create_Team_Type>
-		<Guard_Chase_Range>1000</Guard_Chase_Range>
+		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>200</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500</Autonomous_Move_Extension_Vs_Attacker>
@@ -244,18 +243,18 @@
 			REVEAL,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>75.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
 		<Max_Squad_Size>12</Max_Squad_Size>
 		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
 		<Unit_Abilities_Data SubObjectList="Yes">

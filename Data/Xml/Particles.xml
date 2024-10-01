@@ -164,7 +164,7 @@
 	<Particle Name="Fighter_Explosion_Space">
 		<Land_Model_Name>p_explosion_tiny.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_tiny.alo</Space_Model_Name>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.02</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
@@ -175,7 +175,7 @@
 	<Particle Name="Fighter_Explosion_Space_Empire">
 		<Land_Model_Name>p_explosion_empire_tiny.alo</Land_Model_Name>
 		<Space_Model_Name>p_explosion_empire_tiny.alo</Space_Model_Name>
-		<Scale_Factor>0.5</Scale_Factor>
+		<Scale_Factor>0.02</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>

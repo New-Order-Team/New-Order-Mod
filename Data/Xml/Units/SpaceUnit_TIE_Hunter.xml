@@ -19,8 +19,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+		<Mouse_Collide_Override_Sphere_Radius>25</Mouse_Collide_Override_Sphere_Radius>
 		<Select_Box_Scale>12.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -54,7 +53,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>15.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>30.0</Shield_Points>
 		<Shield_Refresh_Rate>0.3</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>
@@ -130,15 +129,6 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.75f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 2.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 0.0f</Mod_Multiplier>
-			</Unit_Ability>
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 			</Unit_Ability>

@@ -17,8 +17,7 @@
 		<Space_Model_Name>reb_a_wing.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Mouse_Collide_Override_Sphere_Radius>50</Mouse_Collide_Override_Sphere_Radius>
-		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+		<Mouse_Collide_Override_Sphere_Radius>25</Mouse_Collide_Override_Sphere_Radius>
 		<Select_Box_Scale>12.0</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0.0</Select_Box_Z_Adjust>
 		<Affiliation>Rebel</Affiliation>
@@ -52,7 +51,7 @@
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
 		<Tactical_Health>15.0</Tactical_Health>
-		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>15.0</Shield_Points>
 		<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
 		<Energy_Capacity>360.0</Energy_Capacity>

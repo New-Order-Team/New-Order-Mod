@@ -64,7 +64,7 @@
 		<Is_Visible_On_Radar>True</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
 		<Select_Box_Scale> 50 </Select_Box_Scale>
-		<Scale_Factor> 0.5 </Scale_Factor>
+		<Scale_Factor> 0.25 </Scale_Factor>
 		<Victory_Relevant> No </Victory_Relevant>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -118,7 +118,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_LDS_build.ALO</Space_Model_Name>
-		<Scale_Factor> 0.5 </Scale_Factor>
+		<Scale_Factor> 0.25 </Scale_Factor>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -183,7 +183,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SATELLITE</Encyclopedia_Unit_Class>
 
 		<Space_Model_Name>NV_LDS.alo</Space_Model_Name>
-		<Scale_Factor> 0.5 </Scale_Factor>
+		<Scale_Factor> 0.25 </Scale_Factor>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -212,6 +212,7 @@
 		<Size_Value>30</Size_Value>
 		<Armor_Type> Armor_Space_A6 </Armor_Type>
 		<Shield_Points>4000</Shield_Points>
+		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Tactical_Health>2500</Tactical_Health>
 		<Energy_Capacity>10000</Energy_Capacity>
@@ -245,14 +246,15 @@
 		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.4</Projectile_Fire_Recharge_Seconds>
 		
-		<Fire_Inaccuracy_Distance>Fighter, 60.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 60.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Fighter, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 8.0</Fire_Inaccuracy_Distance>
+		<SFXEvent_Fire>Unit_Turret_Fire</SFXEvent_Fire>
 		
 		<CategoryMask> SpaceStructure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -276,7 +278,21 @@
 	<SpaceBuildable Name="Rebel_Defense_Satellite_Laser">
 		<Variant_Of_Existing_Type>Empire_Defense_Satellite_Laser</Variant_Of_Existing_Type>
 		<Affiliation>Rebel</Affiliation>
+
 		<Projectile_Types>Proj_Space_Laser_R_TBL_5_63</Projectile_Types>
+		<!--<Projectile_Types>Proj_Space_Laser_R_LAS_1_2</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance>Fighter, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Bomber, 1.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Transport, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Corvette, 8.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Frigate, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Capital, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Dreadnought, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>SpaceStructure, 5.0</Fire_Inaccuracy_Distance>-->
 	</SpaceBuildable>
 
 
@@ -298,7 +314,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
-		<Scale_Factor> 0.5 </Scale_Factor>
+		<Scale_Factor> 0.25 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -387,7 +403,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS.ALO</Space_Model_Name>
-		<Scale_Factor> 0.5 </Scale_Factor>
+		<Scale_Factor> 0.25 </Scale_Factor>
 		<Icon_Name>i_button_mds.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>

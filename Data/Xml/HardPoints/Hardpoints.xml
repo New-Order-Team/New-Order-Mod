@@ -1,34 +1,6 @@
 <?xml version="1.0"?>
 <HardPoints>
 	
-	<HardPoint Name="HP_Space_Acc_Test">
-		<Type>HARD_POINT_WEAPON_LASER</Type>
-		<Is_Targetable>No</Is_Targetable>
-		<Is_Destroyable>No</Is_Destroyable>
-		
-		<Fire_Bone_A>B_NECK</Fire_Bone_A>
-		<Fire_Bone_B>B_NECK</Fire_Bone_B>
-		<Randomize_Between_Fire_Bones>No</Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>180.0</Fire_Cone_Width>
-		<Fire_Cone_Height>90.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Laser_LC3_R_Single_10</Fire_Projectile_Type>
-		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>1</Fire_Pulse_Count>
-		<Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-		<Fire_Range_Distance>600.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-		
-		<Fire_Inaccuracy_Distance>Fighter, 60.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Bomber, 60.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Transport, 60.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Corvette, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Frigate, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Capital, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>Dreadnought, 10.0</Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance>SpaceStructure, 10.0</Fire_Inaccuracy_Distance>
-	</HardPoint>
-	
 <!-- Star Destroyer Hard Points -->
 		
     <HardPoint Name="HP_Star_Destroyer_Weapon_FL">

@@ -218,6 +218,8 @@
 			GUN_Ion_1.wav
 			Gun_ion_2.wav
 		</Samples>
+		<Min_Volume>60</Min_Volume>
+		<Max_Volume>60</Max_Volume>
 	</SFXEvent>
 
 	<SFXEvent Name="Unit_Ion_Huge_Fire">
