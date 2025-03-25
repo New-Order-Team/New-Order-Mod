@@ -5,3 +5,4 @@ Data/*.txt
 Data/*.tsv
 Data/Scripts/.idea
 Data/GameConstants_Space.xml
+/.idea/
