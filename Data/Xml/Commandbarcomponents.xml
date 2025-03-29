@@ -53,10 +53,11 @@
 
     <CommandBarComponent Name="Text_Planet">
             <Type>TextButton</Type>
-            <Font_Name>EmpireAtWar-Bold</Font_Name>
-            <Font_Point_Size>9</Font_Point_Size>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>7</Font_Point_Size>
             <Text_Outline>True</Text_Outline>
             <Text_Color>255 255 255 255</Text_Color>
+            <Left_Justified>True</Left_Justified>
             <Max_Text_Width>110</Max_Text_Width>
     </CommandBarComponent>
     
@@ -108,7 +109,7 @@
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>175 213 242 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>0 0</Text_Offset>
             <Blink_Duration>3.0</Blink_Duration>
@@ -724,6 +725,102 @@
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
+    <CommandBarComponent Name="b_Create_26">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_27">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_28">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_Create_29">
+            <Type>TextButton</Type>
+            <Blank_Texture_Name>i_button_pad_rebel.tga i_button_pad_empire.tga</Blank_Texture_Name>
+            <Disabled_Texture_Name>i_button_pad_rebel_dark.tga i_button_pad_empire_dark.tga</Disabled_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_mouse_over.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>i_button_pad_dark.tga</Selected_Texture_Name>
+            <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
+            <Flash_Texture_Name>i_button_flash.tga</Flash_Texture_Name>
+            <Group>Hero Buttons</Group>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Scale>1.0</Scale>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 255 255 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_PRODUCTION_QUEUE_FULL TEXT_PRODUCTION_POP_CAP_REACHED TEXT_PRODUCTION_INSUFFICIENT_FUNDS</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
 
 
 
@@ -762,9 +859,9 @@
 
     <CommandBarComponent Name="Text_Day_Counter">
             <Type>TextButton</Type>
-            <Font_Name>Arial bold</Font_Name>
-            <Font_Point_Size>8</Font_Point_Size>
-            <Text_Color>175 213 242 255</Text_Color>
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>7</Font_Point_Size>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text />
             <Text_Offset>0 0</Text_Offset>
             <Left_Justified>True</Left_Justified>
@@ -774,7 +871,7 @@
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>175 213 242 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_TOTAL_INCOME</Tooltip_Text>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>0 0</Text_Offset>
@@ -784,12 +881,12 @@
 
     <CommandBarComponent Name="Text_Pop_Cap">
             <Type>TextButton</Type>
-            <Icon_Texture_Name>i_icon_planet_pop.tga</Icon_Texture_Name>
+            <!-- <Icon_Texture_Name>i_icon_planet_pop.tga</Icon_Texture_Name> -->
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>175 213 242 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Tooltip_Text>TEXT_TOOLTIP_MAX_UNIT</Tooltip_Text>
-            <Right_Justified>True</Right_Justified>
+            <Left_Justified>True</Left_Justified>
             <Text_Offset>0 0</Text_Offset>
             <Icon_Offset>15</Icon_Offset>
     </CommandBarComponent>
@@ -805,17 +902,17 @@
             <Tooltip_Text>TEXT_TOOLTIP_CREDIT_FILTER</Tooltip_Text>
             <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_filter1.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>i_button_command_bar_filter_over.tga</Mouse_Over_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_command_bar_filter1_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_command_bar_filter1_press.tga</Selected_Texture_Name>
             <Disabled_Texture_Name>i_button_command_bar_filter1.tga</Disabled_Texture_Name>
             <Group>Filter_Tab_0</Group>
-            <Swap_Texture>False</Swap_Texture>
+            <!-- <Swap_Texture>False</Swap_Texture> -->
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
 			<!-- <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX> -->
             <Toggle>True</Toggle>
-            <Click_Shift>True</Click_Shift>
+            <!-- <Click_Shift>True</Click_Shift> -->
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_filters1">
@@ -915,8 +1012,8 @@
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-            <Icon_Offset>-11.75 -33.5</Icon_Offset>
-            <Mouse_Over_Offset>-11.75 -33.5</Mouse_Over_Offset>
+            <Icon_Offset>-31 0</Icon_Offset>
+            <Mouse_Over_Offset>-31 0</Mouse_Over_Offset>
             <Swap_Texture>True</Swap_Texture>
     </CommandBarComponent>
 
@@ -924,15 +1021,15 @@
             <Type>Button</Type>
             <Icon_Texture_Name>i_tab_land.tga</Icon_Texture_Name>
             <Tooltip_Text>TEXT_TOOLTIP_PROD_LAND_BUTTON</Tooltip_Text>
-            <Mouse_Over_Texture_Name>i_tab_planet_over.tga</Mouse_Over_Texture_Name>
+            <Mouse_Over_Texture_Name>i_tab_land_over.tga</Mouse_Over_Texture_Name>
             <Disabled_Texture_Name>i_tab_land_disabled.tga</Disabled_Texture_Name>
             <Group>Build_Tab</Group>
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-            <Icon_Offset>-12.75 28.5</Icon_Offset>
-            <Mouse_Over_Offset>-12.75 28.5</Mouse_Over_Offset>
-            <Disabled_Offset>-12.75 28.5</Disabled_Offset>
+            <Icon_Offset>31 0</Icon_Offset>
+            <Mouse_Over_Offset>31 0</Mouse_Over_Offset>
+            <Disabled_Offset>31 0</Disabled_Offset>
             <Swap_Texture>True</Swap_Texture>
     </CommandBarComponent>
 
@@ -1031,7 +1128,7 @@
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>6</Font_Point_Size>
             <Text_Offset>0 -20</Text_Offset>
-            <Text_Color>192 192 255 180</Text_Color>
+            <Text_Color>192 192 255 255</Text_Color>
             <Text_Outline>True</Text_Outline>
     </CommandBarComponent>
 
@@ -1091,7 +1188,7 @@
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>6</Font_Point_Size>
             <Text_Offset>0 -20</Text_Offset>
-            <Text_Color>255 192 192 180</Text_Color>
+            <Text_Color>255 192 192 255</Text_Color>
             <Text_Outline>True</Text_Outline>
     </CommandBarComponent>
 
@@ -4251,7 +4348,7 @@
             <Icon_Texture_Name>i_icon_money_big.tga</Icon_Texture_Name>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-            <Text_Color>175 213 242 255</Text_Color>
+            <Text_Color>255 255 255 255</Text_Color>
             <Right_Justified>True</Right_Justified>
             <Text_Offset>-10 0</Text_Offset>
             <Blink_Duration>3.0</Blink_Duration>
