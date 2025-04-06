@@ -22,9 +22,9 @@
 		
 		<Debug_Hot_Key_Load_Map> .\\Data\\Art\\Maps\\Demo_Attract_Kamino.ted </Debug_Hot_Key_Load_Map>
 
-
-
-
+	<Tactical_Command_Bar_Buildable_Row_Count>24</Tactical_Command_Bar_Buildable_Row_Count>
+	<Strategic_Command_Bar_Buildable_Row_Count>30</Strategic_Command_Bar_Buildable_Row_Count>
+	
 	<!-- When a land or space conflict occurs, allow pausing of Strategic/Galactic and not jump right into tactical battle until player(s) are ready -->
 	<Strategic_Queue_Tactical_Battles> True </Strategic_Queue_Tactical_Battles>
 
@@ -563,8 +563,8 @@
    <Min_Accuracy_For_Icon> 0.4 </Min_Accuracy_For_Icon>
    <Min_Sight_Range_For_Icon> 0.5 </Min_Sight_Range_For_Icon>
 
-   <Left_Queue_Tint>128 128 255 215</Left_Queue_Tint>
-   <Right_Queue_Tint>255 128 128 215</Right_Queue_Tint>
+   <Left_Queue_Tint>255 255 255 255</Left_Queue_Tint>
+   <Right_Queue_Tint>255 255 255 255</Right_Queue_Tint>
 
 	<Icons_Per_Column>13</Icons_Per_Column>
 
@@ -2676,9 +2676,9 @@
 	<Damage_To_Armor_Mod> Damage_TBL_15, Armor_Space_A10, 1.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_TBL_15, Armor_Space_A11, 1.0  </Damage_To_Armor_Mod>
 	
-	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Space, 2.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Fighter, 2.5  </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Space_SI, 2.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Space, 1.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Fighter, 1.5  </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_ION_0, Shield_Space_SI, 1.5  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION_0, Armor_Space_F, 0.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION_0, Armor_Space_A1, 0.0  </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_ION_0, Armor_Space_A2, 0.0  </Damage_To_Armor_Mod>
