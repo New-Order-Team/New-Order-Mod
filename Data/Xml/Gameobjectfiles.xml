@@ -151,80 +151,98 @@
 	<File>Units_land_test_troopers.xml</File>
 	
 	<!-- SPACE -->
-	<File>Units\SpaceUnit_A_Wing.xml</File>
-	<File>Units\SpaceUnit_Acclamator_Assault_Ship.xml</File>
-	<File>Units\SpaceUnit_Adz_Corvette.xml</File>
-	<File>Units\SpaceUnit_Agave_Corvette.xml</File>
-	<File>Units\SpaceUnit_Allegiance_Battlecruiser.xml</File>
-	<File>Units\SpaceUnit_Alliance_Assault_Frigate.xml</File>
-	<File>Units\SpaceUnit_Assault_Gunboat.xml</File>
-	<File>Units\SpaceUnit_B_Wing.xml</File>
-	<File>Units\SpaceUnit_Bulwark_III_Battlecruiser.xml</File>
-	<File>Units\SpaceUnit_Calamari_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Carrack_Cruiser.xml</File>
-	<File>Units\SpaceUnit_CC_7700_Frigate.xml</File>
-	<File>Units\SpaceUnit_Corellian_Corvette.xml</File>
-	<File>Units\SpaceUnit_Corellian_Gunboat.xml</File>
-	<File>Units\SpaceUnit_Customs_Corvette.xml</File>
-	<File>Units\SpaceUnit_Dauntless_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Defender_Carrier.xml</File>
-	<File>Units\SpaceUnit_Defender_Starfighter.xml</File>
-	<File>Units\SpaceUnit_Dominator_II_Destroyer.xml</File>
-	<File>Units\SpaceUnit_Dreadnought_Cruiser.xml</File>
-	<File>Units\SpaceUnit_E_Wing.xml</File>
-	<File>Units\SpaceUnit_Endurance_Carrier.xml</File>
-	<File>Units\SpaceUnit_Enforcer_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Escort_Carrier.xml</File>
-	<File>Units\SpaceUnit_Executor_Dreadnought.xml</File>
-	<File>Units\SpaceUnit_Gladiator_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Hajen_Interdictor.xml</File>
-	<File>Units\SpaceUnit_Home_One_Battlecruiser.xml</File>
-	<File>Units\SpaceUnit_Imperial_II_Destroyer.xml</File>
-	<File>Units\SpaceUnit_Independence_Battlecruiser.xml</File>
-	<File>Units\SpaceUnit_Interdictor_Cruiser.xml</File>
-	<File>Units\SpaceUnit_K_Wing.xml</File>
-	<File>Units\SpaceUnit_Lancer_Frigate.xml</File>
-	<File>Units\SpaceUnit_Liberator_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Majestic_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Marauder_Corvette.xml</File>
-	<File>Units\SpaceUnit_Marauder_Missile_Cruiser.xml</File>
-	<File>Units\SpaceUnit_MC30_Frigate.xml</File>
-	<File>Units\SpaceUnit_MC40a_Cruiser.xml</File>
-	<File>Units\SpaceUnit_MC80A_Cruiser.xml</File>
-	<File>Units\SpaceUnit_MC80B_Cruiser.xml</File>
-	<File>Units\SpaceUnit_MC90_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Nebula_Destroyer.xml</File>
-	<File>Units\SpaceUnit_Nebulon_B_Frigate.xml</File>
-	<File>Units\SpaceUnit_Neutron_Star_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Praetor_II_Battlecruiser.xml</File>
-	<File>Units\SpaceUnit_R_22.xml</File>
-	<File>Units\SpaceUnit_R_41.xml</File>
-	<File>Units\SpaceUnit_Raider_I_Corvette.xml</File>
-	<File>Units\SpaceUnit_Sacheen_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Star_Destroyer.xml</File>
-	<File>Units\SpaceUnit_Strike_Cruiser.xml</File>
-	<File>Units\SpaceUnit_Tector_Destroyer.xml</File>
-	<File>Units\SpaceUnit_TIE_Avenger.xml</File>
-	<File>Units\SpaceUnit_TIE_Bomber.xml</File>
-	<File>Units\SpaceUnit_TIE_Defender.xml</File>
+	<!-- Fighters -->
 	<File>Units\SpaceUnit_TIE_Fighter.xml</File>
 	<File>Units\SpaceUnit_TIE_Fighter_Mod.xml</File>
-	<File>Units\SpaceUnit_TIE_Hunter.xml</File>
 	<File>Units\SpaceUnit_TIE_Interceptor.xml</File>
 	<File>Units\SpaceUnit_TIE_Interceptor_Mod.xml</File>
 	<File>Units\SpaceUnit_TIE_Phantom.xml</File>
+	
+	<File>Units\SpaceUnit_Z_95.xml</File>
+	<File>Units\SpaceUnit_R_41.xml</File>
+	<File>Units\SpaceUnit_R_22.xml</File>
+	<File>Units\SpaceUnit_A_Wing.xml</File>
+	<File>Units\SpaceUnit_Defender_Starfighter.xml</File>
+	
+	<!-- Heavy Fighters -->
+	<File>Units\SpaceUnit_TIE_Hunter.xml</File>
+	<File>Units\SpaceUnit_TIE_Avenger.xml</File>
+	<File>Units\SpaceUnit_TIE_Defender.xml</File>
+	<File>Units\SpaceUnit_Assault_Gunboat.xml</File>
+	
+	<File>Units\SpaceUnit_Y_Wing_A4.xml</File>
+	<File>Units\SpaceUnit_X_Wing.xml</File>
+	<File>Units\SpaceUnit_E_Wing.xml</File>
+	
+	<!-- Bombers -->
+	<File>Units\SpaceUnit_TIE_Bomber.xml</File>
 	<File>Units\SpaceUnit_TIE_Scimitar.xml</File>
-	<File>Units\SpaceUnit_Venator_Destroyer.xml</File>
+	
+	<File>Units\SpaceUnit_Y_Wing_S3.xml</File>
+	<File>Units\SpaceUnit_B_Wing.xml</File>
+	<File>Units\SpaceUnit_K_Wing.xml</File>
+	
+	<!-- Escorts -->
+	<File>Units\SpaceUnit_Raider_I_Corvette.xml</File>
+	<File>Units\SpaceUnit_Corellian_Corvette.xml</File>
+	<File>Units\SpaceUnit_Corellian_Gunboat.xml</File>
+	<File>Units\SpaceUnit_Agave_Corvette.xml</File>
+	<File>Units\SpaceUnit_Customs_Corvette.xml</File>
+	<File>Units\SpaceUnit_Adz_Corvette.xml</File>
+	<File>Units\SpaceUnit_Warrior_Gunship.xml</File>
+	<File>Units\SpaceUnit_Lancer_Frigate.xml</File>
+	<File>Units\SpaceUnit_Marauder_Corvette.xml</File>
+	<File>Units\SpaceUnit_Marauder_Missile_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Vigil_Corvette.xml</File>
+	<File>Units\SpaceUnit_Nebulon_B_Frigate.xml</File>
+	
+	<!-- Cruisers -->
+	<File>Units\SpaceUnit_Carrack_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Sacheen_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Hajen_Interdictor.xml</File>
+	<File>Units\SpaceUnit_MC30_Frigate.xml</File>
+	<File>Units\SpaceUnit_Strike_Cruiser.xml</File>
+	<File>Units\SpaceUnit_CC_7700_Frigate.xml</File>
+	<File>Units\SpaceUnit_Dreadnought_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC40a_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Vindicator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Enforcer_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Interdictor_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Alliance_Assault_Frigate.xml</File>
+	<File>Units\SpaceUnit_Escort_Carrier.xml</File>
+	<File>Units\SpaceUnit_Neutron_Star_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Liberator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Majestic_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Defender_Carrier.xml</File>
+	<File>Units\SpaceUnit_Gladiator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Acclamator_Assault_Ship.xml</File>
+	
+	<!-- Capitals -->
+	<File>Units\SpaceUnit_Calamari_Cruiser.xml</File>
 	<File>Units\SpaceUnit_Victory_Destroyer.xml</File>
 	<File>Units\SpaceUnit_Victory_II_Destroyer.xml</File>
-	<File>Units\SpaceUnit_Vigil_Corvette.xml</File>
-	<File>Units\SpaceUnit_Vindicator_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Venator_Destroyer.xml</File>
+	<File>Units\SpaceUnit_MC80A_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Nebula_Destroyer.xml</File>
+	<File>Units\SpaceUnit_MC80B_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Endurance_Carrier.xml</File>
+	<File>Units\SpaceUnit_Dauntless_Cruiser.xml</File>
+	<File>Units\SpaceUnit_MC90_Cruiser.xml</File>
+	<File>Units\SpaceUnit_Star_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Imperial_II_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Dominator_II_Destroyer.xml</File>
+	<File>Units\SpaceUnit_Tector_Destroyer.xml</File>
+	
+	<!-- Battlecruisers -->
+	<File>Units\SpaceUnit_Allegiance_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Independence_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Home_One_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Bulwark_III_Battlecruiser.xml</File>
+	<File>Units\SpaceUnit_Praetor_II_Battlecruiser.xml</File>
+	
+	<!-- Dreadnoughts -->
+	<File>Units\SpaceUnit_Executor_Dreadnought.xml</File>
 	<File>Units\SpaceUnit_Viscount_Star_Defender.xml</File>
-	<File>Units\SpaceUnit_Warrior_Gunship.xml</File>
-	<File>Units\SpaceUnit_X_Wing.xml</File>
-	<File>Units\SpaceUnit_Y_Wing_A4.xml</File>
-	<File>Units\SpaceUnit_Y_Wing_S3.xml</File>
-	<File>Units\SpaceUnit_Z_95.xml</File>
 	
 	<!-- HEROES -->
 	<!-- Buildable heroes is in priority, so they appear on the left -->
