@@ -9,6 +9,15 @@
 			TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_2
 			TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_3
 			TEXT_UNIT_EXECUTOR_DREADNOUGHT_INFO_4
+			TEXT_WEAPONS
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_1
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_2
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_3
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_4
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_5
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_6
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_7
+			TEXT_UNIT_EXECUTOR_DREADNOUGHT_W_8
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DREADNOUGHT</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_executor_dreadnought.tga</Icon_Name>
@@ -30,20 +39,20 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>99.0</Tech_Level>
+		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>466.0</Build_Time_Seconds>
-		<Build_Cost_Credits>78400.0</Build_Cost_Credits>
+		<Build_Time_Seconds>556.0</Build_Time_Seconds>
+		<Build_Cost_Credits>93690.0</Build_Cost_Credits>
 		<Population_Value>200.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Corellia_NO, Fondor_NO, Kuat_NO, Mon_Calamari_NO, Rendili_NO</Required_Planets>
-		<AI_Combat_Power>78400.0</AI_Combat_Power>
-		<Score_Cost_Credits>3461.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>78400.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>78400.0</Piracy_Value_Credits>
+		<AI_Combat_Power>93690.0</AI_Combat_Power>
+		<Score_Cost_Credits>4238.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>93690.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>93690.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>100000.0</Autoresolve_Health>
@@ -87,11 +96,15 @@
 			SHIELDED,
 			SPAWN_SQUADRON
 		</SpaceBehavior>
+		<Targeting_Max_Attack_Distance>2450.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
+		<HardPoints>
+			HP_Executor_Dreadnought_1, HP_Executor_Dreadnought_2, HP_Executor_Dreadnought_3, HP_Executor_Dreadnought_4, HP_Executor_Dreadnought_5, HP_Executor_Dreadnought_6, HP_Executor_Dreadnought_7, HP_Executor_Dreadnought_8, HP_Executor_Dreadnought_9, HP_Executor_Dreadnought_10, HP_Executor_Dreadnought_11, HP_Executor_Dreadnought_12, HP_Executor_Dreadnought_13, HP_Executor_Dreadnought_14, HP_Executor_Dreadnought_15, HP_Executor_Dreadnought_16, HP_Executor_Dreadnought_17, HP_Executor_Dreadnought_18, HP_Executor_Dreadnought_19, HP_Executor_Dreadnought_20, HP_Executor_Dreadnought_21, HP_Executor_Dreadnought_22, HP_Executor_Dreadnought_23, HP_Executor_Dreadnought_24, HP_Executor_Dreadnought_25, HP_Executor_Dreadnought_26, HP_Executor_Dreadnought_27, HP_Executor_Dreadnought_28, HP_Executor_Dreadnought_29, HP_Executor_Dreadnought_30, HP_Executor_Dreadnought_31, HP_Executor_Dreadnought_32, HP_Executor_Dreadnought_33, HP_Executor_Dreadnought_34, HP_Executor_Dreadnought_35, HP_Executor_Dreadnought_36, HP_Executor_Dreadnought_37, HP_Executor_Dreadnought_38, HP_Executor_Dreadnought_39, HP_Executor_Dreadnought_40, HP_Executor_Dreadnought_41, HP_Executor_Dreadnought_42, HP_Executor_Dreadnought_43, HP_Executor_Dreadnought_44, HP_Executor_Dreadnought_45, HP_Executor_Dreadnought_46, HP_Executor_Dreadnought_47, HP_Executor_Dreadnought_48, HP_Executor_Dreadnought_49, HP_Executor_Dreadnought_50, HP_Executor_Dreadnought_51, HP_Executor_Dreadnought_52, HP_Executor_Dreadnought_53, HP_Executor_Dreadnought_54, HP_Executor_Dreadnought_55, HP_Executor_Dreadnought_56, HP_Executor_Dreadnought_57, HP_Executor_Dreadnought_58, HP_Executor_Dreadnought_59, HP_Executor_Dreadnought_60, HP_Executor_Dreadnought_61, HP_Executor_Dreadnought_62, HP_Executor_Dreadnought_63, HP_Executor_Dreadnought_64, HP_Executor_Dreadnought_65, HP_Executor_Dreadnought_66, HP_Executor_Dreadnought_67, HP_Executor_Dreadnought_68, HP_Executor_Dreadnought_69, HP_Executor_Dreadnought_70, HP_Executor_Dreadnought_71, HP_Executor_Dreadnought_72, HP_Executor_Dreadnought_73, HP_Executor_Dreadnought_74, HP_Executor_Dreadnought_75, HP_Executor_Dreadnought_76, HP_Executor_Dreadnought_77, HP_Executor_Dreadnought_78, HP_Executor_Dreadnought_79, HP_Executor_Dreadnought_80, HP_Executor_Dreadnought_81, HP_Executor_Dreadnought_82, HP_Executor_Dreadnought_83, HP_Executor_Dreadnought_84, HP_Executor_Dreadnought_85, HP_Executor_Dreadnought_86
+		</HardPoints>
 		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Star_Destroyer</SFXEvent_Fleet_Move>
@@ -175,8 +188,8 @@
 		<Death_Explosions>Friggin_Huge_Explosion_Space_Empire</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Tactical_Build_Cost_Multiplayer>78400.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>466.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>93690.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>556.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 </SpaceUnits>

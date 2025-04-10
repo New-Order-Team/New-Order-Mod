@@ -12,6 +12,7 @@
 			TEXT_WEAPONS
 			TEXT_UNIT_TIE_DEFENDER_W_1
 			TEXT_UNIT_TIE_DEFENDER_W_2
+			TEXT_UNIT_TIE_DEFENDER_W_3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
@@ -76,14 +77,14 @@
 		<Turret_Rotate_Extent_Degrees>15.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
 		<Projectile_Types>Proj_Space_Laser_G_LAS_1_2</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.38</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4.0</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.38</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.6</Projectile_Fire_Pulse_Delay_Seconds>
 		<SFXEvent_Fire>Unit_Empire_Ship_Laser_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Fire_Inaccuracy>Fighter, 10.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Fighter, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
@@ -123,7 +124,6 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space_Empire</Death_Explosions>
@@ -132,6 +132,8 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
@@ -147,6 +149,7 @@
 			TEXT_WEAPONS
 			TEXT_UNIT_TIE_DEFENDER_W_1
 			TEXT_UNIT_TIE_DEFENDER_W_2
+			TEXT_UNIT_TIE_DEFENDER_W_3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
@@ -160,14 +163,14 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>430.0</Build_Cost_Credits>
+		<Build_Time_Seconds>9.0</Build_Time_Seconds>
+		<Build_Cost_Credits>610.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>430.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>430.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>430.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>610.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>610.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>610.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>240.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -199,12 +202,14 @@
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>430.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>610.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
@@ -220,6 +225,7 @@
 			TEXT_WEAPONS
 			TEXT_UNIT_TIE_DEFENDER_W_1
 			TEXT_UNIT_TIE_DEFENDER_W_2
+			TEXT_UNIT_TIE_DEFENDER_W_3
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
@@ -262,8 +268,8 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>40</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter_80</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<Projectile_Types_Override>Proj_Space_Torpedo_XS_PTL_2_40</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
@@ -272,7 +278,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter_80">
+			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter">
 				<Activation_Style>User_Input</Activation_Style>
 				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Dreadnought, SpaceStructure</Applicable_Unit_Categories>
 			</Ion_Cannon_Shot_Attack_Ability>

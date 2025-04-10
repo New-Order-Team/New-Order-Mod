@@ -39,17 +39,17 @@
 		<Tech_Level>4.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>1</GUI_Row>
-		<Build_Time_Seconds>26.0</Build_Time_Seconds>
-		<Build_Cost_Credits>3530.0</Build_Cost_Credits>
+		<Build_Time_Seconds>44.0</Build_Time_Seconds>
+		<Build_Cost_Credits>6610.0</Build_Cost_Credits>
 		<Population_Value>14.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Planets>Bestine_IV_NO, Bilbringi_VII_NO, Corellia_NO, Fondor_NO, Gyndine_NO, Kuat_NO, Kuat_TC_NO, Lantillies_NO, Mon_Calamari_NO, Raxus_Prime_OSF, Rendili_NO, Sluis_Van_NO, Sullust_NO</Required_Planets>
-		<AI_Combat_Power>3530.0</AI_Combat_Power>
-		<Score_Cost_Credits>167.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>3530.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>3530.0</Piracy_Value_Credits>
+		<AI_Combat_Power>6610.0</AI_Combat_Power>
+		<Score_Cost_Credits>171.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>6610.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>6610.0</Piracy_Value_Credits>
 		<Hyperspace>No</Hyperspace>
 		<Damage>1</Damage>
 		<Autoresolve_Health>7200.0</Autoresolve_Health>
@@ -71,8 +71,8 @@
 		<Armor_Type>Armor_Space_A9</Armor_Type>
 		<Tactical_Health>7200.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Space</Shield_Armor_Type>
-		<Shield_Points>4800.0</Shield_Points>
-		<Shield_Refresh_Rate>40.0</Shield_Refresh_Rate>
+		<Shield_Points>6000.0</Shield_Points>
+		<Shield_Refresh_Rate>50.0</Shield_Refresh_Rate>
 		<Energy_Capacity>15000.0</Energy_Capacity>
 		<Energy_Refresh_Rate>3000.0</Energy_Refresh_Rate>
 		<Behavior>
@@ -122,28 +122,28 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
 		<Spawned_Squadron_Delay_Seconds>5.0</Spawned_Squadron_Delay_Seconds>
-		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 2</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z_95_Squadron, 3</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_1>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_1>Z_95_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z_95_Squadron, 3</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Y_Wing_A4_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Y_Wing_S3_Squadron, 1</Reserve_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 3</Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_2>Y_Wing_S3_Squadron, 1</Starting_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>A_Wing_Squadron, 3</Reserve_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_2>Y_Wing_S3_Squadron, 1</Reserve_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 3</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_3>E_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
 		<Starting_Spawned_Units_Tech_3>B_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>A_Wing_Squadron, 3</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_3>
-		<Reserve_Spawned_Units_Tech_3>E_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_3>
 		<Reserve_Spawned_Units_Tech_3>B_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_3>
-		<Starting_Spawned_Units_Tech_4>X_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 3</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>E_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Starting_Spawned_Units_Tech_4>K_Wing_Squadron, 1</Starting_Spawned_Units_Tech_4>
-		<Reserve_Spawned_Units_Tech_4>X_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>Defender_Starfighter_Squadron, 3</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>E_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_4>
 		<Reserve_Spawned_Units_Tech_4>K_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
 		<Formation_Priority>4</Formation_Priority>
@@ -151,8 +151,8 @@
 		<Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Tactical_Build_Cost_Multiplayer>3530.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>26.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>6610.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>44.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 </SpaceUnits>

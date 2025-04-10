@@ -17,6 +17,7 @@
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<Space_Model_Name>reb_a_wing.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>25</Mouse_Collide_Override_Sphere_Radius>
 		<Select_Box_Scale>12.0</Select_Box_Scale>
@@ -29,6 +30,7 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>29.0</AI_Combat_Power>
@@ -51,7 +53,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1</Out_Of_Combat_Defense_Adjustment>
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
-		<Tactical_Health>15.0</Tactical_Health>
+		<Tactical_Health>20.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>15.0</Shield_Points>
 		<Shield_Refresh_Rate>0.1</Shield_Refresh_Rate>
@@ -69,18 +71,18 @@
 			NEBULA,
 			SHIELDED
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Turret_Rotate_Extent_Degrees>15.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
 		<Projectile_Types>Proj_Space_Laser_R_LAS_1_2</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.75</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.3</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.75</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Fire_Inaccuracy>Fighter, 10.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Fighter, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
@@ -120,7 +122,6 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space</Death_Explosions>
@@ -152,16 +153,16 @@
 		<Tech_Level>2.0</Tech_Level>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
-		<Build_Time_Seconds>6.0</Build_Time_Seconds>
-		<Build_Cost_Credits>210.0</Build_Cost_Credits>
+		<Build_Time_Seconds>7.0</Build_Time_Seconds>
+		<Build_Cost_Credits>270.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>210.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>210.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>210.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>270.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>270.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>270.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
-		<Autoresolve_Health>180.0</Autoresolve_Health>
+		<Autoresolve_Health>240.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Behavior>
 			DUMMY_SPACE_FIGHTER_SQUADRON
@@ -181,6 +182,7 @@
 		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
 		<Max_Squad_Size>12</Max_Squad_Size>
 		<Squadron_Formation_Error_Tolerance>100</Squadron_Formation_Error_Tolerance>
+		<Create_Team_Type>A_Wing_Container</Create_Team_Type>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>200</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300</Attack_Move_Response_Range>
@@ -190,8 +192,60 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>210.0</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Cost_Multiplayer>270.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
+	<Container Name="A_Wing_Container">
+		<Text_ID>TEXT_UNIT_A_WING_SQUADRON</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_UNIT_A_WING_DESC
+			TEXT_EMPTY
+			TEXT_UNIT_A_WING_INFO_1
+			TEXT_UNIT_A_WING_INFO_2
+			TEXT_UNIT_A_WING_INFO_3
+			TEXT_UNIT_A_WING_INFO_4
+			TEXT_WEAPONS
+			TEXT_UNIT_A_WING_W_1
+			TEXT_UNIT_A_WING_W_2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_a_wing.tga</Icon_Name>
+		<Affiliation>Rebel</Affiliation>
+		<CategoryMask>
+			Fighter | AntiFighter
+		</CategoryMask>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>No</Is_Bomber>
+		<Tech_Level>2.0</Tech_Level>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Hyperspace>Yes</Hyperspace>
+		<Min_Speed>1</Min_Speed>
+		<Max_Speed>3.43</Max_Speed>
+		<Behavior>
+			TEAM,
+			TEAM_LOCOMOTOR,
+			SELECTABLE,
+			TARGETING,
+			UNIT_AI
+		</Behavior>
+		<SpaceBehavior>
+			REVEAL,
+			ABILITY_COUNTDOWN
+		</SpaceBehavior>
+		<Squadron_Offsets>75.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> -25.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets> 25.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
+	</Container>
 </SpaceUnits>

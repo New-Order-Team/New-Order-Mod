@@ -11,11 +11,13 @@
 			TEXT_UNIT_E_WING_INFO_4
 			TEXT_WEAPONS
 			TEXT_UNIT_E_WING_W_1
+			TEXT_UNIT_E_WING_W_2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_e_wing.tga</Icon_Name>
-		<Space_Model_Name>e-wing.alo</Space_Model_Name>
-		<Scale_Factor>0.62</Scale_Factor>
+		<Space_Model_Name>reb_e_wing.alo</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Target_Bones>Target_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius>25</Mouse_Collide_Override_Sphere_Radius>
 		<Select_Box_Scale>12.0</Select_Box_Scale>
@@ -51,7 +53,7 @@
 		<Out_Of_Combat_Defense_Adjustment>-1</Out_Of_Combat_Defense_Adjustment>
 		<Strafe_Distance>500</Strafe_Distance>
 		<Armor_Type>Armor_Space_F</Armor_Type>
-		<Tactical_Health>20.0</Tactical_Health>
+		<Tactical_Health>15.0</Tactical_Health>
 		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Shield_Points>25.0</Shield_Points>
 		<Shield_Refresh_Rate>0.2</Shield_Refresh_Rate>
@@ -70,18 +72,18 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>650.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		<Turret_Rotate_Extent_Degrees>15.0</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-		<Projectile_Types>Proj_Space_Laser_R_LAS_1_5</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.67</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Types>Proj_Space_Laser_R_LAS_2_3</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>0.8</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>3.0</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.67</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.8</Projectile_Fire_Pulse_Delay_Seconds>
 		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Fire_Inaccuracy>Fighter, 15.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 15.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Fighter, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
@@ -118,7 +120,6 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space</Death_Explosions>
@@ -127,6 +128,8 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
@@ -141,6 +144,7 @@
 			TEXT_UNIT_E_WING_INFO_4
 			TEXT_WEAPONS
 			TEXT_UNIT_E_WING_W_1
+			TEXT_UNIT_E_WING_W_2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_e_wing.tga</Icon_Name>
@@ -155,15 +159,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>7.0</Build_Time_Seconds>
-		<Build_Cost_Credits>340.0</Build_Cost_Credits>
+		<Build_Cost_Credits>370.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>340.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>340.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>340.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>370.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>370.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>370.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
-		<Autoresolve_Health>240.0</Autoresolve_Health>
+		<Autoresolve_Health>180.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
 		<Behavior>
 			DUMMY_SPACE_FIGHTER_SQUADRON
@@ -193,12 +197,14 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>1</Formation_Priority>
 		<FormationOrder>1</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>340.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>370.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>7.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
@@ -213,6 +219,7 @@
 			TEXT_UNIT_E_WING_INFO_4
 			TEXT_WEAPONS
 			TEXT_UNIT_E_WING_W_1
+			TEXT_UNIT_E_WING_W_2
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_e_wing.tga</Icon_Name>
@@ -255,8 +262,8 @@
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>40</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter_80</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<Projectile_Types_Override>Proj_Space_Torpedo_XS_PTL_2_40</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
@@ -265,7 +272,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter_80">
+			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter">
 				<Activation_Style>User_Input</Activation_Style>
 				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Dreadnought, SpaceStructure</Applicable_Unit_Categories>
 			</Ion_Cannon_Shot_Attack_Ability>

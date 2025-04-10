@@ -13,6 +13,7 @@
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_1
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_2
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_3
+			TEXT_UNIT_ASSAULT_GUNBOAT_W_4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
@@ -74,16 +75,18 @@
 			SHIELDED,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>950.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Turret_Rotate_Extent_Degrees>15.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
 		<Projectile_Types>Proj_Space_Laser_G_LAS_1_2</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>0.75</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.3</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>2.0</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.75</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<SFXEvent_Fire>Unit_Empire_Ship_Laser_Fire</SFXEvent_Fire>
 		<Targeting_Priority_Set>Fighter_Heavy</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Fire_Inaccuracy>Fighter, 10.0</Targeting_Fire_Inaccuracy>
-		<Targeting_Fire_Inaccuracy>Bomber, 10.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Fighter, 0.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Bomber, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Transport, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Corvette, 0.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Frigate, 0.0</Targeting_Fire_Inaccuracy>
@@ -123,7 +126,6 @@
 		<Remove_Upon_Death>True</Remove_Upon_Death>
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-		<Spin_Away_On_Death_Explosion>Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
 		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
 		<Death_Explosions>Fighter_Explosion_Space_Empire</Death_Explosions>
@@ -131,15 +133,9 @@
 		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Alternate_Icon_Name>i_sa_barrage_area.tga</Alternate_Icon_Name>
-				<Alternate_Name_Text>TEXT_ABILITY_MISSILE_ATTACK</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_ABILITY_MISSILE_ATTACK_DESC</Alternate_Description_Text>
-			</Unit_Ability>
-			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
@@ -156,6 +152,7 @@
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_1
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_2
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_3
+			TEXT_UNIT_ASSAULT_GUNBOAT_W_4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
@@ -170,13 +167,13 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row>0</GUI_Row>
 		<Build_Time_Seconds>8.0</Build_Time_Seconds>
-		<Build_Cost_Credits>510.0</Build_Cost_Credits>
+		<Build_Cost_Credits>560.0</Build_Cost_Credits>
 		<Population_Value>1.0</Population_Value>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Timeline>0</Required_Timeline>
-		<Score_Cost_Credits>510.0</Score_Cost_Credits>
-		<Tactical_Bribe_Cost>510.0</Tactical_Bribe_Cost>
-		<Piracy_Value_Credits>510.0</Piracy_Value_Credits>
+		<Score_Cost_Credits>560.0</Score_Cost_Credits>
+		<Tactical_Bribe_Cost>560.0</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>560.0</Piracy_Value_Credits>
 		<Damage>1</Damage>
 		<Autoresolve_Health>300.0</Autoresolve_Health>
 		<Political_Control>0</Political_Control>
@@ -208,15 +205,14 @@
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<Formation_Priority>2</Formation_Priority>
 		<FormationOrder>2</FormationOrder>
-		<Tactical_Build_Cost_Multiplayer>510.0</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>560.0</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-			</Unit_Ability>
-			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
+				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_ABILITY_TORPEDO_STRIKE_DESC</Alternate_Description_Text>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
@@ -233,6 +229,7 @@
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_1
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_2
 			TEXT_UNIT_ASSAULT_GUNBOAT_W_3
+			TEXT_UNIT_ASSAULT_GUNBOAT_W_4
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_HEAVY</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_assault_gunboat.tga</Icon_Name>
@@ -274,12 +271,9 @@
 		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
-				<Type>ROCKET_ATTACK</Type>
-			</Unit_Ability>
-			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>22.5</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter_45</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>30</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Torpedo_Strike_Fighter</GUI_Activated_Ability_Name>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<Projectile_Types_Override>Proj_Space_Torpedo_XS_PTL_2_40</Projectile_Types_Override>
 				<Alternate_Name_Text>TEXT_ABILITY_TORPEDO_STRIKE</Alternate_Name_Text>
@@ -288,7 +282,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter_45">
+			<Ion_Cannon_Shot_Attack_Ability Name="Torpedo_Strike_Fighter">
 				<Activation_Style>User_Input</Activation_Style>
 				<Applicable_Unit_Categories>Corvette, Frigate, Capital, Dreadnought, SpaceStructure</Applicable_Unit_Categories>
 			</Ion_Cannon_Shot_Attack_Ability>
