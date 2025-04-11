@@ -2645,7 +2645,8 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Tector_Destroyer,
-				Allegiance_Battlecruiser
+				Allegiance_Battlecruiser,
+				Executor_Dreadnought,
 				
 				<!--ES_Level_Two_Starbase_Upgrade-->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2761,7 +2762,8 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Tector_Destroyer,
-				Allegiance_Battlecruiser
+				Allegiance_Battlecruiser,
+				Executor_Dreadnought,
 				
 				<!-- ES_Level_Three_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -2886,7 +2888,8 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Tector_Destroyer,
-				Allegiance_Battlecruiser
+				Allegiance_Battlecruiser,
+				Executor_Dreadnought,
 				
 				<!-- ES_Level_Four_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3021,7 +3024,8 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Tector_Destroyer,
-				Allegiance_Battlecruiser
+				Allegiance_Battlecruiser,
+				Executor_Dreadnought,
 				
 				<!-- ES_Level_Five_Starbase_Upgrade -->
 		</Tactical_Buildable_Objects_Multiplayer>
@@ -3166,7 +3170,8 @@
 				Star_Destroyer,
 				Imperial_II_Destroyer,
 				Tector_Destroyer,
-				Allegiance_Battlecruiser
+				Allegiance_Battlecruiser,
+				Executor_Dreadnought,
 				
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
