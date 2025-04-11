@@ -184,7 +184,7 @@
 	</Particle>
 	
 	<!-- Space projectile explosions -->
-    <Particle Name="Space_Laser_G_Hit_Tiny">
+    <Particle Name="Space_Laser_G_XS_Hit">
         <Land_Model_Name>p_space_laser_hit_g.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_g.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -193,7 +193,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_G_Hit_Small">
+    <Particle Name="Space_Laser_G_S_Hit">
         <Land_Model_Name>p_space_laser_hit_g.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_g.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -202,7 +202,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_G_Hit_Medium">
+    <Particle Name="Space_Laser_G_M_Hit">
         <Land_Model_Name>p_space_laser_hit_g.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_g.alo</Space_Model_Name>
         <Scale_Factor>2.5</Scale_Factor>
@@ -211,7 +211,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_G_Hit_Large">
+    <Particle Name="Space_Laser_G_L_Hit">
         <Land_Model_Name>p_space_laser_hit_g.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_g.alo</Space_Model_Name>
         <Scale_Factor>4.0</Scale_Factor>
@@ -220,7 +220,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_G_Hit_Huge">
+    <Particle Name="Space_Laser_G_XL_Hit">
         <Land_Model_Name>p_space_laser_hit_g.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_g.alo</Space_Model_Name>
         <Scale_Factor>6.0</Scale_Factor>
@@ -230,7 +230,7 @@
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
 	
-    <Particle Name="Space_Laser_R_Hit_Tiny">
+    <Particle Name="Space_Laser_R_XS_Hit">
         <Land_Model_Name>p_space_laser_hit_r.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_r.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -239,7 +239,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_R_Hit_Small">
+    <Particle Name="Space_Laser_R_S_Hit">
         <Land_Model_Name>p_space_laser_hit_r.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_r.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -248,7 +248,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_R_Hit_Medium">
+    <Particle Name="Space_Laser_R_M_Hit">
         <Land_Model_Name>p_space_laser_hit_r.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_r.alo</Space_Model_Name>
         <Scale_Factor>2.5</Scale_Factor>
@@ -257,7 +257,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_R_Hit_Large">
+    <Particle Name="Space_Laser_R_L_Hit">
         <Land_Model_Name>p_space_laser_hit_r.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_r.alo</Space_Model_Name>
         <Scale_Factor>4.0</Scale_Factor>
@@ -266,7 +266,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_R_Hit_Huge">
+    <Particle Name="Space_Laser_R_XL_Hit">
         <Land_Model_Name>p_space_laser_hit_r.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_r.alo</Space_Model_Name>
         <Scale_Factor>6.0</Scale_Factor>
@@ -276,7 +276,7 @@
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
 	
-    <Particle Name="Space_Laser_I_Hit_Tiny">
+    <Particle Name="Space_Ion_I_XS_Hit">
         <Land_Model_Name>p_space_laser_hit_i.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_i.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -285,7 +285,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_I_Hit_Small">
+    <Particle Name="Space_Ion_I_S_Hit">
         <Land_Model_Name>p_space_laser_hit_i.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_i.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -294,7 +294,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_I_Hit_Medium">
+    <Particle Name="Space_Ion_I_M_Hit">
         <Land_Model_Name>p_space_laser_hit_i.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_i.alo</Space_Model_Name>
         <Scale_Factor>2.5</Scale_Factor>
@@ -303,7 +303,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_I_Hit_Large">
+    <Particle Name="Space_Ion_I_L_Hit">
         <Land_Model_Name>p_space_laser_hit_i.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_i.alo</Space_Model_Name>
         <Scale_Factor>4.0</Scale_Factor>
@@ -312,7 +312,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Laser_I_Hit_Huge">
+    <Particle Name="Space_Ion_I_XL_Hit">
         <Land_Model_Name>p_space_laser_hit_i.alo</Land_Model_Name>
         <Space_Model_Name>p_space_laser_hit_i.alo</Space_Model_Name>
         <Scale_Factor>6.0</Scale_Factor>
@@ -323,7 +323,7 @@
     </Particle>
 
 
-    <Particle Name="Space_Missile_Hit_Fighter">
+    <Particle Name="Space_Rocket_XS_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -332,7 +332,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Missile_Hit_Small">
+    <Particle Name="Space_Rocket_S_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -341,7 +341,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Missile_Hit_Medium">
+    <Particle Name="Space_Rocket_M_Hit">
         <Land_Model_Name>p_damage_med00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_med00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -350,7 +350,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Missile_Hit_Large">
+    <Particle Name="Space_Rocket_L_Hit">
         <Land_Model_Name>p_damage_big00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_big00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -360,7 +360,7 @@
         <No_Particle_Below_Detail_Level>0.5</No_Particle_Below_Detail_Level>
     </Particle>
 	
-    <Particle Name="Space_AMissile_Hit_Fighter">
+    <Particle Name="Space_Missile_XS_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -369,7 +369,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_AMissile_Hit_Small">
+    <Particle Name="Space_Missile_S_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -378,7 +378,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_AMissile_Hit_Medium">
+    <Particle Name="Space_Missile_M_Hit">
         <Land_Model_Name>p_damage_med00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_med00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -387,17 +387,26 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_AMissile_Hit_Large">
+    <Particle Name="Space_Missile_L_Hit">
         <Land_Model_Name>p_damage_big00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_big00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+        <No_Particle_Below_Detail_Level>0.5</No_Particle_Below_Detail_Level>
+    </Particle>
+    <Particle Name="Space_Missile_XL_Hit">
+        <Land_Model_Name>p_damage_big00.alo</Land_Model_Name>
+        <Space_Model_Name>p_damage_big00.alo</Space_Model_Name>
+        <Scale_Factor>2.0</Scale_Factor>
         <Is_Decoration>Yes</Is_Decoration>
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.5</No_Particle_Below_Detail_Level>
     </Particle>
 
-    <Particle Name="Space_Ion_Torpedo_Hit_Fighter">
+    <Particle Name="Space_Ion_Torpedo_XS_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -406,7 +415,8 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Torpedo_Hit_Fighter">
+	
+    <Particle Name="Space_Torpedo_XS_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>0.5</Scale_Factor>
@@ -415,7 +425,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Torpedo_Hit_Small">
+    <Particle Name="Space_Torpedo_S_Hit">
         <Land_Model_Name>p_damage_small00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_small00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -424,7 +434,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Torpedo_Hit_Medium">
+    <Particle Name="Space_Torpedo_M_Hit">
         <Land_Model_Name>p_damage_med00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_med00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -433,7 +443,7 @@
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
     </Particle>
-    <Particle Name="Space_Torpedo_Hit_Large">
+    <Particle Name="Space_Torpedo_L_Hit">
         <Land_Model_Name>p_damage_big00.alo</Land_Model_Name>
         <Space_Model_Name>p_damage_big00.alo</Space_Model_Name>
         <Scale_Factor>1.0</Scale_Factor>
@@ -441,6 +451,54 @@
         <Behavior>PARTICLE</Behavior>
         <Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
         <No_Particle_Below_Detail_Level>0.5</No_Particle_Below_Detail_Level>
+    </Particle>
+	
+    <Particle Name="Space_XS_Shield_Absorb">
+        <Land_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Space_Model_Name>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>10</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+    </Particle>
+    <Particle Name="Space_S_Shield_Absorb">
+        <Land_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_SMALL00.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>10</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+        <No_Particle_Below_Detail_Level>0.7</No_Particle_Below_Detail_Level>
+    </Particle>
+    <Particle Name="Space_M_Shield_Absorb">
+        <Land_Model_Name>P_SHIELD_BLAST_MED00.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_MED00.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>12</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+    </Particle>
+    <Particle Name="Space_L_Shield_Absorb">
+        <Land_Model_Name>P_SHIELD_BLAST_LARGE01.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_LARGE01.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>12</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
+    </Particle>
+    <Particle Name="Space_XL_Shield_Absorb">
+        <Land_Model_Name>P_SHIELD_BLAST_LARGE01.ALO</Land_Model_Name>
+        <Space_Model_Name>P_SHIELD_BLAST_LARGE01.ALO</Space_Model_Name>
+        <Scale_Factor>2.0</Scale_Factor>
+        <Is_Decoration>Yes</Is_Decoration>
+        <Behavior>PARTICLE</Behavior>
+        <Particle_Lifetime_Frames>12</Particle_Lifetime_Frames>
+        <Particle_Attach_To_Collision>1</Particle_Attach_To_Collision>
     </Particle>
 	
 <!-- End of NO Particles -->

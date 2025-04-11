@@ -17,7 +17,7 @@
 	<!-- Space Units -->
 	
 	<!-- Lasers and turbolasers -->
-	<SFXEvent Name="SFX_Fighter_Damage_Detonation">
+	<SFXEvent Name="Space_Laser_XS_Damage_Detonation">
 		<Use_Preset>Preset_GUN</Use_Preset>
 		<Samples>
 			EXP_Small_Damage_1.wav
@@ -25,14 +25,93 @@
 			EXP_Small_Damage_3.wav
 		</Samples>
 	</SFXEvent>
-	<SFXEvent Name="SFX_Tiny_Damage_Detonation">
+	<SFXEvent Name="Space_Laser_S_Damage_Detonation">
 		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>
-			EXP_Small_Damage_1.wav
-			EXP_Small_Damage_2.wav
-			EXP_Small_Damage_3.wav
-		</Samples>
+		<Samples>Exp_x_wing_1.wav</Samples>
 	</SFXEvent>
+	<SFXEvent Name="Space_Laser_M_Damage_Detonation">
+		<Use_Preset>Preset_GUN</Use_Preset>
+		<Samples>Exp_concussion_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Space_Laser_L_Damage_Detonation">
+		<Use_Preset>Preset_GUN</Use_Preset>
+		<Samples>Exp_concussion_1.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Space_Laser_XL_Damage_Detonation">
+		<Use_Preset>Preset_GUN</Use_Preset>
+		<Samples>Exp_bombard_3.wav</Samples>
+	</SFXEvent>
+	
+	<!-- Ion cannons -->
+	<SFXEvent Name="Space_Ion_XS_Damage_Detonation">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Ion_S_Damage_Detonation">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Ion_M_Damage_Detonation">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Ion_L_Damage_Detonation">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>Force_Damage.wav</Samples>  
+	</SFXEvent>
+
+	<SFXEvent Name="Space_Torpedo_XS_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Explosion_Proton_Torpedo.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Space_Torpedo_S_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Explosion_Proton_Torpedo.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Space_Torpedo_M_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Explosion_Proton_Torpedo.wav</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Space_Torpedo_L_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>Explosion_Proton_Torpedo.wav</Samples>
+	</SFXEvent>
+	
+	<SFXEvent Name="Space_Rocket_XS_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Rocket_S_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Missile_XS_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Missile_S_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Missile_M_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Missile_L_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	<SFXEvent Name="Space_Missile_XL_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Concussion_1.wav</Samples>  
+	</SFXEvent>
+	
+	<SFXEvent Name="Space_Ion_Torpedo_XS_Damage_Detonation">
+			<Use_Preset>Preset_EXP</Use_Preset>
+			<Samples>EXP_Bombard_Ion_1.wav</Samples>  
+	</SFXEvent>
+
+	<!-- New Order END -->
 	<SFXEvent Name="SFX_Small_Damage_Detonation">
 		<Use_Preset>Preset_GUN</Use_Preset>
 		<Samples>
@@ -41,30 +120,10 @@
 			EXP_Small_Damage_3.wav
 		</Samples>
 	</SFXEvent>
-	<SFXEvent Name="SFX_Normal_Damage_Detonation">
-		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>Force_Damage.wav</Samples>
-	</SFXEvent>
-	<SFXEvent Name="SFX_Medium_Damage_Detonation">
-		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>Force_Damage.wav</Samples>
-	</SFXEvent>
-	<SFXEvent Name="SFX_Large_Damage_Detonation">
-		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>Force_Damage.wav</Samples>
-	</SFXEvent>
-	<SFXEvent Name="SFX_Huge_Damage_Detonation">
-		<Use_Preset>Preset_GUN</Use_Preset>
-		<Samples>Force_Damage.wav</Samples>
-	</SFXEvent>
-	
-	<!-- Ion cannons -->
 	<SFXEvent Name="SFX_Ion_Detonation">
 		<Use_Preset>Preset_EXP</Use_Preset>
 		<Samples>Force_Damage.wav</Samples>  
 	</SFXEvent>
-
-	<!-- New Order END -->
 	
 
 	<SFXEvent Name="Unit_Star_Destroyer_Death_SFX">

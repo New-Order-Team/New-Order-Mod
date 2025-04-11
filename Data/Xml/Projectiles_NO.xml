@@ -58,7 +58,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_Torpedo_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_Torpedo_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_Torpedo_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_Torpedo_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_Torpedo_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>40.0</AI_Combat_Power>
@@ -83,7 +83,7 @@
 		<Projectile_Energy_Per_Shot>150.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>150.0</AI_Combat_Power>
@@ -108,7 +108,7 @@
 		<Projectile_Energy_Per_Shot>175.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>175.0</AI_Combat_Power>
@@ -133,7 +133,7 @@
 		<Projectile_Energy_Per_Shot>225.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>225.0</AI_Combat_Power>
@@ -158,7 +158,7 @@
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>2.0</AI_Combat_Power>
@@ -183,7 +183,7 @@
 		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>3.0</AI_Combat_Power>
@@ -208,7 +208,7 @@
 		<Projectile_Energy_Per_Shot>5.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>5.0</AI_Combat_Power>
@@ -233,7 +233,7 @@
 		<Projectile_Energy_Per_Shot>10.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>10.0</AI_Combat_Power>
@@ -258,7 +258,7 @@
 		<Projectile_Energy_Per_Shot>700.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>700.0</AI_Combat_Power>
@@ -283,7 +283,7 @@
 		<Projectile_Energy_Per_Shot>450.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>450.0</AI_Combat_Power>
@@ -308,7 +308,7 @@
 		<Projectile_Energy_Per_Shot>50.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>50.0</AI_Combat_Power>
@@ -333,7 +333,7 @@
 		<Projectile_Energy_Per_Shot>450.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>450.0</AI_Combat_Power>
@@ -358,7 +358,7 @@
 		<Projectile_Energy_Per_Shot>450.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>450.0</AI_Combat_Power>
@@ -383,7 +383,7 @@
 		<Projectile_Energy_Per_Shot>13.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>13.0</AI_Combat_Power>
@@ -408,7 +408,7 @@
 		<Projectile_Energy_Per_Shot>25.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>25.0</AI_Combat_Power>
@@ -433,7 +433,7 @@
 		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>38.0</AI_Combat_Power>
@@ -458,7 +458,7 @@
 		<Projectile_Energy_Per_Shot>50.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>50.0</AI_Combat_Power>
@@ -483,7 +483,7 @@
 		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_G_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>63.0</AI_Combat_Power>
@@ -508,7 +508,7 @@
 		<Projectile_Energy_Per_Shot>225.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>225.0</AI_Combat_Power>
@@ -533,7 +533,7 @@
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>2.0</AI_Combat_Power>
@@ -558,7 +558,7 @@
 		<Projectile_Energy_Per_Shot>10.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>10.0</AI_Combat_Power>
@@ -583,7 +583,7 @@
 		<Projectile_Energy_Per_Shot>13.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>13.0</AI_Combat_Power>
@@ -608,7 +608,7 @@
 		<Projectile_Energy_Per_Shot>25.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>25.0</AI_Combat_Power>
@@ -633,7 +633,7 @@
 		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>38.0</AI_Combat_Power>
@@ -658,7 +658,7 @@
 		<Projectile_Energy_Per_Shot>50.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>50.0</AI_Combat_Power>
@@ -683,7 +683,7 @@
 		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>63.0</AI_Combat_Power>
@@ -708,7 +708,7 @@
 		<Projectile_Energy_Per_Shot>338.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Ion_I_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Ion_I_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Ion_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Ion_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Ion_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>338.0</AI_Combat_Power>
@@ -733,7 +733,7 @@
 		<Projectile_Energy_Per_Shot>450.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>450.0</AI_Combat_Power>
@@ -758,7 +758,7 @@
 		<Projectile_Energy_Per_Shot>225.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>225.0</AI_Combat_Power>
@@ -783,7 +783,7 @@
 		<Projectile_Energy_Per_Shot>1.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>1.0</AI_Combat_Power>
@@ -808,7 +808,7 @@
 		<Projectile_Energy_Per_Shot>2.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>2.0</AI_Combat_Power>
@@ -833,7 +833,7 @@
 		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>3.0</AI_Combat_Power>
@@ -858,7 +858,7 @@
 		<Projectile_Energy_Per_Shot>3.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>3.0</AI_Combat_Power>
@@ -883,7 +883,7 @@
 		<Projectile_Energy_Per_Shot>5.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>5.0</AI_Combat_Power>
@@ -908,7 +908,7 @@
 		<Projectile_Energy_Per_Shot>10.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>10.0</AI_Combat_Power>
@@ -933,7 +933,7 @@
 		<Projectile_Energy_Per_Shot>50.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>50.0</AI_Combat_Power>
@@ -958,7 +958,7 @@
 		<Projectile_Energy_Per_Shot>338.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>338.0</AI_Combat_Power>
@@ -983,7 +983,7 @@
 		<Projectile_Energy_Per_Shot>450.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>450.0</AI_Combat_Power>
@@ -1008,7 +1008,7 @@
 		<Projectile_Energy_Per_Shot>2520.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>2520.0</AI_Combat_Power>
@@ -1033,7 +1033,7 @@
 		<Projectile_Energy_Per_Shot>13.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>13.0</AI_Combat_Power>
@@ -1058,7 +1058,7 @@
 		<Projectile_Energy_Per_Shot>25.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>25.0</AI_Combat_Power>
@@ -1083,7 +1083,7 @@
 		<Projectile_Energy_Per_Shot>38.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>38.0</AI_Combat_Power>
@@ -1108,7 +1108,7 @@
 		<Projectile_Energy_Per_Shot>50.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>50.0</AI_Combat_Power>
@@ -1133,7 +1133,7 @@
 		<Projectile_Energy_Per_Shot>63.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>63.0</AI_Combat_Power>
@@ -1158,7 +1158,7 @@
 		<Projectile_Energy_Per_Shot>75.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>75.0</AI_Combat_Power>
@@ -1183,7 +1183,7 @@
 		<Projectile_Energy_Per_Shot>100.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>100.0</AI_Combat_Power>
@@ -1208,7 +1208,7 @@
 		<Projectile_Energy_Per_Shot>113.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>113.0</AI_Combat_Power>
@@ -1233,7 +1233,7 @@
 		<Projectile_Energy_Per_Shot>338.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Laser_R_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Laser_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Laser_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>338.0</AI_Combat_Power>
@@ -1258,7 +1258,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Missile_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Missile_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Missile_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Missile_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>150.0</AI_Combat_Power>
@@ -1283,7 +1283,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Missile_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Missile_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Missile_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Missile_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>300.0</AI_Combat_Power>
@@ -1308,7 +1308,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Missile_M_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_M_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Missile_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_M_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Missile_M_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Missile_M_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>90.0</AI_Combat_Power>
@@ -1333,7 +1333,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Missile_XL_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_XL_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Missile_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XL_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Missile_XL_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Missile_XL_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>500.0</AI_Combat_Power>
@@ -1358,7 +1358,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Missile_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Missile_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Missile_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Missile_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Missile_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>20.0</AI_Combat_Power>
@@ -1390,7 +1390,7 @@
 		<Projectile_Energy_Per_Shot>5.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Rocket_S_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Rocket_S_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Rocket_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_S_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Rocket_S_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Rocket_S_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>5.0</AI_Combat_Power>
@@ -1422,7 +1422,7 @@
 		<Projectile_Energy_Per_Shot>5.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Rocket_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Rocket_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Rocket_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Rocket_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Rocket_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>5.0</AI_Combat_Power>
@@ -1447,7 +1447,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Torpedo_L_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_L_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Torpedo_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_L_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Torpedo_L_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Torpedo_L_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>1200.0</AI_Combat_Power>
@@ -1472,7 +1472,7 @@
 		<Projectile_Energy_Per_Shot>0.0</Projectile_Energy_Per_Shot>
 		<Projectile_Object_Detonation_Particle>Space_Torpedo_XS_Hit</Projectile_Object_Detonation_Particle>
 		<Projectile_Object_Armor_Reduced_Detonation_Particle>Space_Torpedo_XS_Hit</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Space_Torpedo_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Space_XS_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
 		<Projectile_SFXEvent_Detonate>Space_Torpedo_XS_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>Space_Torpedo_XS_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 		<AI_Combat_Power>40.0</AI_Combat_Power>
