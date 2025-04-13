@@ -90,7 +90,7 @@
 			SPAWN_SQUADRON,
 			ABILITY_COUNTDOWN
 		</SpaceBehavior>
-		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>2400.0</Targeting_Max_Attack_Distance>
 		<Guard_Chase_Range>0</Guard_Chase_Range>
 		<Idle_Chase_Range>0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>0</Attack_Move_Response_Range>
@@ -142,7 +142,7 @@
 		<Radar_Icon_Name>i_radar_mc80h.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1</Radar_Icon_Scale_Space>
-		<Space_FOW_Reveal_Range>2000</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>3000</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Layer_Z_Adjust>-300</Layer_Z_Adjust>
 		<Number_per_Squadron>1</Number_per_Squadron>

@@ -1323,7 +1323,7 @@
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Max_Speed>5.3</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
-		<Projectile_Max_Flight_Distance>4500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>3450.0</Projectile_Max_Flight_Distance>
 		<Projectile_Max_Scan_Range>250</Projectile_Max_Scan_Range>
 		<Damage_Type>Damage_AML_11</Damage_Type>
 		<Projectile_Damage>500.0</Projectile_Damage>

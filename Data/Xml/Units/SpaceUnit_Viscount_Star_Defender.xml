@@ -129,7 +129,7 @@
 		<Radar_Icon_Scale_Land>1</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1</Radar_Icon_Scale_Space>
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Space_FOW_Reveal_Range>2500</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>5200</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Layer_Z_Adjust>-300</Layer_Z_Adjust>
 		<Number_per_Squadron>1</Number_per_Squadron>

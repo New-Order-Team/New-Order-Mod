@@ -140,7 +140,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1</Radar_Icon_Scale_Space>
-		<Space_FOW_Reveal_Range>1000</Space_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1100</Space_FOW_Reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Layer_Z_Adjust>-90</Layer_Z_Adjust>
 		<Number_per_Squadron>1</Number_per_Squadron>

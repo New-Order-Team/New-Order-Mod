@@ -368,7 +368,7 @@
 		<Fire_Bone_B>FP01_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -679,7 +679,7 @@
 		<Fire_Bone_B>FP02_LC_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -897,7 +897,7 @@
 		<Fire_Bone_B>FP03_CM_00</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1125,7 +1125,7 @@
 		<Fire_Bone_B>FP04_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1261,7 +1261,7 @@
 		<Fire_Bone_B>FP03_IC_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1283,7 +1283,7 @@
 		<Fire_Bone_B>FP05_CM_01</Fire_Bone_B>
 		<Fire_Cone_Width>180.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1994,7 +1994,7 @@
 		<Fire_Bone_B>FP01_CCM_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2242,7 +2242,7 @@
 		<Fire_Bone_B>FP02_LC_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2924,7 +2924,7 @@
 		<Fire_Bone_B>FP02_TBL_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2947,7 +2947,7 @@
 		<Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -3034,7 +3034,7 @@
 		<Fire_Bone_B>FP05_TBL2_03</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height> 
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -3058,7 +3058,7 @@
 		<Fire_Bone_B>FP03_CCM_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -3080,7 +3080,7 @@
 		<Fire_Bone_B>FP05_TBL2_00</Fire_Bone_B>
 		<Fire_Cone_Width>210.0</Fire_Cone_Width>
 		<Fire_Cone_Height>180.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_900</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Space_Torpedo_L_PTL_8_1200</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>30</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>30</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>5</Fire_Pulse_Count>

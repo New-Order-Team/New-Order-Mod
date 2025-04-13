@@ -29,7 +29,6 @@
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>No</Is_Bomber>
-		<Create_Team>Yes</Create_Team>
 		<Population_Value>0.0</Population_Value>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<AI_Combat_Power>29.0</AI_Combat_Power>
@@ -177,7 +176,6 @@
 		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
 		<Max_Squad_Size>12</Max_Squad_Size>
 		<Squadron_Formation_Error_Tolerance>100</Squadron_Formation_Error_Tolerance>
-		<Create_Team_Type>R_22_Container</Create_Team_Type>
 		<Guard_Chase_Range>500</Guard_Chase_Range>
 		<Idle_Chase_Range>200</Idle_Chase_Range>
 		<Attack_Move_Response_Range>300</Attack_Move_Response_Range>
@@ -191,55 +189,4 @@
 		<Tactical_Build_Time_Seconds>6.0</Tactical_Build_Time_Seconds>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</Squadron>
-	<Container Name="R_22_Container">
-		<Text_ID>TEXT_UNIT_R_22_SQUADRON</Text_ID>
-		<Encyclopedia_Text>
-			TEXT_UNIT_R_22_DESC
-			TEXT_EMPTY
-			TEXT_UNIT_R_22_INFO_1
-			TEXT_UNIT_R_22_INFO_2
-			TEXT_UNIT_R_22_INFO_3
-			TEXT_UNIT_R_22_INFO_4
-			TEXT_WEAPONS
-			TEXT_UNIT_R_22_W_1
-		</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_r_22.tga</Icon_Name>
-		<Affiliation>Rebel</Affiliation>
-		<CategoryMask>
-			Fighter
-		</CategoryMask>
-		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>No</Is_Bomber>
-		<Tech_Level>2.0</Tech_Level>
-		<Hyperspace_Speed>1.0</Hyperspace_Speed>
-		<Hyperspace>Yes</Hyperspace>
-		<Min_Speed>1</Min_Speed>
-		<Max_Speed>3.0</Max_Speed>
-		<Behavior>
-			TEAM,
-			TEAM_LOCOMOTOR,
-			SELECTABLE,
-			TARGETING,
-			UNIT_AI
-		</Behavior>
-		<SpaceBehavior>
-			REVEAL,
-			ABILITY_COUNTDOWN
-		</SpaceBehavior>
-		<Squadron_Offsets>75.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>25.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,-25.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>50.0,25.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,75.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>25.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> -25.0,50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,25.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-75.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-25.0,-50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets> 25.0,-50.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
-		<Max_Squad_Size>12</Max_Squad_Size>
-		<Space_FOW_Reveal_Range>500</Space_FOW_Reveal_Range>
-	</Container>
 </SpaceUnits>
